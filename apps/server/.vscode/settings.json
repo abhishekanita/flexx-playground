@@ -1,0 +1,33 @@
+{
+    "prettier.configPath": ".prettierrc",
+    "cSpell.words": [
+        "Ashutosh",
+        "bullmq",
+        "composio",
+        "Composio",
+        "DEEPSEEK",
+        "dont",
+        "hocuspocus",
+        "IMCP",
+        "Liveblock",
+        "liveblocks",
+        "mcps",
+        "otps",
+        "presigner",
+        "sama",
+        "subdocs",
+        "sutskever",
+        "tavily",
+        "toolkits",
+        "uuidv",
+        "Vapi",
+        "virtuals",
+        "webpush"
+    ],
+    "typescript.tsdk": "../../node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

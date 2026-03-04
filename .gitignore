@@ -1,0 +1,54 @@
+node_modules
+package-lock.json
+.env.*
+.env.development
+dist/
+.DS_Store
+.env.development
+test.js
+local_ssh_script-before.sh
+LATEST_GITHUB_SHA.txt
+.sandbox
+
+# Added by Claude Task Master
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea
+*.suo
+*.sln
+*.sw?
+
+# OS specific
+
+
+.tsbuildinfo
+
+
+node_modules
+package-lock.json
+dist/
+.DS_Store
+.env.development
+test.js
+local_ssh_script-before.sh
+LATEST_GITHUB_SHA.txt
+logs/*
+gcp-creds.json
+
+pnpm-lock.yaml
+
+
+/services/companions/data/*

@@ -1,0 +1,55 @@
+configId: uber/trip-receipt
+version: 1
+
+match:
+  senderDomains: [uber.com]
+  subjectPattern: "trip|ride|receipt"
+  contentType: html
+
+classification:
+  category: consumer_invoice
+  subcategory: transport
+  senderKey: uber
+  senderDisplayName: Uber
+
+extraction:
+  method: template
+  template:
+    rules:
+      totalAmount:
+        selector: "[data-testid='total_fare_amount'], td.total-fare-amount"
+        regex: "₹\\s?([\\d,]+\\.?\\d*)"
+        transform: currency
+        required: true
+      date:
+        selector: "div.date"
+        regex: "(\\w+\\s+\\d{1,2},?\\s+\\d{4})"
+        transform: date
+        required: false
+      paymentMethod:
+        selector: "[data-testid='payments_0_Card.String']"
+        transform: string
+        required: false
+    lineItems:
+      containerSelector: "table.fare-breakdown-item"
+      itemSelector: "tr"
+      fields:
+        name:
+          selector: "td.fare-breakdown-name"
+        price:
+          selector: "td.fare-breakdown-amount"
+          regex: "-?₹\\s?([\\d,]+\\.?\\d*)"
+          transform: currency
+
+output:
+  targetCollection: invoices
+  mapping:
+    totalAmount: totalAmount
+    date: orderDate
+    paymentMethod: paymentMethod
+  deduplication:
+    strategy: amount_date_merchant
+    matchFields: [totalAmount, date, merchantName]
+    tolerances:
+      amountPercent: 0.05
+      dateDays: 1

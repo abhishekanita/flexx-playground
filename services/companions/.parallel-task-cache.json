@@ -1,0 +1,16 @@
+{
+  "714a189d30f816a6": {
+    "runId": "trun_7721238991454cb0bba4b31ec703a556",
+    "status": "completed",
+    "promptHash": "714a189d30f816a6",
+    "createdAt": "2026-03-01T19:36:16.370Z",
+    "skillName": "gold-investing"
+  },
+  "fb6845d7c0b5a45c": {
+    "runId": "trun_7721238991454cb0998e36f17c2d3bc5",
+    "status": "completed",
+    "promptHash": "fb6845d7c0b5a45c",
+    "createdAt": "2026-03-02T17:03:00.760Z",
+    "skillName": "credit-cards-india"
+  }
+}

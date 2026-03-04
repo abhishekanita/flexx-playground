@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technical Architecture — MF Advisory</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0e0e12;
+  --bg2: #14141a;
+  --bg3: #1a1a22;
+  --bg4: #202028;
+  --border: #2a2a36;
+  --border2: #363644;
+  --text: #e8e8f0;
+  --text2: #9090a8;
+  --text3: #5a5a70;
+  --green: #4af08a;
+  --green2: #1a3a28;
+  --green3: rgba(74,240,138,.08);
+  --blue: #4ab0f0;
+  --blue2: #1a2a3a;
+  --blue3: rgba(74,176,240,.08);
+  --purple: #a070f0;
+  --purple2: #28183a;
+  --purple3: rgba(160,112,240,.08);
+  --amber: #f0c040;
+  --amber2: #2a2010;
+  --amber3: rgba(240,192,64,.08);
+  --red: #f06060;
+  --red2: #2a1010;
+  --cyan: #40e0d0;
+  --cyan2: #10282a;
+  --pink: #f07090;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.65; }
+.page { max-width: 960px; margin: 0 auto; padding: 48px 28px 80px; }
+
+/* HEADER */
+.hdr { border-bottom: 1px solid var(--border); padding-bottom: 28px; margin-bottom: 48px; }
+.hdr-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text3); letter-spacing: .12em; margin-bottom: 10px; }
+.hdr h1 { font-family: 'Syne', sans-serif; font-size: 32px; font-weight: 800; line-height: 1.15; margin-bottom: 10px; }
+.hdr h1 span { color: var(--green); }
+.hdr-sub { color: var(--text2); font-size: 14.5px; font-weight: 300; max-width: 600px; margin-bottom: 18px; }
+.chips { display: flex; gap: 7px; flex-wrap: wrap; }
+.chip { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 3px 10px; border-radius: 4px; border: 1px solid; }
+.c-g { border-color: rgba(74,240,138,.3); color: var(--green); background: var(--green3); }
+.c-b { border-color: rgba(74,176,240,.3); color: var(--blue); background: var(--blue3); }
+.c-p { border-color: rgba(160,112,240,.3); color: var(--purple); background: var(--purple3); }
+.c-a { border-color: rgba(240,192,64,.3); color: var(--amber); background: var(--amber3); }
+
+/* SECTION */
+.section { margin-bottom: 56px; }
+.sh { display: flex; align-items: baseline; gap: 12px; margin-bottom: 22px; padding-bottom: 11px; border-bottom: 1px solid var(--border); }
+.sn { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--text3); min-width: 28px; }
+.st { font-family: 'Syne', sans-serif; font-size: 19px; font-weight: 700; }
+
+/* BOUNDARY BOX */
+.boundary { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 22px; }
+.b-box { border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+.b-box.built { border-color: var(--green2); background: var(--green3); }
+.b-box.new { border-color: rgba(160,112,240,.3); background: var(--purple3); }
+.b-box h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; margin-bottom: 10px; }
+.b-box h4.g { color: var(--green); } .b-box h4.p { color: var(--purple); }
+.b-item { font-size: 12.5px; color: var(--text2); padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,.04); display: flex; gap: 7px; align-items: flex-start; }
+.b-item:last-child { border-bottom: none; }
+.b-item::before { content: '→'; color: var(--text3); flex-shrink: 0; font-family: monospace; }
+
+/* PIPELINE DIAGRAM */
+.pipeline { display: flex; flex-direction: column; gap: 0; margin-bottom: 24px; }
+.pl-stage { display: flex; gap: 14px; align-items: stretch; }
+.pl-line { width: 2px; background: var(--border2); margin-left: 19px; flex-shrink: 0; min-height: 16px; }
+.pl-node {
+  width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; flex-shrink: 0;
+}
+.pl-node.g { background: var(--green2); color: var(--green); border: 1px solid rgba(74,240,138,.3); }
+.pl-node.b { background: var(--blue2); color: var(--blue); border: 1px solid rgba(74,176,240,.3); }
+.pl-node.p { background: var(--purple2); color: var(--purple); border: 1px solid rgba(160,112,240,.3); }
+.pl-node.a { background: var(--amber2); color: var(--amber); border: 1px solid rgba(240,192,64,.3); }
+.pl-node.r { background: var(--red2); color: var(--red); border: 1px solid rgba(240,96,96,.3); }
+.pl-body { padding: 8px 0 20px; flex: 1; }
+.pl-label { font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 3px; }
+.pl-desc { font-size: 12.5px; color: var(--text2); margin-bottom: 7px; }
+.pl-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; padding: 2px 8px; border-radius: 3px; }
+.tag-g { background: var(--green2); color: var(--green); } .tag-b { background: var(--blue2); color: var(--blue); }
+.tag-p { background: var(--purple2); color: var(--purple); } .tag-a { background: var(--amber2); color: var(--amber); }
+.tag-c { background: var(--cyan2); color: var(--cyan); } .tag-r { background: var(--red2); color: var(--red); }
+
+/* CODE BLOCK */
+.code { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 18px 20px; margin-bottom: 16px; font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.75; overflow-x: auto; }
+.code .cm { color: var(--text3); font-style: italic; }
+.code .kw { color: var(--purple); } .code .ty { color: var(--blue); } .code .st { color: var(--green); }
+.code .nu { color: var(--amber); } .code .fn { color: var(--cyan); } .code .pr { color: var(--pink); }
+.code .cn { color: var(--text2); }
+
+/* SCHEMA TABLE */
+.stbl { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+.stbl th { padding: 8px 13px; text-align: left; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700; color: var(--text3); background: var(--bg2); border-bottom: 1px solid var(--border); letter-spacing: .06em; text-transform: uppercase; }
+.stbl td { padding: 9px 13px; font-size: 12.5px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.stbl tr:last-child td { border-bottom: none; }
+.tf { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--blue); }
+.td2 { color: var(--text2); }
+.tn2 { color: var(--text3); font-size: 11.5px; }
+.stbl tr { background: var(--bg2); }
+.stbl tr:nth-child(even) { background: var(--bg3); }
+
+/* STATE MACHINE */
+.states { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+.state { padding: 6px 14px; border-radius: 20px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; border: 1px solid; }
+.state-arrow { color: var(--text3); font-size: 14px; }
+.s-pending { background: var(--amber3); color: var(--amber); border-color: rgba(240,192,64,.3); }
+.s-ready { background: var(--green3); color: var(--green); border-color: rgba(74,240,138,.3); }
+.s-shown { background: var(--blue3); color: var(--blue); border-color: rgba(74,176,240,.3); }
+.s-dismissed { background: var(--bg3); color: var(--text3); border-color: var(--border); }
+.s-retrig { background: var(--purple3); color: var(--purple); border-color: rgba(160,112,240,.3); }
+
+/* CALLOUT */
+.co { padding: 14px 18px; border-radius: 8px; margin-bottom: 16px; font-size: 13.5px; line-height: 1.65; }
+.co-g { background: var(--green3); border: 1px solid rgba(74,240,138,.2); color: #b0f0c8; }
+.co-g strong { color: var(--green); }
+.co-a { background: var(--amber3); border: 1px solid rgba(240,192,64,.2); color: #e0d0a0; }
+.co-a strong { color: var(--amber); }
+.co-b { background: var(--blue3); border: 1px solid rgba(74,176,240,.2); color: #a0c8e0; }
+.co-b strong { color: var(--blue); }
+.co-r { background: var(--red2); border: 1px solid rgba(240,96,96,.2); color: #e0a0a0; }
+.co-r strong { color: var(--red); }
+
+/* TWO COL */
+.tc { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+.box { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+.box h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; margin-bottom: 11px; padding-bottom: 9px; border-bottom: 1px solid var(--border); }
+.box h4.g { color: var(--green); } .box h4.b { color: var(--blue); } .box h4.p { color: var(--purple); } .box h4.a { color: var(--amber); }
+.bi { display: flex; gap: 8px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,.04); font-size: 12.5px; align-items: flex-start; }
+.bi:last-child { border-bottom: none; }
+.bip { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--text3); min-width: 60px; padding-top: 2px; flex-shrink: 0; }
+.bit { color: var(--text2); line-height: 1.4; }
+
+/* TRIGGER MATRIX */
+.tmat { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 18px; }
+.tmat-row { display: grid; grid-template-columns: 180px 1fr 140px 100px; gap: 0; border-bottom: 1px solid var(--border); }
+.tmat-row:last-child { border-bottom: none; }
+.tmat-row.hdr { background: var(--bg3); }
+.tmat-cell { padding: 9px 14px; font-size: 12.5px; }
+.tmat-cell.h { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--text3); text-transform: uppercase; letter-spacing: .07em; }
+.tmat-cell.event { color: var(--text); font-weight: 500; }
+.tmat-cell.check { color: var(--text2); font-size: 12px; }
+.tmat-cell.action { color: var(--text2); font-size: 12px; }
+.tmat-cell.freq-tag { display: flex; align-items: flex-start; padding-top: 11px; }
+
+/* INFRA GRID */
+.igrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 11px; margin-bottom: 20px; }
+.ibox { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+.ibox-icon { font-size: 20px; margin-bottom: 8px; }
+.ibox-name { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+.ibox-tech { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text3); margin-bottom: 8px; }
+.ibox-why { font-size: 12.5px; color: var(--text2); line-height: 1.45; }
+
+p { margin-bottom: 12px; color: var(--text2); font-size: 13.5px; }
+.mono { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: var(--cyan); background: var(--bg3); padding: 1px 7px; border-radius: 3px; }
+
+@media(max-width:720px){
+  .boundary,.tc{grid-template-columns:1fr;}
+  .igrid{grid-template-columns:repeat(2,1fr);}
+  .tmat-row{grid-template-columns:1fr 1fr;}
+  .page{padding:24px 14px 60px;}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="hdr">
+    <div class="hdr-label">// technical architecture · mf advisory · picking up from cams parsing</div>
+    <h1>Backend Architecture<br><span>from parsed data → product</span></h1>
+    <div class="hdr-sub">Full stack from analysis engine to delivery layer. Covers compute model, insight state machine, trigger system, LLM integration, API design, and infrastructure decisions.</div>
+    <div class="chips">
+      <span class="chip c-g">✓ CAMS Parser (built)</span>
+      <span class="chip c-g">✓ Public data fetchers (built)</span>
+      <span class="chip c-p">→ Analysis Engine</span>
+      <span class="chip c-p">→ Insight State Machine</span>
+      <span class="chip c-p">→ Trigger Scheduler</span>
+      <span class="chip c-p">→ LLM Layer</span>
+      <span class="chip c-p">→ API + Delivery</span>
+    </div>
+  </div>
+
+  <!-- 01 SYSTEM BOUNDARY -->
+  <div class="section">
+    <div class="sh"><span class="sn">//01</span><span class="st">System Boundary</span></div>
+    <div class="boundary">
+      <div class="b-box built">
+        <h4 class="g">ALREADY BUILT</h4>
+        <div class="b-item">CAMS PDF parser → <span class="mono">MFDetailedStatementData</span></div>
+        <div class="b-item">NAV historical fetcher (MFAPI.in)</div>
+        <div class="b-item">Fund metadata (Kuvera + AMFI)</div>
+        <div class="b-item">Holdings disclosure fetcher</div>
+        <div class="b-item">Benchmark data (Yahoo Finance)</div>
+        <div class="b-item">AMC/scheme master (AMFI)</div>
+        <div class="b-item">3-level enrichment cache (memory → MongoDB → API)</div>
+        <div class="b-item">Groww supplementary data fetcher</div>
+      </div>
+      <div class="b-box new">
+        <h4 class="p">TO BE DESIGNED HERE</h4>
+        <div class="b-item">Analysis compute graph (16 modules, dependency-aware)</div>
+        <div class="b-item">Insight state machine (condition tracking, frequency)</div>
+        <div class="b-item">Trigger + scheduler (event-driven + cron)</div>
+        <div class="b-item">LLM orchestration layer</div>
+        <div class="b-item">Card journey assembly</div>
+        <div class="b-item">REST API (mobile + WhatsApp)</div>
+        <div class="b-item">Push notification service</div>
+        <div class="b-item">WhatsApp delivery</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 02 COMPUTE MODEL -->
+  <div class="section">
+    <div class="sh"><span class="sn">//02</span><span class="st">Analysis Compute Model</span></div>
+
+    <p>The critical design decision is <strong style="color:var(--text);">when does what recompute</strong>. Not everything needs to rerun on every NAV refresh. Recomputing everything daily is expensive; recomputing nothing means stale data. The graph must be dependency-aware.</p>
+
+    <div class="co co-b">
+      <strong>Three compute triggers:</strong> (1) CAMS upload — new transaction data, runs full pipeline. (2) NAV daily refresh — re-runs only NAV-dependent modules. (3) Enrichment change — holdings quarterly, fund metadata on change. Each trigger propagates only through affected module subgraph.
+    </div>
+
+    <!-- DEPENDENCY GRAPH -->
+    <div class="code">
+<span class="cm">// Module dependency graph — arrows show what each module depends on</span>
+
+<span class="ty">PHASE_1</span> <span class="cm">// pure computation — only reruns on new CAMS data</span>
+  <span class="fn">portfolioSummary</span>     <span class="kw">←</span> transactions
+  <span class="fn">transactionTimeline</span>  <span class="kw">←</span> transactions
+  <span class="fn">cashflowAnalysis</span>     <span class="kw">←</span> transactions
+  <span class="fn">sipAnalysis</span>          <span class="kw">←</span> transactions
+  <span class="fn">taxHarvesting</span>        <span class="kw">←</span> transactions, currentNAV   <span class="cm">// currentNAV reruns daily</span>
+  <span class="fn">xirrCalculator</span>       <span class="kw">←</span> transactions, currentNAV   <span class="cm">// currentNAV reruns daily</span>
+
+<span class="ty">PHASE_2</span> <span class="cm">// enrichment-dependent — reruns when enrichment data changes</span>
+  <span class="fn">benchmarkComparison</span>  <span class="kw">←</span> xirrCalculator, benchmarkNAV      <span class="cm">// daily</span>
+  <span class="fn">terAnalysis</span>          <span class="kw">←</span> portfolioSummary, fundMetadata     <span class="cm">// on fund metadata change</span>
+  <span class="fn">sectorAnalysis</span>       <span class="kw">←</span> portfolioSummary, holdingsData     <span class="cm">// quarterly</span>
+  <span class="fn">companyExposure</span>      <span class="kw">←</span> portfolioSummary, holdingsData     <span class="cm">// quarterly</span>
+  <span class="fn">assetAllocation</span>      <span class="kw">←</span> portfolioSummary, fundMetadata     <span class="cm">// on fund metadata change</span>
+  <span class="fn">marketCapAllocation</span>  <span class="kw">←</span> portfolioSummary, holdingsData     <span class="cm">// quarterly</span>
+  <span class="fn">overlapAnalysis</span>      <span class="kw">←</span> portfolioSummary, holdingsData     <span class="cm">// quarterly</span>
+  <span class="fn">riskMetrics</span>          <span class="kw">←</span> xirrCalculator, benchmarkNAV      <span class="cm">// daily (rolling window)</span>
+  <span class="fn">coverageAnalysis</span>     <span class="kw">←</span> portfolioSummary, fundMetadata     <span class="cm">// on fund metadata change</span>
+
+<span class="ty">STANDALONE</span> <span class="cm">// derived from above — recompute when dependencies change</span>
+  <span class="fn">dashboardData</span>        <span class="kw">←</span> all Phase1, benchmarkComparison, riskMetrics
+  <span class="fn">whatIfScenarios</span>      <span class="kw">←</span> xirrCalculator, benchmarkComparison, terAnalysis
+    </div>
+
+    <div class="co co-a">
+      <strong>Key insight:</strong> taxHarvesting, xirrCalculator, benchmarkComparison, and riskMetrics rerun daily because they depend on current NAV. sectorAnalysis, overlapAnalysis, marketCapAllocation rerun quarterly (holdings disclosure cycle). terAnalysis reruns only when AMFI reports a TER change. This means most days, only 5–6 modules actually need to rerun.
+    </div>
+
+    <!-- COMPUTE JOB TYPES -->
+    <div class="tc">
+      <div class="box">
+        <h4 class="g">ON CAMS UPLOAD (Full Pipeline)</h4>
+        <div class="bi"><span class="bip">Step 1</span><span class="bit">Parse CAMS → validate, dedupe, merge with existing transactions</span></div>
+        <div class="bi"><span class="bip">Step 2</span><span class="bit">Run all Phase 1 modules synchronously (fast — pure math)</span></div>
+        <div class="bi"><span class="bip">Step 3</span><span class="bit">Kick off enrichment fetch if cache stale</span></div>
+        <div class="bi"><span class="bip">Step 4</span><span class="bit">Run Phase 2 modules async after enrichment resolves</span></div>
+        <div class="bi"><span class="bip">Step 5</span><span class="bit">Run insight evaluator → update insight state documents</span></div>
+        <div class="bi"><span class="bip">Step 6</span><span class="bit">Generate card journeys for newly READY insights</span></div>
+        <div class="bi"><span class="bip">Step 7</span><span class="bit">Run LLM layer (behavioral + narrative) async</span></div>
+        <div class="bi"><span class="bip">Target</span><span class="bit">Phase 1 done in &lt;2s (user sees loading screen). Full pipeline &lt;30s.</span></div>
+      </div>
+      <div class="box">
+        <h4 class="b">DAILY NAV REFRESH (Partial Recompute)</h4>
+        <div class="bi"><span class="bip">Step 1</span><span class="bit">Fetch new NAVs for all held schemes via MFAPI.in</span></div>
+        <div class="bi"><span class="bip">Step 2</span><span class="bit">Rerun: xirrCalculator, taxHarvesting (per-lot current value)</span></div>
+        <div class="bi"><span class="bip">Step 3</span><span class="bit">Rerun: benchmarkComparison, riskMetrics (rolling window)</span></div>
+        <div class="bi"><span class="bip">Step 4</span><span class="bit">Re-evaluate trigger conditions (LTCG boundary, NAV milestone)</span></div>
+        <div class="bi"><span class="bip">Step 5</span><span class="bit">Update dashboardData snapshot (hero stats only)</span></div>
+        <div class="bi"><span class="bip">Step 6</span><span class="bit">Rebuild weekly performance card if Monday</span></div>
+        <div class="bi"><span class="bip">Target</span><span class="bit">All users processed in background by 7AM IST</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03 DATA MODEL -->
+  <div class="section">
+    <div class="sh"><span class="sn">//03</span><span class="st">Core Data Model</span></div>
+
+    <div class="code">
+<span class="cm">// MongoDB collections — 4 existing + 4 new</span>
+
+<span class="cm">// ─── EXISTING ─────────────────────────────────────────</span>
+<span class="ty">folios</span>         <span class="cm">// parsed CAMS data — transactions per folio per scheme</span>
+<span class="ty">transactions</span>   <span class="cm">// normalised transaction log</span>
+<span class="ty">enriched_cache</span> <span class="cm">// fund metadata, holdings, NAV history — TTL indexed</span>
+<span class="ty">market_schemes</span> <span class="cm">// AMFI master scheme list</span>
+
+<span class="cm">// ─── NEW ──────────────────────────────────────────────</span>
+<span class="ty">portfolio_analysis</span>    <span class="cm">// computed output from all 16 modules per user</span>
+<span class="ty">insight_states</span>        <span class="cm">// per-user insight condition tracking (the state machine)</span>
+<span class="ty">card_journeys</span>         <span class="cm">// pre-assembled card content for each insight</span>
+<span class="ty">delivery_log</span>          <span class="cm">// push/WhatsApp send log for suppression enforcement</span>
+    </div>
+
+    <div class="code">
+<span class="cm">// portfolio_analysis document schema</span>
+{
+  <span class="pr">userId</span>:        <span class="ty">ObjectId</span>,
+  <span class="pr">computedAt</span>:   <span class="ty">Date</span>,
+  <span class="pr">navDate</span>:      <span class="ty">Date</span>,          <span class="cm">// NAV date used — lets us detect staleness</span>
+  <span class="pr">version</span>:      <span class="ty">number</span>,        <span class="cm">// increment on full recompute (CAMS upload)</span>
+  <span class="pr">partial</span>:      <span class="ty">boolean</span>,       <span class="cm">// true if daily partial refresh</span>
+
+  <span class="pr">phase1</span>: {
+    <span class="fn">portfolioSummary</span>:    <span class="cn">{ totalInvested, currentValue, absoluteGain, fundCount, ... }</span>,
+    <span class="fn">xirrAnalysis</span>:        <span class="cn">{ aggregate: { xirr, reliability }, byFolio: [...] }</span>,
+    <span class="fn">taxHarvesting</span>:       <span class="cn">{ lots: [...], stcgTotal, ltcgTotal, exemptionUsed, ... }</span>,
+    <span class="fn">sipAnalysis</span>:         <span class="cn">{ byFolio: [...], overallRegularityScore }</span>,
+    <span class="fn">cashflowAnalysis</span>:    <span class="cn">{ monthly: [...], salaryDayPattern, ... }</span>,
+    <span class="fn">transactionTimeline</span>: <span class="cn">{ events: [...] }</span>,
+  },
+
+  <span class="pr">phase2</span>: {
+    <span class="fn">benchmarkComparison</span>: <span class="cn">{ weekly, monthly, allTime, vsNifty50, vsCategoryAvg }</span>,
+    <span class="fn">riskMetrics</span>:         <span class="cn">{ sharpe, sortino, stdDev, beta, maxDrawdown }</span>,
+    <span class="fn">terAnalysis</span>:         <span class="cn">{ totalDrag, byFolio, directVsRegularDelta }</span>,
+    <span class="fn">overlapAnalysis</span>:     <span class="cn">{ pairs: [{ fund1, fund2, overlapPct, commonHoldings }] }</span>,
+    <span class="fn">sectorAnalysis</span>:      <span class="cn">{ allocation: [...], topConcentration }</span>,
+    <span class="fn">marketCapAllocation</span>: <span class="cn">{ large, mid, small, drift }</span>,
+    <span class="fn">assetAllocation</span>:     <span class="cn">{ equity, debt, hybrid, drift }</span>,
+  },
+
+  <span class="pr">whatIf</span>: {                  <span class="cm">// all 8 scenarios with relevance scores</span>
+    <span class="fn">directVsRegular</span>:    <span class="cn">{ relevanceScore: 95, actual, hypothetical, diff, narrative }</span>,
+    <span class="fn">fdVsMf</span>:             <span class="cn">{ relevanceScore: 88, ... }</span>,
+    <span class="cm">// ... 6 more</span>
+  },
+
+  <span class="pr">behavioral</span>: {           <span class="cm">// LLM-derived, computed async</span>
+    <span class="fn">investorType</span>:  <span class="st">"STEADY_COMPOUNDER"</span>,
+    <span class="fn">panicSignals</span>:  <span class="cn">[...]</span>,
+    <span class="fn">fomoSignals</span>:   <span class="cn">[...]</span>,
+    <span class="fn">missedBuys</span>:   <span class="cn">[...]</span>,
+  },
+
+  <span class="pr">uniqueNumbers</span>: {        <span class="cm">// pre-computed for dashboard, updates on daily refresh</span>
+    <span class="fn">daysInvested</span>:    <span class="nu">1247</span>,
+    <span class="fn">dailyEarnings</span>:   <span class="nu">187</span>,
+    <span class="fn">bestDayGain</span>:     <span class="cn">{ amount: 4200, date: "2024-01-22" }</span>,
+    <span class="fn">longestHeld</span>:    <span class="cn">{ fundName, durationDays }</span>,
+    <span class="fn">costOfInaction</span>:  <span class="nu">42000</span>,
+  }
+}
+    </div>
+
+    <div class="code">
+<span class="cm">// insight_states document schema — one doc per user per insight type</span>
+{
+  <span class="pr">userId</span>:         <span class="ty">ObjectId</span>,
+  <span class="pr">insightKey</span>:     <span class="ty">string</span>,    <span class="cm">// e.g. "overlap_warning", "regular_plan_cost", "ltcg_boundary"</span>
+  <span class="pr">category</span>:       <span class="ty">string</span>,    <span class="cm">// health | tax | behavioral | whatif</span>
+  <span class="pr">frequencyType</span>:  <span class="ty">string</span>,    <span class="cm">// ONCE | TRIGGERED | WEEKLY | MONTHLY | ON_DEMAND</span>
+
+  <span class="pr">status</span>: <span class="ty">enum</span>(<span class="st">"PENDING"</span>, <span class="st">"READY"</span>, <span class="st">"SHOWN"</span>, <span class="st">"DISMISSED"</span>, <span class="st">"SNOOZED"</span>),
+
+  <span class="pr">conditionMet</span>:   <span class="ty">boolean</span>,
+  <span class="pr">conditionValue</span>: <span class="ty">any</span>,       <span class="cm">// the specific value that triggered (e.g. overlap % = 47)</span>
+
+  <span class="pr">firstTriggeredAt</span>: <span class="ty">Date</span>,
+  <span class="pr">lastEvaluatedAt</span>:  <span class="ty">Date</span>,
+  <span class="pr">shownAt</span>:          <span class="ty">Date</span>,    <span class="cm">// null until shown</span>
+  <span class="pr">dismissedAt</span>:      <span class="ty">Date</span>,    <span class="cm">// null until dismissed</span>
+  <span class="pr">snoozeUntil</span>:      <span class="ty">Date</span>,    <span class="cm">// for "remind me later"</span>
+
+  <span class="pr">retriggerCondition</span>: <span class="ty">object</span>,  <span class="cm">// for ONCE insights: when can it fire again?</span>
+  <span class="cm">// e.g. { type: "new_signal", field: "behavioral.panicSignals", sinceDate: shownAt }</span>
+  <span class="cm">// e.g. { type: "window", intervalDays: 180 }  ← for dormant holding alert</span>
+
+  <span class="pr">cardJourneyId</span>:  <span class="ty">ObjectId</span>,   <span class="cm">// ref to assembled card content</span>
+  <span class="pr">relevanceScore</span>: <span class="ty">number</span>,     <span class="cm">// 0–100, used for surface prioritization</span>
+}
+    </div>
+  </div>
+
+  <!-- 04 INSIGHT STATE MACHINE -->
+  <div class="section">
+    <div class="sh"><span class="sn">//04</span><span class="st">Insight State Machine</span></div>
+
+    <div class="states">
+      <span class="state s-pending">PENDING</span>
+      <span class="state-arrow">→</span>
+      <span class="state s-ready">READY</span>
+      <span class="state-arrow">→</span>
+      <span class="state s-shown">SHOWN</span>
+      <span class="state-arrow">→</span>
+      <span class="state s-dismissed">DISMISSED</span>
+      <span class="state-arrow" style="margin-left:12px">or</span>
+      <span class="state-arrow" style="margin-right:4px">→</span>
+      <span class="state s-retrig">RE_TRIGGERED</span>
+    </div>
+
+    <div class="code">
+<span class="cm">// State transitions</span>
+
+<span class="ty">PENDING</span>  <span class="kw">→</span>  <span class="ty">READY</span>
+  <span class="cm">// condition evaluator runs during daily refresh or CAMS upload</span>
+  <span class="cm">// checks conditionFn(portfolioAnalysis) → boolean</span>
+  <span class="cm">// if true AND (frequencyType=ONCE AND never been SHOWN): set READY</span>
+  <span class="cm">// if true AND (frequencyType=TRIGGERED): set READY regardless of history</span>
+  <span class="cm">// if true AND (frequencyType=WEEKLY/MONTHLY): set READY on schedule</span>
+
+<span class="ty">READY</span>  <span class="kw">→</span>  <span class="ty">SHOWN</span>
+  <span class="cm">// API call: GET /insights → returns all READY insights, ordered by relevanceScore</span>
+  <span class="cm">// client marks insight as seen → PATCH /insights/:id/seen → status = SHOWN</span>
+
+<span class="ty">SHOWN</span>  <span class="kw">→</span>  <span class="ty">DISMISSED</span>
+  <span class="cm">// user taps "dismiss" or "got it" on card journey Card 5</span>
+  <span class="cm">// for ONCE insights: stays DISMISSED unless retriggerCondition is met</span>
+
+<span class="ty">SHOWN</span>  <span class="kw">→</span>  <span class="ty">SNOOZED</span>
+  <span class="cm">// user taps "remind me later" → snoozeUntil = now + 7d (or user-chosen)</span>
+  <span class="cm">// condition evaluator skips SNOOZED until snoozeUntil passes</span>
+
+<span class="ty">DISMISSED</span>  <span class="kw">→</span>  <span class="ty">READY</span>  <span class="cm">// (re-trigger path)</span>
+  <span class="cm">// condition evaluator checks retriggerCondition on each run</span>
+  <span class="cm">// if met: reset to PENDING → READY on next evaluation</span>
+  <span class="cm">// example: behavioral.panicSignals has new entry since shownAt → re-trigger</span>
+  <span class="cm">// example: dormant alert — intervalDays=180 has passed → re-trigger</span>
+    </div>
+
+    <div class="code">
+<span class="cm">// Condition evaluators — one per insight key</span>
+<span class="cm">// Each is a pure function: (PortfolioAnalysis) → { met: boolean, value: any, score: number }</span>
+
+<span class="kw">const</span> <span class="fn">CONDITIONS</span>: <span class="ty">Record</span>&lt;<span class="ty">InsightKey</span>, <span class="ty">ConditionFn</span>&gt; = {
+
+  <span class="st">"regular_plan_cost"</span>: (pa) => ({
+    <span class="pr">met</span>:   pa.phase1.portfolioSummary.regularPlanCount > 0,
+    <span class="pr">value</span>: pa.phase2.terAnalysis.directVsRegularDelta,
+    <span class="pr">score</span>: Math.min(99, pa.phase2.terAnalysis.directVsRegularDelta / 500),
+  }),
+
+  <span class="st">"overlap_warning"</span>: (pa) => {
+    <span class="kw">const</span> worst = pa.phase2.overlapAnalysis.pairs.find(p => p.overlapPct > 40);
+    <span class="kw">return</span> { <span class="pr">met</span>: !!worst, <span class="pr">value</span>: worst?.overlapPct, <span class="pr">score</span>: worst ? 60 : 0 };
+  },
+
+  <span class="st">"ltcg_boundary_30d"</span>: (pa) => {
+    <span class="kw">const</span> upcoming = pa.phase1.taxHarvesting.lots.filter(l => l.daysToLTCG &lt;= 30 && l.daysToLTCG > 0);
+    <span class="kw">return</span> { <span class="pr">met</span>: upcoming.length > 0, <span class="pr">value</span>: upcoming, <span class="pr">score</span>: 95 };
+  },
+
+  <span class="st">"ltcg_exemption_80pct"</span>: (pa) => ({
+    <span class="pr">met</span>:   pa.phase1.taxHarvesting.exemptionUsed > 100000,  <span class="cm">// ₹1L of ₹1.25L</span>
+    <span class="pr">value</span>: pa.phase1.taxHarvesting.exemptionUsed,
+    <span class="pr">score</span>: 90,
+  }),
+
+  <span class="st">"sip_missed"</span>: (pa) => {
+    <span class="kw">const</span> missed = pa.phase1.sipAnalysis.byFolio.filter(f => f.missedThisMonth);
+    <span class="kw">return</span> { <span class="pr">met</span>: missed.length > 0, <span class="pr">value</span>: missed, <span class="pr">score</span>: 70 };
+  },
+
+  <span class="cm">// ... all conditions follow same pattern</span>
+}
+    </div>
+  </div>
+
+  <!-- 05 TRIGGER SCHEDULER -->
+  <div class="section">
+    <div class="sh"><span class="sn">//05</span><span class="st">Trigger Scheduler Architecture</span></div>
+
+    <p>Three job types: (1) cron-based scheduled jobs, (2) event-driven triggers from external data changes, (3) user-action triggers. All jobs write to the same insight_states collection — the API just reads from there.</p>
+
+    <div class="tmat">
+      <div class="tmat-row hdr">
+        <div class="tmat-cell h">Job</div>
+        <div class="tmat-cell h">Condition Checked</div>
+        <div class="tmat-cell h">Action If Met</div>
+        <div class="tmat-cell h">Schedule</div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">daily_nav_refresh</div>
+        <div class="tmat-cell check">NAV fetched → rerun xirr, tax, benchmark, riskMetrics. Re-evaluate LTCG boundary, NAV milestone conditions.</div>
+        <div class="tmat-cell action">Update portfolio_analysis partial. Set affected insight_states to READY if condition met.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-g">06:00 IST</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">weekly_performance</div>
+        <div class="tmat-cell check">Compute week-over-week benchmark gap, best/worst fund. Pull relevant market events from external feed (BSE/NSE news API).</div>
+        <div class="tmat-cell action">Assemble weekly_performance card journey. Set READY. Add to Home feed queue.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-b">Mon 07:00</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">monthly_full_refresh</div>
+        <div class="tmat-cell check">Re-evaluate all module outputs. Update risk metrics, behavioral re-analysis, portfolio fitness score, what-if scenarios.</div>
+        <div class="tmat-cell action">Full portfolio_analysis rewrite. Run LLM behavioral analysis. Update all relevant insight_states. Assemble monthly recap card.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-p">1st of month</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">market_event_monitor</div>
+        <div class="tmat-cell check">Poll Nifty/Sensex intraday. If 5-day rolling drop &gt;5%: identify users holding affected categories. Check behavioral history.</div>
+        <div class="tmat-cell action">Set market_crash_behavioral insight to READY for affected users. Queue push notification (suppression rules applied).</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-a">Every 4h</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">quarterly_holdings</div>
+        <div class="tmat-cell check">AMFI releases fund portfolio disclosures. Refresh holdingsData for all held schemes in enriched_cache.</div>
+        <div class="tmat-cell action">Rerun: overlapAnalysis, sectorAnalysis, marketCapAllocation, companyExposure. Re-evaluate overlap/concentration conditions.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-c">Jan/Apr/Jul/Oct</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">fund_metadata_watch</div>
+        <div class="tmat-cell check">Compare latest AMFI TER / fund manager data against cached version per held scheme.</div>
+        <div class="tmat-cell action">Update enriched_cache. If fund manager changed: set fund_manager_change insight to READY + push. If TER changed &gt;0.2%: rerun terAnalysis.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-g">Daily</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">what_if_rotator</div>
+        <div class="tmat-cell check">Select highest relevance what-if scenario not shown in past 4 weeks from portfolio_analysis.whatIf.</div>
+        <div class="tmat-cell action">Assemble card journey for that scenario. Set READY with WEEKLY frequency tag.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-b">Mon 07:00</span></div>
+      </div>
+      <div class="tmat-row">
+        <div class="tmat-cell event">whatsapp_weekly_digest</div>
+        <div class="tmat-cell check">Fetch top READY insight for user (highest relevance not yet WhatsApped). Compose 3-line digest.</div>
+        <div class="tmat-cell action">Send via WhatsApp API. Log to delivery_log. Apply suppression: skip if push sent in past 24h.</div>
+        <div class="tmat-cell freq-tag"><span class="tag tag-b">Mon 09:00</span></div>
+      </div>
+    </div>
+
+    <div class="code">
+<span class="cm">// Job runner — all jobs share this pattern</span>
+<span class="kw">async function</span> <span class="fn">runJob</span>(jobType: <span class="ty">JobType</span>, userId?: <span class="ty">string</span>) {
+  <span class="kw">const</span> users = userId ? [userId] : <span class="kw">await</span> <span class="fn">getAffectedUsers</span>(jobType);
+
+  <span class="kw">for const</span> user <span class="kw">of</span> users {
+    <span class="kw">const</span> pa = <span class="kw">await</span> <span class="fn">getOrRecomputeAnalysis</span>(user.id, jobType);
+    <span class="kw">const</span> stateUpdates = <span class="kw">await</span> <span class="fn">evaluateAllConditions</span>(pa, user.id);
+    <span class="kw">await</span> <span class="fn">bulkUpdateInsightStates</span>(user.id, stateUpdates);
+    <span class="kw">await</span> <span class="fn">assembleReadyCardJourneys</span>(user.id);  <span class="cm">// only for newly READY</span>
+    <span class="kw">await</span> <span class="fn">queueDelivery</span>(user.id, stateUpdates, jobType);
+  }
+}
+
+<span class="cm">// getAffectedUsers — smart fan-out, not all users for every job</span>
+<span class="cm">// market_event_monitor: only users holding affected fund categories</span>
+<span class="cm">// quarterly_holdings: only users holding schemes with new disclosures</span>
+<span class="cm">// ltcg_boundary: only users with STCG lots in the 30-day window</span>
+    </div>
+  </div>
+
+  <!-- 06 CARD JOURNEY ASSEMBLY -->
+  <div class="section">
+    <div class="sh"><span class="sn">//06</span><span class="st">Card Journey Assembly</span></div>
+
+    <p>Card journeys are pre-assembled into documents at insight READY time, not at read time. This means the API response is a fetch, not a computation. But card content includes "live bindings" — pointers to portfolio_analysis fields — so numbers stay current after a daily NAV refresh without needing full journey reassembly.</p>
+
+    <div class="code">
+<span class="cm">// card_journeys document</span>
+{
+  <span class="pr">insightStateId</span>:  <span class="ty">ObjectId</span>,
+  <span class="pr">userId</span>:          <span class="ty">ObjectId</span>,
+  <span class="pr">assembledAt</span>:     <span class="ty">Date</span>,
+
+  <span class="pr">cards</span>: [
+    {
+      <span class="pr">position</span>:    <span class="nu">1</span>,
+      <span class="pr">type</span>:        <span class="st">"ANSWER"</span>,
+      <span class="pr">template</span>:    <span class="st">"Your distributor earned {{value}} from your money."</span>,
+      <span class="pr">liveBindings</span>: {
+        <span class="st">"value"</span>: <span class="st">"phase2.terAnalysis.directVsRegularDelta.totalCommissionPaid"</span>
+        <span class="cm">// resolved from portfolio_analysis at read time — stays fresh on daily refresh</span>
+      },
+      <span class="pr">staticData</span>:  { fundCount: <span class="nu">6</span> },  <span class="cm">// doesn't change between CAMS uploads</span>
+      <span class="pr">verdict</span>:     <span class="st">"WARNING"</span>,
+    },
+    {
+      <span class="pr">position</span>:    <span class="nu">2</span>,
+      <span class="pr">type</span>:        <span class="st">"EDUCATION"</span>,
+      <span class="pr">template</span>:    <span class="st">"Regular plans have a commission built in..."</span>,
+      <span class="pr">liveBindings</span>: {},  <span class="cm">// education cards are fully static</span>
+      <span class="pr">staticData</span>:  { ... },
+    },
+    <span class="cm">// cards 3, 4, 5...</span>
+  ],
+
+  <span class="pr">actions</span>: [
+    { <span class="pr">label</span>: <span class="st">"See which to switch"</span>, <span class="pr">type</span>: <span class="st">"NAVIGATE"</span>, <span class="pr">target</span>: <span class="st">"actionable/switch_regular_direct"</span> },
+    { <span class="pr">label</span>: <span class="st">"Ask Artha about this"</span>, <span class="pr">type</span>: <span class="st">"OPEN_CHAT"</span>, <span class="pr">context</span>: <span class="st">"regular_plan_cost"</span> }
+  ]
+}
+    </div>
+
+    <div class="co co-b">
+      <strong>Live bindings pattern:</strong> The card template is static (computed once at READY time), but any number tied to current NAV (current value, current gains, XIRR today) is a binding pointer resolved at API read time from the latest portfolio_analysis. This means the "₹12,400" in card 1 stays accurate on the daily refresh without the whole journey being rebuilt.
+    </div>
+  </div>
+
+  <!-- 07 LLM LAYER -->
+  <div class="section">
+    <div class="sh"><span class="sn">//07</span><span class="st">LLM Integration Layer</span></div>
+
+    <p>Four distinct LLM calls. Each is isolated — they don't chain. They run async after Phase 2 completes. Failures are non-blocking: the product degrades gracefully if an LLM call fails (the rule-based card still shows, LLM narrative is missing).</p>
+
+    <div class="tc">
+      <div class="box">
+        <h4 class="p">CALL 1: Behavioral Analyser</h4>
+        <div class="bi"><span class="bip">Input</span><span class="bit">transactionTimeline enriched with market events (Nifty index on each transaction date)</span></div>
+        <div class="bi"><span class="bip">Output</span><span class="bit">investorType, panicSignals[], fomoSignals[], missedBuyOpportunities[], cadencePattern</span></div>
+        <div class="bi"><span class="bip">Model</span><span class="bit">gpt-4o-mini via Vercel AI SDK generateObject() with Zod schema</span></div>
+        <div class="bi"><span class="bip">When</span><span class="bit">After CAMS upload (Phase 2 complete) + monthly refresh. Never daily.</span></div>
+        <div class="bi"><span class="bip">Cache</span><span class="bit">Stored in portfolio_analysis.behavioral. Only rerun if new transactions since last run.</span></div>
+      </div>
+      <div class="box">
+        <h4 class="p">CALL 2: Dynamic Actionable</h4>
+        <div class="bi"><span class="bip">Input</span><span class="bit">Full portfolio_analysis JSON + list of fixed actionables with their relevance scores</span></div>
+        <div class="bi"><span class="bip">Output</span><span class="bit">Single actionable in schema: title, trigger, description, ctaPrimary, ctaSecondary[], dataPoints[]</span></div>
+        <div class="bi"><span class="bip">Model</span><span class="bit">gpt-4o-mini. Temperature 0.4 for consistency. Schema-validated before storing.</span></div>
+        <div class="bi"><span class="bip">When</span><span class="bit">Only when max fixed actionable relevance score &lt; 60. Never runs if fixed actionables are sufficient.</span></div>
+        <div class="bi"><span class="bip">Fallback</span><span class="bit">Schema validation failure → fall back to next highest fixed actionable. Never surface invalid output.</span></div>
+      </div>
+      <div class="box">
+        <h4 class="p">CALL 3: Weekly Event Explainer</h4>
+        <div class="bi"><span class="bip">Input</span><span class="bit">Fund performance this week + top 3 market events (from BSE/NSE/Ticker news API) + fund holdings</span></div>
+        <div class="bi"><span class="bip">Output</span><span class="bit">2-sentence explanation: why this fund moved this week, in plain Hindi-English</span></div>
+        <div class="bi"><span class="bip">Model</span><span class="bit">gpt-4o-mini. Simple prompt. Low token cost — runs per user per week.</span></div>
+        <div class="bi"><span class="bip">When</span><span class="bit">Monday refresh job, only if fund moved &gt;2% in a week.</span></div>
+        <div class="bi"><span class="bip">Fallback</span><span class="bit">If no relevant news found: card shows performance number only, no event explanation.</span></div>
+      </div>
+      <div class="box">
+        <h4 class="p">CALL 4: AI Chat (Ask Tab)</h4>
+        <div class="bi"><span class="bip">Input</span><span class="bit">System prompt with full portfolio_analysis JSON + user message + conversation history</span></div>
+        <div class="bi"><span class="bip">Output</span><span class="bit">Streamed response. May include inline widget triggers (structured tool calls).</span></div>
+        <div class="bi"><span class="bip">Model</span><span class="bit">gpt-4o or claude-sonnet. Streaming via SSE. Context window: portfolio JSON ~4K tokens.</span></div>
+        <div class="bi"><span class="bip">When</span><span class="bit">Real-time on user message. Per-conversation session with portfolio context pre-loaded.</span></div>
+        <div class="bi"><span class="bip">Context loading</span><span class="bit">If opened from insight journey: that insight's conditionValue + card content pre-injected as context.</span></div>
+      </div>
+    </div>
+
+    <div class="code">
+<span class="cm">// AI Chat — context pre-loading from insight journey</span>
+<span class="kw">const</span> <span class="fn">buildChatContext</span> = (userId, entryPoint: <span class="ty">ChatEntryPoint</span>) => {
+  <span class="kw">const</span> base = {
+    <span class="pr">portfolioSummary</span>:  pa.phase1.portfolioSummary,
+    <span class="pr">xirrAggregate</span>:    pa.phase1.xirrAnalysis.aggregate,
+    <span class="pr">taxSummary</span>:       pa.phase1.taxHarvesting,
+    <span class="pr">behavioralType</span>:   pa.behavioral.investorType,
+    <span class="pr">topAnomalies</span>:     topN(pa.anomalies, 3),
+  };
+
+  <span class="kw">if</span> (entryPoint.type === <span class="st">"FROM_INSIGHT"</span>) {
+    <span class="kw">return</span> {
+      ...base,
+      <span class="pr">insightContext</span>: {
+        <span class="pr">insightKey</span>:     entryPoint.insightKey,
+        <span class="pr">conditionValue</span>: entryPoint.conditionValue,
+        <span class="pr">cardContent</span>:   entryPoint.cardJourneyData,  <span class="cm">// what the user just saw</span>
+      }
+    };
+  }
+
+  <span class="kw">return</span> base;
+};
+
+<span class="cm">// System prompt injected at session start</span>
+<span class="cm">// "The user just viewed the insight about regular plan costs (6 funds, ₹12,400 in commissions).</span>
+<span class="cm">//  They are asking follow-up questions. Answer specifically about their situation."</span>
+    </div>
+  </div>
+
+  <!-- 08 API DESIGN -->
+  <div class="section">
+    <div class="sh"><span class="sn">//08</span><span class="st">API Design</span></div>
+
+    <div class="co co-g">
+      <strong>Principle:</strong> The API is thin. It reads from pre-computed state — it does not compute on request. The only exception is the AI chat endpoint, which runs inference in real-time. Every other endpoint is a MongoDB read + live binding resolution.
+    </div>
+
+    <div class="code">
+<span class="cm">// API routes (Next.js App Router or Express)</span>
+
+<span class="cm">// ─── UPLOAD ─────────────────────────────────────────────────</span>
+<span class="ty">POST</span>   /api/upload/cams
+  <span class="cm">// body: { file: base64 PDF }</span>
+  <span class="cm">// → parse → Phase 1 sync → Phase 2 async → return { jobId, phase1Summary }</span>
+  <span class="cm">// client polls GET /api/upload/:jobId/status until phase2 complete</span>
+
+<span class="ty">GET</span>    /api/upload/:jobId/status
+  <span class="cm">// → { status: "processing" | "complete", progressSteps: [...] }</span>
+
+<span class="cm">// ─── HOME FEED ───────────────────────────────────────────────</span>
+<span class="ty">GET</span>    /api/home
+  <span class="cm">// → { cards: InsightCard[], lastUpdated: Date }</span>
+  <span class="cm">// cards ordered by relevanceScore, filtered to READY status</span>
+  <span class="cm">// max 5 cards. Live bindings resolved server-side before response.</span>
+
+<span class="cm">// ─── INSIGHTS ────────────────────────────────────────────────</span>
+<span class="ty">GET</span>    /api/insights
+  <span class="cm">// → { categories: { health, tax, behavioral, whatif }, each with insights[] }</span>
+  <span class="cm">// includes ALL insights regardless of SHOWN/DISMISSED status</span>
+  <span class="cm">// client uses status field to render correctly</span>
+
+<span class="ty">GET</span>    /api/insights/:insightKey/journey
+  <span class="cm">// → { cards: CardJourney[], actions: Action[] }</span>
+  <span class="cm">// live bindings resolved. Called when user taps an insight.</span>
+
+<span class="ty">PATCH</span>  /api/insights/:insightKey/seen
+<span class="ty">PATCH</span>  /api/insights/:insightKey/dismiss
+<span class="ty">PATCH</span>  /api/insights/:insightKey/snooze  <span class="cm">// body: { days: 7 }</span>
+
+<span class="cm">// ─── PORTFOLIO (Dashboard) ────────────────────────────────────</span>
+<span class="ty">GET</span>    /api/portfolio
+  <span class="cm">// → { fitnessScore, uniqueNumbers, weeklySnapshot, folios[] }</span>
+  <span class="cm">// folios includes XIRR reliability tier, tax status per lot</span>
+
+<span class="ty">GET</span>    /api/portfolio/tax
+  <span class="cm">// → full tax simulation: all lots, STCG/LTCG split, ELSS calendar</span>
+
+<span class="ty">GET</span>    /api/portfolio/whatif/:scenario
+  <span class="cm">// → { actual, hypothetical, difference, narrative, dataPointsForNarrative }</span>
+
+<span class="cm">// ─── ACTIONABLES ─────────────────────────────────────────────</span>
+<span class="ty">GET</span>    /api/actionables
+  <span class="cm">// → fixed actionables with relevance &gt; threshold + dynamic actionable if needed</span>
+  <span class="cm">// ordered by relevanceScore desc</span>
+
+<span class="cm">// ─── AI CHAT ─────────────────────────────────────────────────</span>
+<span class="ty">POST</span>   /api/chat
+  <span class="cm">// body: { message, history, entryPoint? }</span>
+  <span class="cm">// → SSE stream of AI response</span>
+  <span class="cm">// server-side: builds context, calls LLM with streaming</span>
+
+<span class="cm">// ─── NOTIFICATIONS ───────────────────────────────────────────</span>
+<span class="ty">POST</span>   /api/notifications/register-device
+<span class="ty">POST</span>   /api/notifications/whatsapp-consent
+<span class="ty">PATCH</span>  /api/notifications/preferences
+    </div>
+  </div>
+
+  <!-- 09 DELIVERY LAYER -->
+  <div class="section">
+    <div class="sh"><span class="sn">//09</span><span class="st">Delivery Layer — Push + WhatsApp</span></div>
+
+    <div class="tc">
+      <div class="box">
+        <h4 class="a">PUSH NOTIFICATIONS</h4>
+        <div class="bi"><span class="bip">Provider</span><span class="bit">Expo Push (if React Native) or FCM/APNs direct</span></div>
+        <div class="bi"><span class="bip">Trigger</span><span class="bit">Job runner calls queueDelivery() → writes to a notifications queue (Redis or BullMQ)</span></div>
+        <div class="bi"><span class="bip">Worker</span><span class="bit">Separate notification worker processes queue, checks delivery_log for suppression, sends if clear</span></div>
+        <div class="bi"><span class="bip">Payload</span><span class="bit">{ title, body, data: { insightKey, deepLink } } — deep links into the specific card journey</span></div>
+        <div class="bi"><span class="bip">Suppression</span><span class="bit">Before sending: check delivery_log for pushSentAt in past 24h. P0 bypasses this check.</span></div>
+        <div class="bi"><span class="bip">Logging</span><span class="bit">Every send → delivery_log { userId, channel: "push", insightKey, sentAt, status }</span></div>
+      </div>
+      <div class="box">
+        <h4 class="g">WHATSAPP</h4>
+        <div class="bi"><span class="bip">Provider</span><span class="bit">Gupshup or Meta Cloud API. Use approved HSM templates for scheduled messages.</span></div>
+        <div class="bi"><span class="bip">Weekly digest</span><span class="bit">Composed by job: portfolio value + 1-line key insight. Plain text, no rich cards. Sent Monday 9AM.</span></div>
+        <div class="bi"><span class="bip">Monthly recap</span><span class="bit">Slightly longer: value, XIRR, fitness score delta, top actionable. Pre-approved template.</span></div>
+        <div class="bi"><span class="bip">Critical triggers</span><span class="bit">ELSS unlock in 7 days, LTCG boundary tomorrow — WhatsApp sent same day as push.</span></div>
+        <div class="bi"><span class="bip">Opt-in</span><span class="bit">WhatsApp is opt-in. Consent stored in user preferences. Not sent without explicit consent.</span></div>
+        <div class="bi"><span class="bip">Reply handling</span><span class="bit">Inbound "stop" or "more" handled. "More" → deep link to full insight in app.</span></div>
+      </div>
+    </div>
+
+    <div class="code">
+<span class="cm">// delivery_log — drives all suppression logic</span>
+{
+  <span class="pr">userId</span>:      <span class="ty">ObjectId</span>,
+  <span class="pr">channel</span>:     <span class="ty">enum</span>(<span class="st">"push"</span>, <span class="st">"whatsapp"</span>, <span class="st">"in_app"</span>),
+  <span class="pr">insightKey</span>:  <span class="ty">string</span>,
+  <span class="pr">priority</span>:    <span class="ty">enum</span>(<span class="st">"P0"</span>, <span class="st">"P1"</span>, <span class="st">"P2"</span>),
+  <span class="pr">sentAt</span>:      <span class="ty">Date</span>,
+  <span class="pr">status</span>:      <span class="ty">enum</span>(<span class="st">"sent"</span>, <span class="st">"delivered"</span>, <span class="st">"opened"</span>, <span class="st">"failed"</span>),
+  <span class="pr">jobType</span>:     <span class="ty">string</span>,   <span class="cm">// which scheduler job triggered this</span>
+}
+
+<span class="cm">// Suppression check before any send:</span>
+<span class="kw">async function</span> <span class="fn">canSend</span>(userId, channel, priority) {
+  <span class="kw">if</span> (priority === <span class="st">"P0"</span>) <span class="kw">return</span> <span class="nu">true</span>;  <span class="cm">// P0 always sends</span>
+
+  <span class="kw">const</span> recent = <span class="kw">await</span> delivery_log.findOne({
+    userId, channel,
+    sentAt: { <span class="kw">$gte</span>: <span class="fn">subHours</span>(now(), <span class="nu">24</span>) }
+  });
+
+  <span class="kw">return</span> !recent;
+}
+    </div>
+  </div>
+
+  <!-- 10 INFRASTRUCTURE -->
+  <div class="section">
+    <div class="sh"><span class="sn">//10</span><span class="st">Infrastructure Stack</span></div>
+
+    <div class="igrid">
+      <div class="ibox">
+        <div class="ibox-icon">🗄️</div>
+        <div class="ibox-name">Database</div>
+        <div class="ibox-tech">MongoDB Atlas</div>
+        <div class="ibox-why">Already using it for enriched_cache + folios. TTL indexes for cache expiry. Compound indexes on (userId, insightKey) for state machine. Atlas Search if full-text needed later.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">⚡</div>
+        <div class="ibox-name">Job Queue</div>
+        <div class="ibox-tech">BullMQ + Redis</div>
+        <div class="ibox-why">Scheduled cron jobs + event-driven trigger jobs in one system. Redis for job state, retry logic, and rate limiting LLM calls. Separate queues per job type for independent scaling.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">🚀</div>
+        <div class="ibox-name">API Server</div>
+        <div class="ibox-tech">Next.js App Router or Hono</div>
+        <div class="ibox-why">API routes thin — mostly MongoDB reads. Streaming SSE for AI chat. If already on Next.js, App Router handles SSE cleanly. If standalone backend: Hono on Node/Bun is faster.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">🤖</div>
+        <div class="ibox-name">LLM</div>
+        <div class="ibox-tech">Vercel AI SDK + gpt-4o-mini</div>
+        <div class="ibox-why">Already using generateObject() with Zod for structured output. gpt-4o-mini for behavioral analysis, dynamic actionables, event explainer (low cost, good enough). gpt-4o or claude-sonnet for chat.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">📲</div>
+        <div class="ibox-name">Push</div>
+        <div class="ibox-tech">Expo + FCM/APNs</div>
+        <div class="ibox-why">If React Native: Expo Push handles token management and platform routing cleanly. If web: FCM directly. Both route through the delivery_log suppression layer.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">💬</div>
+        <div class="ibox-name">WhatsApp</div>
+        <div class="ibox-tech">Gupshup or Meta Cloud API</div>
+        <div class="ibox-why">Gupshup has pre-approved Indian fintech templates and good reliability for IST-timed messages. Meta Cloud API is cheaper if volume is low (&lt;1000 users). Switch as you scale.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">📊</div>
+        <div class="ibox-name">Observability</div>
+        <div class="ibox-tech">Axiom or Datadog</div>
+        <div class="ibox-why">Log every job run, insight state transition, delivery event, LLM call (latency + cost). Critical for debugging: "why did user X not get the LTCG boundary alert?" needs full audit trail.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">🔐</div>
+        <div class="ibox-name">Auth</div>
+        <div class="ibox-tech">Clerk or custom JWT</div>
+        <div class="ibox-why">CAMS data is sensitive. All portfolio_analysis and insight_states are userId-scoped. Every API route validates userId from token before any MongoDB query. No cross-user data access possible.</div>
+      </div>
+      <div class="ibox">
+        <div class="ibox-icon">🌐</div>
+        <div class="ibox-name">Deployment</div>
+        <div class="ibox-tech">Railway or Fly.io</div>
+        <div class="ibox-why">BullMQ workers need persistent processes — not serverless. Railway or Fly handle long-running workers cleanly. API can be serverless (Vercel). Separate services for API, workers, and schedulers.</div>
+      </div>
+    </div>
+
+    <div class="co co-r">
+      <strong>Critical concern — CAMS data privacy:</strong> CAMS statement contains PAN, full name, account numbers, complete investment history. Never store raw PDF after parsing. Encrypt portfolio_analysis documents at rest. Restrict MongoDB Atlas network access to known IPs. Implement field-level encryption for PAN and folio numbers. This is non-negotiable before any beta launch.
+    </div>
+  </div>
+
+  <!-- 11 PHASED BUILD -->
+  <div class="section">
+    <div class="sh"><span class="sn">//11</span><span class="st">Phased Build Plan</span></div>
+
+    <div class="tc">
+      <div class="box" style="border-color: rgba(74,240,138,.3);">
+        <h4 class="g">PHASE 1 — MVP (3–4 weeks)</h4>
+        <div class="bi"><span class="bip">W1–2</span><span class="bit">Analysis compute graph with dependency tracking. portfolio_analysis collection. Phase 1 + Phase 2 modules running on CAMS upload.</span></div>
+        <div class="bi"><span class="bip">W2–3</span><span class="bit">Insight state machine. insight_states collection. Condition evaluators for 8 highest-impact insights. Simple GET /api/insights returning READY insights.</span></div>
+        <div class="bi"><span class="bip">W3–4</span><span class="bit">Card journey assembly for those 8 insights. GET /api/insights/:key/journey. Portfolio tab API (fitness score + folio table). Basic Home feed.</span></div>
+        <div class="bi"><span class="bip">Skip</span><span class="bit">Scheduler, push, WhatsApp, LLM behavioral, dynamic actionable, AI chat — all Phase 2.</span></div>
+        <div class="bi"><span class="bip">Validates</span><span class="bit">Is the analysis engine accurate? Do the card journeys resonate? Do users take actions from insights?</span></div>
+      </div>
+      <div class="box" style="border-color: rgba(160,112,240,.3);">
+        <h4 class="p">PHASE 2 — Scheduler + LLM (3 weeks)</h4>
+        <div class="bi"><span class="bip">W1</span><span class="bit">BullMQ + Redis setup. daily_nav_refresh job. weekly_performance job. Monthly refresh job.</span></div>
+        <div class="bi"><span class="bip">W2</span><span class="bit">Behavioral LLM call (gpt-4o-mini + Zod). Weekly event explainer. Dynamic actionable generator with guardrails.</span></div>
+        <div class="bi"><span class="bip">W3</span><span class="bit">AI chat endpoint with streaming SSE. Context pre-loading from insight journeys. Suggested prompts.</span></div>
+        <div class="bi"><span class="bip">Validates</span><span class="bit">Do users engage with the AI chat? Is behavioral analysis accurate enough to be useful?</span></div>
+      </div>
+      <div class="box" style="border-color: rgba(240,192,64,.3);">
+        <h4 class="a">PHASE 3 — Delivery + Scale (2 weeks)</h4>
+        <div class="bi"><span class="bip">W1</span><span class="bit">Push notification integration. delivery_log + suppression rules. P0 vs P1/P2 priority system.</span></div>
+        <div class="bi"><span class="bip">W2</span><span class="bit">WhatsApp opt-in + Gupshup integration. Weekly digest. Monthly report. Critical trigger alerts.</span></div>
+        <div class="bi"><span class="bip">After</span><span class="bit">Observability dashboard. Audit logging for CAMS data access. Security review before wider launch.</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

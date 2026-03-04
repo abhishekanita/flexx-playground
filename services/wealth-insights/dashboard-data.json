@@ -1,0 +1,2388 @@
+{
+  "generatedAt": "2026-03-03T05:59:16.409Z",
+  "investor": {
+    "name": "APURV KAUSHAL",
+    "pan": "DWA****7L"
+  },
+  "portfolioSummary": {
+    "totalInvested": 2999850,
+    "totalMarketValue": 3161425.14,
+    "totalUnrealisedGain": 161425.14000000013,
+    "totalUnrealisedGainPct": 5.380838000000004,
+    "activeFolioCount": 19,
+    "portfolioXIRR": 9.64
+  },
+  "dashboard": {
+    "heroStats": {
+      "currentValueRs": 3161425.14,
+      "unrealisedGainRs": 161425.14000000013,
+      "unrealisedGainPct": 5.380838000000004,
+      "xirr": 9.64,
+      "activeFunds": 19,
+      "lifetimePnLRs": 161575.14000000013,
+      "lifetimePnLPct": 5.386107305365273
+    },
+    "realWorldEquivalents": [
+      {
+        "emoji": "✈️",
+        "label": "Return flights Delhi→Bali",
+        "displayCount": "5×",
+        "subtext": "At ₹32K per trip"
+      },
+      {
+        "emoji": "🛒",
+        "label": "Months of groceries",
+        "displayCount": "8",
+        "subtext": "At ₹20K per month"
+      },
+      {
+        "emoji": "📱",
+        "label": "iPhone 16 Pro coverage",
+        "displayCount": "120%",
+        "subtext": "At ₹1.3L per phone"
+      },
+      {
+        "emoji": "🎓",
+        "label": "Months of school fees",
+        "displayCount": "10",
+        "subtext": "At ₹15K per month"
+      }
+    ],
+    "fundRace": [
+      {
+        "schemeName": "Aditya Birla Sun Life Gold Fund",
+        "shortName": "Aditya Birla Sun L",
+        "gainPct": 71.76,
+        "xirr": 88,
+        "marketValueRs": 85880.56,
+        "plan": "Direct",
+        "color": "#f59e0b",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "Bandhan ELSS Tax saver Fund",
+        "shortName": "Bandhan ELSS TS",
+        "gainPct": 60.42,
+        "xirr": 17.01,
+        "marketValueRs": 24062.38,
+        "plan": "Direct",
+        "color": "#f59e0b",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "SBI Gold Fund",
+        "shortName": "SBI Gold",
+        "gainPct": 38.57,
+        "xirr": 149.76,
+        "marketValueRs": 55428.35,
+        "plan": "Direct",
+        "color": "#10b981",
+        "xirrReliability": "Medium Sample"
+      },
+      {
+        "schemeName": "quant Small Cap Fund",
+        "shortName": "quant Small Cap",
+        "gainPct": 36.35,
+        "xirr": 13,
+        "marketValueRs": 20452.42,
+        "plan": "Direct",
+        "color": "#10b981",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "HDFC Gold ETF Fund of Fund",
+        "shortName": "HDFC Gold ETF of",
+        "gainPct": 35.66,
+        "xirr": 147.42,
+        "marketValueRs": 149225.76,
+        "plan": "Direct",
+        "color": "#10b981",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "SBI ELSS Tax Saver Fund",
+        "shortName": "SBI ELSS TS",
+        "gainPct": 22.05,
+        "xirr": 10.67,
+        "marketValueRs": 61027.04,
+        "plan": "Direct",
+        "color": "#3b82f6",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "ICICI Prudential Savings Fund",
+        "shortName": "ICICI Prudential S",
+        "gainPct": 9.52,
+        "xirr": 7.47,
+        "marketValueRs": 21903.28,
+        "plan": "Direct",
+        "color": "#8b5cf6",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "quant ELSS Tax Saver Fund",
+        "shortName": "quant ELSS TS",
+        "gainPct": 6.54,
+        "xirr": 5.54,
+        "marketValueRs": 484737.98,
+        "plan": "Direct",
+        "color": "#8b5cf6",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "gainPct": 2.49,
+        "xirr": 3.83,
+        "marketValueRs": 194728.23,
+        "plan": "Direct",
+        "color": "#8b5cf6",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "DSP Nifty Next 50 Index Fund - Dir",
+        "shortName": "DSP Nifty Next 50",
+        "gainPct": 2.37,
+        "xirr": 4.26,
+        "marketValueRs": 235457.87,
+        "plan": "Regular",
+        "color": "#8b5cf6",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "gainPct": 1.25,
+        "xirr": 1.78,
+        "marketValueRs": 318937.44,
+        "plan": "Regular",
+        "color": "#8b5cf6",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "HDFC Arbitrage Fund - Wholesale Plan",
+        "shortName": "HDFC Arbitrage - W",
+        "gainPct": 1.15,
+        "xirr": 7.11,
+        "marketValueRs": 505742.83,
+        "plan": "Direct",
+        "color": "#8b5cf6",
+        "xirrReliability": "Low Sample"
+      },
+      {
+        "schemeName": "ICICI Prudential Liquid Fund",
+        "shortName": "ICICI Prudential L",
+        "gainPct": 0.98,
+        "xirr": 6.06,
+        "marketValueRs": 403931.22,
+        "plan": "Direct",
+        "color": "#8b5cf6",
+        "xirrReliability": "Low Sample"
+      },
+      {
+        "schemeName": "Axis Ultra Short Duration Fund - Direct",
+        "shortName": "Axis Ultra Short D",
+        "gainPct": 0.93,
+        "xirr": 5.85,
+        "marketValueRs": 100932.52,
+        "plan": "Direct",
+        "color": "#8b5cf6",
+        "xirrReliability": "Low Sample"
+      },
+      {
+        "schemeName": "SBI MNC Fund",
+        "shortName": "SBI MNC",
+        "gainPct": -0.21,
+        "xirr": -0.25,
+        "marketValueRs": 64865.64,
+        "plan": "Direct",
+        "color": "#ef4444",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "gainPct": -1.02,
+        "xirr": 3.83,
+        "marketValueRs": 113825.42,
+        "plan": "Direct",
+        "color": "#ef4444",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "gainPct": -1.6,
+        "xirr": -4.75,
+        "marketValueRs": 34438.82,
+        "plan": "Direct",
+        "color": "#ef4444",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "gainPct": -3.05,
+        "xirr": -4.75,
+        "marketValueRs": 179357.39,
+        "plan": "Direct",
+        "color": "#ef4444",
+        "xirrReliability": "High"
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "gainPct": -3.19,
+        "xirr": 1.78,
+        "marketValueRs": 106489.99,
+        "plan": "Regular",
+        "color": "#ef4444",
+        "xirrReliability": "High"
+      }
+    ],
+    "portfolioMap": [
+      {
+        "schemeName": "HDFC Arbitrage Fund - Wholesale Plan",
+        "shortName": "HDFC Arbitrage - W",
+        "weightPct": 16,
+        "gainPct": 1.15,
+        "marketValueRs": 505742.83,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "quant ELSS Tax Saver Fund",
+        "shortName": "quant ELSS TS",
+        "weightPct": 15.33,
+        "gainPct": 6.54,
+        "marketValueRs": 484737.98,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "ICICI Prudential Liquid Fund",
+        "shortName": "ICICI Prudential L",
+        "weightPct": 12.78,
+        "gainPct": 0.98,
+        "marketValueRs": 403931.22,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "weightPct": 10.09,
+        "gainPct": 1.25,
+        "marketValueRs": 318937.44,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "DSP Nifty Next 50 Index Fund - Dir",
+        "shortName": "DSP Nifty Next 50",
+        "weightPct": 7.45,
+        "gainPct": 2.37,
+        "marketValueRs": 235457.87,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "weightPct": 6.16,
+        "gainPct": 2.49,
+        "marketValueRs": 194728.23,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "weightPct": 5.67,
+        "gainPct": -3.05,
+        "marketValueRs": 179357.39,
+        "color": "#ef4444"
+      },
+      {
+        "schemeName": "HDFC Gold ETF Fund of Fund",
+        "shortName": "HDFC Gold ETF of",
+        "weightPct": 4.72,
+        "gainPct": 35.66,
+        "marketValueRs": 149225.76,
+        "color": "#10b981"
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "weightPct": 3.6,
+        "gainPct": -1.02,
+        "marketValueRs": 113825.42,
+        "color": "#ef4444"
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "weightPct": 3.37,
+        "gainPct": -3.19,
+        "marketValueRs": 106489.99,
+        "color": "#ef4444"
+      },
+      {
+        "schemeName": "Axis Ultra Short Duration Fund - Direct",
+        "shortName": "Axis Ultra Short D",
+        "weightPct": 3.19,
+        "gainPct": 0.93,
+        "marketValueRs": 100932.52,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "Aditya Birla Sun Life Gold Fund",
+        "shortName": "Aditya Birla Sun L",
+        "weightPct": 2.72,
+        "gainPct": 71.76,
+        "marketValueRs": 85880.56,
+        "color": "#f59e0b"
+      },
+      {
+        "schemeName": "SBI MNC Fund",
+        "shortName": "SBI MNC",
+        "weightPct": 2.05,
+        "gainPct": -0.21,
+        "marketValueRs": 64865.64,
+        "color": "#ef4444"
+      },
+      {
+        "schemeName": "SBI ELSS Tax Saver Fund",
+        "shortName": "SBI ELSS TS",
+        "weightPct": 1.93,
+        "gainPct": 22.05,
+        "marketValueRs": 61027.04,
+        "color": "#3b82f6"
+      },
+      {
+        "schemeName": "SBI Gold Fund",
+        "shortName": "SBI Gold",
+        "weightPct": 1.75,
+        "gainPct": 38.57,
+        "marketValueRs": 55428.35,
+        "color": "#10b981"
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "weightPct": 1.09,
+        "gainPct": -1.6,
+        "marketValueRs": 34438.82,
+        "color": "#ef4444"
+      },
+      {
+        "schemeName": "Bandhan ELSS Tax saver Fund",
+        "shortName": "Bandhan ELSS TS",
+        "weightPct": 0.76,
+        "gainPct": 60.42,
+        "marketValueRs": 24062.38,
+        "color": "#f59e0b"
+      },
+      {
+        "schemeName": "ICICI Prudential Savings Fund",
+        "shortName": "ICICI Prudential S",
+        "weightPct": 0.69,
+        "gainPct": 9.52,
+        "marketValueRs": 21903.28,
+        "color": "#8b5cf6"
+      },
+      {
+        "schemeName": "quant Small Cap Fund",
+        "shortName": "quant Small Cap",
+        "weightPct": 0.65,
+        "gainPct": 36.35,
+        "marketValueRs": 20452.42,
+        "color": "#10b981"
+      }
+    ],
+    "heatmap": [
+      {
+        "year": "2023",
+        "totalInvestedRs": 79996,
+        "totalWithdrawnRs": 0,
+        "months": [
+          {
+            "month": 1,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 2,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 3,
+            "investedRs": 49997.5,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 4,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 5,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 6,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 7,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 8,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 9,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 10,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 11,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 12,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "totalInvestedRs": 279986,
+        "totalWithdrawnRs": 0,
+        "months": [
+          {
+            "month": 1,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 2,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 3,
+            "investedRs": 64996.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 4,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 5,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 6,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 7,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 8,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 9,
+            "investedRs": 14999.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 10,
+            "investedRs": 29998.5,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 11,
+            "investedRs": 79996,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 12,
+            "investedRs": 29998.5,
+            "withdrawnRs": 0
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "totalInvestedRs": 2199890,
+        "totalWithdrawnRs": 0,
+        "months": [
+          {
+            "month": 1,
+            "investedRs": 64996.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 2,
+            "investedRs": 64996.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 3,
+            "investedRs": 64996.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 4,
+            "investedRs": 114994.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 5,
+            "investedRs": 64996.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 6,
+            "investedRs": 74996.25,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 7,
+            "investedRs": 139993,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 8,
+            "investedRs": 139993,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 9,
+            "investedRs": 149992.5,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 10,
+            "investedRs": 139993,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 11,
+            "investedRs": 139993,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 12,
+            "investedRs": 1039948,
+            "withdrawnRs": 0
+          }
+        ]
+      },
+      {
+        "year": "2026",
+        "totalInvestedRs": 439978,
+        "totalWithdrawnRs": 0,
+        "months": [
+          {
+            "month": 1,
+            "investedRs": 244987.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 2,
+            "investedRs": 144992.75,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 3,
+            "investedRs": 49997.5,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 4,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 5,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 6,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 7,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 8,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 9,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 10,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 11,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          },
+          {
+            "month": 12,
+            "investedRs": 0,
+            "withdrawnRs": 0
+          }
+        ]
+      }
+    ],
+    "benchmarkBars": [
+      {
+        "name": "Nifty Smallcap 250",
+        "xirr": 3.080586601519908,
+        "isPortfolio": false,
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Bank FD",
+        "xirr": 7,
+        "isPortfolio": false,
+        "color": "#64748b"
+      },
+      {
+        "name": "Your Portfolio",
+        "xirr": 9.64,
+        "isPortfolio": true,
+        "color": "#f59e0b"
+      },
+      {
+        "name": "Nifty Midcap 150",
+        "xirr": 10.95619976120743,
+        "isPortfolio": false,
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Nifty 50",
+        "xirr": 13.120636001318076,
+        "isPortfolio": false,
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Nifty 500",
+        "xirr": 16.769884395417623,
+        "isPortfolio": false,
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Nifty Next 50",
+        "xirr": 23.33292600620378,
+        "isPortfolio": false,
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Gold Futures",
+        "xirr": 42.24096942085427,
+        "isPortfolio": false,
+        "color": "#3b82f6"
+      }
+    ],
+    "fundCards": [
+      {
+        "schemeName": "HDFC Arbitrage Fund - Wholesale Plan",
+        "shortName": "HDFC Arbitrage - W",
+        "gainPct": 1.15,
+        "xirr": 7.11,
+        "xirrReliability": "Low Sample",
+        "marketValueRs": 505742.83,
+        "weightPct": 16,
+        "plan": "Direct",
+        "holdingDays": 61,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": 24.31,
+        "benchmarkName": "Nifty 500",
+        "color": "#8b5cf6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "quant ELSS Tax Saver Fund",
+        "shortName": "quant ELSS TS",
+        "gainPct": 6.54,
+        "xirr": 5.54,
+        "xirrReliability": "High",
+        "marketValueRs": 484737.98,
+        "weightPct": 15.33,
+        "plan": "Direct",
+        "holdingDays": 1067,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": -8.07,
+        "benchmarkName": "Nifty 50",
+        "color": "#8b5cf6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "ICICI Prudential Liquid Fund",
+        "shortName": "ICICI Prudential L",
+        "gainPct": 0.98,
+        "xirr": 6.06,
+        "xirrReliability": "Low Sample",
+        "marketValueRs": 403931.22,
+        "weightPct": 12.78,
+        "plan": "Direct",
+        "holdingDays": 61,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": 23.26,
+        "benchmarkName": "Nifty 500",
+        "color": "#8b5cf6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "gainPct": 1.25,
+        "xirr": 1.78,
+        "xirrReliability": "High",
+        "marketValueRs": 318937.44,
+        "weightPct": 10.09,
+        "plan": "Regular",
+        "holdingDays": 515,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": -12.64,
+        "benchmarkName": "Nifty 500",
+        "color": "#8b5cf6",
+        "isRegular": true
+      },
+      {
+        "schemeName": "DSP Nifty Next 50 Index Fund - Dir",
+        "shortName": "DSP Nifty Next 50",
+        "gainPct": 2.37,
+        "xirr": 4.26,
+        "xirrReliability": "High",
+        "marketValueRs": 235457.87,
+        "weightPct": 7.45,
+        "plan": "Regular",
+        "holdingDays": 460,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": 4.8,
+        "benchmarkName": "Nifty Next 50",
+        "color": "#8b5cf6",
+        "isRegular": true
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "gainPct": 2.49,
+        "xirr": 3.83,
+        "xirrReliability": "High",
+        "marketValueRs": 194728.23,
+        "weightPct": 6.16,
+        "plan": "Direct",
+        "holdingDays": 460,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": 0.87,
+        "benchmarkName": "Nifty 50",
+        "color": "#8b5cf6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "gainPct": -3.05,
+        "xirr": -4.75,
+        "xirrReliability": "High",
+        "marketValueRs": 179357.39,
+        "weightPct": 5.67,
+        "plan": "Direct",
+        "holdingDays": 460,
+        "personality": "Needs review 🔍",
+        "personalityDescription": "Underperforming",
+        "benchmarkGapPp": 8.06,
+        "benchmarkName": "Nifty Smallcap 250",
+        "color": "#ef4444",
+        "isRegular": false
+      },
+      {
+        "schemeName": "HDFC Gold ETF Fund of Fund",
+        "shortName": "HDFC Gold ETF of",
+        "gainPct": 35.66,
+        "xirr": 147.42,
+        "xirrReliability": "High",
+        "marketValueRs": 149225.76,
+        "weightPct": 4.72,
+        "plan": "Direct",
+        "holdingDays": 259,
+        "personality": "Strong performer 💪",
+        "personalityDescription": "Beating most peers",
+        "benchmarkGapPp": 62.26,
+        "benchmarkName": "Gold Futures",
+        "color": "#10b981",
+        "isRegular": false
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "gainPct": -1.02,
+        "xirr": 3.83,
+        "xirrReliability": "High",
+        "marketValueRs": 113825.42,
+        "weightPct": 3.6,
+        "plan": "Direct",
+        "holdingDays": 59,
+        "personality": "Needs review 🔍",
+        "personalityDescription": "Underperforming",
+        "benchmarkGapPp": 0.87,
+        "benchmarkName": "Nifty 50",
+        "color": "#ef4444",
+        "isRegular": false
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "gainPct": -3.19,
+        "xirr": 1.78,
+        "xirrReliability": "High",
+        "marketValueRs": 106489.99,
+        "weightPct": 3.37,
+        "plan": "Regular",
+        "holdingDays": 53,
+        "personality": "Needs review 🔍",
+        "personalityDescription": "Underperforming",
+        "benchmarkGapPp": -12.64,
+        "benchmarkName": "Nifty 500",
+        "color": "#ef4444",
+        "isRegular": true
+      },
+      {
+        "schemeName": "Axis Ultra Short Duration Fund - Direct",
+        "shortName": "Axis Ultra Short D",
+        "gainPct": 0.93,
+        "xirr": 5.85,
+        "xirrReliability": "Low Sample",
+        "marketValueRs": 100932.52,
+        "weightPct": 3.19,
+        "plan": "Direct",
+        "holdingDays": 60,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": 28.54,
+        "benchmarkName": "Nifty 500",
+        "color": "#8b5cf6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "Aditya Birla Sun Life Gold Fund",
+        "shortName": "Aditya Birla Sun L",
+        "gainPct": 71.76,
+        "xirr": 88,
+        "xirrReliability": "High",
+        "marketValueRs": 85880.56,
+        "weightPct": 2.72,
+        "plan": "Direct",
+        "holdingDays": 313,
+        "personality": "Superstar ⭐",
+        "personalityDescription": "Exceptional gains",
+        "benchmarkGapPp": 14.47,
+        "benchmarkName": "Gold Futures",
+        "color": "#f59e0b",
+        "isRegular": false
+      },
+      {
+        "schemeName": "SBI MNC Fund",
+        "shortName": "SBI MNC",
+        "gainPct": -0.21,
+        "xirr": -0.25,
+        "xirrReliability": "High",
+        "marketValueRs": 64865.64,
+        "weightPct": 2.05,
+        "plan": "Direct",
+        "holdingDays": 460,
+        "personality": "Needs review 🔍",
+        "personalityDescription": "Underperforming",
+        "benchmarkGapPp": -3.21,
+        "benchmarkName": "Nifty 50",
+        "color": "#ef4444",
+        "isRegular": false
+      },
+      {
+        "schemeName": "SBI ELSS Tax Saver Fund",
+        "shortName": "SBI ELSS TS",
+        "gainPct": 22.05,
+        "xirr": 10.67,
+        "xirrReliability": "High",
+        "marketValueRs": 61027.04,
+        "weightPct": 1.93,
+        "plan": "Direct",
+        "holdingDays": 718,
+        "personality": "Steady Eddie 🔄",
+        "personalityDescription": "Consistent, reliable",
+        "benchmarkGapPp": 3.9,
+        "benchmarkName": "Nifty 50",
+        "color": "#3b82f6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "SBI Gold Fund",
+        "shortName": "SBI Gold",
+        "gainPct": 38.57,
+        "xirr": 149.76,
+        "xirrReliability": "Medium Sample",
+        "marketValueRs": 55428.35,
+        "weightPct": 1.75,
+        "plan": "Direct",
+        "holdingDays": 174,
+        "personality": "Strong performer 💪",
+        "personalityDescription": "Beating most peers",
+        "benchmarkGapPp": 33.27,
+        "benchmarkName": "Gold Futures",
+        "color": "#10b981",
+        "isRegular": false
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "gainPct": -1.6,
+        "xirr": -4.75,
+        "xirrReliability": "High",
+        "marketValueRs": 34438.82,
+        "weightPct": 1.09,
+        "plan": "Direct",
+        "holdingDays": 59,
+        "personality": "Needs review 🔍",
+        "personalityDescription": "Underperforming",
+        "benchmarkGapPp": 8.06,
+        "benchmarkName": "Nifty Smallcap 250",
+        "color": "#ef4444",
+        "isRegular": false
+      },
+      {
+        "schemeName": "Bandhan ELSS Tax saver Fund",
+        "shortName": "Bandhan ELSS TS",
+        "gainPct": 60.42,
+        "xirr": 17.01,
+        "xirrReliability": "High",
+        "marketValueRs": 24062.38,
+        "weightPct": 0.76,
+        "plan": "Direct",
+        "holdingDays": 1099,
+        "personality": "Superstar ⭐",
+        "personalityDescription": "Exceptional gains",
+        "benchmarkGapPp": 3.89,
+        "benchmarkName": "Nifty 50",
+        "color": "#f59e0b",
+        "isRegular": false
+      },
+      {
+        "schemeName": "ICICI Prudential Savings Fund",
+        "shortName": "ICICI Prudential S",
+        "gainPct": 9.52,
+        "xirr": 7.47,
+        "xirrReliability": "High",
+        "marketValueRs": 21903.28,
+        "weightPct": 0.69,
+        "plan": "Direct",
+        "holdingDays": 461,
+        "personality": "Slowly cooking 🍳",
+        "personalityDescription": "Positive but slow",
+        "benchmarkGapPp": 5.34,
+        "benchmarkName": "Nifty 500",
+        "color": "#8b5cf6",
+        "isRegular": false
+      },
+      {
+        "schemeName": "quant Small Cap Fund",
+        "shortName": "quant Small Cap",
+        "gainPct": 36.35,
+        "xirr": 13,
+        "xirrReliability": "High",
+        "marketValueRs": 20452.42,
+        "weightPct": 0.65,
+        "plan": "Direct",
+        "holdingDays": 927,
+        "personality": "Strong performer 💪",
+        "personalityDescription": "Beating most peers",
+        "benchmarkGapPp": 11.08,
+        "benchmarkName": "Nifty Smallcap 250",
+        "color": "#10b981",
+        "isRegular": false
+      }
+    ],
+    "closedFunds": [],
+    "sectorAllocation": {
+      "sectors": [
+        {
+          "sector": "Others",
+          "portfolioWeight": 54.65899698501035,
+          "equityWeight": 82.4157633821625,
+          "color": "#94a3b8"
+        }
+      ],
+      "othersWeight": 0,
+      "totalSectorsCount": 1
+    },
+    "topHoldings": {
+      "holdings": [
+        {
+          "companyName": "HDFC Gold ETF",
+          "portfolioWeight": 4.72,
+          "equityWeight": 7.12
+        },
+        {
+          "companyName": "Reliance Industries Ltd.",
+          "portfolioWeight": 2.87,
+          "equityWeight": 4.32
+        },
+        {
+          "companyName": "Aditya Birla Sun Life Gold ETF",
+          "portfolioWeight": 2.7,
+          "equityWeight": 4.07
+        },
+        {
+          "companyName": "Larsen & Toubro Ltd.",
+          "portfolioWeight": 2.2,
+          "equityWeight": 3.32
+        },
+        {
+          "companyName": "ICICI Bank Ltd.",
+          "portfolioWeight": 2.17,
+          "equityWeight": 3.28
+        },
+        {
+          "companyName": "HDFC Bank Ltd.",
+          "portfolioWeight": 2.14,
+          "equityWeight": 3.22
+        },
+        {
+          "companyName": "SBI Gold ETF",
+          "portfolioWeight": 1.75,
+          "equityWeight": 2.63
+        },
+        {
+          "companyName": "Samvardhana Motherson International Ltd.",
+          "portfolioWeight": 1.5,
+          "equityWeight": 2.26
+        },
+        {
+          "companyName": "HDFC Money Market Fund Direct-Growth",
+          "portfolioWeight": 1.34,
+          "equityWeight": 2.02
+        },
+        {
+          "companyName": "Adani Power Ltd.",
+          "portfolioWeight": 1.3,
+          "equityWeight": 1.96
+        }
+      ],
+      "concentrationRisk": {
+        "top5Weight": 14.66,
+        "top10Weight": 22.69,
+        "herfindahlIndex": 79.65
+      },
+      "totalCompaniesCount": 494
+    },
+    "assetAllocation": [
+      {
+        "assetClass": "Equity",
+        "marketValueRs": 2546180.06,
+        "weight": 80.54,
+        "color": "#3b82f6"
+      },
+      {
+        "assetClass": "Debt",
+        "marketValueRs": 525041.33,
+        "weight": 16.61,
+        "color": "#10b981"
+      },
+      {
+        "assetClass": "Others",
+        "marketValueRs": 31159.06,
+        "weight": 0.99,
+        "color": "#94a3b8"
+      }
+    ],
+    "marketCapDistribution": null,
+    "fitnessScore": {
+      "composite": 62,
+      "label": "Good",
+      "dimensions": {
+        "performance": 33,
+        "efficiency": 79,
+        "structure": 65,
+        "discipline": 95
+      }
+    },
+    "uniqueNumbers": {
+      "daysInvested": 1100,
+      "dailyEarnings": 147,
+      "bestDayGain": null,
+      "investorType": "Steady Compounder",
+      "costOfInaction": 3325500,
+      "loyaltyBadge": {
+        "schemeName": "Bandhan ELSS Tax saver Fund",
+        "holdingDays": 1099,
+        "firstTransactionDate": "2023-02-27"
+      }
+    }
+  },
+  "insightStates": {
+    "health": [
+      {
+        "insightKey": "regular_plan_cost",
+        "status": "READY",
+        "relevanceScore": 80
+      },
+      {
+        "insightKey": "no_nominees",
+        "status": "READY",
+        "relevanceScore": 70
+      },
+      {
+        "insightKey": "risk_reward_monthly",
+        "status": "READY",
+        "relevanceScore": 45
+      },
+      {
+        "insightKey": "benchmark_weekly",
+        "status": "READY",
+        "relevanceScore": 40
+      },
+      {
+        "insightKey": "best_worst_fund_weekly",
+        "status": "READY",
+        "relevanceScore": 35
+      },
+      {
+        "insightKey": "overlap_warning",
+        "status": "PENDING",
+        "relevanceScore": 0
+      },
+      {
+        "insightKey": "fund_manager_change",
+        "status": "PENDING",
+        "relevanceScore": 0
+      },
+      {
+        "insightKey": "fund_house_concentration",
+        "status": "PENDING",
+        "relevanceScore": 0
+      },
+      {
+        "insightKey": "asset_allocation_drift",
+        "status": "PENDING",
+        "relevanceScore": 0
+      }
+    ],
+    "tax": [
+      {
+        "insightKey": "ltcg_boundary_30d",
+        "status": "READY",
+        "relevanceScore": 85
+      },
+      {
+        "insightKey": "tax_harvest_seasonal",
+        "status": "READY",
+        "relevanceScore": 80
+      },
+      {
+        "insightKey": "elss_unlock_30d",
+        "status": "READY",
+        "relevanceScore": 70
+      },
+      {
+        "insightKey": "ltcg_exemption_80pct",
+        "status": "PENDING",
+        "relevanceScore": 0
+      }
+    ],
+    "behavioral": [
+      {
+        "insightKey": "sip_missed",
+        "status": "READY",
+        "relevanceScore": 70
+      },
+      {
+        "insightKey": "too_many_funds",
+        "status": "READY",
+        "relevanceScore": 65
+      },
+      {
+        "insightKey": "portfolio_neglect",
+        "status": "READY",
+        "relevanceScore": 55
+      },
+      {
+        "insightKey": "investor_profile",
+        "status": "READY",
+        "relevanceScore": 50
+      },
+      {
+        "insightKey": "market_crash_behavioral",
+        "status": "PENDING",
+        "relevanceScore": 0
+      }
+    ],
+    "whatif": []
+  },
+  "cardJourneys": {
+    "ltcg_boundary_30d": [
+      {
+        "slot": "answer",
+        "title": "STCG → LTCG conversion coming",
+        "body": "6 holdings will convert from STCG to LTCG within 30 days. This can significantly reduce your tax.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "STCG vs LTCG in mutual funds",
+        "body": "Equity funds held >12 months qualify for LTCG tax at 12.5% (above ₹1.25L exemption). STCG is taxed at 20%. Waiting a few weeks could save you meaningful tax.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Holdings approaching LTCG",
+        "body": "These holdings are days away from the LTCG threshold. Consider waiting before redeeming.",
+        "highlightValue": null
+      },
+      {
+        "slot": "impact",
+        "title": "Tax savings potential",
+        "body": "The difference between STCG (20%) and LTCG (12.5% with ₹1.25L exemption) can save you thousands — or lakhs on larger holdings.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Wait before redeeming",
+        "body": "If you were planning to redeem these funds, waiting a few more days could qualify them for the lower LTCG rate.",
+        "highlightValue": null
+      }
+    ],
+    "regular_plan_cost": [
+      {
+        "slot": "answer",
+        "title": "You're paying hidden commissions",
+        "body": "3 of your funds are Regular plans. Distributors earn a commission from your returns every year.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Regular vs Direct plans",
+        "body": "Mutual funds come in two versions: Regular (with distributor commission baked into the TER) and Direct (lower TER, you keep the difference). Over 10+ years, the difference compounds significantly.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Your commission leak",
+        "body": "Your Regular plan funds have a combined value of 6.61L. Switching to Direct could save you ~0 per year in fees.",
+        "highlightValue": "0",
+        "highlightLabel": "potential annual savings"
+      },
+      {
+        "slot": "impact",
+        "title": "10-year compounding effect",
+        "body": "That annual savings, reinvested over 10 years at your portfolio's XIRR, would grow to a significant amount. The longer you wait, the more you lose to compounding drag.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Switch to Direct plans",
+        "body": "You can switch each fund from Regular to Direct through your AMC's website or apps like Kuvera, Groww, or Coin. The switch is a redemption + re-purchase — check for exit load and tax impact first.",
+        "highlightValue": null
+      }
+    ],
+    "tax_harvest_seasonal": [
+      {
+        "slot": "answer",
+        "title": "Tax harvesting season is here",
+        "body": "It's Jan-Mar — the perfect window to book LTCG up to your remaining ₹67,789 exemption and reinvest immediately.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "What is tax harvesting?",
+        "body": "Tax harvesting means booking gains within your LTCG exemption limit and reinvesting immediately. You \"reset\" your purchase price higher while paying zero tax.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Your harvesting opportunity",
+        "body": "You have ₹67,789 of unused LTCG exemption this FY. Book gains up to this amount tax-free before March 31.",
+        "highlightValue": "₹67,789",
+        "highlightLabel": "can be harvested tax-free"
+      },
+      {
+        "slot": "impact",
+        "title": "Why this matters",
+        "body": "Tax harvesting every year reduces your future tax liability. Over 10 years, annual harvesting can save you lakhs in taxes.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Harvest before March 31",
+        "body": "Redeem units with LTCG up to your remaining exemption, then reinvest the proceeds. This resets your cost basis without any tax impact.",
+        "highlightValue": null
+      }
+    ],
+    "no_nominees": [
+      {
+        "slot": "answer",
+        "title": "Some folios have no nominee",
+        "body": "5 of your folios don't have a nominee registered. This can cause major issues for your family during emergencies.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Why nominees matter",
+        "body": "Without a nominee, your family would need to go through a lengthy legal process to claim your mutual fund investments. SEBI has made nomination mandatory for new folios.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Folios without nominees",
+        "body": "5 folios missing nominee details. This is a critical gap in your financial planning.",
+        "highlightValue": "5",
+        "highlightLabel": "folios without nominee"
+      },
+      {
+        "slot": "impact",
+        "title": "What happens without a nominee",
+        "body": "Claims without a nominee require succession certificates, legal heir certificates, or probate — a process that can take 6-12 months and involve legal costs.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Add nominees now",
+        "body": "Log into your AMC websites or visit a CAMS/KFintech service centre. You can also update nominees through MFCentral.com. It's a one-time 5-minute process per folio.",
+        "highlightValue": null
+      }
+    ],
+    "elss_unlock_30d": [
+      {
+        "slot": "answer",
+        "title": "ELSS units unlocking soon",
+        "body": "1 ELSS holding with oldest units completing the 3-year lock-in within 30 days. Note: each SIP installment has its own 3-year lock.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "ELSS lock-in period",
+        "body": "ELSS has a mandatory 3-year lock-in per installment. If you invest via SIP, each month's units unlock 3 years from their purchase date — not all at once.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Unlocking soon",
+        "body": "The oldest units in your ELSS investments are about to complete their lock-in period. Newer SIP installments may still be locked.",
+        "highlightValue": null
+      },
+      {
+        "slot": "impact",
+        "title": "Redeem or hold?",
+        "body": "If the fund is a consistent performer, holding beyond lock-in is often wise. If underperforming, you can switch to a better ELSS (for next year's 80C) or a non-ELSS fund.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Review performance at unlock",
+        "body": "Compare your ELSS fund's 3-year return against its benchmark and category average. Decide based on performance, not just because the lock-in ended.",
+        "highlightValue": null
+      }
+    ],
+    "sip_missed": [
+      {
+        "slot": "answer",
+        "title": "SIP installments missed",
+        "body": "5 funds with missed SIP installments. Irregular SIPs reduce the benefit of rupee cost averaging.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Why SIP consistency matters",
+        "body": "SIPs work through rupee cost averaging — buying more units when prices are low and fewer when high. Missing installments, especially during market dips, defeats this purpose.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Missed SIPs",
+        "body": "Some of your SIP schemes have irregular patterns. This reduces the compounding benefit of disciplined investing.",
+        "highlightValue": null
+      },
+      {
+        "slot": "impact",
+        "title": "Cost of missed SIPs",
+        "body": "Missing even 2-3 SIP installments during a market dip can reduce your 10-year wealth by 5-8%. Consistency beats timing.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Ensure SIP mandates are active",
+        "body": "Check your bank mandates for these funds. Set up auto-debit with sufficient balance. Consider a backup bank account for SIP debits.",
+        "highlightValue": null
+      }
+    ],
+    "too_many_funds": [
+      {
+        "slot": "answer",
+        "title": "You own too many funds",
+        "body": "19 active funds is more than you need. Research shows 5-7 well-chosen funds provide optimal diversification.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Diminishing diversification",
+        "body": "Beyond 7-8 funds, additional funds rarely add diversification. Instead, they increase overlap, complexity, and tracking burden.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Your fund count",
+        "body": "You have 19 active funds. Some likely overlap significantly, diluting your returns and making tracking harder.",
+        "highlightValue": "19",
+        "highlightLabel": "active funds"
+      },
+      {
+        "slot": "impact",
+        "title": "Portfolio simplification",
+        "body": "Fewer, well-chosen funds typically outperform bloated portfolios. Less overlap means lower effective expense ratios.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Consolidate to 5-7 funds",
+        "body": "Identify overlapping or underperforming funds. Keep the best in each category and redirect SIPs. Use our overlap analysis to guide consolidation.",
+        "highlightValue": null
+      }
+    ],
+    "portfolio_neglect": [
+      {
+        "slot": "answer",
+        "title": "Some funds haven't been reviewed in a year",
+        "body": "4 funds with no activity for over a year. An annual review ensures your portfolio stays aligned with your goals.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Annual portfolio review",
+        "body": "Even buy-and-hold portfolios need an annual check. Fund performance can deteriorate, categories can change, and your goals may evolve. A quick review prevents silent underperformance.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Holdings due for review",
+        "body": "These funds have had no transactions in over a year. This doesn't mean they're bad — but they deserve a performance check.",
+        "highlightValue": null
+      },
+      {
+        "slot": "impact",
+        "title": "Silent underperformance",
+        "body": "Funds that underperform their benchmark for 4+ quarters rarely recover. Early detection saves your returns.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Review dormant funds",
+        "body": "Check each fund's rolling 1-year return vs its benchmark. If it consistently trails, consider switching to a better alternative in the same category.",
+        "highlightValue": null
+      }
+    ],
+    "investor_profile": [
+      {
+        "slot": "answer",
+        "title": "Your investor profile",
+        "body": "Based on your transaction history, we've identified your investing personality. This helps us personalize your insights.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Investor archetypes",
+        "body": "Every investor has patterns — SIP discipline, reaction to market drops, holding period tendencies. Understanding yours helps you make better decisions.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Your pattern",
+        "body": "We analyzed your transaction history to identify your investing behavior. Your profile will be refined as we observe more data.",
+        "highlightValue": null
+      },
+      {
+        "slot": "impact",
+        "title": "Self-awareness edge",
+        "body": "Investors who understand their own behavioral biases tend to make 2-3% better annual returns by avoiding emotional decisions.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Lean into your strengths",
+        "body": "Your investor type comes with natural strengths. We'll tailor future insights to reinforce your good habits and gently flag risky ones.",
+        "highlightValue": null
+      }
+    ],
+    "risk_reward_monthly": [
+      {
+        "slot": "answer",
+        "title": "Your risk-reward profile this month",
+        "body": "Sharpe ratio: 0.70. Max drawdown: -27.04%. Your portfolio's risk-adjusted returns at a glance.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Understanding Sharpe ratio",
+        "body": "The Sharpe ratio measures return per unit of risk. Above 1.0 is good, above 2.0 is excellent. A negative Sharpe means you'd have been better off in a savings account.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Your risk numbers",
+        "body": "Volatility: 12.12%, Max drawdown: -27.04%, Sharpe: 0.70",
+        "highlightValue": "0.70",
+        "highlightLabel": "Sharpe ratio"
+      },
+      {
+        "slot": "impact",
+        "title": "What this means for you",
+        "body": "A good Sharpe ratio means your returns are compensating you fairly for the risk taken. Low Sharpe with high volatility suggests you could get better risk-adjusted returns elsewhere.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Optimize risk-reward",
+        "body": "If your Sharpe ratio is below 1, consider whether lower-volatility alternatives (like index funds or balanced funds) could deliver similar returns with less risk.",
+        "highlightValue": null
+      }
+    ],
+    "benchmark_weekly": [
+      {
+        "slot": "answer",
+        "title": "Your weekly benchmark check",
+        "body": "Your portfolio XIRR is 9.64%. Here's how you compare to major indices this week.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "XIRR vs CAGR",
+        "body": "Your portfolio XIRR accounts for the timing and size of each investment. CAGR is a simpler measure for lump sum returns. XIRR is more accurate for SIP investors.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Portfolio vs benchmarks",
+        "body": "Your portfolio is delivering 9.64% XIRR. Compare this against the benchmark returns to gauge your performance.",
+        "highlightValue": "9.64%",
+        "highlightLabel": "your portfolio XIRR"
+      },
+      {
+        "slot": "impact",
+        "title": "What this means",
+        "body": "Beating the benchmark consistently suggests your fund selection is adding value. Trailing it may mean index funds could do better for less cost.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Review underperformers",
+        "body": "If your portfolio trails the benchmark, identify which funds are dragging performance. Consider switching persistent underperformers.",
+        "highlightValue": null
+      }
+    ],
+    "best_worst_fund_weekly": [
+      {
+        "slot": "answer",
+        "title": "Your best & worst this week",
+        "body": "Best: Aditya Birla Sun Life Gold Fund at 71.76%. Worst:  at -3.19%.",
+        "highlightValue": null
+      },
+      {
+        "slot": "education",
+        "title": "Short-term vs long-term",
+        "body": "Weekly performance is noise. Don't make buy/sell decisions based on one week. Look at rolling 1-year and 3-year returns for meaningful signals.",
+        "highlightValue": null
+      },
+      {
+        "slot": "your_data",
+        "title": "Performance spread",
+        "body": "The gap between your best and worst fund is 75.0 percentage points. A wide spread isn't necessarily bad — it can mean genuine diversification.",
+        "highlightValue": "75.0pp",
+        "highlightLabel": "performance spread"
+      },
+      {
+        "slot": "impact",
+        "title": "Why both matter",
+        "body": "Your best fund drives returns, your worst teaches you about risk tolerance. Both are important for portfolio design.",
+        "highlightValue": null
+      },
+      {
+        "slot": "action",
+        "title": "Check trailing 1Y return",
+        "body": "If a fund has been your worst performer for 4+ consecutive quarters, it might be worth reviewing its fundamentals.",
+        "highlightValue": null
+      }
+    ]
+  },
+  "actionables": [
+    {
+      "id": "tax_harvest_window",
+      "title": "Harvest LTCG before March 31",
+      "description": "You have ₹67,789 of unused LTCG exemption. Book gains tax-free before the financial year ends.",
+      "relevanceScore": 85,
+      "condition": true,
+      "metadata": {
+        "remaining": 67789,
+        "month": 3
+      }
+    },
+    {
+      "id": "switch_regular_to_direct",
+      "title": "Switch Regular plans to Direct",
+      "description": "3 funds worth ₹6,60,885 in Regular plans. Switching to Direct could save ~₹0/year in commissions.",
+      "relevanceScore": 84,
+      "condition": true,
+      "metadata": {
+        "regularCount": 3,
+        "totalRegularMV": 660885.3,
+        "annualSavings": 0,
+        "funds": [
+          "",
+          "DSP Nifty Next 50 Index Fund - Dir",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "elss_unlock_calendar",
+      "title": "ELSS lock-in ending soon",
+      "description": "1 ELSS holding will unlock within 90 days. Review performance and decide whether to hold, switch, or redeem.",
+      "relevanceScore": 65,
+      "condition": true,
+      "metadata": {
+        "funds": [
+          {
+            "schemeName": "quant ELSS Tax Saver Fund",
+            "firstTxDate": "2023-03-31"
+          }
+        ]
+      }
+    },
+    {
+      "id": "revive_exit_dormant",
+      "title": "Review dormant holdings",
+      "description": "4 funds with no activity for over a year. Review performance and decide to continue, add more, or exit.",
+      "relevanceScore": 55,
+      "condition": true,
+      "metadata": {
+        "funds": [
+          {
+            "schemeName": "SBI ELSS Tax Saver Fund",
+            "holdingDays": 718,
+            "lastTxDate": "2024-03-14"
+          },
+          {
+            "schemeName": "Bandhan ELSS Tax saver Fund",
+            "holdingDays": 1099,
+            "lastTxDate": "2023-02-27"
+          },
+          {
+            "schemeName": "ICICI Prudential Savings Fund",
+            "holdingDays": 461,
+            "lastTxDate": "2024-11-26"
+          },
+          {
+            "schemeName": "quant Small Cap Fund",
+            "holdingDays": 927,
+            "lastTxDate": "2023-08-18"
+          }
+        ]
+      }
+    },
+    {
+      "id": "set_sip_increase_reminder",
+      "title": "Step up your SIPs",
+      "description": "4 SIPs running at the same amount for 12+ months. Consider a 10% annual step-up to keep pace with inflation.",
+      "relevanceScore": 50,
+      "condition": true,
+      "metadata": {
+        "sips": [
+          {
+            "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+            "sipAmount": 10000
+          },
+          {
+            "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+            "sipAmount": 10000
+          },
+          {
+            "schemeName": "",
+            "sipAmount": 14999
+          },
+          {
+            "schemeName": "SBI MNC Fund",
+            "sipAmount": 5000
+          }
+        ]
+      }
+    }
+  ],
+  "riskMetrics": {
+    "portfolioVolatility": 12.12,
+    "sharpeRatio": 0.7,
+    "sortinoRatio": 1.5,
+    "maxDrawdown": -27.04
+  },
+  "activeHoldings": [
+    {
+      "schemeName": "HDFC Arbitrage Fund - Wholesale Plan",
+      "marketValue": 505742.83,
+      "weight": 16,
+      "unrealisedGainPct": 1.15,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "quant ELSS Tax Saver Fund",
+      "marketValue": 484737.98,
+      "weight": 15.33,
+      "unrealisedGainPct": 6.54,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "ICICI Prudential Liquid Fund",
+      "marketValue": 403931.22,
+      "weight": 12.78,
+      "unrealisedGainPct": 0.98,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "",
+      "marketValue": 318937.44,
+      "weight": 10.09,
+      "unrealisedGainPct": 1.25,
+      "plan": "Regular"
+    },
+    {
+      "schemeName": "DSP Nifty Next 50 Index Fund - Dir",
+      "marketValue": 235457.87,
+      "weight": 7.45,
+      "unrealisedGainPct": 2.37,
+      "plan": "Regular"
+    },
+    {
+      "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+      "marketValue": 194728.23,
+      "weight": 6.16,
+      "unrealisedGainPct": 2.49,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+      "marketValue": 179357.39,
+      "weight": 5.67,
+      "unrealisedGainPct": -3.05,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "HDFC Gold ETF Fund of Fund",
+      "marketValue": 149225.76,
+      "weight": 4.72,
+      "unrealisedGainPct": 35.66,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+      "marketValue": 113825.42,
+      "weight": 3.6,
+      "unrealisedGainPct": -1.02,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "",
+      "marketValue": 106489.99,
+      "weight": 3.37,
+      "unrealisedGainPct": -3.19,
+      "plan": "Regular"
+    },
+    {
+      "schemeName": "Axis Ultra Short Duration Fund - Direct",
+      "marketValue": 100932.52,
+      "weight": 3.19,
+      "unrealisedGainPct": 0.93,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "Aditya Birla Sun Life Gold Fund",
+      "marketValue": 85880.56,
+      "weight": 2.72,
+      "unrealisedGainPct": 71.76,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "SBI MNC Fund",
+      "marketValue": 64865.64,
+      "weight": 2.05,
+      "unrealisedGainPct": -0.21,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "SBI ELSS Tax Saver Fund",
+      "marketValue": 61027.04,
+      "weight": 1.93,
+      "unrealisedGainPct": 22.05,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "SBI Gold Fund",
+      "marketValue": 55428.35,
+      "weight": 1.75,
+      "unrealisedGainPct": 38.57,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+      "marketValue": 34438.82,
+      "weight": 1.09,
+      "unrealisedGainPct": -1.6,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "Bandhan ELSS Tax saver Fund",
+      "marketValue": 24062.38,
+      "weight": 0.76,
+      "unrealisedGainPct": 60.42,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "ICICI Prudential Savings Fund",
+      "marketValue": 21903.28,
+      "weight": 0.69,
+      "unrealisedGainPct": 9.52,
+      "plan": "Direct"
+    },
+    {
+      "schemeName": "quant Small Cap Fund",
+      "marketValue": 20452.42,
+      "weight": 0.65,
+      "unrealisedGainPct": 36.35,
+      "plan": "Direct"
+    }
+  ],
+  "whatIfScenarios": [
+    {
+      "id": "WORST_FUND_REMOVED",
+      "name": "Worst Fund → Best Fund",
+      "description": "What if you had invested in SBI Gold Fund instead of ?",
+      "relevanceScore": 100,
+      "actual": {
+        "totalInvested": 314984,
+        "currentValue": 106490,
+        "xirr": -27.43
+      },
+      "hypothetical": {
+        "totalInvested": 314984,
+        "hypotheticalValue": 359727,
+        "hypotheticalXirr": 149.76
+      },
+      "difference": {
+        "absoluteAmount": 253237,
+        "percentageDifference": 80.4,
+        "userDidBetter": false
+      },
+      "dataPointsForNarrative": {
+        "worstFund": "",
+        "worstXirr": -27.43,
+        "worstValue": 106490,
+        "bestFund": "SBI Gold Fund",
+        "bestXirr": 149.76,
+        "hypotheticalValue": 359727,
+        "invested": 314984,
+        "holdingYears": 0.1,
+        "opportunityCost": 253237,
+        "hypotheticalPortfolioMV": 3414662,
+        "portfolioImpactPct": 8.01,
+        "framing": "Your worst fund ( at -27.4% XIRR) cost you ₹2,53,237. If that money had been in SBI Gold Fund (149.8% XIRR), you'd have ₹3,59,727 instead of ₹1,06,490."
+      }
+    },
+    {
+      "id": "FD_VS_MF",
+      "name": "FD vs Mutual Funds",
+      "description": "What if you had put all your money in a bank FD at 7% instead?",
+      "relevanceScore": 90,
+      "actual": {
+        "totalInvested": 2949852.5,
+        "currentValue": 3161425,
+        "xirr": 9.64
+      },
+      "hypothetical": {
+        "totalInvested": 2949852.5,
+        "hypotheticalValue": 3066965,
+        "hypotheticalXirr": 4.03
+      },
+      "difference": {
+        "absoluteAmount": 94460,
+        "percentageDifference": 3.2,
+        "userDidBetter": true
+      },
+      "dataPointsForNarrative": {
+        "fdRate": "7%",
+        "fdValueBeforeTDS": 3066965,
+        "tdsDeducted": 0,
+        "fdValueAfterTDS": 3066965,
+        "mfValue": 3161425,
+        "mfXirr": 9.64,
+        "totalInvested": 2949853,
+        "holdingYears": 3,
+        "mfBeatFDBy": 94460,
+        "framing": "Your mutual funds earned ₹94,460 more than an FD would have"
+      }
+    },
+    {
+      "id": "CROREPATI_COUNTDOWN",
+      "name": "₹50 Lakh Countdown",
+      "description": "When will you hit ₹50 Lakh?",
+      "relevanceScore": 90,
+      "actual": {
+        "totalInvested": 3000000,
+        "currentValue": 3161425,
+        "xirr": 9.64
+      },
+      "hypothetical": {
+        "totalInvested": 1619940,
+        "hypotheticalValue": 5000000,
+        "hypotheticalXirr": 9.64
+      },
+      "difference": {
+        "absoluteAmount": 1838575,
+        "percentageDifference": 58.16,
+        "userDidBetter": false
+      },
+      "dataPointsForNarrative": {
+        "milestone": "₹50 Lakh",
+        "milestoneValue": 5000000,
+        "currentValue": 3161425,
+        "monthlySIP": 134995,
+        "monthsRemaining": 12,
+        "yearsRemaining": 1,
+        "projectedDate": "2027-03-03",
+        "projectedYear": 2027,
+        "portfolioXIRR": 9.64,
+        "framing": "At your current pace (₹1,34,995/mo SIP + 9.6% returns), you'll hit ₹50 Lakh by Mar 2027 — 1 years away"
+      }
+    },
+    {
+      "id": "COFFEE_MONEY_SIP",
+      "name": "Coffee Money SIP",
+      "description": "What if your daily ₹200 coffee money was a SIP instead?",
+      "relevanceScore": 85,
+      "actual": {
+        "totalInvested": 219800,
+        "currentValue": 219800,
+        "xirr": 0
+      },
+      "hypothetical": {
+        "totalInvested": 222000,
+        "hypotheticalValue": 255718,
+        "hypotheticalXirr": 9.64
+      },
+      "difference": {
+        "absoluteAmount": 35918,
+        "percentageDifference": 16.34,
+        "userDidBetter": false
+      },
+      "dataPointsForNarrative": {
+        "dailyCoffee": 200,
+        "monthlySIP": 6000,
+        "monthsInvested": 37,
+        "totalCoffeeSpend": 219800,
+        "hypotheticalValue": 255718,
+        "portfolioXIRR": 9.64,
+        "framing": "Your daily ₹200 coffee over 3 years could have grown to ₹2,55,718 as a SIP"
+      }
+    },
+    {
+      "id": "INFLATION_EROSION",
+      "name": "Inflation Reality Check",
+      "description": "Your ₹1,61,575 gain is really only ₹-3,46,842 after inflation",
+      "relevanceScore": 80,
+      "actual": {
+        "totalInvested": 2999850,
+        "currentValue": 3161425,
+        "xirr": 9.64
+      },
+      "hypothetical": {
+        "totalInvested": 2999850,
+        "hypotheticalValue": 2653008,
+        "hypotheticalXirr": 3.43
+      },
+      "difference": {
+        "absoluteAmount": 508417,
+        "percentageDifference": 16.95,
+        "userDidBetter": false
+      },
+      "dataPointsForNarrative": {
+        "nominalGain": 161575,
+        "realGain": -346842,
+        "erosion": 508417,
+        "nominalXIRR": 9.64,
+        "realXIRR": 3.43,
+        "inflationRate": 6,
+        "holdingYears": 3,
+        "inflationFactor": 1.192,
+        "framing": "Inflation ate ₹5,08,417 of your gains — your real return is 3.4% vs nominal 9.6%"
+      }
+    },
+    {
+      "id": "TOP_FUND_IN_CATEGORY",
+      "name": "Top Fund in Category",
+      "description": "What if each fund had been the top performer in its category?",
+      "relevanceScore": 80,
+      "actual": {
+        "totalInvested": 2575000,
+        "currentValue": 2735998,
+        "xirr": 9.64
+      },
+      "hypothetical": {
+        "totalInvested": 2575000,
+        "hypotheticalValue": 3425351,
+        "hypotheticalXirr": 0
+      },
+      "difference": {
+        "absoluteAmount": 689353,
+        "percentageDifference": 26.77,
+        "userDidBetter": false
+      },
+      "dataPointsForNarrative": {
+        "underperformingFunds": 17,
+        "bestPeer": "SBI PSU (G)",
+        "biggestGapPctPoints": 28.35,
+        "actualValue": 2735998,
+        "hypotheticalValue": 3425351,
+        "framing": "If you had picked category toppers, your portfolio could be ₹6,89,353 more. The biggest gap was 28.4 percentage points (SBI PSU (G))"
+      }
+    }
+  ],
+  "peerPercentile": {
+    "overallPercentile": 47,
+    "personality": "Steady Compounder",
+    "dimensions": [
+      {
+        "key": "discipline",
+        "label": "Discipline",
+        "userValue": 93,
+        "percentile": 88,
+        "weight": 0.25,
+        "description": "SIP regularity & consistency"
+      },
+      {
+        "key": "returns",
+        "label": "Returns",
+        "userValue": 9.64,
+        "percentile": 43,
+        "weight": 0.3,
+        "description": "Portfolio XIRR vs peers"
+      },
+      {
+        "key": "diversification",
+        "label": "Diversification",
+        "userValue": 48,
+        "percentile": 11,
+        "weight": 0.25,
+        "description": "Fund count & direct plan ratio"
+      },
+      {
+        "key": "consistency",
+        "label": "Consistency",
+        "userValue": 36,
+        "percentile": 45,
+        "weight": 0.2,
+        "description": "Investment tenure in months"
+      }
+    ],
+    "cohortSize": 101
+  },
+  "shadowIndex": {
+    "niftyRate": 13.120636001318076,
+    "portfolioLevel": {
+      "actualValue": 3161425,
+      "shadowValue": 3222068,
+      "totalRedemptions": 0,
+      "alpha": -60643
+    },
+    "fundBreakdown": [
+      {
+        "schemeName": "HDFC Gold ETF Fund of Fund",
+        "shortName": "HDFC Gold ETF of",
+        "actualValue": 149226,
+        "shadowValue": 114413,
+        "alpha": 34812
+      },
+      {
+        "schemeName": "Aditya Birla Sun Life Gold Fund",
+        "shortName": "Aditya Birla Sun L",
+        "actualValue": 85881,
+        "shadowValue": 55592,
+        "alpha": 30288
+      },
+      {
+        "schemeName": "SBI Gold Fund",
+        "shortName": "SBI Gold",
+        "actualValue": 55428,
+        "shadowValue": 41795,
+        "alpha": 13633
+      },
+      {
+        "schemeName": "Bandhan ELSS Tax saver Fund",
+        "shortName": "Bandhan ELSS TS",
+        "actualValue": 24062,
+        "shadowValue": 21745,
+        "alpha": 2317
+      },
+      {
+        "schemeName": "quant Small Cap Fund",
+        "shortName": "quant Small Cap",
+        "actualValue": 20452,
+        "shadowValue": 20518,
+        "alpha": -66
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "actualValue": 34439,
+        "shadowValue": 35410,
+        "alpha": -971
+      },
+      {
+        "schemeName": "Axis Ultra Short Duration Fund - Direct",
+        "shortName": "Axis Ultra Short D",
+        "actualValue": 100933,
+        "shadowValue": 102084,
+        "alpha": -1151
+      },
+      {
+        "schemeName": "ICICI Prudential Savings Fund",
+        "shortName": "ICICI Prudential S",
+        "actualValue": 21903,
+        "shadowValue": 23376,
+        "alpha": -1473
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "actualValue": 113825,
+        "shadowValue": 116127,
+        "alpha": -2302
+      },
+      {
+        "schemeName": "SBI ELSS Tax Saver Fund",
+        "shortName": "SBI ELSS TS",
+        "actualValue": 61027,
+        "shadowValue": 63736,
+        "alpha": -2709
+      },
+      {
+        "schemeName": "ICICI Prudential Liquid Fund",
+        "shortName": "ICICI Prudential L",
+        "actualValue": 403931,
+        "shadowValue": 408473,
+        "alpha": -4542
+      },
+      {
+        "schemeName": "HDFC Arbitrage Fund - Wholesale Plan",
+        "shortName": "HDFC Arbitrage - W",
+        "actualValue": 505743,
+        "shadowValue": 510592,
+        "alpha": -4849
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "actualValue": 106490,
+        "shadowValue": 111425,
+        "alpha": -4935
+      },
+      {
+        "schemeName": "SBI MNC Fund",
+        "shortName": "SBI MNC",
+        "actualValue": 64866,
+        "shadowValue": 71834,
+        "alpha": -6968
+      },
+      {
+        "schemeName": "DSP Nifty Next 50 Index Fund - Dir",
+        "shortName": "DSP Nifty Next 50",
+        "actualValue": 235458,
+        "shadowValue": 246774,
+        "alpha": -11316
+      },
+      {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA LARGE",
+        "actualValue": 194728,
+        "shadowValue": 206167,
+        "alpha": -11438
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "actualValue": 179357,
+        "shadowValue": 200325,
+        "alpha": -20967
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "actualValue": 318937,
+        "shadowValue": 344093,
+        "alpha": -25155
+      },
+      {
+        "schemeName": "quant ELSS Tax Saver Fund",
+        "shortName": "quant ELSS TS",
+        "actualValue": 484738,
+        "shadowValue": 527589,
+        "alpha": -42851
+      }
+    ],
+    "topAlphaGenerators": [
+      {
+        "schemeName": "HDFC Gold ETF Fund of Fund",
+        "shortName": "HDFC Gold ETF of",
+        "actualValue": 149226,
+        "shadowValue": 114413,
+        "alpha": 34812
+      },
+      {
+        "schemeName": "Aditya Birla Sun Life Gold Fund",
+        "shortName": "Aditya Birla Sun L",
+        "actualValue": 85881,
+        "shadowValue": 55592,
+        "alpha": 30288
+      },
+      {
+        "schemeName": "SBI Gold Fund",
+        "shortName": "SBI Gold",
+        "actualValue": 55428,
+        "shadowValue": 41795,
+        "alpha": 13633
+      }
+    ],
+    "bottomAlphaGenerators": [
+      {
+        "schemeName": "quant ELSS Tax Saver Fund",
+        "shortName": "quant ELSS TS",
+        "actualValue": 484738,
+        "shadowValue": 527589,
+        "alpha": -42851
+      },
+      {
+        "schemeName": "",
+        "shortName": "",
+        "actualValue": 318937,
+        "shadowValue": 344093,
+        "alpha": -25155
+      },
+      {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "shortName": "NIPPON INDIA SMALL",
+        "actualValue": 179357,
+        "shadowValue": 200325,
+        "alpha": -20967
+      }
+    ]
+  },
+  "fiCountdown": {
+    "currentValue": 3161425,
+    "monthlySIP": 134995,
+    "monthlyExpenses": 404985,
+    "swr": 0.035,
+    "fiTarget": 138852000,
+    "progressPct": 2.28,
+    "projections": [
+      {
+        "label": "Current pace",
+        "monthlySIP": 134995,
+        "annualRate": 9.64,
+        "monthlyExpenses": 404985,
+        "fiTarget": 138852000,
+        "monthsToFI": 264,
+        "yearsToFI": 22,
+        "projectedDate": "2048-03-03",
+        "isBearCase": false,
+        "isBaseline": true
+      },
+      {
+        "label": "SIP +₹5K",
+        "monthlySIP": 139995,
+        "annualRate": 9.64,
+        "monthlyExpenses": 404985,
+        "fiTarget": 138852000,
+        "monthsToFI": 261,
+        "yearsToFI": 21.8,
+        "projectedDate": "2047-12-03",
+        "isBearCase": false,
+        "isBaseline": false
+      },
+      {
+        "label": "SIP +₹10K",
+        "monthlySIP": 144995,
+        "annualRate": 9.64,
+        "monthlyExpenses": 404985,
+        "fiTarget": 138852000,
+        "monthsToFI": 257,
+        "yearsToFI": 21.4,
+        "projectedDate": "2047-08-03",
+        "isBearCase": false,
+        "isBaseline": false
+      },
+      {
+        "label": "Expenses -₹10K",
+        "monthlySIP": 134995,
+        "annualRate": 9.64,
+        "monthlyExpenses": 394985,
+        "fiTarget": 135423429,
+        "monthsToFI": 261,
+        "yearsToFI": 21.8,
+        "projectedDate": "2047-12-03",
+        "isBearCase": false,
+        "isBaseline": false
+      },
+      {
+        "label": "Bear case",
+        "monthlySIP": 134995,
+        "annualRate": 6.64,
+        "monthlyExpenses": 404985,
+        "fiTarget": 138852000,
+        "monthsToFI": 328,
+        "yearsToFI": 27.3,
+        "projectedDate": "2053-07-03",
+        "isBearCase": true,
+        "isBaseline": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "period": "2026-01",
+  "bankSummary": {
+    "totalTransactions": 73,
+    "totalDebits": 59,
+    "totalDebitAmount": 596398.39,
+    "totalCredits": 14,
+    "totalCreditAmount": 223151.02000000002,
+    "realSpending": 28716.39
+  },
+  "emailSummary": {
+    "totalReceipts": 3,
+    "totalAmount": 3147,
+    "bySender": [
+      {
+        "senderId": "apple",
+        "count": 3,
+        "totalAmount": 3147
+      }
+    ]
+  },
+  "upiLite": {
+    "topUpCount": 13,
+    "topUpTotal": 26000,
+    "note": "This spending is invisible in bank statements. Only visible via email receipts."
+  },
+  "visibility": {
+    "vagueSpending": 44682,
+    "merchantOnlySpending": 16455.75,
+    "enrichableSpending": 61137.75,
+    "enrichablePct": 212.90193509699515
+  }
+}

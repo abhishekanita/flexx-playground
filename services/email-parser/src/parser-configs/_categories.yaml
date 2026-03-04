@@ -1,0 +1,257 @@
+# Email classification rules
+# Matched in order — first match wins
+# Used when no specific parser config matches (fallback classification)
+
+categories:
+  # --- Consumer Invoices: Food Delivery ---
+  - senderDomains: [swiggy.in]
+    subjectPattern: "(delivered|order confirmation|order placed)"
+    subjectExcludePattern: "Instamart|grocery"
+    category: consumer_invoice
+    subcategory: food_delivery
+    senderKey: swiggy
+    senderDisplayName: Swiggy
+
+  - senderDomains: [swiggy.in]
+    subjectPattern: "Instamart|grocery"
+    category: consumer_invoice
+    subcategory: grocery
+    senderKey: swiggy-instamart
+    senderDisplayName: Swiggy Instamart
+
+  - senderDomains: [zomato.com]
+    subjectPattern: "(delivered|order)"
+    category: consumer_invoice
+    subcategory: food_delivery
+    senderKey: zomato
+    senderDisplayName: Zomato
+
+  # --- Consumer Invoices: Transport ---
+  - senderDomains: [uber.com]
+    subjectPattern: "trip|ride"
+    category: consumer_invoice
+    subcategory: transport
+    senderKey: uber
+    senderDisplayName: Uber
+
+  - senderDomains: [olacabs.com]
+    subjectPattern: "ride|trip"
+    category: consumer_invoice
+    subcategory: transport
+    senderKey: ola
+    senderDisplayName: Ola
+
+  - senderDomains: [rapido.bike]
+    subjectPattern: "ride|trip"
+    category: consumer_invoice
+    subcategory: transport
+    senderKey: rapido
+    senderDisplayName: Rapido
+
+  # --- Consumer Invoices: Shopping ---
+  - senderDomains: [amazon.in]
+    subjectPattern: "(shipped|delivered|order)"
+    category: consumer_invoice
+    subcategory: shopping
+    senderKey: amazon
+    senderDisplayName: Amazon
+
+  - senderDomains: [flipkart.com]
+    subjectPattern: "(shipped|delivered|order)"
+    category: consumer_invoice
+    subcategory: shopping
+    senderKey: flipkart
+    senderDisplayName: Flipkart
+
+  - senderDomains: [myntra.com]
+    subjectPattern: "(shipped|delivered|order)"
+    category: consumer_invoice
+    subcategory: shopping
+    senderKey: myntra
+    senderDisplayName: Myntra
+
+  # --- Consumer Invoices: Grocery ---
+  - senderDomains: [bigbasket.com]
+    category: consumer_invoice
+    subcategory: grocery
+    senderKey: bigbasket
+    senderDisplayName: BigBasket
+
+  - senderDomains: [blinkit.com]
+    category: consumer_invoice
+    subcategory: grocery
+    senderKey: blinkit
+    senderDisplayName: Blinkit
+
+  - senderDomains: [zepto.co]
+    category: consumer_invoice
+    subcategory: grocery
+    senderKey: zepto
+    senderDisplayName: Zepto
+
+  # --- Consumer Invoices: Subscription ---
+  - senderDomains: [email.apple.com]
+    subjectPattern: "invoice|receipt"
+    category: consumer_invoice
+    subcategory: subscription
+    senderKey: apple
+    senderDisplayName: Apple
+
+  - senderDomains: [account.netflix.com]
+    category: consumer_invoice
+    subcategory: subscription
+    senderKey: netflix
+    senderDisplayName: Netflix
+
+  - senderDomains: [spotify.com]
+    subjectPattern: "receipt|payment"
+    category: consumer_invoice
+    subcategory: subscription
+    senderKey: spotify
+    senderDisplayName: Spotify
+
+  - senderDomains: [youtube.com, google.com]
+    subjectPattern: "YouTube Premium|YouTube Music"
+    category: consumer_invoice
+    subcategory: subscription
+    senderKey: youtube-premium
+    senderDisplayName: YouTube Premium
+
+  # --- Consumer Invoices: Bills & Recharges ---
+  - senderDomains: [jio.com]
+    subjectPattern: "bill|recharge"
+    category: consumer_invoice
+    subcategory: bill_recharge
+    senderKey: jio
+    senderDisplayName: Jio
+
+  - senderDomains: [airtel.in]
+    subjectPattern: "bill|recharge"
+    category: consumer_invoice
+    subcategory: bill_recharge
+    senderKey: airtel
+    senderDisplayName: Airtel
+
+  # --- Consumer Invoices: Travel ---
+  - senderDomains: [makemytrip.com]
+    category: consumer_invoice
+    subcategory: travel
+    senderKey: makemytrip
+    senderDisplayName: MakeMyTrip
+
+  - senderDomains: [goibibo.com]
+    category: consumer_invoice
+    subcategory: travel
+    senderKey: goibibo
+    senderDisplayName: Goibibo
+
+  - senderDomains: [irctc.co.in, irctc.com]
+    category: consumer_invoice
+    subcategory: travel
+    senderKey: irctc
+    senderDisplayName: IRCTC
+
+  # --- Bank Statements ---
+  - senderDomains: [alerts.sbi.co.in, alerts.sbi.bank.in]
+    subjectPattern: "statement"
+    category: official_bank_statement
+    subcategory: savings
+    senderKey: sbi
+    senderDisplayName: SBI
+
+  - senderDomains: [kotak.bank.in, kotak.com]
+    subjectPattern: "statement"
+    category: official_bank_statement
+    subcategory: savings
+    senderKey: kotak
+    senderDisplayName: Kotak Mahindra Bank
+
+  - senderDomains: [hdfcbank.net]
+    subjectPattern: "account statement"
+    category: official_bank_statement
+    subcategory: savings
+    senderKey: hdfc
+    senderDisplayName: HDFC Bank
+
+  - senderDomains: [icicibank.com]
+    subjectPattern: "account statement"
+    category: official_bank_statement
+    subcategory: savings
+    senderKey: icici
+    senderDisplayName: ICICI Bank
+
+  # --- Credit Card Statements ---
+  - senderDomains: [hdfcbank.net]
+    subjectPattern: "credit card statement"
+    category: credit_card_statement
+    subcategory: monthly
+    senderKey: hdfc-cc
+    senderDisplayName: HDFC Credit Card
+
+  - senderDomains: [sbicard.com]
+    subjectPattern: "statement"
+    category: credit_card_statement
+    subcategory: monthly
+    senderKey: sbi-cc
+    senderDisplayName: SBI Credit Card
+
+  # --- Investments ---
+  - senderDomains: [zerodha.com]
+    subjectPattern: "contract note|trade"
+    category: investment
+    subcategory: stock_buy_sell
+    senderKey: zerodha
+    senderDisplayName: Zerodha
+
+  - senderDomains: [groww.in]
+    subjectPattern: "SIP|purchased|redeemed"
+    category: investment
+    subcategory: mutual_fund_sip
+    senderKey: groww
+    senderDisplayName: Groww
+
+  - senderDomains: [kuvera.in]
+    subjectPattern: "purchase|redemption"
+    category: investment
+    subcategory: mutual_fund_sip
+    senderKey: kuvera
+    senderDisplayName: Kuvera
+
+  # --- Mutual Fund CAS ---
+  - senderDomains: [camsonline.com]
+    subjectPattern: "consolidated account statement"
+    category: mutual_fund_cas
+    subcategory: cas_report
+    senderKey: cams
+    senderDisplayName: CAMS
+
+  - senderDomains: [kfintech.com]
+    subjectPattern: "consolidated account statement"
+    category: mutual_fund_cas
+    subcategory: cas_report
+    senderKey: kfintech
+    senderDisplayName: KFintech
+
+  # --- Insurance ---
+  - senderDomains: [licindia.in]
+    category: insurance
+    subcategory: life
+    senderKey: lic
+    senderDisplayName: LIC
+
+  # --- Payment Notifications ---
+  - senderDomains: [phonepe.com]
+    subjectPattern: "payment|transfer|received"
+    category: payment_notification
+    subcategory: upi
+    senderKey: phonepe
+    senderDisplayName: PhonePe
+
+  # --- Bank Alerts ---
+  - senderDomains: [hdfcbank.net, icicibank.com, axisbank.com, kotak.com, sbi.co.in]
+    subjectPattern: "alert|transaction|debit|credit"
+    subjectExcludePattern: "statement"
+    category: bank_alert
+    subcategory: transaction_alert
+    senderKey: bank-alert
+    senderDisplayName: Bank Alert

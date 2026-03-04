@@ -1,0 +1,1695 @@
+{
+    "searchId": "nj-balanced-advantage-fund-direct-growth",
+    "aum": 3609.872145,
+    "benchmarkName": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "category": "Hybrid",
+    "categoryAvgReturns": null,
+    "categoryRank": null,
+    "createdAt": {
+        "$date": "2026-03-01T19:39:42.441Z"
+    },
+    "deepSyncError": null,
+    "deepSyncFailed": false,
+    "exitLoad": "For units in excess of 5% of the investment,1% will be charged for redemption within 30 days",
+    "expenseHistory": null,
+    "expenseRatio": 0.6,
+    "fundHouse": "NJ Mutual Fund",
+    "fundManagerDetails": [
+        {
+            "name": null,
+            "education": "Mr. Patel has done IBS from Hyderabad",
+            "experience": "Prior to joining NJ Mutual Fund, he has worked with Axis Mutual Fund, Credit Analysis & Research Ltd.",
+            "dateFrom": "2023-03-07T18:30:00.715Z"
+        },
+        {
+            "name": null,
+            "education": "Mr. Shah has done B.E. and MBA (Finance)",
+            "experience": "Mr. Shah has started his career with NJ Group and has been Principal Officer for PMS segment with NJ Asset Management for more than 10 years.",
+            "dateFrom": "2022-10-19T18:30:00.721Z"
+        }
+    ],
+    "growwRating": 2,
+    "holdings": [
+        {
+            "company": "Reliance Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 8.48093083,
+            "marketValue": 306.15076
+        },
+        {
+            "company": "Bajaj Finance Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 4.89542664,
+            "marketValue": 176.718643
+        },
+        {
+            "company": "HDFC Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 4.68039388,
+            "marketValue": 168.956235
+        },
+        {
+            "company": "Eicher Motors Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 3.34948904,
+            "marketValue": 120.912272
+        },
+        {
+            "company": "Marico Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 3.15810201,
+            "marketValue": 114.003445
+        },
+        {
+            "company": "Muthoot Finance Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 3.0795212,
+            "marketValue": 111.166778
+        },
+        {
+            "company": "ICICI Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.99827078,
+            "marketValue": 108.233742
+        },
+        {
+            "company": "Bosch Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.97299967,
+            "marketValue": 107.321487
+        },
+        {
+            "company": "Britannia Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.95378037,
+            "marketValue": 106.627695
+        },
+        {
+            "company": "Vodafone Idea Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.22270373,
+            "marketValue": 80.236763
+        },
+        {
+            "company": "Tech Mahindra Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.19099496,
+            "marketValue": 79.092117
+        },
+        {
+            "company": "HDFC Asset Management Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.13922914,
+            "marketValue": 77.223437
+        },
+        {
+            "company": "The Great Eastern Shipping Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.01792847,
+            "marketValue": 72.844638
+        },
+        {
+            "company": "Kotak Mahindra Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 2.00734181,
+            "marketValue": 72.462473
+        },
+        {
+            "company": "Nestle India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.92655623,
+            "marketValue": 69.546217
+        },
+        {
+            "company": "Mphasis Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.83804058,
+            "marketValue": 66.350915
+        },
+        {
+            "company": "Hindustan Unilever Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.74697112,
+            "marketValue": 63.063424
+        },
+        {
+            "company": "Pidilite Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.71640162,
+            "marketValue": 61.959904
+        },
+        {
+            "company": "Hero Motocorp Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.68526231,
+            "marketValue": 60.835815
+        },
+        {
+            "company": "Dr. Reddy's Laboratories Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.65938428,
+            "marketValue": 59.901651
+        },
+        {
+            "company": "Wipro Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.65015816,
+            "marketValue": 59.5686
+        },
+        {
+            "company": "SBI Cards And Payment Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.61070233,
+            "marketValue": 58.144295
+        },
+        {
+            "company": "Dr. Lal Pathlabs Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.50377891,
+            "marketValue": 54.284496
+        },
+        {
+            "company": "Endurance Technologies Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.47355675,
+            "marketValue": 53.193515
+        },
+        {
+            "company": "Page Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.35074066,
+            "marketValue": 48.760011
+        },
+        {
+            "company": "Ajanta Pharma Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.34923845,
+            "marketValue": 48.705783
+        },
+        {
+            "company": "State Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.15700748,
+            "marketValue": 41.766491
+        },
+        {
+            "company": "Sammaan Capital Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 1.01609692,
+            "marketValue": 36.6798
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.94753203,
+            "marketValue": 34.204695
+        },
+        {
+            "company": "Aptus Value Housing Finance India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.9405655,
+            "marketValue": 33.953212
+        },
+        {
+            "company": "Axis Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.88025693,
+            "marketValue": 31.77615
+        },
+        {
+            "company": "UTI Asset Management Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.87049224,
+            "marketValue": 31.423657
+        },
+        {
+            "company": "JIO Financial Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.78531188,
+            "marketValue": 28.348755
+        },
+        {
+            "company": "HCL Technologies Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.73884276,
+            "marketValue": 26.671279
+        },
+        {
+            "company": "GOI",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.70106361,
+            "marketValue": 25.3075
+        },
+        {
+            "company": "Infosys Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.69597683,
+            "marketValue": 25.123874
+        },
+        {
+            "company": "GOI",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.69478083,
+            "marketValue": 25.0807
+        },
+        {
+            "company": "Tata Consultancy Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.68176123,
+            "marketValue": 24.610709
+        },
+        {
+            "company": "Oil And Natural Gas Corporation Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.64185292,
+            "marketValue": 23.17007
+        },
+        {
+            "company": "Aditya Birla Capital Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.63613566,
+            "marketValue": 22.963684
+        },
+        {
+            "company": "Bajaj Auto Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.63207493,
+            "marketValue": 22.817097
+        },
+        {
+            "company": "Asian Paints Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.62416919,
+            "marketValue": 22.53171
+        },
+        {
+            "company": "Dabur India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.62239348,
+            "marketValue": 22.467609
+        },
+        {
+            "company": "Tata Elxsi Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.61455423,
+            "marketValue": 22.184622
+        },
+        {
+            "company": "Tata Technologies Ltd",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.58150621,
+            "marketValue": 20.991631
+        },
+        {
+            "company": "Sun Pharmaceutical Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.57231758,
+            "marketValue": 20.659933
+        },
+        {
+            "company": "Gujarat State Petronet Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.56240939,
+            "marketValue": 20.30226
+        },
+        {
+            "company": "Cipla Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.53914014,
+            "marketValue": 19.46227
+        },
+        {
+            "company": "Bayer CropScience Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.53064294,
+            "marketValue": 19.155532
+        },
+        {
+            "company": "Castrol India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.52720238,
+            "marketValue": 19.031332
+        },
+        {
+            "company": "Power Grid Corporation Of India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.52331335,
+            "marketValue": 18.890943
+        },
+        {
+            "company": "L&T Technology Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.51721939,
+            "marketValue": 18.670959
+        },
+        {
+            "company": "Berger Paints India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.51352815,
+            "marketValue": 18.53771
+        },
+        {
+            "company": "Mahindra & Mahindra Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.49815149,
+            "marketValue": 17.982632
+        },
+        {
+            "company": "Crompton Greaves Consumer Electricals Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.48970953,
+            "marketValue": 17.677888
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.4794816,
+            "marketValue": 17.308673
+        },
+        {
+            "company": "Procter & Gamble Hygiene and Health Care Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.47515464,
+            "marketValue": 17.152475
+        },
+        {
+            "company": "DLF Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.46058284,
+            "marketValue": 16.626452
+        },
+        {
+            "company": "ITC Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.45853474,
+            "marketValue": 16.552518
+        },
+        {
+            "company": "Trent Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.45616366,
+            "marketValue": 16.466925
+        },
+        {
+            "company": "Kajaria Ceramics Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.44203415,
+            "marketValue": 15.956868
+        },
+        {
+            "company": "Crisil Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.39412395,
+            "marketValue": 14.227371
+        },
+        {
+            "company": "Larsen & Toubro Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.38507405,
+            "marketValue": 13.900681
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.38315284,
+            "marketValue": 13.831328
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.34438028,
+            "marketValue": 12.431688
+        },
+        {
+            "company": "Bandhan Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.32387684,
+            "marketValue": 11.69154
+        },
+        {
+            "company": "Titan Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.31622,
+            "marketValue": 11.415138
+        },
+        {
+            "company": "Bank Of Baroda",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.3153764,
+            "marketValue": 11.384685
+        },
+        {
+            "company": "Bharti Airtel Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.28495352,
+            "marketValue": 10.286458
+        },
+        {
+            "company": "Tamilnadu State",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.27734777,
+            "marketValue": 10.0119
+        },
+        {
+            "company": "Eternal Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.27385601,
+            "marketValue": 9.885852
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.27304845,
+            "marketValue": 9.8567
+        },
+        {
+            "company": "Abbott India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.26290764,
+            "marketValue": 9.49063
+        },
+        {
+            "company": "Ambuja Cements Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.247806,
+            "marketValue": 8.94548
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.20592884,
+            "marketValue": 7.433768
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.20529308,
+            "marketValue": 7.410818
+        },
+        {
+            "company": "SBI Life Insurance Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.15570581,
+            "marketValue": 5.620781
+        },
+        {
+            "company": "Varun Beverages Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.15567465,
+            "marketValue": 5.619656
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.1361177,
+            "marketValue": 4.913675
+        },
+        {
+            "company": "Yes Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.13465053,
+            "marketValue": 4.860712
+        },
+        {
+            "company": "Tata Steel Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.12652871,
+            "marketValue": 4.567525
+        },
+        {
+            "company": "Bajaj Finserv Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.12440828,
+            "marketValue": 4.49098
+        },
+        {
+            "company": "Steel Authority Of India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.11019066,
+            "marketValue": 3.977742
+        },
+        {
+            "company": "Petronet LNG Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.10675378,
+            "marketValue": 3.853675
+        },
+        {
+            "company": "Indus Towers Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.10252493,
+            "marketValue": 3.701019
+        },
+        {
+            "company": "SKF India (Industrial) Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.08340118,
+            "marketValue": 3.010676
+        },
+        {
+            "company": "Punjab National Bank",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.08323175,
+            "marketValue": 3.00456
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.06914823,
+            "marketValue": 2.496163
+        },
+        {
+            "company": "Reserve Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.06900382,
+            "marketValue": 2.49095
+        },
+        {
+            "company": "Godrej Properties Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.05765788,
+            "marketValue": 2.081376
+        },
+        {
+            "company": "SKF India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.05180197,
+            "marketValue": 1.869985
+        },
+        {
+            "company": "Adani Ports and Special Economic Zone Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.05044206,
+            "marketValue": 1.820894
+        },
+        {
+            "company": "Maharashtra State",
+            "sector": null,
+            "instrument": null,
+            "rating": "SOV",
+            "corpusPer": 0.04454972,
+            "marketValue": 1.608188
+        },
+        {
+            "company": "Ultratech Cement Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.03164821,
+            "marketValue": 1.14246
+        },
+        {
+            "company": "Tata Power Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.03089815,
+            "marketValue": 1.115384
+        },
+        {
+            "company": "Kwality Wall's (India) Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.02876741,
+            "marketValue": 1.038467
+        },
+        {
+            "company": "Samvardhana Motherson International Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.02692807,
+            "marketValue": 0.972069
+        },
+        {
+            "company": "Multi Commodity Exchange Of India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.02188443,
+            "marketValue": 0.79
+        },
+        {
+            "company": "The Indian Hotels Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.02054269,
+            "marketValue": 0.741565
+        },
+        {
+            "company": "United Spirits Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.01962817,
+            "marketValue": 0.708552
+        },
+        {
+            "company": "Exide Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.01924323,
+            "marketValue": 0.694656
+        },
+        {
+            "company": "GAIL (India) Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.0175174,
+            "marketValue": 0.632356
+        },
+        {
+            "company": "RBL Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.01576562,
+            "marketValue": 0.569119
+        },
+        {
+            "company": "Bharat Electronics Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.01063458,
+            "marketValue": 0.383895
+        },
+        {
+            "company": "Laurus Labs Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00908896,
+            "marketValue": 0.3281
+        },
+        {
+            "company": "BSE Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00581114,
+            "marketValue": 0.209775
+        },
+        {
+            "company": "Bharat Heavy Electricals Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00382057,
+            "marketValue": 0.137918
+        },
+        {
+            "company": "Adani Energy Solutions Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00334632,
+            "marketValue": 0.120798
+        },
+        {
+            "company": "Inox Wind Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00320692,
+            "marketValue": 0.115766
+        },
+        {
+            "company": "GMR Airports Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00181413,
+            "marketValue": 0.065488
+        },
+        {
+            "company": "Adani Enterprises Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00172942,
+            "marketValue": 0.06243
+        },
+        {
+            "company": "Adani Green Energy Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": 0.00141661,
+            "marketValue": 0.051138
+        },
+        {
+            "company": "Cipla Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00139129,
+            "marketValue": -0.050224
+        },
+        {
+            "company": "Adani Green Energy Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.0014196,
+            "marketValue": -0.051246
+        },
+        {
+            "company": "GAIL (India) Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00146512,
+            "marketValue": -0.052889
+        },
+        {
+            "company": "Adani Enterprises Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00173158,
+            "marketValue": -0.062508
+        },
+        {
+            "company": "GMR Airports Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00181898,
+            "marketValue": -0.065663
+        },
+        {
+            "company": "Inox Wind Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00321108,
+            "marketValue": -0.115916
+        },
+        {
+            "company": "Adani Energy Solutions Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00335045,
+            "marketValue": -0.120947
+        },
+        {
+            "company": "Bharat Heavy Electricals Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00383002,
+            "marketValue": -0.138259
+        },
+        {
+            "company": "ICICI Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00531553,
+            "marketValue": -0.191884
+        },
+        {
+            "company": "BSE Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00581427,
+            "marketValue": -0.209888
+        },
+        {
+            "company": "Tata Steel Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00593106,
+            "marketValue": -0.214104
+        },
+        {
+            "company": "Larsen & Toubro Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00769018,
+            "marketValue": -0.277606
+        },
+        {
+            "company": "HDFC Asset Management Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00839464,
+            "marketValue": -0.303036
+        },
+        {
+            "company": "Tata Power Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00884491,
+            "marketValue": -0.31929
+        },
+        {
+            "company": "Laurus Labs Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00912381,
+            "marketValue": -0.329358
+        },
+        {
+            "company": "Kotak Mahindra Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00914824,
+            "marketValue": -0.33024
+        },
+        {
+            "company": "Infosys Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00916985,
+            "marketValue": -0.33102
+        },
+        {
+            "company": "The Indian Hotels Company Ltd Rights",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00941307,
+            "marketValue": -0.3398
+        },
+        {
+            "company": "Axis Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00956682,
+            "marketValue": -0.34535
+        },
+        {
+            "company": "Reliance Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.00975657,
+            "marketValue": -0.3522
+        },
+        {
+            "company": "JIO Financial Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01009298,
+            "marketValue": -0.364344
+        },
+        {
+            "company": "Bharat Electronics Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01066181,
+            "marketValue": -0.384878
+        },
+        {
+            "company": "The Indian Hotels Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01122837,
+            "marketValue": -0.40533
+        },
+        {
+            "company": "State Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01131635,
+            "marketValue": -0.408506
+        },
+        {
+            "company": "Titan Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01172349,
+            "marketValue": -0.423203
+        },
+        {
+            "company": "RBL Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01590546,
+            "marketValue": -0.574167
+        },
+        {
+            "company": "GAIL (India) Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01622655,
+            "marketValue": -0.585758
+        },
+        {
+            "company": "Exide Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.01934195,
+            "marketValue": -0.69822
+        },
+        {
+            "company": "United Spirits Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.0196613,
+            "marketValue": -0.709748
+        },
+        {
+            "company": "Multi Commodity Exchange Of India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.02198831,
+            "marketValue": -0.79375
+        },
+        {
+            "company": "Tata Power Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.02225087,
+            "marketValue": -0.803228
+        },
+        {
+            "company": "Samvardhana Motherson International Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.02695668,
+            "marketValue": -0.973102
+        },
+        {
+            "company": "Tata Consultancy Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.02910446,
+            "marketValue": -1.050634
+        },
+        {
+            "company": "Tata Technologies Ltd",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03021547,
+            "marketValue": -1.09074
+        },
+        {
+            "company": "Ultratech Cement Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.0317255,
+            "marketValue": -1.14525
+        },
+        {
+            "company": "Tata Elxsi Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03250447,
+            "marketValue": -1.17337
+        },
+        {
+            "company": "Dabur India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03345514,
+            "marketValue": -1.207688
+        },
+        {
+            "company": "Asian Paints Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03379482,
+            "marketValue": -1.21995
+        },
+        {
+            "company": "Cipla Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03453809,
+            "marketValue": -1.246781
+        },
+        {
+            "company": "Tata Consultancy Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03500312,
+            "marketValue": -1.263568
+        },
+        {
+            "company": "Infosys Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03645336,
+            "marketValue": -1.31592
+        },
+        {
+            "company": "HCL Technologies Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.03953491,
+            "marketValue": -1.42716
+        },
+        {
+            "company": "Adani Ports and Special Economic Zone Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.05054863,
+            "marketValue": -1.824741
+        },
+        {
+            "company": "Crompton Greaves Consumer Electricals Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.05551027,
+            "marketValue": -2.00385
+        },
+        {
+            "company": "Godrej Properties Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.05778221,
+            "marketValue": -2.085864
+        },
+        {
+            "company": "Varun Beverages Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.06311085,
+            "marketValue": -2.278221
+        },
+        {
+            "company": "Punjab National Bank",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.08361071,
+            "marketValue": -3.01824
+        },
+        {
+            "company": "Hindustan Unilever Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.08536457,
+            "marketValue": -3.081552
+        },
+        {
+            "company": "Bandhan Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.08556535,
+            "marketValue": -3.0888
+        },
+        {
+            "company": "Hindustan Unilever Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.08882267,
+            "marketValue": -3.206385
+        },
+        {
+            "company": "Pidilite Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.09132151,
+            "marketValue": -3.29659
+        },
+        {
+            "company": "Varun Beverages Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.09282794,
+            "marketValue": -3.35097
+        },
+        {
+            "company": "JIO Financial Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.09867161,
+            "marketValue": -3.561919
+        },
+        {
+            "company": "Indus Towers Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.10269801,
+            "marketValue": -3.707267
+        },
+        {
+            "company": "Mphasis Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.10544453,
+            "marketValue": -3.806413
+        },
+        {
+            "company": "Petronet LNG Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.10704852,
+            "marketValue": -3.864315
+        },
+        {
+            "company": "Steel Authority Of India Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.11086143,
+            "marketValue": -4.001956
+        },
+        {
+            "company": "Tech Mahindra Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.11616145,
+            "marketValue": -4.19328
+        },
+        {
+            "company": "Tata Steel Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.12091226,
+            "marketValue": -4.364778
+        },
+        {
+            "company": "Bajaj Finserv Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.12466314,
+            "marketValue": -4.50018
+        },
+        {
+            "company": "Bajaj Finance Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.12682875,
+            "marketValue": -4.578356
+        },
+        {
+            "company": "Yes Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.13509076,
+            "marketValue": -4.876604
+        },
+        {
+            "company": "Sammaan Capital Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.14142115,
+            "marketValue": -5.105123
+        },
+        {
+            "company": "SBI Life Insurance Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.15638365,
+            "marketValue": -5.64525
+        },
+        {
+            "company": "Britannia Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.15865243,
+            "marketValue": -5.72715
+        },
+        {
+            "company": "Muthoot Finance Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.16347188,
+            "marketValue": -5.901126
+        },
+        {
+            "company": "Marico Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.16826656,
+            "marketValue": -6.074208
+        },
+        {
+            "company": "Eicher Motors Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.1798511,
+            "marketValue": -6.492395
+        },
+        {
+            "company": "Bandhan Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.239763,
+            "marketValue": -8.655138
+        },
+        {
+            "company": "Sammaan Capital Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.24209178,
+            "marketValue": -8.739204
+        },
+        {
+            "company": "Ambuja Cements Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.24848605,
+            "marketValue": -8.970029
+        },
+        {
+            "company": "Eternal Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.27450661,
+            "marketValue": -9.909338
+        },
+        {
+            "company": "Bharti Airtel Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.28577854,
+            "marketValue": -10.31624
+        },
+        {
+            "company": "Titan Company Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.30533269,
+            "marketValue": -11.02212
+        },
+        {
+            "company": "Bank Of Baroda",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.31648242,
+            "marketValue": -11.424611
+        },
+        {
+            "company": "Larsen & Toubro Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.37838949,
+            "marketValue": -13.659377
+        },
+        {
+            "company": "HDFC Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.4339055,
+            "marketValue": -15.663434
+        },
+        {
+            "company": "Trent Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.45658542,
+            "marketValue": -16.48215
+        },
+        {
+            "company": "DLF Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.46145221,
+            "marketValue": -16.657835
+        },
+        {
+            "company": "Mahindra & Mahindra Ltd Warrant",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.50051756,
+            "marketValue": -18.068044
+        },
+        {
+            "company": "Aditya Birla Capital Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.63744612,
+            "marketValue": -23.01099
+        },
+        {
+            "company": "Sammaan Capital Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.63996867,
+            "marketValue": -23.102051
+        },
+        {
+            "company": "Vodafone Idea Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.65720917,
+            "marketValue": -23.724411
+        },
+        {
+            "company": "JIO Financial Services Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.68001774,
+            "marketValue": -24.547771
+        },
+        {
+            "company": "Axis Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.87254544,
+            "marketValue": -31.497775
+        },
+        {
+            "company": "Kotak Mahindra Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -0.8836324,
+            "marketValue": -31.898
+        },
+        {
+            "company": "ICICI Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -1.11429481,
+            "marketValue": -40.224618
+        },
+        {
+            "company": "State Bank of India",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -1.15140255,
+            "marketValue": -41.56416
+        },
+        {
+            "company": "Vodafone Idea Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -1.57811104,
+            "marketValue": -56.967791
+        },
+        {
+            "company": "HDFC Bank Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -2.43158836,
+            "marketValue": -87.777231
+        },
+        {
+            "company": "Bajaj Finance Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -2.59708436,
+            "marketValue": -93.751425
+        },
+        {
+            "company": "Reliance Industries Ltd.",
+            "sector": null,
+            "instrument": null,
+            "rating": null,
+            "corpusPer": -8.49615755,
+            "marketValue": -306.700425
+        }
+    ],
+    "isin": "INF0J8L01040",
+    "lastDeepSyncAt": {
+        "$date": "2026-03-01T19:42:21.619Z"
+    },
+    "lastLightSyncAt": {
+        "$date": "2026-03-01T19:39:42.441Z"
+    },
+    "launchDate": "29-Oct-2021",
+    "lockInPeriod": null,
+    "logoUrl": "https://assets-netstorage.groww.in/mf-assets/logos/nj_groww.png",
+    "minLumpsum": 500,
+    "minSipAmount": 100,
+    "plan": "Direct",
+    "returns": {
+        "ret1d": -0.7,
+        "ret3m": -1.39,
+        "ret6m": -0.77,
+        "ret1y": 8.47,
+        "ret3y": 12.73
+    },
+    "riskStats": null,
+    "schemeName": "NJ Balanced Advantage Fund Direct Growth",
+    "schemeType": "Growth",
+    "sipReturns": null,
+    "stampDuty": "0.005% (from July 1st, 2020)",
+    "subCategory": "Dynamic Asset Allocation",
+    "updatedAt": {
+        "$date": "2026-03-01T19:42:21.620Z"
+    }
+}

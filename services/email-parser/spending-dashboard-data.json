@@ -1,0 +1,1045 @@
+{
+  "generatedAt": "2026-03-02T18:44:53.674Z",
+  "userName": "abhishek12318@gmail.com",
+  "overview": {
+    "totalSpent": 133093.92000000004,
+    "totalOrders": 488,
+    "avgMonthly": 14788.213333333339,
+    "avgOrderValue": 272.7334426229509,
+    "medianOrderValue": 169,
+    "uniqueMerchants": 4,
+    "periodFrom": "2018-01-17T00:00:00.000Z",
+    "periodTo": "2026-03-02T14:25:06.000Z",
+    "periodDays": 2967,
+    "periodMonths": 9,
+    "activeMonths": 9
+  },
+  "healthScore": {
+    "overall": 62,
+    "dimensions": [
+      {
+        "name": "Diversification",
+        "score": 25,
+        "max": 25,
+        "detail": "HHI: 26% concentration"
+      },
+      {
+        "name": "Regularity",
+        "score": 0,
+        "max": 25,
+        "detail": "Avg 6.1 days between orders"
+      },
+      {
+        "name": "Value",
+        "score": 14,
+        "max": 25,
+        "detail": "Median order: Rs 169"
+      },
+      {
+        "name": "Balance",
+        "score": 23,
+        "max": 25,
+        "detail": "47% essential spending"
+      }
+    ],
+    "grade": "Good"
+  },
+  "spendingPersonality": {
+    "type": "The Power User",
+    "emoji": "⚡",
+    "description": "You order with impressive frequency — apps love you.",
+    "traits": [
+      "12.5 orders/week",
+      "6.1 day avg gap"
+    ]
+  },
+  "yourNumbers": [
+    {
+      "icon": "💸",
+      "value": "Rs 8,700",
+      "label": "Biggest Single Order",
+      "detail": "Apple on 7 Feb 2026"
+    },
+    {
+      "icon": "🔄",
+      "value": "156",
+      "label": "Orders from Swiggy",
+      "detail": "That's every 2 days"
+    },
+    {
+      "icon": "📦",
+      "value": "8",
+      "label": "Most Orders in One Day",
+      "detail": "7 Feb 2026"
+    },
+    {
+      "icon": "🌙",
+      "value": "54",
+      "label": "Late Night Orders",
+      "detail": "Rs 19,667 spent after 10 PM"
+    },
+    {
+      "icon": "🏖️",
+      "value": "62",
+      "label": "Longest Order-Free Streak (days)",
+      "detail": "Your best break from ordering"
+    },
+    {
+      "icon": "🍽️",
+      "value": "176",
+      "label": "Unique Items Ordered",
+      "detail": "Across all invoices with line items"
+    }
+  ],
+  "realWorldEquivalents": [
+    {
+      "icon": "🍳",
+      "value": "7",
+      "label": "Months of Home Cooking",
+      "detail": "Your food delivery spend (Rs 43K) at Rs 200/day"
+    },
+    {
+      "icon": "✈️",
+      "value": "27",
+      "label": "Domestic Flights",
+      "detail": "Total spend at Rs 5,000 per flight"
+    },
+    {
+      "icon": "📱",
+      "value": "669",
+      "label": "Netflix Subscriptions",
+      "detail": "At Rs 199/month mobile plan"
+    },
+    {
+      "icon": "🏋️",
+      "value": "89",
+      "label": "Gym Memberships (months)",
+      "detail": "At Rs 1,500/month"
+    }
+  ],
+  "categoryBreakdown": [
+    {
+      "label": "Food Delivery",
+      "color": "#FF6B35",
+      "amount": 42971,
+      "count": 156,
+      "pct": 32.28622314227426,
+      "avgOrder": 275.45512820512823
+    },
+    {
+      "label": "Transport",
+      "color": "#0984E3",
+      "amount": 31954.92,
+      "count": 200,
+      "pct": 24.009301101057048,
+      "avgOrder": 159.7746
+    },
+    {
+      "label": "Grocery",
+      "color": "#00B894",
+      "amount": 30464,
+      "count": 38,
+      "pct": 22.889099667362707,
+      "avgOrder": 801.6842105263158
+    },
+    {
+      "label": "Subscriptions & Apps",
+      "color": "#6C5CE7",
+      "amount": 27704,
+      "count": 94,
+      "pct": 20.81537608930595,
+      "avgOrder": 294.72340425531917
+    }
+  ],
+  "merchantLeaderboard": [
+    {
+      "name": "Swiggy",
+      "amount": 42971,
+      "count": 156,
+      "senderKey": "swiggy",
+      "avgOrder": 275.45512820512823,
+      "pct": 32.28622314227426
+    },
+    {
+      "name": "Uber",
+      "amount": 31954.92,
+      "count": 200,
+      "senderKey": "uber",
+      "avgOrder": 159.7746,
+      "pct": 24.009301101057048
+    },
+    {
+      "name": "Swiggy-instamart",
+      "amount": 30464,
+      "count": 38,
+      "senderKey": "swiggy-instamart",
+      "avgOrder": 801.6842105263158,
+      "pct": 22.889099667362707
+    },
+    {
+      "name": "Apple",
+      "amount": 27704,
+      "count": 94,
+      "senderKey": "apple",
+      "avgOrder": 294.72340425531917,
+      "pct": 20.81537608930595
+    }
+  ],
+  "weekdayPattern": [
+    {
+      "day": "Sunday",
+      "dayShort": "Sun",
+      "amount": 18372.099999999995,
+      "count": 69,
+      "avgOrder": 266.2623188405796
+    },
+    {
+      "day": "Monday",
+      "dayShort": "Mon",
+      "amount": 14456.380000000001,
+      "count": 61,
+      "avgOrder": 236.9898360655738
+    },
+    {
+      "day": "Tuesday",
+      "dayShort": "Tue",
+      "amount": 16148.350000000002,
+      "count": 66,
+      "avgOrder": 244.67196969696974
+    },
+    {
+      "day": "Wednesday",
+      "dayShort": "Wed",
+      "amount": 20284.290000000005,
+      "count": 66,
+      "avgOrder": 307.33772727272736
+    },
+    {
+      "day": "Thursday",
+      "dayShort": "Thu",
+      "amount": 18759.640000000003,
+      "count": 80,
+      "avgOrder": 234.49550000000005
+    },
+    {
+      "day": "Friday",
+      "dayShort": "Fri",
+      "amount": 17724.3,
+      "count": 70,
+      "avgOrder": 253.2042857142857
+    },
+    {
+      "day": "Saturday",
+      "dayShort": "Sat",
+      "amount": 27348.859999999997,
+      "count": 76,
+      "avgOrder": 359.8534210526315
+    }
+  ],
+  "hourlyPattern": [
+    {
+      "hour": 0,
+      "label": "12 AM",
+      "amount": 2488.1,
+      "count": 10
+    },
+    {
+      "hour": 1,
+      "label": "1 AM",
+      "amount": 2297.45,
+      "count": 6
+    },
+    {
+      "hour": 2,
+      "label": "2 AM",
+      "amount": 690.96,
+      "count": 4
+    },
+    {
+      "hour": 3,
+      "label": "3 AM",
+      "amount": 385,
+      "count": 1
+    },
+    {
+      "hour": 4,
+      "label": "4 AM",
+      "amount": 190.98000000000002,
+      "count": 3
+    },
+    {
+      "hour": 5,
+      "label": "5 AM",
+      "amount": 176.09,
+      "count": 1
+    },
+    {
+      "hour": 6,
+      "label": "6 AM",
+      "amount": 56,
+      "count": 1
+    },
+    {
+      "hour": 7,
+      "label": "7 AM",
+      "amount": 0,
+      "count": 0
+    },
+    {
+      "hour": 8,
+      "label": "8 AM",
+      "amount": 0,
+      "count": 0
+    },
+    {
+      "hour": 9,
+      "label": "9 AM",
+      "amount": 470,
+      "count": 2
+    },
+    {
+      "hour": 10,
+      "label": "10 AM",
+      "amount": 1076.57,
+      "count": 4
+    },
+    {
+      "hour": 11,
+      "label": "11 AM",
+      "amount": 1816.2600000000002,
+      "count": 9
+    },
+    {
+      "hour": 12,
+      "label": "12 PM",
+      "amount": 4790.66,
+      "count": 24
+    },
+    {
+      "hour": 13,
+      "label": "1 PM",
+      "amount": 5940.83,
+      "count": 22
+    },
+    {
+      "hour": 14,
+      "label": "2 PM",
+      "amount": 5266.84,
+      "count": 22
+    },
+    {
+      "hour": 15,
+      "label": "3 PM",
+      "amount": 5754.13,
+      "count": 17
+    },
+    {
+      "hour": 16,
+      "label": "4 PM",
+      "amount": 2559.4300000000003,
+      "count": 11
+    },
+    {
+      "hour": 17,
+      "label": "5 PM",
+      "amount": 5100.33,
+      "count": 17
+    },
+    {
+      "hour": 18,
+      "label": "6 PM",
+      "amount": 8317.14,
+      "count": 22
+    },
+    {
+      "hour": 19,
+      "label": "7 PM",
+      "amount": 6489.96,
+      "count": 24
+    },
+    {
+      "hour": 20,
+      "label": "8 PM",
+      "amount": 7409,
+      "count": 20
+    },
+    {
+      "hour": 21,
+      "label": "9 PM",
+      "amount": 5756.29,
+      "count": 19
+    },
+    {
+      "hour": 22,
+      "label": "10 PM",
+      "amount": 4388.05,
+      "count": 16
+    },
+    {
+      "hour": 23,
+      "label": "11 PM",
+      "amount": 9417,
+      "count": 17
+    }
+  ],
+  "monthlyHeatmap": [
+    {
+      "year": 2018,
+      "months": [
+        {
+          "month": 0,
+          "amount": 60,
+          "count": 1
+        },
+        {
+          "month": 1,
+          "amount": 60,
+          "count": 1
+        },
+        {
+          "month": 2,
+          "amount": 60,
+          "count": 1
+        },
+        {
+          "month": 3,
+          "amount": 60,
+          "count": 1
+        },
+        {
+          "month": 4,
+          "amount": 60,
+          "count": 1
+        },
+        {
+          "month": 5,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 6,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 7,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 8,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 9,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 10,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 11,
+          "amount": 0,
+          "count": 0
+        }
+      ],
+      "total": 300
+    },
+    {
+      "year": 2023,
+      "months": [
+        {
+          "month": 0,
+          "amount": 219,
+          "count": 1
+        },
+        {
+          "month": 1,
+          "amount": 219,
+          "count": 1
+        },
+        {
+          "month": 2,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 3,
+          "amount": 75,
+          "count": 1
+        },
+        {
+          "month": 4,
+          "amount": 75,
+          "count": 1
+        },
+        {
+          "month": 5,
+          "amount": 682,
+          "count": 4
+        },
+        {
+          "month": 6,
+          "amount": 244,
+          "count": 2
+        },
+        {
+          "month": 7,
+          "amount": 244,
+          "count": 2
+        },
+        {
+          "month": 8,
+          "amount": 244,
+          "count": 2
+        },
+        {
+          "month": 9,
+          "amount": 244,
+          "count": 2
+        },
+        {
+          "month": 10,
+          "amount": 244,
+          "count": 2
+        },
+        {
+          "month": 11,
+          "amount": 244,
+          "count": 2
+        }
+      ],
+      "total": 2734
+    },
+    {
+      "year": 2024,
+      "months": [
+        {
+          "month": 0,
+          "amount": 819,
+          "count": 7
+        },
+        {
+          "month": 1,
+          "amount": 939,
+          "count": 7
+        },
+        {
+          "month": 2,
+          "amount": 715,
+          "count": 5
+        },
+        {
+          "month": 3,
+          "amount": 268,
+          "count": 2
+        },
+        {
+          "month": 4,
+          "amount": 277,
+          "count": 3
+        },
+        {
+          "month": 5,
+          "amount": 1666,
+          "count": 4
+        },
+        {
+          "month": 6,
+          "amount": 456,
+          "count": 4
+        },
+        {
+          "month": 7,
+          "amount": 268,
+          "count": 2
+        },
+        {
+          "month": 8,
+          "amount": 268,
+          "count": 2
+        },
+        {
+          "month": 9,
+          "amount": 294,
+          "count": 2
+        },
+        {
+          "month": 10,
+          "amount": 294,
+          "count": 2
+        },
+        {
+          "month": 11,
+          "amount": 294,
+          "count": 2
+        }
+      ],
+      "total": 6558
+    },
+    {
+      "year": 2025,
+      "months": [
+        {
+          "month": 0,
+          "amount": 2093,
+          "count": 3
+        },
+        {
+          "month": 1,
+          "amount": 99,
+          "count": 1
+        },
+        {
+          "month": 2,
+          "amount": 99,
+          "count": 1
+        },
+        {
+          "month": 3,
+          "amount": 793,
+          "count": 3
+        },
+        {
+          "month": 4,
+          "amount": 1442,
+          "count": 4
+        },
+        {
+          "month": 5,
+          "amount": 897,
+          "count": 3
+        },
+        {
+          "month": 6,
+          "amount": 99,
+          "count": 1
+        },
+        {
+          "month": 7,
+          "amount": 99,
+          "count": 1
+        },
+        {
+          "month": 8,
+          "amount": 3532.8,
+          "count": 44
+        },
+        {
+          "month": 9,
+          "amount": 12721.269999999999,
+          "count": 49
+        },
+        {
+          "month": 10,
+          "amount": 26901.57,
+          "count": 83
+        },
+        {
+          "month": 11,
+          "amount": 23884.22,
+          "count": 79
+        }
+      ],
+      "total": 72660.86
+    },
+    {
+      "year": 2026,
+      "months": [
+        {
+          "month": 0,
+          "amount": 19816.95,
+          "count": 74
+        },
+        {
+          "month": 1,
+          "amount": 30761.109999999997,
+          "count": 74
+        },
+        {
+          "month": 2,
+          "amount": 263,
+          "count": 1
+        },
+        {
+          "month": 3,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 4,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 5,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 6,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 7,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 8,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 9,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 10,
+          "amount": 0,
+          "count": 0
+        },
+        {
+          "month": 11,
+          "amount": 0,
+          "count": 0
+        }
+      ],
+      "total": 50841.06
+    }
+  ],
+  "whatIfScenarios": [
+    {
+      "name": "Cook at Home",
+      "description": "What if you cooked at home instead of ordering food delivery?",
+      "yourValue": 42971,
+      "hypothetical": 15600,
+      "diff": 27371,
+      "better": false,
+      "framing": "You could save Rs 27,371 by cooking at home (at Rs 100/meal)."
+    },
+    {
+      "name": "Metro Commute",
+      "description": "What if you took the metro/bus instead of ride-hailing?",
+      "yourValue": 31954.92,
+      "hypothetical": 8000,
+      "diff": 23954.92,
+      "better": false,
+      "framing": "Public transport would cost Rs 8,000 vs your Rs 31,955 on rides."
+    },
+    {
+      "name": "SIP Instead",
+      "description": "What if you invested your monthly avg (Rs 14,788) in a SIP at 12% for 10 years?",
+      "yourValue": 1774585.6000000006,
+      "hypothetical": 3435879.8267621193,
+      "diff": 1661294.2267621187,
+      "better": true,
+      "framing": "Rs 14,788/month at 12% CAGR would grow to Rs 34,35,880 in 10 years."
+    },
+    {
+      "name": "Skip Small Orders",
+      "description": "What if you skipped all 278 orders under Rs 200?",
+      "yourValue": 133093.92000000004,
+      "hypothetical": 106943.75000000006,
+      "diff": 26150.169999999987,
+      "better": false,
+      "framing": "278 orders under Rs 200 totalled Rs 26,150 — that's 19.6% of your spending."
+    }
+  ],
+  "insights": [
+    {
+      "key": "brand_loyalty",
+      "category": "behavior",
+      "icon": "💎",
+      "bigNumber": "79%",
+      "title": "Fiercely Loyal",
+      "subtitle": "Your top 3 merchants account for 79% of total spending.",
+      "relevance": 79,
+      "color": {
+        "bg": "#6C5CE7",
+        "fg": "#fff"
+      },
+      "journey": [
+        {
+          "slot": "The Data",
+          "title": "Merchant Concentration",
+          "body": "Swiggy: Rs 42,971 (32.3%)\nUber: Rs 31,955 (24.0%)\nSwiggy-instamart: Rs 30,464 (22.9%)",
+          "highlightValue": "79%"
+        },
+        {
+          "slot": "What This Means",
+          "title": "Concentration risk",
+          "body": "High concentration means you're missing deals from competitors. Try alternatives occasionally."
+        }
+      ]
+    },
+    {
+      "key": "frequency_drift",
+      "category": "trends",
+      "icon": "📈",
+      "bigNumber": "+286%",
+      "title": "Ordering More",
+      "subtitle": "Your ordering frequency increased by 286% in the latter half of the period.",
+      "relevance": 75,
+      "color": {
+        "bg": "#D63031",
+        "fg": "#fff"
+      },
+      "journey": [
+        {
+          "slot": "The Numbers",
+          "title": "Order Velocity",
+          "body": "First half: 17.0 orders/month\nSecond half: 65.7 orders/month",
+          "highlightValue": "+286%"
+        },
+        {
+          "slot": "The Takeaway",
+          "title": "Trend awareness",
+          "body": "Your ordering is accelerating. Set a monthly order budget to stay in control."
+        }
+      ]
+    },
+    {
+      "key": "monthly_range",
+      "category": "trends",
+      "icon": "📉",
+      "bigNumber": "43x",
+      "title": "Monthly Spending Range",
+      "subtitle": "Your spending ranges from Rs 715 to Rs 30,761 per month — a 43x difference.",
+      "relevance": 70,
+      "color": {
+        "bg": "#636E72",
+        "fg": "#fff"
+      }
+    },
+    {
+      "key": "peak_day",
+      "category": "patterns",
+      "icon": "🔥",
+      "bigNumber": "Sat",
+      "title": "Saturday is Your Spending Day",
+      "subtitle": "You spend Rs 27,349 on Saturdays (76 orders). Monday is your lightest at Rs 14,456.",
+      "relevance": 65,
+      "color": {
+        "bg": "#E17055",
+        "fg": "#fff"
+      }
+    },
+    {
+      "key": "order_sizing",
+      "category": "behavior",
+      "icon": "📊",
+      "bigNumber": "Rs 169",
+      "title": "Your Median Order",
+      "subtitle": "366 orders under Rs 300, 103 between Rs 300-1000, and 19 above Rs 1000.",
+      "relevance": 55,
+      "color": {
+        "bg": "#0984E3",
+        "fg": "#fff"
+      },
+      "journey": [
+        {
+          "slot": "Distribution",
+          "title": "Order Size Breakdown",
+          "body": "Under Rs 300: 366 orders (75%)\nRs 300-1000: 103 orders (21%)\nAbove Rs 1000: 19 orders (4%)",
+          "highlightValue": "Rs 169"
+        }
+      ]
+    },
+    {
+      "key": "night_owl",
+      "category": "patterns",
+      "icon": "🌙",
+      "bigNumber": "54",
+      "title": "Night Owl Tax",
+      "subtitle": "54 orders after 10 PM, totalling Rs 19,667. That's 11.1% of all orders.",
+      "relevance": 33,
+      "color": {
+        "bg": "#2D3436",
+        "fg": "#fff"
+      },
+      "journey": [
+        {
+          "slot": "The Data",
+          "title": "After Hours",
+          "body": "54 orders placed between 10 PM and 4 AM.",
+          "highlightValue": "Rs 19,667"
+        },
+        {
+          "slot": "The Insight",
+          "title": "Late night premium",
+          "body": "Late-night orders often carry surge pricing and tend to be impulse decisions. The cost adds up silently."
+        }
+      ]
+    },
+    {
+      "key": "weekend_premium",
+      "category": "patterns",
+      "icon": "📅",
+      "bigNumber": "+24%",
+      "title": "Weekend Premium",
+      "subtitle": "Your weekend orders average Rs 315 vs Rs 255 on weekdays.",
+      "relevance": 24,
+      "color": {
+        "bg": "#FF6B35",
+        "fg": "#fff"
+      },
+      "journey": [
+        {
+          "slot": "The Data",
+          "title": "Weekend vs Weekday",
+          "body": "Weekend avg: Rs 315 | Weekday avg: Rs 255",
+          "highlightValue": "+24%"
+        },
+        {
+          "slot": "Why It Matters",
+          "title": "Spending rhythm",
+          "body": "A significant weekend premium suggests impulse or social spending. Consider setting a weekend budget."
+        }
+      ]
+    }
+  ],
+  "topItems": [
+    {
+      "name": "Suggested fare",
+      "count": 116,
+      "totalSpent": 16514.429999999997,
+      "merchant": "Uber",
+      "avgPrice": 142.36577586206894
+    },
+    {
+      "name": "Promotion",
+      "count": 70,
+      "totalSpent": 249.5800000000001,
+      "merchant": "Uber",
+      "avgPrice": 3.5654285714285727
+    },
+    {
+      "name": "Youtube premium (monthly)",
+      "count": 21,
+      "totalSpent": 3645,
+      "merchant": "Apple",
+      "avgPrice": 173.57142857142858
+    },
+    {
+      "name": "Apple tv+ (automatic renewal) (monthly)",
+      "count": 16,
+      "totalSpent": 1584,
+      "merchant": "Apple",
+      "avgPrice": 99
+    },
+    {
+      "name": "Rajasthani kadhi pakoda with chawal combo",
+      "count": 9,
+      "totalSpent": 1692,
+      "merchant": "Swiggy",
+      "avgPrice": 188
+    },
+    {
+      "name": "Make your own tawa parantha [veg]",
+      "count": 8,
+      "totalSpent": 1084,
+      "merchant": "Swiggy",
+      "avgPrice": 135.5
+    },
+    {
+      "name": "Bumble boost (7 day)",
+      "count": 7,
+      "totalSpent": 1043,
+      "merchant": "Apple",
+      "avgPrice": 149
+    },
+    {
+      "name": "Icloud+ with 50 gb of storage (monthly)",
+      "count": 6,
+      "totalSpent": 450,
+      "merchant": "Apple",
+      "avgPrice": 75
+    },
+    {
+      "name": "Apple tv+ monthly subscription",
+      "count": 6,
+      "totalSpent": 594,
+      "merchant": "Apple",
+      "avgPrice": 99
+    },
+    {
+      "name": "Trip charge",
+      "count": 6,
+      "totalSpent": 6610.4,
+      "merchant": "Uber",
+      "avgPrice": 1101.7333333333333
+    },
+    {
+      "name": "Icloud+ with 50 gb of storage (monthly subscription)",
+      "count": 5,
+      "totalSpent": 375,
+      "merchant": "Apple",
+      "avgPrice": 75
+    },
+    {
+      "name": "Paneer pyaz paratha",
+      "count": 5,
+      "totalSpent": 633,
+      "merchant": "Swiggy",
+      "avgPrice": 126.6
+    },
+    {
+      "name": "Hummus falafel platter",
+      "count": 5,
+      "totalSpent": 1875,
+      "merchant": "Swiggy",
+      "avgPrice": 375
+    },
+    {
+      "name": "Mcd toll",
+      "count": 5,
+      "totalSpent": 500,
+      "merchant": "Uber",
+      "avgPrice": 100
+    },
+    {
+      "name": "Booking fee",
+      "count": 4,
+      "totalSpent": 87,
+      "merchant": "Uber",
+      "avgPrice": 21.75
+    }
+  ],
+  "actionables": [
+    {
+      "icon": "📊",
+      "title": "Set a monthly spending budget",
+      "description": "Your ordering frequency increased 286% recently. A budget can help maintain discipline.",
+      "metadata": "65.7 orders/month now",
+      "score": 80
+    },
+    {
+      "icon": "🌙",
+      "title": "Set a late-night ordering curfew",
+      "description": "54 late-night orders averaging Rs 364. These are often impulse buys.",
+      "metadata": "Rs 20K after 10 PM",
+      "score": 75
+    },
+    {
+      "icon": "🔄",
+      "title": "Explore alternative merchants",
+      "description": "Your top 3 merchants own 79% of your spend. Competitors often have new-user discounts.",
+      "metadata": "Swiggy, Uber, Swiggy-instamart",
+      "score": 70
+    },
+    {
+      "icon": "📦",
+      "title": "Batch your small orders",
+      "description": "278 orders under Rs 200. Batching these with larger orders saves on delivery fees.",
+      "metadata": "57% of orders",
+      "score": 65
+    }
+  ]
+}

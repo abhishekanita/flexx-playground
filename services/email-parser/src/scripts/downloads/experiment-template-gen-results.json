@@ -1,0 +1,1739 @@
+[
+  {
+    "senderId": "swiggy",
+    "senderName": "Swiggy",
+    "emailsFetched": 15,
+    "template": {
+      "merchantName": "Swiggy",
+      "rules": {
+        "date": {
+          "selector": "div.order-id p:contains('Order placed at') > strong",
+          "regex": "(.+)",
+          "transform": "string"
+        },
+        "amount": {
+          "selector": "tr.grand-total > td[style*='padding-right']",
+          "regex": "₹\\s?([\\d,]+\\.?\\d*)",
+          "transform": "currency"
+        },
+        "orderId": {
+          "selector": "div.order-id h5",
+          "regex": "(\\d+)",
+          "transform": "string"
+        },
+        "paymentMethod": {
+          "selector": "tr:has(td:contains('Paid Via')) > td:last-child",
+          "regex": "₹\\s?([\\d,]+\\.?\\d*)|([\\w ]+)",
+          "transform": "string"
+        }
+      },
+      "lineItems": {
+        "containerSelector": "div.order-content table tbody",
+        "itemSelector": "tr:not(.grand-total):not(:has(td:contains('Item Total'))):not(:has(td:contains('Discount Applied'))):not(:has(td:contains('Packaging'))):not(:has(td:contains('Platform Fee'))):not(:has(td:contains('Taxes'))):not(:has(td:contains('Delivery Fee'))):not(:has(td:contains('Paid Via')))",
+        "nameRule": {
+          "selector": "td.small",
+          "regex": null
+        },
+        "priceRule": {
+          "selector": "td:last-child",
+          "regex": "₹\\s?([\\d,]+\\.?\\d*)"
+        },
+        "quantityRule": {
+          "selector": "td:nth-child(2)",
+          "regex": null
+        }
+      }
+    },
+    "templateGenCost": 0.0072208,
+    "templateGenMs": 9209,
+    "comparisons": [
+      {
+        "emailId": "19c9fc107aee6172",
+        "subject": "Your Swiggy Gourmet order was delivered before time",
+        "templateResult": {
+          "date": "Feb 27, 8:13 PM",
+          "amount": 330,
+          "orderId": "231173010982467",
+          "paymentMethod": "330.00",
+          "lineItems": [
+            {
+              "name": "Butter Chicken Thali",
+              "price": 600,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-27",
+          "amount": 330,
+          "merchantName": "Currynama By Seven Seas",
+          "orderId": "231173010982467",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Butter Chicken Thali",
+              "quantity": 1,
+              "price": 600
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 35,
+        "directExtractMs": 1963,
+        "directExtractCost": 0.0010776
+      },
+      {
+        "emailId": "19c99f3fb510f16a",
+        "subject": "Your Swiggy order was delivered before time",
+        "templateResult": {
+          "date": "Feb 26, 5:28 PM",
+          "amount": 229,
+          "orderId": "231076691793313",
+          "paymentMethod": "229.00",
+          "lineItems": [
+            {
+              "name": "Bhuna Chicken Wrap",
+              "price": 348,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-26",
+          "amount": 229,
+          "merchantName": "Being Fit Cafe",
+          "orderId": "231076691793313",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Bhuna Chicken Wrap",
+              "quantity": 1,
+              "price": 348
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 7,
+        "directExtractMs": 2929,
+        "directExtractCost": 0.0010456
+      },
+      {
+        "emailId": "19c9880432a052bd",
+        "subject": "Your Instamart order was successfully delivered",
+        "templateResult": {
+          "date": null,
+          "amount": null,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 0,
+          "fieldsFailed": 4
+        },
+        "directResult": {
+          "date": "2026-02-26",
+          "amount": 887,
+          "merchantName": "Swiggy Instamart",
+          "orderId": "231054135821439",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "Marlboro Fine Touch",
+              "quantity": 1,
+              "price": 120
+            },
+            {
+              "name": "Sesh Pocket Sesh Kit - Rolling Paper Combo Of 6 - Mixing Tray And Papers - Carry Slide Box",
+              "quantity": 1,
+              "price": 250
+            },
+            {
+              "name": "Epigamia Greek Yogurt - Natural",
+              "quantity": 4,
+              "price": 235.2
+            },
+            {
+              "name": "Local Ferment Co. Pineapple & Basil Kombucha",
+              "quantity": 1,
+              "price": 144
+            },
+            {
+              "name": "Strawberry Mahabaleshwar",
+              "quantity": 1,
+              "price": 109
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": false,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 6,
+        "directExtractMs": 3053,
+        "directExtractCost": 0.0012576000000000002
+      },
+      {
+        "emailId": "19c959cee427dd2d",
+        "subject": "Your Swiggy order was delivered on time",
+        "templateResult": {
+          "date": "Feb 25, 8:54 PM",
+          "amount": 229,
+          "orderId": "231002668469652",
+          "paymentMethod": "229.00",
+          "lineItems": [
+            {
+              "name": "Bhuna Chicken Wrap",
+              "price": 348,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-25",
+          "amount": 229,
+          "merchantName": "Being Fit Cafe",
+          "orderId": "231002668469652",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Bhuna Chicken Wrap",
+              "quantity": 1,
+              "price": 348
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 10,
+        "directExtractMs": 1922,
+        "directExtractCost": 0.0010456
+      },
+      {
+        "emailId": "19c8f5ec453939cb",
+        "subject": "Your Swiggy order was delivered superfast",
+        "templateResult": {
+          "date": "Feb 24, 4:26 PM",
+          "amount": 181,
+          "orderId": "230900199082970",
+          "paymentMethod": "181.00",
+          "lineItems": [
+            {
+              "name": "Rajma & Chapati Lunchbox",
+              "price": 189,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-24",
+          "amount": 181,
+          "merchantName": "LunchBox - Meals and Thalis",
+          "orderId": "230900199082970",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Rajma & Chapati Lunchbox",
+              "quantity": 1,
+              "price": 189
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 5,
+        "directExtractMs": 1758,
+        "directExtractCost": 0.0010960000000000002
+      },
+      {
+        "emailId": "19c8e3108048ee25",
+        "subject": "Your Instamart order was successfully delivered",
+        "templateResult": {
+          "date": null,
+          "amount": null,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 0,
+          "fieldsFailed": 4
+        },
+        "directResult": {
+          "date": "2026-02-24",
+          "amount": 2066,
+          "merchantName": "Swiggy Instamart",
+          "orderId": "230880715636088",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "RAW Pressary Coconut Water (200ml - Pack of 6) | No Added Sugar | Not From Concentrate | Nariyal Pani",
+              "quantity": 1,
+              "price": 269
+            },
+            {
+              "name": "Pluckk Frozen Mixed Berries",
+              "quantity": 1,
+              "price": 185
+            },
+            {
+              "name": "Marlboro Fine Touch",
+              "quantity": 1,
+              "price": 120
+            },
+            {
+              "name": "Tata Sampann Pure California Whole Almonds/Badam",
+              "quantity": 1,
+              "price": 263
+            },
+            {
+              "name": "Open Secret High Protein Walnut Kernel (Akhrot) - Premium Dry Fruits, Healthy Snacks",
+              "quantity": 1,
+              "price": 269
+            },
+            {
+              "name": "Nutraj Premium Arabian Dates",
+              "quantity": 1,
+              "price": 113
+            },
+            {
+              "name": "Munch Max Choco Coated Crunchy Wafer Bar",
+              "quantity": 3,
+              "price": 54
+            },
+            {
+              "name": "True Elements Raw Chia Seeds + Raw Pumpkin + Raw Sunflower Seeds + Raw Flax",
+              "quantity": 1,
+              "price": 384
+            },
+            {
+              "name": "Pluckk Frozen Raspberry",
+              "quantity": 1,
+              "price": 294
+            },
+            {
+              "name": "Spinach - Protected Cultivation",
+              "quantity": 1,
+              "price": 17
+            },
+            {
+              "name": "Robusta Banana (Kela)",
+              "quantity": 1,
+              "price": 9
+            },
+            {
+              "name": "Epigamia Greek Yogurt - Natural",
+              "quantity": 1,
+              "price": 60
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": false,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 6043,
+        "directExtractCost": 0.0019168000000000002
+      },
+      {
+        "emailId": "19c8b797b7273382",
+        "subject": "Your Swiggy order was delivered on time",
+        "templateResult": {
+          "date": "Feb 23, 10:08 PM",
+          "amount": 218,
+          "orderId": "230834338710602",
+          "paymentMethod": "218.00",
+          "lineItems": [
+            {
+              "name": "Express Veg Thali",
+              "price": 278,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-23",
+          "amount": 218,
+          "merchantName": "Mealy - Your Everyday Meal",
+          "orderId": "230834338710602",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Express Veg Thali",
+              "quantity": 1,
+              "price": 278
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 4,
+        "directExtractMs": 1705,
+        "directExtractCost": 0.0010872000000000002
+      },
+      {
+        "emailId": "19c89280e04740b2",
+        "subject": "Your Instamart order was successfully delivered",
+        "templateResult": {
+          "date": null,
+          "amount": null,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 0,
+          "fieldsFailed": 4
+        },
+        "directResult": {
+          "date": "2026-02-23",
+          "amount": 747,
+          "merchantName": "Swiggy Instamart",
+          "orderId": "230796683674052",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "Marlboro Fine Touch",
+              "quantity": 1,
+              "price": 120
+            },
+            {
+              "name": "Real Activ Coconut Water - 100% No Added Sugars (Tetra Pack)",
+              "quantity": 1,
+              "price": 87
+            },
+            {
+              "name": "Milkybar Choo Strawberry Flavour Treats",
+              "quantity": 1,
+              "price": 50
+            },
+            {
+              "name": "MAGGI Double Masala Noodles",
+              "quantity": 3,
+              "price": 58.8
+            },
+            {
+              "name": "Robusta Banana (Kela)",
+              "quantity": 1,
+              "price": 35
+            },
+            {
+              "name": "Epigamia Greek Yogurt - Natural",
+              "quantity": 1,
+              "price": 60
+            },
+            {
+              "name": "Imported Blueberry (From Peru)",
+              "quantity": 1,
+              "price": 199
+            },
+            {
+              "name": "Strawberry Mahabaleshwar",
+              "quantity": 1,
+              "price": 109
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": false,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 6650,
+        "directExtractCost": 0.0014656
+      },
+      {
+        "emailId": "19c86c30b1f9ee4f",
+        "subject": "Your Swiggy order was delivered superfast",
+        "templateResult": {
+          "date": "Feb 23, 12:26 AM",
+          "amount": 202,
+          "orderId": "230756187457295",
+          "paymentMethod": "202.00",
+          "lineItems": [
+            {
+              "name": "Badam Kheer (400gm)",
+              "price": 185,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-23",
+          "amount": 202,
+          "merchantName": "EatFit",
+          "orderId": "230756187457295",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Badam Kheer (400gm)",
+              "quantity": 1,
+              "price": 185
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 4,
+        "directExtractMs": 1774,
+        "directExtractCost": 0.0010736
+      },
+      {
+        "emailId": "19c851883eea99f0",
+        "subject": "Your Swiggy order was delivered superfast",
+        "templateResult": {
+          "date": "Feb 22, 4:30 PM",
+          "amount": 194,
+          "orderId": "230727608230117",
+          "paymentMethod": "194.00",
+          "lineItems": [
+            {
+              "name": "Paneer Roll",
+              "price": 284,
+              "quantity": 1
+            },
+            {
+              "price": 20,
+              "quantity": null
+            },
+            {
+              "price": 20,
+              "quantity": null
+            },
+            {
+              "price": 15,
+              "quantity": null
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-22",
+          "amount": 194,
+          "merchantName": "Roll Box",
+          "orderId": "230727608230117",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Paneer Roll",
+              "quantity": 1,
+              "price": 284
+            },
+            {
+              "name": "Olive Oil",
+              "quantity": null,
+              "price": 20
+            },
+            {
+              "name": "Single Egg Omelete",
+              "quantity": null,
+              "price": 20
+            },
+            {
+              "name": "Wheat Base",
+              "quantity": null,
+              "price": 15
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 7,
+        "directExtractMs": 2715,
+        "directExtractCost": 0.0011936
+      },
+      {
+        "emailId": "19c83cbf8f9c0e30",
+        "subject": "Your Instamart order was successfully delivered",
+        "templateResult": {
+          "date": null,
+          "amount": null,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 0,
+          "fieldsFailed": 4
+        },
+        "directResult": {
+          "date": "2026-02-22",
+          "amount": 313,
+          "merchantName": "Swiggy Instamart",
+          "orderId": "230706909097420",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "Marlboro Fine Touch",
+              "quantity": 1,
+              "price": 120
+            },
+            {
+              "name": "Flyer - Laundry Mate",
+              "quantity": 1,
+              "price": 0
+            },
+            {
+              "name": "Epigamia Greek Yogurt - Natural",
+              "quantity": 2,
+              "price": 120
+            },
+            {
+              "name": "Pluckk 100% Natural Tender Coconut Water | No Preservatives | No Concentrates",
+              "quantity": 1,
+              "price": 45
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": false,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 2786,
+        "directExtractCost": 0.0011488000000000002
+      },
+      {
+        "emailId": "19c81427284f8f41",
+        "subject": "Your Swiggy Gourmet order was delivered superfast",
+        "templateResult": {
+          "date": "Feb 21, 10:38 PM",
+          "amount": 308,
+          "orderId": "230663316135908",
+          "paymentMethod": "308.00",
+          "lineItems": [
+            {
+              "name": "Hummus Falafel Platter",
+              "price": 375,
+              "quantity": 1
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-21",
+          "amount": 308,
+          "merchantName": "Tahini by Enoki",
+          "orderId": "230663316135908",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Hummus Falafel Platter",
+              "quantity": 1,
+              "price": 375
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 5,
+        "directExtractMs": 1656,
+        "directExtractCost": 0.0010768
+      },
+      {
+        "emailId": "19c7f17d88b0893b",
+        "subject": "Your Swiggy order was delivered superfast",
+        "templateResult": {
+          "date": "Feb 21, 12:27 PM",
+          "amount": 194,
+          "orderId": "230626664370513",
+          "paymentMethod": "194.00",
+          "lineItems": [
+            {
+              "name": "Paneer Pyaz Paratha",
+              "price": 149,
+              "quantity": 1
+            },
+            {
+              "price": 40,
+              "quantity": null
+            },
+            {
+              "name": "Make Your Own Tandoori Parantha [veg]",
+              "price": 103,
+              "quantity": 1
+            },
+            {
+              "price": 4,
+              "quantity": null
+            }
+          ],
+          "fieldsExtracted": 4,
+          "fieldsFailed": 0
+        },
+        "directResult": {
+          "date": "2026-02-21",
+          "amount": 194,
+          "merchantName": "Nayi Dilli ke Paranthe",
+          "orderId": "230626664370513",
+          "paymentMethod": "Bank",
+          "lineItems": [
+            {
+              "name": "Paneer Pyaz Paratha",
+              "quantity": 1,
+              "price": 149
+            },
+            {
+              "name": "Plain Dahi 100ml",
+              "quantity": null,
+              "price": 40
+            },
+            {
+              "name": "Make Your Own Tandoori Parantha [veg]",
+              "quantity": 1,
+              "price": 103
+            },
+            {
+              "name": "Hari Mirch Achaar [15gm]",
+              "quantity": null,
+              "price": 4
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 10,
+        "directExtractMs": 2768,
+        "directExtractCost": 0.0014272
+      },
+      {
+        "emailId": "19c7a86909caa1b9",
+        "subject": "Your Instamart order was successfully delivered",
+        "templateResult": {
+          "date": null,
+          "amount": null,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 0,
+          "fieldsFailed": 4
+        },
+        "directResult": {
+          "date": "2026-02-20",
+          "amount": 1140,
+          "merchantName": "Swiggy Instamart",
+          "orderId": "230551288659954",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "Marlboro Fine Touch",
+              "quantity": 1,
+              "price": 120
+            },
+            {
+              "name": "Marlboro Gold",
+              "quantity": 1,
+              "price": 340
+            },
+            {
+              "name": "Flyer - Aditya birla w 3",
+              "quantity": 1,
+              "price": 0
+            },
+            {
+              "name": "Fabelle Dessert Collection Minis - Tiramisu, Cheesecake & Banoffee Pie inspired Chocolates",
+              "quantity": 2,
+              "price": 264
+            },
+            {
+              "name": "Marlboro Advance",
+              "quantity": 1,
+              "price": 340
+            },
+            {
+              "name": "Vomikind MD 4mg | For Nausea & Vomiting | Ondansetron",
+              "quantity": 1,
+              "price": 48
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": false,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 7,
+        "directExtractMs": 4273,
+        "directExtractCost": 0.0013440000000000001
+      }
+    ],
+    "accuracy": {
+      "date": 0.6428571428571429,
+      "amount": 0.6428571428571429,
+      "orderId": 0.6428571428571429,
+      "lineItems": 0.6428571428571429,
+      "overall": 0.6428571428571429
+    },
+    "totalDirectCost": 0.017256000000000004
+  },
+  {
+    "senderId": "uber",
+    "senderName": "Uber",
+    "emailsFetched": 15,
+    "template": {
+      "merchantName": "Uber",
+      "rules": {
+        "date": {
+          "selector": ".header .date",
+          "regex": "(\\w+\\s\\d{1,2},\\s\\d{4})",
+          "transform": "date"
+        },
+        "amount": {
+          "selector": ".total-fare-amount",
+          "regex": "₹\\s?([\\d,]+\\.?\\d*)",
+          "transform": "currency"
+        },
+        "orderId": null,
+        "paymentMethod": {
+          "selector": ".payment-item [data-testid^='payments_'] td:first-child",
+          "regex": null,
+          "transform": "string"
+        }
+      },
+      "lineItems": null
+    },
+    "templateGenCost": 0.0229656,
+    "templateGenMs": 2741,
+    "comparisons": [
+      {
+        "emailId": "19c7bd5adb2217e3",
+        "subject": "Your Friday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 20, 2026",
+          "amount": 3610.82,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-20",
+          "amount": 3610.82,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Trip charge",
+              "quantity": null,
+              "price": 3599.34
+            },
+            {
+              "name": "Wait Time",
+              "quantity": null,
+              "price": 11.48
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 12,
+        "directExtractMs": 2170,
+        "directExtractCost": 0.007446400000000001
+      },
+      {
+        "emailId": "19c7aa4523a801c5",
+        "subject": "Your Friday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 20, 2026",
+          "amount": 80,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-20",
+          "amount": 80,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "UPI - 7838237658@paytm",
+          "lineItems": [
+            {
+              "name": "Trip charge",
+              "quantity": null,
+              "price": 80
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 5,
+        "directExtractMs": 3174,
+        "directExtractCost": 0.0076648
+      },
+      {
+        "emailId": "19c7a3691c78d05b",
+        "subject": "Payment Failed - Your Friday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 20, 2026",
+          "amount": 80,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-20",
+          "amount": 80,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash (Failed)",
+          "lineItems": [
+            {
+              "name": "Trip charge",
+              "quantity": null,
+              "price": 80
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 2144,
+        "directExtractCost": 0.007074400000000001
+      },
+      {
+        "emailId": "19c6b093874d4caf",
+        "subject": "Your Tuesday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 17, 2026",
+          "amount": 59.89,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-17",
+          "amount": 59.89,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Suggested fare",
+              "quantity": null,
+              "price": 64.4
+            },
+            {
+              "name": "Promotion discount",
+              "quantity": null,
+              "price": -4.51
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 3732,
+        "directExtractCost": 0.005751200000000001
+      },
+      {
+        "emailId": "19c6a542fcee1c78",
+        "subject": "Your Tuesday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 17, 2026",
+          "amount": 59.89,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-17",
+          "amount": 59.89,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Suggested fare",
+              "quantity": null,
+              "price": 64.4
+            },
+            {
+              "name": "Promotion discount",
+              "quantity": null,
+              "price": -4.51
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 5,
+        "directExtractMs": 1973,
+        "directExtractCost": 0.007038400000000001
+      },
+      {
+        "emailId": "19c66386aed0ccbb",
+        "subject": "Your Monday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 16, 2026",
+          "amount": 62.77,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-16",
+          "amount": 62.77,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Suggested fare",
+              "quantity": null,
+              "price": 67.49
+            },
+            {
+              "name": "Promotion discount",
+              "quantity": null,
+              "price": -4.72
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 4,
+        "directExtractMs": 4527,
+        "directExtractCost": 0.007185600000000001
+      },
+      {
+        "emailId": "19c5c9ea7874bd5d",
+        "subject": "Your Saturday evening trip with Uber",
+        "templateResult": {
+          "date": "Feb 14, 2026",
+          "amount": 47.93,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-14",
+          "amount": 47.93,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": null
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 4,
+        "directExtractMs": 2518,
+        "directExtractCost": 0.0070496000000000005
+      },
+      {
+        "emailId": "19c5c5f8df25f18e",
+        "subject": "Your Saturday evening trip with Uber",
+        "templateResult": {
+          "date": "Feb 14, 2026",
+          "amount": 47.85,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-14",
+          "amount": 47.85,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Suggested fare",
+              "quantity": null,
+              "price": 50.37
+            },
+            {
+              "name": "Promotion discount",
+              "quantity": null,
+              "price": -2.52
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 2366,
+        "directExtractCost": 0.00574
+      },
+      {
+        "emailId": "19c5237d11d67264",
+        "subject": "Your Thursday evening trip with Uber",
+        "templateResult": {
+          "date": "Feb 12, 2026",
+          "amount": 48.74,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-12",
+          "amount": 48.74,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Suggested fare",
+              "quantity": null,
+              "price": 51.31
+            },
+            {
+              "name": "Promotion discount",
+              "quantity": null,
+              "price": -2.57
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 2216,
+        "directExtractCost": 0.007057600000000001
+      },
+      {
+        "emailId": "19c504bc34f8305a",
+        "subject": "Your Thursday morning trip with Uber",
+        "templateResult": {
+          "date": "Feb 12, 2026",
+          "amount": 73.15,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-12",
+          "amount": 73.15,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": null
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 2761,
+        "directExtractCost": 0.0056712
+      },
+      {
+        "emailId": "19c464f85ccbe0c2",
+        "subject": "Your Tuesday afternoon trip with Uber",
+        "templateResult": {
+          "date": "Feb 10, 2026",
+          "amount": 56.17,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-10",
+          "amount": 56.17,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": [
+            {
+              "name": "Suggested fare",
+              "quantity": null,
+              "price": 60.4
+            },
+            {
+              "name": "Promotion discount",
+              "quantity": null,
+              "price": -4.23
+            }
+          ]
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 4,
+        "directExtractMs": 3159,
+        "directExtractCost": 0.005786400000000001
+      },
+      {
+        "emailId": "19c45f4608b4cede",
+        "subject": "Your Tuesday morning trip with Uber",
+        "templateResult": {
+          "date": "Feb 10, 2026",
+          "amount": 75.01,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-10",
+          "amount": 75.01,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": null
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 1780,
+        "directExtractCost": 0.0070784
+      },
+      {
+        "emailId": "19c4320b1c69faa9",
+        "subject": "Your Monday evening trip with Uber",
+        "templateResult": {
+          "date": "Feb 9, 2026",
+          "amount": 50.44,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-09",
+          "amount": 50.44,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": null
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 2193,
+        "directExtractCost": 0.007074400000000001
+      },
+      {
+        "emailId": "19c42c451066be06",
+        "subject": "Your Monday evening trip with Uber",
+        "templateResult": {
+          "date": "Feb 9, 2026",
+          "amount": 53.75,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 2,
+          "fieldsFailed": 1
+        },
+        "directResult": {
+          "date": "2026-02-09",
+          "amount": 53.75,
+          "merchantName": "Uber",
+          "orderId": null,
+          "paymentMethod": "Cash",
+          "lineItems": null
+        },
+        "matches": {
+          "date": true,
+          "amount": true,
+          "orderId": true,
+          "lineItemCount": true
+        },
+        "templateApplyMs": 3,
+        "directExtractMs": 1592,
+        "directExtractCost": 0.0056544
+      }
+    ],
+    "accuracy": {
+      "date": 1,
+      "amount": 1,
+      "orderId": 1,
+      "lineItems": 0.35714285714285715,
+      "overall": 0.8392857142857143
+    },
+    "totalDirectCost": 0.0932728
+  },
+  {
+    "senderId": "apple",
+    "senderName": "Apple",
+    "emailsFetched": 10,
+    "template": {
+      "merchantName": "Apple",
+      "rules": {
+        "date": {
+          "selector": ".billing-information > p.custom-18w16cf",
+          "regex": "([\\d]{1,2} [A-Za-z]+ [\\d]{4})",
+          "transform": "date"
+        },
+        "amount": {
+          "selector": ".payment-information .custom-68yyeh > p.custom-jhluqm",
+          "regex": "₹\\s?([\\d,]+\\.?\\d*)",
+          "transform": "currency"
+        },
+        "orderId": {
+          "selector": ".billing-information > div:nth-child(3) > p.custom-zresjj",
+          "regex": "([A-Z0-9]+)",
+          "transform": "string"
+        },
+        "paymentMethod": null
+      },
+      "lineItems": null
+    },
+    "templateGenCost": 0.0044744,
+    "templateGenMs": 5726,
+    "comparisons": [
+      {
+        "emailId": "19c4543754b6e943",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 99,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2026-02-09",
+          "amount": 99,
+          "merchantName": "Apple",
+          "orderId": "MNTK5NKYX2",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "SuperLiving: Live Quality Life Monthly Subscription (Monthly)",
+              "quantity": 1,
+              "price": 99
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 2266,
+        "directExtractCost": 0.0024176000000000002
+      },
+      {
+        "emailId": "19c38892c2a9a543",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 8700,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2026-02-07",
+          "amount": 8700,
+          "merchantName": "Apple",
+          "orderId": "MNTK5F417Y",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "Apple Developer Program Annual Subscription",
+              "quantity": 1,
+              "price": 8700
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 3354,
+        "directExtractCost": 0.0023656
+      },
+      {
+        "emailId": "19beb87a68355241",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 1199,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2026-01-22",
+          "amount": 1199,
+          "merchantName": "Apple",
+          "orderId": "MNTK3HQ652",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "1 Month Bumble Premium Plus (Monthly)",
+              "quantity": 1,
+              "price": 1199
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 1547,
+        "directExtractCost": 0.002412
+      },
+      {
+        "emailId": "19be655ca4333f9a",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 149,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2026-01-22",
+          "amount": 149,
+          "merchantName": "Apple",
+          "orderId": "MNVGK96ZLW",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "Seekho: Short Learning Videos Monthly Plan (Monthly)",
+              "quantity": 1,
+              "price": 149
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 3076,
+        "directExtractCost": 0.0024096
+      },
+      {
+        "emailId": "19bc2513ebc6cb0c",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 1799,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2026-01-15",
+          "amount": 1799,
+          "merchantName": "Apple",
+          "orderId": "MNTK2LB8XY",
+          "paymentMethod": null,
+          "lineItems": [
+            {
+              "name": "100 GB Annual (Annual)",
+              "quantity": 1,
+              "price": 1799
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 1,
+        "directExtractMs": 1647,
+        "directExtractCost": 0.0024136
+      },
+      {
+        "emailId": "19b62b4b3af58544",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 99,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2025-12-27",
+          "amount": 99,
+          "merchantName": "Apple Distribution International Ltd.",
+          "orderId": "MNTK09NGTJ",
+          "paymentMethod": "7838237658@paytm",
+          "lineItems": [
+            {
+              "name": "Apple TV Monthly Subscription (Renews 28 January 2026)",
+              "quantity": 1,
+              "price": 83.9
+            },
+            {
+              "name": "IGST charged at 18%",
+              "quantity": null,
+              "price": 15.1
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 1,
+        "directExtractMs": 2864,
+        "directExtractCost": 0.0024728
+      },
+      {
+        "emailId": "19ac805fcc9c62da",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 99,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2025-11-27",
+          "amount": 99,
+          "merchantName": "Apple",
+          "orderId": "MNTJWQVKQ0",
+          "paymentMethod": "7838237658@paytm",
+          "lineItems": [
+            {
+              "name": "Apple TV Monthly Subscription",
+              "quantity": 1,
+              "price": 99
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 1,
+        "directExtractMs": 3073,
+        "directExtractCost": 0.002368
+      },
+      {
+        "emailId": "19a2853571e62ade",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 99,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2025-10-27",
+          "amount": 99,
+          "merchantName": "Apple",
+          "orderId": "MNTJS59TD7",
+          "paymentMethod": "UPI",
+          "lineItems": [
+            {
+              "name": "Apple TV+ Monthly subscription",
+              "quantity": 1,
+              "price": 99
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 0,
+        "directExtractMs": 1649,
+        "directExtractCost": 0.002284
+      },
+      {
+        "emailId": "1998d9fca8b0223e",
+        "subject": "Your invoice from Apple.",
+        "templateResult": {
+          "date": null,
+          "amount": 99,
+          "orderId": null,
+          "paymentMethod": null,
+          "lineItems": [],
+          "fieldsExtracted": 1,
+          "fieldsFailed": 2
+        },
+        "directResult": {
+          "date": "2025-09-27",
+          "amount": 99,
+          "merchantName": "Apple Distribution International Ltd.",
+          "orderId": "MNTJLSVF1Z",
+          "paymentMethod": "UPI",
+          "lineItems": [
+            {
+              "name": "Apple TV+ Monthly Subscription",
+              "quantity": null,
+              "price": 99
+            }
+          ]
+        },
+        "matches": {
+          "date": false,
+          "amount": true,
+          "orderId": false,
+          "lineItemCount": false
+        },
+        "templateApplyMs": 2,
+        "directExtractMs": 1890,
+        "directExtractCost": 0.0022984
+      }
+    ],
+    "accuracy": {
+      "date": 0,
+      "amount": 1,
+      "orderId": 0,
+      "lineItems": 0,
+      "overall": 0.25
+    },
+    "totalDirectCost": 0.021441599999999998
+  }
+]

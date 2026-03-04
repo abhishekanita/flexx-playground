@@ -1,0 +1,37 @@
+configId: swiggy/instamart
+version: 1
+
+match:
+  senderDomains: [swiggy.in]
+  subjectPattern: "Instamart"
+  contentType: html
+
+classification:
+  category: consumer_invoice
+  subcategory: grocery
+  senderKey: swiggy-instamart
+  senderDisplayName: Swiggy Instamart
+
+extraction:
+  method: template
+  template:
+    rules:
+      totalAmount:
+        selector: "td[style*='font-weight: bold'] + td span[style*='font-weight: bold']"
+        regex: "₹\\s?([\\d,]+\\.?\\d*)"
+        transform: currency
+        required: true
+    # Line items are tricky in Instamart — the HTML uses inline styles without classes.
+    # Items are in rows like: <td>1 x Product Name ₹price.00</td>
+    # Skipping line items for now — totalAmount is the critical field.
+
+output:
+  targetCollection: invoices
+  mapping:
+    totalAmount: totalAmount
+  deduplication:
+    strategy: amount_date_merchant
+    matchFields: [totalAmount, date, merchantName]
+    tolerances:
+      amountPercent: 0.05
+      dateDays: 1

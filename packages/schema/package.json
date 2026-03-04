@@ -1,0 +1,27 @@
+{
+    "name": "@playground/schema",
+    "version": "1.0.0",
+    "exports": {
+        ".": {
+            "default": "./src/index.ts",
+            "types": "./src/index.ts"
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist",
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint src --ext .ts"
+    },
+    "dependencies": {
+        "@playground/types": "workspace:*"
+    },
+    "peerDependencies": {
+        "mongoose": "^7.0.0 || ^8.0.0"
+    },
+    "devDependencies": {
+        "mongoose": "^8.0.0",
+        "typescript": "5.8.3"
+    }
+}

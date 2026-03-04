@@ -1,0 +1,20 @@
+# Build outputs
+dist
+build
+
+# Dependencies
+node_modules
+
+# Logs
+*.log
+
+# Environment files
+.env*
+!.env.example
+
+# Cache directories
+.cache
+.npm
+
+# Generated files
+package-lock.json

@@ -1,0 +1,95 @@
+# Merchant name normalization
+# Maps raw merchant names (from bank statements, UPI descriptions, etc.) to clean display names
+# Used by MerchantResolver service
+
+aliases:
+  # Food Delivery
+  "BUNDL TECHNOLOGIES": Swiggy
+  "BUNDL TECH": Swiggy
+  "SWIGGY": Swiggy
+  "ZOMATO": Zomato
+  "ZOMATO LTD": Zomato
+  "ZOMATO INDIA": Zomato
+
+  # Transport
+  "UBER INDIA": Uber
+  "UBER INDIA SYSTEMS": Uber
+  "UBER BV": Uber
+  "OLA": Ola
+  "ANI TECHNOLOGIES": Ola
+  "RAPIDO": Rapido
+  "ROPPEN TRANSPORTATION": Rapido
+
+  # E-commerce
+  "AMAZON PAY": Amazon
+  "AMAZON SELLER": Amazon
+  "AMAZON.IN": Amazon
+  "AMAZONPAY": Amazon
+  "FLIPKART": Flipkart
+  "FLIPKART INTERNET": Flipkart
+  "FLIPKART PAYMENTS": Flipkart
+  "MYNTRA DESIGNS": Myntra
+  "MYNTRA": Myntra
+
+  # Grocery
+  "BIGBASKET": BigBasket
+  "SUPERMARKET GROCERY": BigBasket
+  "BLINKIT": Blinkit
+  "GROFERS": Blinkit
+  "ZEPTO": Zepto
+
+  # Subscriptions
+  "APPLE.COM": Apple
+  "APPLE COM BILL": Apple
+  "NETFLIX": Netflix
+  "NETFLIX.COM": Netflix
+  "SPOTIFY": Spotify
+  "SPOTIFY INDIA": Spotify
+  "GOOGLE PLAY": Google Play
+  "GOOGLE": Google
+  "YOUTUBE": YouTube
+
+  # Telecom
+  "JIO": Jio
+  "RELIANCE JIO": Jio
+  "JIO PLATFORMS": Jio
+  "AIRTEL": Airtel
+  "BHARTI AIRTEL": Airtel
+  "VI": Vi
+  "VODAFONE IDEA": Vi
+
+  # Payments / Wallets
+  "PHONEPE": PhonePe
+  "PAYTM": Paytm
+  "ONE97 COMMUNICATIONS": Paytm
+  "RAZORPAY": Razorpay
+  "CRED": CRED
+
+  # Travel
+  "MAKEMYTRIP": MakeMyTrip
+  "GOIBIBO": Goibibo
+  "IRCTC": IRCTC
+  "CLEARTRIP": Cleartrip
+
+  # Fuel
+  "INDIAN OIL": Indian Oil
+  "IOCL": Indian Oil
+  "BPCL": BPCL
+  "HP PETROL": HP
+
+  # Utilities
+  "BESCOM": BESCOM
+  "BBMP": BBMP
+  "BWSSB": BWSSB
+
+  # Health
+  "APOLLO": Apollo
+  "PHARMEASY": PharmEasy
+  "1MG": 1mg
+  "TATA 1MG": 1mg
+  "PRACTO": Practo
+
+  # Education
+  "UDEMY": Udemy
+  "COURSERA": Coursera
+  "UNACADEMY": Unacademy

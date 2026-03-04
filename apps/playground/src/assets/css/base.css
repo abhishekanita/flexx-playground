@@ -1,0 +1,24 @@
+@layer base {
+    * {
+        @apply border-border;
+        min-width: 0;
+        print-color-adjust: exact;
+    }
+
+    html {
+        text-rendering: optimizelegibility;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: 'rlig' 1, 'calt' 1;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    @media print {
+        body {
+            overflow: visible !important;
+        }
+    }
+}

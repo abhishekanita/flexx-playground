@@ -1,0 +1,2062 @@
+{
+  "documentId": "CAMSCASWS-030326112135",
+  "version": "V3.4 Live-1017",
+  "statementPeriod": {
+    "from": "2019-01-01",
+    "to": "2026-03-03"
+  },
+  "investor": {
+    "name": "APURV KAUSHAL",
+    "email": "apurvkaushal@gmail.com",
+    "address": "NANDAN KUMAR SINHA KAUSHAL NIWAASH LAXMAN SAHAY, LANE GOL BAGICHA INFRONT OF SEWAK SADAN GAYA, GAYA BIHAR, GAYA - 823002, BIHAR, INDIA",
+    "mobile": "8447009024",
+    "pan": "DWAPK6447L"
+  },
+  "portfolioSummary": [
+    {
+      "fundHouse": "Bandhan Mutual Fund",
+      "costValue": 15000,
+      "marketValue": 24062.38
+    },
+    {
+      "fundHouse": "ICICI Prudential Mutual Fund",
+      "costValue": 420000,
+      "marketValue": 425834.49
+    },
+    {
+      "fundHouse": "PPFAS Mutual Fund",
+      "costValue": 425000,
+      "marketValue": 425427.43
+    },
+    {
+      "fundHouse": "SBI Mutual Fund",
+      "costValue": 155000,
+      "marketValue": 181321.04
+    },
+    {
+      "fundHouse": "DSP Mutual Fund",
+      "costValue": 230000,
+      "marketValue": 235457.87
+    },
+    {
+      "fundHouse": "Aditya Birla Sun Life Mutual Fund",
+      "costValue": 50000,
+      "marketValue": 85880.56
+    },
+    {
+      "fundHouse": "HDFC Mutual Fund",
+      "costValue": 610000,
+      "marketValue": 654968.6
+    },
+    {
+      "fundHouse": "Quant MF",
+      "costValue": 470000,
+      "marketValue": 505190.4
+    },
+    {
+      "fundHouse": "AXIS Mutual Fund",
+      "costValue": 100000,
+      "marketValue": 100932.52
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "costValue": 525000,
+      "marketValue": 522349.86
+    }
+  ],
+  "totalCostValue": 3000000,
+  "totalMarketValue": 3161425.14,
+  "folios": [
+    {
+      "fundHouse": "Aditya Birla Sun Life Mutual Fund",
+      "folioNumber": "1049295037",
+      "scheme": {
+        "schemeName": "Aditya Birla Sun Life Gold Fund Growth-Direct Plan (Non-Demat)",
+        "scheme_code": "B916GZ",
+        "isin": "INF209K01YU5",
+        "current_name": "Aditya Birla Sun Life Gold Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "For Redemption / Switch out of units within 15 days from the date of allotment: 1.00% of applicable NAV. For Redemption / Switch out of units after 15 days from the\ndate of allotment: Nil.Note: The exit load rate levied at the time of redemption/switch-out of units will be the rate prevailing at the time of allotment of the\ncorresponding units. Customers may request for a separate Exit Load Applicability Report by calling our toll free numbers 1800-270-7000 or from any of our Investor\nService Centers. Important note - The last date to link Aadhaar and Permanent Account Number (PAN) has been extended by the government until 31 March 2023.\nKindly link your Aadhar to your PAN prior to the aforesaid deadline to avoid for higher TDS on your income distribution or capital withdrawals. Future transactions\nmay also be restricted. For more details, please visit income tax portal. Kindly ignore if your PAN is already linked to Aadhaar. \"Please ensure that your account\ninformation is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc.\nkindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1704.375,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 50.3883,
+        "totalCostValue": 50000,
+        "marketValue": 85880.56
+      },
+      "transactions": [
+        {
+          "date": "2025-04-23",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 49997.5,
+          "nav": 29.3348,
+          "units": 1704.375,
+          "unitBalanceAfter": 1704.375,
+          "stampDuty": 2.5
+        }
+      ],
+      "stampDutyTotal": 2.5,
+      "loadInfo": "For Redemption / Switch out of units within 15 days from the date of allotment: 1.00% of applicable NAV. For Redemption / Switch out of units after 15 days from the\ndate of allotment: Nil.Note: The exit load rate levied at the time of redemption/switch-out of units will be the rate prevailing at the time of allotment of the\ncorresponding units. Customers may request for a separate Exit Load Applicability Report by calling our toll free numbers 1800-270-7000 or from any of our Investor\nService Centers. Important note - The last date to link Aadhaar and Permanent Account Number (PAN) has been extended by the government until 31 March 2023.\nKindly link your Aadhar to your PAN prior to the aforesaid deadline to avoid for higher TDS on your income distribution or capital withdrawals. Future transactions\nmay also be restricted. For more details, please visit income tax portal. Kindly ignore if your PAN is already linked to Aadhaar. \"Please ensure that your account\ninformation is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc.\nkindly update them immediately.\""
+    },
+    {
+      "fundHouse": "AXIS Mutual Fund",
+      "folioNumber": "910214655336 / 0",
+      "scheme": {
+        "schemeName": "Axis Ultra Short Duration Fund - Direct Growth",
+        "scheme_code": "128USDGG",
+        "isin": "INF846K01F40",
+        "current_name": "Axis Ultra Short Duration Fund - Direct",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry load : Nil. Exit load: Nil--Please note :Axis Ultra Short Term Fund Name change as Axis Ultra Short Duration Fund w.e.f 30/09/2024.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "",
+        "nominees": [
+          "JYOTI SINHA ."
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 6192.331,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 16.2996,
+        "totalCostValue": 100000,
+        "marketValue": 100932.52
+      },
+      "transactions": [
+        {
+          "date": "2026-01-01",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 99995,
+          "nav": 16.1482,
+          "units": 6192.331,
+          "unitBalanceAfter": 6192.331,
+          "stampDuty": 5
+        }
+      ],
+      "stampDutyTotal": 5,
+      "loadInfo": "Entry load : Nil. Exit load: Nil--Please note :Axis Ultra Short Term Fund Name change as Axis Ultra Short Duration Fund w.e.f 30/09/2024."
+    },
+    {
+      "fundHouse": "Bandhan Mutual Fund",
+      "folioNumber": "3862376 / 07",
+      "scheme": {
+        "schemeName": "Bandhan ELSS Tax saver Fund-Direct Plan-Growth (Non-Demat)",
+        "scheme_code": "GD223",
+        "isin": "INF194K01Y29",
+        "current_name": "Bandhan ELSS Tax saver Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load and Exit Load-Nil. All the investments in this Scheme are under ELSS. Units are under lock-in period of 3 Years from the date of investment. Please refer\nthe Offer Document / Addendum issued from time to time for any change in load structure. \"Please ensure that your account information is up to date. If there are\nany changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 136.559,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 176.205,
+        "totalCostValue": 15000,
+        "marketValue": 24062.38
+      },
+      "transactions": [
+        {
+          "date": "2023-02-27",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 109.837,
+          "units": 136.559,
+          "unitBalanceAfter": 136.559,
+          "stampDuty": 0.75
+        }
+      ],
+      "stampDutyTotal": 0.75,
+      "loadInfo": "Entry Load and Exit Load-Nil. All the investments in this Scheme are under ELSS. Units are under lock-in period of 3 Years from the date of investment. Please refer\nthe Offer Document / Addendum issued from time to time for any change in load structure. \"Please ensure that your account information is up to date. If there are\nany changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "DSP Mutual Fund",
+      "folioNumber": "9761488 / 30",
+      "scheme": {
+        "schemeName": "DSP Nifty Next 50 Index Fund - Dir - Growth (Non-Demat)",
+        "scheme_code": "D869",
+        "isin": "INF740KA1MG9",
+        "current_name": "DSP Nifty Next 50 Index Fund - Dir",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Exit Load: Nil. \"Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation,\nincome, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 8682.587,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 27.1184,
+        "totalCostValue": 230000,
+        "marketValue": 235457.87
+      },
+      "transactions": [
+        {
+          "date": "2024-11-27",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 27.5488,
+          "units": 362.974,
+          "unitBalanceAfter": 362.974,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-01-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 27.0915,
+          "units": 369.101,
+          "unitBalanceAfter": 732.075,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-02-03",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 24.5608,
+          "units": 407.133,
+          "unitBalanceAfter": 1139.208,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-03-03",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 22.635,
+          "units": 441.772,
+          "unitBalanceAfter": 1580.98,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-04-03",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 24.7801,
+          "units": 403.529,
+          "unitBalanceAfter": 1984.509,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-05-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 25.3002,
+          "units": 395.234,
+          "unitBalanceAfter": 2379.743,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-06-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 9999.5,
+          "nav": 26.3346,
+          "units": 379.71,
+          "unitBalanceAfter": 2759.453,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-07-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 27.0202,
+          "units": 740.15,
+          "unitBalanceAfter": 3499.603,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-08-04",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 26.3668,
+          "units": 758.492,
+          "unitBalanceAfter": 4258.095,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-09-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 26.4422,
+          "units": 756.329,
+          "unitBalanceAfter": 5014.424,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-10-03",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 26.963,
+          "units": 741.72,
+          "unitBalanceAfter": 5756.144,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-11-03",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 27.8162,
+          "units": 718.97,
+          "unitBalanceAfter": 6475.114,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-12-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 27.3006,
+          "units": 732.548,
+          "unitBalanceAfter": 7207.662,
+          "stampDuty": 1
+        },
+        {
+          "date": "2026-01-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 27.7931,
+          "units": 719.567,
+          "unitBalanceAfter": 7927.229,
+          "stampDuty": 1
+        },
+        {
+          "date": "2026-02-02",
+          "type": "SIP",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 26.4762,
+          "units": 755.358,
+          "unitBalanceAfter": 8682.587,
+          "stampDuty": 1
+        }
+      ],
+      "stampDutyTotal": 11.5,
+      "loadInfo": "Exit Load: Nil. \"Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation,\nincome, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "HDFC Mutual Fund",
+      "folioNumber": "35634267 / 26",
+      "scheme": {
+        "schemeName": "HDFC Arbitrage Fund - Wholesale Plan - Growth - Direct Plan (Demat)",
+        "scheme_code": "HAFWGT",
+        "isin": "INF179KA1KT6",
+        "current_name": "HDFC Arbitrage Fund - Wholesale Plan",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "*Due to change in fundamental attributes of the Scheme w.e.f. May 23, 2018, the type of the Scheme has been changed to an open-ended scheme investing in\narbitrage\nopportunities - Current Load Structure : Entry Load: Not Applicable; Exit Load : In respect of each purchase/switch-in of units from allotment date, 0.25% if units are\nredeemed/swtiched-out within 1 month; No Exit Load if units are redeemed /switched-out after 1 month. Applicable for the subscriptions made w.e.f. 15-June-2015.\nThe rate of exit load levied on units redeemed/switched-out will be the rate prevailing at the time of allotment of the units. For further details visit\nwww.hdfcfund.com (under Investor Corner) or contact any of our Investor Service Centre. GST Identification Number : 27AAATH1809A1Z9. \"Please ensure that your\naccount information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information\netc. kindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 24032.638,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 21.044,
+        "totalCostValue": 500000,
+        "marketValue": 505742.83
+      },
+      "transactions": [
+        {
+          "date": "2025-12-31",
+          "type": "Purchase",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 20.804,
+          "units": 480.653,
+          "unitBalanceAfter": 480.653,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-12-31",
+          "type": "Purchase",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 489975.5,
+          "nav": 20.804,
+          "units": 23551.985,
+          "unitBalanceAfter": 24032.638,
+          "stampDuty": 24.5
+        }
+      ],
+      "stampDutyTotal": 25,
+      "loadInfo": "*Due to change in fundamental attributes of the Scheme w.e.f. May 23, 2018, the type of the Scheme has been changed to an open-ended scheme investing in\narbitrage\nopportunities - Current Load Structure : Entry Load: Not Applicable; Exit Load : In respect of each purchase/switch-in of units from allotment date, 0.25% if units are\nredeemed/swtiched-out within 1 month; No Exit Load if units are redeemed /switched-out after 1 month. Applicable for the subscriptions made w.e.f. 15-June-2015.\nThe rate of exit load levied on units redeemed/switched-out will be the rate prevailing at the time of allotment of the units. For further details visit\nwww.hdfcfund.com (under Investor Corner) or contact any of our Investor Service Centre. GST Identification Number : 27AAATH1809A1Z9. \"Please ensure that your\naccount information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information\netc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "HDFC Mutual Fund",
+      "folioNumber": "35634267 / 26",
+      "scheme": {
+        "schemeName": "HDFC Gold ETF Fund of Fund - Direct Plan - Growth Option (Demat)",
+        "scheme_code": "HGFOFT",
+        "isin": "INF179K01VX0",
+        "current_name": "HDFC Gold ETF Fund of Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "*Due to change in fundamental attributes of the Scheme w.e.f. May 16, 2018, the type of the Scheme has been changed to an Open-ended Fund of Fund Scheme\ninvesting in HDFC Gold ETF Fund of Fund. An Exit Load of 1% is applicable if Units are redeemed / switched-out within 15days. No Exit Load is applicable if the Units\nare redeemed / switched-out after 15 days from the date of allotment. The rate of exit load levied on units redeemed will be the rate prevailing at the time of\nallotment of the units. For further details visit www.hdfcfund.com (under Investor Corner) or contact any of our Investor Service Centre. GST Identification Number :\n27AAATH1809A1Z9 \"Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation,\nincome, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 2862.427,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 52.1326,
+        "totalCostValue": 110000,
+        "marketValue": 149225.76
+      },
+      "transactions": [
+        {
+          "date": "2025-06-16",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 31.368,
+          "units": 318.78,
+          "unitBalanceAfter": 318.78,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-07-21",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 30.9861,
+          "units": 322.709,
+          "unitBalanceAfter": 641.489,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-08-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 31.0792,
+          "units": 321.743,
+          "unitBalanceAfter": 963.232,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-09-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 34.4412,
+          "units": 290.335,
+          "unitBalanceAfter": 1253.567,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-10-20",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 39.8184,
+          "units": 251.128,
+          "unitBalanceAfter": 1504.695,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-11-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 38.5054,
+          "units": 259.691,
+          "unitBalanceAfter": 1764.386,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-12-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 41.4322,
+          "units": 241.346,
+          "unitBalanceAfter": 2005.732,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2026-01-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 45.5749,
+          "units": 438.816,
+          "unitBalanceAfter": 2444.548,
+          "stampDuty": 1
+        },
+        {
+          "date": "2026-02-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 47.8583,
+          "units": 417.879,
+          "unitBalanceAfter": 2862.427,
+          "stampDuty": 1
+        }
+      ],
+      "stampDutyTotal": 5.5,
+      "loadInfo": "*Due to change in fundamental attributes of the Scheme w.e.f. May 16, 2018, the type of the Scheme has been changed to an Open-ended Fund of Fund Scheme\ninvesting in HDFC Gold ETF Fund of Fund. An Exit Load of 1% is applicable if Units are redeemed / switched-out within 15days. No Exit Load is applicable if the Units\nare redeemed / switched-out after 15 days from the date of allotment. The rate of exit load levied on units redeemed will be the rate prevailing at the time of\nallotment of the units. For further details visit www.hdfcfund.com (under Investor Corner) or contact any of our Investor Service Centre. GST Identification Number :\n27AAATH1809A1Z9 \"Please ensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation,\nincome, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "ICICI Prudential Mutual Fund",
+      "folioNumber": "28280933 / 94",
+      "scheme": {
+        "schemeName": "ICICI Prudential Savings Fund - Direct Plan - Growth (formerly ICICI Prudential Mutual Fund - Flexible Income Plan) (Non-Demat)",
+        "scheme_code": "P8086",
+        "isin": "INF109K01O82",
+        "current_name": "ICICI Prudential Savings Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Current : Entry & Exit Load - Nil. For lumpsum investment/switch in, the applicable load will be based on the load structure as on the date of investment/applicable\nNAV date. For SIP/STP transactions, load for each transaction is based on the applicable load structure as on the registration date. For details, please refer to SID and\nAddenda available on www.icicipruamc.com.\nScheme Name of ICICI Prudential Mutual Fund - Flexible Income Plan has been changed to ICICI Prudential Savings Fund with effect from May 28, 2018. \"Please ensure\nthat your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS\ninformation etc. kindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 38.043,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 575.7505,
+        "totalCostValue": 20000,
+        "marketValue": 21903.28
+      },
+      "transactions": [
+        {
+          "date": "2024-11-26",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": "INZ000208032",
+          "amount": 19999,
+          "nav": 525.6937,
+          "units": 38.043,
+          "unitBalanceAfter": 38.043,
+          "stampDuty": 1
+        }
+      ],
+      "stampDutyTotal": 1,
+      "loadInfo": "Current : Entry & Exit Load - Nil. For lumpsum investment/switch in, the applicable load will be based on the load structure as on the date of investment/applicable\nNAV date. For SIP/STP transactions, load for each transaction is based on the applicable load structure as on the registration date. For details, please refer to SID and\nAddenda available on www.icicipruamc.com.\nScheme Name of ICICI Prudential Mutual Fund - Flexible Income Plan has been changed to ICICI Prudential Savings Fund with effect from May 28, 2018. \"Please ensure\nthat your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS\ninformation etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "ICICI Prudential Mutual Fund",
+      "folioNumber": "42220641 / 95",
+      "scheme": {
+        "schemeName": "ICICI Prudential Liquid Fund - Direct Plan - Growth (formerly ICICI Prudential Liquid Plan) (Demat)",
+        "scheme_code": "P8096",
+        "isin": "INF109K01Q49",
+        "current_name": "ICICI Prudential Liquid Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Current: Entry Load - Nil. Exit Load w.e.f 20-Oct-2019 - If redeemed or switched out from Day1 - 0.0070% ; Day2 - 0.0065% ; Day3 - 0.0060% ; Day4 - 0.0055% ; Day5 -\n0.0050% ; Day6 - 0.0045% and Day7 onwards Nil. (Calendar Days). For lumpsum investment/switch in, the applicable load will be based on the load structure as on the\ndate of investment/applicable NAV date. For SIP/STP transactions, load for each transaction is based on the applicable load structure as on the installment date. For\ndetails, please refer to SID and Addenda available on www.icicipruamc.com.\nScheme Name of ICICI Prudential Liquid Plan has been changed to ICICI Prudential Liquid Fund with effect from May 28, 2018. \"Please ensure that your account\ninformation is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc.\nkindly update them immediately.\"",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 995.477,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 405.7665,
+        "totalCostValue": 400000,
+        "marketValue": 403931.22
+      },
+      "transactions": [
+        {
+          "date": "2025-12-31",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000208032",
+          "amount": 399980,
+          "nav": 401.7972,
+          "units": 995.477,
+          "unitBalanceAfter": 995.477,
+          "stampDuty": 20
+        }
+      ],
+      "stampDutyTotal": 20,
+      "loadInfo": "Current: Entry Load - Nil. Exit Load w.e.f 20-Oct-2019 - If redeemed or switched out from Day1 - 0.0070% ; Day2 - 0.0065% ; Day3 - 0.0060% ; Day4 - 0.0055% ; Day5 -\n0.0050% ; Day6 - 0.0045% and Day7 onwards Nil. (Calendar Days). For lumpsum investment/switch in, the applicable load will be based on the load structure as on the\ndate of investment/applicable NAV date. For SIP/STP transactions, load for each transaction is based on the applicable load structure as on the installment date. For\ndetails, please refer to SID and Addenda available on www.icicipruamc.com.\nScheme Name of ICICI Prudential Liquid Plan has been changed to ICICI Prudential Liquid Fund with effect from May 28, 2018. \"Please ensure that your account\ninformation is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc.\nkindly update them immediately.\""
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "folioNumber": "477379351132 / 0",
+      "scheme": {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT GROWTH PLAN GROWTH OPTION",
+        "scheme_code": "RMFEAAGG",
+        "isin": "INF204K01XI3",
+        "current_name": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "For subscriptions received w.e.f. May 22nd, 2020, 1% exit load shall be applicable for units redeemed on or before completion of 7 days from the date of allotment of\nunits.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to May 22nd, 2020, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1911.835,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 101.8541,
+        "totalCostValue": 190000,
+        "marketValue": 194728.23
+      },
+      "transactions": [
+        {
+          "date": "2024-11-27",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 97.2127,
+          "units": 102.862,
+          "unitBalanceAfter": 102.862,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-01-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 97.5681,
+          "units": 102.487,
+          "unitBalanceAfter": 205.349,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-02-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 92.4237,
+          "units": 108.192,
+          "unitBalanceAfter": 313.541,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-03-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 86.983,
+          "units": 114.959,
+          "unitBalanceAfter": 428.5,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-04-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 92.2243,
+          "units": 108.426,
+          "unitBalanceAfter": 536.926,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-05-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 95.9389,
+          "units": 104.228,
+          "unitBalanceAfter": 641.154,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-06-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 99.2736,
+          "units": 100.727,
+          "unitBalanceAfter": 741.881,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-07-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 101.8391,
+          "units": 196.378,
+          "unitBalanceAfter": 938.259,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-08-04",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 100.2779,
+          "units": 199.436,
+          "unitBalanceAfter": 1137.695,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-09-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 100.9907,
+          "units": 198.028,
+          "unitBalanceAfter": 1335.723,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-10-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 102.3835,
+          "units": 195.334,
+          "unitBalanceAfter": 1531.057,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-11-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 104.8494,
+          "units": 190.74,
+          "unitBalanceAfter": 1721.797,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-12-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 105.2367,
+          "units": 190.038,
+          "unitBalanceAfter": 1911.835,
+          "stampDuty": 1
+        }
+      ],
+      "stampDutyTotal": 9.5,
+      "loadInfo": "For subscriptions received w.e.f. May 22nd, 2020, 1% exit load shall be applicable for units redeemed on or before completion of 7 days from the date of allotment of\nunits.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to May 22nd, 2020, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date."
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "folioNumber": "477379353723 / 0",
+      "scheme": {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT GROWTH PLAN GROWTH OPTION",
+        "scheme_code": "RMFSCAGG",
+        "isin": "INF204K01K15",
+        "current_name": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units redeemed on or before completion of one year from the date of allotment\nof units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 999.181,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 179.5044,
+        "totalCostValue": 185000,
+        "marketValue": 179357.39
+      },
+      "transactions": [
+        {
+          "date": "2024-11-27",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 194.8871,
+          "units": 25.655,
+          "unitBalanceAfter": 25.655,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-01-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 197.4485,
+          "units": 50.644,
+          "unitBalanceAfter": 76.299,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-02-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 174.5957,
+          "units": 57.272,
+          "unitBalanceAfter": 133.571,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-03-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 154.9158,
+          "units": 64.548,
+          "unitBalanceAfter": 198.119,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-04-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 169.7834,
+          "units": 58.896,
+          "unitBalanceAfter": 257.015,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-05-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 172.5195,
+          "units": 57.962,
+          "unitBalanceAfter": 314.977,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-06-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 186.5134,
+          "units": 53.613,
+          "unitBalanceAfter": 368.59,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-07-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 193.5857,
+          "units": 103.308,
+          "unitBalanceAfter": 471.898,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-08-04",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 189.2208,
+          "units": 105.691,
+          "unitBalanceAfter": 577.589,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-09-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 187.8048,
+          "units": 106.488,
+          "unitBalanceAfter": 684.077,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-10-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 189.0205,
+          "units": 105.803,
+          "unitBalanceAfter": 789.88,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-11-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 193.607,
+          "units": 103.297,
+          "unitBalanceAfter": 893.177,
+          "stampDuty": 1
+        },
+        {
+          "date": "2025-12-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 19999,
+          "nav": 188.6621,
+          "units": 106.004,
+          "unitBalanceAfter": 999.181,
+          "stampDuty": 1
+        }
+      ],
+      "stampDutyTotal": 9.25,
+      "loadInfo": "For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units redeemed on or before completion of one year from the date of allotment\nof units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date."
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "folioNumber": "488462295872 / 0",
+      "scheme": {
+        "schemeName": "NIPPON INDIA LARGE CAP FUND - DIRECT GROWTH PLAN GROWTH OPTION",
+        "scheme_code": "RMFEAAGG",
+        "isin": "INF204K01XI3",
+        "current_name": "NIPPON INDIA LARGE CAP FUND - DIRECT PLAN OPTION",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "For subscriptions received w.e.f. May 22nd, 2020, 1% exit load shall be applicable for units redeemed on or before completion of 7 days from the date of allotment of\nunits.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to May 22nd, 2020, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "",
+        "nominees": [
+          "JYOTI SINHA ."
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1117.534,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 101.8541,
+        "totalCostValue": 115000,
+        "marketValue": 113825.42
+      },
+      "transactions": [
+        {
+          "date": "2026-01-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 34998.25,
+          "nav": 106.1272,
+          "units": 329.776,
+          "unitBalanceAfter": 329.776,
+          "stampDuty": 1.75
+        },
+        {
+          "date": "2026-02-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 39998,
+          "nav": 101.2456,
+          "units": 395.059,
+          "unitBalanceAfter": 724.835,
+          "stampDuty": 2
+        },
+        {
+          "date": "2026-03-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 39998,
+          "nav": 101.8541,
+          "units": 392.699,
+          "unitBalanceAfter": 1117.534,
+          "stampDuty": 2
+        }
+      ],
+      "stampDutyTotal": 5.75,
+      "loadInfo": "For subscriptions received w.e.f. May 22nd, 2020, 1% exit load shall be applicable for units redeemed on or before completion of 7 days from the date of allotment of\nunits.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to May 22nd, 2020, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date."
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "folioNumber": "488462295872 / 0",
+      "scheme": {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT GROWTH PLAN GROWTH OPTION",
+        "scheme_code": "RMFSCAGG",
+        "isin": "INF204K01K15",
+        "current_name": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units redeemed on or before completion of one year from the date of allotment\nof units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "",
+        "nominees": [
+          "JYOTI SINHA ."
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 191.855,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 179.5044,
+        "totalCostValue": 35000,
+        "marketValue": 34438.82
+      },
+      "transactions": [
+        {
+          "date": "2026-01-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 188.2703,
+          "units": 79.669,
+          "unitBalanceAfter": 79.669,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2026-02-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 177.0445,
+          "units": 56.48,
+          "unitBalanceAfter": 136.149,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2026-03-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 179.5044,
+          "units": 55.706,
+          "unitBalanceAfter": 191.855,
+          "stampDuty": 0.5
+        }
+      ],
+      "stampDutyTotal": 1.75,
+      "loadInfo": "For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units redeemed on or before completion of one year from the date of allotment\nof units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date."
+    },
+    {
+      "fundHouse": "PPFAS Mutual Fund",
+      "folioNumber": "15761270",
+      "scheme": {
+        "schemeName": "",
+        "scheme_code": "",
+        "isin": "",
+        "current_name": "",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Exit Load:\nInvestors are requested to note that with effect from November 15, 2021, all new/prospective investments (including SIP/STP and SWP registered) in respect of each\npurchase / switch-in of units, 10% of the units may be redeemed without any exit load from the date of allotment made on or after the aforesaid effective date.\nPlease refer Notice cum addendum dated November 11, 2021 available on website https://amc.ppfas.com/downloads/addendum/\nAny redemption or switch out in excess of the aforesaid limit shall be subject to the following exit load :\nExit Load of 2% is applicable, if Units are redeemed/switched-out on or before 365 days from the date of allotment, 1% if redeemed/Switched-out after 365 days but\non or before 730 days from the date allotment and thereafter there is no exit load. \"Effective from July 01, 2020, stamp duty @ 0.005% will be deducted from the Net\ninvestment amount. Units will be allotted for the balance amount. \"Please ensure that your account information is up to date. If there are any changes to your KYC\ndetails like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": ""
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 3488.629,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 91.422,
+        "totalCostValue": 315000,
+        "marketValue": 318937.44
+      },
+      "transactions": [
+        {
+          "date": "2024-10-03",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 87.4673,
+          "units": 171.484,
+          "unitBalanceAfter": 171.484,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 86.7847,
+          "units": 172.833,
+          "unitBalanceAfter": 344.317,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-09",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 88.7982,
+          "units": 168.914,
+          "unitBalanceAfter": 513.231,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 87.3422,
+          "units": 171.73,
+          "unitBalanceAfter": 684.961,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-02-10",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 86.8683,
+          "units": 172.667,
+          "unitBalanceAfter": 857.628,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-03-10",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 83.337,
+          "units": 179.983,
+          "unitBalanceAfter": 1037.611,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-04-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 82.6208,
+          "units": 181.543,
+          "unitBalanceAfter": 1219.154,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-05-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 87.831,
+          "units": 170.774,
+          "unitBalanceAfter": 1389.928,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-06-09",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 91.8572,
+          "units": 163.289,
+          "unitBalanceAfter": 1553.217,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-07-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 92.484,
+          "units": 324.364,
+          "unitBalanceAfter": 1877.581,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-08-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 91.1563,
+          "units": 329.089,
+          "unitBalanceAfter": 2206.67,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-09-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 92.529,
+          "units": 324.206,
+          "unitBalanceAfter": 2530.876,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-10-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 93.0302,
+          "units": 322.46,
+          "unitBalanceAfter": 2853.336,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-11-10",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 94.0765,
+          "units": 318.873,
+          "unitBalanceAfter": 3172.209,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-12-08",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 94.8059,
+          "units": 316.42,
+          "unitBalanceAfter": 3488.629,
+          "stampDuty": 1.5
+        }
+      ],
+      "stampDutyTotal": 15.75,
+      "loadInfo": "Exit Load:\nInvestors are requested to note that with effect from November 15, 2021, all new/prospective investments (including SIP/STP and SWP registered) in respect of each\npurchase / switch-in of units, 10% of the units may be redeemed without any exit load from the date of allotment made on or after the aforesaid effective date.\nPlease refer Notice cum addendum dated November 11, 2021 available on website https://amc.ppfas.com/downloads/addendum/\nAny redemption or switch out in excess of the aforesaid limit shall be subject to the following exit load :\nExit Load of 2% is applicable, if Units are redeemed/switched-out on or before 365 days from the date of allotment, 1% if redeemed/Switched-out after 365 days but\non or before 730 days from the date allotment and thereafter there is no exit load. \"Effective from July 01, 2020, stamp duty @ 0.005% will be deducted from the Net\ninvestment amount. Units will be allotted for the balance amount. \"Please ensure that your account information is up to date. If there are any changes to your KYC\ndetails like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "PPFAS Mutual Fund",
+      "folioNumber": "18972194",
+      "scheme": {
+        "schemeName": "",
+        "scheme_code": "",
+        "isin": "",
+        "current_name": "",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Exit Load:\nInvestors are requested to note that with effect from November 15, 2021, all new/prospective investments (including SIP/STP and SWP registered) in respect of each\npurchase / switch-in of units, 10% of the units may be redeemed without any exit load from the date of allotment made on or after the aforesaid effective date.\nPlease refer Notice cum addendum dated November 11, 2021 available on website https://amc.ppfas.com/downloads/addendum/\nAny redemption or switch out in excess of the aforesaid limit shall be subject to the following exit load :\nExit Load of 2% is applicable, if Units are redeemed/switched-out on or before 365 days from the date of allotment, 1% if redeemed/Switched-out after 365 days but\non or before 730 days from the date allotment and thereafter there is no exit load. \"Effective from July 01, 2020, stamp duty @ 0.005% will be deducted from the Net\ninvestment amount. Units will be allotted for the balance amount. \"Please ensure that your account information is up to date. If there are any changes to your KYC\ndetails like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": ""
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1164.818,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 91.422,
+        "totalCostValue": 110000,
+        "marketValue": 106489.99
+      },
+      "transactions": [
+        {
+          "date": "2026-01-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 54997.25,
+          "nav": 94.7123,
+          "units": 580.677,
+          "unitBalanceAfter": 580.677,
+          "stampDuty": 2.75
+        },
+        {
+          "date": "2026-02-09",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 54997.25,
+          "nav": 94.1506,
+          "units": 584.141,
+          "unitBalanceAfter": 1164.818,
+          "stampDuty": 2.75
+        }
+      ],
+      "stampDutyTotal": 5.5,
+      "loadInfo": "Exit Load:\nInvestors are requested to note that with effect from November 15, 2021, all new/prospective investments (including SIP/STP and SWP registered) in respect of each\npurchase / switch-in of units, 10% of the units may be redeemed without any exit load from the date of allotment made on or after the aforesaid effective date.\nPlease refer Notice cum addendum dated November 11, 2021 available on website https://amc.ppfas.com/downloads/addendum/\nAny redemption or switch out in excess of the aforesaid limit shall be subject to the following exit load :\nExit Load of 2% is applicable, if Units are redeemed/switched-out on or before 365 days from the date of allotment, 1% if redeemed/Switched-out after 365 days but\non or before 730 days from the date allotment and thereafter there is no exit load. \"Effective from July 01, 2020, stamp duty @ 0.005% will be deducted from the Net\ninvestment amount. Units will be allotted for the balance amount. \"Please ensure that your account information is up to date. If there are any changes to your KYC\ndetails like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "Quant MF",
+      "folioNumber": "51026472871 / 0",
+      "scheme": {
+        "schemeName": "quant ELSS Tax Saver Fund - Direct Plan",
+        "scheme_code": "166TPDGG",
+        "isin": "INF966L01986",
+        "current_name": "quant ELSS Tax Saver Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry load - NILL, Exit load - NILL. Lock in period is 3 years from the date of subscription.The above investment in Quant Tax Plan Fund is eligible for availing tax\nbenefits under Section 80C of Income Tax Act,1961.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1195.475,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 405.4773,
+        "totalCostValue": 455000,
+        "marketValue": 484737.98
+      },
+      "transactions": [
+        {
+          "date": "2023-03-31",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 49997.5,
+          "nav": 246.6959,
+          "units": 202.669,
+          "unitBalanceAfter": 202.669,
+          "stampDuty": 2.5
+        },
+        {
+          "date": "2024-03-26",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 381.95,
+          "units": 39.27,
+          "unitBalanceAfter": 241.939,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-05-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 414.6692,
+          "units": 36.172,
+          "unitBalanceAfter": 278.111,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-06-04",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 407.1795,
+          "units": 36.837,
+          "unitBalanceAfter": 314.948,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-07-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 443.1278,
+          "units": 33.849,
+          "unitBalanceAfter": 348.797,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-08-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 452.7442,
+          "units": 33.13,
+          "unitBalanceAfter": 381.927,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-09-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 451.8648,
+          "units": 33.194,
+          "unitBalanceAfter": 415.121,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 447.7542,
+          "units": 33.499,
+          "unitBalanceAfter": 448.62,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-04",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 421.6122,
+          "units": 35.576,
+          "unitBalanceAfter": 484.196,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 411.5273,
+          "units": 36.448,
+          "unitBalanceAfter": 520.644,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 398.8618,
+          "units": 37.605,
+          "unitBalanceAfter": 558.249,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-02-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 367.1137,
+          "units": 40.857,
+          "unitBalanceAfter": 599.106,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-03-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 342.6515,
+          "units": 43.774,
+          "unitBalanceAfter": 642.88,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-04-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 371.4525,
+          "units": 40.38,
+          "unitBalanceAfter": 683.26,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-05-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 381.8991,
+          "units": 39.275,
+          "unitBalanceAfter": 722.535,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-06-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 397.9519,
+          "units": 37.691,
+          "unitBalanceAfter": 760.226,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-07-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 414.8741,
+          "units": 72.307,
+          "unitBalanceAfter": 832.533,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-08-04",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 403.4596,
+          "units": 74.353,
+          "unitBalanceAfter": 906.886,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-09-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 398.173,
+          "units": 75.34,
+          "unitBalanceAfter": 982.226,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-10-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 413.0029,
+          "units": 72.635,
+          "unitBalanceAfter": 1054.861,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-11-03",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 427.4415,
+          "units": 70.182,
+          "unitBalanceAfter": 1125.043,
+          "stampDuty": 1.5
+        },
+        {
+          "date": "2025-12-02",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 29998.5,
+          "nav": 425.9237,
+          "units": 70.432,
+          "unitBalanceAfter": 1195.475,
+          "stampDuty": 1.5
+        }
+      ],
+      "stampDutyTotal": 22.75,
+      "loadInfo": "Entry load - NILL, Exit load - NILL. Lock in period is 3 years from the date of subscription.The above investment in Quant Tax Plan Fund is eligible for availing tax\nbenefits under Section 80C of Income Tax Act,1961."
+    },
+    {
+      "fundHouse": "Quant MF",
+      "folioNumber": "51026472871 / 0",
+      "scheme": {
+        "schemeName": "quant Small Cap Fund - Direct Plan Growth",
+        "scheme_code": "166IBDGG",
+        "isin": "INF966L01689",
+        "current_name": "quant Small Cap Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry Load NIL, Exit Load - 1.00% if redeemed with in 365 days from the date of allotment.NIL if redeemed after 365 days from the date of allotment of units.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "APURV KAUSHAL",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 80.33,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 254.605,
+        "totalCostValue": 15000,
+        "marketValue": 20452.42
+      },
+      "transactions": [
+        {
+          "date": "2023-08-18",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 186.7208,
+          "units": 80.33,
+          "unitBalanceAfter": 80.33,
+          "stampDuty": 0.75
+        }
+      ],
+      "stampDutyTotal": 0.75,
+      "loadInfo": "Entry Load NIL, Exit Load - 1.00% if redeemed with in 365 days from the date of allotment.NIL if redeemed after 365 days from the date of allotment of units."
+    },
+    {
+      "fundHouse": "SBI Mutual Fund",
+      "folioNumber": "37473332",
+      "scheme": {
+        "schemeName": "SBI ELSS Tax Saver Fund - Direct Plan - Growth (Non-Demat)",
+        "scheme_code": "LD018G",
+        "isin": "INF200K01UM9",
+        "current_name": "SBI ELSS Tax Saver Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load: N.A.; Exit Load: NIL on redemption/switch after lock-in period of 3 Years. STT @0.001% is applicable at the time of redemption/switch-out. For\napplicability of load structure, please refer to SAI/SID/KIM/Addendum issued from time to time. The investment in SBI ELSS Tax Saver Fund is under ELSS and is\neligible for availing tax benefits under Section 80C of Income Tax Act subject to limits and conditions. Normal investment and each SIP installment in this scheme will\nbe locked for 3 years from the date of investment / every SIP Installment. **Scheme name of \"SBI Long Term Equity Fund\" has been changed to \"SBI ELSS Tax Saver\nFund\" with effect from 30th June 2025. W.e.f. 1st July 2020, Stamp Duty @ 0.005% is applicable on allotment of units. As per SEBI guidelines, w.e.f. February 01,\n2021, applicable NAV for allotment of units shall be based on time of receipt of transaction and funds available for utilization upto the cut-off time. TDS shall be\ndeducted (wherever applicable) as per rates under New Tax Regime. Differential tax if any, should be evaluated by investor(s), basis relevant tax provisions.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 128.115,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 476.3458,
+        "totalCostValue": 50000,
+        "marketValue": 61027.04
+      },
+      "transactions": [
+        {
+          "date": "2024-03-14",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 49997.5,
+          "nav": 390.2563,
+          "units": 128.115,
+          "unitBalanceAfter": 128.115,
+          "stampDuty": 2.5
+        }
+      ],
+      "stampDutyTotal": 2.5,
+      "loadInfo": "Entry Load: N.A.; Exit Load: NIL on redemption/switch after lock-in period of 3 Years. STT @0.001% is applicable at the time of redemption/switch-out. For\napplicability of load structure, please refer to SAI/SID/KIM/Addendum issued from time to time. The investment in SBI ELSS Tax Saver Fund is under ELSS and is\neligible for availing tax benefits under Section 80C of Income Tax Act subject to limits and conditions. Normal investment and each SIP installment in this scheme will\nbe locked for 3 years from the date of investment / every SIP Installment. **Scheme name of \"SBI Long Term Equity Fund\" has been changed to \"SBI ELSS Tax Saver\nFund\" with effect from 30th June 2025. W.e.f. 1st July 2020, Stamp Duty @ 0.005% is applicable on allotment of units. As per SEBI guidelines, w.e.f. February 01,\n2021, applicable NAV for allotment of units shall be based on time of receipt of transaction and funds available for utilization upto the cut-off time. TDS shall be\ndeducted (wherever applicable) as per rates under New Tax Regime. Differential tax if any, should be evaluated by investor(s), basis relevant tax provisions."
+    },
+    {
+      "fundHouse": "SBI Mutual Fund",
+      "folioNumber": "37473332",
+      "scheme": {
+        "schemeName": "SBI MNC Fund - Direct Plan - Growth (Non-Demat)",
+        "scheme_code": "LD021G",
+        "isin": "INF200K01SN1",
+        "current_name": "SBI MNC Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load: N.A.; Exit Load - W.e.f. 05-Sep-2025: 1% if redeemed / switched out within 30 days from the date of allotment; NIL if redeemed / switched out after 30\ndays from the date of allotment. For applicability of exit load structure for specific transaction, please refer to Addendum issued from time to time. **Scheme name\nof \"SBI Magnum Global Fund\" has been changed to \"SBI MNC Fund\" with effect from 30th June 2025. W.e.f. 1st July 2020, Stamp Duty @ 0.005% is applicable on\nallotment of units. As per SEBI guidelines, w.e.f. February 01, 2021, applicable NAV for allotment of units shall be based on time of receipt of transaction and funds\navailable for utilization upto the cut-off time. TDS shall be deducted (wherever applicable) as per rates under New Tax Regime. Differential tax if any, should be\nevaluated by investor(s), basis relevant tax provisions.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [
+          "JYOTI SINHA"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 165.17,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 392.7205,
+        "totalCostValue": 65000,
+        "marketValue": 64865.64
+      },
+      "transactions": [
+        {
+          "date": "2024-11-27",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 406.573,
+          "units": 12.297,
+          "unitBalanceAfter": 12.297,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-01-02",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 412.6699,
+          "units": 12.116,
+          "unitBalanceAfter": 24.413,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-02-03",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 391.752,
+          "units": 12.763,
+          "unitBalanceAfter": 37.176,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-03-03",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 361.931,
+          "units": 13.814,
+          "unitBalanceAfter": 50.99,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-04-03",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 374.2357,
+          "units": 13.36,
+          "unitBalanceAfter": 64.35,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-05-02",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 383.0799,
+          "units": 13.051,
+          "unitBalanceAfter": 77.401,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-06-02",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 4999.75,
+          "nav": 400.1982,
+          "units": 12.493,
+          "unitBalanceAfter": 89.894,
+          "stampDuty": 0.25
+        },
+        {
+          "date": "2025-07-02",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 404.9334,
+          "units": 24.694,
+          "unitBalanceAfter": 114.588,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-08-04",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 397.1826,
+          "units": 25.176,
+          "unitBalanceAfter": 139.764,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-09-02",
+          "type": "Purchase",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 393.5915,
+          "units": 25.406,
+          "unitBalanceAfter": 165.17,
+          "stampDuty": 0.5
+        }
+      ],
+      "stampDutyTotal": 3.25,
+      "loadInfo": "Entry Load: N.A.; Exit Load - W.e.f. 05-Sep-2025: 1% if redeemed / switched out within 30 days from the date of allotment; NIL if redeemed / switched out after 30\ndays from the date of allotment. For applicability of exit load structure for specific transaction, please refer to Addendum issued from time to time. **Scheme name\nof \"SBI Magnum Global Fund\" has been changed to \"SBI MNC Fund\" with effect from 30th June 2025. W.e.f. 1st July 2020, Stamp Duty @ 0.005% is applicable on\nallotment of units. As per SEBI guidelines, w.e.f. February 01, 2021, applicable NAV for allotment of units shall be based on time of receipt of transaction and funds\navailable for utilization upto the cut-off time. TDS shall be deducted (wherever applicable) as per rates under New Tax Regime. Differential tax if any, should be\nevaluated by investor(s), basis relevant tax provisions."
+    },
+    {
+      "fundHouse": "SBI Mutual Fund",
+      "folioNumber": "46112522",
+      "scheme": {
+        "schemeName": "SBI Gold Fund - Direct Plan - Growth (Demat)",
+        "scheme_code": "LD246G",
+        "isin": "INF200K01RP8",
+        "current_name": "SBI Gold Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load : N.A.; Exit Load- W.e.f 08-SEP-2020: 1% if redeemed/switched within 15 Days from the date of allotment; NIL if redeemed/switched after 15 Days from\nthe date of allotment. For applicability of exit load structure for specific transaction, please refer to Addendum issued from time to time. W.e.f. 1st July 2020,\nStamp Duty @ 0.005% is applicable on allotment of units As per SEBI guidelines, w.e.f. February 01, 2021, applicable NAV for allotment of units shall be based on\ntime of receipt of transaction and funds available for utilization upto the cut-off time. TDS shall be deducted (wherever applicable) as per rates under New Tax\nRegime. Differential tax if any, should be evaluated by investor(s), basis relevant tax provisions.",
+        "advisor": "INZ000208032"
+      },
+      "investor": {
+        "holderName": "Apurv Kaushal",
+        "pan": "DWAPK6447L",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1083.406,
+      "snapshot": {
+        "navDate": "2026-03-02",
+        "nav": 51.1612,
+        "totalCostValue": 40000,
+        "marketValue": 55428.35
+      },
+      "transactions": [
+        {
+          "date": "2025-09-09",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 33.6925,
+          "units": 296.787,
+          "unitBalanceAfter": 296.787,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-10-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 37.4956,
+          "units": 266.685,
+          "unitBalanceAfter": 563.472,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-11-10",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 37.5586,
+          "units": 266.237,
+          "unitBalanceAfter": 829.709,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-12-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 39.4151,
+          "units": 253.697,
+          "unitBalanceAfter": 1083.406,
+          "stampDuty": 0.5
+        }
+      ],
+      "stampDutyTotal": 2,
+      "loadInfo": "Entry Load : N.A.; Exit Load- W.e.f 08-SEP-2020: 1% if redeemed/switched within 15 Days from the date of allotment; NIL if redeemed/switched after 15 Days from\nthe date of allotment. For applicability of exit load structure for specific transaction, please refer to Addendum issued from time to time. W.e.f. 1st July 2020,\nStamp Duty @ 0.005% is applicable on allotment of units As per SEBI guidelines, w.e.f. February 01, 2021, applicable NAV for allotment of units shall be based on\ntime of receipt of transaction and funds available for utilization upto the cut-off time. TDS shall be deducted (wherever applicable) as per rates under New Tax\nRegime. Differential tax if any, should be evaluated by investor(s), basis relevant tax provisions."
+    }
+  ]
+}

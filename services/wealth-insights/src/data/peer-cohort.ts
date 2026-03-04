@@ -1,0 +1,125 @@
+/**
+ * 100 hardcoded dummy investor profiles for peer percentile comparison.
+ * Realistic Indian ₹5-40L earner distributions:
+ * - Portfolio: ₹50K-₹50L (log-normal, median ~₹5L)
+ * - XIRR: mean 10%, std 5%, range roughly -5% to 25%
+ * - Monthly SIP: ₹1K-₹50K (correlated with portfolio size)
+ * - Fund count: 1-20 (Poisson-like, mean 6)
+ * - Tenure: 6-96 months
+ * - Discipline: 30-100 (right-skewed beta)
+ * - Direct plan ratio: 0-1
+ */
+
+export interface PeerInvestor {
+    portfolio: number;       // total market value in ₹
+    xirr: number;            // annualized return %
+    monthlySIP: number;      // ₹
+    fundCount: number;
+    tenureMonths: number;
+    discipline: number;      // 0-100 (SIP regularity proxy)
+    directRatio: number;     // 0-1
+}
+
+export const PEER_COHORT: PeerInvestor[] = [
+    { portfolio: 52000, xirr: 3.2, monthlySIP: 1000, fundCount: 2, tenureMonths: 8, discipline: 45, directRatio: 0.0 },
+    { portfolio: 78000, xirr: 7.1, monthlySIP: 2000, fundCount: 3, tenureMonths: 12, discipline: 60, directRatio: 0.0 },
+    { portfolio: 95000, xirr: -2.4, monthlySIP: 1500, fundCount: 1, tenureMonths: 6, discipline: 35, directRatio: 1.0 },
+    { portfolio: 110000, xirr: 8.5, monthlySIP: 3000, fundCount: 4, tenureMonths: 14, discipline: 72, directRatio: 0.5 },
+    { portfolio: 135000, xirr: 5.8, monthlySIP: 2500, fundCount: 2, tenureMonths: 18, discipline: 55, directRatio: 0.0 },
+    { portfolio: 148000, xirr: 11.2, monthlySIP: 3500, fundCount: 5, tenureMonths: 20, discipline: 78, directRatio: 0.8 },
+    { portfolio: 165000, xirr: 6.7, monthlySIP: 2000, fundCount: 3, tenureMonths: 24, discipline: 62, directRatio: 0.3 },
+    { portfolio: 180000, xirr: 9.3, monthlySIP: 4000, fundCount: 6, tenureMonths: 16, discipline: 80, directRatio: 1.0 },
+    { portfolio: 195000, xirr: 4.1, monthlySIP: 3000, fundCount: 4, tenureMonths: 22, discipline: 50, directRatio: 0.0 },
+    { portfolio: 210000, xirr: 12.8, monthlySIP: 5000, fundCount: 5, tenureMonths: 28, discipline: 85, directRatio: 0.7 },
+    { portfolio: 235000, xirr: 7.5, monthlySIP: 3500, fundCount: 7, tenureMonths: 30, discipline: 68, directRatio: 0.4 },
+    { portfolio: 260000, xirr: 10.4, monthlySIP: 5000, fundCount: 6, tenureMonths: 26, discipline: 75, directRatio: 0.6 },
+    { portfolio: 280000, xirr: -1.2, monthlySIP: 4000, fundCount: 8, tenureMonths: 10, discipline: 40, directRatio: 0.0 },
+    { portfolio: 310000, xirr: 13.5, monthlySIP: 6000, fundCount: 5, tenureMonths: 32, discipline: 88, directRatio: 1.0 },
+    { portfolio: 330000, xirr: 8.9, monthlySIP: 5000, fundCount: 4, tenureMonths: 36, discipline: 70, directRatio: 0.5 },
+    { portfolio: 355000, xirr: 11.6, monthlySIP: 7000, fundCount: 6, tenureMonths: 34, discipline: 82, directRatio: 0.8 },
+    { portfolio: 380000, xirr: 6.2, monthlySIP: 5500, fundCount: 9, tenureMonths: 24, discipline: 58, directRatio: 0.2 },
+    { portfolio: 400000, xirr: 14.1, monthlySIP: 8000, fundCount: 5, tenureMonths: 38, discipline: 90, directRatio: 1.0 },
+    { portfolio: 420000, xirr: 9.8, monthlySIP: 7500, fundCount: 7, tenureMonths: 40, discipline: 76, directRatio: 0.6 },
+    { portfolio: 445000, xirr: 3.5, monthlySIP: 5000, fundCount: 12, tenureMonths: 18, discipline: 42, directRatio: 0.1 },
+    { portfolio: 470000, xirr: 12.3, monthlySIP: 8000, fundCount: 6, tenureMonths: 42, discipline: 84, directRatio: 0.9 },
+    { portfolio: 490000, xirr: 7.8, monthlySIP: 6000, fundCount: 8, tenureMonths: 30, discipline: 65, directRatio: 0.4 },
+    { portfolio: 510000, xirr: 10.9, monthlySIP: 9000, fundCount: 5, tenureMonths: 44, discipline: 79, directRatio: 0.7 },
+    { portfolio: 530000, xirr: 15.2, monthlySIP: 10000, fundCount: 4, tenureMonths: 48, discipline: 92, directRatio: 1.0 },
+    { portfolio: 555000, xirr: 8.1, monthlySIP: 7000, fundCount: 10, tenureMonths: 28, discipline: 60, directRatio: 0.3 },
+    { portfolio: 580000, xirr: 11.8, monthlySIP: 10000, fundCount: 6, tenureMonths: 46, discipline: 86, directRatio: 0.8 },
+    { portfolio: 600000, xirr: 5.4, monthlySIP: 5000, fundCount: 14, tenureMonths: 20, discipline: 48, directRatio: 0.0 },
+    { portfolio: 630000, xirr: 13.7, monthlySIP: 12000, fundCount: 5, tenureMonths: 50, discipline: 88, directRatio: 1.0 },
+    { portfolio: 660000, xirr: 9.5, monthlySIP: 8000, fundCount: 7, tenureMonths: 36, discipline: 72, directRatio: 0.5 },
+    { portfolio: 700000, xirr: 6.8, monthlySIP: 7000, fundCount: 11, tenureMonths: 32, discipline: 56, directRatio: 0.2 },
+    { portfolio: 740000, xirr: 12.1, monthlySIP: 12000, fundCount: 6, tenureMonths: 52, discipline: 83, directRatio: 0.9 },
+    { portfolio: 780000, xirr: 10.3, monthlySIP: 10000, fundCount: 8, tenureMonths: 40, discipline: 74, directRatio: 0.6 },
+    { portfolio: 820000, xirr: 14.5, monthlySIP: 15000, fundCount: 5, tenureMonths: 54, discipline: 91, directRatio: 1.0 },
+    { portfolio: 860000, xirr: 7.9, monthlySIP: 8000, fundCount: 9, tenureMonths: 34, discipline: 63, directRatio: 0.3 },
+    { portfolio: 900000, xirr: 11.4, monthlySIP: 12000, fundCount: 6, tenureMonths: 48, discipline: 80, directRatio: 0.7 },
+    { portfolio: 950000, xirr: 4.6, monthlySIP: 6000, fundCount: 16, tenureMonths: 22, discipline: 38, directRatio: 0.0 },
+    { portfolio: 1000000, xirr: 13.2, monthlySIP: 15000, fundCount: 5, tenureMonths: 56, discipline: 87, directRatio: 1.0 },
+    { portfolio: 1050000, xirr: 9.7, monthlySIP: 10000, fundCount: 7, tenureMonths: 44, discipline: 71, directRatio: 0.5 },
+    { portfolio: 1100000, xirr: 16.1, monthlySIP: 18000, fundCount: 4, tenureMonths: 60, discipline: 94, directRatio: 1.0 },
+    { portfolio: 1150000, xirr: 8.3, monthlySIP: 9000, fundCount: 10, tenureMonths: 38, discipline: 66, directRatio: 0.4 },
+    { portfolio: 1200000, xirr: 12.6, monthlySIP: 15000, fundCount: 6, tenureMonths: 52, discipline: 85, directRatio: 0.8 },
+    { portfolio: 1280000, xirr: 10.8, monthlySIP: 12000, fundCount: 8, tenureMonths: 46, discipline: 77, directRatio: 0.6 },
+    { portfolio: 1350000, xirr: 6.1, monthlySIP: 8000, fundCount: 13, tenureMonths: 26, discipline: 52, directRatio: 0.1 },
+    { portfolio: 1420000, xirr: 14.8, monthlySIP: 20000, fundCount: 5, tenureMonths: 58, discipline: 93, directRatio: 1.0 },
+    { portfolio: 1500000, xirr: 11.1, monthlySIP: 15000, fundCount: 7, tenureMonths: 50, discipline: 81, directRatio: 0.7 },
+    { portfolio: 1580000, xirr: 9.2, monthlySIP: 12000, fundCount: 9, tenureMonths: 42, discipline: 69, directRatio: 0.4 },
+    { portfolio: 1660000, xirr: 13.9, monthlySIP: 18000, fundCount: 6, tenureMonths: 56, discipline: 89, directRatio: 0.9 },
+    { portfolio: 1740000, xirr: 7.4, monthlySIP: 10000, fundCount: 11, tenureMonths: 34, discipline: 58, directRatio: 0.2 },
+    { portfolio: 1830000, xirr: 15.5, monthlySIP: 22000, fundCount: 5, tenureMonths: 62, discipline: 95, directRatio: 1.0 },
+    { portfolio: 1920000, xirr: 10.6, monthlySIP: 15000, fundCount: 8, tenureMonths: 48, discipline: 75, directRatio: 0.6 },
+    { portfolio: 2000000, xirr: 12.9, monthlySIP: 18000, fundCount: 6, tenureMonths: 54, discipline: 86, directRatio: 0.8 },
+    { portfolio: 2100000, xirr: 8.7, monthlySIP: 12000, fundCount: 10, tenureMonths: 40, discipline: 64, directRatio: 0.3 },
+    { portfolio: 2200000, xirr: 14.3, monthlySIP: 22000, fundCount: 5, tenureMonths: 60, discipline: 90, directRatio: 1.0 },
+    { portfolio: 2300000, xirr: 11.5, monthlySIP: 18000, fundCount: 7, tenureMonths: 52, discipline: 82, directRatio: 0.7 },
+    { portfolio: 2420000, xirr: 5.9, monthlySIP: 10000, fundCount: 15, tenureMonths: 28, discipline: 44, directRatio: 0.0 },
+    { portfolio: 2550000, xirr: 16.7, monthlySIP: 28000, fundCount: 4, tenureMonths: 66, discipline: 96, directRatio: 1.0 },
+    { portfolio: 2680000, xirr: 10.1, monthlySIP: 15000, fundCount: 9, tenureMonths: 46, discipline: 73, directRatio: 0.5 },
+    { portfolio: 2800000, xirr: 13.4, monthlySIP: 22000, fundCount: 6, tenureMonths: 58, discipline: 87, directRatio: 0.9 },
+    { portfolio: 2950000, xirr: 9.4, monthlySIP: 14000, fundCount: 8, tenureMonths: 44, discipline: 67, directRatio: 0.4 },
+    { portfolio: 3100000, xirr: 15.8, monthlySIP: 28000, fundCount: 5, tenureMonths: 64, discipline: 94, directRatio: 1.0 },
+    { portfolio: 3250000, xirr: 7.6, monthlySIP: 12000, fundCount: 12, tenureMonths: 36, discipline: 54, directRatio: 0.1 },
+    { portfolio: 3400000, xirr: 12.2, monthlySIP: 22000, fundCount: 6, tenureMonths: 56, discipline: 84, directRatio: 0.8 },
+    { portfolio: 3550000, xirr: 11.3, monthlySIP: 18000, fundCount: 7, tenureMonths: 50, discipline: 79, directRatio: 0.6 },
+    { portfolio: 3700000, xirr: 14.6, monthlySIP: 30000, fundCount: 5, tenureMonths: 68, discipline: 92, directRatio: 1.0 },
+    { portfolio: 3850000, xirr: 8.8, monthlySIP: 15000, fundCount: 10, tenureMonths: 42, discipline: 66, directRatio: 0.3 },
+    { portfolio: 4000000, xirr: 17.2, monthlySIP: 35000, fundCount: 4, tenureMonths: 72, discipline: 97, directRatio: 1.0 },
+    { portfolio: 4150000, xirr: 10.5, monthlySIP: 20000, fundCount: 8, tenureMonths: 54, discipline: 76, directRatio: 0.5 },
+    { portfolio: 4300000, xirr: 13.1, monthlySIP: 25000, fundCount: 6, tenureMonths: 60, discipline: 85, directRatio: 0.9 },
+    { portfolio: 4450000, xirr: 6.5, monthlySIP: 12000, fundCount: 14, tenureMonths: 30, discipline: 46, directRatio: 0.0 },
+    { portfolio: 4600000, xirr: 15.3, monthlySIP: 32000, fundCount: 5, tenureMonths: 70, discipline: 93, directRatio: 1.0 },
+    { portfolio: 4750000, xirr: 9.9, monthlySIP: 18000, fundCount: 9, tenureMonths: 48, discipline: 70, directRatio: 0.4 },
+    { portfolio: 4900000, xirr: 12.7, monthlySIP: 25000, fundCount: 7, tenureMonths: 58, discipline: 83, directRatio: 0.7 },
+    { portfolio: 5050000, xirr: 11.9, monthlySIP: 22000, fundCount: 6, tenureMonths: 52, discipline: 80, directRatio: 0.8 },
+    { portfolio: 350000, xirr: 2.8, monthlySIP: 3000, fundCount: 3, tenureMonths: 10, discipline: 38, directRatio: 0.0 },
+    { portfolio: 430000, xirr: 18.5, monthlySIP: 8000, fundCount: 3, tenureMonths: 48, discipline: 92, directRatio: 1.0 },
+    { portfolio: 520000, xirr: -3.1, monthlySIP: 4000, fundCount: 17, tenureMonths: 8, discipline: 32, directRatio: 0.0 },
+    { portfolio: 680000, xirr: 10.0, monthlySIP: 8000, fundCount: 6, tenureMonths: 36, discipline: 70, directRatio: 0.5 },
+    { portfolio: 780000, xirr: 19.8, monthlySIP: 12000, fundCount: 4, tenureMonths: 54, discipline: 95, directRatio: 1.0 },
+    { portfolio: 850000, xirr: 5.2, monthlySIP: 5000, fundCount: 11, tenureMonths: 26, discipline: 48, directRatio: 0.1 },
+    { portfolio: 1150000, xirr: 22.3, monthlySIP: 20000, fundCount: 3, tenureMonths: 72, discipline: 98, directRatio: 1.0 },
+    { portfolio: 1350000, xirr: 1.5, monthlySIP: 8000, fundCount: 18, tenureMonths: 14, discipline: 30, directRatio: 0.0 },
+    { portfolio: 1750000, xirr: 13.0, monthlySIP: 15000, fundCount: 7, tenureMonths: 48, discipline: 78, directRatio: 0.6 },
+    { portfolio: 2050000, xirr: 8.0, monthlySIP: 10000, fundCount: 12, tenureMonths: 36, discipline: 55, directRatio: 0.2 },
+    { portfolio: 2350000, xirr: 24.5, monthlySIP: 30000, fundCount: 3, tenureMonths: 84, discipline: 99, directRatio: 1.0 },
+    { portfolio: 2750000, xirr: 6.3, monthlySIP: 12000, fundCount: 15, tenureMonths: 24, discipline: 42, directRatio: 0.0 },
+    { portfolio: 3100000, xirr: 11.7, monthlySIP: 20000, fundCount: 6, tenureMonths: 56, discipline: 82, directRatio: 0.7 },
+    { portfolio: 3500000, xirr: -4.5, monthlySIP: 15000, fundCount: 20, tenureMonths: 12, discipline: 35, directRatio: 0.0 },
+    { portfolio: 3900000, xirr: 16.0, monthlySIP: 30000, fundCount: 5, tenureMonths: 66, discipline: 91, directRatio: 1.0 },
+    { portfolio: 4200000, xirr: 7.2, monthlySIP: 15000, fundCount: 13, tenureMonths: 30, discipline: 50, directRatio: 0.1 },
+    { portfolio: 4600000, xirr: 20.1, monthlySIP: 40000, fundCount: 4, tenureMonths: 78, discipline: 96, directRatio: 1.0 },
+    { portfolio: 4900000, xirr: 9.1, monthlySIP: 18000, fundCount: 10, tenureMonths: 42, discipline: 62, directRatio: 0.3 },
+    { portfolio: 60000, xirr: 0.5, monthlySIP: 1000, fundCount: 1, tenureMonths: 6, discipline: 33, directRatio: 0.0 },
+    { portfolio: 150000, xirr: 15.0, monthlySIP: 5000, fundCount: 3, tenureMonths: 24, discipline: 88, directRatio: 1.0 },
+    { portfolio: 250000, xirr: 4.0, monthlySIP: 3000, fundCount: 8, tenureMonths: 16, discipline: 45, directRatio: 0.0 },
+    { portfolio: 500000, xirr: 11.0, monthlySIP: 7000, fundCount: 5, tenureMonths: 36, discipline: 75, directRatio: 0.6 },
+    { portfolio: 750000, xirr: 8.5, monthlySIP: 8000, fundCount: 7, tenureMonths: 30, discipline: 65, directRatio: 0.4 },
+    { portfolio: 1250000, xirr: 14.0, monthlySIP: 15000, fundCount: 6, tenureMonths: 48, discipline: 85, directRatio: 0.8 },
+    { portfolio: 1600000, xirr: 10.2, monthlySIP: 12000, fundCount: 8, tenureMonths: 40, discipline: 72, directRatio: 0.5 },
+    { portfolio: 2500000, xirr: 12.5, monthlySIP: 20000, fundCount: 5, tenureMonths: 60, discipline: 88, directRatio: 0.9 },
+    { portfolio: 3300000, xirr: 7.0, monthlySIP: 12000, fundCount: 11, tenureMonths: 32, discipline: 55, directRatio: 0.2 },
+    { portfolio: 5000000, xirr: 18.0, monthlySIP: 50000, fundCount: 4, tenureMonths: 96, discipline: 97, directRatio: 1.0 },
+];

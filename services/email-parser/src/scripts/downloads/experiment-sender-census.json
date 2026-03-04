@@ -1,0 +1,1346 @@
+{
+  "summary": {
+    "totalMessagesEstimate": 201,
+    "uniqueSenders": 210,
+    "financialSenders": 83,
+    "nonFinancialSenders": 127,
+    "financialEmailCount": 2254,
+    "coverageThresholds": [
+      {
+        "pct": 50,
+        "senders": 5
+      },
+      {
+        "pct": 75,
+        "senders": 11
+      },
+      {
+        "pct": 80,
+        "senders": 13
+      },
+      {
+        "pct": 90,
+        "senders": 21
+      },
+      {
+        "pct": 95,
+        "senders": 31
+      },
+      {
+        "pct": 99,
+        "senders": 61
+      }
+    ]
+  },
+  "financialSenders": [
+    {
+      "email": "*@swiggy.in",
+      "name": "Swiggy",
+      "domain": "swiggy.in",
+      "count": 363,
+      "type": "food",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Your Swiggy Gourmet order was delivered superfast",
+        "How else will we know, Abhishek? 🥺",
+        "Your Swiggy Gourmet order was delivered before time"
+      ]
+    },
+    {
+      "email": "*@uber.com",
+      "name": "Uber",
+      "domain": "uber.com",
+      "count": 361,
+      "type": "transport",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Beat the Holi outstation rush. Book your Holi ride early 🌈",
+        "Use Parcel for last-minute errands",
+        "Special discounts on Delhi Metro tickets"
+      ]
+    },
+    {
+      "email": "*@groww.in",
+      "name": "Groww",
+      "domain": "groww.in",
+      "count": 224,
+      "type": "investment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "How Northern Rock scared depositors & how damage was un-done",
+        "GDP grows at 7.8% in Oct-Dec, LIC in GIFT City, & more - Groww Digest",
+        "Private sector profit grows 5.2%, SBI Life's Rs 2.70 dividend, & more - Groww Digest"
+      ]
+    },
+    {
+      "email": "*@netflix.com",
+      "name": "Netflix",
+      "domain": "netflix.com",
+      "count": 160,
+      "type": "subscription",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Confirmation: Your Netflix household has been confirmed",
+        "Important: How to update your Netflix household",
+        "Important: How to update your Netflix household"
+      ]
+    },
+    {
+      "email": "*@makemytrip.com",
+      "name": "MakeMyTrip",
+      "domain": "makemytrip.com",
+      "count": 159,
+      "type": "travel",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "It’s Time to Make Your Dream Europe Trip Happen ✨",
+        "Domestic Flights NOW Starting @ ₹1,999✈️",
+        "Holi Haiiiiiiii! Aur Sale Bhi! 😊"
+      ]
+    },
+    {
+      "email": "*@irctc.co.in",
+      "name": "IRCTC",
+      "domain": "irctc.co.in",
+      "count": 84,
+      "type": "travel",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "HURRY UP ....GRAB YOUR BAGS..TO WITNESS CHERRY BLOSSOM AT JAPAN",
+        "PURI GANGASAGAR-AYODHYA DHAM YATRA Ex Pathankot",
+        "DAKSHIN BHARAT YATRA Ex Firozpur Cantt"
+      ]
+    },
+    {
+      "email": "*@apple.com",
+      "name": "Apple",
+      "domain": "apple.com",
+      "count": 81,
+      "type": "subscription",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Your iCloud storage is full",
+        "Your invoice from Apple.",
+        "Your iCloud storage is full"
+      ]
+    },
+    {
+      "email": "*@myntra.com",
+      "name": "Myntra",
+      "domain": "myntra.com",
+      "count": 73,
+      "type": "shopping",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Myntra Birthday Blast: LIVE NOW 😍",
+        "Myntra Birthday Blast is LIVE 🎉 Are you ready?",
+        "Myntra Birthday Blast Starts TOMORROW🎉"
+      ]
+    },
+    {
+      "email": "*@goibibo.com",
+      "name": "Goibibo",
+      "domain": "goibibo.com",
+      "count": 72,
+      "type": "travel",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Why??? Really...why???",
+        "The Great Indian Kapil Show Dekha? 📺",
+        "One mistake can cost you BIG!"
+      ]
+    },
+    {
+      "email": "*@camsonline.com",
+      "name": "CAMS",
+      "domain": "camsonline.com",
+      "count": 70,
+      "type": "investment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Consolidated Account Statement - CAMS Mailback Request",
+        "Consolidated Account Statement - CAMS Mailback Request",
+        "Consolidated Account Statement - CAMS Mailback Request"
+      ]
+    },
+    {
+      "email": "*@kfintech.com",
+      "name": "KFintech",
+      "domain": "kfintech.com",
+      "count": 59,
+      "type": "investment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Your SIP transaction in Folio No.XXXXXXX3954 is processed",
+        "Change in TER - scheme(s) of Axis Mutual Fund (Direct Plan)",
+        "Change in Base Total Expense Ratio in the Scheme of Motilal Oswal Large and Midcap Fund"
+      ]
+    },
+    {
+      "email": "*@paytm.com",
+      "name": "Paytm",
+      "domain": "paytm.com",
+      "count": 58,
+      "type": "payment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "IndiGo Sale Live: Domestic ₹1,999 | Intl ₹4,699",
+        "Thailand Calling! AirAsia Sale @ ₹7,499",
+        "Fly the Maharaja way with Air India 😍✈️"
+      ]
+    },
+    {
+      "email": "*@zomato.com",
+      "name": "Zomato",
+      "domain": "zomato.com",
+      "count": 55,
+      "type": "food",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "A reminder...",
+        "Last chance to get a FREE meal...",
+        "All you need is..."
+      ]
+    },
+    {
+      "email": "*@kotak.bank.in",
+      "name": "Kotak",
+      "domain": "kotak.bank.in",
+      "count": 53,
+      "type": "bank",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Your February 2026 statement for Kotak A/c X9778",
+        "Important update regarding your Kotak Account charges",
+        "Payment Reminder"
+      ]
+    },
+    {
+      "email": "*@bigbasket.com",
+      "name": "BigBasket",
+      "domain": "bigbasket.com",
+      "count": 37,
+      "type": "grocery",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Stolen History 🇮🇳 Recipe Contest & More 🫡",
+        "The Cheesiest Edition 🧀 Recipe Contest & More 🪤",
+        "Sankranti & Groundhog Day: what’s the connection? 🌞"
+      ]
+    },
+    {
+      "email": "*@kotak.com",
+      "name": "Kotak",
+      "domain": "kotak.com",
+      "count": 34,
+      "type": "bank",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Card online transaction- Successful",
+        "Card online transaction- Successful",
+        "Card online transaction- Successful"
+      ]
+    },
+    {
+      "email": "*@razorpay.com",
+      "name": "Razorpay",
+      "domain": "razorpay.com",
+      "count": 25,
+      "type": "payment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Regarding your settlements",
+        "Regarding your settlements",
+        "Your settlement has been processed!"
+      ]
+    },
+    {
+      "email": "*@sbi.co.in",
+      "name": "SBI",
+      "domain": "sbi.co.in",
+      "count": 22,
+      "type": "bank",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "\"ACTIVATION OF INOPERATIVE ACCOUNT\"",
+        "E-account statement for your SBI account(s).",
+        "Revision in charges for use of other bank ATMs"
+      ]
+    },
+    {
+      "email": "*@amazon.in",
+      "name": "Amazon",
+      "domain": "amazon.in",
+      "count": 18,
+      "type": "shopping",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Abhishek, did 'BAERFIT ps5 Controller Thumb Grips' meet your expectations? Review it on Amazon",
+        "Abhishek, did 'BAERFIT ps5 Controller Thumb Grips' meet your expectations? Review it on Amazon",
+        "amazon.in: Sign-in attempt"
+      ]
+    },
+    {
+      "email": "*@alerts.sbi",
+      "name": "SBI",
+      "domain": "alerts.sbi",
+      "count": 17,
+      "type": "bank",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "NEFT Transaction",
+        "NEFT Transaction",
+        "E-account statement for your SBI account(s)."
+      ]
+    },
+    {
+      "email": "*@spotify.com",
+      "name": "Spotify",
+      "domain": "spotify.com",
+      "count": 15,
+      "type": "subscription",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Press play on 2 months of Spotify Premium Standard for ₹99.",
+        "Get loud with 2 months of Spotify Premium Standard for ₹99.",
+        "Get loud with 2 months of Spotify Premium Standard for ₹99."
+      ]
+    },
+    {
+      "email": "info@the-ken.com",
+      "name": "The Ken",
+      "domain": "the-ken.com",
+      "count": 15,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Mahindra’s Rajesh Jejurikar on how its cars became polarising and popular",
+        "Rs 2,000 crore, one biotech agency: will it act like a VC or a bureaucrat?",
+        "First Principles: Post-AI Skills",
+        "Peak XV’s one-man show, mandatory AI at workplaces, office vs home yields, and more",
+        "Anthropic goes to war"
+      ]
+    },
+    {
+      "email": "*@hdfcbank.net",
+      "name": "HDFC Bank",
+      "domain": "hdfcbank.net",
+      "count": 13,
+      "type": "bank",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "View: Account update for your HDFC Bank A/c",
+        "View: Account update for your HDFC Bank A/c",
+        "View: Account update for your HDFC Bank A/c"
+      ]
+    },
+    {
+      "email": "*@incometax.gov.in",
+      "name": "Income Tax",
+      "domain": "incometax.gov.in",
+      "count": 13,
+      "type": "tax",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "DSC Alert",
+        "DSC Alert",
+        "[ITBA]Intimation Letter For Cancelled Case"
+      ]
+    },
+    {
+      "email": "*@phonepe.com",
+      "name": "PhonePe",
+      "domain": "phonepe.com",
+      "count": 11,
+      "type": "payment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "GST invoice from PhonePe - NB26021018313043688683642",
+        "Payment for Airtel Mobile of ₹ 302 is successful",
+        "Your AutoPay will be debited as scheduled!"
+      ]
+    },
+    {
+      "email": "*@rapido.bike",
+      "name": "Rapido",
+      "domain": "rapido.bike",
+      "count": 11,
+      "type": "transport",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "You have the right to open this email",
+        "One India. Many festivals. ❤️",
+        "Rider, The last great thing about 2025 ✨"
+      ]
+    },
+    {
+      "email": "no-reply@email.zebpay.com",
+      "name": "Team ZebPay 🦓",
+      "domain": "email.zebpay.com",
+      "count": 11,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "🔔 Important Downtime Update: Upcoming Maintenance Window",
+        "Discover trending crypto picks on ZebPay! 🚀",
+        "Make 1 trade ➡️ Pay 0 membership fee!",
+        "Tips to Help You Navigate Today's Crypto Market 🚀",
+        "🔔 Important Update: Delisting of OSAK & FAI from Quick Trade"
+      ]
+    },
+    {
+      "email": "hello@every.to",
+      "name": "Every",
+      "domain": "every.to",
+      "count": 10,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "The Case for Letting Your AI Forget",
+        "You Should Never Go Viral With Your AI App",
+        "How to Design Software With Weight",
+        "Your app works in demos—here's how to make it work for real customers",
+        "🎧 Inside an AI High School, Through the Eyes of a 17-Year-Old Founder"
+      ]
+    },
+    {
+      "email": "scroll-newsletter.notifications@stck.me",
+      "name": "Scroll",
+      "domain": "stck.me",
+      "count": 9,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Daily Brief - ‘Nobody could sleep last night’: Indian workers on edge as Iran attacks Dubai, Doha. And more",
+        "Daily Brief: Iran's Supreme Leader killed in US-Israel strikes, Dubai airport hit by Iran, and more",
+        "Daily Brief: Lapses in probe, no proof: What court said while acquitting Kejriwal, Sisodia in excise policy case, and more",
+        "Daily Brief: Amid protests across Goa, Panjim residents oppose new casino ship in Mandovi river, and more",
+        "Daily Brief: House numbers, drones, family registers - Bastar villages under web of surveillance, and more"
+      ]
+    },
+    {
+      "email": "noreply@medium.com",
+      "name": "Medium Daily Digest",
+      "domain": "medium.com",
+      "count": 8,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Ice Diamonds on a Black-Sand Beach | Tim Ward, Mature Flâneur in Globetrotters",
+        "How Psychology Can Inspire You to Become a Better Writer | Sude Hammal in The Writing Cooperative",
+        "You Aren’t Getting Left Behind | Jason McBride",
+        "As a Neuroscientist, I Quit These 5 Morning Habits That Destroy Your Brain | Dr. Patricia Schmidt in Write A Catalyst",
+        "There Has To Be Another Way | Ian Batterbee"
+      ]
+    },
+    {
+      "email": "newsletter@vox.com",
+      "name": "Vox’s Today, Explained",
+      "domain": "vox.com",
+      "count": 6,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "What comes next for Iran",
+        "The doom loop can't last",
+        "The good news about democracy that everyone ignores",
+        "One democracy’s unlikely saviors",
+        "Can authoritarianism be undone?"
+      ]
+    },
+    {
+      "email": "marketing@cult.fit",
+      "name": "cult",
+      "domain": "cult.fit",
+      "count": 6,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Your salary just looked at you 👀",
+        "Abhishek, your account balance...",
+        "Abhishek, cash in on fitness! 💴 ",
+        "Abhishek, you have the will power to...",
+        "You may have many reasons..."
+      ]
+    },
+    {
+      "email": "superintel@mail.beehiiv.com",
+      "name": "Superintelligence",
+      "domain": "mail.beehiiv.com",
+      "count": 6,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "AI in India (why, what was discussed, etc...)",
+        "Nano Banana 2 is Here!",
+        "Pentagon vs. Anthropic: AI's Defining Moment",
+        "3B Parameters Beat 22B... Seriously.",
+        "Chinese Labs Caught Stealing Claude's Brain"
+      ]
+    },
+    {
+      "email": "*@olacabs.com",
+      "name": "Ola",
+      "domain": "olacabs.com",
+      "count": 5,
+      "type": "transport",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Check your Shaadi Score 😳",
+        "We’ve fallen for you! 💕",
+        "Price Drop 🚨 Rides starting @ ₹20"
+      ]
+    },
+    {
+      "email": "retailproducts@mail.kotak.in",
+      "name": "Kotak Bank",
+      "domain": "mail.kotak.in",
+      "count": 5,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "🔄 Hit renew on your Sum Insured",
+        "🛡️ Coverage that accompanies you in the highs and lows of life",
+        "Your security matters! Let’s get you covered ❤️‍🩹",
+        "💸 Your hospital daily cash insurance cover is still waiting!",
+        "Leap into adventure 🪂"
+      ]
+    },
+    {
+      "email": "*@sbi.bank.in",
+      "name": "SBI",
+      "domain": "sbi.bank.in",
+      "count": 4,
+      "type": "bank",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "NEFT Transaction",
+        "NEFT Transaction",
+        "E-account statement for your SBI account(s)."
+      ]
+    },
+    {
+      "email": "offers@thep.hindugroup.org.in",
+      "name": "The Hindu ePaper",
+      "domain": "thep.hindugroup.org.in",
+      "count": 4,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "🔔 Subscription Expired | Renew Now & Save 50%",
+        "Dear Reader, Your Subscription Has Expired | Renew Now & Save 50%",
+        "Get 30% off on The Hindu Products 🏏",
+        "🔔 Subscription Expired | Renew Now & Save 50%"
+      ]
+    },
+    {
+      "email": "newsletters@nl.technologyadvice.com",
+      "name": "HR for Humans",
+      "domain": "nl.technologyadvice.com",
+      "count": 4,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "🎭 HR’s double life",
+        "❓ The questions managers can’t answer alone",
+        "Tomorrow: Multi State HR Without the Headache",
+        "🧠 Performance & potential: Are you mixing them up?"
+      ]
+    },
+    {
+      "email": "*@bookmyshow.com",
+      "name": "BookMyShow",
+      "domain": "bookmyshow.com",
+      "count": 3,
+      "type": "travel",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Ready for instant perks? Apply for an HSBC credit card today ✨",
+        "HSBC Credit Card just unlocked something special for you 👀",
+        "Why pay full price? Your HSBC 💳 knows better!"
+      ]
+    },
+    {
+      "email": "no-reply@msg91.com",
+      "name": "MSG91 Team",
+      "domain": "msg91.com",
+      "count": 3,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "MSG91 - Whatsapp Subscription Renewal Failed!",
+        "MSG91 - Whatsapp Subscription Renewal Failed!",
+        "MSG91 - Whatsapp Subscription Renewal Failed!"
+      ]
+    },
+    {
+      "email": "noreply@lazypay.in",
+      "name": "LazyPay",
+      "domain": "lazypay.in",
+      "count": 3,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "LazyPay Alert: Payment due",
+        "LazyPay Alert: Payment due reminder",
+        "Lazypay Statement Generated for 16th Feb, 2026 to 28th Feb, 2026"
+      ]
+    },
+    {
+      "email": "niksharma@workweek.com",
+      "name": "Nik Sharma",
+      "domain": "workweek.com",
+      "count": 3,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "The Subscription Playbook 2.0 (Everything I Got Wrong, and What's Working Now)",
+        "Why the right growth partner is the key to success",
+        "Promotions 101: How to run offers without being a discount brand"
+      ]
+    },
+    {
+      "email": "d@trends.vc",
+      "name": "Dru Riley @ Trends.vc",
+      "domain": "trends.vc",
+      "count": 3,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "The Resistance Rule",
+        "Report #0153 — OpenClaw Hosting: The Wrapper Bubble, $7,000/mo in 3 Days, Agent Skill Marketplaces",
+        "Founder Finds #0184: 🤖 What Does Naval Ravikant Say About AI?"
+      ]
+    },
+    {
+      "email": "satyam@arthancareers.com",
+      "name": "Satyam Vyas",
+      "domain": "arthancareers.com",
+      "count": 3,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "February Highlights | People Leaders Conclave & Sector Updates",
+        "February Highlights | People Leaders Conclave & Sector Updates",
+        "Invitation | Arthan’s First People Leaders Conclave | 11 March 2026 | New Delhi"
+      ]
+    },
+    {
+      "email": "notify@mail.notion.so",
+      "name": "Notion Team",
+      "domain": "mail.notion.so",
+      "count": 3,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Parth made updates in Abhishek Anita’s",
+        "Parth and 2 others made updates in Abhishek Anita’s",
+        "ashu dhewal made updates in Abhishek Anita’s"
+      ]
+    },
+    {
+      "email": "*@flipkart.com",
+      "name": "Flipkart",
+      "domain": "flipkart.com",
+      "count": 2,
+      "type": "shopping",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "🎭Curtain Raiser Deals are LIVE!✨",
+        "🎭Curtain Raiser Deals are LIVE!✨"
+      ]
+    },
+    {
+      "email": "hello@splitwise.com",
+      "name": "Splitwise",
+      "domain": "splitwise.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Akshit Khunger paid you ₹4,968.75 on Splitwise",
+        "Your balance for February"
+      ]
+    },
+    {
+      "email": "english-quora-digest@quora.com",
+      "name": "Quora Digest",
+      "domain": "quora.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Is the 94.1 LPA salary in Bangalore too low for a 32-year-old software engineer?",
+        "Are extramarital affairs common in Indian workplaces?"
+      ]
+    },
+    {
+      "email": "jonsamp@expo.dev",
+      "name": "Jon Samp",
+      "domain": "expo.dev",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "EAS Workflows for Build users",
+        "Use less builds: How EAS Update saves you time"
+      ]
+    },
+    {
+      "email": "billing@mail.anthropic.com",
+      "name": "Anthropic, PBC",
+      "domain": "mail.anthropic.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Reminder: Confirm your $118.00 payment to Anthropic, PBC",
+        "Important: Confirm your $118.00 payment to Anthropic, PBC"
+      ]
+    },
+    {
+      "email": "hello@updates.truecaller.com",
+      "name": "Truecaller",
+      "domain": "updates.truecaller.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Truecaller Premium makes Caller ID effortless",
+        "Upgrade for full Truecaller Caller ID"
+      ]
+    },
+    {
+      "email": "nl@email.vestedfinance.com",
+      "name": "Vested Shorts",
+      "domain": "email.vestedfinance.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Nvidia doubles revenue yet falls 5%, Netflix jumps 14%, Dell surges 22%, and OpenAI raises $110B at $730B valuation",
+        "Why oil hit a 6-month high, cyber stocks fell 10%, and OpenAI targets revenue of $280 Billion"
+      ]
+    },
+    {
+      "email": "the-diff@ghost.io",
+      "name": "Byrne @ The Diff",
+      "domain": "ghost.io",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Longreads + Open Thread",
+        "The Middle Game: Routers at the Edge"
+      ]
+    },
+    {
+      "email": "hello@lbb.co.in",
+      "name": "LBB",
+      "domain": "lbb.co.in",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "LBB’s Holi Guide 💛",
+        "The Season of the Dreamers — Pisces ♓"
+      ]
+    },
+    {
+      "email": "chelsea.c@ifttt.com",
+      "name": "Chelsea with IFTTT",
+      "domain": "ifttt.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Your home screen called. It wants an upgrade 📱",
+        "3 hours back, starting today"
+      ]
+    },
+    {
+      "email": "notifications@calendly.com",
+      "name": "Sameer Kumar",
+      "domain": "calendly.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Thanks for your time!",
+        "Reminder: CASParser 1:1 with Sameer with Sameer Kumar at 04:00pm (India Standard Time) on Thursday, February 26, 2026"
+      ]
+    },
+    {
+      "email": "sales@payproglobal.com",
+      "name": "PayPro Global",
+      "domain": "payproglobal.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Your order invoice (#41153930)",
+        "Your CapSolver Payment Summary order is complete (#41153930)"
+      ]
+    },
+    {
+      "email": "samsung@in.email.samsung.com",
+      "name": "Samsung Electronics India",
+      "domain": "in.email.samsung.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Pre-order the new Galaxy S26 Ultra 🌌",
+        "Hurry! Participate now & win big"
+      ]
+    },
+    {
+      "email": "growth@scraperapi.com",
+      "name": "ScraperAPI",
+      "domain": "scraperapi.com",
+      "count": 2,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Immediate Action Required: You've used 100% of your credits",
+        "Heads up! You've used 80% of your monthly credits"
+      ]
+    },
+    {
+      "email": "*@googlepay",
+      "name": "Google Pay",
+      "domain": "googlepay",
+      "count": 1,
+      "type": "payment",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        " Annual reminder about Google Pay’s Terms of Service, Consumer Policy and Privacy Policy"
+      ]
+    },
+    {
+      "email": "*@amazon.com",
+      "name": "Amazon",
+      "domain": "amazon.com",
+      "count": 1,
+      "type": "shopping",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "You have set up a passkey for Amazon"
+      ]
+    },
+    {
+      "email": "*@youtube.com",
+      "name": "YouTube",
+      "domain": "youtube.com",
+      "count": 1,
+      "type": "subscription",
+      "detectedBy": "known_domain",
+      "sampleSubjects": [
+        "Annual reminder about YouTube’s Terms of Service, Community Guidelines and Privacy Policy\r\n"
+      ]
+    },
+    {
+      "email": "invoice+statements+acct_1lnh3ddivhnr5wfc@stripe.com",
+      "name": "HeyGen Technology Inc.",
+      "domain": "stripe.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Your receipt from HeyGen Technology Inc. #2334-6009"
+      ]
+    },
+    {
+      "email": "info@yourstory.com",
+      "name": "YourStory | The CapTable",
+      "domain": "yourstory.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Sharp insights on India’s new economy — delivered straight to your inbox every week."
+      ]
+    },
+    {
+      "email": "noreply@opportunitydesk.org",
+      "name": "Opportunity Desk",
+      "domain": "opportunitydesk.org",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "61 Global Opportunities – One Acre Fund Future Leaders Program, GLOBSEC Young Leaders Forum, UNEP Young Champions of the Earth & More"
+      ]
+    },
+    {
+      "email": "simon@shaders.com",
+      "name": "Simon",
+      "domain": "shaders.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Shaders February Update"
+      ]
+    },
+    {
+      "email": "updates@th.hindugroup.org.in",
+      "name": "The Hindu",
+      "domain": "th.hindugroup.org.in",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Tehran reenters the global geopolitical spotlight | Weekly Deep Dive"
+      ]
+    },
+    {
+      "email": "james@jamesclear.com",
+      "name": "James Clear",
+      "domain": "jamesclear.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "3-2-1: On reducing fear, what matters most, and how life responds to us"
+      ]
+    },
+    {
+      "email": "noreply@lovable.dev",
+      "name": "Lovable",
+      "domain": "lovable.dev",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Lovable Update: Cross-project referencing, new connectors & Opus 4.6, and more."
+      ]
+    },
+    {
+      "email": "abhishek12318@gmail.com",
+      "name": "Abhishek Aggarwal",
+      "domain": "gmail.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Re: Consolidated Account Statement - CAMS Mailback Request"
+      ]
+    },
+    {
+      "email": "do-not-reply@ses.binance.com",
+      "name": "Binance",
+      "domain": "ses.binance.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "[Reminder] Update Your KYC Information to Ensure Continued Access - 2026-02-26 02:27:13 (UTC)"
+      ]
+    },
+    {
+      "email": "info@updates.easemytrip.com",
+      "name": "EaseMyTrip",
+      "domain": "updates.easemytrip.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "The ₹1,999* IndiGo Deal Just Landed"
+      ]
+    },
+    {
+      "email": "flyingblue@info-flyingblue.com",
+      "name": "Flying Blue",
+      "domain": "info-flyingblue.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Plan your next duo trip"
+      ]
+    },
+    {
+      "email": "info@email.obama.org",
+      "name": "The Obama Foundation",
+      "domain": "email.obama.org",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "On whose shoulders we stand"
+      ]
+    },
+    {
+      "email": "mannkibaat@narendramodi.in",
+      "name": "Mann Ki Baat",
+      "domain": "narendramodi.in",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "So many breakthroughs, listen to PM's Mann Ki Baat to get a glimpse of everything that took place this month!"
+      ]
+    },
+    {
+      "email": "netri@substack.com",
+      "name": "Engendering Power: Future Politics by NETRI",
+      "domain": "substack.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Intellectualism is back, as an Accessory: Society, Tech Economies & Policy Implications"
+      ]
+    },
+    {
+      "email": "support@codepen.io",
+      "name": "CodePen",
+      "domain": "codepen.io",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "border-shape, Graph Theory in CSS, and Aerodynamic Type"
+      ]
+    },
+    {
+      "email": "updates@marketing.mudrex.com",
+      "name": "Mudrex Research",
+      "domain": "marketing.mudrex.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "BTC traders are staying cautious | Mudrex Weekly Digest 🟣"
+      ]
+    },
+    {
+      "email": "office@iitdalumni.com",
+      "name": "IIT Delhi Alumni Association",
+      "domain": "iitdalumni.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "Reminder - Nominations Invited: Outstanding Contribution to Nation Development (OCND) & Global Alumni Recognition (GARA) Awards 2026 - Last Date 28th Feb."
+      ]
+    },
+    {
+      "email": "updates@community.myhq.in",
+      "name": "myHQ Team",
+      "domain": "community.myhq.in",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "₹250/hr for the perfect meeting room? Let’s book it, Abhishek Aggarwal ⚡"
+      ]
+    },
+    {
+      "email": "noreply@promo.croma.com",
+      "name": "Croma",
+      "domain": "promo.croma.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "India leads ChatGPT usage, Gaming goes cloud & Party Speakers get loud"
+      ]
+    },
+    {
+      "email": "hi@bumble.com",
+      "name": "Bumble",
+      "domain": "bumble.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "You’ve unsubscribed from Premium+ 🔔"
+      ]
+    },
+    {
+      "email": "discover@airbnb.com",
+      "name": "Airbnb",
+      "domain": "airbnb.com",
+      "count": 1,
+      "type": "detected_financial",
+      "detectedBy": "keyword",
+      "sampleSubjects": [
+        "We’re updating our Terms and Privacy Policy"
+      ]
+    }
+  ],
+  "nonFinancialTopSenders": [
+    {
+      "email": "newsletters@yourstory.com",
+      "name": "YS Buzz",
+      "count": 9,
+      "sampleSubjects": [
+        "🤖 Rise of the digital worker",
+        "🚨 Safety alarm for women"
+      ]
+    },
+    {
+      "email": "hello@vf.karmanow.com",
+      "name": "Karma",
+      "count": 9,
+      "sampleSubjects": [
+        "March Bloom: A Luxury Edit",
+        "Actual savings that take you places!"
+      ]
+    },
+    {
+      "email": "noreply@discord.com",
+      "name": "Discord",
+      "count": 8,
+      "sampleSubjects": [
+        "You missed messages in Nebula Finance",
+        "You missed messages in Nebula Finance"
+      ]
+    },
+    {
+      "email": "info@emails.kotak.in",
+      "name": "Kotak Bank",
+      "count": 7,
+      "sampleSubjects": [
+        "Dear Abhishek Aggarwal, Protect your family and save tax every year with Kotak Life Term Plans",
+        "Hurry! 6.70%* interest p.a. on Kotak FD. Rate won’t last long—book today!"
+      ]
+    },
+    {
+      "email": "updates@updates.apollo247.com",
+      "name": "Apollo 24|7",
+      "count": 7,
+      "sampleSubjects": [
+        "🎊 La Roche-Posay X Apollo 247 🎊",
+        "🎊 La Roche-Posay X Apollo 247 🎊"
+      ]
+    },
+    {
+      "email": "no_reply@email.heygen.com",
+      "name": "Team HeyGen",
+      "count": 6,
+      "sampleSubjects": [
+        "Your HeyGen Magic Link",
+        "Your HeyGen Verification Code"
+      ]
+    },
+    {
+      "email": "retailproducts@mail.kotakalert.bank.in",
+      "name": "Kotak Credit Card",
+      "count": 6,
+      "sampleSubjects": [
+        "Looking for this?",
+        "Love surprises?"
+      ]
+    },
+    {
+      "email": "noreply@steampowered.com",
+      "name": "Steam Support",
+      "count": 6,
+      "sampleSubjects": [
+        "Thank you for your Steam purchase!",
+        "Thank you for activating your product on Steam!"
+      ]
+    },
+    {
+      "email": "notifications-noreply@linkedin.com",
+      "name": "LinkedIn",
+      "count": 5,
+      "sampleSubjects": [
+        "You were trending in 196 searches",
+        "Rohit Ganapathi commented on Kevin Allemann’s post: Much needed solution for…"
+      ]
+    },
+    {
+      "email": "messages-noreply@linkedin.com",
+      "name": "LinkedIn",
+      "count": 5,
+      "sampleSubjects": [
+        "Abhishek, you’re getting noticed",
+        "Abhishek, add Varsha Seshadri - Engagement Manager 💬"
+      ]
+    },
+    {
+      "email": "newsletter@mobbin.com",
+      "name": "Mobbin",
+      "count": 4,
+      "sampleSubjects": [
+        "Monday Mobile Drop",
+        "Wednesday Web Drop"
+      ]
+    },
+    {
+      "email": "newsletters@foreignpolicy.com",
+      "name": "Foreign Policy",
+      "count": 4,
+      "sampleSubjects": [
+        "The Reading List: The U.S. and Israel attack Iran",
+        "Iran Dangerously Misunderstands Its Situation"
+      ]
+    },
+    {
+      "email": "contribute@vox.com",
+      "name": "Vox",
+      "count": 4,
+      "sampleSubjects": [
+        "The scary incoherence of Trump’s strike on Iran",
+        "Envisioning an America after Trump"
+      ]
+    },
+    {
+      "email": "support@educative.io",
+      "name": "The Educative Team",
+      "count": 3,
+      "sampleSubjects": [
+        "Your Cloud roundup is here, Abhishek",
+        "New: Product Management Toolkit"
+      ]
+    },
+    {
+      "email": "newsletter@economictimesnews.com",
+      "name": "The Economic Times",
+      "count": 3,
+      "sampleSubjects": [
+        "Geopolitical Shockwaves Are Hitting Markets -  Here’s How to Respond",
+        "Weekly Market Wrap - Iran-Israel tensions likely to trigger choppy trade"
+      ]
+    },
+    {
+      "email": "reports@gosquared.com",
+      "name": "GoSquared",
+      "count": 3,
+      "sampleSubjects": [
+        "Weekly Report - Monday - Sunday 1st March 2026",
+        "Monthly Report - February 2026"
+      ]
+    },
+    {
+      "email": "spicejet@web-spicejet.com",
+      "name": "SpiceJet",
+      "count": 3,
+      "sampleSubjects": [
+        "Good Food, Great Flights—Explore Our Healthy Meals!",
+        "Make every long weekend count."
+      ]
+    },
+    {
+      "email": "welcome@zenrows.com",
+      "name": "ZenRows",
+      "count": 3,
+      "sampleSubjects": [
+        "Make your Scraping Browser runs faster and more reliable",
+        "Abhishek Aggarwal, you’re live. Here’s how to get the best results with your Scraping Browser"
+      ]
+    },
+    {
+      "email": "email@notreallystrangers.com",
+      "name": "We're Not Really Strangers",
+      "count": 3,
+      "sampleSubjects": [
+        "doomscrolling is out",
+        "pick one"
+      ]
+    },
+    {
+      "email": "billing@tm1.openai.com",
+      "name": "OpenAI",
+      "count": 3,
+      "sampleSubjects": [
+        "Your OpenAI API account has been funded",
+        "Your OpenAI API account has been funded"
+      ]
+    },
+    {
+      "email": "zach.m@educative.io",
+      "name": "Zach at Educative",
+      "count": 3,
+      "sampleSubjects": [
+        "It all ends today.",
+        "50% off (or more) ends today"
+      ]
+    },
+    {
+      "email": "invitations@linkedin.com",
+      "name": "Divyansh Devam",
+      "count": 3,
+      "sampleSubjects": [
+        "I want to connect",
+        "I want to connect"
+      ]
+    },
+    {
+      "email": "updates@mail.fluar.com",
+      "name": "Kamil @Fluar",
+      "count": 2,
+      "sampleSubjects": [
+        "launch week day 1: salesforce is here",
+        "new: hubspot sync, linkedin tracking, table lookups"
+      ]
+    },
+    {
+      "email": "support@bookmyforex.com",
+      "name": "BookMyForex",
+      "count": 2,
+      "sampleSubjects": [
+        "Verify Your E-mail Account",
+        "Verify Your E-mail Account"
+      ]
+    },
+    {
+      "email": "follow-suggestions@mail.instagram.com",
+      "name": "Instagram",
+      "count": 2,
+      "sampleSubjects": [
+        "abhishek.1804, see oneplus, swastya_ai and more in your feed",
+        "abhishek.1804, see oneplus, garvitgupta83 and more in your feed"
+      ]
+    },
+    {
+      "email": "noreply@ses.caravanmagazine.in",
+      "name": "The Caravan",
+      "count": 2,
+      "sampleSubjects": [
+        "Mammootty's Many Reinventions",
+        "Every name in the book"
+      ]
+    },
+    {
+      "email": "newsletter@notifications.lumosity.com",
+      "name": "Dr. Bob from Lumosity",
+      "count": 2,
+      "sampleSubjects": [
+        "🪴🧠 Could opening a window help you think more clearly?",
+        "🧠 What happens in your brain when you learn music?"
+      ]
+    },
+    {
+      "email": "jayschwedelson@mail.beehiiv.com",
+      "name": "Jay Schwedelson",
+      "count": 2,
+      "sampleSubjects": [
+        "[SCOOP #5] Umm...Hello??",
+        "[SCOOP #5] Taylor Swift MEME Inside! (and marketing stuff...)"
+      ]
+    },
+    {
+      "email": "alerts@hello.sonyliv.com",
+      "name": "Sony LIV",
+      "count": 2,
+      "sampleSubjects": [
+        "India's biggest political thriller. You are missing out if you haven't watched yet!",
+        "A binge-worthy thriller. You are missing out if you haven't watched yet!"
+      ]
+    },
+    {
+      "email": "offers@thehindu.hindugroup.org.in",
+      "name": "The Hindu",
+      "count": 2,
+      "sampleSubjects": [
+        "🔭 National Science Day: celebrating inquiry and discovery",
+        "💥Only today: 40% off on annual digital plans"
+      ]
+    }
+  ]
+}

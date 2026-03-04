@@ -1,0 +1,31 @@
+{
+    "ts-node": { "files": true, "swc": true },
+    "compilerOptions": {
+        "allowJs": true,
+        "target": "es5",
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "downlevelIteration": true,
+        "declaration": true,
+        "declarationMap": true,
+        "composite": true,
+        "incremental": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["*"]
+        },
+        "resolveJsonModule": true,
+        "tsBuildInfoFile": "./dist/.tsbuildinfo"
+    },
+    "include": ["src/**/*", "src/**/*.json", "global.d.ts", "stream-custom-data.d.ts"],
+    "exclude": ["node_modules", "dist"]
+}

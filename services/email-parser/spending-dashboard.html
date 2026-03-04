@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spending Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0f0f0f;--ink-2:#3a3a3a;--ink-3:#7a7a7a;--ink-4:#b0b0a8;
+  --paper:#fafaf7;--surface:#f2f2ed;
+  --accent:#1a472a;--accent-2:#e4f2e8;
+  --warn:#b85000;--warn-bg:#fff4ec;
+  --red:#b01a1a;--red-bg:#fae8e8;
+  --border:#deded6;--rule:#ebebe3;
+  --green:#1a6b35;--green-bg:#e4f2e8;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
+.page{max-width:920px;margin:0 auto;padding:40px 28px 80px}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:28px;letter-spacing:-0.02em;line-height:1.15}
+h2{font-family:'Syne',sans-serif;font-weight:700;font-size:21px}
+.meta{font-size:12px;color:var(--ink-3);margin-top:6px}
+.meta-badge{display:inline-block;background:var(--surface);padding:2px 10px;border-radius:12px;font-size:11px;font-weight:600;margin-right:6px}
+.sec{margin-top:48px}
+.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:18px}
+.sn{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-4);min-width:28px}
+.st{font-family:'Syne',sans-serif;font-size:21px;font-weight:700}
+.sec-label{display:block;font-family:'Syne',sans-serif;font-size:12px;color:var(--ink-2);text-transform:uppercase;letter-spacing:0.06em;margin-top:22px;margin-bottom:10px}
+
+/* ── Metric Cards (dgrid) ── */
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}
+.dc{background:#fff;border:1px solid var(--border);border-radius:11px;padding:17px 18px 15px}
+.dc.feat{background:var(--ink);border-color:var(--ink)}
+.dc.gc{background:var(--accent-2);border-color:var(--accent-2)}
+.dc.wc{background:var(--warn-bg);border-color:var(--warn-bg)}
+.dcl{font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:var(--ink-3);margin-bottom:6px;font-weight:500}
+.dcl.lt{color:rgba(255,255,255,.5)}
+.dcn{font-family:'Syne',sans-serif;font-size:28px;font-weight:800;margin-bottom:5px;line-height:1.1}
+.dcn.lt{color:#fff}
+.dcn.g{color:var(--accent)}
+.dcn.w{color:var(--warn)}
+.dcn.r{color:var(--red)}
+.dcs{font-size:12px;color:var(--ink-3)}
+.dcs.lt{color:rgba(255,255,255,.45)}
+
+/* ── Personality Card ── */
+.persona{background:var(--ink);color:#fff;border-radius:14px;padding:28px 26px;margin-top:16px}
+.persona-emoji{font-size:42px;margin-bottom:8px}
+.persona-type{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;margin-bottom:6px}
+.persona-desc{font-size:14px;opacity:.7;line-height:1.5;margin-bottom:14px}
+.persona-traits{display:flex;gap:8px;flex-wrap:wrap}
+.persona-trait{background:rgba(255,255,255,.1);padding:4px 12px;border-radius:20px;font-size:11.5px;font-weight:500}
+
+/* ── Health Score (ss) ── */
+.ss{background:var(--ink);color:#fff;border-radius:14px;padding:26px 24px}
+.sst{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;opacity:.5;margin-bottom:8px}
+.ssn{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;margin-bottom:4px}
+.ssd{font-size:13px;opacity:.6;margin-bottom:20px}
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.sdl{font-size:11px;opacity:.45;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.sdv{font-family:'Syne',sans-serif;font-size:26px;font-weight:800}
+.sdv.g{color:#7af0a0}.sdv.a{color:#f0d870}.sdv.r{color:#f08080}
+.sds{font-size:11px;opacity:.45;margin-top:4px;margin-bottom:8px}
+.sdt{height:4px;background:rgba(255,255,255,.12);border-radius:2px}
+.sdf{height:100%;border-radius:2px}
+
+/* ── Your Numbers (ugrid) ── */
+.ugrid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}
+.uc{background:#fff;border:1px solid var(--border);border-radius:11px;padding:16px 18px}
+.uc-icon{font-size:22px;margin-bottom:6px}
+.uc-val{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;margin-bottom:3px;line-height:1.1}
+.uc-label{font-size:12px;font-weight:500;color:var(--ink-2);margin-bottom:3px}
+.uc-detail{font-size:11px;color:var(--ink-3)}
+
+/* ── Real-World Equivalents ── */
+.rwgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.rw{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+.rwi{font-size:22px}
+.rwv{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--accent)}
+.rwl{font-size:12px;color:var(--ink-2);font-weight:500}
+.rws{font-size:11px;color:var(--ink-3)}
+
+/* ── Category Breakdown ── */
+.aa-bar{display:flex;height:32px;border-radius:8px;overflow:hidden;margin-bottom:14px}
+.aa-seg{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#fff;min-width:30px;padding:0 4px;white-space:nowrap;overflow:hidden}
+.aa-legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+.aa-item{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-2)}
+.aa-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+.cat-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.cat-card{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px 16px;position:relative;overflow:hidden}
+.cat-card-bar{position:absolute;bottom:0;left:0;height:3px}
+.cat-name{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;margin-bottom:4px}
+.cat-amount{font-family:'Syne',sans-serif;font-size:18px;font-weight:800}
+.cat-meta{font-size:11px;color:var(--ink-3)}
+
+/* ── Merchant Table ── */
+.ft-wrap{border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.ft{width:100%;border-collapse:collapse}
+.ft th{font-family:'Syne',sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;background:var(--surface);color:var(--ink-3);padding:10px 14px;text-align:left}
+.ft td{padding:11px 14px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-2);vertical-align:middle}
+.ft-name{font-weight:600;color:var(--ink);font-size:13px}
+.ft-sub{font-size:11px;color:var(--ink-3)}
+.ft-rank{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--ink-4);min-width:24px}
+.ft-bar{height:6px;background:var(--surface);border-radius:3px;margin-top:4px;overflow:hidden}
+.ft-bar-fill{height:100%;border-radius:3px}
+
+/* ── Spending Patterns ── */
+.pat-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pat-box{background:#fff;border:1px solid var(--border);border-radius:11px;padding:18px}
+.pat-title{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;margin-bottom:14px}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.bar-label{font-size:12px;min-width:36px;text-align:right;color:var(--ink-3);font-weight:500}
+.bar-track{flex:1;height:22px;background:var(--surface);border-radius:5px;position:relative;overflow:hidden}
+.bar-fill{height:100%;border-radius:5px;display:flex;align-items:center;padding-left:8px;min-width:2px}
+.bar-val{font-size:10px;font-weight:600;color:#fff;white-space:nowrap}
+.bar-val.out{position:absolute;left:calc(100% + 8px);color:var(--ink-2);top:50%;transform:translateY(-50%)}
+/* Hourly chart */
+.hour-chart{display:flex;align-items:flex-end;gap:2px;height:80px;margin-top:8px}
+.hour-bar{flex:1;background:var(--accent);border-radius:2px 2px 0 0;min-width:4px;position:relative;cursor:default;transition:opacity .15s}
+.hour-bar:hover{opacity:.7}
+.hour-labels{display:flex;justify-content:space-between;font-size:9px;color:var(--ink-4);margin-top:4px}
+
+/* ── Heatmap ── */
+.hm-table{width:100%;border-collapse:collapse}
+.hm-table th{padding:6px 4px;font-family:'Syne',sans-serif;font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-3);text-align:center}
+.hm-table td{padding:3px;text-align:center}
+.hm-cell{border-radius:4px;padding:6px 2px;font-size:10px;font-weight:500;min-height:28px;display:flex;align-items:center;justify-content:center}
+
+/* ── What-If ── */
+.wi-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.wi{background:#fff;border:1px solid var(--border);border-radius:11px;padding:17px}
+.wi-name{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-bottom:4px}
+.wi-desc{font-size:12.5px;color:var(--ink-2);font-style:italic;line-height:1.45;margin-bottom:12px}
+.wi-row{display:flex;justify-content:space-between;font-size:12.5px;padding:5px 0;border-bottom:1px solid var(--rule)}
+.wi-row:last-of-type{border-bottom:none}
+.wi-label{color:var(--ink-3)}
+.wi-diff{margin-top:10px;padding:10px;border-radius:8px;text-align:center;font-family:'Syne',sans-serif;font-size:15px;font-weight:700}
+.wi-diff.save{background:var(--accent-2);color:var(--accent)}
+.wi-diff.grow{background:var(--accent-2);color:var(--accent)}
+.wi-diff.warn{background:var(--warn-bg);color:var(--warn)}
+.wi-framing{font-size:12px;color:var(--ink-2);line-height:1.5;padding:8px 10px;background:var(--surface);border-radius:6px;margin-top:8px}
+
+/* ── Insight Cards ── */
+.ins-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ins-card{border-radius:16px;padding:22px;min-height:160px;display:flex;flex-direction:column;justify-content:flex-end;cursor:pointer;transition:transform .15s,box-shadow .15s;position:relative}
+.ins-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.ins-badge{position:absolute;top:14px;right:14px;font-size:9px;background:rgba(255,255,255,.25);padding:2px 8px;border-radius:10px}
+.ins-icon{font-size:28px;margin-bottom:6px}
+.ins-big{font-family:'Syne',sans-serif;font-size:36px;font-weight:800;line-height:1}
+.ins-title{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;line-height:1.3;margin-top:6px}
+.ins-sub{font-size:12px;opacity:.75;margin-top:4px;line-height:1.4}
+
+/* ── Top Items ── */
+.th-list{display:flex;flex-direction:column;gap:6px}
+.th-row{display:flex;align-items:center;gap:12px;padding:8px 12px;background:#fff;border:1px solid var(--border);border-radius:8px}
+.th-rank{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--ink-4);min-width:20px}
+.th-name{flex:1;font-size:13px;font-weight:500}
+.th-merch{font-size:11px;color:var(--ink-3)}
+.th-count{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:var(--accent);min-width:40px;text-align:right}
+.th-amt{font-size:12px;color:var(--ink-3);min-width:70px;text-align:right}
+
+/* ── Actionables ── */
+.ac{display:flex;gap:13px;padding:13px 15px;background:#fff;border:1px solid var(--border);border-radius:10px;margin-bottom:8px}
+.aci{font-size:20px;flex-shrink:0;padding-top:2px}
+.act{font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.acd{font-size:12.5px;color:var(--ink-2);line-height:1.5}
+.acm{font-size:11px;background:var(--surface);padding:2px 8px;border-radius:4px;display:inline-block;margin-top:4px}
+.acscore{font-size:10px;padding:3px 8px;border-radius:12px;font-weight:700;background:var(--accent-2);color:var(--accent)}
+
+/* ── Slideshow Dialog ── */
+.dialog-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(6px)}
+.dialog-overlay.open{display:flex}
+.dialog-box{width:420px;max-width:92vw;max-height:90vh;position:relative}
+.dialog-close{position:absolute;top:-44px;right:0;width:36px;height:36px;border-radius:50%;border:none;background:rgba(255,255,255,.15);color:#fff;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.slide{border-radius:20px;padding:36px 28px 32px;min-height:340px;display:flex;flex-direction:column;animation:slideIn .3s ease}
+.slide-step{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.15em;opacity:.5;margin-bottom:12px}
+.slide-slot{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
+.slide-big{font-family:'Syne',sans-serif;font-size:48px;font-weight:800}
+.slide-big-label{font-size:13px;opacity:.6;margin-bottom:12px}
+.slide-title{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;line-height:1.2;margin-bottom:8px}
+.slide-body{font-size:15px;line-height:1.7;flex:1;white-space:pre-line}
+.slide-nav{display:flex;justify-content:space-between;align-items:center;margin-top:20px}
+.slide-btn{width:44px;height:44px;border-radius:50%;border:2px solid;background:transparent;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.slide-btn:disabled{opacity:.2;cursor:default}
+.slide-dots{display:flex;gap:6px;align-items:center}
+.slide-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2)}
+.slide-dot.active{width:24px;border-radius:4px;opacity:.7}
+@keyframes slideIn{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}
+
+/* ── Responsive ── */
+@media(max-width:720px){
+  .dgrid,.ugrid,.sgrid,.rwgrid,.cat-cards{grid-template-columns:repeat(2,1fr)}
+  .ins-grid{grid-template-columns:repeat(2,1fr)}
+  .wi-grid,.pat-grid{grid-template-columns:1fr}
+  .page{padding:24px 16px 60px}
+  .dialog-box{width:100%;max-width:100%;margin:0 12px}
+}
+.pos{color:var(--accent);font-weight:600}
+.neg{color:var(--red);font-weight:600}
+
+/* ── Loading / Error ── */
+.loading{text-align:center;padding:80px 20px;color:var(--ink-3)}
+.loading h2{color:var(--ink);margin-bottom:8px}
+</style>
+</head>
+<body>
+<div class="page" id="app">
+  <div class="loading">
+    <h2>Loading spending data...</h2>
+    <p>Make sure spending-dashboard-data.json exists in the same directory.</p>
+  </div>
+</div>
+
+<script>
+/* __EMBEDDED_DATA__ */
+    window.__DASHBOARD_DATA__ = {"generatedAt":"2026-03-02T18:44:53.674Z","userName":"abhishek12318@gmail.com","overview":{"totalSpent":133093.92000000004,"totalOrders":488,"avgMonthly":14788.213333333339,"avgOrderValue":272.7334426229509,"medianOrderValue":169,"uniqueMerchants":4,"periodFrom":"2018-01-17T00:00:00.000Z","periodTo":"2026-03-02T14:25:06.000Z","periodDays":2967,"periodMonths":9,"activeMonths":9},"healthScore":{"overall":62,"dimensions":[{"name":"Diversification","score":25,"max":25,"detail":"HHI: 26% concentration"},{"name":"Regularity","score":0,"max":25,"detail":"Avg 6.1 days between orders"},{"name":"Value","score":14,"max":25,"detail":"Median order: Rs 169"},{"name":"Balance","score":23,"max":25,"detail":"47% essential spending"}],"grade":"Good"},"spendingPersonality":{"type":"The Power User","emoji":"⚡","description":"You order with impressive frequency — apps love you.","traits":["12.5 orders/week","6.1 day avg gap"]},"yourNumbers":[{"icon":"💸","value":"Rs 8,700","label":"Biggest Single Order","detail":"Apple on 7 Feb 2026"},{"icon":"🔄","value":"156","label":"Orders from Swiggy","detail":"That's every 2 days"},{"icon":"📦","value":"8","label":"Most Orders in One Day","detail":"7 Feb 2026"},{"icon":"🌙","value":"54","label":"Late Night Orders","detail":"Rs 19,667 spent after 10 PM"},{"icon":"🏖️","value":"62","label":"Longest Order-Free Streak (days)","detail":"Your best break from ordering"},{"icon":"🍽️","value":"176","label":"Unique Items Ordered","detail":"Across all invoices with line items"}],"realWorldEquivalents":[{"icon":"🍳","value":"7","label":"Months of Home Cooking","detail":"Your food delivery spend (Rs 43K) at Rs 200/day"},{"icon":"✈️","value":"27","label":"Domestic Flights","detail":"Total spend at Rs 5,000 per flight"},{"icon":"📱","value":"669","label":"Netflix Subscriptions","detail":"At Rs 199/month mobile plan"},{"icon":"🏋️","value":"89","label":"Gym Memberships (months)","detail":"At Rs 1,500/month"}],"categoryBreakdown":[{"label":"Food Delivery","color":"#FF6B35","amount":42971,"count":156,"pct":32.28622314227426,"avgOrder":275.45512820512823},{"label":"Transport","color":"#0984E3","amount":31954.92,"count":200,"pct":24.009301101057048,"avgOrder":159.7746},{"label":"Grocery","color":"#00B894","amount":30464,"count":38,"pct":22.889099667362707,"avgOrder":801.6842105263158},{"label":"Subscriptions & Apps","color":"#6C5CE7","amount":27704,"count":94,"pct":20.81537608930595,"avgOrder":294.72340425531917}],"merchantLeaderboard":[{"name":"Swiggy","amount":42971,"count":156,"senderKey":"swiggy","avgOrder":275.45512820512823,"pct":32.28622314227426},{"name":"Uber","amount":31954.92,"count":200,"senderKey":"uber","avgOrder":159.7746,"pct":24.009301101057048},{"name":"Swiggy-instamart","amount":30464,"count":38,"senderKey":"swiggy-instamart","avgOrder":801.6842105263158,"pct":22.889099667362707},{"name":"Apple","amount":27704,"count":94,"senderKey":"apple","avgOrder":294.72340425531917,"pct":20.81537608930595}],"weekdayPattern":[{"day":"Sunday","dayShort":"Sun","amount":18372.099999999995,"count":69,"avgOrder":266.2623188405796},{"day":"Monday","dayShort":"Mon","amount":14456.380000000001,"count":61,"avgOrder":236.9898360655738},{"day":"Tuesday","dayShort":"Tue","amount":16148.350000000002,"count":66,"avgOrder":244.67196969696974},{"day":"Wednesday","dayShort":"Wed","amount":20284.290000000005,"count":66,"avgOrder":307.33772727272736},{"day":"Thursday","dayShort":"Thu","amount":18759.640000000003,"count":80,"avgOrder":234.49550000000005},{"day":"Friday","dayShort":"Fri","amount":17724.3,"count":70,"avgOrder":253.2042857142857},{"day":"Saturday","dayShort":"Sat","amount":27348.859999999997,"count":76,"avgOrder":359.8534210526315}],"hourlyPattern":[{"hour":0,"label":"12 AM","amount":2488.1,"count":10},{"hour":1,"label":"1 AM","amount":2297.45,"count":6},{"hour":2,"label":"2 AM","amount":690.96,"count":4},{"hour":3,"label":"3 AM","amount":385,"count":1},{"hour":4,"label":"4 AM","amount":190.98000000000002,"count":3},{"hour":5,"label":"5 AM","amount":176.09,"count":1},{"hour":6,"label":"6 AM","amount":56,"count":1},{"hour":7,"label":"7 AM","amount":0,"count":0},{"hour":8,"label":"8 AM","amount":0,"count":0},{"hour":9,"label":"9 AM","amount":470,"count":2},{"hour":10,"label":"10 AM","amount":1076.57,"count":4},{"hour":11,"label":"11 AM","amount":1816.2600000000002,"count":9},{"hour":12,"label":"12 PM","amount":4790.66,"count":24},{"hour":13,"label":"1 PM","amount":5940.83,"count":22},{"hour":14,"label":"2 PM","amount":5266.84,"count":22},{"hour":15,"label":"3 PM","amount":5754.13,"count":17},{"hour":16,"label":"4 PM","amount":2559.4300000000003,"count":11},{"hour":17,"label":"5 PM","amount":5100.33,"count":17},{"hour":18,"label":"6 PM","amount":8317.14,"count":22},{"hour":19,"label":"7 PM","amount":6489.96,"count":24},{"hour":20,"label":"8 PM","amount":7409,"count":20},{"hour":21,"label":"9 PM","amount":5756.29,"count":19},{"hour":22,"label":"10 PM","amount":4388.05,"count":16},{"hour":23,"label":"11 PM","amount":9417,"count":17}],"monthlyHeatmap":[{"year":2018,"months":[{"month":0,"amount":60,"count":1},{"month":1,"amount":60,"count":1},{"month":2,"amount":60,"count":1},{"month":3,"amount":60,"count":1},{"month":4,"amount":60,"count":1},{"month":5,"amount":0,"count":0},{"month":6,"amount":0,"count":0},{"month":7,"amount":0,"count":0},{"month":8,"amount":0,"count":0},{"month":9,"amount":0,"count":0},{"month":10,"amount":0,"count":0},{"month":11,"amount":0,"count":0}],"total":300},{"year":2023,"months":[{"month":0,"amount":219,"count":1},{"month":1,"amount":219,"count":1},{"month":2,"amount":0,"count":0},{"month":3,"amount":75,"count":1},{"month":4,"amount":75,"count":1},{"month":5,"amount":682,"count":4},{"month":6,"amount":244,"count":2},{"month":7,"amount":244,"count":2},{"month":8,"amount":244,"count":2},{"month":9,"amount":244,"count":2},{"month":10,"amount":244,"count":2},{"month":11,"amount":244,"count":2}],"total":2734},{"year":2024,"months":[{"month":0,"amount":819,"count":7},{"month":1,"amount":939,"count":7},{"month":2,"amount":715,"count":5},{"month":3,"amount":268,"count":2},{"month":4,"amount":277,"count":3},{"month":5,"amount":1666,"count":4},{"month":6,"amount":456,"count":4},{"month":7,"amount":268,"count":2},{"month":8,"amount":268,"count":2},{"month":9,"amount":294,"count":2},{"month":10,"amount":294,"count":2},{"month":11,"amount":294,"count":2}],"total":6558},{"year":2025,"months":[{"month":0,"amount":2093,"count":3},{"month":1,"amount":99,"count":1},{"month":2,"amount":99,"count":1},{"month":3,"amount":793,"count":3},{"month":4,"amount":1442,"count":4},{"month":5,"amount":897,"count":3},{"month":6,"amount":99,"count":1},{"month":7,"amount":99,"count":1},{"month":8,"amount":3532.8,"count":44},{"month":9,"amount":12721.269999999999,"count":49},{"month":10,"amount":26901.57,"count":83},{"month":11,"amount":23884.22,"count":79}],"total":72660.86},{"year":2026,"months":[{"month":0,"amount":19816.95,"count":74},{"month":1,"amount":30761.109999999997,"count":74},{"month":2,"amount":263,"count":1},{"month":3,"amount":0,"count":0},{"month":4,"amount":0,"count":0},{"month":5,"amount":0,"count":0},{"month":6,"amount":0,"count":0},{"month":7,"amount":0,"count":0},{"month":8,"amount":0,"count":0},{"month":9,"amount":0,"count":0},{"month":10,"amount":0,"count":0},{"month":11,"amount":0,"count":0}],"total":50841.06}],"whatIfScenarios":[{"name":"Cook at Home","description":"What if you cooked at home instead of ordering food delivery?","yourValue":42971,"hypothetical":15600,"diff":27371,"better":false,"framing":"You could save Rs 27,371 by cooking at home (at Rs 100/meal)."},{"name":"Metro Commute","description":"What if you took the metro/bus instead of ride-hailing?","yourValue":31954.92,"hypothetical":8000,"diff":23954.92,"better":false,"framing":"Public transport would cost Rs 8,000 vs your Rs 31,955 on rides."},{"name":"SIP Instead","description":"What if you invested your monthly avg (Rs 14,788) in a SIP at 12% for 10 years?","yourValue":1774585.6000000006,"hypothetical":3435879.8267621193,"diff":1661294.2267621187,"better":true,"framing":"Rs 14,788/month at 12% CAGR would grow to Rs 34,35,880 in 10 years."},{"name":"Skip Small Orders","description":"What if you skipped all 278 orders under Rs 200?","yourValue":133093.92000000004,"hypothetical":106943.75000000006,"diff":26150.169999999987,"better":false,"framing":"278 orders under Rs 200 totalled Rs 26,150 — that's 19.6% of your spending."}],"insights":[{"key":"brand_loyalty","category":"behavior","icon":"💎","bigNumber":"79%","title":"Fiercely Loyal","subtitle":"Your top 3 merchants account for 79% of total spending.","relevance":79,"color":{"bg":"#6C5CE7","fg":"#fff"},"journey":[{"slot":"The Data","title":"Merchant Concentration","body":"Swiggy: Rs 42,971 (32.3%)\nUber: Rs 31,955 (24.0%)\nSwiggy-instamart: Rs 30,464 (22.9%)","highlightValue":"79%"},{"slot":"What This Means","title":"Concentration risk","body":"High concentration means you're missing deals from competitors. Try alternatives occasionally."}]},{"key":"frequency_drift","category":"trends","icon":"📈","bigNumber":"+286%","title":"Ordering More","subtitle":"Your ordering frequency increased by 286% in the latter half of the period.","relevance":75,"color":{"bg":"#D63031","fg":"#fff"},"journey":[{"slot":"The Numbers","title":"Order Velocity","body":"First half: 17.0 orders/month\nSecond half: 65.7 orders/month","highlightValue":"+286%"},{"slot":"The Takeaway","title":"Trend awareness","body":"Your ordering is accelerating. Set a monthly order budget to stay in control."}]},{"key":"monthly_range","category":"trends","icon":"📉","bigNumber":"43x","title":"Monthly Spending Range","subtitle":"Your spending ranges from Rs 715 to Rs 30,761 per month — a 43x difference.","relevance":70,"color":{"bg":"#636E72","fg":"#fff"}},{"key":"peak_day","category":"patterns","icon":"🔥","bigNumber":"Sat","title":"Saturday is Your Spending Day","subtitle":"You spend Rs 27,349 on Saturdays (76 orders). Monday is your lightest at Rs 14,456.","relevance":65,"color":{"bg":"#E17055","fg":"#fff"}},{"key":"order_sizing","category":"behavior","icon":"📊","bigNumber":"Rs 169","title":"Your Median Order","subtitle":"366 orders under Rs 300, 103 between Rs 300-1000, and 19 above Rs 1000.","relevance":55,"color":{"bg":"#0984E3","fg":"#fff"},"journey":[{"slot":"Distribution","title":"Order Size Breakdown","body":"Under Rs 300: 366 orders (75%)\nRs 300-1000: 103 orders (21%)\nAbove Rs 1000: 19 orders (4%)","highlightValue":"Rs 169"}]},{"key":"night_owl","category":"patterns","icon":"🌙","bigNumber":"54","title":"Night Owl Tax","subtitle":"54 orders after 10 PM, totalling Rs 19,667. That's 11.1% of all orders.","relevance":33,"color":{"bg":"#2D3436","fg":"#fff"},"journey":[{"slot":"The Data","title":"After Hours","body":"54 orders placed between 10 PM and 4 AM.","highlightValue":"Rs 19,667"},{"slot":"The Insight","title":"Late night premium","body":"Late-night orders often carry surge pricing and tend to be impulse decisions. The cost adds up silently."}]},{"key":"weekend_premium","category":"patterns","icon":"📅","bigNumber":"+24%","title":"Weekend Premium","subtitle":"Your weekend orders average Rs 315 vs Rs 255 on weekdays.","relevance":24,"color":{"bg":"#FF6B35","fg":"#fff"},"journey":[{"slot":"The Data","title":"Weekend vs Weekday","body":"Weekend avg: Rs 315 | Weekday avg: Rs 255","highlightValue":"+24%"},{"slot":"Why It Matters","title":"Spending rhythm","body":"A significant weekend premium suggests impulse or social spending. Consider setting a weekend budget."}]}],"topItems":[{"name":"Suggested fare","count":116,"totalSpent":16514.429999999997,"merchant":"Uber","avgPrice":142.36577586206894},{"name":"Promotion","count":70,"totalSpent":249.5800000000001,"merchant":"Uber","avgPrice":3.5654285714285727},{"name":"Youtube premium (monthly)","count":21,"totalSpent":3645,"merchant":"Apple","avgPrice":173.57142857142858},{"name":"Apple tv+ (automatic renewal) (monthly)","count":16,"totalSpent":1584,"merchant":"Apple","avgPrice":99},{"name":"Rajasthani kadhi pakoda with chawal combo","count":9,"totalSpent":1692,"merchant":"Swiggy","avgPrice":188},{"name":"Make your own tawa parantha [veg]","count":8,"totalSpent":1084,"merchant":"Swiggy","avgPrice":135.5},{"name":"Bumble boost (7 day)","count":7,"totalSpent":1043,"merchant":"Apple","avgPrice":149},{"name":"Icloud+ with 50 gb of storage (monthly)","count":6,"totalSpent":450,"merchant":"Apple","avgPrice":75},{"name":"Apple tv+ monthly subscription","count":6,"totalSpent":594,"merchant":"Apple","avgPrice":99},{"name":"Trip charge","count":6,"totalSpent":6610.4,"merchant":"Uber","avgPrice":1101.7333333333333},{"name":"Icloud+ with 50 gb of storage (monthly subscription)","count":5,"totalSpent":375,"merchant":"Apple","avgPrice":75},{"name":"Paneer pyaz paratha","count":5,"totalSpent":633,"merchant":"Swiggy","avgPrice":126.6},{"name":"Hummus falafel platter","count":5,"totalSpent":1875,"merchant":"Swiggy","avgPrice":375},{"name":"Mcd toll","count":5,"totalSpent":500,"merchant":"Uber","avgPrice":100},{"name":"Booking fee","count":4,"totalSpent":87,"merchant":"Uber","avgPrice":21.75}],"actionables":[{"icon":"📊","title":"Set a monthly spending budget","description":"Your ordering frequency increased 286% recently. A budget can help maintain discipline.","metadata":"65.7 orders/month now","score":80},{"icon":"🌙","title":"Set a late-night ordering curfew","description":"54 late-night orders averaging Rs 364. These are often impulse buys.","metadata":"Rs 20K after 10 PM","score":75},{"icon":"🔄","title":"Explore alternative merchants","description":"Your top 3 merchants own 79% of your spend. Competitors often have new-user discounts.","metadata":"Swiggy, Uber, Swiggy-instamart","score":70},{"icon":"📦","title":"Batch your small orders","description":"278 orders under Rs 200. Batching these with larger orders saves on delivery fees.","metadata":"57% of orders","score":65}]};
+    /* __EMBEDDED_DATA__ */
+
+const SLOT_STYLES = {
+  'The Data':{bg:'#FDCB6E',fg:'#2d2d2d'},
+  'The Numbers':{bg:'#FDCB6E',fg:'#2d2d2d'},
+  'Distribution':{bg:'#FDCB6E',fg:'#2d2d2d'},
+  'Why It Matters':{bg:'#0984E3',fg:'#fff'},
+  'What This Means':{bg:'#0984E3',fg:'#fff'},
+  'The Insight':{bg:'#00B894',fg:'#fff'},
+  'The Takeaway':{bg:'#FF6B35',fg:'#fff'},
+};
+let currentCards=[], currentSlide=0, currentKey='';
+
+function INR(n){
+  if(n==null) return '-';
+  const a=Math.abs(n);
+  if(a>=1e7) return (n<0?'-':'')+'Rs '+(a/1e7).toFixed(2)+' Cr';
+  if(a>=1e5) return (n<0?'-':'')+'Rs '+(a/1e5).toFixed(2)+' L';
+  return (n<0?'-':'')+'Rs '+Math.round(a).toLocaleString('en-IN');
+}
+function pct(n){return (n>0?'+':'')+n.toFixed(1)+'%'}
+function scoreGrade(s,max){
+  const pct=s/max;
+  return pct>=0.7?'g':pct>=0.4?'a':'r';
+}
+function scoreBar(g){return g==='g'?'#7af0a0':g==='a'?'#f0d870':'#f08080'}
+
+function openSlideshow(key,cards){
+  currentCards=cards; currentSlide=0; currentKey=key;
+  let ov=document.querySelector('.dialog-overlay');
+  if(!ov){
+    ov=document.createElement('div');
+    ov.className='dialog-overlay';
+    ov.innerHTML='<div class="dialog-box"><button class="dialog-close" onclick="closeSlideshow()">&times;</button><div id="slide-container"></div></div>';
+    document.body.appendChild(ov);
+    ov.addEventListener('click',e=>{if(e.target===ov)closeSlideshow()});
+  }
+  ov.classList.add('open');
+  document.body.style.overflow='hidden';
+  renderSlide();
+}
+function closeSlideshow(){
+  const ov=document.querySelector('.dialog-overlay');
+  if(ov)ov.classList.remove('open');
+  document.body.style.overflow='';
+}
+function goSlide(dir){
+  const next=currentSlide+dir;
+  if(next<0||next>=currentCards.length)return;
+  currentSlide=next;renderSlide();
+}
+function renderSlide(){
+  const c=currentCards[currentSlide];
+  const ss=SLOT_STYLES[c.slot]||{bg:'#636E72',fg:'#fff'};
+  const cont=document.getElementById('slide-container');
+  const total=currentCards.length;
+  let dotsH='';
+  for(let i=0;i<total;i++){
+    dotsH+=`<div class="slide-dot${i===currentSlide?' active':''}" style="background:${i===currentSlide?ss.fg:('rgba('+(ss.fg==='#fff'?'255,255,255':'45,45,45')+',.2)')}"></div>`;
+  }
+  cont.innerHTML=`<div class="slide" style="background:${ss.bg};color:${ss.fg}">
+    <div class="slide-step">Card ${currentSlide+1} of ${total}</div>
+    <div class="slide-slot">${c.slot||''}</div>
+    ${c.highlightValue?`<div class="slide-big">${c.highlightValue}</div>`:``}
+    <div class="slide-title">${c.title}</div>
+    <div class="slide-body">${c.body}</div>
+    <div class="slide-nav">
+      <button class="slide-btn" onclick="goSlide(-1)" ${currentSlide===0?'disabled':''} style="border-color:${ss.fg};color:${ss.fg}">&larr;</button>
+      <div class="slide-dots">${dotsH}</div>
+      <button class="slide-btn" onclick="goSlide(1)" ${currentSlide===total-1?'disabled':''} style="border-color:${ss.fg};color:${ss.fg}">&rarr;</button>
+    </div>
+  </div>`;
+}
+
+document.addEventListener('keydown',e=>{
+  if(!document.querySelector('.dialog-overlay.open'))return;
+  if(e.key==='ArrowRight'||e.key===' ')goSlide(1);
+  else if(e.key==='ArrowLeft')goSlide(-1);
+  else if(e.key==='Escape')closeSlideshow();
+});
+
+// ── Main Render ──────────────────────────────────────────────────────────────
+function render(d){
+  const app=document.getElementById('app');
+  let h='';
+
+  // Header
+  const pFrom=new Date(d.overview.periodFrom).toLocaleDateString('en-IN',{month:'short',day:'numeric',year:'numeric'});
+  const pTo=new Date(d.overview.periodTo).toLocaleDateString('en-IN',{month:'short',day:'numeric',year:'numeric'});
+  h+=`<div style="margin-bottom:8px">
+    <h1>Your Spending Story</h1>
+    <div class="meta">${d.userName} &middot; ${pFrom} &mdash; ${pTo}</div>
+    <div style="margin-top:8px">
+      <span class="meta-badge">${d.overview.totalOrders} orders</span>
+      <span class="meta-badge">${d.overview.uniqueMerchants} merchants</span>
+      <span class="meta-badge">${d.overview.periodMonths} months</span>
+    </div>
+  </div>`;
+
+  // ── 01 Spending Overview ──
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">01</span><span class="st">Spending Overview</span></div>
+    <div class="dgrid">
+      <div class="dc feat">
+        <div class="dcl lt">Total Spent</div>
+        <div class="dcn lt">${INR(d.overview.totalSpent)}</div>
+        <div class="dcs lt">${d.overview.totalOrders} orders over ${d.overview.periodMonths} months</div>
+      </div>
+      <div class="dc">
+        <div class="dcl">Avg Monthly</div>
+        <div class="dcn">${INR(d.overview.avgMonthly)}</div>
+        <div class="dcs">${(d.overview.totalOrders/d.overview.periodMonths).toFixed(1)} orders/month</div>
+      </div>
+      <div class="dc">
+        <div class="dcl">Avg Order Value</div>
+        <div class="dcn">${INR(d.overview.avgOrderValue)}</div>
+        <div class="dcs">Median: ${INR(d.overview.medianOrderValue)}</div>
+      </div>
+    </div>
+  </div>`;
+
+  // ── 02 Spending DNA ──
+  const p=d.spendingPersonality;
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">02</span><span class="st">Spending DNA</span></div>
+    <div class="persona">
+      <div class="persona-emoji">${p.emoji}</div>
+      <div class="persona-type">${p.type}</div>
+      <div class="persona-desc">${p.description}</div>
+      <div class="persona-traits">${p.traits.map(t=>`<span class="persona-trait">${t}</span>`).join('')}</div>
+    </div>
+  </div>`;
+
+  // ── 03 Spending Health ──
+  const hs=d.healthScore;
+  const grade=scoreGrade(hs.overall,100);
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">03</span><span class="st">Spending Health</span></div>
+    <div class="ss">
+      <div class="sst">Spending Score</div>
+      <div class="ssn">${hs.overall} / 100 &mdash; ${hs.grade}</div>
+      <div class="ssd">Composite score across ${hs.dimensions.length} dimensions.</div>
+      <div class="sgrid">
+        ${hs.dimensions.map(dim=>{
+          const g=scoreGrade(dim.score,dim.max);
+          return `<div>
+            <div class="sdl">${dim.name}</div>
+            <div class="sdv ${g}">${dim.score}</div>
+            <div class="sds">${dim.detail}</div>
+            <div class="sdt"><div class="sdf" style="width:${(dim.score/dim.max*100)}%;background:${scoreBar(g)}"></div></div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>
+  </div>`;
+
+  // ── 04 Your Numbers ──
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">04</span><span class="st">Your Numbers</span></div>
+    <div class="ugrid">
+      ${d.yourNumbers.map(n=>`<div class="uc">
+        <div class="uc-icon">${n.icon}</div>
+        <div class="uc-val">${n.value}</div>
+        <div class="uc-label">${n.label}</div>
+        <div class="uc-detail">${n.detail}</div>
+      </div>`).join('')}
+    </div>
+  </div>`;
+
+  // ── 05 Real-World Equivalents ──
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">05</span><span class="st">In Real-World Terms</span></div>
+    <div class="rwgrid">
+      ${d.realWorldEquivalents.map(r=>`<div class="rw">
+        <div class="rwi">${r.icon}</div>
+        <div class="rwv">${r.value}</div>
+        <div class="rwl">${r.label}</div>
+        <div class="rws">${r.detail}</div>
+      </div>`).join('')}
+    </div>
+  </div>`;
+
+  // ── 06 Category Breakdown ──
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">06</span><span class="st">Where Your Money Goes</span></div>
+    <div class="aa-bar">
+      ${d.categoryBreakdown.map(c=>`<div class="aa-seg" style="width:${c.pct}%;background:${c.color}">${c.pct>8?c.label:''}</div>`).join('')}
+    </div>
+    <div class="aa-legend">
+      ${d.categoryBreakdown.map(c=>`<div class="aa-item"><div class="aa-dot" style="background:${c.color}"></div>${c.label}: ${INR(c.amount)} (${c.pct.toFixed(1)}%)</div>`).join('')}
+    </div>
+    <div class="cat-cards">
+      ${d.categoryBreakdown.map(c=>`<div class="cat-card">
+        <div class="cat-card-bar" style="width:${c.pct}%;background:${c.color}"></div>
+        <div class="cat-name" style="color:${c.color}">${c.label}</div>
+        <div class="cat-amount">${INR(c.amount)}</div>
+        <div class="cat-meta">${c.count} orders &middot; Avg ${INR(c.avgOrder)}</div>
+      </div>`).join('')}
+    </div>
+  </div>`;
+
+  // ── 07 Merchant Leaderboard ──
+  const maxMerchAmt=d.merchantLeaderboard[0]?.amount||1;
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">07</span><span class="st">Merchant Leaderboard</span></div>
+    <div class="ft-wrap"><table class="ft">
+      <thead><tr><th>#</th><th>Merchant</th><th>Total Spent</th><th>Orders</th><th>Avg Order</th><th>Share</th></tr></thead>
+      <tbody>
+        ${d.merchantLeaderboard.map((m,i)=>`<tr>
+          <td class="ft-rank">${i+1}</td>
+          <td>
+            <div class="ft-name">${m.name}</div>
+            <div class="ft-bar"><div class="ft-bar-fill" style="width:${(m.amount/maxMerchAmt*100)}%;background:${SENDER_KEY_TO_CATEGORY[m.senderKey]?.color||'var(--accent)'}"></div></div>
+          </td>
+          <td><strong>${INR(m.amount)}</strong></td>
+          <td>${m.count}</td>
+          <td>${INR(m.avgOrder)}</td>
+          <td>${m.pct.toFixed(1)}%</td>
+        </tr>`).join('')}
+      </tbody>
+    </table></div>
+  </div>`;
+
+  // ── 08 When You Spend ──
+  const maxDowAmt=Math.max(...d.weekdayPattern.map(w=>w.amount));
+  const maxHourAmt=Math.max(...d.hourlyPattern.map(h=>h.amount));
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">08</span><span class="st">When You Spend</span></div>
+    <div class="pat-grid">
+      <div class="pat-box">
+        <div class="pat-title">Day of Week</div>
+        ${d.weekdayPattern.map(w=>{
+          const pct=maxDowAmt>0?(w.amount/maxDowAmt*100):0;
+          return `<div class="bar-row">
+            <div class="bar-label">${w.dayShort}</div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${pct}%;background:var(--accent)">
+                ${pct>25?`<span class="bar-val">${INR(w.amount)}</span>`:''}
+              </div>
+              ${pct<=25?`<span class="bar-val out" style="left:${pct}%">${INR(w.amount)}</span>`:''}
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+      <div class="pat-box">
+        <div class="pat-title">Time of Day</div>
+        <div class="hour-chart">
+          ${d.hourlyPattern.map(hp=>{
+            const pct=maxHourAmt>0?(hp.amount/maxHourAmt*100):0;
+            return `<div class="hour-bar" style="height:${Math.max(2,pct)}%;opacity:${hp.count>0?1:0.15}" title="${hp.label}: ${INR(hp.amount)} (${hp.count} orders)"></div>`;
+          }).join('')}
+        </div>
+        <div class="hour-labels"><span>12 AM</span><span>6 AM</span><span>12 PM</span><span>6 PM</span><span>11 PM</span></div>
+      </div>
+    </div>
+  </div>`;
+
+  // ── 09 Monthly Heatmap ──
+  const allMonthAmounts=d.monthlyHeatmap.flatMap(y=>y.months.map(m=>m.amount));
+  const maxMonthAmt=Math.max(...allMonthAmounts.filter(a=>a>0));
+  const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  h+=`<div class="sec">
+    <div class="sh"><span class="sn">09</span><span class="st">Monthly Spending Heatmap</span></div>
+    <table class="hm-table">
+      <thead><tr><th></th>${months.map(m=>`<th>${m}</th>`).join('')}<th>Total</th></tr></thead>
+      <tbody>
+        ${d.monthlyHeatmap.map(yr=>`<tr>
+          <td style="font-family:'Syne';font-weight:700;font-size:12px">${yr.year}</td>
+          ${yr.months.map(m=>{
+            if(!m.amount) return '<td><div class="hm-cell" style="background:transparent;color:var(--ink-4)">-</div></td>';
+            const intensity=Math.max(0.08,m.amount/maxMonthAmt);
+            const bg=`rgba(26,71,42,${intensity})`;
+            const color=intensity>0.5?'#fff':'var(--ink-2)';
+            return `<td><div class="hm-cell" style="background:${bg};color:${color}" title="${months[m.month]} ${yr.year}: ${m.count} orders">${INR(m.amount)}</div></td>`;
+          }).join('')}
+          <td><div class="hm-cell" style="font-weight:700;font-family:'Syne';font-size:11px">${INR(yr.total)}</div></td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+  </div>`;
+
+  // ── 10 What-If Scenarios ──
+  if(d.whatIfScenarios.length){
+    h+=`<div class="sec">
+      <div class="sh"><span class="sn">10</span><span class="st">What If...</span></div>
+      <div class="wi-grid">
+        ${d.whatIfScenarios.map(w=>{
+          const cls=w.better?'grow':'save';
+          return `<div class="wi">
+            <div class="wi-name">${w.name}</div>
+            <div class="wi-desc">${w.description}</div>
+            <div class="wi-row"><span class="wi-label">Your Spend</span><span>${INR(w.yourValue)}</span></div>
+            <div class="wi-row"><span class="wi-label">Hypothetical</span><span>${INR(w.hypothetical)}</span></div>
+            <div class="wi-row"><span class="wi-label">Difference</span><span class="${w.better?'pos':'neg'}">${INR(w.diff)}</span></div>
+            <div class="wi-diff ${cls}">${w.better?'Growth potential':'Potential savings'}: ${INR(w.diff)}</div>
+            <div class="wi-framing">${w.framing}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  // ── 11 Insights ──
+  if(d.insights.length){
+    // Store journeys globally for slideshow
+    window.__JOURNEYS__={};
+    d.insights.forEach(ins=>{
+      if(ins.journey&&ins.journey.length) window.__JOURNEYS__[ins.key]=ins.journey;
+    });
+
+    h+=`<div class="sec">
+      <div class="sh"><span class="sn">11</span><span class="st">Spending Insights</span></div>
+      <div class="ins-grid">
+        ${d.insights.map(ins=>{
+          const hasJourney=ins.journey&&ins.journey.length;
+          const onclick=hasJourney?` onclick="openSlideshow('${ins.key}',window.__JOURNEYS__['${ins.key}'])"`:''
+          return `<div class="ins-card"${onclick} style="background:${ins.color.bg};color:${ins.color.fg}${hasJourney?';cursor:pointer':''}">
+            <div class="ins-badge">${ins.relevance}</div>
+            <div class="ins-icon">${ins.icon}</div>
+            <div class="ins-big">${ins.bigNumber}</div>
+            <div class="ins-title">${ins.title}</div>
+            <div class="ins-sub">${ins.subtitle}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  // ── 12 Top Items ──
+  if(d.topItems.length){
+    h+=`<div class="sec">
+      <div class="sh"><span class="sn">12</span><span class="st">Most Ordered Items</span></div>
+      <div class="th-list">
+        ${d.topItems.slice(0,10).map((item,i)=>`<div class="th-row">
+          <div class="th-rank">${i+1}</div>
+          <div style="flex:1">
+            <div class="th-name">${item.name}</div>
+            <div class="th-merch">${item.merchant}</div>
+          </div>
+          <div class="th-count">${item.count}x</div>
+          <div class="th-amt">${INR(item.totalSpent)}</div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  // ── 13 Actionables ──
+  if(d.actionables.length){
+    h+=`<div class="sec">
+      <div class="sh"><span class="sn">13</span><span class="st">Things to Consider</span></div>
+      ${d.actionables.map(a=>`<div class="ac">
+        <div class="aci">${a.icon}</div>
+        <div style="flex:1">
+          <div class="act">${a.title} <span class="acscore">${a.score}</span></div>
+          <div class="acd">${a.description}</div>
+          <div class="acm">${a.metadata}</div>
+        </div>
+      </div>`).join('')}
+    </div>`;
+  }
+
+  // Footer
+  h+=`<div style="margin-top:60px;text-align:center;font-size:11px;color:var(--ink-4)">
+    Generated on ${new Date(d.generatedAt).toLocaleDateString('en-IN',{month:'long',day:'numeric',year:'numeric',hour:'2-digit',minute:'2-digit'})}
+    &middot; Data from email receipts
+  </div>`;
+
+  app.innerHTML=h;
+}
+
+// Sender key → color mapping for merchant bars
+const SENDER_KEY_TO_CATEGORY={
+  swiggy:{color:'#FF6B35'},
+  'swiggy-instamart':{color:'#00B894'},
+  uber:{color:'#0984E3'},
+  ola:{color:'#0984E3'},
+  apple:{color:'#6C5CE7'},
+  'google-play':{color:'#6C5CE7'},
+  zomato:{color:'#FF6B35'},
+  amazon:{color:'#E17055'},
+  flipkart:{color:'#E17055'},
+  bigbasket:{color:'#00B894'},
+  blinkit:{color:'#00B894'},
+};
+
+// ── Data Loading ────────────────────────────────────────────────────────────
+fetch('./spending-dashboard-data.json')
+  .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
+  .then(render)
+  .catch(()=>{
+    if(window.__DASHBOARD_DATA__){
+      render(window.__DASHBOARD_DATA__);
+    } else {
+      document.getElementById('app').innerHTML=`<div class="loading">
+        <h2>Could not load data</h2>
+        <p>Run: <code>npx ts-node -r tsconfig-paths/register src/scripts/generate-spending-data.ts</code></p>
+        <p>This creates spending-dashboard-data.json in the same directory.</p>
+      </div>`;
+    }
+  });
+</script>
+</body>
+</html>

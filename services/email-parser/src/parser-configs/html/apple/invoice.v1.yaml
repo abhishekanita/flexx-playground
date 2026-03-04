@@ -1,0 +1,62 @@
+configId: apple/invoice
+version: 1
+
+match:
+  senderDomains: [email.apple.com]
+  subjectPattern: "invoice|receipt"
+  contentType: html
+
+classification:
+  category: consumer_invoice
+  subcategory: subscription
+  senderKey: apple
+  senderDisplayName: Apple
+
+extraction:
+  method: llm
+  llm:
+    model: gpt-4.1-mini
+    preprocessHtml: true
+    systemPrompt: >
+      You are a financial data extraction expert. Extract structured financial data
+      from Apple invoice/receipt emails. For dates use YYYY-MM-DD format.
+      For amounts use numeric values in the email's currency (usually INR or USD).
+      Extract the total billed amount, individual items with their prices,
+      and the payment method used.
+    outputSchema:
+      totalAmount:
+        type: number
+        description: Total billed amount
+      date:
+        type: date
+        description: Invoice/billing date in YYYY-MM-DD
+      orderId:
+        type: string
+        description: Apple order/invoice ID
+      paymentMethod:
+        type: string
+        description: Payment method (e.g. credit card ending in XXXX)
+      lineItems:
+        type: array
+        items:
+          name:
+            type: string
+          price:
+            type: number
+
+output:
+  targetCollection: invoices
+  mapping:
+    totalAmount: totalAmount
+    date: orderDate
+    orderId: externalOrderId
+    paymentMethod: paymentMethod
+  deduplication:
+    strategy: external_id
+    matchFields: [externalOrderId, senderKey]
+    fallback:
+      strategy: amount_date_merchant
+      matchFields: [totalAmount, date, merchantName]
+      tolerances:
+        amountPercent: 0.01
+        dateDays: 0

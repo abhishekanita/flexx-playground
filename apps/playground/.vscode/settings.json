@@ -1,0 +1,63 @@
+{
+    // "workbench.colorCustomizations": {
+    //     "gitDecoration.modifiedResourceForeground": "#9e7878",
+    //     "gitDecoration.untrackedResourceForeground": "#f7aeae"
+    // },
+    "prettier.configPath": ".prettierrc",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.decorations.enabled": false,
+    "files.eol": "\n",
+    "cSpell.words": [
+        "Abhishek",
+        "Ashu",
+        "Ashutosh",
+        "automations",
+        "Cohack",
+        "Composio",
+        "datasheet",
+        "dont",
+        "getlatent",
+        "liveblocks",
+        "mcps",
+        "mentiontype",
+        "msword",
+        "officedocument",
+        "openxmlformats",
+        "partialize",
+        "platejs",
+        "Presense",
+        "presentationml",
+        "recieve",
+        "Sandpack",
+        "seprator",
+        "shadcn",
+        "Shiki",
+        "slidechanged",
+        "Sonner",
+        "spreadsheetml",
+        "Subdoc",
+        "Subdocs",
+        "uploadthing",
+        "uuidv",
+        "VAPI",
+        "VITE",
+        "wordprocessingml",
+        "ydoc",
+        "Yoopta"
+    ],
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore"
+}

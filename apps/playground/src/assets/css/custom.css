@@ -1,0 +1,215 @@
+textarea::-webkit-scrollbar {
+    width: 6px;
+}
+textarea::-webkit-scrollbar-track {
+    background: transparent;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 3px;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
+
+/* Fix for iOS Safari/PWA viewport height issues when using tailwind's `screen` utilities */
+.h-screen,
+.min-h-screen {
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+}
+
+.markdown-content p {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.markdown-content blockquote {
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit;
+    padding: inherit;
+    border-left: inherit;
+    color: inherit;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    list-style: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+
+.markdown-content table {
+    width: inherit;
+    border-collapse: inherit;
+    margin: inherit;
+}
+
+.str-chat__channel {
+    height: 100%;
+}
+
+.str-chat__container {
+    height: 100%;
+}
+
+.str-chat__chat-view__channels {
+    height: 100%;
+}
+
+.custom-sheet-grid .dsg-header-cell {
+    border-bottom: 1px solid #e5e7eb !important;
+}
+.custom-sheet-grid .dsg-header-cell.dsg-header-cell-active {
+    border-bottom: 1px solid #e5e7eb !important;
+    background-color: #f9fafb !important;
+}
+.custom-sheet-grid .dsg-header-cell:hover {
+    background-color: #f3f4f6 !important;
+}
+
+/* Truncate cell content */
+.custom-sheet-grid .dsg-cell {
+    /* overflow: hidden !important; */
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+/* Ensure cell content doesn't overflow */
+.custom-sheet-grid .dsg-cell > * {
+    max-width: 100% !important;
+    /* overflow: hidden !important; */
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+/* Handle input elements specifically */
+.custom-sheet-grid .dsg-cell input {
+    text-overflow: ellipsis !important;
+}
+
+.custom-sheet-grid .dsg-cell {
+    /* overflow: hidden !important; */
+    /* text-overflow: ellipsis !important; */
+    white-space: nowrap !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+}
+.custom-sheet-grid .dsg-cell-header-container {
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+}
+
+/* Allow text to show fully when editing */
+.custom-sheet-grid .dsg-cell.dsg-cell-editing {
+    /* overflow: visible !important; */
+    white-space: normal !important;
+    z-index: 10 !important;
+    position: relative !important;
+}
+
+/* Handle input elements with proper sizing */
+.custom-sheet-grid .dsg-cell input {
+    /* text-overflow: ellipsis !important; */
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+/* Ensure columns can grow and shrink properly */
+.custom-sheet-grid .dsg-column {
+    flex-grow: 1 !important;
+    flex-shrink: 1 !important;
+    min-width: 120px !important;
+}
+
+/* Header styling with dynamic width support */
+.custom-sheet-grid .dsg-header-cell {
+    border-bottom: 1px solid #e5e7eb !important;
+    /* overflow: hidden !important; */
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+.custom-sheet-grid .dsg-header-cell.dsg-header-cell-active {
+    border-bottom: 1px solid #e5e7eb !important;
+    background-color: #f9fafb !important;
+}
+.custom-sheet-grid .dsg-header-cell:hover {
+    background-color: #f3f4f6 !important;
+}
+
+/* Prevent table layout from being too rigid */
+.custom-sheet-grid .dsg-container {
+    table-layout: auto !important;
+}
+
+.truncate-sm {
+    @apply truncate;
+    max-width: 150px;
+}
+.truncate-md {
+    @apply truncate;
+    max-width: 250px;
+}
+.truncate-lg {
+    @apply truncate;
+    max-width: 350px;
+}
+
+.stick-to-bottom-hide-scrollbar > * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.stick-to-bottom-hide-scrollbar > *::-webkit-scrollbar {
+    display: none;
+}
+
+/* Plate Editor Performance Optimizations */
+.editor-chunk-container {
+    will-change: auto;
+}
+
+.editor-with-chunks {
+    /* Optimize rendering for long documents */
+    contain: layout style;
+}
+
+/* Chunked content optimization for off-screen content */
+.slate-chunk {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px;
+}
+
+/* Optimize large code blocks and tables */
+.slate-code-block,
+.slate-table {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 300px;
+}
+
+/* Reduce paint areas for better performance */
+.slate-editor-container {
+    isolation: isolate;
+}
+
+/* Optimize cursor and selection rendering */
+.slate-cursor,
+.slate-selection {
+    will-change: transform;
+    pointer-events: none;
+}
+
+/* Smooth scrolling with better performance */
+.editor-chunk-container {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Optimize images in editor */
+.slate-image-element {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 400px;
+}

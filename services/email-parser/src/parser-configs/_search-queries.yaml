@@ -1,0 +1,180 @@
+# Gmail search queries for financial email discovery
+# Each query targets a specific category of financial emails
+# Queries use Gmail search operators: from:, subject:, has:attachment, after:, before:
+
+queries:
+  # --- Consumer Invoices ---
+  - id: swiggy-orders
+    query: "from:noreply@swiggy.in subject:(delivered OR order)"
+    description: Swiggy food delivery and Instamart order receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: zomato-orders
+    query: "from:noreply@zomato.com subject:(delivered OR order)"
+    description: Zomato food delivery receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: uber-trips
+    query: "from:noreply@uber.com subject:trip"
+    description: Uber ride receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: ola-trips
+    query: "from:noreply@olacabs.com subject:ride"
+    description: Ola ride receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: amazon-orders
+    query: "from:auto-confirm@amazon.in OR from:shipment-tracking@amazon.in"
+    description: Amazon order confirmations and shipping updates
+    category: consumer_invoice
+    enabled: true
+
+  - id: flipkart-orders
+    query: "from:noreply@flipkart.com subject:(delivered OR shipped OR order)"
+    description: Flipkart order receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: apple-invoices
+    query: "from:no_reply@email.apple.com subject:invoice"
+    description: Apple App Store / subscription invoices
+    category: consumer_invoice
+    enabled: true
+
+  - id: google-play
+    query: "from:googleplay-noreply@google.com subject:(receipt OR order)"
+    description: Google Play purchase receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: bigbasket-orders
+    query: "from:noreply@bigbasket.com subject:(delivered OR order)"
+    description: BigBasket grocery delivery receipts
+    category: consumer_invoice
+    enabled: true
+
+  - id: blinkit-orders
+    query: "from:noreply@blinkit.com subject:(delivered OR order)"
+    description: Blinkit quick delivery receipts
+    category: consumer_invoice
+    enabled: true
+
+  # --- Bank Statements ---
+  - id: sbi-statements
+    query: "from:cbssbi.cas@alerts.sbi.co.in OR from:cbssbi.cas@alerts.sbi.bank.in has:attachment"
+    description: SBI savings account statements (PDF)
+    category: official_bank_statement
+    enabled: true
+
+  - id: kotak-statements
+    query: "from:BankStatements@kotak.bank.in OR from:BankStatements@kotak.com has:attachment"
+    description: Kotak savings account statements (PDF)
+    category: official_bank_statement
+    enabled: true
+
+  - id: hdfc-statements
+    query: "from:alerts@hdfcbank.net subject:statement has:attachment"
+    description: HDFC bank account statements (PDF)
+    category: official_bank_statement
+    enabled: true
+
+  - id: icici-statements
+    query: "from:customer.care@icicibank.com subject:statement has:attachment"
+    description: ICICI bank account statements (PDF)
+    category: official_bank_statement
+    enabled: true
+
+  # --- Credit Card Statements ---
+  - id: hdfc-cc-statement
+    query: "from:alerts@hdfcbank.net subject:(credit card statement)"
+    description: HDFC credit card monthly statements
+    category: credit_card_statement
+    enabled: true
+
+  - id: sbi-cc-statement
+    query: "from:sbicard@sbicard.com subject:statement"
+    description: SBI credit card statements
+    category: credit_card_statement
+    enabled: true
+
+  # --- Investments ---
+  - id: zerodha-trades
+    query: "from:noreply@zerodha.com subject:(contract note OR trade)"
+    description: Zerodha trade confirmations
+    category: investment
+    enabled: true
+
+  - id: groww-transactions
+    query: "from:noreply@groww.in subject:(purchased OR redeemed OR SIP)"
+    description: Groww MF/stock transactions
+    category: investment
+    enabled: true
+
+  - id: kuvera-transactions
+    query: "from:noreply@kuvera.in subject:(purchase OR redemption)"
+    description: Kuvera MF transactions
+    category: investment
+    enabled: true
+
+  - id: cams-cas
+    query: "from:donotreply@camsonline.com subject:consolidated account statement"
+    description: CAMS MF consolidated account statement
+    category: mutual_fund_cas
+    enabled: true
+
+  - id: kfintech-cas
+    query: "from:donotreply@kfintech.com subject:consolidated account statement"
+    description: KFintech MF consolidated account statement
+    category: mutual_fund_cas
+    enabled: true
+
+  # --- Insurance ---
+  - id: lic-policy
+    query: "from:noreply@licindia.in subject:(premium OR policy)"
+    description: LIC premium and policy communications
+    category: insurance
+    enabled: true
+
+  # --- Payment Notifications ---
+  - id: gpay-transactions
+    query: "from:noreply@google.com subject:(sent OR received) (UPI OR payment)"
+    description: Google Pay UPI transaction notifications
+    category: payment_notification
+    enabled: true
+
+  - id: phonepe-transactions
+    query: "from:noreply@phonepe.com subject:(payment OR transfer)"
+    description: PhonePe transaction notifications
+    category: payment_notification
+    enabled: true
+
+  # --- Subscriptions ---
+  - id: netflix-billing
+    query: "from:info@account.netflix.com subject:(payment OR billing)"
+    description: Netflix subscription billing
+    category: consumer_invoice
+    enabled: true
+
+  - id: spotify-billing
+    query: "from:no-reply@spotify.com subject:(receipt OR payment)"
+    description: Spotify subscription billing
+    category: consumer_invoice
+    enabled: true
+
+  # --- Bills & Recharges ---
+  - id: jio-bills
+    query: "from:noreply@jio.com subject:(bill OR recharge)"
+    description: Jio mobile/fiber bills
+    category: consumer_invoice
+    enabled: true
+
+  - id: airtel-bills
+    query: "from:noreply@airtel.in subject:(bill OR recharge)"
+    description: Airtel mobile/broadband bills
+    category: consumer_invoice
+    enabled: true

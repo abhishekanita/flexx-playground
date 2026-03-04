@@ -1,0 +1,14 @@
+export { WhatIfEngine } from './what-if-engine';
+export { computeFDvsMF } from './fd-vs-mf.scenario';
+export { computeWorstFundRemoved } from './worst-fund-removed.scenario';
+export { computeDirectVsRegular } from './direct-vs-regular.scenario';
+export { computeSIPvsLumpsum } from './sip-vs-lumpsum.scenario';
+export { computeStartedEarlier } from './started-earlier.scenario';
+export { computeTopFundInCategory } from './top-fund-in-category.scenario';
+export { computeIndexFundAlt } from './index-fund-alt.scenario';
+export { computeIfBoughtStocks } from './if-bought-stocks.scenario';
+export { computeCoffeeMoneySIP } from './coffee-money-sip.scenario';
+export { computeCrorepatiCountdown } from './crorepati-countdown.scenario';
+export { computeInflationErosion } from './inflation-erosion.scenario';
+export { computePPFComparison } from './ppf-comparison.scenario';
+export { computeEMIRedirect } from './emi-redirect.scenario';

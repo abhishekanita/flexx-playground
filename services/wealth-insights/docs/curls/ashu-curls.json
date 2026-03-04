@@ -1,0 +1,182 @@
+--cas+kfitnch
+
+curl 'https: //www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, * /*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https://www.camsonline.com' \
+  -H 'Referer: https://www.camsonline.com/Investors/Statements/Consolidated-Account-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{"data":"iKCoOvo7hnZyLJhBhdNdJU9eLTqAT29cdW-0ZzKUW2tDv3ipv8s4taa9qu6vzEpdfKMEYnLz2eyjSBRKqFNLc6Sw9zkegeLwwWM_Odm_Yh1FLkrgyuUglWS8VA-i-2qgu_Tc63cYMhHH68M2f32iZRNt_jlngwRUawJJRJxNH1wF7oR1Gh5F5c1pjIEFvqT9O3jcrzcxbdT2uY7Wpw-zjeUfAqVbkBluhpDUGU7zqOk1P_QaEQctUWpTseaiwOxrMJrVWLevRUTVAUtGnBJ1FF3C7V8lxiSvmg6p4q0VgUiMgvUOBCqD06Tv_JzpUj3TT7DRU7YArdeALGwMsqOt_ycA0yFD-GViIuDJQ9I7r5WCWwgvldzoYF-utJqnjvzR5iqU7wKaGs3Pb1eszBC2nJcCjGB7a_CTwx4_VVI-XEOMMS2dJumDlxkJ2_OGkf41Po9_Ge_uPC0sJgMHSO8hK9_3JNj0TUpgyv2Rh_NdHbT6LcmV9nxWMoEDrmSKPTKOgx8-fdkVgqCSgwcAyTo0K4GPS04Wv2-Z1ZtIXoSpsbijzJTWpQvXBUEXmdyqmheu"}'
+
+  curl 'https://www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https: //www.camsonline.com' \
+  -H 'Referer: https: //www.camsonline.com/Investors/Statements/Consolidated-Account-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99",
+"Google Chrome";v="145",
+"Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{
+    "data": "iKCoOvo7hnZyLJhBhdNdJWCimLngScdZ0rq6Y67edi2B8SQHePj3L7LeoHw_jGRwamzm5QYX69CJktqv9uhNCI7ZvsMKzuFoAsp02iM2jOk2hxvJUblv-R4KTx3bsMYvmK3trt8AWS0sL-kwy4hkpAmi3Oxb2xNXdjLVS2fjbA27KtElgyHY3HxeYx8jZ1fAZTSxRMTXPE09tPboOlc-cHzS_G0PGgAJYO5TGZjUW-6weP2oH-sgVz4iXjwNUV1CIGy8-pbfv11GB_4BoOEtyDU1tqtsnr1EvNC1H5gFVOFKJ7xl_DijZIGOY6m788oReJVvCMqGc9s5SEMYo6ow0S5kpcT2_F3qY_Qqc94tb2c_3A-MSFfnroEM4jASeI-jB88HdbDQnhhOpH1p616Wl8J2wSo6beQWPaQl4O7KaMhpgfAoAcns6SNkZnp6xHi4N-2-h8b1pXCBUtJoLXJsx37FUtsF7Yu4i1TsL7d7gHGHk78vIkjMU3oklGDuRqqkSDJ-6UDtB9j-ScM5Y7S0pS_AAEIHwZt67FKr14RGsHZdOOYsexZZxApX6YOk3q9oP-1b51fqWauamuRi_SnWqYoEiLJ2LyGqdNHF3LV4VRj-XqFVf3GPmxkaQDEv6OavzCxJpXrW3AHQhoF-UpcY_YWZgm23Xp1U7eH-8gGAU40o3zq8kWH5--txG6kYpMv9MBifrx_BoVEelIpjUmyrBs4Hj1wBKDLa59nviwX51j9EYRzRRGH_WSeL1U1dxZ-TUnlTAYZEdXbW9xqwKE7EVhUu7T1V6cUrsie95BdKBQjPNIW_QmiQ0Q9UVjqGne65TiPnmG0QfuE7wM87nA-Duk5KjmNtXMAYAfwrMdopSq1-8RHMxMEh-wg7jI_nYvCV5X5CClSmDM62cVXuG8VT64_Bf4MH5ETX07bPwaUqn_CB04zVZIJZItDsDDhU-DM7dkRA2ume85tG6F_KonYkHLL8PFbfnmuNiXqb14ByqtbcmftjwnEUaaLaZoUR8Kh6wprXVsLaQhBZ7OU2xHQshzwazBjCVr_121IrK3rR1JwPxWqN1X0wA8bzpOGO9p_Fl9ViCMCsR5OsJbUNtUw9okW8eIzP5pQZVFiWaavqRg3tkGSdhJCHra7eHPMl9NQsTOZXsN7UlZs2R1IEumrFWWcH79s0YqPn2uOpBLoPlTYpCKfWVKUd_4zEiMNzn0GCcpV5g9NsJ_gzRNqe2yrLqF7eDVk6Zon0L9Es2fqYfuj1d-nN9fmhacoPdTrlwCvTP8vpp4ic6hKLYRt5izPy0Ie1SKENtEM7TqFlASh4QVwaej3smKQNJUo8l2k4ON0fG5PiBsiVhR_zug0x6600XIClKiou3xkXjf2CpWH3j_w265g097BYszQ2X8w2ucoHQ3cO_41RQeKR9GNxExPCmdJYY64G6D2m0f0cgv6PGo1zKR6F3kP_g_jn0By1KiIpI77rE8Lx666BGFvR2zeOCgk2cJu0fgBlcE7yXguNItw2Od39NZHjMDymhm_gZ74tFWH4ytYfCJLmjxKazuyMPMjNjwu75Rz12TOP8tq4zkR_LARvwo-slai7L-C8SJ61hK093Qk2cBKK4C8Kvx6Rq-XWRQ17H1OX-liR8OGqg91lj_hTpWAeVApDD-S_1W_GdwUMrG7aaat60y_bVhyovJiQqeCL9TvRirCtnlz7RNo7kNLxuXxqs1pVsD3DPnVdppXFIixMhO46OH-hxWvJjIcudstzxg_fwU_Bbg6KAQLQhrjceb56JAEqpnISScIp-ofUsB7LRBD_r3WP5G2NVTYCqI3tmtzfz47EnTOgAWIkxvYgZ4VwSJL9yEcvegQSFUx0XphKJN0Fx0oDpgdpEjRGMwMMP5JQZxOg0tlKeTWL6dwmliJdXg1E4KfIGwmNN2sqAz7mojSV6cGvDqwIZLaEL_4S-SqvkOPpiOgwt_n2OeOfSVURNuUfL3tcR4fK7Z-wasptPy-e0hDZOznHVXSLdKD2W9m3nSv7XpFzX_GHxgO8Cn54LUyqoULQ6sfLUtAR6a-VcTECD_XUV_1p9_3oYhInFwLoknqiS3b_DxN6cLk_Szbr92pW2docpSZoaeawsDDMpuZqPLlgXjMsnGkDL_6qVKSQr_z3YXGGW3_EcQR_XQbk-A2sPawU-cQX7QpqyF1X4l_5j9PfdLYhNpkcHPr3Vb_WCQ7G5UoBgYXYBlPAeNG6qFIcNkIpl8m8sC9owztrIVnPphw0GNTWXJgmPasEdsSP-TEtmD5MBaD0Fx9zeOQWGxPtHDPCV9o04uWDdlZLX001keEFKX3wkH7eODDBeeF5kyn4TzE4-FciymcHKNmXsLe2IrIlHLXxa6buBKnZ70j4atXzsU4scBH_R9wYmcPX8nqGcdGQiH9ZOqOG4cHOAh1qXHgZX1K_G_VunYd9Rxy6lAiloi5NCPCQJk0n52wUjm-ygCAPQFs26fqt3UaoyjKwfhW1UcPMcgWigdZaQrEXyK_tWuQe3gKc6mX9Ozomu28T41TFzViH5cc2oGODj6GmRULpTV2T6O10BxVPCDFqAa7VYPPUd1tKn1IRVcsjhveDNvFVN2gJ0o0-jybarcMAUwQWyQbDJptj5au_QgZl1RgyKQrRgNuwWOaNo297LXdjXDQD9fNZRTwbsSMye7qwn2Glcu1WRLKdQRyrqk5xG6JJAs2CCtM8A-naS-iTdLog8wcLlSLBDiJSBe3EAKrVRxgEUSbRfaWL-yUVG7nd-WSlZwFeAwz79IX3g9118PBM1-UfJpqFGVrrpzE_32y3Pb7ORUr87gs53WrMw-i4cYZsVUK60Ca-zpQU2UeEvgsSsA2KkNgdVFXYZaPqBackXbgPxWThH7F9CCdZR5fUSPW8zs7UY5e21F46UTlPDb_OCAgj3FPHtrUyR18T3NtIu_szcYTOsvA6ZyuuS4vMvomMesvR-dtjgnkSThXWrKZKkqNBu3a_ToWNP1BIg7FE5ZpMFJ_XaaEtGyWHz0RYzzk8Hz5IKcc_DCKPg-nIbHU2-LHejWU-aQcXm6PYjs_JVtR09Tnm-SlUrxzvvNWxwg2yJz7I9tKfuWRONN-8k9k_oBIwJjF56V5IIgvYXj1ogIxwZ9oCNZ1n71Ery2g4mhdMnMtlCTaclqsxXyO9vixy0ufvp_6wC6e7pIcSw1v4mg8lBaXXw37Q1qyUFsHxKtZlAAAqHEq1JT_MQLtbpPpGdiflOB1xnDb5HP0q1ILSNCfoWYPm2xIrtueMz7RatlkzuGtSfvqmIbsismDBHryTefA6_4LcN0umANEEo18bHe0Fi6kMf2vTJQDy_bWFrG0FDqKdVH07_S4hAtNv85eBHUqAc_gPTkDE-8cYTzkg18VuCZoKzxtHM1mSKBODKX3LIZlgFT_jRb3j-bzaTKCyd2QzXbHGrNxw-SDN8Pi2T_eOSPjyEKDPQchOk6rLnSNrsStYs1OxANQVbxKAvrsM13kjII2kiXEdCXckd9sCvrXMPmbx3-VP6N_TBh4BvKClwRPBUUIZKeGDJtCGxpVN8vqDeBYJ5oSlpgEj-o7f9Oy7jr5cgnafnjyKb-3W0CIT5jHtAdRhX7Ab3Hp8qe15xIv9Xf67N_iGmr_2T2F3Sgk2Ns6kcqQx3TNO20EhPjt-bLKhH-t-Lutbb3SBI7aFGwG1q0dzEKTTliw7Mkl3vyZXtmX575K4l8FHzM-aZxA6e8fpBrjP5fqXH1W9BJbohLAo-ygh5wKrWapDMniNtZJbsF8rl-9dCn47KlNwNFRm24zF6Yzae9Wx2D6f4e_UnP48oPvp4vmjcOyk2wciRRMUKWzOVLYD_sw6Nk68We_zO8nV3Nz2-wQxIsSdCVDGUbys8D7BiGmvwiCpNIOhbKIeprkm7OzuuI0NYlsIN8Pt56k0WkzWKAtEmJAWdoVFGWTcvrFBV4xK1TzfoklRIhYrVanXh3tUsjfE4JTONi3_5pCkSzOfqrRYn7hrV4Gpq7G-ONNFfz9jHbxt7QiRXm4-PlumwQYifNdVLQdRmdxJCJArTvkEom6wkC-tP-cSwkHrvK5FaQ43-P2965elcki5idbjioDrha8jDl5f474Q28ofYOzMC_whfAyohFb4xekKqqXklovtPA1CIy5H_PHb0FD2nneXvkspdoBajwYrhAn0SA=="
+}'
+
+
+
+  -- transaction details 
+  curl 'https: //www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, * /*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https://www.camsonline.com' \
+  -H 'Referer: https://www.camsonline.com/Investors/Statements/Transaction-Details-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{"data":"iKCoOvo7hnZyLJhBhdNdJU9eLTqAT29cdW-0ZzKUW2tDv3ipv8s4taa9qu6vzEpdfKMEYnLz2eyjSBRKqFNLc6Sw9zkegeLwwWM_Odm_Yh1FLkrgyuUglWS8VA-i-2qgu_Tc63cYMhHH68M2f32iZRNt_jlngwRUawJJRJxNH1zpLHHfJQIvFdu3hwdccsGZyXRlYvFfUyFGQm8g3md8J22m-IdFBsgHR0exvxOVWhiNuju9-p18wrCdFLN9hCF7elL-WywAIi2Pk4v_tkNyUpBQ9zi4NAluweTLIoUf9p2Qx8yQicIS6aLt071jtQcxyNKsHRi_H7i6i-IIg-Hj-O6CeMYQc84-fjeffIEtiee25LT9tSXqhMsorlHSAQI_bIwqw3a7cemBSz-9qfgebqsONWfr2ToKFh5fpVNDkQsdAHlmI5J0nZ2CYAlYFd828MQa-bA6bP2fo7AClGhteyafDCkUKA3WXkpQfsPWHoGPoEi3mq5ZtHPCqRRbeteuKKmp_3txqW2IWXBeDc1dvoJBsd5fsJYM9B9mS5YLG3wuQUk9W4y0bb0J_rficna4"}'
+
+
+  curl 'https://www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https: //www.camsonline.com' \
+  -H 'Referer: https: //www.camsonline.com/Investors/Statements/Transaction-Details-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99",
+"Google Chrome";v="145",
+"Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{
+    "data": "iKCoOvo7hnZyLJhBhdNdJWCimLngScdZ0rq6Y67edi1pudQZjqXe4MCJdBBoi68t_LmrfwyquOfSaMEOHLFJHjhpXfP_EOrXronbe6fP1NFpJFlI-gNFcS8h0w1Bg04SuCvpn3VJUOxtBipTZ882wkiptONPNraSzLcrodoFDWE1LnGL4QXA0uR59TOuaXJLGcCB7iR4E1vt2VjQ9WcpSupOuWMRdkJ6znyuqpBNyQtnKX3ykQVkDnNj0VrMowfdnLLXJSfu0b3qc7jhoVC2myuVgJuaEY5v8FMcUQS4_URCJpKktfkDcIwF4t2sXAy_TzYa7F8lbbiB6Bx_NSrUn1Vfkux_p5JG5FqLjy_jJuq2UDuYoDIfUmQ7lDiaDtE9R6lCK_UqKJhScd6KKR33rml3TloIUhW-OJJ8qSReRF2wE7fxpNFgyJvwcahFr8VaMHq8eefdoW7c2bLeJKCdpuQQivQ6kLNn8iewZb5lHWsnqH27w3TFN12CeomTYJK_iMmgb5YC5Wwv2TrSjnyym1t5wnCX31H6oLEBAFhrN8y3X4dWyE-H7xOX-ADWcoyO4j6yDS9BYhcrdRXtrEKUsu5FXNzR_f6kena5xVRGwUvj0wvBXXb9mMMyzYGt512rcuEd2NdHxIcPM3cZfbh0ItGKU_tU_8wNHr8y9rkFCVXl-OOWWsObD7334vyLHPOaWLtQ8okyw6Cm5XfK1zfS0YfIcwPxjbJCff-ledAqGwrHwq72DL-oPmtmm9NogGbqgyAcd6rJlTvgDU5Ni7CSQmLHjkX1E718cCWMgdojkAE0bzuSRzqgFBESrV_g8Mr5jTRJ9nLtNahfsTxgmH9Y6p4x0IC8ohiAXMHh2AMhj13B7FaSLR8fAMpnrY24tqJGO9MMtZf4TRxCaTAImIArlI_wjUsLdrcjNJ3hnkm6Fi_5WfUO2SS2mSKAHFyKSBjgQl1wq685-tQrrw2JOpgKzpmksckNyAzztg0-BmEEPCuyF-t1IPChqIJLL0kvbKkCqM3q5Eeh-KxPcJpAHnkLoZXk7185k9Rhd5rKBBvdjQmkyQAEvoOdCt662ZG_H50deiLKIi35u_VVDUtUC4y5-HAvhNiCMymkuX6e8NepYkDaEUCq30d-fJgFoLLx2WEQuvpCf7I2N0UDuFJbpd7bQ-_MjUwNGBGj8Vl7y9XNI8q36_LVGq7GINEWlIgGSO_E_SEmdC8BHsUUMrOVV8trCcdt8UzV2A8Y9bTI-qVxEwL1ZE8ud8ZheHqfNiSa8DblKSQx4qeBcqsGb1RU-0On7XhJY3jh7Nttcu65_W8s5wI6BSh8q73Ajsjz3FukjzzCjpb18iiUPR3R8WaoUcVkSGLoQwmSAa7_6tKHOiN0ccUEwymxJOWivNi1NX-riWper7UcGFnQp1OSavVDaILTtE1CBI1mzQDo4TJqqH479h8sZGuyp7EieqWqe0vnGQruPepys46klt-Gw_tBetZFRNgMH8IMUooa_wvs5NwCLbbPOp7KdvsIoxRZjV3wPk3KGQz_QK3AIYqHyQIbNrW_Uag7gUnblTSVLV-o3tXetygwg_yPlZGeCn-EIeZ5u6zoNv7wQuvWBP705sr9XDZM6ZZ2-LuVp4s9j4eTnR33cbUKVvh6wVbP7CaZZTDWr3FtECTCYHw8H1FOElP24Gdn97GONMstP-eLYolZIU1ar1usihciCL1QDTOnzctu2Rzi24H8j5Bn4LaBNj5w_P3PWbbxBKKCTe6N6npT409JOqrxKJrFMHz8v96swoDScOnSWZeknkAQLdRC1-GTMkxOXeOiY8SzikqdnQMkusUj6wB7gKtWa75_QL0bQYB3qMJ0zfrzvKrv2lDwzQO0S70tLzyRtamz_cIUt14ABcQoMxFv8_4vqz7MFG_-eN8xtz8FwPA6wXUJ6n5st-qvc1urFVgMkQWeYCkoCRsVEKumeBEYo_5FpspiGpNGLLQkonxoEBkVOqWXGIjtKIBctlQ6JsbU6dFxMKOOvg7aum2PoZRYyLg2m-8RNaGQVPGs-_rcroanADO0xAVToFnBymAAbkeASoGjig6yefWtOxbs3jFdhbkiq5in2duFc6sOPkyC4h-SfwPL8FxdqlX81C6Pzx6z0kcGO4M4ZF0wO8N1OZ3_Kkij71XE-nVFC4x-GTWYSF0EWh-y0je2MjMK-8QunBNtr4E1PpiCcwIyzFWpkAqJ4UR4gJp8l5t48GeH_pz0T8iORwkV6y2w1kmKuq1sCe0xuA-7SGng8LssCxRJ19wy-DqDBLzOHWdOFpbbVqEQqGHBcaDJoE5GveUnRYV4iwx9Hbb8gtBijB04l_PGDRFy17uzCt11d1x8Mav_lCDnzKTz6JLlVpxUbM77GCiooUHcMPmJk3vArG1t2baoIcuen-hszzr88HHvqluuwnRqwWiLA9A-iY-jFxS9MTn-1vmPqApj3ExBGdvu780ufo-w6fyZ4Z3CqCb_p6_AAEybjEyn-_1USHs3DPqQY7g1gg_4KoZs5gbDnSUTyXYNlHHA8L7Qxzh2xtIntgGQaYONIPYGjGq3LCgPI19hs7A5ky9MFVmLx_kq1P8UnVqmYqXJqx55UioxeZZn0WpnRfoP1uIMltmZVHa_pWl-_crNiQvvfJ_REAx-skILZTN6rwEvyALwJIZyxFji9idaR7lJUqGHK1_pPg36H0fn_4F01IzPUzR9jrqttd73MYfA7adelfsx9lQsUEahPZi26fspGcgqllGLeOnvwjGZqd9ltN9lJBJWTUemd3w-Y05MOWQv5bjE8pc_u6ItILaY3NI1WPjM0TG41BPhur-n-HMyUbgszG4-KCOslfp4wGhB1NYKgL02cr64Yv3Uh-MnbibqrUEdKQAvQJfmzDyMXJoX16m-axQ9aIJP1aPhPjLcME6LRKjJ7kIeMveYIFTWWLKd9aLsaQP9PkenHdju9bOQzMmieXHf2p7dXEogmqIuRiIx2b7uJLWvsn7eyvlogpOFSE0U7ZvFN27A-o0vRvNDXIJri5NDQbHQCOgJDUtCD-OPAROarklk6eBRlIFwj2M95eG-6x_peHIvEkXYiDem5oiXMggJy1E9PywsgmSpImkx0PyrA-L_NYrzkoBFMnVVAf_FP7qR0AVmUNyHDCTdh9cO_p2B22gIa2uEPrNHGNW1ALmavu8C5laF7OjU6dnSfcgyNd3vi7xY4j5WDnteNEE97M4usQpwDpCVwy5SV7e8_X5hTZHanSWpNEwtnnjoahD4T0WlqBJkUJLQdTN8pSeDU3epVGNY8hFtgjTjhGj7Hb93j08sfJZKZc1LlDcrbP7U2-ULq6Ki5y07KLVuYiukl_PPHlyzMJPX-TIBqK1oCJh4ElKiYzBd_dgdI9pDjViLMgVTUrySTC7kgLObWru7w6n-miaCHjgOl_SROPhGAySbqdKZ6SVbyJpXAr_SoxzTKSjL4r1ZWvMRR9thNpHQqPOgdce-RWAyyKRCI-xWe_8vU8wBzCbfxKzN1pYye7gzbaiBofqTI8tGSjbiERb6iaT_5uZ42YTZWZqseCDYjdlwOASOoat1g3qJuNk50vxCmg8vASoBLkA14c5_Nm5qrMWzZPVyXvqII4Nxi1LsVRAA1NQxKvBJPkVUoDbQz-jmfUOsKjSRozRJ85mmzKB8wiPuTWF0Fu-Lo3kF5dZum1eDEpJrau12Rsy5URZKWCoibUBS7kvzrofwvRmW8cEOQBHr5uCufck3hZDh5JUsCXM3QeY4LQbuuHjSHX55NrIDPZP2qAjvH-LET0up9nsuN6dpuzJ-bffZgwx2GiuLpd71kwjH9KVlo8vJ9-eRl-pMBRYl8Jm2vtxcZVZJX11H8jzd8Ge8pQqKIz29hxG2R-69N4xvm1okOHKPfb5bL37yOGWtQvXlKFoO8TfdpJL3_4gox1gVpT_x7qScZHLYFQJO__FnY5wL2Phz9mT4PHBtt5j0fwfpAPomyJJ9x76pXRU2h8Q-4GGhYqNQPP_3_5FG7C7uiGaE_zmLsOJKskeyDEZUm6SXVj0VN66QjbgUN7DVjwx_S7rRuIP-MIRLDfP_EO1f1kaAhq3SMXVmAlmeCPC5AcgmKNlXvTQMCAbpyQBKhlPKZry_Oauhtyg="
+}'
+
+
+  curl 'https: //www.google.com/recaptcha/api2/clr?k=6LeFNqcpAAAAAClHOnC8qbwSUtY9NFFDxYrMraWF' \
+  -H 'accept: * /*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'origin: https://www.camsonline.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.camsonline.com/' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'x-client-data: CJqNywE=' \
+  --data-raw $'\n(6LeFNqcpAAAAAClHOnC8qbwSUtY9NFFDxYrMraWF\u0012\u008e\r03AFcWeA4sGowvoxaFebKlCuK7F_WZmK0GBweVDQ7_YpizSE8Z_EwAD3jGN_ro4eqTIGjLuoGbP57fxKtgYlmuOWXnyHGzCvyEzrGPVMW-F4qPBxtBQB4li8kbR1Jehh6YOrNuLdsbdpCKqwBbj5Ojh01_2kkv6cpvGIRYlSylonjg84rDacnxwdtpGFOLz0esVddUR89KutD3rX2gxQE7Va-yK3V56We00VR-LJ5gEFI-JGLoW_7KHNnXQDUU-X8uiR5WqmRadI1ZpI9uXKNLD8mC9mTJTUMfD0-4fy9iZW8icZjOv81cE9s1fdPvIkCecFUqDfqLTa0W9hC_ecEtqg8RRj8MAH3X91V6-x1ubGtYYJVgy8vjSn7Pc8hqZIxVWcXEZ17vVkcM54VKnYIBPkfUpzXAVXw1_fS7sWSkD6khisjbm5Fmu5EpaKwvE0sNp4_xr9DADrwxsJRTX3whWQKcn6DyfUm9sQWTTlgKFhHWaYQ9Rfjd76hz7TyFtgdABVoBj99F30ayIIgmaZcBT7hnDtr7io4q4j8e15AzT3UYczfazIZJb3NAWRobUtNjd7DL-VNkHB0wCqIFBjM4xd_kMpkBPGph_FyDk_iLEycL9-394S2MFp7gZoYNQN4r1bn68tGe6XY9HGJy4f1V8YMvs_GDjWZy98nvPtIQa-H-QabVQt4synuffgfc-X_gAZC0Iwe3KFtF14DdU4esj5s3rCnKk4cQx4u7EOcJxXa70_0Iu0yJtwjKNlcEiMsu7sq5Q3sdx515QeYnytikN4NkDSgc7cCBoUHLt2CDwKk1vDYyhC8UxuLPI9ZeIGhGoTkIfLN_CSDPqfBjXF2xR77V-8nq_bMxvKkuN90DDPa7v1vdoX6CJtIsOUpLdD83lAKg2TZtOIsrUYo7X4cA7-pd7sMilKFAWHuO2ZhVDRBETXT3E_s7zU77FX1GDYEtmohi81xA7FF5NrDjUZCjTqP97KzHcGZOmSDFEYHK-ZYsxisxNqGB_hbJf-I44i98GnDedVy6OwQ70RQoiOFxDBPQPGhUQ-SVbC2UEf9Rnrmm_3EsVSP9dWoJe_ZOF_vnSF5HVnGqiqM95KdkWKxm_fGHpc6UMSiD_S6A7sypS2koU-VIFu_-mzAwLcEpLFhJvbTYtO-UF_RZONA1RQz9BCW_AwmHbsoe46iECwh7qSVDaCpwgvXgnS21ZIU6qk54dwtDdcgDv1-AhXHnOJZIbYBf2Ww4cremo3SfK71mCxjICYaXDFH-dTjPCF5AqafrcRW3ntbcHJLiVaC5jyeVPSvDv-uqp9NBVK2eo9TkulCrUubkLQjdFC9pYcowCNZ8xWwXT2hJiOcpTtNq_fsXhGm4wkaOZpvsmtwDNYmn6C69J4jAMXH-dz8x9mb9BTu9dUheRgQKpesL53pohkYQgHdOCdeYZR5DlKGIFzBgkd6jqB5CAlxvdWwyw_AkQjbuopZzooi4hPCca451C3Rr5KarYm4KTINi9HxpBg1PYWELxKFsOCUi3hPDM3jESwhkwykDOf1Hk75MhZBtoA36zdpxaVHphPerIIL3qyAco6F2_sR_9NhphfFJpvKHG22z0QL5H-x64lV4HRMB3yZ8Swn5-BPHNIWsEzB2JRFQGszJZR3M4CyIkZ3sDInperILj4CEynwr-Xbx\u001a\u0018AWtrSI7lAmTAfV1rzWqEqz54"H\u0018\u0001*:\n\u0008\u0008\u000b\u0010¢\u009c\u000b\u0018\u0007\n\u0008\u0008\u0006\u0010¢\u009c\u000b\u0018\u0019\n\u0009\u0008\u0003\u0010\u009c\u009c\u000b\u0018±\u0002\n\u0008\u0008\u0002\u0010\u009d\u009c\u000b\u0018\u0021\n\u000f\u0008\u0004\u0010¿\u009c\u000b\u0018\u0089\u0002*\u0004\u0010½\u0082\u00018\u0002@ \u009c\u0001H°ê\u0001'
+
+
+-- ELSS
+curl 'https://www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https: //www.camsonline.com' \
+  -H 'Referer: https: //www.camsonline.com/Investors/Statements/ELSS-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99",
+"Google Chrome";v="145",
+"Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{
+    "data": "iKCoOvo7hnZyLJhBhdNdJU9eLTqAT29cdW-0ZzKUW2tDv3ipv8s4taa9qu6vzEpdfKMEYnLz2eyjSBRKqFNLc6Sw9zkegeLwwWM_Odm_Yh1FLkrgyuUglWS8VA-i-2qgu_Tc63cYMhHH68M2f32iZRNt_jlngwRUawJJRJxNH1xZKFgClDxuNIpRKmOx_pkXznkNtZzpI7Uw6bgXzSuHXiDAOO3R3zlc0IP3HDX1IVSFvXYifywGPy2yQTsSLvkUo_GqVOuVcce4Ye8OI93gpTLGb0TbPSwc58UADRudvTUTtuisV-PjQnkCfwz53wvLzyx7pIJWBzbak9HuHD53ugZbSlIQlnZ46CEpmdFpwGMGXAtIvLv41HoE5HqkoRcp1REE2v8w47IRmTi79O-Q6kYWkS8IGwG5USAhAq40xlTDxWYZUHpqrKkxM6t3WmBGUfjIM1KC-s3a3lIYzw4SxOcvkI4IMchhSkwRYzUjIkWRUYGirogFY6vuHis79oHYvjKV8jwNNzu22EWENyMpEDRY7NhLxyPUtEoyRMx_5s0="
+}'
+
+curl 'https: //www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, * /*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https://www.camsonline.com' \
+  -H 'Referer: https://www.camsonline.com/Investors/Statements/ELSS-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{"data":"iKCoOvo7hnZyLJhBhdNdJWCimLngScdZ0rq6Y67edi1wM3snpzMYHcOALRc1pJLvDUZy7WinyxQWxxnH6OHzn_VdcNSxvdGfgeiqQPE8S1na-Uho7W965LEDig-zW58JbnV1mwKamKcmN0TnXCLpSLFlW0iMdWsjr2Nyu9HlVi9O-GZ3kSjPNDnZDPy09Z0L_Bw2HARPYgXU992kFC3ohC2I3E9suqBidCUzzW3rlfpi1OGALPHsMw1Ct_FcuqcxY4t-Lb4MdE4c0iFUIZbjYoCztob8BcL1YJwFaw2pyMeiF0Q1yIvGaswmZwHyt61HRchiLf5QAL-JmE9DJSj8JOSf_HozrYgsrxF-_yLnrQvEEB13LlfjDdlfei_xe1QkSVG_bUvDB48dS62Rj44iP-tpbmBsPmfWZilEJ-OoVDdohHJ_zu85FxSROIn-a79UbNsldrZ2tvZ3mdKav10CAi1anBHQpjuZsJ_bbNS6Pwi-i_HUUin0LzdM_s7cS_AS2tmfQIofN9f1E4apmKv1dLZ0EaLwOvuAwbbHgFqvb-ZiNMDT0WY6DFcYQa5FqJnuh4lj4nPEJgKkCbqK3BVUL-Pnh-hEIv7jwDfT9iv44ZzJdwk3cwX_eLHaITJoZb_ATOK9AomXS_xomCXlmxZeeBoqUcRXa4Z6BNHHkTJZjBE-d2P8QOFlAwoJa_7n2rVurGQSYD_odpE0xltAOkQimitBBry9UkbpDRyNJ2YMKd30zU4wLb10CO_6SkhuTsMpP9BbjCexh2EBV6oIkBlIa2z1mraaXigH4L032vnbnAh0VWKfRxxzuDRXA1xl-l9nWR8L06rzbkyYBwAO_m2jKDkm9W5vOUpnAXey8VnhobtrORMKBwCXlTlp_KuXXaAD5M3oInf79r6_Bj5RPf7bVFE2UVJqgt4Pw48Ofu_4ipZZz4m4ciZQku6PDRlw8DgPJySUtBhhy0niC6RLIyUWTN1-IKJk4GFbmlXpBrvdOdA3LEwwgTp7oR_SPihr07K6WCn2t0Mg4VNS_klK-BHvgPE6IYUjXo2OYxzNezmc0jKl6aGO5yLLOezdinqwM7hATBFwkAB6pSk9wq6sxJWoRjMUegIUtVFGSc-NLH5orufrMDaqwGNHtrmGiKjr4BiOfshFHpGVfUCAp4faEewK8GsYOHN7OPU_OSuar6WhbHoxC63nRlE4JPB2QvKgnaGjoHhtdGpnYgjqIAe6Zfvfwq9LubzYtXlKIbtAbV1J8Lopv8uCe1acUh6eM-_EQUXJUkm_I0ZK6VMRi6hIf2f8T5bwHzEWoWYlkwxyO066has9BJB7qZhX6MfZP7piSJlWPXBmdihJ08tyukQtefhC6VybWW95ar14HVyNJy6YJ8U1tMX4gF9WZJr27nTxLZn1PiZNiRkH-aaTRKrrH6K7yGG3PqRDOGXmZhKuHt_s2822NHlD_bIcBelPFt76rW7eTPMk78wl7UzcD1yUaKhNkkJPt1v60y2MAuEtQeCQyAuuDbUElryWhnyqJyW62MUxmQv7Xz-hDAaiA2OJozAOlR07MAein3_h_lWs8_vHql0S4eSUJhI_kYRHchqYHoA4dvvFwOUqCMuZsQBSBvioi8r4Enm7CswdD-YNmDTsqhhI_9B3mMTBkS9vISsvQ6brDdMEw6h-K-_2Oi4DUjMscAKVhwh13EXBLzX2lptDXDfFPRaw-vW-Ap5cvyc2hp2qYdB_b4BZnfjrxTbvl39xXCrx84jeh8GC0Sgn6lZh6tzR7c5_6LBovucw09y1X4WU4xTjg2UEMk4H_d7-9B7q_Mci1WjVmT04oD3i7nhdXzmEDYkVp3Mmop6QWMpWP8T8dcdMrEBpVaF42qm5O5gNqqCdSmOqAcyg_f7mVVXXFkz8yU1yIXRhB4jd7InD9R5Eu7ZHmWm7wgtaprLQKAXGF21vEM_RXuRCoe_DD91ApAZwF5QBSkTFwXM77qpuwW0KASKYMGqPXoBiZo2CzrZoaFlYaqSGuRpLBbo5J-cRdFJunsmF3wQ8Zvr3QVlanmTCbJwYQ0yzzZbFOA74k36Cil3dsEQTiqj23aKQex-gGsYkAGM5rEdFl62-3Dyh5rhpGflPBe4SnTVK7jx6EzGYjcBOOMlXr61Xo9-xACLE5rz5Rvw4F8BuQkJKMAAlBS3BWPnpFXpOgT_fJ2pxy1rsvRRzWUskZfufIMrsLhDz4umcMtiJ8qA7bSdREPVwU-eAh763dcL2yORE3Yp8BPgKaEtspedR9IeKCOL5ygzxewukQ-KBJalDwFMtDS_3UGfworsx43foEND2VWwNSMkg65ISPxfK6TrmaEiORI2ip0QkRG0o9san41glqiT1X60xm_NlV0ExBj_wbm67nWu5Wj7DyI-jzLkfsPnkp3IarUuOZt3LhuKX_sDKflwQvKAARgn5jzlv0lP2QWx1kuKM8R4fo7Wmxmk42i7SuvLvZec6KTLG9tv60Wv0aLOxpdSaV2ZhsH7PO-MV2KdBIy9642o8mZF75U8af0GpQmp64j5lY7gOK_oJwKBuHyKgfvrS5Z8-dOTmENrdu2uGNI0Gi8M60Pc1zv8oX4IYUYMC_5wRLov_zZtBuKdYbAIZGpYgBXPWRn5SB0_V1qgqdwfBKXKW4mLVA8cCAQhr2-EieaT9IppndMQ4IyRo0oZc1xlYyuwSHtUfZoExWBHQw9o-CZrj7Y-8wmRDFZ16mGqMpQXZgtyi6VPfKSuyDPZp15utCnQ7kx6M7dPyZtTPwMtcFKkgjUeMAk-M6AipSxEwn_ZOp7CmzdGRHLGZ-QGp3Wzsy-BqNGKIA1cul9TNVX-5dFVAToV-4fCOapOGwHacoqP9isemU45vyzu_uMPbstHpVa4HoXojeQIc1-9mnIwoxf1nT1dnzBp14kqQCBC-oO4dou6MoSaRW9bHACP0f0DKuLKwuNwL_Jg0aIKQbBHHAN-kHMb_DOes_WBSa_YboVnK8tifEV05D6VElv5WmsM1HjdsnP5cOwZYcO2--taPI4XR7ce1EOZgI4nrLnlWHbDPWKGVSG5OgOPIShvJ5EMLVhH5jsuNKCc3_SPxiV02vL3L5-WDQHe9xoNM-DQBLR32Tnil_mN3hsq77gx5I5axez3oQfmlPNEDyPhsftuJrK9q-yt5CjERRjc1HAbi77AziikFY5BIv7BtznCnSKwBv_3qrORwIGBLtndynUISvsdiKnxdJfMqBMH7VoU5zgWftP81WPThGZfDT_ClJE1H5Nrxg9Qk2suOcwi6AWfAL93Q4r1ec6yOT7aacrUchgFgC8iF-q9oS5HEJLjpFEgsZEcdDJQ7S8xd0kztMqyk8fTOTvxhMOTpxFC0gKtZv_UIHkrc2RuhhoXeRV66mFy5hwexI5JPNHYyY88Yu-j3EntepJDZqyPXDhzPi-cGtagpxUPBrlprdBJZCZKcY9kMlsHm_wjtEhwdzn0CExalcCpmX7F09BS1DU7nhvAbJ6k8_9aQDKQIDWcR05rRqmt_g93XtRLIqjGmrWgKb7u8BOQZxiu7bQCKPwAfPTGf63fnoNZA9VgLWq8D0ucxUUl9f__qxcDZlqvJAIsEuLBvt9FJUh8IckuUgqKoaWivFgtSykMrt9lUOOFcK_2btUEQ7JOXdqfH6bmiVYtxEOjGC8PLP4UU7mRvFe02EAOdYysLWgM_tVtfnxsZ6Ap78oCIPWWPFJIPDImrnraPP4pgAjxjG0y0wnRI8h0S6DlC74DZdIxqN7f52JH6RUBRUYXvJiRsuSr636t0US4HKEcGR6P6o03y4_TpgaPRAY1LlNOvmQtFe8wEiHncO4xnFepZ0qTlSdFXna98ZYqdmLTrC0M6zWYguKFu1kAIm8UHUkCocUKk33NGUuMCa-_BwBeWolGCAC4tZKwbAc7aQFDlooSnabZDYbS85RvmZ_r8NSsPL20XbUqoZ2VfRXgY9FICxp63K3-ZZA9paQo6-AdBSQ=="}'
+
+
+
+  --active statement
+
+  curl 'https://www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https: //www.camsonline.com' \
+  -H 'Referer: https: //www.camsonline.com/Investors/Statements/Active-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99",
+"Google Chrome";v="145",
+"Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{
+    "data": "iKCoOvo7hnZyLJhBhdNdJU9eLTqAT29cdW-0ZzKUW2tDv3ipv8s4taa9qu6vzEpdfKMEYnLz2eyjSBRKqFNLc6Sw9zkegeLwwWM_Odm_Yh1FLkrgyuUglWS8VA-i-2qgu_Tc63cYMhHH68M2f32iZRNt_jlngwRUawJJRJxNH1wUZ9NOhiH6N0Z_khcFeZi9oXYBpOSyuUTGm1wVuTyldvmMXPZqnHykCHzevwFherahSBUunsnVc4cnE_RZATiT6H0JkNSpP6CMit5JcO3xDum-3PSF_wkJvxTNSxKUiFxGlG4f-mWG3fVNnfovuegQ80EXzw3VrI_TkzoYxUp7fbCK3B23SeQYgT5qOv-ekDnVs8YxiW3YMevH52E2WVi5l8woSmctFrEVdJQ3rSUHYiPChDa2cf7mnKiKu5k1m2Hu2_Sm3tufSLecoMAksJLCQPJuS7vc3LQZ5XN5yYgZGjnZw2h53QMa5DKvtF-qxRAsABmBXQPU550lxfqqEoAGuj99sBZq1MX8d2V65w6Eaccmhp0wDaFz92ic2Mfmz-Y="
+}'
+
+
+
+  curl 'https: //www.camsonline.com/api/v1/camsonline' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -b 'cookiesession1=678B2893580054DE6B92F010E15B357B; AuthenticateTicket=aSZQ6rkQvrmN-u5Yoi0_XrSukUKbgyZp0hl3Ugb6_3A%3D; investorsurvey=OwM7QEgL5Yu_7w9MqzQAZZQOP39HwP9YgeVBOKZzgYU%3D; sessionId=1772110570876967705; openBot=false; hasPrechat=false; prefLang=en; appState=langSet; openChat=true; firstLang=null' \
+  -H 'Origin: https://www.camsonline.com' \
+  -H 'Referer: https://www.camsonline.com/Investors/Statements/Active-Statement' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{"data":"iKCoOvo7hnZyLJhBhdNdJWCimLngScdZ0rq6Y67edi3klulqeV57bR9DJpW-82dxUMakKoGIf3V3R_WBnqZ5HOWk0cyc30BQTIaol7gHM1A05-jWYOlZgk_Pht3gUfS-zUuyz_bDkukve8HD-gqNI8qSbqCvVe3qC8Hqv171l5s9cVGqOVq5-FdpHQHOPY3I5CqnLVhpvw2HpY8AsnxW9Omy1sV6LoV1utWd_BDcKrRWD--aHW_g7pAF2VDUKjpoZhQTPfUOqKF30kDlMlo7HxfKoaXgGQ7oMQPzWsl4Ym4ko9B9LyXxhUqOVOR4ZIFn8ZwfxxwFGIdYxevwt8SMVPjwkdhPXQ3m33OIyupediODK8lfLljJH6kmZ_TjcZSe59sVBeQ3Ju-ZzDLPFXuptOX7KIUb0K1sJbwiiM04okxaOwvuxpU0qaklZ7JkhyQQP2MWD340h5FyeliKzrdPU05ttOcXFJXBWcqLyn3ghrpxfq0aWPB7r1QY9Rfs83Pg2ZeVbiwPD34zN4aJKox4l17TpASUzE2tUYxmiR0bGUGXfa8yKYBrKJgE9mK8OYYMgukdRSUdWBJiWkmMCg_ZRh5t6-uLtey8UCgdOnxPMvUBNao-4GS20vlxin-QX7YCc_MZr9KHSKJGVuSW2tbxu4DMfBPOqik3mXZYjyEmkSM4XgQGpmyfbcmSsmlaOjOc_wvAcFpJPFXrc_DRFj7OePhXi1fIwT8N__rR0xHmkmRat4kk2VSUTIMhEgCKTpAbR_XlaGu9_5_B8tOZrccM6yFCdRMr3wRIJd6cxHOMIUvNvAcgs5X4cpQzEMMCIFIe-1kS56YbGGwDHoAo8_5oCrMR6H1bHzs5pmkzjtt1D8HqlESl4Nx4Xlxrgv4_HBHb8GOgqVvWUDNdAvDi1lEVX-r6vgFp0UaJAv52MIAxFX6Ec-j3CNHjRYfSW4xjdo3ZeDCYdq2reT4KVIa-_BrKE39jcpVds1U4ana5k2vdDFlOKfRalEBYMqLlkdB6YQOPvY10pn65k1_I4floEKeNtdZ0g6F7gCLHy-G9HGv6kAZ-G9vGtS-2oawZxamBCfbJYEwl1aFelDduGmRIglNAt9Gf9SWzyDtzNhMCRGbfmaDxtrLyWPeV3U2OIXPzqFC64py9Qun8YHkI_2VaoxBRRK7OSJrR3O2IO-nDWYdf9WTPyZL83WS5aNdadYgi4R0nIw0IEuiZQrGjpv0G1rAvLH4C9eU7W88mLwVCcGuIzM1CzC0u_jdsOjI2nl0zLb-9FhU_jA9KFd4Bq-JjAHDkSibdUsV4hFUgkIOdT07HZsHiTYRBXvLj8oI0RXsF67eWuofU9Q8XKH5cGcShfHX_6xh2HYR9-coSk7pfFBkAakpLZJPazDZRpg1ef4eqgd5hoTb4_yAEO7FhSqXugvZiguBfWuypKwJZuNvS-PuvNkG5aq1RW44MX8i2LFungka-YRcj1zI1fAyy-BDa6x2-jE6VZYIAhYuo469YvgPKTwRFwLYfJ0kSNdc7Us2n9pHC9rUOj4mcUZT7p9NOiXOpsW2DB0crYnI4SGk4uz5fjIryn_BwMe85_cF1OoMEaQvRXOhovU0t5ImHZ5Pcaa8qCpCusmM2CTq2eLmzGqL0Ksyhy9cbYTyjQYwh31MhgQ5Xtq9KzEFcVdev4XxmP5mZ_d6UNb9q4Jwi8KWw-z63PEh-ffoTbZ5EQU4xPNivggl4b3iLTk5kefkVUQMx_wfwUQkiXWxCBlxXnubikiuBTf4_vXS-Bc6FUeEoLwpnnAkiJ7k153zERAYBWDHX4jCybYNbAKOwjknCKIL4jl3AFQyqYF_zwA-oPfRkWBytGXys0QfB8asvMSAldyIDU47DQ3el5HGgNHmGV0Q887u30urAlr19XCpAJeDclnUMXOc3rHzaToCNsQ4vKeLXV4uiAIRyjPLwg8ffKE5BJ9yFnWDa8_roWvbwjFQutcrDrMMKlVMzPsQyLxMUQHViCgFC3Fdpx17hURRMxKA0b1xj2ijvW8FFXtAvTdWllSuXAMWZk_d3T9bqfSYv-JRPZMDaeyRq2CjN_JKgOHpQE0Cxm1_WZ5M6Jy8Qeq2_laTj9GCGmc3tJzjRksS06kToRNlS-4i5Rw8Vit3PVDfBeVQNabOz28uBILsaKO19MWRQ5c-wBj0ROyjfBcEc2haQZUWfErkdu6dbJ3DpI22ilxHVQCKg8W-3buH7Wi-75c17ctYLtQ0lR43_01Fye3W3ZYmeVA9Jbi5NcUqxdbJ4YI7F1sDOEKdd-7hv11kknA5qsPCclXPZwdAD4CxcDtx_H9g0i73Qy_ixf5YJtt8VoM85uoMUaiCyQzR_Z0-W7eSfolF6XQttiCKQiwpqrm6hoioshKalsG_oLXPg-onlwKpf5nxJRDUUEFKc6enJpeeqhI4jgDOwJSyU6jB3swF2P57-PSaFwYHsSl9goFtDjIwy-VKDR1A38W8qU_Qi-8MFNBxUa3riY-djsiNTBMDGdlN8jh3VIe3IeZXqtCyO4vfh5oVsAZTJbsYbrzJmtBzSPtQ8X1s2kn6LCGJnAN5uNO5KNrhn3bkoo5c1Np276qQTSoroga_2Ihy4f_sL82OwIj6PlyAeG7NS3Z6Ric464oYWDVP8WoHhl4up3ktR-6w4nOOWhYd4dIHPGUPN1xaeZtuP4KKskMkNjYBHg4oqF9sNnAmpmsv3KKhqKSHVAvuTZd50wbvRn2aDieEzVFrc16yMcEWSzCpamFyMJlVxi7v2TE-cijjY_BC3MV_4hJ65yoZjjolvpnaI6nTMRygDLyhnNBCPgHl0ZTbtdIYwU2ehGBbjdyLJqXZLcrKX1lOm95rXQCsJN_JRHzS_YLrtJU-0jO6HysPcyBSo0gZ91foirjRXfYM6G2kgx-NeFljTrwjqco1Z2zJRtR3XryGzrJZ66GK5ltYpvLHnGEHRusD09lqRCAG-d34U98DSNGP7qsnkMc1vHS5C93fHaoCz01OKqwp98KTBi6Zi0ZIbKi2zCSaGMSSA-BAb0rYzJbU8PBMPQMEfd0L-gaods8GZzswPbUP9PZM3nQb67I2uIzQM4ELj4YfhH1z8wQzmGxfJbwp0bwGpEE_bnlGHoGwwUC1oyW3cQQnsfltXUQtvbkr06CMGnKqSzvlv1URVaDHazREVh_G2J_kVZ8HxWFCcx5UdBKfeOi344IvjC8MKkbCgad8ggBWNkRteOLnXn23_wMbmgjSjtFXwO00WPv5SNPteljZgy8ab70fLDqHdfBc_OveAWfF6Ust3My6n95a4AftGrDzDblGLKQMFoCA7IvoJD625vSaNzPjVqILOHS5NkyebPsjsubQNLAyQCoKGvGscMoXrJeXk77ypWuT4KA2SDgdn-PKCAjh72tIh4zNVKDD_KikGxfWq9xzJWMbqbXJoozWSExCmV-lx8WDHIzZ1oJTgVGqy1UjdUZZB92LNZ2jF99t6wQLAc8nci8Fle_8W3Twqg558tv03rIqzKPoxk8_nAbueyx3uMXpAD6_8I5C1wdznOnv1Lu39phD-QREou8jNsXKQg6bKTa5KcXmtxWtoatLfrsHWKeoyLDrSS_MdzamJfOuGGydOXZleHUw4tD33kDBrjDkF9tl7HFoMK39OnKiGB1WOxAaG49YOBZNUMkOTemvCKFn0wDSNcbH_gai6V-EtK2dK_ynu6lg9pQbfHg29xbc56bu9QUi5GHPDlWDL4Eim8Y_Ini0fKzoAIZ5KrX7f2TwWk9NpjsKCsR3SSYnsNY6XedYyZ6DiUKYA34fyUnOpDg3GjN3FIx2epMI40_4zMCrHNs6jOgTtBStRCJ_sC5uQQAXXdSAmIIdyJ22hCyT02GAAabiWH4PqgJ1NVuApC4UgWfCEacBXCDGuTWe7wjip-DajW-2d4dmd7EOrnGzbAg6drtQE5bhcxFfhWDlMLOsRdqqB8dk24nbcW19WvlZ6DpuyiqPqzAcdeHyYCTg1MoqmqSqY9nZCS9LiT_J_TuMQ4GjxJLMr"}'

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MF Advisory — Product Experience Design v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#0f0f0f;--ink-2:#3a3a3a;--ink-3:#7a7a7a;--ink-4:#b0b0a8;
+    --paper:#fafaf7;--surface:#f2f2ed;
+    --accent:#1a472a;--accent-2:#e4f2e8;
+    --warn:#b85000;--warn-bg:#fff4ec;
+    --tax:#1a3a5c;--tax-bg:#e6eef8;
+    --behav:#5c1a3a;--behav-bg:#f8e6f0;
+    --whatif:#3a1a5c;--whatif-bg:#ede6f8;
+    --red:#b01a1a;--red-bg:#fae8e8;
+    --border:#deded6;--rule:#ebebE3;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);font-size:15px;line-height:1.65;}
+  .page{max-width:920px;margin:0 auto;padding:48px 32px 80px;}
+
+  /* HEADER */
+  .doc-header{border-bottom:2.5px solid var(--ink);padding-bottom:28px;margin-bottom:52px;}
+  .label{font-family:'Syne',sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;}
+  .doc-header h1{font-family:'Syne',sans-serif;font-size:33px;font-weight:800;line-height:1.15;margin-bottom:10px;}
+  .doc-header .sub{color:var(--ink-2);font-size:15px;font-weight:300;max-width:640px;margin-bottom:18px;}
+  .meta-row{display:flex;gap:7px;flex-wrap:wrap;}
+  .mc{font-size:11.5px;background:var(--surface);padding:4px 12px;border-radius:20px;color:var(--ink-2);border:1px solid var(--border);}
+  .mch{font-size:11.5px;background:#fffbe0;padding:4px 12px;border-radius:20px;color:#6b4a00;border:1px solid #f0d870;font-weight:600;}
+
+  /* SECTION */
+  .section{margin-bottom:58px;}
+  .sh{display:flex;align-items:baseline;gap:14px;margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid var(--rule);}
+  .sn{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--ink-4);letter-spacing:.12em;text-transform:uppercase;min-width:28px;}
+  .st{font-family:'Syne',sans-serif;font-size:21px;font-weight:700;}
+
+  /* CALLOUT */
+  .co{padding:15px 20px;border-radius:8px;margin-bottom:18px;font-size:13.5px;line-height:1.65;}
+  .co-dark{background:var(--ink);color:#fff;} .co-dark strong{color:#a8f0c0;}
+  .co-warn{background:var(--warn-bg);border:1px solid #f5c8a0;color:#6a2a00;} .co-warn strong{color:var(--warn);}
+  .co-note{background:var(--surface);border:1px solid var(--border);color:var(--ink-2);}
+
+  /* IA */
+  .ia-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px;}
+  .ia-tab{border:1.5px solid var(--border);border-radius:10px;padding:15px 13px;background:#fff;}
+  .ia-tab.p{border-color:var(--accent);background:var(--accent-2);}
+  .ti{font-size:20px;margin-bottom:7px;}
+  .tn{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;margin-bottom:5px;}
+  .td{font-size:12px;color:var(--ink-2);line-height:1.45;}
+  .tm{margin-top:8px;font-size:11px;background:var(--surface);display:inline-block;padding:2px 8px;border-radius:4px;color:var(--ink-3);}
+
+  /* FLOW */
+  .flow{display:flex;flex-direction:column;}
+  .fs{display:flex;gap:16px;position:relative;}
+  .fs:not(:last-child)::after{content:'';position:absolute;left:15px;top:32px;bottom:-12px;width:2px;background:var(--rule);}
+  .fd{width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:13px;font-weight:700;flex-shrink:0;position:relative;z-index:1;}
+  .fd.hi{background:var(--accent);} .fd.wa{background:var(--warn);}
+  .fb{padding:4px 0 20px;flex:1;}
+  .fl{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-bottom:4px;}
+  .fdesc{font-size:13px;color:var(--ink-2);margin-bottom:8px;}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;}
+  .chip{background:var(--surface);border:1px solid var(--border);padding:4px 10px;border-radius:5px;font-size:11.5px;color:var(--ink-2);}
+  .chip.k{background:var(--accent-2);border-color:rgba(26,71,42,.3);color:var(--accent);font-weight:500;}
+  .chip.w{background:var(--warn-bg);border-color:#f5c8a0;color:var(--warn);font-weight:500;}
+
+  /* SCHEMA BOX */
+  .sb{background:#fff;border:1px solid var(--border);border-radius:10px;padding:17px 21px;margin-bottom:15px;}
+  .sb h4{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;margin-bottom:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.07em;}
+  .sr{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--surface);font-size:13px;}
+  .sr:last-child{border-bottom:none;}
+  .sk{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;min-width:125px;color:var(--ink-3);flex-shrink:0;}
+  .sv{color:var(--ink-2);}
+  code{background:var(--surface);padding:1px 6px;border-radius:4px;font-size:11px;color:var(--ink);}
+
+  /* BADGES */
+  .b{display:inline-block;font-size:10px;padding:2px 7px;border-radius:4px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;}
+  .b-once{background:#e0e8ff;color:#1a2a7c;}
+  .b-trig{background:#fff0d0;color:#7c4a00;}
+  .b-week{background:#e8f0fa;color:#1a3a5c;}
+  .b-mon{background:#f0e8fa;color:#3a1a7c;}
+  .b-od{background:var(--surface);color:var(--ink-3);}
+
+  /* FREQ MODEL */
+  .fgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:22px;}
+  .fb2{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px;}
+  .fh{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--rule);}
+  .fh.once{color:#1a2a7c;}.fh.trig{color:#7c4a00;}.fh.week{color:#1a3a5c;}.fh.mon{color:#3a1a7c;}
+  .fi{font-size:12px;color:var(--ink-2);padding:4px 0;border-bottom:1px solid var(--surface);line-height:1.4;}
+  .fi:last-child{border-bottom:none;}
+
+  /* CATEGORY */
+  .cb{margin-bottom:26px;border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+  .ch{padding:13px 20px;display:flex;align-items:center;gap:10px;}
+  .ci{font-size:18px;} .cn{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;}
+  .cc{margin-left:auto;font-size:11px;padding:3px 10px;border-radius:12px;font-weight:700;}
+  .cat-h .ch{background:var(--accent-2);} .cat-h .cc{background:var(--accent);color:#fff;}
+  .cat-t .ch{background:var(--tax-bg);} .cat-t .cc{background:var(--tax);color:#fff;}
+  .cat-b .ch{background:var(--behav-bg);} .cat-b .cc{background:var(--behav);color:#fff;}
+  .cat-w .ch{background:var(--whatif-bg);} .cat-w .cc{background:var(--whatif);color:#fff;}
+  .it{width:100%;border-collapse:collapse;}
+  .it th{padding:8px 14px;text-align:left;font-family:'Syne',sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3);background:var(--surface);border-bottom:1px solid var(--border);}
+  .it td{padding:10px 14px;font-size:13px;border-bottom:1px solid var(--rule);vertical-align:middle;}
+  .it tr:last-child td{border-bottom:none;}
+  .iq{font-weight:500;color:var(--ink);} .in{font-size:11.5px;color:var(--ink-3);margin-top:2px;}
+  .mod{font-size:11px;background:var(--surface);padding:2px 7px;border-radius:4px;color:var(--ink-3);white-space:nowrap;}
+
+  /* CARD JOURNEY */
+  .je{border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:18px;}
+  .jh{background:var(--ink);color:#fff;padding:13px 18px;}
+  .jhl{font-family:'Syne',sans-serif;font-size:10.5px;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px;}
+  .jhq{font-size:14.5px;font-weight:500;}
+  .cr{display:flex;padding:13px;gap:9px;overflow-x:auto;background:var(--surface);scrollbar-width:none;}
+  .cr::-webkit-scrollbar{display:none;}
+  .jc{min-width:172px;max-width:172px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:13px;flex-shrink:0;}
+  .jcn{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;color:var(--ink-4);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;}
+  .jct{font-size:11px;color:var(--ink-3);margin-bottom:7px;font-style:italic;}
+  .jcb{font-size:12.5px;color:var(--ink);line-height:1.5;}
+  .jcb .big{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;display:block;margin-bottom:3px;}
+  .jcb .big.g{color:var(--accent);} .jcb .big.w{color:var(--warn);}
+  .jcta{margin-top:9px;display:flex;flex-direction:column;gap:5px;}
+  .cp{padding:6px 10px;border-radius:5px;font-size:11px;font-weight:700;text-align:center;background:var(--ink);color:#fff;}
+  .cs{padding:6px 10px;border-radius:5px;font-size:11px;font-weight:500;text-align:center;background:#fff;color:var(--ink-2);border:1px solid var(--border);}
+  .arr{display:flex;align-items:center;justify-content:center;color:var(--ink-3);font-size:20px;flex-shrink:0;padding-top:10px;}
+
+  /* ACTIONABLES */
+  .ac{display:flex;gap:13px;padding:13px 15px;background:#fff;border:1px solid var(--border);border-radius:10px;margin-bottom:8px;}
+  .aci{font-size:20px;flex-shrink:0;padding-top:2px;}
+  .act{font-weight:600;font-size:14px;margin-bottom:2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .acd{font-size:12.5px;color:var(--ink-2);margin-bottom:6px;line-height:1.5;}
+  .acm{font-size:11px;background:var(--surface);padding:2px 8px;border-radius:4px;color:var(--ink-3);display:inline-block;}
+  .ac-dyn{background:var(--whatif-bg);border-color:rgba(58,26,92,.2);}
+  .ac-dyn .act{color:var(--whatif);}
+
+  /* PROMPT BOX */
+  .pb{background:#16161a;color:#d0ffd8;border-radius:10px;padding:18px 20px;font-size:12px;line-height:1.75;margin-bottom:18px;font-family:'DM Sans',monospace;}
+  .pbh{color:#6ef09a;font-weight:700;margin-bottom:5px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;}
+  .pbc{color:#4a7a50;font-style:italic;}
+
+  /* SCORE SECTION */
+  .ss{background:var(--ink);color:#fff;border-radius:14px;padding:26px 26px 22px;margin-bottom:22px;}
+  .sst{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;}
+  .ssn{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;margin-bottom:4px;}
+  .ssd{font-size:13px;opacity:.6;margin-bottom:20px;}
+  .sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  .sdl{font-size:11px;opacity:.45;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px;}
+  .sdv{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;margin-bottom:2px;}
+  .sdv.g{color:#7af0a0;} .sdv.a{color:#f0d870;} .sdv.r{color:#f08080;}
+  .sds{font-size:11px;opacity:.45;}
+  .sdt{height:4px;background:rgba(255,255,255,.12);border-radius:2px;margin-top:7px;}
+  .sdf{height:100%;border-radius:2px;}
+
+  /* DASH GRID */
+  .dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-bottom:22px;}
+  .dc{background:#fff;border:1px solid var(--border);border-radius:11px;padding:17px 15px;}
+  .dc.feat{background:var(--ink);color:#fff;border-color:var(--ink);}
+  .dc.wc{background:var(--warn-bg);border-color:#f5c890;}
+  .dcl{font-size:11px;color:var(--ink-3);margin-bottom:7px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;}
+  .dcl.lt{color:rgba(255,255,255,.45);}
+  .dcn{font-family:'Syne',sans-serif;font-size:28px;font-weight:800;line-height:1;margin-bottom:5px;}
+  .dcn.g{color:var(--accent);} .dcn.w{color:var(--warn);} .dcn.lt{color:#fff;}
+  .dcs{font-size:12px;color:var(--ink-3);line-height:1.4;}
+  .dcs.lt{color:rgba(255,255,255,.5);}
+  .dbar{height:5px;background:var(--surface);border-radius:3px;margin-top:9px;overflow:hidden;}
+  .dbar-f{height:100%;border-radius:3px;}
+
+  /* UNIQUE NUMBERS */
+  .ugrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;}
+  .uc{background:#fff;border:1px solid var(--border);border-radius:10px;padding:15px;}
+  .uci{font-size:18px;margin-bottom:7px;}
+  .ucn{font-family:'Syne',sans-serif;font-size:11.5px;font-weight:700;margin-bottom:4px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.05em;}
+  .uce{font-size:13px;color:var(--ink);margin-bottom:4px;}
+  .uce strong{font-family:'Syne',sans-serif;font-size:20px;display:block;margin-bottom:2px;}
+  .ucw{font-size:11.5px;color:var(--ink-3);line-height:1.4;}
+
+  /* FOLIO TABLE */
+  .ft{width:100%;border-collapse:collapse;margin-bottom:14px;}
+  .ft th{padding:9px 13px;text-align:left;font-family:'Syne',sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3);background:var(--surface);border-bottom:1px solid var(--border);}
+  .ft th:not(:first-child){text-align:right;}
+  .ft td{padding:10px 13px;font-size:13px;border-bottom:1px solid var(--rule);vertical-align:middle;color:var(--ink-2);}
+  .ft td:not(:first-child){text-align:right;}
+  .ft tr:last-child td{border-bottom:none;}
+  .fn2{font-weight:600;color:var(--ink);font-size:13px;}
+  .fnsub{font-size:11px;color:var(--ink-3);}
+  .pos{color:var(--accent);font-weight:600;} .neg{color:var(--red);font-weight:600;} .neut{color:var(--ink-3);}
+  .xb{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;}
+  .xh{background:var(--accent-2);color:var(--accent);} .xm{background:#fff4ec;color:var(--warn);} .xl{background:var(--red-bg);color:var(--red);}
+
+  /* TWO COL */
+  .tcol{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:18px;}
+  .box2{background:#fff;border:1px solid var(--border);border-radius:10px;padding:15px;}
+  .box2 h4{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--rule);color:var(--ink-2);}
+  .bi{display:flex;gap:8px;padding:6px 0;font-size:12.5px;border-bottom:1px solid var(--surface);align-items:flex-start;}
+  .bi:last-child{border-bottom:none;}
+  .bip{font-size:11px;color:var(--ink-3);min-width:50px;padding-top:2px;flex-shrink:0;}
+  .bit{color:var(--ink-2);line-height:1.4;}
+
+  p{margin-bottom:12px;color:var(--ink-2);font-size:14px;}
+  .sec-label{font-family:'Syne',sans-serif;font-size:12px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.06em;margin:22px 0 10px;display:block;}
+
+  @media(max-width:720px){
+    .ia-grid,.fgrid,.sgrid,.dgrid,.ugrid{grid-template-columns:repeat(2,1fr);}
+    .tcol{grid-template-columns:1fr;}
+    .page{padding:24px 16px 60px;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="doc-header">
+    <div class="label">Product Design · MF Advisory · v2</div>
+    <h1>Product Experience Design</h1>
+    <div class="sub">Reworked frequency model, corrected insight triggers, expanded actionables with dynamic LLM layer, and structured dashboard with unique engagement numbers.</div>
+    <div class="meta-row">
+      <span class="mch">↻ Frequency model reworked</span>
+      <span class="mch">↻ Revelation hook rethought</span>
+      <span class="mch">+ Dynamic actionables</span>
+      <span class="mch">+ Dashboard section</span>
+      <span class="mch">+ Portfolio Fitness Score</span>
+    </div>
+  </div>
+
+  <!-- 01 IA -->
+  <div class="section">
+    <div class="sh"><span class="sn">01</span><span class="st">Information Architecture</span></div>
+    <div class="ia-grid">
+      <div class="ia-tab"><div class="ti">🏠</div><div class="tn">Home</div><div class="td">Triggered alerts + daily briefing. Time-sensitive things only.</div><div class="tm">Feed</div></div>
+      <div class="ia-tab p"><div class="ti">🔍</div><div class="tn">Insights</div><div class="td">Diagnostic questions → card journeys. Deep dives on any dimension.</div><div class="tm">Card journey</div></div>
+      <div class="ia-tab"><div class="ti">📊</div><div class="tn">Portfolio</div><div class="td">Fitness score, unique numbers, folio table, weekly snapshot.</div><div class="tm">Dashboard</div></div>
+      <div class="ia-tab"><div class="ti">💬</div><div class="tn">Ask</div><div class="td">AI chat with full context. Pre-loaded from any insight journey.</div><div class="tm">Chat</div></div>
+    </div>
+  </div>
+
+  <!-- 02 REVELATION SEQUENCE -->
+  <div class="section">
+    <div class="sh"><span class="sn">02</span><span class="st">First-Time Experience — Revelation Sequence</span></div>
+
+    <div class="co co-warn">
+      <strong>XIRR is not the hook.</strong> An abstract percentage doesn't land for retail Indian investors — they don't know if 14.2% is good or bad without context. The hook needs to answer a question they already have a felt answer for: "Am I better off than the bank?" / "Am I being ripped off?" / "What did I miss?" Those three land because users have anchors for them.
+    </div>
+
+    <div class="flow">
+      <div class="fs">
+        <div class="fd">1</div>
+        <div class="fb">
+          <div class="fl">Visible Analysis Screen</div>
+          <div class="fdesc">Not a spinner. Real progress: "Found 12 funds across 4 folios… Tracking 47 SIP installments… Calculating tax implications…" Builds anticipation, communicates depth.</div>
+        </div>
+      </div>
+      <div class="fs">
+        <div class="fd hi">2</div>
+        <div class="fb">
+          <div class="fl">The Real Hook — A Relatable Comparison</div>
+          <div class="fdesc">Choose the most emotionally resonant frame based on portfolio composition. Priority order:</div>
+          <div class="chips">
+            <span class="chip w">If Regular Plans: "Your distributor earned ₹X from your money"</span>
+            <span class="chip w">If underperforms FD: "An FD would've given you ₹X more"</span>
+            <span class="chip k">If outperforms: "You beat a fixed deposit by ₹X,XXX"</span>
+            <span class="chip">Always available: "Your money has been working for N days"</span>
+          </div>
+          <div style="margin-top:10px;font-size:12.5px;color:var(--ink-3);">The distributor framing is especially powerful — it's personal, it's loss framing, it's often a shock. "₹12,400 went to someone else" lands very differently from "your XIRR is 14.2%."</div>
+        </div>
+      </div>
+      <div class="fs">
+        <div class="fd">3</div>
+        <div class="fb">
+          <div class="fl">Portfolio Fitness Score</div>
+          <div class="fdesc">One number out of 100 with a label and the single biggest drag. "Your portfolio scores 58/100. Your biggest drag: Regular plans (−22 points)." This becomes the user's personal benchmark to improve.</div>
+          <div class="chips"><span class="chip k">portfolioFitnessScore (composite — defined in §7)</span></div>
+        </div>
+      </div>
+      <div class="fs">
+        <div class="fd">4</div>
+        <div class="fb">
+          <div class="fl">Insight Unlock — N Findings</div>
+          <div class="fdesc">List of insight teasers, grouped by category. Not answers — questions. "2 of your funds secretly hold 47% of the same stocks." "One investment is costing you ₹X/year in unnecessary fees." Teasers create urgency to explore.</div>
+          <div class="chips"><span class="chip">Ranked by ₹ impact</span><span class="chip">5 categories shown</span><span class="chip">Questions, not summaries</span></div>
+        </div>
+      </div>
+      <div class="fs">
+        <div class="fd hi">5</div>
+        <div class="fb">
+          <div class="fl">Single CTA — Highest-Priority Actionable</div>
+          <div class="fdesc">One button. Specific to their data. The actionable with the highest ₹ impact × lowest friction. If Regular plans: "Switch 6 funds to Direct — save ₹58,000 over 10 years." If ELSS imminent: "Your ELSS unlocks in 30 days. Plan your tax-free window."</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03 FREQUENCY MODEL -->
+  <div class="section">
+    <div class="sh"><span class="sn">03</span><span class="st">Frequency Model — Reworked</span></div>
+
+    <div class="co co-note">Many insights are not recurring — they fire once, when a condition is first met. The engine re-evaluates on every data refresh, but the user only sees a card when something meaningfully changes. This prevents the feed from feeling repetitive and keeps every card feeling fresh.</div>
+
+    <div class="fgrid">
+      <div class="fb2">
+        <div class="fh once">Once (Threshold)</div>
+        <div class="fi">LTCG approaching ₹1.25L free limit (at 80%)</div>
+        <div class="fi">SIP pattern break — first detection</div>
+        <div class="fi">Portfolio neglect crosses 6-month mark</div>
+        <div class="fi">Overlap first detected &gt;40%</div>
+        <div class="fi">Distributor commission crosses ₹X cumulative</div>
+        <div class="fi">Fund count exceeds threshold for portfolio size</div>
+        <div class="fi">First ELSS lock-in expiry approaching (30d window)</div>
+      </div>
+      <div class="fb2">
+        <div class="fh trig">Triggered (Event-Driven)</div>
+        <div class="fi">STCG lot within 30d of LTCG boundary</div>
+        <div class="fi">Fund manager change at any holding</div>
+        <div class="fi">Market drop &gt;5% in 5 days</div>
+        <div class="fi">NAV all-time high milestone hit</div>
+        <div class="fi">ELSS lot unlocking in &lt;7 days</div>
+        <div class="fi">Fund TER change &gt;0.2%</div>
+        <div class="fi">SIP missed this month</div>
+      </div>
+      <div class="fb2">
+        <div class="fh week">Weekly (Rolling)</div>
+        <div class="fi">Portfolio vs benchmark this week</div>
+        <div class="fi">Best/worst fund in holdings this week</div>
+        <div class="fi">External event explains a fund's weekly move</div>
+        <div class="fi">One what-if scenario (rotates across 8)</div>
+        <div class="fi">Fund rank/form change (if scoring used)</div>
+      </div>
+      <div class="fb2">
+        <div class="fh mon">Monthly (Full Refresh)</div>
+        <div class="fi">XIRR recalculation with updated NAVs</div>
+        <div class="fi">Benchmark comparison full update</div>
+        <div class="fi">Risk metrics (Sharpe, Sortino)</div>
+        <div class="fi">Portfolio Fitness Score update</div>
+        <div class="fi">Behavioral pattern re-analysis</div>
+        <div class="fi">Sector/market cap drift check</div>
+      </div>
+    </div>
+
+    <div class="co co-note"><strong>On-demand (never pushed, always available):</strong> Fund overlap detail, full ELSS unlock calendar, all what-if scenarios, folio-wise XIRR breakdown, full tax simulation. These live in the Portfolio and Insights tabs as pull content — not notifications.</div>
+  </div>
+
+  <!-- 04 INSIGHTS TAXONOMY -->
+  <div class="section">
+    <div class="sh"><span class="sn">04</span><span class="st">Insights Taxonomy — Corrected Frequencies</span></div>
+
+    <div class="cb cat-h">
+      <div class="ch"><span class="ci">🛡️</span><span class="cn">Portfolio Health & Risk</span><span class="cc">8 insights</span></div>
+      <table class="it">
+        <tr><th style="width:44%">Diagnostic Question</th><th>Module</th><th>Frequency</th></tr>
+        <tr><td><div class="iq">Are you beating the market?</div><div class="in">Week-over-week gap shown in Home briefing</div></td><td><span class="mod">benchmarkComparison</span></td><td><span class="b b-week">Weekly</span></td></tr>
+        <tr><td><div class="iq">What happened to your fund this week?</div><div class="in">External event explains fund's movement</div></td><td><span class="mod">benchmarkComparison + market events</span></td><td><span class="b b-week">Weekly</span></td></tr>
+        <tr><td><div class="iq">Are your funds rewarding the risk you're taking?</div><div class="in">Sharpe + Sortino recalculated monthly</div></td><td><span class="mod">riskMetrics</span></td><td><span class="b b-mon">Monthly</span></td></tr>
+        <tr><td><div class="iq">Are you skewed toward one market cap or sector?</div><div class="in">Shows once on first analysis, resurfaced if drift &gt;10%</div></td><td><span class="mod">marketCapAllocation + sectorAnalysis</span></td><td><span class="b b-once">Once + Drift trigger</span></td></tr>
+        <tr><td><div class="iq">Are two of your funds secretly holding the same stocks?</div><div class="in">Holdings change quarterly. Show once on detection, recheck on quarterly disclosure updates. Not weekly.</div></td><td><span class="mod">overlapAnalysis</span></td><td><span class="b b-once">Once + Quarterly recheck</span></td></tr>
+        <tr><td><div class="iq">Are you over-concentrated in one fund house?</div></td><td><span class="mod">portfolioSummary</span></td><td><span class="b b-once">Once</span></td></tr>
+        <tr><td><div class="iq">Is your asset allocation aligned to your risk profile?</div></td><td><span class="mod">assetAllocation</span></td><td><span class="b b-mon">Monthly</span></td></tr>
+        <tr><td><div class="iq">Has a fund manager left any of your funds?</div></td><td><span class="mod">fundChangeTrigger</span></td><td><span class="b b-trig">Triggered</span></td></tr>
+      </table>
+    </div>
+
+    <div class="cb cat-t">
+      <div class="ch"><span class="ci">🔐</span><span class="cn">Tax & ELSS</span><span class="cc">5 insights</span></div>
+      <table class="it">
+        <tr><th style="width:44%">Diagnostic Question</th><th>Module</th><th>Frequency</th></tr>
+        <tr><td><div class="iq">When does each ELSS investment unlock?</div><div class="in">On-demand calendar always available. Triggered card at 30d window.</div></td><td><span class="mod">taxHarvesting.daysToLTCG</span></td><td><span class="b b-od">On-demand</span> <span class="b b-trig">+ 30d trigger</span></td></tr>
+        <tr><td><div class="iq">Are you close to using your ₹1.25L LTCG free limit?</div><div class="in">Single card when cumulative LTCG crosses 80% of ₹1.25L. Not recurring.</div></td><td><span class="mod">taxHarvesting.exemptionUsed</span></td><td><span class="b b-once">Once (at 80% threshold)</span></td></tr>
+        <tr><td><div class="iq">Should you harvest gains before March 31?</div><div class="in">Only fires Jan–Mar when LTCG within exemption is actually available.</div></td><td><span class="mod">taxHarvesting + year-end window</span></td><td><span class="b b-trig">Seasonal (Jan–Mar)</span></td></tr>
+        <tr><td><div class="iq">Any STCG lots about to turn LTCG?</div><div class="in">Fires when a lot is within 30 days of the 365-day threshold.</div></td><td><span class="mod">taxBoundaryTrigger</span></td><td><span class="b b-trig">Triggered (30d window)</span></td></tr>
+        <tr><td><div class="iq">How much tax if you redeemed everything today?</div></td><td><span class="mod">taxHarvesting STCG/LTCG</span></td><td><span class="b b-od">On-demand</span></td></tr>
+      </table>
+    </div>
+
+    <div class="cb cat-b">
+      <div class="ch"><span class="ci">🧠</span><span class="cn">Behavioral Patterns</span><span class="cc">5 insights</span></div>
+      <table class="it">
+        <tr><th style="width:44%">Diagnostic Question</th><th>Module</th><th>Frequency</th></tr>
+        <tr><td><div class="iq">Are you a disciplined investor or a panic seller?</div><div class="in">Full profile shown once. Resurfaces only when a new panic signal is detected.</div></td><td><span class="mod">behavioralAnalyser</span></td><td><span class="b b-once">Once + new signal trigger</span></td></tr>
+        <tr><td><div class="iq">Market crashed — should you exit or stay?</div><div class="in">Triggered when market drops &gt;5%. Shows user's behavioral history + their specific holdings. This is the weekly external-event card with a behavioral lens.</div></td><td><span class="mod">behavioralAnalyser + marketEventTrigger</span></td><td><span class="b b-trig">Triggered on market drop</span></td></tr>
+        <tr><td><div class="iq">How consistent are your SIPs?</div><div class="in">Shown once when SIP pattern first analyzed. Re-triggers only on a missed month.</div></td><td><span class="mod">sipAnalysis.regularityScore</span></td><td><span class="b b-once">Once + SIP miss trigger</span></td></tr>
+        <tr><td><div class="iq">Are you neglecting part of your portfolio?</div><div class="in">Fires once at the 6-month dormancy mark. Not repeated until next 6-month window.</div></td><td><span class="mod">anomalyDetector: dormant</span></td><td><span class="b b-once">Once (6-month mark)</span></td></tr>
+        <tr><td><div class="iq">Are you spreading too thin across too many funds?</div><div class="in">Shown once when fund count exceeds threshold for portfolio size.</div></td><td><span class="mod">anomalyDetector: fund count</span></td><td><span class="b b-once">Once</span></td></tr>
+      </table>
+    </div>
+
+    <div class="cb cat-w">
+      <div class="ch"><span class="ci">🔮</span><span class="cn">What-If Scenarios</span><span class="cc">8 scenarios</span></div>
+      <table class="it">
+        <tr><th style="width:44%">Question</th><th>Scenario</th><th>Surface</th></tr>
+        <tr><td><div class="iq">What if you'd used direct plans from the start?</div></td><td><span class="mod">direct-vs-regular</span></td><td><span class="b b-once">First-analysis hook (if regular plans)</span></td></tr>
+        <tr><td><div class="iq">What if you'd started 12 months earlier?</div></td><td><span class="mod">started-earlier</span></td><td><span class="b b-week">Weekly rotation</span></td></tr>
+        <tr><td><div class="iq">What if you'd put all this in an FD instead?</div></td><td><span class="mod">fd-vs-mf</span></td><td><span class="b b-once">Hook (if underperforming)</span></td></tr>
+        <tr><td><div class="iq">What if you'd picked the best fund in each category?</div></td><td><span class="mod">top-fund-in-category</span></td><td><span class="b b-week">Weekly rotation</span></td></tr>
+        <tr><td><div class="iq">What if you removed your worst fund?</div></td><td><span class="mod">worst-fund-removed</span></td><td><span class="b b-trig">Triggered if underperformer detected</span></td></tr>
+        <tr><td><div class="iq">What if you'd used an index fund instead?</div></td><td><span class="mod">index-fund-alt</span></td><td><span class="b b-week">Weekly rotation</span></td></tr>
+        <tr><td><div class="iq">Did SIP or lumpsum work better for you?</div></td><td><span class="mod">sip-vs-lumpsum</span></td><td><span class="b b-week">Weekly rotation</span></td></tr>
+        <tr><td><div class="iq">What if you'd invested in stocks instead?</div></td><td><span class="mod">if-bought-stocks</span></td><td><span class="b b-week">Weekly rotation</span></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- 05 CARD JOURNEYS -->
+  <div class="section">
+    <div class="sh"><span class="sn">05</span><span class="st">Card Journey Examples</span></div>
+
+    <div class="sb">
+      <h4>Universal 5-Card Structure</h4>
+      <div class="sr"><span class="sk">Card 1 — Answer</span><span class="sv">The verdict. Pass / Warning / Fail. One number or signal, large and clear.</span></div>
+      <div class="sr"><span class="sk">Card 2 — Education</span><span class="sv">What is this metric? Why does it matter? 2–3 sentences max. No jargon without explanation.</span></div>
+      <div class="sr"><span class="sk">Card 3 — Your Data</span><span class="sv">User's specific situation — their actual funds and numbers. Not generic.</span></div>
+      <div class="sr"><span class="sk">Card 4 — Impact</span><span class="sv">What this costs or saves in ₹. The number that makes it real.</span></div>
+      <div class="sr"><span class="sk">Card 5 — Action</span><span class="sv">3 options always. Last option always: "Ask about this" — opens AI chat with full context pre-loaded.</span></div>
+    </div>
+
+    <div class="je">
+      <div class="jh">
+        <div class="jhl">What-If · First-analysis hook (Regular plan holder)</div>
+        <div class="jhq">Your distributor earned ₹12,400 from your money. Direct plans would have kept that.</div>
+      </div>
+      <div class="cr">
+        <div class="jc"><div class="jcn">Card 1</div><div class="jct">Answer</div><div class="jcb"><span class="big w">₹12,400</span>paid in distributor commissions since you started. 6 of your 12 funds are on regular plans.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 2</div><div class="jct">Education</div><div class="jcb"><strong>Regular vs Direct Plans</strong><br>Regular plans have a commission built in — it goes to whoever sold you the fund. Direct plans cut that out. Same fund, lower cost, higher compounding.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 3</div><div class="jct">Your Data</div><div class="jcb">6 funds, avg extra TER: <strong>0.85%/year</strong> on ₹2.1L.<br><br>Biggest offender: Axis Bluechip — paying 1.2% extra vs its direct version.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 4</div><div class="jct">Impact</div><div class="jcb"><span class="big w">₹58,000</span>extra wealth in 10 years if you switch now. That's the compounding effect of keeping that 0.85%.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 5</div><div class="jct">Action</div><div class="jcb">What do you want to do?</div><div class="jcta"><div class="cp">See which to switch</div><div class="cs">Understand trade-offs</div><div class="cs">Ask Artha about this</div></div></div>
+      </div>
+    </div>
+
+    <div class="je">
+      <div class="jh">
+        <div class="jhl">Weekly · External event card</div>
+        <div class="jhq">Your Parag Parikh Flexi Cap fell 4.2% this week. Here's why — and what it means for you.</div>
+      </div>
+      <div class="cr">
+        <div class="jc"><div class="jcn">Card 1</div><div class="jct">Answer</div><div class="jcb"><span class="big w">−4.2%</span>this week. Your fund dropped ₹3,100 in value. Reason: US tech selloff.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 2</div><div class="jct">Education</div><div class="jcb"><strong>Why does a US selloff hit your Indian MF?</strong><br>PPFAS holds 30%+ in US stocks. When US markets fall, your fund falls with them — even though you never directly bought US stocks.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 3</div><div class="jct">Your Data</div><div class="jcb">You hold ₹74,000 in PPFAS. 32% is in US equities per last disclosure. US drop this week: <strong>−6.1%</strong>.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 4</div><div class="jct">Context</div><div class="jcb">Your behavioral history: stayed invested across last 3 dips. PPFAS XIRR is still <strong>+18.4%</strong> annualised. Long-term trend intact.</div></div>
+        <div class="arr">›</div>
+        <div class="jc"><div class="jcn">Card 5</div><div class="jct">Action</div><div class="jcb">Your move:</div><div class="jcta"><div class="cp">Stay invested ✓</div><div class="cs">Add more at dip</div><div class="cs">Ask Artha about this</div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 06 ACTIONABLES -->
+  <div class="section">
+    <div class="sh"><span class="sn">06</span><span class="st">Actionables — Fixed + Dynamic</span></div>
+
+    <p>A given user will have 2–4 relevant fixed actionables based on their cohort. The dynamic LLM layer activates only when no fixed actionable scores above a relevance threshold.</p>
+
+    <span class="sec-label">Fixed Actionables</span>
+
+    <div class="ac"><div class="aci">🔄</div><div><div class="act">Switch Regular Plans to Direct <span class="b b-trig">When: any regular plan</span></div><div class="acd">Lists each fund with exact extra TER, annual drag in ₹, 10-year compounding impact. Sorted by annual drag. For ELSS on regular, flags lock-in — notes earliest switch date.</div><div class="acm">terAnalysis + direct-vs-regular + taxHarvesting.daysToLTCG</div></div></div>
+
+    <div class="ac"><div class="aci">📅</div><div><div class="act">ELSS Unlock Calendar <span class="b b-od">Always</span> <span class="b b-trig">Triggered at 30d</span></div><div class="acd">Per-installment unlock dates. Unrealised gain per lot. Estimated LTCG tax at redemption. STCG vs LTCG status per lot. CTA: "Set reminder" per unlock.</div><div class="acm">taxHarvesting (FIFO, per-lot daysToLTCG)</div></div></div>
+
+    <div class="ac"><div class="aci">✂️</div><div><div class="act">Tax Harvest Window <span class="b b-trig">Jan–Mar + LTCG within ₹1.25L available</span></div><div class="acd">Exact funds + exact lots to redeem to use up LTCG exemption. Suggests what to reinvest in (same fund, different folio) to reset cost basis. Only fires when the numbers are real and meaningful.</div><div class="acm">taxHarvesting.exemptionUsed + year-end window</div></div></div>
+
+    <div class="ac"><div class="aci">🧹</div><div><div class="act">Consolidate Overlapping Funds <span class="b b-once">When: overlap >40%</span></div><div class="acd">Names the specific pair. Shows top 5 common holdings. Recommends which to exit based on TER + trailing performance vs category. Suggests where to redirect proceeds.</div><div class="acm">overlapAnalysis + terAnalysis + benchmarkComparison</div></div></div>
+
+    <div class="ac"><div class="aci">⏸️</div><div><div class="act">Revive or Exit Dormant Holding <span class="b b-once">6+ months no activity</span></div><div class="acd">Per dormant folio: current XIRR vs category average. Three-way decision: top up (performing), switch (underperforming), or exit. Dormant SIPs flagged separately from lumpsum holdings.</div><div class="acm">sipAnalysis.missedMonths + xirrAnalysis + benchmarkComparison</div></div></div>
+
+    <div class="ac"><div class="aci">📈</div><div><div class="act">Add to Best Performer During Dip <span class="b b-trig">Market drop >5% + fund still outperforming</span></div><div class="acd">Identifies user's best fund (3yr XIRR vs category) that has dropped this week but remains a category leader. "This fund has recovered from every dip in 3 years. This might be the time to add, not exit." Behavioral counter-signal to panic.</div><div class="acm">benchmarkComparison + marketEventTrigger + behavioralAnalyser</div></div></div>
+
+    <div class="ac"><div class="aci">🏷️</div><div><div class="act">Redirect Micro Holdings <span class="b b-once">Holdings &lt;₹1,000 detected</span></div><div class="acd">Micro holdings add portfolio noise without meaningful diversification. Lists them, shows combined value, suggests: consolidate into main holding or exit. Not judgmental — surfaces clutter cleanly.</div><div class="acm">anomalyDetector: micro holdings</div></div></div>
+
+    <div class="ac"><div class="aci">⚖️</div><div><div class="act">Rebalance After Drift <span class="b b-mon">Monthly: if drift >10%</span></div><div class="acd">When equity/debt or large/mid/small cap split drifts &gt;10% from original allocation (inferred from transaction history), shows current vs original split and a rebalancing suggestion. Persists monthly while drift remains.</div><div class="acm">assetAllocation + marketCapAllocation + cashflowAnalysis</div></div></div>
+
+    <div class="ac"><div class="aci">🔔</div><div><div class="act">Set SIP Increase Reminder <span class="b b-once">When: SIP unchanged 12+ months + salary month detected</span></div><div class="acd">Detects if SIP amount hasn't changed in 12+ months. If salary credit pattern is visible in cashflow, suggests a SIP step-up. Shows impact: "Increasing SIP by ₹1,000/month adds ₹X in 10 years." Not pushy — framed as an opportunity.</div><div class="acm">sipAnalysis + cashflowAnalysis + xirrAnalysis (projection)</div></div></div>
+
+    <span class="sec-label" style="color:var(--whatif);">✦ Dynamic Actionable — LLM-Generated</span>
+
+    <div class="ac ac-dyn"><div class="aci">🤖</div><div><div class="act">Dynamic Actionable</div><div class="acd">When no fixed actionable scores above relevance threshold (default: 60/100), the engine sends the full portfolio analysis JSON to an LLM with the system prompt below, asking for one new actionable not duplicating any existing one. Output is schema-validated before rendering — falls back to next highest fixed actionable if invalid.</div><div class="acm">All 16 analysis modules + relevance scores of all fixed actionables</div></div></div>
+
+    <div class="pb">
+      <div class="pbh">System Prompt — Dynamic Actionable Generator</div>
+      You are a SEBI-registered investment advisor helping an Indian retail mutual fund investor.<br><br>
+      You will be given a structured JSON summary of the user's portfolio analysis, including:<br>
+      - portfolioSummary, xirrAnalysis (per-folio + aggregate), cashflowAnalysis, sipAnalysis<br>
+      - taxHarvesting (per lot, FIFO), overlapAnalysis, benchmarkComparison, riskMetrics<br>
+      - behavioralAnalyser signals, 8 what-if scenario results with relevance scores<br>
+      - List of fixed actionables already scored or shown<br><br>
+      Your task: Generate ONE new actionable that is:<br>
+      1. Specific to this user's actual data — not generic advice<br>
+      2. Not a duplicate of any fixed actionable provided in the input<br>
+      3. Written in clear, plain language (Hinglish is acceptable, avoid unexplained jargon)<br>
+      4. Quantified where possible — show ₹ impact, not percentages alone<br>
+      5. Actionable in 1 interaction — user can act without leaving the app<br><br>
+      <span class="pbc">// Guardrails: Never generate tax-specific redemption instructions. Never speculate on future NAV. Never compare to specific stocks or crypto. Stick to portfolio structuring, behavioral, or fee-efficiency insights.</span><br><br>
+      <span class="pbc">// Output ONLY valid JSON. No preamble, no markdown, no explanation. Schema:</span><br>
+      {<br>
+      &nbsp;&nbsp;"title": "short imperative title (max 8 words)",<br>
+      &nbsp;&nbsp;"trigger": "the data point that triggered this",<br>
+      &nbsp;&nbsp;"description": "2–3 sentences, user-specific, ₹-quantified where possible",<br>
+      &nbsp;&nbsp;"ctaPrimary": "action button label",<br>
+      &nbsp;&nbsp;"ctaSecondary": ["label 1", "label 2"],<br>
+      &nbsp;&nbsp;"dataPoints": ["module.field used", "module.field used"]<br>
+      }
+    </div>
+  </div>
+
+  <!-- 07 PORTFOLIO DASHBOARD -->
+  <div class="section">
+    <div class="sh"><span class="sn">07</span><span class="st">Portfolio Tab — Dashboard Design</span></div>
+
+    <p>The Portfolio tab is the factual reference layer. It answers "what do I have and how is it performing?" — but with numbers that feel personal, not like a brokerage statement.</p>
+
+    <!-- FITNESS SCORE -->
+    <div class="ss">
+      <div class="sst">Portfolio Fitness Score</div>
+      <div class="ssn">Wealth Health: 58 / 100 — Needs Attention</div>
+      <div class="ssd">Composite score across 4 dimensions. Updates monthly. Your baseline to beat.</div>
+      <div class="sgrid">
+        <div><div class="sdl">Performance</div><div class="sdv a">72</div><div class="sds">XIRR vs category avg</div><div class="sdt"><div class="sdf" style="width:72%;background:#f0d870;"></div></div></div>
+        <div><div class="sdl">Efficiency</div><div class="sdv r">38</div><div class="sds">TER drag + regular plan ratio</div><div class="sdt"><div class="sdf" style="width:38%;background:#f08080;"></div></div></div>
+        <div><div class="sdl">Structure</div><div class="sdv a">61</div><div class="sds">Diversification + overlap</div><div class="sdt"><div class="sdf" style="width:61%;background:#f0d870;"></div></div></div>
+        <div><div class="sdl">Discipline</div><div class="sdv g">84</div><div class="sds">SIP regularity + behavior</div><div class="sdt"><div class="sdf" style="width:84%;background:#7af0a0;"></div></div></div>
+      </div>
+    </div>
+
+    <div class="co co-note"><strong>Scoring model:</strong> Performance = XIRR vs category median. Efficiency = (1 − TER drag %) × direct plan ratio. Structure = diversification score minus overlap and concentration penalties. Discipline = SIP regularity score (0–100) × behavioral weight (full if no panic signals). Equal weight. Updates monthly.</div>
+
+    <!-- UNIQUE NUMBERS -->
+    <span class="sec-label">Unique Numbers — The Conversation-Starters</span>
+    <p>Numbers that feel personal and make users want to share or come back. Derived from existing data, framed in a human way no other MF app shows.</p>
+
+    <div class="ugrid">
+      <div class="uc"><div class="uci">📅</div><div class="ucn">Days Invested</div><div class="uce"><strong>1,247 days</strong>your money has been working</div><div class="ucw">"3.4 years" is abstract. "1,247 days" feels earned. From first transaction to today.</div></div>
+      <div class="uc"><div class="uci">💰</div><div class="ucn">Daily Earnings</div><div class="uce"><strong>₹187 / day</strong>on average this year</div><div class="ucw">Total gains ÷ days in the year. Converts abstract portfolio returns into a number that feels like a passive salary. Highly shareable.</div></div>
+      <div class="uc"><div class="uci">🏆</div><div class="ucn">Best Day Ever</div><div class="uce"><strong>+₹4,200</strong>on Jan 22, 2024</div><div class="ucw">Largest single-day portfolio gain from NAV history × units held. Creates a positive memory anchor.</div></div>
+      <div class="uc"><div class="uci">🧘</div><div class="ucn">Investor Type</div><div class="uce"><strong>The Steady Compounder</strong></div><div class="ucw">Derived from behavioral analysis: 5–6 archetypes (Steady Compounder, Smart Harvester, Panic Prone, Set-and-Forget, Active Tinkerer). Identity label. Shareable.</div></div>
+      <div class="uc"><div class="uci">💸</div><div class="ucn">Cost of Inaction</div><div class="uce"><strong>₹42,000</strong>left on the table</div><div class="ucw">Sum of highest-impact what-if differences. Updates as scenarios run. If fully optimized: shows ₹0 with a badge — a goal to reach.</div></div>
+      <div class="uc"><div class="uci">🎖️</div><div class="ucn">Loyalty Badge</div><div class="uce"><strong>Mirae ELSS</strong>4 years, 3 months</div><div class="ucw">Longest-held fund. "Your oldest investment" — makes exits feel more deliberate and adds relationship dimension to data.</div></div>
+    </div>
+
+    <!-- WEEKLY SNAPSHOT -->
+    <span class="sec-label">Weekly Snapshot</span>
+    <div class="dgrid">
+      <div class="dc feat"><div class="dcl lt">Portfolio Value</div><div class="dcn lt">₹3,23,400</div><div class="dcs lt">↑ ₹2,100 this week · +0.65%</div></div>
+      <div class="dc"><div class="dcl">vs Nifty 50 This Week</div><div class="dcn g">+0.3%</div><div class="dcs">You beat the index by 0.3% this week</div><div class="dbar"><div class="dbar-f" style="width:60%;background:var(--accent);"></div></div></div>
+      <div class="dc wc"><div class="dcl">Biggest Unrealised Loss</div><div class="dcn w">−₹4,200</div><div class="dcs">Axis Small Cap · 8 months (STCG)</div></div>
+      <div class="dc"><div class="dcl">Best Fund This Week</div><div class="dcn g">+3.1%</div><div class="dcs">Parag Parikh Flexi Cap · ₹74,200</div></div>
+      <div class="dc"><div class="dcl">SIPs Due This Month</div><div class="dcn">₹12,000</div><div class="dcs">3 SIPs · Next: Mar 5</div></div>
+      <div class="dc"><div class="dcl">LTCG Used This Year</div><div class="dcn">₹22,400</div><div class="dcs">₹1,02,600 remaining in free limit</div><div class="dbar"><div class="dbar-f" style="width:18%;background:var(--tax);"></div></div></div>
+    </div>
+
+    <!-- FOLIO TABLE -->
+    <span class="sec-label">Folio-Wise View</span>
+    <div style="border:1px solid var(--border);border-radius:12px;overflow:hidden;">
+      <table class="ft">
+        <tr><th>Fund</th><th>Invested</th><th>Current</th><th>Gain/Loss</th><th>XIRR</th><th>Tax Status</th></tr>
+        <tr>
+          <td><div class="fn2">Parag Parikh Flexi Cap</div><div class="fnsub">Direct · Growth · 4y 3m</div></td>
+          <td>₹62,000</td><td>₹74,200</td><td class="pos">+₹12,200</td>
+          <td><span class="xb xh">18.4%</span></td><td class="neut">LTCG</td>
+        </tr>
+        <tr>
+          <td><div class="fn2">Mirae Asset ELSS</div><div class="fnsub">Direct · Growth · 3y 1m · 🔒 2 lots locked</div></td>
+          <td>₹50,000</td><td>₹61,400</td><td class="pos">+₹11,400</td>
+          <td><span class="xb xh">16.2%</span></td><td class="neut">LTCG</td>
+        </tr>
+        <tr>
+          <td><div class="fn2">Axis Bluechip ⚠️</div><div class="fnsub">Regular plan · Growth · 2y 8m</div></td>
+          <td>₹75,000</td><td>₹82,400</td><td class="pos">+₹7,400</td>
+          <td><span class="xb xm">8.1%</span></td><td class="neut">LTCG</td>
+        </tr>
+        <tr>
+          <td><div class="fn2">Axis Small Cap ⚠️</div><div class="fnsub">Regular plan · Growth · 8 months</div></td>
+          <td>₹25,000</td><td>₹20,800</td><td class="neg">−₹4,200</td>
+          <td><span class="xb xl">−18.6%</span></td><td class="neut">STCG</td>
+        </tr>
+        <tr>
+          <td><div class="fn2">Quantum ELSS</div><div class="fnsub">Direct · Growth · 1y 2m · 🔒 3 lots locked</div></td>
+          <td>₹25,000</td><td>₹27,100</td><td class="pos">+₹2,100</td>
+          <td><span class="xb xm">9.8%</span></td><td class="neut">STCG → LTCG soon</td>
+        </tr>
+        <tr style="background:var(--surface);">
+          <td><strong>Total</strong></td>
+          <td><strong>₹2,37,000</strong></td><td><strong>₹2,65,900</strong></td>
+          <td class="pos"><strong>+₹28,900</strong></td>
+          <td><span class="xb xh">13.6%</span></td><td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- 08 RETURNING USER CADENCE -->
+  <div class="section">
+    <div class="sh"><span class="sn">08</span><span class="st">Returning User Cadence</span></div>
+    <div class="tcol">
+      <div class="box2">
+        <h4>⚡ Triggered (send immediately)</h4>
+        <div class="bi"><span class="bip">Push + App</span><span class="bit">ELSS lot unlocking in 7 days</span></div>
+        <div class="bi"><span class="bip">Push + App</span><span class="bit">STCG lot within 30d of LTCG boundary</span></div>
+        <div class="bi"><span class="bip">Push + App</span><span class="bit">Market drop &gt;5% — behavioral context card</span></div>
+        <div class="bi"><span class="bip">Push only</span><span class="bit">Fund manager change at any holding</span></div>
+        <div class="bi"><span class="bip">Push only</span><span class="bit">NAV milestone: fund hits all-time high</span></div>
+      </div>
+      <div class="box2">
+        <h4>📅 Weekly (Monday)</h4>
+        <div class="bi"><span class="bip">App card</span><span class="bit">Portfolio vs benchmark this week</span></div>
+        <div class="bi"><span class="bip">App card</span><span class="bit">Best/worst fund in holdings this week</span></div>
+        <div class="bi"><span class="bip">App card</span><span class="bit">External event explains a fund's move</span></div>
+        <div class="bi"><span class="bip">App card</span><span class="bit">One what-if scenario (rotates across 8)</span></div>
+        <div class="bi"><span class="bip">WhatsApp</span><span class="bit">Weekly digest: value + 1 key insight</span></div>
+      </div>
+      <div class="box2">
+        <h4>🗓️ Monthly</h4>
+        <div class="bi"><span class="bip">App card</span><span class="bit">Portfolio Fitness Score update with delta</span></div>
+        <div class="bi"><span class="bip">App card</span><span class="bit">XIRR recalculation + benchmark comparison</span></div>
+        <div class="bi"><span class="bip">App card</span><span class="bit">Risk metrics (Sharpe, Sortino) update</span></div>
+        <div class="bi"><span class="bip">App card</span><span class="bit">Behavioral pattern re-analysis</span></div>
+        <div class="bi"><span class="bip">WhatsApp</span><span class="bit">Monthly money report: portfolio + score</span></div>
+      </div>
+      <div class="box2">
+        <h4>🔇 Suppression Rules</h4>
+        <div class="bi"><span class="bip"></span><span class="bit">Max 1 non-critical push per day per user</span></div>
+        <div class="bi"><span class="bip"></span><span class="bit">P0 triggers (ELSS, tax boundary) always bypass daily limit</span></div>
+        <div class="bi"><span class="bip"></span><span class="bit">Market event push only if user holds affected fund category</span></div>
+        <div class="bi"><span class="bip"></span><span class="bit">Same what-if scenario not shown twice within 4 weeks</span></div>
+        <div class="bi"><span class="bip"></span><span class="bit">Dormant alert fires once per 6-month window only</span></div>
+        <div class="bi"><span class="bip"></span><span class="bit">Dynamic actionable only when no fixed actionable scores &gt;60</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

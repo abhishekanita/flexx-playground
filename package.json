@@ -1,0 +1,25 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "check-types": "turbo run check-types",
+    "changeset": "changeset",
+    "publish:packages": "changeset publish",
+    "version:packages": "turbo build && changeset version",
+    "add-shadcn-component": "turbo run add-shadcn-component -- --",
+    "format:fix": "turbo format --continue -- --write",
+    "lint:fix": "turbo lint --continue -- --apply",
+    "clean": "turbo clean"
+  },
+  "dependencies": {
+    "turbo": "^2.1.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "postcss": "^8.4.27"
+  },
+  "packageManager": "pnpm@9.12.1"
+  }

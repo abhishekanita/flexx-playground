@@ -1,0 +1,1605 @@
+{
+  "documentId": "CAMSCASWS-26022618315",
+  "version": "V3.4 Live-1016",
+  "statementPeriod": {
+    "from": "2018-01-01",
+    "to": "2026-02-26"
+  },
+  "investor": {
+    "name": "Ashutosh Dhewal",
+    "email": "ashudhewal@gmail.com",
+    "address": "S O Yash Paul House No 37D Vijay, Mandal Enclave Block 5 DDA Flats, Sarvpriya Vihar Hauz Khas Hauz Khas, South Delhi - 110016, Delhi, India",
+    "mobile": "+919810254998",
+    "pan": "BWKPD0449P"
+  },
+  "portfolioSummary": [
+    {
+      "fundHouse": "DSP Mutual Fund",
+      "costValue": 35000,
+      "marketValue": 59824.57
+    },
+    {
+      "fundHouse": "SBI Mutual Fund",
+      "costValue": 50000,
+      "marketValue": 49754.5
+    },
+    {
+      "fundHouse": "PPFAS Mutual Fund",
+      "costValue": 75000,
+      "marketValue": 81099.86
+    },
+    {
+      "fundHouse": "Tata Mutual Fund",
+      "costValue": 0,
+      "marketValue": 0
+    },
+    {
+      "fundHouse": "Jio BlackRock Mutual Fund",
+      "costValue": 105.67,
+      "marketValue": 105.91
+    },
+    {
+      "fundHouse": "MOTILAL OSWAL MUTUAL FUND",
+      "costValue": 0,
+      "marketValue": 0
+    },
+    {
+      "fundHouse": "Quant MF",
+      "costValue": 25080.05,
+      "marketValue": 28041.78
+    },
+    {
+      "fundHouse": "Mirae Asset Mutual Fund",
+      "costValue": 25009.17,
+      "marketValue": 34969.98
+    },
+    {
+      "fundHouse": "Canara Robeco Mutual Fund",
+      "costValue": 0,
+      "marketValue": 0
+    },
+    {
+      "fundHouse": "Quantum Mutual Fund",
+      "costValue": 50000,
+      "marketValue": 69708.65
+    },
+    {
+      "fundHouse": "JM Financial Mutual Fund",
+      "costValue": 3.68,
+      "marketValue": 5.3
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "costValue": 0,
+      "marketValue": 0
+    }
+  ],
+  "totalCostValue": 260198.57,
+  "totalMarketValue": 323510.55,
+  "folios": [
+    {
+      "fundHouse": "Canara Robeco Mutual Fund",
+      "folioNumber": "18845436345 / 0",
+      "scheme": {
+        "schemeName": "Canara Robeco ELSS Tax Saver Fund - Regular Growth",
+        "scheme_code": "101ETGPG",
+        "isin": "INF760K01100",
+        "current_name": "Canara Robeco ELSS Tax Saver Fund - Regular",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Current Load Structure: NO Entry Load wef., 01.08.2009 for all Purchase/Switch-IN and SIP/STP newly registering. Exit Load: Nil. Eligible for availing tax benefits\nunder Section 80C of IT Act, 1961 subject to the limits and condition specified in Section 80C, read with Section 80CCE of the Act under ELSS,2005 vide notifications\ndt. 03.11.2005 and 13.12.2005. This investment is subject to a lock in period of 3 years from the date of allotment .",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "BWKPD0449P",
+        "nominees": [
+          "YASH PAUL DHEWAL"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 178.88,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2022-09-02",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 34998.25,
+          "nav": 116.97,
+          "units": 299.207,
+          "unitBalanceAfter": 299.207,
+          "stampDuty": 1.75
+        },
+        {
+          "date": "2022-09-12",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 34998.25,
+          "nav": 119.97,
+          "units": 291.725,
+          "unitBalanceAfter": 590.932,
+          "stampDuty": 1.75
+        },
+        {
+          "date": "2025-10-23",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -106142.15,
+          "nav": 179.62,
+          "units": -590.932,
+          "unitBalanceAfter": 0,
+          "stampDuty": 1.06
+        }
+      ],
+      "stampDutyTotal": 4.5600000000000005,
+      "loadInfo": "Current Load Structure: NO Entry Load wef., 01.08.2009 for all Purchase/Switch-IN and SIP/STP newly registering. Exit Load: Nil. Eligible for availing tax benefits\nunder Section 80C of IT Act, 1961 subject to the limits and condition specified in Section 80C, read with Section 80CCE of the Act under ELSS,2005 vide notifications\ndt. 03.11.2005 and 13.12.2005. This investment is subject to a lock in period of 3 years from the date of allotment ."
+    },
+    {
+      "fundHouse": "DSP Mutual Fund",
+      "folioNumber": "8110271 / 85",
+      "scheme": {
+        "schemeName": "DSP ELSS Tax Saver Fund - Regular Plan - Growth (Demat)",
+        "scheme_code": "D110",
+        "isin": "INF740K01185",
+        "current_name": "DSP ELSS Tax Saver Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Investments in DSP Tax Saver Fund (Open ended ELSS) are eligible for tax deduction as per conditions u/s 80C of the Income Tax Act, 1961. Exit Load - Nil. \"Please\nensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status,\nFATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 414.691,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 144.263,
+        "totalCostValue": 35000,
+        "marketValue": 59824.57
+      },
+      "transactions": [
+        {
+          "date": "2022-11-16",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 34998.25,
+          "nav": 84.396,
+          "units": 414.691,
+          "unitBalanceAfter": 414.691,
+          "stampDuty": 1.75
+        }
+      ],
+      "stampDutyTotal": 1.75,
+      "loadInfo": "Investments in DSP Tax Saver Fund (Open ended ELSS) are eligible for tax deduction as per conditions u/s 80C of the Income Tax Act, 1961. Exit Load - Nil. \"Please\nensure that your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status,\nFATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "DSP Mutual Fund",
+      "folioNumber": "9303887 / 89",
+      "scheme": {
+        "schemeName": "DSP India T.I.G.E.R. Fund - Direct Plan - Growth (Demat)",
+        "scheme_code": "D779",
+        "isin": "INF740K01PU7",
+        "current_name": "DSP India T.I.G.E.R. Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Exit Load: 1% if redeemed/switched within 12 months. NIL after 12 months. \"Please ensure that your account information is up to date. If there are any changes to\nyour KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": "INZ000031633"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 359.963,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2024-07-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 366.349,
+          "units": 40.943,
+          "unitBalanceAfter": 40.943,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-07-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 356.761,
+          "units": 42.043,
+          "unitBalanceAfter": 82.986,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-08-26",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 367.173,
+          "units": 40.851,
+          "unitBalanceAfter": 123.837,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-09-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 374.368,
+          "units": 40.066,
+          "unitBalanceAfter": 163.903,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 350.762,
+          "units": 42.762,
+          "unitBalanceAfter": 206.665,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-25",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 348.276,
+          "units": 43.067,
+          "unitBalanceAfter": 249.732,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 349.046,
+          "units": 42.972,
+          "unitBalanceAfter": 292.704,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 314.245,
+          "units": 47.731,
+          "unitBalanceAfter": 340.435,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-02-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 291.823,
+          "units": 51.398,
+          "unitBalanceAfter": 391.833,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-10-01",
+          "type": "Redemption",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": -76579.15,
+          "nav": 335.98,
+          "units": -227.93,
+          "unitBalanceAfter": 163.903,
+          "stampDuty": 0.76
+        },
+        {
+          "date": "2025-10-01",
+          "type": "Redemption",
+          "channel": "BSE",
+          "advisorCode": null,
+          "amount": -55623.87,
+          "nav": 339.374,
+          "units": -163.903,
+          "unitBalanceAfter": 0,
+          "stampDuty": 0.56
+        }
+      ],
+      "stampDutyTotal": 8.07,
+      "loadInfo": "Exit Load: 1% if redeemed/switched within 12 months. NIL after 12 months. \"Please ensure that your account information is up to date. If there are any changes to\nyour KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "Jio BlackRock Mutual Fund",
+      "folioNumber": "2143467",
+      "scheme": {
+        "schemeName": "JioBlackRock Nifty 50 Index Fund - Direct Growth (Non-Demat)",
+        "scheme_code": "JIO130",
+        "isin": "INF22M001044",
+        "current_name": "JioBlackRock Nifty 50 Index Fund - Direct",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load and Exit Load - Nil",
+        "advisor": "INA000020314"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 3.687,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 10.2538,
+        "totalCostValue": 38.03,
+        "marketValue": 37.81
+      },
+      "transactions": [
+        {
+          "date": "2026-02-05",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 5599.72,
+          "nav": 10.315,
+          "units": 542.872,
+          "unitBalanceAfter": 542.872,
+          "stampDuty": 0.28
+        },
+        {
+          "date": "2026-02-09",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -5611.67,
+          "nav": 10.4078,
+          "units": -539.185,
+          "unitBalanceAfter": 3.687,
+          "stampDuty": 0.06
+        }
+      ],
+      "stampDutyTotal": 0.34,
+      "loadInfo": "Entry Load and Exit Load - Nil"
+    },
+    {
+      "fundHouse": "Jio BlackRock Mutual Fund",
+      "folioNumber": "2143467",
+      "scheme": {
+        "schemeName": "JioBlackRock Nifty Midcap 150 Index Fund - Direct Growth (Non-Demat)",
+        "scheme_code": "JIO160",
+        "isin": "INF22M001077",
+        "current_name": "JioBlackRock Nifty Midcap 150 Index Fund - Direct",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load and Exit Load - Nil",
+        "advisor": "INA000020314"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 3.762,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 10.3284,
+        "totalCostValue": 38.77,
+        "marketValue": 38.86
+      },
+      "transactions": [
+        {
+          "date": "2026-02-05",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 2499.88,
+          "nav": 10.3042,
+          "units": 242.608,
+          "unitBalanceAfter": 242.608,
+          "stampDuty": 0.12
+        },
+        {
+          "date": "2026-02-09",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -2499.69,
+          "nav": 10.4658,
+          "units": -238.846,
+          "unitBalanceAfter": 3.762,
+          "stampDuty": 0.02
+        }
+      ],
+      "stampDutyTotal": 0.13999999999999999,
+      "loadInfo": "Entry Load and Exit Load - Nil"
+    },
+    {
+      "fundHouse": "Jio BlackRock Mutual Fund",
+      "folioNumber": "2143467",
+      "scheme": {
+        "schemeName": "JioBlackRock Nifty Next 50 Index Fund - Direct Growth (Non-Demat)",
+        "scheme_code": "JIO170",
+        "isin": "INF22M001085",
+        "current_name": "JioBlackRock Nifty Next 50 Index Fund - Direct",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load and Exit Load - Nil.One investor holds twenty seven percent of the net assets of the scheme.",
+        "advisor": "INA000020314"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1.124,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 10.4494,
+        "totalCostValue": 11.5,
+        "marketValue": 11.75
+      },
+      "transactions": [
+        {
+          "date": "2026-02-05",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 1199.94,
+          "nav": 10.2288,
+          "units": 117.31,
+          "unitBalanceAfter": 117.31,
+          "stampDuty": 0.06
+        },
+        {
+          "date": "2026-02-09",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -1201.76,
+          "nav": 10.3435,
+          "units": -116.186,
+          "unitBalanceAfter": 1.124,
+          "stampDuty": 0.01
+        }
+      ],
+      "stampDutyTotal": 0.06999999999999999,
+      "loadInfo": "Entry Load and Exit Load - Nil.One investor holds twenty seven percent of the net assets of the scheme."
+    },
+    {
+      "fundHouse": "Jio BlackRock Mutual Fund",
+      "folioNumber": "2143467",
+      "scheme": {
+        "schemeName": "JioBlackRock Nifty Smallcap 250 Index Fund - Direct Growth (Non-Demat)",
+        "scheme_code": "JIO140",
+        "isin": "INF22M001051",
+        "current_name": "JioBlackRock Nifty Smallcap 250 Index Fund - Direct",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load and Exit Load - Nil",
+        "advisor": "INA000020314"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 1.844,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 9.4926,
+        "totalCostValue": 17.37,
+        "marketValue": 17.5
+      },
+      "transactions": [
+        {
+          "date": "2026-02-05",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 699.97,
+          "nav": 9.4206,
+          "units": 74.302,
+          "unitBalanceAfter": 74.302,
+          "stampDuty": 0.03
+        },
+        {
+          "date": "2026-02-09",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -697.58,
+          "nav": 9.6275,
+          "units": -72.458,
+          "unitBalanceAfter": 1.844,
+          "stampDuty": 0.01
+        }
+      ],
+      "stampDutyTotal": 0.04,
+      "loadInfo": "Entry Load and Exit Load - Nil"
+    },
+    {
+      "fundHouse": "JM Financial Mutual Fund",
+      "folioNumber": "78811662116 / 0",
+      "scheme": {
+        "schemeName": "JM Flexicap Fund - (Regular) - Growth Option",
+        "scheme_code": "105MSGPG",
+        "isin": "INF192K01635",
+        "current_name": "JM Flexicap Fund - (Regular)",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Current Exit Load : 1% if redeemed / switched-out within30 days from the date of allotment. For lumpsum investment / switch-in, the applicable exit load will be as\non the date of allotment. For SIP/ STP-in investments exit load will be based on the load structure as on the registration date.",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [
+          "YASH PAUL DHEWAL"
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0.056,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 94.714,
+        "totalCostValue": 3.68,
+        "marketValue": 5.3
+      },
+      "transactions": [
+        {
+          "date": "2023-08-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 65.7618,
+          "units": 152.056,
+          "unitBalanceAfter": 152.056,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-05-13",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -14484.3,
+          "nav": 95.2924,
+          "units": -152,
+          "unitBalanceAfter": 0.056,
+          "stampDuty": 0.14
+        }
+      ],
+      "stampDutyTotal": 0.64,
+      "loadInfo": "Current Exit Load : 1% if redeemed / switched-out within30 days from the date of allotment. For lumpsum investment / switch-in, the applicable exit load will be as\non the date of allotment. For SIP/ STP-in investments exit load will be based on the load structure as on the registration date."
+    },
+    {
+      "fundHouse": "JM Financial Mutual Fund",
+      "folioNumber": "78814537822 / 0",
+      "scheme": {
+        "schemeName": "JM Flexicap Fund - (Direct) - Growth Option",
+        "scheme_code": "105MSDGG",
+        "isin": "INF192K01CC7",
+        "current_name": "JM Flexicap Fund - (Direct)",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Current Exit Load : 1% if redeemed / switched-out within30 days from the date of allotment. For lumpsum investment / switch-in, the applicable exit load will be as\non the date of allotment. For SIP/ STP-in investments exit load will be based on the load structure as on the registration date.",
+        "advisor": "INZ000031633"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 108.5842,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2024-07-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 119.0637,
+          "units": 125.977,
+          "unitBalanceAfter": 125.977,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-07-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 118.1302,
+          "units": 126.972,
+          "unitBalanceAfter": 252.949,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-08-26",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 120.8897,
+          "units": 124.074,
+          "unitBalanceAfter": 377.023,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-09-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 123.2968,
+          "units": 121.652,
+          "unitBalanceAfter": 498.675,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 116.7552,
+          "units": 128.468,
+          "unitBalanceAfter": 627.143,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-25",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 115.2754,
+          "units": 130.117,
+          "unitBalanceAfter": 757.26,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-24",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 117.0486,
+          "units": 128.145,
+          "unitBalanceAfter": 885.405,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-01",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -104597.83,
+          "nav": 118.1368,
+          "units": -885.405,
+          "unitBalanceAfter": 0,
+          "stampDuty": 1.05
+        }
+      ],
+      "stampDutyTotal": 6.3,
+      "loadInfo": "Current Exit Load : 1% if redeemed / switched-out within30 days from the date of allotment. For lumpsum investment / switch-in, the applicable exit load will be as\non the date of allotment. For SIP/ STP-in investments exit load will be based on the load structure as on the registration date."
+    },
+    {
+      "fundHouse": "Mirae Asset Mutual Fund",
+      "folioNumber": "78856109086 / 0",
+      "scheme": {
+        "schemeName": "Mirae Asset ELSS Tax Saver Fund (formerly Mirae Asset Tax Saver Fund ) - Regular Plan",
+        "scheme_code": "117TSRGG",
+        "isin": "INF769K01DK3",
+        "current_name": "Mirae Asset ELSS Tax Saver Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Current Load Structure : Entry Load - NIL ,Exit Load - NIL subject to lock-in period of 3 years.The above Investment in Mirae Asset Tax Saver Fund, is eligible for\napplicable tax benefits under section 80C of Income Tax Act 1961.Units allotted in Multiples of Rs.500/-,",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "BWKPD0449P",
+        "nominees": [
+          "YASH PAUL DHEWAL"
+        ],
+        "kycOk": true,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 696.877,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 50.181,
+        "totalCostValue": 25009.17,
+        "marketValue": 34969.98
+      },
+      "transactions": [
+        {
+          "date": "2022-03-31",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 79996,
+          "nav": 30.576,
+          "units": 2616.3,
+          "unitBalanceAfter": 2616.3,
+          "stampDuty": 4
+        },
+        {
+          "date": "2023-09-29",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 24998.75,
+          "nav": 35.888,
+          "units": 696.577,
+          "unitBalanceAfter": 3312.877,
+          "stampDuty": 1.25
+        },
+        {
+          "date": "2025-05-13",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -121815.44,
+          "nav": 46.566,
+          "units": -2616,
+          "unitBalanceAfter": 696.877,
+          "stampDuty": 1.22
+        }
+      ],
+      "stampDutyTotal": 6.47,
+      "loadInfo": "Current Load Structure : Entry Load - NIL ,Exit Load - NIL subject to lock-in period of 3 years.The above Investment in Mirae Asset Tax Saver Fund, is eligible for\napplicable tax benefits under section 80C of Income Tax Act 1961.Units allotted in Multiples of Rs.500/-,"
+    },
+    {
+      "fundHouse": "MOTILAL OSWAL MUTUAL FUND",
+      "folioNumber": "91061614866 / 0",
+      "scheme": {
+        "schemeName": "Motilal Oswal Midcap Fund - Direct Plan Growth",
+        "scheme_code": "127FMGDG",
+        "isin": "INF247L01445",
+        "current_name": "Motilal Oswal Midcap Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry Load: Nil, Exit Load : 1% - If redeemed on or before 365 days from the date of allotment for Subscription received Wef 18-Mar-2024Nil - If redeemed after 365\ndays from the date of allotment.Entry Load: Nil, Exit Load: 1% -If redeemed or switched out on or before 15 days from the date of allotment for Subscription\nreceived till 17-Mar-2024.Nil - If redeemed after 15 days from the date of allotment.",
+        "advisor": "INZ000031633"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 103.3312,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2024-07-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 109.1962,
+          "units": 137.361,
+          "unitBalanceAfter": 137.361,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-07-15",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 111.4935,
+          "units": 134.53,
+          "unitBalanceAfter": 271.891,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-08-16",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 112.9577,
+          "units": 132.786,
+          "unitBalanceAfter": 404.677,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-15",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 124.8265,
+          "units": 120.161,
+          "unitBalanceAfter": 524.838,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-18",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 116.8032,
+          "units": 128.415,
+          "unitBalanceAfter": 653.253,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-16",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 130.6636,
+          "units": 114.793,
+          "unitBalanceAfter": 768.046,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-15",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 115.5921,
+          "units": 129.76,
+          "unitBalanceAfter": 897.806,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-02-17",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 104.652,
+          "units": 143.325,
+          "unitBalanceAfter": 1041.131,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-10-01",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -118689.63,
+          "nav": 114.0018,
+          "units": -1041.131,
+          "unitBalanceAfter": 0,
+          "stampDuty": 1.19
+        }
+      ],
+      "stampDutyTotal": 7.1899999999999995,
+      "loadInfo": "Entry Load: Nil, Exit Load : 1% - If redeemed on or before 365 days from the date of allotment for Subscription received Wef 18-Mar-2024Nil - If redeemed after 365\ndays from the date of allotment.Entry Load: Nil, Exit Load: 1% -If redeemed or switched out on or before 15 days from the date of allotment for Subscription\nreceived till 17-Mar-2024.Nil - If redeemed after 15 days from the date of allotment."
+    },
+    {
+      "fundHouse": "Nippon India Mutual Fund",
+      "folioNumber": "488354246534 / 0",
+      "scheme": {
+        "schemeName": "NIPPON INDIA SMALL CAP FUND - DIRECT GROWTH PLAN GROWTH OPTION",
+        "scheme_code": "RMFSCAGG",
+        "isin": "INF204K01K15",
+        "current_name": "NIPPON INDIA SMALL CAP FUND - DIRECT PLAN OPTION",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units redeemed on or before completion of one year from the date of allotment\nof units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date.",
+        "advisor": "INZ000031633"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 183.4024,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2024-08-07",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 193.9231,
+          "units": 77.346,
+          "unitBalanceAfter": 77.346,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-09-06",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 200.0807,
+          "units": 74.966,
+          "unitBalanceAfter": 152.312,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-07",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 197.7194,
+          "units": 75.861,
+          "unitBalanceAfter": 228.173,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-06",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 199.9444,
+          "units": 75.017,
+          "unitBalanceAfter": 303.19,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-06",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 201.7878,
+          "units": 74.332,
+          "unitBalanceAfter": 377.522,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-06",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 191.5597,
+          "units": 78.301,
+          "unitBalanceAfter": 455.823,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-02-06",
+          "type": "SIP",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 177.4481,
+          "units": 84.528,
+          "unitBalanceAfter": 540.351,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-10-01",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -100581.1,
+          "nav": 186.1422,
+          "units": -540.351,
+          "unitBalanceAfter": 0,
+          "stampDuty": 1.01
+        }
+      ],
+      "stampDutyTotal": 6.26,
+      "loadInfo": "For subscriptions received w.e.f. Mar 22nd, 2024, 1% exit load shall be applicable for units redeemed on or before completion of one year from the date of allotment\nof units.And Nil thereafter. Redemption of units would be done on First in First out Basis (FIFO).For subscriptions prior to Mar 21st, 2024, Exit load levied on the Units\nredeemed will be the rate prevailing at the time of the allotment of the Units.For Special products registrations, load for each transaction is based on the load\nstructure applicable as on the registration date."
+    },
+    {
+      "fundHouse": "PPFAS Mutual Fund",
+      "folioNumber": "14376804",
+      "scheme": {
+        "schemeName": "Parag Parikh ELSS Tax Saver Fund - Regular Plan (Demat)",
+        "scheme_code": "PPTSFG",
+        "isin": "INF879O01092",
+        "current_name": "Parag Parikh ELSS Tax Saver Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load and Exit Load-Nil. All the investments in this Scheme are under ELSS. Units are under lock-in period of 3 Years from the date of investment. Please refer\nthe Offer Document / Addendum issued from time to time for any change in load structure. In Equity Linked Tax Saving Scheme (ELSS), investment eligible for tax\nbenefits under Section 80C of Income Tax Act subject to conditions and limitations specified therein. \"Effective from July 01, 2020, stamp duty @ 0.005% will be\ndeducted from the Net investment amount. Units will be allotted for the balance amount\". \"Please ensure that your account information is up to date. If there are\nany changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\"",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 2632.514,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 30.807,
+        "totalCostValue": 75000,
+        "marketValue": 81099.86
+      },
+      "transactions": [
+        {
+          "date": "2024-01-16",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 24998.75,
+          "nav": 25.7896,
+          "units": 969.335,
+          "unitBalanceAfter": 969.335,
+          "stampDuty": 1.25
+        },
+        {
+          "date": "2025-03-28",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 49997.5,
+          "nav": 30.0614,
+          "units": 1663.179,
+          "unitBalanceAfter": 2632.514,
+          "stampDuty": 2.5
+        }
+      ],
+      "stampDutyTotal": 3.75,
+      "loadInfo": "Entry Load and Exit Load-Nil. All the investments in this Scheme are under ELSS. Units are under lock-in period of 3 Years from the date of investment. Please refer\nthe Offer Document / Addendum issued from time to time for any change in load structure. In Equity Linked Tax Saving Scheme (ELSS), investment eligible for tax\nbenefits under Section 80C of Income Tax Act subject to conditions and limitations specified therein. \"Effective from July 01, 2020, stamp duty @ 0.005% will be\ndeducted from the Net investment amount. Units will be allotted for the balance amount\". \"Please ensure that your account information is up to date. If there are\nany changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS information etc. kindly update them immediately.\""
+    },
+    {
+      "fundHouse": "Quant MF",
+      "folioNumber": "51035218896 / 0",
+      "scheme": {
+        "schemeName": "quant ELSS Tax Saver Fund - Regular Plan",
+        "scheme_code": "166TPGPG",
+        "isin": "INF966L01135",
+        "current_name": "quant ELSS Tax Saver Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry load - NILL, Exit load - NILL. Lock in period is 3 years from the date of subscription.The above investment in Quant Tax Plan Fund is eligible for availing tax\nbenefits under Section 80C of Income Tax Act,1961.",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [
+          "YASH PAUL DHEWAL"
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 75.158,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 371.6406,
+        "totalCostValue": 25000,
+        "marketValue": 27931.76
+      },
+      "transactions": [
+        {
+          "date": "2024-01-16",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 24998.75,
+          "nav": 332.6161,
+          "units": 75.158,
+          "unitBalanceAfter": 75.158,
+          "stampDuty": 1.25
+        }
+      ],
+      "stampDutyTotal": 1.25,
+      "loadInfo": "Entry load - NILL, Exit load - NILL. Lock in period is 3 years from the date of subscription.The above investment in Quant Tax Plan Fund is eligible for availing tax\nbenefits under Section 80C of Income Tax Act,1961."
+    },
+    {
+      "fundHouse": "Quant MF",
+      "folioNumber": "51035218896 / 0",
+      "scheme": {
+        "schemeName": "quant Small Cap Fund - Regular Plan",
+        "scheme_code": "166IBGPG",
+        "isin": "INF966L01AA0",
+        "current_name": "quant Small Cap Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry Load NIL, Exit Load - 1.00% if redeemed with in 365 days from the date of allotment.NIL if redeemed after 365 days from the date of allotment of units.",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [
+          "YASH PAUL DHEWAL"
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0.46,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 239.1729,
+        "totalCostValue": 80.05,
+        "marketValue": 110.02
+      },
+      "transactions": [
+        {
+          "date": "2023-08-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 9999.5,
+          "nav": 174.024,
+          "units": 57.46,
+          "unitBalanceAfter": 57.46,
+          "stampDuty": 0.5
+        },
+        {
+          "date": "2025-05-13",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -13861.94,
+          "nav": 243.1944,
+          "units": -57,
+          "unitBalanceAfter": 0.46,
+          "stampDuty": 0.14
+        }
+      ],
+      "stampDutyTotal": 0.64,
+      "loadInfo": "Entry Load NIL, Exit Load - 1.00% if redeemed with in 365 days from the date of allotment.NIL if redeemed after 365 days from the date of allotment of units."
+    },
+    {
+      "fundHouse": "Quant MF",
+      "folioNumber": "51077891464 / 0",
+      "scheme": {
+        "schemeName": "quant Mid Cap Fund - Direct Plan",
+        "scheme_code": "166OFDGG",
+        "isin": "INF966L01887",
+        "current_name": "quant Mid Cap Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry Load NIL, Exit Load - 0.50% if redeemed with in 3 months from the date of allotment w.e.f 08/08/2021NIL if redeemed after 3 months from the date of\nallotment of units.Please Note that prevailing exit load structure at the time of investment will be applicable for redemption/switch-out.",
+        "advisor": "INZ000031633"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 222.6482,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2024-07-08",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 277.6996,
+          "units": 54.013,
+          "unitBalanceAfter": 54.013,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-08-07",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 269.1662,
+          "units": 55.725,
+          "unitBalanceAfter": 109.738,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-09-06",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 269.5129,
+          "units": 55.653,
+          "unitBalanceAfter": 165.391,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-07",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 262.0336,
+          "units": 57.242,
+          "unitBalanceAfter": 222.633,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-06",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 256.9198,
+          "units": 58.381,
+          "unitBalanceAfter": 281.014,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-06",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 14999.25,
+          "nav": 253.4045,
+          "units": 59.191,
+          "unitBalanceAfter": 340.205,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-01",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -84220.34,
+          "nav": 247.5601,
+          "units": -340.205,
+          "unitBalanceAfter": 0,
+          "stampDuty": 0.84
+        }
+      ],
+      "stampDutyTotal": 5.34,
+      "loadInfo": "Entry Load NIL, Exit Load - 0.50% if redeemed with in 3 months from the date of allotment w.e.f 08/08/2021NIL if redeemed after 3 months from the date of\nallotment of units.Please Note that prevailing exit load structure at the time of investment will be applicable for redemption/switch-out."
+    },
+    {
+      "fundHouse": "Quantum Mutual Fund",
+      "folioNumber": "9882405954 / 0",
+      "scheme": {
+        "schemeName": "Quantum ELSS Tax Saver Fund - Regular Plan Growth",
+        "scheme_code": "123TSRGG",
+        "isin": "INF082J01366",
+        "current_name": "Quantum ELSS Tax Saver Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Non-Demat",
+        "registrar": "KFINTECH",
+        "loadDetails": "Entry Load : Not applicable, Exit Load : NIL - Lock in period is 3 years from the date of allotment.The above investment in Quantum ELSS Tax Saver Fund is eligible\nfor availing tax benefits under Section 80C of Income Tax Act 1961,Subject to the limits and conditions specified in Section 80C.",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "ASHUTOSH DHEWAL",
+        "pan": "",
+        "nominees": [
+          "YASH PAUL DHEWAL"
+        ],
+        "kycOk": false,
+        "panOk": false
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 566.737,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 123,
+        "totalCostValue": 50000,
+        "marketValue": 69708.65
+      },
+      "transactions": [
+        {
+          "date": "2023-08-04",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 49997.5,
+          "nav": 88.22,
+          "units": 566.737,
+          "unitBalanceAfter": 566.737,
+          "stampDuty": 2.5
+        }
+      ],
+      "stampDutyTotal": 2.5,
+      "loadInfo": "Entry Load : Not applicable, Exit Load : NIL - Lock in period is 3 years from the date of allotment.The above investment in Quantum ELSS Tax Saver Fund is eligible\nfor availing tax benefits under Section 80C of Income Tax Act 1961,Subject to the limits and conditions specified in Section 80C."
+    },
+    {
+      "fundHouse": "SBI Mutual Fund",
+      "folioNumber": "41188713",
+      "scheme": {
+        "schemeName": "SBI ELSS Tax Saver Fund - Regular Plan - Growth (Demat)",
+        "scheme_code": "L018G",
+        "isin": "INF200K01495",
+        "current_name": "SBI ELSS Tax Saver Fund",
+        "plan": "Regular",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Entry Load: N.A.; Exit Load: NIL on redemption/switch after lock-in period of 3 Years. STT @0.001% is applicable at the time of redemption/switch-out. For\napplicability of load structure, please refer to SAI/SID/KIM/Addendum issued from time to time. The investment in SBI ELSS Tax Saver Fund is under ELSS and is\neligible for availing tax benefits under Section 80C of Income Tax Act subject to limits and conditions. Normal investment and each SIP installment in this scheme will\nbe locked for 3 years from the date of investment / every SIP Installment. **Scheme name of \"SBI Long Term Equity Fund\" has been changed to \"SBI ELSS Tax Saver\nFund\" with effect from 30th June 2025. W.e.f. 1st July 2020, Stamp Duty @ 0.005% is applicable on allotment of units. As per SEBI guidelines, w.e.f. February 01,\n2021, applicable NAV for allotment of units shall be based on time of receipt of transaction and funds available for utilization upto the cut-off time. TDS shall be\ndeducted (wherever applicable) as per rates under New Tax Regime. Differential tax if any, should be evaluated by investor(s), basis relevant tax provisions.",
+        "advisor": "ARN-0845"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 111.02,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 448.158,
+        "totalCostValue": 50000,
+        "marketValue": 49754.5
+      },
+      "transactions": [
+        {
+          "date": "2024-09-16",
+          "type": "Purchase",
+          "channel": null,
+          "advisorCode": null,
+          "amount": 49997.5,
+          "nav": 450.3471,
+          "units": 111.02,
+          "unitBalanceAfter": 111.02,
+          "stampDuty": 2.5
+        }
+      ],
+      "stampDutyTotal": 2.5,
+      "loadInfo": "Entry Load: N.A.; Exit Load: NIL on redemption/switch after lock-in period of 3 Years. STT @0.001% is applicable at the time of redemption/switch-out. For\napplicability of load structure, please refer to SAI/SID/KIM/Addendum issued from time to time. The investment in SBI ELSS Tax Saver Fund is under ELSS and is\neligible for availing tax benefits under Section 80C of Income Tax Act subject to limits and conditions. Normal investment and each SIP installment in this scheme will\nbe locked for 3 years from the date of investment / every SIP Installment. **Scheme name of \"SBI Long Term Equity Fund\" has been changed to \"SBI ELSS Tax Saver\nFund\" with effect from 30th June 2025. W.e.f. 1st July 2020, Stamp Duty @ 0.005% is applicable on allotment of units. As per SEBI guidelines, w.e.f. February 01,\n2021, applicable NAV for allotment of units shall be based on time of receipt of transaction and funds available for utilization upto the cut-off time. TDS shall be\ndeducted (wherever applicable) as per rates under New Tax Regime. Differential tax if any, should be evaluated by investor(s), basis relevant tax provisions."
+    },
+    {
+      "fundHouse": "Tata Mutual Fund",
+      "folioNumber": "11463055 / 51",
+      "scheme": {
+        "schemeName": "Tata Small Cap Fund - Direct Plan - Growth (Demat)",
+        "scheme_code": "TSCFGZ",
+        "isin": "INF277K011O1",
+        "current_name": "Tata Small Cap Fund",
+        "plan": "Direct",
+        "option": "Growth",
+        "dematStatus": "Demat",
+        "registrar": "CAMS",
+        "loadDetails": "Allotment of units would be subject to realization of credit. Current load structure(w.e.f.19/08/2025): Exit Load: 0.50% if redeemed on or before expiry of 30 days\nfrom the date of allotment. The Entry/Exit load for investment will be as applicable as on the date of allotment / date of registration in case of SIP and STP.Switch-\nin will be processed based on the settlement cycle of the switch-out scheme. This scheme is to be considered as Equity oriented for taxation purpose. \"Please ensure\nthat your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS\ninformation etc. kindly update them immediately.\"",
+        "advisor": "INZ000031633"
+      },
+      "investor": {
+        "holderName": "Ashutosh Dhewal",
+        "pan": "BWKPD0449P",
+        "nominees": [],
+        "kycOk": false,
+        "panOk": true
+      },
+      "openingUnitBalance": 0,
+      "closingUnitBalance": 0,
+      "snapshot": {
+        "navDate": "2026-02-25",
+        "nav": 38.9034,
+        "totalCostValue": 0,
+        "marketValue": 0
+      },
+      "transactions": [
+        {
+          "date": "2024-07-15",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 44.6831,
+          "units": 335.681,
+          "unitBalanceAfter": 335.681,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-08-16",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 45.139,
+          "units": 332.29,
+          "unitBalanceAfter": 667.971,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-09-16",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 48.3055,
+          "units": 310.508,
+          "unitBalanceAfter": 978.479,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-10-15",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 49.5023,
+          "units": 303.001,
+          "unitBalanceAfter": 1281.48,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-11-19",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 45.8399,
+          "units": 327.209,
+          "unitBalanceAfter": 1608.689,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2024-12-16",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 48.4285,
+          "units": 309.719,
+          "unitBalanceAfter": 1918.408,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-01-15",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 44.2437,
+          "units": 339.014,
+          "unitBalanceAfter": 2257.422,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-02-17",
+          "type": "SIP",
+          "channel": "Online",
+          "advisorCode": "INZ000031633",
+          "amount": 14999.25,
+          "nav": 38.5709,
+          "units": 388.875,
+          "unitBalanceAfter": 2646.297,
+          "stampDuty": 0.75
+        },
+        {
+          "date": "2025-10-01",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -64878.16,
+          "nav": 44.205,
+          "units": -1467.68,
+          "unitBalanceAfter": 1178.617,
+          "stampDuty": 0.65
+        },
+        {
+          "date": "2025-10-01",
+          "type": "Redemption",
+          "channel": null,
+          "advisorCode": null,
+          "amount": -52626.48,
+          "nav": 44.6515,
+          "units": -1178.617,
+          "unitBalanceAfter": 0,
+          "stampDuty": 0.53
+        }
+      ],
+      "stampDutyTotal": 7.180000000000001,
+      "loadInfo": "Allotment of units would be subject to realization of credit. Current load structure(w.e.f.19/08/2025): Exit Load: 0.50% if redeemed on or before expiry of 30 days\nfrom the date of allotment. The Entry/Exit load for investment will be as applicable as on the date of allotment / date of registration in case of SIP and STP.Switch-\nin will be processed based on the settlement cycle of the switch-out scheme. This scheme is to be considered as Equity oriented for taxation purpose. \"Please ensure\nthat your account information is up to date. If there are any changes to your KYC details like address, contact details, occupation, income, PEP status, FATCA/CRS\ninformation etc. kindly update them immediately.\""
+    }
+  ]
+}

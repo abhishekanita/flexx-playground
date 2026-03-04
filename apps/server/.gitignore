@@ -1,0 +1,12 @@
+/data
+/node_modules
+/dist
+.env.dev
+.env.beta
+.env.staging
+.env.production
+.env
+/models.chrome-profile/
+/logs
+abhishek-gmail-integration.json
+scripts/test-gmail-fetch.ts

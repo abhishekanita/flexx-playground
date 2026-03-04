@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@source "./src/**/*.{js,ts,jsx,tsx}";
+@source "../../../../../packages/ui/src/**/*.{js,ts,jsx,tsx}";
+
+/* Do not change the order */
+@import './theme.css';
+@import './base.css';
+@import './recipes.css';
+@import './utils.css';
+@import './animations.css';
+@import './custom.css';
+
+@custom-variant dark (&:is(.dark *));

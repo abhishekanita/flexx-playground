@@ -1,0 +1,24 @@
+@reference "./theme.css";
+
+@layer utilities {
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .focus-ring:focus-visible {
+        @apply ring-2 ring-ring ring-offset-2;
+    }
+
+    .no-focus-ring:focus-visible {
+        @apply ring-0;
+    }
+
+    .transition-bg-ease {
+        transition-duration: 20ms;
+        transition-property: background-color;
+        transition-timing-function: ease-in;
+    }
+}

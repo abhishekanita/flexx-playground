@@ -1,0 +1,61 @@
+configId: swiggy/food-delivery
+version: 1
+
+match:
+  senderDomains: [swiggy.in]
+  subjectPattern: "order .+ (was )?(delivered|superfast)"
+  subjectExcludePattern: "Instamart|grocery"
+  contentType: html
+
+classification:
+  category: consumer_invoice
+  subcategory: food_delivery
+  senderKey: swiggy
+  senderDisplayName: Swiggy
+
+extraction:
+  method: template
+  template:
+    rules:
+      totalAmount:
+        selector: "tr.grand-total td"
+        regex: "₹\\s?([\\d,]+\\.?\\d*)"
+        transform: currency
+        required: true
+      orderId:
+        selector: "div.order-id h5"
+        regex: "(\\d+)"
+        transform: string
+        required: false
+      paymentMethod:
+        selector: "td.small[colspan='2']"
+        regex: "Paid Via ([^:]+):"
+        transform: string
+        required: false
+    lineItems:
+      containerSelector: "div.order-content tbody"
+      itemSelector: "tr:has(td.small[style*='vertical-align'])"
+      fields:
+        name:
+          selector: "td.small[style*='vertical-align']"
+        price:
+          selector: "td[align='right']"
+          regex: "₹\\s?([\\d,]+\\.?\\d*)"
+          transform: currency
+
+output:
+  targetCollection: invoices
+  mapping:
+    totalAmount: totalAmount
+    orderId: externalOrderId
+    paymentMethod: paymentMethod
+  enrichmentFields: [lineItems, paymentMethod]
+  deduplication:
+    strategy: external_id
+    matchFields: [externalOrderId, senderKey]
+    fallback:
+      strategy: amount_date_merchant
+      matchFields: [totalAmount, date, merchantName]
+      tolerances:
+        amountPercent: 0.05
+        dateDays: 1

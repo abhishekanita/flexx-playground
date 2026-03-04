@@ -1,0 +1,1756 @@
+[
+  {
+    "_id": "6992ee81a059d53886e69d5d",
+    "slug": "credit-score-explained-how-to-increase-credit-score",
+    "title": "Credit Score Samjho, Loan Easily Paao",
+    "description": "Credit score ko samjho aur loan approval paao. Easy tips se score badhao.",
+    "categoryId": "financial-literacy",
+    "creatorId": "yq-videos",
+    "level": "beginner",
+    "language": "hindi",
+    "isPremium": false,
+    "status": "published",
+    "price": 0,
+    "originalPrice": 0,
+    "subtitle": "",
+    "trailerVideo": null,
+    "thumbnail": "https://static.flexxmoney.in/public/assets/courses/74144d13/thumbnail/course_thumbnail.png",
+    "coverImage": "creditscore_coverimage.png",
+    "outcomes": [
+      {
+        "icon": "bar-chart-outline",
+        "title": "Score Check Karna",
+        "description": "Free mein CIBIL score kaise dekhein, har 6 mahine mein check karein."
+      },
+      {
+        "icon": "trending-up-outline",
+        "title": "Score Sudharo",
+        "description": "750+ score ka target rakho. EMI time par do, credit utilization kam rakho."
+      },
+      {
+        "icon": "bulb-outline",
+        "title": "Loan Approval Lo",
+        "description": "Achha score se loan easily milega. Bank trust karega, kam interest milega."
+      },
+      {
+        "icon": "business-outline",
+        "title": "Credit Card Smart Use",
+        "description": "30% limit se zyada spend mat karo. Full payment har mahine karo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Credit score kya hota hai?",
+        "answer": "Yeh aapki financial health ka number hai. 300 se 900 ke beech hota hai. 750+ score best hai."
+      },
+      {
+        "question": "Score kaise badhayein?",
+        "answer": "Time par EMI do, credit card bills full payment karo, aur zyada loan applications mat karo."
+      },
+      {
+        "question": "CIBIL report free mein kaise dekhein?",
+        "answer": "Paisabazaar.com par jaao. Har 6 mahine mein ek baar free report milti hai."
+      }
+    ],
+    "tags": [
+      "credit-score",
+      "cibil",
+      "financial-literacy",
+      "loan",
+      "banking"
+    ],
+    "personalisation": {
+      "questions": []
+    },
+    "createdAt": "2026-02-16T10:16:33.520310Z",
+    "updatedAt": "2026-02-16T10:16:33.520310Z",
+    "lessons": [
+      {
+        "_id": "6992ee81a059d53886e69d5e",
+        "courseId": "6992ee81a059d53886e69d5d",
+        "title": "Credit Score: Kya Hai Aur Kaise Badhayein?",
+        "order": 1,
+        "duration": 299,
+        "description": "Is video mein seekhiye credit score kya hota hai, kaise check karein, aur kaise improve karein. Loan aur credit card approval ke secrets reveal honge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/74144d13/reels/clip_001/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/74144d13/reels/clip_001/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.520923Z",
+        "updatedAt": "2026-02-16T10:16:33.520923Z",
+        "hook": "Kya aapka loan reject ho gaya? Credit score ka chakkar samajhiye!",
+        "hashtags": [
+          "#creditscore",
+          "#loan",
+          "#finance",
+          "#banking",
+          "#cibil"
+        ],
+        "key_insights": [
+          "1. Credit score 300 se 900 ke beech mein hota hai.",
+          "2. 750+ ka score 'Excellent' mana jata hai loan approval ke liye.",
+          "3. Har 6 mahine mein ek baar apna credit score check karein."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d5f",
+        "courseId": "6992ee81a059d53886e69d5d",
+        "title": "Credit Score: Kaise Check Karein aur Kaise Sudharein?",
+        "order": 2,
+        "duration": 282,
+        "description": "Is video mein seekho credit score kaise check karein, soft aur hard check mein kya difference hai, aur kaise ek achha score maintain karein. Loan approval aur low interest rates ke secrets bhi jano!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/74144d13/reels/clip_002/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/74144d13/reels/clip_002/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.521192Z",
+        "updatedAt": "2026-02-16T10:16:33.521192Z",
+        "hook": "Kya aapka credit score aapko pareshaan karta hai? Chinta mat karo, hum hain na!",
+        "hashtags": [
+          "#creditscore",
+          "#finance",
+          "#loan",
+          "#cibil",
+          "#financialliteracy"
+        ],
+        "key_insights": [
+          "1. Soft credit check se score par koi impact nahi hota, lekin hard check se hota hai.",
+          "2. Achhe credit score se loan approval jaldi aur kam interest rate par milta hai.",
+          "3. Credit score 4 cheezo se calculate hota hai: payment history, credit type, credit exposure, aur multiple inquiries."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d60",
+        "courseId": "6992ee81a059d53886e69d5d",
+        "title": "Credit Score: Kaise Improve Karein? Full Guide!",
+        "order": 3,
+        "duration": 282,
+        "description": "Yeh video mein seekho credit score kaise manage karein! 30% rule kya hai? Multiple loans se kaise bachein? Aur credit score ko kaise sudharein?  Janiye saare tips and tricks!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/74144d13/reels/clip_003/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/74144d13/reels/clip_003/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.521368Z",
+        "updatedAt": "2026-02-16T10:16:33.521368Z",
+        "hook": "Kya aapka credit score neeche jaa raha hai? Tension mat lo, solution hai!",
+        "hashtags": [
+          "#creditscore",
+          "#finance",
+          "#loan",
+          "#banking",
+          "#personalfinance"
+        ],
+        "key_insights": [
+          "1. Credit card use: Limit ko 30% se zyada use mat karo!",
+          "2. Multiple loans avoid karo, warna credit score down!",
+          "3. Time-to-time apna credit score check karte raho for mistakes!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d61",
+        "courseId": "6992ee81a059d53886e69d5d",
+        "title": "Baccho ke naam pe LOAN? Credit Score Hack!",
+        "order": 4,
+        "duration": 197,
+        "description": "Yeh video mein seekho kaise credit score improve karein! Secure loans, FD against credit card, aur full payments ka secret. Baccho ke naam pe loan lene ka jugaad bhi hai! Financial safety abhi banao!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/74144d13/reels/clip_004/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/74144d13/reels/clip_004/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.521535Z",
+        "updatedAt": "2026-02-16T10:16:33.521535Z",
+        "hook": "Kya aapko pata hai aapke bachche ka bhi credit score ho sakta hai?",
+        "hashtags": [
+          "#creditscore",
+          "#loan",
+          "#finance",
+          "#banking",
+          "#financeliteracy"
+        ],
+        "key_insights": [
+          "1. Bacche ke naam pe loan lo, toh unka bhi credit score banta hai!",
+          "2. FD ke against credit card lo - secured loan = no risk!",
+          "3. Credit card ka FULL payment karo, minimum nahi! Extra charges pe ladaai karo!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      }
+    ]
+  },
+  {
+    "_id": "6992ee81a059d53886e69d62",
+    "slug": "how-to-invest-in-mutual-funds",
+    "title": "Mutual Funds Se Wealth Banao - SIP Guide",
+    "description": "SIP se wealth banao. Direct plans mein zyada returns, kam expense ratio.",
+    "categoryId": "investing",
+    "creatorId": "yq-videos",
+    "level": "beginner",
+    "language": "hindi",
+    "isPremium": true,
+    "status": "published",
+    "price": 100,
+    "originalPrice": 200,
+    "subtitle": "",
+    "trailerVideo": null,
+    "thumbnail": "https://static.flexxmoney.in/public/assets/courses/c0379c8e/thumbnail/course_thumbnail.png",
+    "coverImage": "mutualfund_thumbnail.png",
+    "outcomes": [
+      {
+        "icon": "book-outline",
+        "title": "Mutual Fund Types",
+        "description": "Equity, debt, hybrid funds mein difference samjho. Risk aur returns ka balance dekho."
+      },
+      {
+        "icon": "fitness-outline",
+        "title": "SIP Start Karo",
+        "description": "Rs. 500 se shuru karo. Monthly auto-debit setup karo, discipline se paisa banao."
+      },
+      {
+        "icon": "cash-outline",
+        "title": "Direct Plan Chuno",
+        "description": "Broker ke bina direct AMC se lo. 1% extra returns yearly milte hain."
+      },
+      {
+        "icon": "pie-chart-outline",
+        "title": "Portfolio Balance",
+        "description": "80-20 rule: 80% equity, 20% debt. Age ke hisaab se adjust karo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Mutual fund kya hai?",
+        "answer": "Pooled investment scheme hai. Professional fund manager aapka paisa stock market mein lagata hai."
+      },
+      {
+        "question": "SIP kaise start karein?",
+        "answer": "Zerodha, Groww, ya AMC website par KYC karo. Monthly amount decide karo, auto-debit setup karo."
+      },
+      {
+        "question": "Direct vs Regular mein kya farak hai?",
+        "answer": "Direct mein commission nahi, expense ratio kam. Long term mein lakhs ka difference padta hai."
+      }
+    ],
+    "tags": [
+      "mutual-funds",
+      "sip",
+      "investing",
+      "wealth-creation",
+      "amc"
+    ],
+    "personalisation": {
+      "questions": []
+    },
+    "createdAt": "2026-02-16T10:16:33.521758Z",
+    "updatedAt": "2026-02-16T10:16:33.521758Z",
+    "lessons": [
+      {
+        "_id": "6992ee81a059d53886e69d63",
+        "courseId": "6992ee81a059d53886e69d62",
+        "title": "Mutual Fund: Kahan Se Kharide? Best Option Kya Hai?",
+        "order": 1,
+        "duration": 299,
+        "description": "Is video mein seekhenge best mutual fund purchase options! Bank, agent, ya app? Difference kya hai? Lowest commission kahan? Safe option kaunsa? Find out! (300 chars)",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/c0379c8e/reels/clip_001/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/c0379c8e/reels/clip_001/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.522065Z",
+        "updatedAt": "2026-02-16T10:16:33.522065Z",
+        "hook": "Mutual fund lena hai? Bank se, agent se, ya broker app se? Confusion door karo!",
+        "hashtags": [
+          "#mutualfund",
+          "#investment",
+          "#finance",
+          "#hindi",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Mutual Funds kahin se bhi le sakte ho, but 'kahan' matters!",
+          "2. Broker app band ho gaya toh? Mutual fund safe rahega?",
+          "3. SIP EMI miss ho gayi toh kya hoga? Tension nahi lene ka!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d64",
+        "courseId": "6992ee81a059d53886e69d62",
+        "title": "Mutual Funds: Direct ya Broker - Kya Hai Sahi?",
+        "order": 2,
+        "duration": 286,
+        "description": "Yeh video mein samjho mutual funds invest karne ke sahi tareeke. Direct AMC se karein ya broker app se?  Expense ratio, consultation aur comparisons ka difference kya hai? Seekho long term investing ke fayde aur kaise wealth banaye!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/c0379c8e/reels/clip_002/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/c0379c8e/reels/clip_002/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.522273Z",
+        "updatedAt": "2026-02-16T10:16:33.522273Z",
+        "hook": "2 saal mein paisa double karna hai?  Ruko zara, long term ka funda samjho!",
+        "hashtags": [
+          "#mutualfunds",
+          "#investing",
+          "#finance",
+          "#longterminvesting",
+          "#wealthcreation"
+        ],
+        "key_insights": [
+          "1. Short term investing mein paisa double ho sakta hai, lekin 5 lakh ka 5 crore nahi banega.",
+          "2. Long term investing (15+ saal) wealth banane ke liye zaroori hai, compounding ka fayda uthao.",
+          "3. Direct AMC mein expense ratio zyada hota hai aur koi consultation nahi milta."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d65",
+        "courseId": "6992ee81a059d53886e69d62",
+        "title": "Mutual Fund: Direct vs Regular - Kya sahi hai?",
+        "order": 3,
+        "duration": 308,
+        "description": "Is video mein dekhenge direct fund vs regular fund. Broker apps, banks, aur agents se mutual fund lene mein kya fayda aur nuksan hai, aur kahan expense ratio kam hota hai. Seekho best fund kaise choose karein!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/c0379c8e/reels/clip_003/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/c0379c8e/reels/clip_003/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.522461Z",
+        "updatedAt": "2026-02-16T10:16:33.522461Z",
+        "hook": "Mutual fund lena hai? Kahan se loge toh sabse zyada fayda hoga?",
+        "hashtags": [
+          "#mutualfunds",
+          "#investing",
+          "#finance",
+          "#directfund",
+          "#regularfund"
+        ],
+        "key_insights": [
+          "1. Direct fund mein expense ratio 0.15% tak kam ho sakta hai regular fund se.",
+          "2. Broker apps comparison ka best option dete hain - funds ko compare karo aur best chuno.",
+          "3. Agents/Consultants 1-2% extra expense ratio charge karte hain for consultation aur regular plans."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d66",
+        "courseId": "6992ee81a059d53886e69d62",
+        "title": "Mutual Fund: Broker App sahi hai ya nahi?",
+        "order": 4,
+        "duration": 290,
+        "description": "Iss video mein hum dekhenge ki mutual fund kahan se le - bank se, agent se ya broker app se. Broker app band ho jaye toh kya hoga? Fund transfer kaise kare? Saare doubts clear!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/c0379c8e/reels/clip_004/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/c0379c8e/reels/clip_004/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.523053Z",
+        "updatedAt": "2026-02-16T10:16:33.523053Z",
+        "hook": "Aaj main sawaalon ka pitara leke aaya hoon about mutual funds!",
+        "hashtags": [
+          "#mutualfunds",
+          "#investment",
+          "#finance",
+          "#brokerapp",
+          "#groww",
+          "#zerodha"
+        ],
+        "key_insights": [
+          "1. Top 3 brokers in India: Groww (91.85 lakh active clients), Zerodha (72 lakh+), Angel One (59 lakh+).",
+          "2. Agar broker app band ho gaya toh bhi aapka paisa AMC ke paas safe hai, aap direct contact kar sakte ho.",
+          "3. SIP EMI miss ho gayi toh koi tension nahi! (Technically EMI nahi hai, but concept same hai)"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d67",
+        "courseId": "6992ee81a059d53886e69d62",
+        "title": "Mutual Funds ke FAQs: Withdrawal, EMI, aur Best Funds!",
+        "order": 5,
+        "duration": 289,
+        "description": "Yeh video mein mutual fund se related FAQs cover kiye hain! Withdrawal kaise karein? EMI miss hone pe kya hota hai? Short term aur long term ke liye best funds kaunse hain? Sab kuch seekhenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/c0379c8e/reels/clip_005/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/c0379c8e/reels/clip_005/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.523327Z",
+        "updatedAt": "2026-02-16T10:16:33.523327Z",
+        "hook": "Mutual fund mein invest karte ho? Toh yeh common sawaalon ke jawaab jaan lo!",
+        "hashtags": [
+          "#mutualfunds",
+          "#investing",
+          "#finance",
+          "#SIP",
+          "#money"
+        ],
+        "key_insights": [
+          "1. Agar EMI miss hui toh bouncing charges lag sakte hain, around ₹200-₹300.",
+          "2. Short term (less than 10 years) ke liye Small Cap funds mein invest karein for higher growth.",
+          "3. Long term (20+ years) ke liye Large Cap funds best hain, risk kam aur returns around 14-16%."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      }
+    ]
+  },
+  {
+    "_id": "6992ee81a059d53886e69d68",
+    "slug": "intraday-trading-how-to-choose-right-stock-for-trading",
+    "title": "Intraday Trading Seekho, Daily Profit Kamao",
+    "description": "Same day buy-sell se daily profit kamao. Risk management seekho, capital bachao.",
+    "categoryId": "trading",
+    "creatorId": "sagar-sinha",
+    "level": "intermediate",
+    "language": "hindi",
+    "isPremium": true,
+    "status": "published",
+    "price": 150,
+    "originalPrice": 300,
+    "subtitle": "",
+    "trailerVideo": null,
+    "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/thumbnail/course_thumbnail.png",
+    "coverImage": "intradaytrading_thumbnail.png",
+    "outcomes": [
+      {
+        "icon": "trending-up-outline",
+        "title": "Stock Select Karo",
+        "description": "High volume stocks chuno. Trending stocks mein trade karo, news follow karo."
+      },
+      {
+        "icon": "shield-outline",
+        "title": "Stop Loss Lagao",
+        "description": "Har trade mein 1-2% stop loss. Risk per trade 2% se zyada mat lo."
+      },
+      {
+        "icon": "time-outline",
+        "title": "Entry Exit Timing",
+        "description": "9:15-9:30 volatile, 1:30-3:00 stable. Opening mein gap up stocks dekho."
+      },
+      {
+        "icon": "bulb-outline",
+        "title": "Emotions Control",
+        "description": "FOMO mat karo. Loss hua toh pause lo. Daily target fix karo, uske baad band karo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Intraday mein kitna capital chahiye?",
+        "answer": "Shuru mein Rs. 10,000-20,000. Experience ke baad badha sakte ho."
+      },
+      {
+        "question": "Stock kaise select karein?",
+        "answer": "Volume 10 lakh se zyada ho. News wale stocks chuno. Support-resistance levels dekho."
+      },
+      {
+        "question": "Loss hua toh kya karein?",
+        "answer": "Stop loss hit hua toh exit immediately. Revenge trading mat karo. Next day fresh start."
+      }
+    ],
+    "tags": [
+      "intraday-trading",
+      "stock-market",
+      "technical-analysis",
+      "day-trading",
+      "risk-management"
+    ],
+    "personalisation": {
+      "questions": []
+    },
+    "createdAt": "2026-02-16T10:16:33.523530Z",
+    "updatedAt": "2026-02-16T10:16:33.523530Z",
+    "lessons": [
+      {
+        "_id": "6992ee81a059d53886e69d69",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Intraday Stock Selection: ₹10,000 se ₹1 Lakh Kaise?",
+        "order": 1,
+        "duration": 299,
+        "description": "Yeh video mein seekho intraday trading ke liye perfect stock selection kaise karein! Expert trader Pankaj ji batayenge apni strategies aur kaise ₹10,000 ki capital ko ₹1 lakh tak badhayein. Confidence badhao aur profit kamao!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_001/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_001/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.523877Z",
+        "updatedAt": "2026-02-16T10:16:33.523877Z",
+        "hook": "Zero se Hero, Hero se Zero, aur phir Zero se Hero banne ka secret!",
+        "hashtags": [
+          "#intradaytrading",
+          "#stockselection",
+          "#financialfreedom",
+          "#tradingtips",
+          "#pankajji"
+        ],
+        "key_insights": [
+          "1. Stock selection mein confidence badhao, paisa apne aap banega!",
+          "2. Strategies ke peeche mat bhago, us logic ka output nikalo.",
+          "3. ₹2 Lakh ki capital se ₹30-40 hazaar banao aur nikal lo."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d6a",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Capital ko Kaise Bachaye aur Badhayein",
+        "order": 2,
+        "duration": 299,
+        "description": "Is video mein hum seekhenge kaise apni trading capital ko protect karna hai aur usse consistently grow karna hai. Beginners ke liye important tips aur advanced strategies bhi discuss karenge. Loss se kaise bachna hai aur profits kaise maximize karne hain, sab kuch jaanenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_002/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_002/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.524336Z",
+        "updatedAt": "2026-02-16T10:16:33.524336Z",
+        "hook": "10,000 ki capital ko 30 din tak bachao, yeh hai pehla challenge!",
+        "hashtags": [
+          "#trading",
+          "#investing",
+          "#finance",
+          "#moneymanagement",
+          "#capitalprotection"
+        ],
+        "key_insights": [
+          "1. 90% traders loss mein hain, but 25% beginners ek saal mein hi quit kar dete hain.",
+          "2. Live market mein trade karna is more effective than chart analysis after market close.",
+          "3. Apne thought process se hi paisa banta hai, sirf capital se nahi."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d6b",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Trading Psychology ka Asli Funda: Mind Game!",
+        "order": 3,
+        "duration": 295,
+        "description": "Is video mein hum dekhenge kaise traders apni psychological mistakes sudhar sakte hain. Learn karenge right mindset se kaise trade karein, avoid losses, aur consistent profits banayein. Samjho market psychology aur bano successful trader!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_003/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_003/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.524621Z",
+        "updatedAt": "2026-02-16T10:16:33.524621Z",
+        "hook": "Kya aap bhi trading mein loss se pareshan ho? Toh yeh video aapke liye hai!",
+        "hashtags": [
+          "#tradingpsychology",
+          "#mindset",
+          "#stockmarket",
+          "#tradingtips",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. 90% traders mein se 25% beginners ek saal mein haar maan lete hain.",
+          "2. Zyada greediness trader ko duba sakti hai - sabr rakho!",
+          "3. Market mein opportunities hamesha rahengi - FOMO se bacho!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d6c",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Trading Mistakes se Kaise Bachein?",
+        "order": 4,
+        "duration": 302,
+        "description": "Is video mein seekhenge ki kaise wrong logon se bachke sahi trading psychology develop karein. Plus, distraction se door rehna aur sahi tools use karna bhi! Zero se hero banne ka raaz bhi janenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_004/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_004/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.524875Z",
+        "updatedAt": "2026-02-16T10:16:33.524875Z",
+        "hook": "Bathroom mein baith ke trade kar rahe ho? Trading itna easy nahi hai, bhai!",
+        "hashtags": [
+          "#tradingmistakes",
+          "#stockmarket",
+          "#intradaytrading",
+          "#financialliteracy",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Phone ko 9:15 se 9:45 tak silent pe rakho - no distractions!",
+          "2. TV recommendations se bachke raho, unless you know how to profit from them.",
+          "3. Zero se hero banne mein time lagta hai; focus on consistent gains, not just quick money."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d6d",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Intraday Stock Selection: 3 Easy Steps!",
+        "order": 5,
+        "duration": 292,
+        "description": "Yeh video mein hum seekhenge intraday trading ke liye stocks kaise select karein! 3 simple steps mein stocks select karna seekho aur dekho kaise software se game karna hai!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_005/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_005/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.525102Z",
+        "updatedAt": "2026-02-16T10:16:33.525102Z",
+        "hook": "Kya aap intraday trading mein stock selection se pareshan hain? Tension nahi lo, yeh video aapke liye hai!",
+        "hashtags": [
+          "#intradaytrading",
+          "#stockselection",
+          "#tradingtips",
+          "#sharemarket",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Step 1: Previous day mein dekho kaunse stocks 5% se zyada move hue the.",
+          "2. Step 2: 9:10 AM pe pre-market top gainers/losers dekho, above 3% wale stocks.",
+          "3. Step 3: 9:20 AM se pehle koi trade nahi lagana chahiye."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d6e",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Pre-Market Orders se Stock Selection ka Secret!",
+        "order": 6,
+        "duration": 302,
+        "description": "Is video mein aap seekhenge kaise 9:20 se pehle stocks select karein! Sector boom, pre-market data, aur open interest se right stocks kaise chune, sab kuch janenge. Zero se hero banne ka process!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_006/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_006/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.525301Z",
+        "updatedAt": "2026-02-16T10:16:33.525301Z",
+        "hook": "Kya aapko pata hai kuch brokers ke paas time se pehle rates khulte hain?",
+        "hashtags": [
+          "#stockmarket",
+          "#trading",
+          "#premarket",
+          "#stockselection",
+          "#oigainer"
+        ],
+        "key_insights": [
+          "1. 9:20 tak stock selection process complete karna hai!",
+          "2. 4 lists use karo: Sector boom, Pre-market, Previous day 5% wale, Opening bell 2% wale stocks.",
+          "3. Fundo 360 mein Short Covering aur OI Gainer stocks ko grab karo - Big players ka dhyan wahan hai!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d6f",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Stock Selection ka Secret Formula!",
+        "order": 7,
+        "duration": 292,
+        "description": "Yeh video mein, hum seekhenge stock selection process aur execution plan. Janenge kab trade karna hai aur kab nahi, with do's and don'ts. Learn how to select stocks from lists and execute trades with confidence! Ab stock market mein darne ki koi zaroorat nahi!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_007/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_007/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.525517Z",
+        "updatedAt": "2026-02-16T10:16:33.525517Z",
+        "hook": "Kya aap bhi stock selection mein confuse ho jaate ho? Don't worry, yeh video aapke liye hai!",
+        "hashtags": [
+          "#stockmarket",
+          "#stockselection",
+          "#tradingtips",
+          "#investing",
+          "#sharemarketindia"
+        ],
+        "key_insights": [
+          "1. Stock selection ke liye, NSE OI spurt aur broker data use karo - woh bhi FREE!",
+          "2. Trade execution mein jaldbazi nahi! Wait for confidence, phir 9:30 AM ya 9:27 AM pe entry karo.",
+          "3. 'Do's and Don'ts' follow karna zaroori hai, warna loss ho sakta hai! Data ko samajhna important hai."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d70",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "15-Min Candle Strategy: Pro Trader Secret!",
+        "order": 8,
+        "duration": 300,
+        "description": "Yeh video mein, aap seekhenge 15-min candle strategy. Kaise first candle ka high break hone par buy karna hai, 1.5% stop loss rakhna hai, aur 3% profit par 50% position exit karna hai. Consistency aur discipline se trader kaise bane, yeh bhi jaanenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_008/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_008/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.525730Z",
+        "updatedAt": "2026-02-16T10:16:33.525730Z",
+        "hook": "Kya aap pro trader ki tarah trade karna chahte hain? Toh yeh 15-min candle strategy aapke liye hai!",
+        "hashtags": [
+          "#tradingstrategy",
+          "#candlestick",
+          "#stockmarket",
+          "#financialfreedom",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. First candle ka high break hone par BUY karo.",
+          "2. Stop loss 1.5% se zyada nahi hona chahiye.",
+          "3. 3% profit hone par 50% position exit karo, baaki 3 baje tak hold karo."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d71",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "FOMO Se Kaise Bachein aur Trade Jeetein",
+        "order": 9,
+        "duration": 299,
+        "description": "Yeh video mein, seekhiye FOMO se kaise bachein aur profits kaise kamayein. Hum discuss karenge 15% rule, drastic points aur stock selection ke filters. Trade karte waqt kya karna hai aur kya nahi, sab jaanenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_009/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_009/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.525962Z",
+        "updatedAt": "2026-02-16T10:16:33.525962Z",
+        "hook": "FOMO mein phas gaye? Don't worry! Yeh video aapko bachayega!",
+        "hashtags": [
+          "#trading",
+          "#stockmarket",
+          "#fomo",
+          "#investing",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Jab stock 15% se zyada neeche jaye, toh samjho game over!",
+          "2. By side mein SL hit ho toh position reverse karo, double quantity ke saath.",
+          "3. Stock agar drastic point ke paas hai, toh buy mat karo."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d72",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Gap Analysis: Stock Market Mein Profit Kaise Kamaye?",
+        "order": 10,
+        "duration": 307,
+        "description": "Yeh video mein hum seekhenge gap analysis kaise karte hain aur kaise isse stock market mein profit kamaya ja sakta hai. Daily charts mein gap dhundna aur unka sahi istemal karna seekhenge, taki loss se bach sakein.",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_010/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_010/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.526187Z",
+        "updatedAt": "2026-02-16T10:16:33.526187Z",
+        "hook": "Kya aapko pata hai gap analysis se stock market mein kaise profit kama sakte hain? Chaliye seekhte hain!",
+        "hashtags": [
+          "#stockmarket",
+          "#gapanalysis",
+          "#trading",
+          "#investing",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Minimum 3 din stock girna chahiye before buying opportunity.",
+          "2. AV setup (A setup aur V setup) se drastically points find karein.",
+          "3. Rising gap mein buy karna hai, lekin sell side mein avoid karein."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d73",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Zero Se Hero: Trader Kaise Bane?",
+        "order": 11,
+        "duration": 294,
+        "description": "Is video mein hum seekhenge kaise ek professional trader ban sakte hain! Jaaniye consistency aur discipline ka importance. Plus, insider tips on risk management aur winning strategies! Zero se hero banne ka safar shuru!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_011/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_011/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.526770Z",
+        "updatedAt": "2026-02-16T10:16:33.526770Z",
+        "hook": "Bhai, strategy ki zaroorat nahi, confidence ki zaroorat hai! Aur confidence practice se aata hai!",
+        "hashtags": [
+          "#trading",
+          "#stockmarket",
+          "#finance",
+          "#investment",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. 100 din ek hee process ko apply karo, professional trader ban jaoge!",
+          "2. Risk-reward ratio hamesha 1:3 se start karo - 100 ka 300 banao!",
+          "3. Agar capital 3 mahine mein zero hoti hai, toh you are ready to learn!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d74",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Insider Secrets: Market Manipulation EXPOSED!",
+        "order": 12,
+        "duration": 300,
+        "description": "Yeh video mein aap seekhenge market manipulation ke bade khel, kaise bade players khelte hain, aur kaise aap bach sakte hain! 1:3 risk reward ratio ka funda bhi jaanoge.",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_012/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_012/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.526997Z",
+        "updatedAt": "2026-02-16T10:16:33.526997Z",
+        "hook": "Kya aapko pata hai stock market mein bade players kaise khel khelte hain? Raaz janne ke liye dekho!",
+        "hashtags": [
+          "#stockmarket",
+          "#manipulation",
+          "#investing",
+          "#trading",
+          "#sharemarket"
+        ],
+        "key_insights": [
+          "1. Risk-reward ratio 1:3 se start karo, loss kam, profit zyada!",
+          "2. Bade players 'chitchat' karte hain codes ke through Bloomberg mein.",
+          "3. Stock exchange ke andar manipulators brokers se jude hote hain, khabar failate hain."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d75",
+        "courseId": "6992ee81a059d53886e69d68",
+        "title": "Ekdum Alag Discussion! Kya Seekhne Ko Milega?",
+        "order": 13,
+        "duration": 36,
+        "description": "Iss video mein, hum explore karenge kuch unique discussions! Agar pehli baar mein samajh na aaye toh dobara dekho. Toh, taiyar ho jao ek interesting aur informative journey ke liye! Learn karo kuch naya!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/f783bb6c/reels/clip_013/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/f783bb6c/reels/clip_013/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.527179Z",
+        "updatedAt": "2026-02-16T10:16:33.527179Z",
+        "hook": "Kya aap ready hain ek alag type ka discussion dekhne ke liye?",
+        "hashtags": [
+          "#discussion",
+          "#learning",
+          "#hindi",
+          "#education",
+          "#knowledge"
+        ],
+        "key_insights": [
+          "1. Video mein different topics par discussion kiya gaya hai.",
+          "2. Agar kuch samajh na aaye toh video ko dobara dekhna chahiye.",
+          "3. Video ko do parts mein divide karne ka suggestion diya gaya hai."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      }
+    ]
+  },
+  {
+    "_id": "6992ee81a059d53886e69d76",
+    "slug": "money-management-financial-education",
+    "title": "Smart Money Management - Paisa Bachao, Paisa Badhao",
+    "description": "Budget banao, expenses track karo. Emergency fund rakho, financial freedom paao.",
+    "categoryId": "personal-finance",
+    "creatorId": "sagar-sinha",
+    "level": "beginner",
+    "language": "hindi",
+    "isPremium": false,
+    "status": "published",
+    "price": 0,
+    "originalPrice": 0,
+    "subtitle": "",
+    "trailerVideo": null,
+    "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/thumbnail/course_thumbnail.png",
+    "coverImage": "moneymanagement_thumbnail.png",
+    "outcomes": [
+      {
+        "icon": "document-text-outline",
+        "title": "Budget Banana",
+        "description": "50-30-20 rule: 50% needs, 30% wants, 20% savings. Expense tracker app use karo."
+      },
+      {
+        "icon": "card-outline",
+        "title": "Credit Card Smart",
+        "description": "Full payment har mahine. Minimum due trap mein mat phaso. Rewards ka fayda uthao."
+      },
+      {
+        "icon": "wallet-outline",
+        "title": "Emergency Fund",
+        "description": "6 mahine ka expense side mein rakho. Liquid fund ya savings account mein rakho."
+      },
+      {
+        "icon": "shield-checkmark-outline",
+        "title": "Insurance Planning",
+        "description": "Term plan lo, health insurance lo. Family ko secure karo, tension free raho."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Emergency fund kitna hona chahiye?",
+        "answer": "Minimum 6 mahine ka kharcha. Job loss ya medical emergency mein kaam aata hai."
+      },
+      {
+        "question": "Credit card ka sahi use kaise?",
+        "answer": "Full payment karo, limit 30% use karo. Offers ka fayda lo, interest mat do."
+      },
+      {
+        "question": "Budget kaise banayein?",
+        "answer": "Income track karo, expenses categorize karo. Week mein ek baar review karo."
+      }
+    ],
+    "tags": [
+      "money-management",
+      "personal-finance",
+      "budgeting",
+      "financial-planning",
+      "savings"
+    ],
+    "personalisation": {
+      "questions": []
+    },
+    "createdAt": "2026-02-16T10:16:33.527514Z",
+    "updatedAt": "2026-02-16T10:16:33.527514Z",
+    "lessons": [
+      {
+        "_id": "6992ee81a059d53886e69d77",
+        "courseId": "6992ee81a059d53886e69d76",
+        "title": "Money Management: Status Se Bacho!",
+        "order": 1,
+        "duration": 299,
+        "description": "Yeh video mein seekho kaise middle-class 'izzat' ka chakkar aapko barbaad karta hai! Credit card trap se kaise bache aur financial safety kaise banaye. Learn to manage your money like a pro!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/reels/clip_001/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/00d2f6e7/reels/clip_001/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.527848Z",
+        "updatedAt": "2026-02-16T10:16:33.527848Z",
+        "hook": "Kharaab cheezein zindagi mein mazaa lekar aati hain, isiliye aadmi bach nahi pata!",
+        "hashtags": [
+          "#MoneyManagement",
+          "#FinancialLiteracy",
+          "#CreditCardTips",
+          "#PersonalFinance",
+          "#WealthCreation"
+        ],
+        "key_insights": [
+          "1. Amir log hamesha 'bhaad mein jaaye duniya' attitude rakhte hain.",
+          "2. Middle class log 'log kya kahenge' mein phas jaate hain, leading to overspending.",
+          "3. Credit card ek hathiyar hai; sahi se use karo, ya barbaad ho jaoge!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d78",
+        "courseId": "6992ee81a059d53886e69d76",
+        "title": "Credit Card ke Jaal se Kaise Bache?",
+        "order": 2,
+        "duration": 300,
+        "description": "Yeh video mein aap seekhenge kaise credit card aur personal loan ke chakkar se bachna hai. Budgeting ki aadat aur insurance ke importance ko bhi samjhenge! Financial freedom ab door nahi!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/reels/clip_002/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/00d2f6e7/reels/clip_002/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.528068Z",
+        "updatedAt": "2026-02-16T10:16:33.528068Z",
+        "hook": "Credit card se iPhone? Brand wale kapde? Ruk jao! Yeh kahan leke jayega pata hai?",
+        "hashtags": [
+          "#creditcarddebt",
+          "#personalloan",
+          "#financialfreedom",
+          "#insurance",
+          "#budgeting"
+        ],
+        "key_insights": [
+          "1. Credit card se instant gratification leads to personal loans aur debt.",
+          "2. Life insurance is crucial to protect your family financially; consider it a priority.",
+          "3. Budgeting helps manage income, no matter how small, to avoid debt traps."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d79",
+        "courseId": "6992ee81a059d53886e69d76",
+        "title": "Budgeting ki Power: Unnecessary kharche se bacho!",
+        "order": 3,
+        "duration": 299,
+        "description": "Is video mein seekho budgeting ki habit kaise banaye! Tumhare income ka sahi istemal kaise karein aur unnecessary kharcho se kaise bachein, sab kuch jaano!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/reels/clip_003/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/00d2f6e7/reels/clip_003/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.528252Z",
+        "updatedAt": "2026-02-16T10:16:33.528252Z",
+        "hook": "Budget nahi banaoge toh gadde mein jaoge! Avoid unnecessary kharche!",
+        "hashtags": [
+          "#budgeting",
+          "#finance",
+          "#moneytips",
+          "#savingmoney",
+          "#investing"
+        ],
+        "key_insights": [
+          "1. Budgeting se pehle hi pata hoga ki tumhara paisa kaha ja raha hai.",
+          "2. 50% apni needs ke liye rakho: roti, kapda, aur makaan.",
+          "3. 30% apni wants ke liye: jo dil kare wo kharido, lekin limit mein!",
+          "4. 20% invest karo: future secure karo!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d7a",
+        "courseId": "6992ee81a059d53886e69d76",
+        "title": "Budgeting ki Aadat: Kaise Zindagi Badle?",
+        "order": 4,
+        "duration": 291,
+        "description": "Is video mein seekho kaise budgeting ki aadat daalni hai. Phaltu kharche kaise control karein aur dekho kaise tumhara paisa apne aap bachna shuru ho jayega! Safe aur risky investments ke bare mein bhi janenge.",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/reels/clip_004/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/00d2f6e7/reels/clip_004/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.528411Z",
+        "updatedAt": "2026-02-16T10:16:33.528411Z",
+        "hook": "Budgeting se darr lagta hai? Maza nahi aa raha? Toh yeh video tumhare liye hai!",
+        "hashtags": [
+          "#budgeting",
+          "#finance",
+          "#investment",
+          "#paisabachao",
+          "#financialfreedom"
+        ],
+        "key_insights": [
+          "1. Budgeting shuru mein kadwahat dega, lekin 2-3 mahine baad zindagi badal dega!",
+          "2. 20% apni kamai ka invest karo: 30% safe jagah, 70% risky jagah (agar umar 20-25 hai)",
+          "3. Safe investments ka maksad return banana nahi, emergency fund banana hai!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d7b",
+        "courseId": "6992ee81a059d53886e69d76",
+        "title": "Wealth Creation: Safe Investment Options Explained!",
+        "order": 5,
+        "duration": 298,
+        "description": "Yeh video mein hum dekhenge safe investment options jisse wealth bana sakte hain! Mutual funds sahi hai ya nahi? Stock investment kaise kare bina tension liye? ETF kya hota hai? Sab kuch jaanenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/reels/clip_005/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/00d2f6e7/reels/clip_005/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.528568Z",
+        "updatedAt": "2026-02-16T10:16:33.528568Z",
+        "hook": "Kaha invest karein jisse wealth bhi bane aur safe bhi rahein? 🤔",
+        "hashtags": [
+          "#investment",
+          "#mutualfunds",
+          "#stockmarket",
+          "#wealthcreation",
+          "#finances"
+        ],
+        "key_insights": [
+          "1. Mutual funds experts dwara manage hote hain, risk kam karne ke liye.",
+          "2. Direct stock investment risky ho sakta hai - 10 mein se 9 log FD jitna bhi nahi kama paate!",
+          "3. Long term investment karo! Ek baar stock choose kiya toh 15 saal ke liye bhool jao."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d7c",
+        "courseId": "6992ee81a059d53886e69d76",
+        "title": "ETF vs Mutual Fund aur Gold mein Invest Kaise Karein?",
+        "order": 6,
+        "duration": 217,
+        "description": "Yeh video mein dekhenge ETF aur Mutual Fund mein kya antar hai. Gold mein invest karna sahi hai ya nahi? Seekhenge kaise sahi money management karein aur apne emotions ko control mein rakhein!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/00d2f6e7/reels/clip_006/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/00d2f6e7/reels/clip_006/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.528773Z",
+        "updatedAt": "2026-02-16T10:16:33.528773Z",
+        "hook": "Mutual Fund ya ETF? Gold mein invest karna chahiye ya nahi? Confusion door karo!",
+        "hashtags": [
+          "#mutualfunds",
+          "#etf",
+          "#goldinvestment",
+          "#moneymanagement",
+          "#financialplanning"
+        ],
+        "key_insights": [
+          "1. ETF kuch maamlon mein Mutual Funds se better hain, aur kuch mein nahi. Details ke liye Sagar Sinha ETF vs Mutual Fund search karein.",
+          "2. Gold ki supply limited hai, isliye generally price badhega hi. SIP bhi kar sakte ho gold mein!",
+          "3. Money Management se zyada important hai Emotion Management. Apne emotions pe control karna seekho!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      }
+    ]
+  },
+  {
+    "_id": "6992ee81a059d53886e69d7d",
+    "slug": "share-market-how-to-invest-in-share-market",
+    "title": "Share Market Mein First Stock Kaise Kharidein",
+    "description": "Demat kholo, stocks chuno. Long term mein wealth banao, SIP style mein invest karo.",
+    "categoryId": "investing",
+    "creatorId": "yq-videos",
+    "level": "beginner",
+    "language": "hindi",
+    "isPremium": true,
+    "status": "published",
+    "price": 100,
+    "originalPrice": 200,
+    "subtitle": "",
+    "trailerVideo": null,
+    "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/thumbnail/course_thumbnail.png",
+    "coverImage": "sharemarket_thumbnail.png",
+    "outcomes": [
+      {
+        "icon": "business-outline",
+        "title": "Demat Kholo",
+        "description": "Zerodha ya Groww par account kholo. KYC online complete karo, trading shuru karo."
+      },
+      {
+        "icon": "stats-chart-outline",
+        "title": "Stocks Chuno",
+        "description": "Blue chip companies dekho. PE ratio, debt, growth dekhkar decide karo."
+      },
+      {
+        "icon": "analytics-outline",
+        "title": "CAGR Samjho",
+        "description": "15% CAGR is good. 10 saal mein 4x return possible hai. Power of compounding."
+      },
+      {
+        "icon": "flag-outline",
+        "title": "Long Term Hold",
+        "description": "5-10 saal ka view rakho. Daily price mat dekho. Quality stocks mein stay karo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Share market mein kaise shuru karein?",
+        "answer": "Pehle demat kholo, phir index funds se shuru karo. Experience ke baad individual stocks lo."
+      },
+      {
+        "question": "Kitna paisa invest karna chahiye?",
+        "answer": "Income ka 20% minimum. Emergency ke baad jo bachta hai wo invest karo."
+      },
+      {
+        "question": "Loss ho raha hai toh kya karein?",
+        "answer": "Panic mat karo. Quality stocks hold karo. SIP continue rakho. Long term mein recover hota hai."
+      }
+    ],
+    "tags": [
+      "share-market",
+      "stock-investing",
+      "demat-account",
+      "equity",
+      "long-term-investing"
+    ],
+    "personalisation": {
+      "questions": []
+    },
+    "createdAt": "2026-02-16T10:16:33.529013Z",
+    "updatedAt": "2026-02-16T10:16:33.529013Z",
+    "lessons": [
+      {
+        "_id": "6992ee81a059d53886e69d7e",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Stock Market Mein Pehla Share Kaise Kharide?",
+        "order": 1,
+        "duration": 299,
+        "description": "Iss video mein hum seekhenge stock market mein bina technical knowledge ke kaise invest karein. Hum dekhenge ki kaise LIC, FD, PPF ke comparison mein stocks ne better returns diye hain. Toh chaliye, shuru karte hain!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_001/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_001/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.529403Z",
+        "updatedAt": "2026-02-16T10:16:33.529403Z",
+        "hook": "Kya aap bhi stock market se paisa banana chahte hain, bina jyada dimag lagaye?",
+        "hashtags": [
+          "#stockmarket",
+          "#investment",
+          "#sharemarket",
+          "#finance",
+          "#passiveincome"
+        ],
+        "key_insights": [
+          "1. 10 saal pehle agar LIC mein 1 lakh invest karte toh aaj ₹1.6 lakh banta.",
+          "2. Agar L&T mein 1 lakh invest karte toh aaj ₹6 lakh banta (20% CAGR).",
+          "3. Bajaj Finance mein 1 lakh invest karne par aaj ₹44 lakh banta (46% CAGR)."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d7f",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Low Risk Stocks Kaise Chune? Simple Tips!",
+        "order": 2,
+        "duration": 307,
+        "description": "Is video mein seekho kaise low risk stocks select karein for long term investing. Hum ticker tape use karna aur market cap samajhna sikhenge. Capital safe rahega aur returns bhi milenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_002/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_002/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.529616Z",
+        "updatedAt": "2026-02-16T10:16:33.529616Z",
+        "hook": "Stock market mein risk se darr lagta hai? Yeh video dekho!",
+        "hashtags": [
+          "#stockmarket",
+          "#investing",
+          "#lowrisk",
+          "#sharemarket",
+          "#hindi"
+        ],
+        "key_insights": [
+          "1.  Ticker Tape website pe jao for stock analysis.",
+          "2.  Market Cap dekho: Company ki 'aukaat' kitni hai!",
+          "3.  Sector choose karo: Pharma, IT, etc. Explore different sectors."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d80",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Market Cap: Company ki aukat kaise pata karein?",
+        "order": 3,
+        "duration": 303,
+        "description": "Is video mein hum seekhenge market cap kya hota hai, kaise top companies ko identify karein, aur kaise pata karein ki company 20 saal purani hai ya nahi. Plus, CAGR kaise calculate karein!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_003/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_003/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.530291Z",
+        "updatedAt": "2026-02-16T10:16:33.530291Z",
+        "hook": "Kya aap jaante hain market cap se aap company ki asli value jaan sakte hain?",
+        "hashtags": [
+          "#marketcap",
+          "#investing",
+          "#stockmarket",
+          "#finance",
+          "#sharemarket"
+        ],
+        "key_insights": [
+          "1. Market cap matlab company ki 'aukat' - total net worth.",
+          "2. CAGR must be at least 20% - average yearly return.",
+          "3. Company kam se kam 20 saal purani honi chahiye."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d81",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Stock ka Utha Patak: 5 aur 20 Saal ka Growth Check!",
+        "order": 4,
+        "duration": 301,
+        "description": "Is video mein hum dekhenge kaise 5 saal aur 20 saal ka growth dekh ke, utha patak wali companies ko filter karein. Seekhenge ki kaise past performance se future ka andaza lagayein aur apne investments ko safe rakhein.",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_004/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_004/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.530526Z",
+        "updatedAt": "2026-02-16T10:16:33.530526Z",
+        "hook": "Kya aapke stock mein zyada utha patak hai? Don't worry! Is video mein solution hai!",
+        "hashtags": [
+          "#stockmarket",
+          "#investment",
+          "#growth",
+          "#finance",
+          "#hindifinance"
+        ],
+        "key_insights": [
+          "1. Agar company 5 saal mein paisa double nahi kar rahi, FD se bhi kam return hai, toh usko apni list se nikaal do!",
+          "2. 20 saal ka continuous growth hona chahiye, but 5 saal ka performance bhi important hai.",
+          "3. Stock market mein growth hamesha 'utha patak' hoti rehti hai, toh long-term view rakho."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d82",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Stock Analysis: 20 Saal ka Rule!",
+        "order": 5,
+        "duration": 306,
+        "description": "Iss video mein hum dekhenge kaise stocks ko 20 saal ke rule se analyze karein! Hum seekhenge CAGR kaise calculate karte hain aur kaise continuous growth check karte hain. Toh ready ho jao, stock market ke funda clear karne ke liye!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_005/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_005/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.530719Z",
+        "updatedAt": "2026-02-16T10:16:33.530719Z",
+        "hook": "Kya aap bhi confused hain ki kaunsa stock choose karein? Tension nahi lo, yeh video aapke liye hai!",
+        "hashtags": [
+          "#stockmarket",
+          "#investment",
+          "#sharemarket",
+          "#finance",
+          "#hindi"
+        ],
+        "key_insights": [
+          "1. Company kam se kam 20 saal purani honi chahiye.",
+          "2. CAGR (Compound Annual Growth Rate) 20% se upar hona chahiye.",
+          "3. Har saal company mein continuous growth dikhni chahiye."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d83",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Stock Analysis: 20 Saal ka Rule Kya Hai?",
+        "order": 6,
+        "duration": 309,
+        "description": "Yeh video mein hum seekhenge kaise stocks ko analyze karein! 20 saal ka rule aur CAGR 20% ka matlab kya hai? Zomato jaise shares se kaise bachein aur safe investing kaise karein, sab kuch jaanenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_006/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_006/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.530892Z",
+        "updatedAt": "2026-02-16T10:16:33.530892Z",
+        "hook": "Kya aap bhi stock market mein confuse ho jaate hain? Chinta mat karo, yeh video aapke liye hai!",
+        "hashtags": [
+          "#stockmarket",
+          "#investing",
+          "#sharemarket",
+          "#finance",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Company kam se kam 20 saal purani honi chahiye - credibility ke liye!",
+          "2. CAGR (Compound Annual Growth Rate) 20% se upar hona chahiye - achhe returns ke liye!",
+          "3. Revenue aur profit mein continuous growth hona zaroori hai - consistent business ke liye!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d84",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Stock Market: Kaise Dhyaan Se Invest Karein?",
+        "order": 7,
+        "duration": 304,
+        "description": "Yeh video mein hum dekhenge kaise stocks ko analyse karna hai. Past performance kaise dekhe, recent growth kaise check karein aur brokers ko kaise use karein. Seedhe phone se investing seekho!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_007/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_007/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.531037Z",
+        "updatedAt": "2026-02-16T10:16:33.531037Z",
+        "hook": "Kya aapko pata hai stock market mein kaise sahi stock choose karein? Aaiye seekhte hain!",
+        "hashtags": [
+          "#stockmarket",
+          "#investing",
+          "#sharemarket",
+          "#finance",
+          "#hindi"
+        ],
+        "key_insights": [
+          "1.  Continuous growth ka matlab hai consistent revenue aur profit mein growth.",
+          "2.  20 saal ka growth aur 5 saal ka recent trend dono important hai stock choose karne mein.",
+          "3.  Angel One jaise broker app use karke stocks mein invest kar sakte ho."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d85",
+        "courseId": "6992ee81a059d53886e69d7d",
+        "title": "Delivery vs. Intraday: Stock Market Basics",
+        "order": 8,
+        "duration": 80,
+        "description": "Is video mein hum seekhenge delivery aur intraday trading ka difference. Long-term investing kaise karein aur stocks ko kab tak hold kar sakte hain. Fund add karne aur stock buy karne ka process bhi samjhenge!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/ccef1680/reels/clip_008/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/ccef1680/reels/clip_008/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.531189Z",
+        "updatedAt": "2026-02-16T10:16:33.531189Z",
+        "hook": "Stock market mein naye ho? Delivery aur Intraday mein confusion hai? Chinta mat karo!",
+        "hashtags": [
+          "#stockmarket",
+          "#investing",
+          "#trading",
+          "#delivery",
+          "#intraday"
+        ],
+        "key_insights": [
+          "1. Intraday mein stock sirf ek din ke liye hota hai, same day buy aur sell karna hota hai.",
+          "2. Delivery mein aap stock ko unlimited time ke liye hold kar sakte hain, koi expiry nahi hoti.",
+          "3. Stock buy karne ke liye account mein sufficient funds hona zaruri hai."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      }
+    ]
+  },
+  {
+    "_id": "6992ee81a059d53886e69d86",
+    "slug": "insurance-kaise-len-complete-guide",
+    "title": "Insurance Guide - Family Ko Smart Tarike Se Secure Karo",
+    "description": "Term plan aur health insurance lo. Family ko secure karo, financial risk kam karo.",
+    "categoryId": "insurance",
+    "creatorId": "yq-videos",
+    "level": "beginner",
+    "language": "hindi",
+    "isPremium": false,
+    "status": "published",
+    "price": 0,
+    "originalPrice": 0,
+    "subtitle": "",
+    "trailerVideo": null,
+    "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/thumbnail/course_thumbnail.png",
+    "coverImage": "insurance_thumbnail.png",
+    "outcomes": [
+      {
+        "icon": "medkit-outline",
+        "title": "Health Insurance Lo",
+        "description": "Family floater plan lo. Cashless hospitalization chahiye. Pre-existing disease cover dekho."
+      },
+      {
+        "icon": "people-outline",
+        "title": "Term Plan Le Lo",
+        "description": "Income ka 10-15 times cover lo. 60 years tak ka term lo, online sasta padta hai."
+      },
+      {
+        "icon": "car-outline",
+        "title": "Motor Insurance",
+        "description": "Third party compulsory hai. Comprehensive lo apni gaadi ke liye. Claim ratio dekho."
+      },
+      {
+        "icon": "clipboard-outline",
+        "title": "Compare Karo",
+        "description": "PolicyBazaar par compare karo. Premium, cover, benefits sab dekho."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Health insurance mein kya dekhein?",
+        "answer": "Sum insured 5 lakh minimum. Room rent limit mat lo. Network hospitals zyada hone chahiye."
+      },
+      {
+        "question": "Term insurance kitna lena chahiye?",
+        "answer": "Annual income ka 15-20 times. Liabilities ko bhi add karo. 1 crore minimum recommended."
+      },
+      {
+        "question": "Insurance claim kaise karein?",
+        "answer": "Cashless ke liye hospital mein card do. Reimbursement ke liye bills submit karo. 24-48 hours mein process hota hai."
+      }
+    ],
+    "tags": [
+      "insurance",
+      "health-insurance",
+      "term-insurance",
+      "financial-protection",
+      "risk-cover"
+    ],
+    "personalisation": {
+      "questions": []
+    },
+    "createdAt": "2026-02-16T10:16:33.531497Z",
+    "updatedAt": "2026-02-16T10:16:33.531497Z",
+    "lessons": [
+      {
+        "_id": "6992ee81a059d53886e69d87",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Amir Bano, Plan Karo! Wealth Protection Secrets",
+        "order": 1,
+        "duration": 299,
+        "description": "Is video mein seekho kaise wealth protect karein! Ek real story se samjhenge importance of planning. Learn 3 crucial steps to safeguard your family financially. Don't wait for 'ghatna'!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_001/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_001/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.531852Z",
+        "updatedAt": "2026-02-16T10:16:33.531852Z",
+        "hook": "Kya aap amir aur middle class mein difference jaante hain? It's all about planning!",
+        "hashtags": [
+          "#wealthprotection",
+          "#financialplanning",
+          "#insurance",
+          "#hinglish",
+          "#moneytips"
+        ],
+        "key_insights": [
+          "1. Amir log hamesha pehle planning karte hain, middle class ghatna ke baad sochte hain!",
+          "2. Wealth protection ke liye 3 important steps hain: Insurance, emergency fund, and will.",
+          "3. Ek family ne 70 lakh ka bill pay kiya after an unexpected medical emergency - planning kitni zaruri hai!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d88",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Wealth Protection: Family ko Kaise Secure Karein?",
+        "order": 2,
+        "duration": 282,
+        "description": "Is video mein seekho kaise apne family ko financial loss se bachayein agar kuch unexpected ho jaaye. Health aur term insurance ke bare mein sab kuch jaan lo aur wealth ko protect karo!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_002/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_002/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.532160Z",
+        "updatedAt": "2026-02-16T10:16:33.532160Z",
+        "hook": "Imagine, aapne sab kuch invest kiya, but protection ka kya? Agar kuch ho gaya toh?",
+        "hashtags": [
+          "#wealthprotection",
+          "#insurance",
+          "#financialplanning",
+          "#familysecurity",
+          "#healthinsurance"
+        ],
+        "key_insights": [
+          "1. Ameer log hamesha pehle wealth protection plan karte hain, middle class ghatna ke baad sochte hain.",
+          "2. Health insurance ek chate ki tarah hai: bimaari mein financial bojh se bachata hai.",
+          "3. Term insurance ensure karta hai ki family ke expenses continue rahein even if income band ho jaye."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d89",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Insurance ka Sum Assured? Kitna Hona Chahiye?",
+        "order": 3,
+        "duration": 282,
+        "description": "Is video mein seekho insurance ka 'sum assured' kya hota hai aur yeh kitna important hai! Health insurance aur family floater plans ke bare mein bhi janenge. 5 lakh kaafi hai? Myth buster alert!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_003/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_003/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.532459Z",
+        "updatedAt": "2026-02-16T10:16:33.532459Z",
+        "hook": "Kya aapko 'Sum Assured' ka matlab pata hai? Agar nahi, toh yeh video aapke liye hai!",
+        "hashtags": [
+          "#insurance",
+          "#healthinsurance",
+          "#sumassured",
+          "#financialplanning",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Sum Assured matlab maximum paisa jo insurance company degi, death ya hospitalisation ke case mein.",
+          "2. Tier 2/3 cities mein, kam se kam 10-15 lakh ka sum assured hona chahiye.",
+          "3. Delhi/Mumbai jaise bade shehron mein 15-25 lakh ka sum assured minimum hona chahiye."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d8a",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Hospital ke bills se kaise bachein?",
+        "order": 4,
+        "duration": 282,
+        "description": "Iss video mein aap seekhenge kaise health insurance mein room rent limit se dhoka na khayein, waiting period kya hota hai, aur agent se policy lena sahi hai ya nahi. Financial safety ke tips!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_004/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_004/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.532715Z",
+        "updatedAt": "2026-02-16T10:16:33.532715Z",
+        "hook": "Hospital mein ghuste hi ₹5 lakh ka bill? Kaise bachein?",
+        "hashtags": [
+          "#healthinsurance",
+          "#insurance",
+          "#financialplanning",
+          "#hospitalbill",
+          "#healthcare"
+        ],
+        "key_insights": [
+          "1. Room rent limit ka trap: Double bill matlab aadha coverage!",
+          "2. Waiting period: Initial waiting period 30 din ka hota hai.",
+          "3. Agent se policy lena: Rishtedaar nahi, sahi policy chuno!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d8b",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Health Insurance Agent: Kaise Choose Karein?",
+        "order": 5,
+        "duration": 282,
+        "description": "Yeh video mein hum seekhenge right health insurance agent kaise choose karein aur policy lete waqt kya kya important cheezein check karein. Learn about co-pay, no claim bonus aur maternity benefits bhi!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_005/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_005/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.532896Z",
+        "updatedAt": "2026-02-16T10:16:33.532896Z",
+        "hook": "Health insurance agent sahi nahi toh claim ke time problem ho sakti hai!",
+        "hashtags": [
+          "#healthinsurance",
+          "#insurance",
+          "#finance",
+          "#investment",
+          "#health"
+        ],
+        "key_insights": [
+          "1. Agent reliable hona chahiye - at least 10 saal ka experience!",
+          "2. 'Co-pay' matlab 20% bill aap bharenge, 80% company degi - avoid karo!",
+          "3. No Claim Bonus (NCB) mein agle saal cover ₹10 lakh se ₹12 lakh ho sakta hai!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d8c",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Health Insurance: Claim Rejection Se Kaise Bache?",
+        "order": 6,
+        "duration": 301,
+        "description": "Iss video mein seekhenge health insurance policy kaise select karein! Claim settlement ratio, maternity cover, pre & post hospitalization expenses aur restoration benefit ke baare mein jaanenge. Avoid karein claim rejections aur sahi policy chune!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_006/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_006/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.533075Z",
+        "updatedAt": "2026-02-16T10:16:33.533075Z",
+        "hook": "Kya aapko pata hai, claim rejection se bachne ke liye kya kya dekhna chahiye health insurance mein?",
+        "hashtags": [
+          "#healthinsurance",
+          "#insurance",
+          "#finance",
+          "#investing",
+          "#health"
+        ],
+        "key_insights": [
+          "1. Claim settlement ratio 90% se upar hona chahiye for a good insurance company.",
+          "2. Annual income ka 2-3% health insurance premium mein invest karna chahiye.",
+          "3. Hospitalization se 60 din pehle aur 90-180 din baad ke expenses bhi cover hone chahiye."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d8d",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Health Insurance: Premium Nahi, Features Dekho!",
+        "order": 7,
+        "duration": 293,
+        "description": "Is video mein seekho, health insurance kaise choose karein! Premium kam nahi, features zyada important hai! Employer insurance pe depend mat karo. Personal insurance kyun zaruri hai, aur Policybazaar kaise use karein, sab jaano!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_007/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_007/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.533265Z",
+        "updatedAt": "2026-02-16T10:16:33.533265Z",
+        "hook": "Health insurance lene mein sabse badi galti kya hai? Sirf premium dekhna!",
+        "hashtags": [
+          "#healthinsurance",
+          "#insurance",
+          "#finance",
+          "#moneytips",
+          "#policybazaar"
+        ],
+        "key_insights": [
+          "1. Sasta premium wali policy avoid karo. Features dekho, premium nahi!",
+          "2. Employer insurance temporary hai. Personal insurance at least 10-15 lakh ka hona chahiye!",
+          "3. Policybazaar ke customized link se 15-25% tak premium discount milega!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d8e",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Health Insurance: Policy Bazaar ka Sahi Istemal Kaise Karein?",
+        "order": 8,
+        "duration": 307,
+        "description": "Yeh video mein seekho Policy Bazaar se health insurance kaise choose karein! Cover amount, room rent, aur pre/post hospitalization jaise filters use karna sikhenge. Sasta premium nahi, best features dekho! Chat GPT/ Gemini se claim settlement ratio bhi check karo!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_008/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_008/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.533483Z",
+        "updatedAt": "2026-02-16T10:16:33.533483Z",
+        "hook": "Sahi health insurance choose karna mushkil hai? Policy Bazaar se kaise karein, aao dekhte hain!",
+        "hashtags": [
+          "#healthinsurance",
+          "#policybazaar",
+          "#insurance",
+          "#finance",
+          "#investing"
+        ],
+        "key_insights": [
+          "1.  Hamesha 'No Room Rent Limit' wala option hi choose karna, warna hospital bill phas sakta hai!",
+          "2.  Cover amount kam se kam 10-25 lakh ka lena, depending on your city size, to avoid pocket se payment!",
+          "3.  Premium bachane ke chakkar mein mat pado, benefit wale features choose karo warna SIP/FD sab bik jayega emergency mein!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d8f",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Health aur Term Insurance: Simple Guide!",
+        "order": 9,
+        "duration": 287,
+        "description": "Is video mein hum health aur term insurance ke basics samjhenge. Seekhenge kaise sahi plan chune aur apne family ko financially secure karein! Avoid galat plans aur secure karo future. 300 chars mein sab kuch!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_009/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_009/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.533684Z",
+        "updatedAt": "2026-02-16T10:16:33.533684Z",
+        "hook": "Kya aap apne family ko financially secure karna chahte ho? Insurance sahi hai!",
+        "hashtags": [
+          "#insurance",
+          "#healthinsurance",
+          "#terminsurance",
+          "#finance",
+          "#hindi"
+        ],
+        "key_insights": [
+          "1. Claim Settlement Ratio 90% se zyada wali health insurance companies dekho.",
+          "2. Term insurance mein, agar aap nahi rahe, toh family ko financial support milega.",
+          "3. 20 Lakh ka cover 10 Lakh se sasta? Compare karo aur best deal lo!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d90",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Term Insurance: Family ko Kaise Secure Karein?",
+        "order": 10,
+        "duration": 282,
+        "description": "Yeh video mein seekho term insurance kaise tumhare family ko financially secure rakh sakta hai! Calculate karo kitna cover chahiye, policy term kitna hona chahiye, aur kab lena best hai. Avoid common mistakes aur apne loved ones ko safe rakho!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_010/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_010/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.533829Z",
+        "updatedAt": "2026-02-16T10:16:33.533829Z",
+        "hook": "Agar tumhare hote hue tumhara ghar chal raha hai, toh tumhare na hone par bhi chalna chahiye!",
+        "hashtags": [
+          "#terminsurance",
+          "#insurance",
+          "#finance",
+          "#investing",
+          "#security"
+        ],
+        "key_insights": [
+          "1. Apni saal ki kamai ka 10 se 25 guna zyada cover lo.",
+          "2. Policy term 60-65 saal tak ka rakho, jab tak next generation independent na ho jaye.",
+          "3. Kam umar mein term insurance lene se premium kam hota hai."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d91",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Term Insurance: Aaj hi Lo, Yaar! Kyun?",
+        "order": 11,
+        "duration": 298,
+        "description": "Yeh video mein seekho term insurance jaldi lena kyun zaroori hai! Age badhne se premium kaise badhta hai, aur kaise yeh aapke wealth ko protect karta hai. Health insurance bhi kyun important hai, samjho!",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_011/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_011/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.534016Z",
+        "updatedAt": "2026-02-16T10:16:33.534016Z",
+        "hook": "Term insurance? Health insurance? Abhi nahi toh kab, mere bhai?",
+        "hashtags": [
+          "#terminsurance",
+          "#healthinsurance",
+          "#insurance",
+          "#finance",
+          "#wealthprotection"
+        ],
+        "key_insights": [
+          "1. Term insurance mein, jis age pe liya, premium lock ho jaata hai!",
+          "2. Late lene par premium badhega - 25 pe ₹600, 32 pe ₹800 ho sakta hai!",
+          "3. Insurance aapke wealth ko medical emergencies se bachata hai!"
+        ],
+        "score": 8,
+        "language": "hinglish"
+      },
+      {
+        "_id": "6992ee81a059d53886e69d92",
+        "courseId": "6992ee81a059d53886e69d86",
+        "title": "Financial Planning: Kal Kisne Dekha?",
+        "order": 12,
+        "duration": 61,
+        "description": "Is video mein hum seekhenge financial planning kyun zaruri hai. Experts se advice kaise le aur future ke liye kaise ready rahein, kyunki 'kal kisne dekha hai'?",
+        "thumbnail": "https://static.flexxmoney.in/public/assets/courses/aed56fa6/reels/clip_012/thumbnail.jpg",
+        "videoUrl": "public/assets/courses/aed56fa6/reels/clip_012/video.mp4",
+        "unlockRule": {},
+        "createdAt": "2026-02-16T10:16:33.534257Z",
+        "updatedAt": "2026-02-16T10:16:33.534257Z",
+        "hook": "Kabhi socha hai, agar kal kuch ho gaya toh? Financial planning is the key!",
+        "hashtags": [
+          "#financialplanning",
+          "#investment",
+          "#finance",
+          "#kalkisnedekha",
+          "#hinglish"
+        ],
+        "key_insights": [
+          "1. Agar samajh nahi aa raha, toh financial advisor ko bulao aur samjho.",
+          "2. Planning hamesha important hai, kyunki future uncertain hai.",
+          "3. Financial decisions lene mein jaldi na karein, experts se discuss karein."
+        ],
+        "score": 8,
+        "language": "hinglish"
+      }
+    ]
+  }
+]

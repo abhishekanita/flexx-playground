@@ -1,0 +1,13 @@
+1. I want a scalable modular architecture for email filtering, parsing and importing in a consistent financial data models.
+2. Here is how i look at the workflow
+
+-   user connects their email
+-   we use a database of search queries to get all emails which are related to user personal finance. these search queries dataset will be dynamic and can be updated from a single config file. For eg, search queries can be to look for bank statement, invoices, credit card reports, insurance, emis, mutual fund, stocks, etc. The queries should be both generic (like bank+statement) or specific to providers, like Growww, Zerodhaa, Zomato, Swiggy, all indian loan providers. This will make sure we will filter out a good top of the funnel to start with. we save all these emails on our database, so we dont have to fetch again using gmail search api, we only do that when our search database is changed, then we can resync and get new emails which were not covered from previous search results and only upsert which were not added before.
+-   now after then we categorise the emails to different financial topics -> we need an exhaustive list, like official_bank_statemrnt (direct email from a bank), invoices on consumer descrition (zomato, swiggy, uber, etc), government notice, rbi cicrular updates, tax updates, cAMS reports, etc. we will also have more categories with them.
+-   now for each unqiue email + subject regex, we will have a config file in which we have all details requires to parse it into a json file and then how to add that in our databse, do we use that to add in transasction if so, how do we make sure that there is not an alreday a tranasction added from a different email like bank statement, in that case we just need to enrich it.
+-   after our emails are processed, we update the key in their saved docs in mongo schema that they are synced or failed or skipped.
+-   in case of sucesful syncing, we would already have some core data models, like invoices, transctions, official-transctions, credit-card statements, etc and we wiull update or insert in those so our frontend can just use that.
+
+-   now in a seprate service, we would be able to see top emails which are getting skipped or failed, we can create a claude code skill which creates config for thise files. after creating configs all basic tests must be peformed so we are sure it can succesfuly parse all data from email 100% of times, and can also correctly update our code data models.
+
+-   IN case of failed parsing, we can take a look and updated our config files. Also, an unqiye combinatio nof subjkect+email can also have multiple parsing.For eg, kotak used diff email format one year ago.

@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#0f0f0f;--ink-2:#3a3a3a;--ink-3:#7a7a7a;--ink-4:#b0b0a8;
+    --paper:#fafaf7;--surface:#f2f2ed;
+    --accent:#1a472a;--accent-2:#e4f2e8;
+    --warn:#b85000;--warn-bg:#fff4ec;
+    --tax:#1a3a5c;--tax-bg:#e6eef8;
+    --behav:#5c1a3a;--behav-bg:#f8e6f0;
+    --whatif:#3a1a5c;--whatif-bg:#ede6f8;
+    --red:#b01a1a;--red-bg:#fae8e8;
+    --border:#deded6;--rule:#ebebe3;
+    --green:#1a6b35;--green-bg:#e4f2e8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);font-size:15px;line-height:1.65;}
+  .page{max-width:920px;margin:0 auto;padding:48px 32px 80px;}
+
+  /* HEADER */
+  .doc-header{border-bottom:2.5px solid var(--ink);padding-bottom:28px;margin-bottom:52px;}
+  .label{font-family:'Syne',sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;}
+  .doc-header h1{font-family:'Syne',sans-serif;font-size:33px;font-weight:800;line-height:1.15;margin-bottom:10px;}
+  .doc-header .sub{color:var(--ink-2);font-size:15px;font-weight:300;max-width:640px;margin-bottom:18px;}
+  .meta-row{display:flex;gap:7px;flex-wrap:wrap;}
+  .mc{font-size:11.5px;background:var(--surface);padding:4px 12px;border-radius:20px;color:var(--ink-2);border:1px solid var(--border);}
+  .mch{font-size:11.5px;background:#fffbe0;padding:4px 12px;border-radius:20px;color:#6b4a00;border:1px solid #f0d870;font-weight:600;}
+
+  /* SECTION */
+  .section{margin-bottom:58px;}
+  .sh{display:flex;align-items:baseline;gap:14px;margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid var(--rule);}
+  .sn{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--ink-4);letter-spacing:.12em;text-transform:uppercase;min-width:28px;}
+  .st{font-family:'Syne',sans-serif;font-size:21px;font-weight:700;}
+  .sec-label{font-family:'Syne',sans-serif;font-size:12px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.06em;margin:22px 0 10px;display:block;}
+
+  /* DASH GRID */
+  .dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-bottom:22px;}
+  .dc{background:#fff;border:1px solid var(--border);border-radius:11px;padding:17px 15px;}
+  .dc.feat{background:var(--ink);color:#fff;border-color:var(--ink);}
+  .dc.wc{background:var(--warn-bg);border-color:#f5c890;}
+  .dc.gc{background:var(--accent-2);border-color:rgba(26,71,42,.25);}
+  .dcl{font-size:11px;color:var(--ink-3);margin-bottom:7px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;}
+  .dcl.lt{color:rgba(255,255,255,.45);}
+  .dcn{font-family:'Syne',sans-serif;font-size:28px;font-weight:800;line-height:1;margin-bottom:5px;}
+  .dcn.g{color:var(--accent);} .dcn.w{color:var(--warn);} .dcn.r{color:var(--red);} .dcn.lt{color:#fff;}
+  .dcs{font-size:12px;color:var(--ink-3);line-height:1.4;}
+  .dcs.lt{color:rgba(255,255,255,.5);}
+  .dbar{height:5px;background:var(--surface);border-radius:3px;margin-top:9px;overflow:hidden;}
+  .dbar.lt{background:rgba(255,255,255,.12);}
+  .dbar-f{height:100%;border-radius:3px;}
+
+  /* FITNESS SCORE (dark card) */
+  .ss{background:var(--ink);color:#fff;border-radius:14px;padding:26px 26px 22px;margin-bottom:22px;}
+  .sst{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;opacity:.5;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;}
+  .ssn{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;margin-bottom:4px;}
+  .ssd{font-size:13px;opacity:.6;margin-bottom:20px;}
+  .sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  .sdl{font-size:11px;opacity:.45;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px;}
+  .sdv{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;margin-bottom:2px;}
+  .sdv.g{color:#7af0a0;} .sdv.a{color:#f0d870;} .sdv.r{color:#f08080;}
+  .sds{font-size:11px;opacity:.45;}
+  .sdt{height:4px;background:rgba(255,255,255,.12);border-radius:2px;margin-top:7px;}
+  .sdf{height:100%;border-radius:2px;}
+
+  /* UNIQUE NUMBERS */
+  .ugrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;}
+  .uc{background:#fff;border:1px solid var(--border);border-radius:10px;padding:15px;}
+  .uci{font-size:18px;margin-bottom:7px;}
+  .ucn{font-family:'Syne',sans-serif;font-size:11.5px;font-weight:700;margin-bottom:4px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.05em;}
+  .uce{font-size:13px;color:var(--ink);margin-bottom:4px;}
+  .uce strong{font-family:'Syne',sans-serif;font-size:20px;display:block;margin-bottom:2px;}
+  .ucw{font-size:11.5px;color:var(--ink-3);line-height:1.4;}
+
+  /* REAL WORLD */
+  .rwgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+  .rw{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center;}
+  .rwi{font-size:22px;margin-bottom:5px;}
+  .rwv{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--accent);margin-bottom:3px;}
+  .rwl{font-size:12px;color:var(--ink-2);font-weight:500;}
+  .rws{font-size:11px;color:var(--ink-3);}
+
+  /* BENCHMARK BARS */
+  .bench-list{display:flex;flex-direction:column;gap:8px;margin-bottom:20px;}
+  .bench-row{display:flex;align-items:center;gap:12px;}
+  .bench-name{font-size:12.5px;min-width:140px;text-align:right;color:var(--ink-2);}
+  .bench-name.port{font-weight:700;color:var(--ink);}
+  .bench-bar-wrap{flex:1;height:24px;background:var(--surface);border-radius:6px;overflow:hidden;position:relative;}
+  .bench-bar{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:8px;}
+  .bench-val{font-size:11px;font-weight:600;color:#fff;white-space:nowrap;}
+  .bench-val.out{color:var(--ink-2);position:absolute;left:calc(100% + 8px);top:50%;transform:translateY(-50%);font-size:11px;}
+
+  /* FOLIO TABLE */
+  .ft-wrap{border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:14px;}
+  .ft{width:100%;border-collapse:collapse;}
+  .ft th{padding:9px 13px;text-align:left;font-family:'Syne',sans-serif;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3);background:var(--surface);border-bottom:1px solid var(--border);}
+  .ft th:not(:first-child){text-align:right;}
+  .ft td{padding:10px 13px;font-size:13px;border-bottom:1px solid var(--rule);vertical-align:middle;color:var(--ink-2);}
+  .ft td:not(:first-child){text-align:right;}
+  .ft tr:last-child td{border-bottom:none;}
+  .fn2{font-weight:600;color:var(--ink);font-size:13px;}
+  .fnsub{font-size:11px;color:var(--ink-3);}
+  .pos{color:var(--accent);font-weight:600;} .neg{color:var(--red);font-weight:600;} .neut{color:var(--ink-3);}
+  .xb{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;}
+  .xh{background:var(--accent-2);color:var(--accent);} .xm{background:#fff4ec;color:var(--warn);} .xl{background:var(--red-bg);color:var(--red);}
+
+  /* FUND CARDS */
+  .fcgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:20px;}
+  .fc{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px;position:relative;}
+  .fc-name{font-weight:600;font-size:13px;margin-bottom:4px;padding-right:60px;}
+  .fc-meta{font-size:11.5px;color:var(--ink-3);margin-bottom:8px;}
+  .fc-row{display:flex;gap:16px;font-size:12px;color:var(--ink-2);}
+  .fc-row span{display:flex;align-items:center;gap:4px;}
+  .fc-badge{position:absolute;top:14px;right:14px;font-size:10px;padding:3px 8px;border-radius:12px;font-weight:700;}
+  .fc-badge.up{background:var(--accent-2);color:var(--accent);}
+  .fc-badge.dn{background:var(--red-bg);color:var(--red);}
+  .fc-badge.eq{background:var(--surface);color:var(--ink-3);}
+
+  /* WHAT-IF */
+  .wi-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:20px;}
+  .wi{background:#fff;border:1px solid var(--border);border-radius:11px;padding:17px;position:relative;overflow:hidden;}
+  .wi-name{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-bottom:12px;}
+  .wi-row{display:flex;justify-content:space-between;font-size:12.5px;padding:5px 0;border-bottom:1px solid var(--surface);}
+  .wi-row:last-of-type{border-bottom:none;}
+  .wi-label{color:var(--ink-3);}
+  .wi-diff{margin-top:12px;padding:10px;border-radius:8px;text-align:center;font-family:'Syne',sans-serif;font-size:15px;font-weight:700;}
+  .wi-diff.better{background:var(--accent-2);color:var(--accent);}
+  .wi-diff.worse{background:var(--warn-bg);color:var(--warn);}
+  .wi-desc{font-size:12.5px;color:var(--ink-2);margin-bottom:10px;line-height:1.45;font-style:italic;}
+  .wi-framing{font-size:12px;color:var(--ink-2);margin-top:10px;line-height:1.5;padding:8px 10px;background:var(--surface);border-radius:6px;}
+
+  /* RISK */
+  .risk-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+  .ri{background:#fff;border:1px solid var(--border);border-radius:10px;padding:15px;text-align:center;}
+  .riv{font-family:'Syne',sans-serif;font-size:24px;font-weight:800;margin-bottom:3px;}
+  .ril{font-size:11.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em;}
+
+  /* INSIGHT CARDS GRID */
+  .ins-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:24px;}
+  .ins-card{border-radius:16px;padding:22px 20px;cursor:pointer;transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden;min-height:160px;display:flex;flex-direction:column;justify-content:flex-end;}
+  .ins-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.12);}
+  .ins-card.pending{opacity:.4;cursor:default;filter:grayscale(.6);}
+  .ins-card.pending:hover{transform:none;box-shadow:none;}
+  .ins-cat{font-family:'Syne',sans-serif;font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;opacity:.7;margin-bottom:8px;}
+  .ins-big{font-family:'Syne',sans-serif;font-size:36px;font-weight:800;line-height:1;margin-bottom:6px;}
+  .ins-title{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;line-height:1.3;margin-bottom:4px;}
+  .ins-sub{font-size:12px;opacity:.75;line-height:1.4;}
+  .ins-badge{position:absolute;top:14px;right:14px;font-size:9px;padding:3px 8px;border-radius:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:rgba(255,255,255,.25);backdrop-filter:blur(4px);}
+  .ins-icon{font-size:28px;margin-bottom:8px;}
+
+  /* CATEGORY HEADERS */
+  .cat-header{display:flex;align-items:center;gap:10px;margin-bottom:14px;margin-top:28px;}
+  .cat-header:first-of-type{margin-top:0;}
+  .cat-icon{font-size:20px;}
+  .cat-name{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;}
+  .cat-count{font-size:11px;padding:3px 10px;border-radius:12px;font-weight:700;}
+
+  /* SLIDESHOW DIALOG */
+  .dialog-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(6px);z-index:1000;align-items:center;justify-content:center;}
+  .dialog-overlay.open{display:flex;}
+  .dialog-box{width:420px;max-width:92vw;max-height:90vh;position:relative;}
+  .dialog-close{position:absolute;top:-44px;right:0;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.15);border:none;color:#fff;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s;}
+  .dialog-close:hover{background:rgba(255,255,255,.3);}
+  .slide{border-radius:20px;padding:36px 28px 32px;min-height:340px;display:flex;flex-direction:column;animation:slideIn .3s ease;}
+  @keyframes slideIn{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}
+  .slide-step{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.15em;opacity:.5;margin-bottom:16px;}
+  .slide-slot{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;}
+  .slide-title{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;line-height:1.2;margin-bottom:14px;}
+  .slide-big{font-family:'Syne',sans-serif;font-size:48px;font-weight:800;line-height:1;margin-bottom:6px;}
+  .slide-big-label{font-size:13px;opacity:.6;margin-bottom:14px;}
+  .slide-body{font-size:15px;line-height:1.7;flex:1;}
+  .slide-nav{display:flex;align-items:center;justify-content:space-between;margin-top:20px;padding-top:16px;}
+  .slide-btn{width:44px;height:44px;border-radius:50%;border:2px solid rgba(255,255,255,.3);background:transparent;color:inherit;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;}
+  .slide-btn:hover{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.5);}
+  .slide-btn:disabled{opacity:.2;cursor:default;}
+  .slide-btn:disabled:hover{background:transparent;border-color:rgba(255,255,255,.3);}
+  .slide-dots{display:flex;gap:6px;}
+  .slide-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2);transition:all .2s;}
+  .slide-dot.active{width:24px;border-radius:4px;background:rgba(255,255,255,.7);}
+
+  @media(max-width:720px){.ins-grid{grid-template-columns:repeat(2,1fr);}.dialog-box{width:100%;max-width:100%;margin:0 12px;}}
+
+  /* ACTIONABLES */
+  .ac{display:flex;gap:13px;padding:13px 15px;background:#fff;border:1px solid var(--border);border-radius:10px;margin-bottom:8px;}
+  .aci{font-size:20px;flex-shrink:0;padding-top:2px;}
+  .act{font-weight:600;font-size:14px;margin-bottom:2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .acd{font-size:12.5px;color:var(--ink-2);margin-bottom:6px;line-height:1.5;}
+  .acm{font-size:11px;background:var(--surface);padding:2px 8px;border-radius:4px;color:var(--ink-3);display:inline-block;}
+  .acscore{font-size:10px;padding:3px 8px;border-radius:12px;font-weight:700;background:var(--accent-2);color:var(--accent);}
+
+  /* HEATMAP */
+  .hm-table{width:100%;border-collapse:collapse;margin-bottom:14px;}
+  .hm-table th{padding:6px 4px;font-family:'Syne',sans-serif;font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-4);text-align:center;}
+  .hm-table td{padding:3px;text-align:center;}
+  .hm-cell{border-radius:4px;padding:6px 2px;font-size:10px;font-weight:500;min-height:28px;display:flex;align-items:center;justify-content:center;}
+
+  /* ASSET ALLOC */
+  .aa-bar{display:flex;height:32px;border-radius:8px;overflow:hidden;margin-bottom:12px;}
+  .aa-seg{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#fff;min-width:30px;}
+  .aa-legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px;}
+  .aa-item{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-2);}
+  .aa-dot{width:10px;height:10px;border-radius:3px;}
+
+  /* TOP HOLDINGS */
+  .th-list{display:flex;flex-direction:column;gap:6px;}
+  .th-row{display:flex;align-items:center;gap:12px;padding:8px 12px;background:#fff;border:1px solid var(--border);border-radius:8px;}
+  .th-rank{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--ink-4);min-width:20px;}
+  .th-name{flex:1;font-size:13px;font-weight:500;}
+  .th-wt{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--accent);}
+
+  /* CALLOUT */
+  .co{padding:15px 20px;border-radius:8px;margin-bottom:18px;font-size:13.5px;line-height:1.65;}
+  .co-note{background:var(--surface);border:1px solid var(--border);color:var(--ink-2);}
+
+  /* PEER PERCENTILE */
+  .pp-hero{background:var(--ink);color:#fff;border-radius:14px;padding:26px;margin-bottom:16px;text-align:center;}
+  .pp-hero .pp-top{font-size:44px;font-weight:800;line-height:1;margin-bottom:6px;}
+  .pp-hero .pp-label{font-size:14px;opacity:.6;margin-bottom:4px;}
+  .pp-hero .pp-type{font-size:16px;font-weight:600;color:#f0d870;}
+  .pp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px;}
+  .pp-dim{background:#fff;border:1px solid var(--border);border-radius:10px;padding:15px;text-align:center;}
+  .pp-dim-pct{font-size:26px;font-weight:700;line-height:1;margin-bottom:4px;}
+  .pp-dim-name{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);margin-bottom:4px;}
+  .pp-dim-desc{font-size:11px;color:var(--ink-3);}
+  .pp-dim-bar{height:4px;background:var(--surface);border-radius:2px;margin-top:8px;overflow:hidden;}
+  .pp-dim-bar-f{height:100%;border-radius:2px;}
+
+  /* SHADOW INDEX */
+  .si-hero{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px;}
+  .si-card{border-radius:11px;padding:20px;text-align:center;}
+  .si-card.actual{background:#fff;border:1px solid var(--border);}
+  .si-card.shadow{background:var(--surface);border:1px solid var(--border);}
+  .si-card.alpha{background:var(--ink);color:#fff;}
+  .si-card .si-label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;opacity:.6;}
+  .si-card .si-val{font-size:24px;font-weight:700;line-height:1;}
+  .si-fund-list{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;}
+  .si-fund{display:flex;align-items:center;gap:12px;padding:8px 12px;background:#fff;border:1px solid var(--border);border-radius:8px;}
+  .si-fund-name{flex:1;font-size:13px;font-weight:500;}
+  .si-fund-alpha{font-size:14px;font-weight:700;}
+
+  /* FI COUNTDOWN */
+  .fi-target{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:16px;}
+  .fi-target-label{font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;}
+  .fi-target-val{font-size:26px;font-weight:700;margin-bottom:10px;}
+  .fi-progress{height:12px;background:var(--surface);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;}
+  .fi-progress-f{height:100%;border-radius:6px;background:var(--accent);}
+  .fi-progress-label{font-size:11px;color:var(--ink-3);text-align:right;}
+  .fi-baseline{background:var(--ink);color:#fff;border-radius:14px;padding:26px;margin-bottom:16px;text-align:center;}
+  .fi-baseline .fi-date{font-size:34px;font-weight:700;margin-bottom:4px;}
+  .fi-baseline .fi-years{font-size:14px;opacity:.6;}
+  .fi-baseline .fi-bl-label{font-size:12px;opacity:.5;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;}
+  .fi-alt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px;}
+  .fi-alt{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center;}
+  .fi-alt.bear{background:var(--red-bg);border-color:rgba(176,26,26,.2);}
+  .fi-alt .fi-alt-label{font-size:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;}
+  .fi-alt .fi-alt-date{font-size:20px;font-weight:700;margin-bottom:3px;}
+  .fi-alt .fi-alt-years{font-size:11px;color:var(--ink-3);}
+
+  p{margin-bottom:12px;color:var(--ink-2);font-size:14px;}
+
+  @media(max-width:720px){
+    .dgrid,.ugrid,.sgrid,.risk-grid,.rwgrid,.pp-grid,.fi-alt-grid{grid-template-columns:repeat(2,1fr);}
+    .fcgrid,.wi-grid{grid-template-columns:1fr;}
+    .si-hero{grid-template-columns:1fr;}
+    .page{padding:24px 16px 60px;}
+  }
+</style>
+</head>
+<body>
+<div class="page" id="app">
+  <p style="color:var(--ink-3);text-align:center;padding:60px 0">Loading data...</p>
+</div>
+
+<script>
+const INR = (n) => {
+  if (n == null) return '—';
+  const abs = Math.abs(n);
+  const sign = n < 0 ? '-' : '';
+  if (abs >= 1e7) return sign + '\u20B9' + (abs / 1e7).toFixed(2) + ' Cr';
+  if (abs >= 1e5) return sign + '\u20B9' + (abs / 1e5).toFixed(2) + ' L';
+  if (abs >= 1e3) return sign + '\u20B9' + Math.round(abs).toLocaleString('en-IN');
+  return sign + '\u20B9' + Math.round(abs);
+};
+const pct = (n) => n == null ? '—' : (n >= 0 ? '+' : '') + n.toFixed(2) + '%';
+const pctPlain = (n) => n == null ? '—' : n.toFixed(2) + '%';
+const scoreGrade = (s) => s >= 75 ? 'g' : s >= 45 ? 'a' : 'r';
+const scoreBar = (s) => s >= 75 ? '#7af0a0' : s >= 45 ? '#f0d870' : '#f08080';
+const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const ACTIONABLE_ICONS = {
+  switch_regular_to_direct: '\uD83D\uDD04',
+  elss_unlock_calendar: '\uD83D\uDCC5',
+  tax_harvest_window: '\u2702\uFE0F',
+  consolidate_overlap: '\uD83E\uDDF9',
+  revive_exit_dormant: '\u23F8\uFE0F',
+  redirect_micro_holdings: '\uD83C\uDFF7\uFE0F',
+  rebalance_after_drift: '\u2696\uFE0F',
+  add_best_performer_dip: '\uD83D\uDCC8',
+  set_sip_increase_reminder: '\uD83D\uDD14',
+};
+
+function render(d) {
+  const ps = d.portfolioSummary;
+  const db = d.dashboard;
+  const fs = db.fitnessScore;
+  const un = db.uniqueNumbers;
+  const rm = d.riskMetrics;
+  const hs = db.heroStats;
+
+  let html = '';
+
+  // ═══ HEADER ═══════════════════════════════════════════════════════════════
+  const dateStr = new Date(d.generatedAt).toLocaleDateString('en-IN', {day:'numeric',month:'short',year:'numeric'});
+  html += `<div class="doc-header">
+    <div class="label">Portfolio Dashboard</div>
+    <h1>${d.investor.name}</h1>
+    <div class="sub">Comprehensive portfolio analysis with fitness scoring, insights, and actionable recommendations.</div>
+    <div class="meta-row">
+      <span class="mc">PAN ${d.investor.pan}</span>
+      <span class="mc">Generated ${dateStr}</span>
+      <span class="mch">${ps.activeFolioCount} active funds</span>
+      <span class="mch">XIRR ${pctPlain(ps.portfolioXIRR)}</span>
+    </div>
+  </div>`;
+
+  // ═══ 01 OVERVIEW ══════════════════════════════════════════════════════════
+  html += `<div class="section">
+    <div class="sh"><span class="sn">01</span><span class="st">Portfolio Overview</span></div>
+    <div class="dgrid">
+      <div class="dc feat"><div class="dcl lt">Current Value</div><div class="dcn lt">${INR(ps.totalMarketValue)}</div><div class="dcs lt">Invested ${INR(ps.totalInvested)}</div></div>
+      <div class="dc${ps.totalUnrealisedGain >= 0 ? ' gc' : ' wc'}"><div class="dcl">Unrealised P&L</div><div class="dcn ${ps.totalUnrealisedGain >= 0 ? 'g' : 'r'}">${INR(ps.totalUnrealisedGain)}</div><div class="dcs">${pct(ps.totalUnrealisedGainPct)}</div></div>
+      <div class="dc"><div class="dcl">Portfolio XIRR</div><div class="dcn ${ps.portfolioXIRR >= 0 ? 'g' : 'r'}">${pctPlain(ps.portfolioXIRR)}</div><div class="dcs">Time-weighted return</div></div>
+    </div>`;
+
+  // Real World Equivalents
+  if (db.realWorldEquivalents && db.realWorldEquivalents.length > 0) {
+    html += `<span class="sec-label">Your Gains, In Real Terms</span><div class="rwgrid">
+      ${db.realWorldEquivalents.map(r => `<div class="rw">
+        <div class="rwi">${r.emoji}</div>
+        <div class="rwv">${r.displayCount}</div>
+        <div class="rwl">${r.label}</div>
+        <div class="rws">${r.subtext}</div>
+      </div>`).join('')}
+    </div>`;
+  }
+  html += `</div>`;
+
+  // ═══ 02 FITNESS SCORE ═════════════════════════════════════════════════════
+  if (fs) {
+    html += `<div class="section">
+      <div class="sh"><span class="sn">02</span><span class="st">Portfolio Fitness Score</span></div>
+      <div class="ss">
+        <div class="sst">Wealth Health</div>
+        <div class="ssn">${fs.composite} / 100 — ${fs.label}</div>
+        <div class="ssd">Composite score across 4 dimensions. Your baseline to beat.</div>
+        <div class="sgrid">
+          ${['performance','efficiency','structure','discipline'].map(k => {
+            const v = fs.dimensions[k];
+            const g = scoreGrade(v);
+            const labels = {performance:'XIRR vs benchmark',efficiency:'TER + direct plan ratio',structure:'Diversification + overlap',discipline:'SIP regularity + behavior'};
+            return `<div><div class="sdl">${k}</div><div class="sdv ${g}">${v}</div><div class="sds">${labels[k]}</div><div class="sdt"><div class="sdf" style="width:${v}%;background:${scoreBar(v)}"></div></div></div>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>`;
+  }
+
+  // ═══ 03 YOUR NUMBERS ══════════════════════════════════════════════════════
+  if (un) {
+    html += `<div class="section">
+      <div class="sh"><span class="sn">03</span><span class="st">Your Numbers</span></div>
+      <p>Numbers that feel personal — derived from your data, framed in a human way.</p>
+      <div class="ugrid">
+        <div class="uc"><div class="uci">\uD83D\uDCC5</div><div class="ucn">Days Invested</div><div class="uce"><strong>${un.daysInvested.toLocaleString()} days</strong>your money has been working</div><div class="ucw">From your first transaction to today</div></div>
+        <div class="uc"><div class="uci">\uD83D\uDCB0</div><div class="ucn">Daily Earnings</div><div class="uce"><strong>${INR(un.dailyEarnings)} / day</strong>on average this year</div><div class="ucw">Total gains \u00F7 days invested this year</div></div>
+        <div class="uc"><div class="uci">\uD83E\uDDD8</div><div class="ucn">Investor Type</div><div class="uce"><strong>${un.investorType}</strong></div><div class="ucw">Based on your transaction patterns</div></div>
+        <div class="uc"><div class="uci">\uD83D\uDCB8</div><div class="ucn">Cost of Inaction</div><div class="uce"><strong>${INR(un.costOfInaction)}</strong>left on the table</div><div class="ucw">Sum of what-if scenario gaps</div></div>
+        ${un.loyaltyBadge ? `<div class="uc"><div class="uci">\uD83C\uDFC5</div><div class="ucn">Loyalty Badge</div><div class="uce"><strong>${un.loyaltyBadge.schemeName.substring(0,35)}</strong></div><div class="ucw">${un.loyaltyBadge.holdingDays} days — your oldest investment</div></div>` : ''}
+        ${un.bestDayGain != null ? `<div class="uc"><div class="uci">\uD83C\uDFC6</div><div class="ucn">Best Day Ever</div><div class="uce"><strong>${INR(un.bestDayGain)}</strong></div><div class="ucw">Largest single-day portfolio gain</div></div>` : ''}
+      </div>
+    </div>`;
+  }
+
+  // ═══ 04 BENCHMARK COMPARISON ══════════════════════════════════════════════
+  if (db.benchmarkBars && db.benchmarkBars.length > 0) {
+    const bars = [...db.benchmarkBars].sort((a,b) => a.xirr - b.xirr);
+    const maxXirr = Math.max(...bars.map(b => Math.abs(b.xirr)), 1);
+    html += `<div class="section">
+      <div class="sh"><span class="sn">04</span><span class="st">Benchmark Comparison</span></div>
+      <p>How your portfolio XIRR compares to major benchmarks over the same period.</p>
+      <div class="bench-list">
+        ${bars.map(b => {
+          const w = Math.max(5, (Math.abs(b.xirr) / maxXirr) * 100);
+          const col = b.isPortfolio ? '#f59e0b' : b.xirr < 0 ? '#b01a1a' : '#3b82f6';
+          const cls = b.isPortfolio ? ' port' : '';
+          return `<div class="bench-row">
+            <div class="bench-name${cls}">${b.name}</div>
+            <div class="bench-bar-wrap"><div class="bench-bar" style="width:${w}%;background:${col}"><span class="bench-val">${b.xirr.toFixed(1)}%</span></div></div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  // ═══ 05 RISK METRICS ══════════════════════════════════════════════════════
+  if (rm) {
+    html += `<div class="section">
+      <div class="sh"><span class="sn">05</span><span class="st">Risk Metrics</span></div>
+      <div class="risk-grid">
+        <div class="ri"><div class="riv">${rm.portfolioVolatility.toFixed(1)}%</div><div class="ril">Volatility</div></div>
+        <div class="ri"><div class="riv" style="color:${rm.sharpeRatio >= 1 ? 'var(--accent)' : rm.sharpeRatio >= 0.5 ? 'var(--warn)' : 'var(--red)'}">${rm.sharpeRatio.toFixed(2)}</div><div class="ril">Sharpe Ratio</div></div>
+        <div class="ri"><div class="riv" style="color:${rm.sortinoRatio >= 1 ? 'var(--accent)' : rm.sortinoRatio >= 0.5 ? 'var(--warn)' : 'var(--red)'}">${rm.sortinoRatio.toFixed(2)}</div><div class="ril">Sortino Ratio</div></div>
+        <div class="ri"><div class="riv" style="color:var(--red)">${rm.maxDrawdown.toFixed(1)}%</div><div class="ril">Max Drawdown</div></div>
+      </div>
+    </div>`;
+  }
+
+  // ═══ 06 HOLDINGS ══════════════════════════════════════════════════════════
+  html += `<div class="section">
+    <div class="sh"><span class="sn">06</span><span class="st">Active Holdings</span></div>`;
+
+  // Fund Cards (personality view)
+  if (db.fundCards && db.fundCards.length > 0) {
+    html += `<span class="sec-label">Fund Personalities</span><div class="fcgrid">
+      ${db.fundCards.slice(0, 12).map(f => {
+        const gap = f.benchmarkGapPp;
+        const badgeCls = gap > 1 ? 'up' : gap < -1 ? 'dn' : 'eq';
+        const badgeText = gap > 0 ? '+' + gap.toFixed(1) + 'pp' : gap.toFixed(1) + 'pp';
+        return `<div class="fc">
+          <div class="fc-badge ${badgeCls}">${badgeText} vs ${f.benchmarkName}</div>
+          <div class="fc-name">${f.shortName}</div>
+          <div class="fc-meta">${f.personality} · ${f.plan} · ${Math.round(f.holdingDays/30)}mo</div>
+          <div class="fc-row">
+            <span>${INR(f.marketValueRs)}</span>
+            <span class="${f.gainPct >= 0 ? 'pos' : 'neg'}">${pct(f.gainPct)}</span>
+            <span>${f.weightPct.toFixed(1)}% wt</span>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  }
+
+  // Folio Table
+  const sorted = [...d.activeHoldings].sort((a,b) => b.marketValue - a.marketValue);
+  const totalMV = sorted.reduce((s,h) => s + h.marketValue, 0);
+  html += `<span class="sec-label">All Funds</span><div class="ft-wrap"><table class="ft">
+    <thead><tr><th>Fund</th><th>Value</th><th>Weight</th><th>Return</th><th>Plan</th></tr></thead>
+    <tbody>${sorted.map(h => {
+      const rcls = h.unrealisedGainPct >= 0 ? 'pos' : 'neg';
+      const xCls = h.unrealisedGainPct >= 20 ? 'xh' : h.unrealisedGainPct >= 0 ? 'xm' : 'xl';
+      return `<tr>
+        <td><div class="fn2">${h.schemeName.substring(0,50)}</div><div class="fnsub">${h.plan} · ${h.weight.toFixed(1)}% of portfolio</div></td>
+        <td>${INR(h.marketValue)}</td>
+        <td>${h.weight.toFixed(1)}%</td>
+        <td class="${rcls}"><span class="xb ${xCls}">${pct(h.unrealisedGainPct)}</span></td>
+        <td><span class="xb ${h.plan === 'Direct' ? 'xh' : 'xm'}">${h.plan}</span></td>
+      </tr>`;
+    }).join('')}
+    <tr style="background:var(--surface);"><td><strong>Total</strong></td><td><strong>${INR(totalMV)}</strong></td><td>100%</td><td class="pos"><strong>${pct(ps.totalUnrealisedGainPct)}</strong></td><td></td></tr>
+    </tbody>
+  </table></div>
+  </div>`;
+
+  // ═══ 07 WHAT-IF SCENARIOS ═════════════════════════════════════════════════
+  if (d.whatIfScenarios && d.whatIfScenarios.length > 0) {
+    html += `<div class="section">
+      <div class="sh"><span class="sn">07</span><span class="st">What-If Scenarios</span></div>
+      <p>Hypothetical comparisons to help you think about portfolio decisions.</p>
+      <div class="wi-grid">
+        ${d.whatIfScenarios.map(s => {
+          const better = s.difference.userDidBetter;
+          const desc = s.description || '';
+          const framing = s.dataPointsForNarrative && s.dataPointsForNarrative.framing ? s.dataPointsForNarrative.framing : '';
+          return `<div class="wi">
+            <div class="wi-name">${s.name}</div>
+            ${desc ? `<div class="wi-desc">${desc}</div>` : ''}
+            <div class="wi-row"><span class="wi-label">Your Value</span><span>${INR(s.actual.currentValue)}</span></div>
+            <div class="wi-row"><span class="wi-label">Hypothetical</span><span>${INR(s.hypothetical.hypotheticalValue)}</span></div>
+            <div class="wi-row"><span class="wi-label">Difference</span><span class="${better ? 'pos' : 'neg'}">${INR(s.difference.absoluteAmount)}</span></div>
+            <div class="wi-diff ${better ? 'better' : 'worse'}">${better ? 'You did better!' : 'Opportunity: ' + INR(s.difference.absoluteAmount)}</div>
+            ${framing ? `<div class="wi-framing">${framing}</div>` : ''}
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  // ═══ 08 ASSET ALLOCATION ══════════════════════════════════════════════════
+  if (db.assetAllocation && db.assetAllocation.length > 0) {
+    const aaColors = {'Equity':'#3b82f6','Debt':'#10b981','Gold':'#f59e0b','Others':'#94a3b8','Cash':'#6366f1'};
+    html += `<div class="section">
+      <div class="sh"><span class="sn">08</span><span class="st">Asset Allocation & Holdings</span></div>
+      <span class="sec-label">Asset Mix</span>
+      <div class="aa-bar">
+        ${db.assetAllocation.filter(a => a.weight > 0.5).map(a => `<div class="aa-seg" style="width:${a.weight}%;background:${a.color || aaColors[a.assetClass] || '#94a3b8'}">${a.weight > 5 ? a.assetClass + ' ' + a.weight.toFixed(0) + '%' : ''}</div>`).join('')}
+      </div>
+      <div class="aa-legend">
+        ${db.assetAllocation.map(a => `<div class="aa-item"><div class="aa-dot" style="background:${a.color || aaColors[a.assetClass] || '#94a3b8'}"></div>${a.assetClass}: ${INR(a.marketValueRs)} (${a.weight.toFixed(1)}%)</div>`).join('')}
+      </div>`;
+
+    // Top Holdings
+    if (db.topHoldings && db.topHoldings.holdings.length > 0) {
+      html += `<span class="sec-label">Top 10 Holdings by Weight</span>
+      <div class="th-list">
+        ${db.topHoldings.holdings.map((h, i) => `<div class="th-row">
+          <div class="th-rank">${i+1}</div>
+          <div class="th-name">${h.companyName}</div>
+          <div class="th-wt">${h.portfolioWeight.toFixed(1)}%</div>
+        </div>`).join('')}
+      </div>
+      <div class="co co-note" style="margin-top:14px">
+        <strong>Concentration:</strong> Top 5 = ${db.topHoldings.concentrationRisk.top5Weight}% · Top 10 = ${db.topHoldings.concentrationRisk.top10Weight}% · ${db.topHoldings.totalCompaniesCount} companies total
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  // ═══ 09 INVESTMENT HEATMAP ════════════════════════════════════════════════
+  if (db.heatmap && db.heatmap.length > 0) {
+    html += `<div class="section">
+      <div class="sh"><span class="sn">09</span><span class="st">Investment Heatmap</span></div>
+      <p>Monthly investment activity across years. Darker = more invested.</p>
+      <div class="ft-wrap"><table class="hm-table">
+        <thead><tr><th></th>${MONTH_NAMES.map(m => `<th>${m}</th>`).join('')}<th>Total</th></tr></thead>
+        <tbody>${db.heatmap.map(yr => {
+          const maxMonth = Math.max(...yr.months.map(m => m.investedRs), 1);
+          return `<tr>
+            <td style="font-family:'Syne',sans-serif;font-weight:700;font-size:12px;color:var(--ink-2);padding:4px 8px;">${yr.year}</td>
+            ${yr.months.map(m => {
+              const intensity = m.investedRs > 0 ? Math.max(0.08, m.investedRs / maxMonth) : 0;
+              const bg = m.investedRs > 0 ? `rgba(26,71,42,${intensity})` : 'transparent';
+              const txt = m.investedRs >= 1000 ? INR(m.investedRs) : '';
+              const color = intensity > 0.5 ? '#fff' : 'var(--ink-2)';
+              return `<td><div class="hm-cell" style="background:${bg};color:${color}">${txt}</div></td>`;
+            }).join('')}
+            <td style="font-family:'Syne',sans-serif;font-weight:700;font-size:12px;color:var(--accent);padding:4px 8px;">${INR(yr.totalInvestedRs)}</td>
+          </tr>`;
+        }).join('')}
+        </tbody>
+      </table></div>
+    </div>`;
+  }
+
+  // ═══ 10 INSIGHTS ══════════════════════════════════════════════════════════
+  const catConfig = {
+    health: {icon:'\uD83D\uDEE1\uFE0F',name:'Portfolio Health & Risk',catColor:'#1a472a',countBg:'#1a472a'},
+    tax:    {icon:'\uD83D\uDD10',name:'Tax & ELSS',catColor:'#1a3a5c',countBg:'#1a3a5c'},
+    behavioral:{icon:'\uD83E\uDDE0',name:'Behavioral Patterns',catColor:'#5c1a3a',countBg:'#5c1a3a'},
+    whatif: {icon:'\uD83D\uDD2E',name:'What-If Scenarios',catColor:'#3a1a5c',countBg:'#3a1a5c'}
+  };
+  // Each insight gets a vibrant card color
+  const CARD_COLORS = {
+    // Health - greens, teals
+    regular_plan_cost:       {bg:'#FF6B35',fg:'#fff',icon:'\uD83D\uDCB8'},
+    overlap_warning:         {bg:'#7B2D8E',fg:'#fff',icon:'\uD83D\uDD0D'},
+    fund_house_concentration:{bg:'#2D5F8E',fg:'#fff',icon:'\uD83C\uDFE6'},
+    no_nominees:             {bg:'#D63031',fg:'#fff',icon:'\u26A0\uFE0F'},
+    fund_manager_change:     {bg:'#6C5CE7',fg:'#fff',icon:'\uD83D\uDC64'},
+    benchmark_weekly:        {bg:'#0984E3',fg:'#fff',icon:'\uD83D\uDCC8'},
+    best_worst_fund_weekly:  {bg:'#00B894',fg:'#fff',icon:'\uD83C\uDFC6'},
+    risk_reward_monthly:     {bg:'#E17055',fg:'#fff',icon:'\u2696\uFE0F'},
+    asset_allocation_drift:  {bg:'#636E72',fg:'#fff',icon:'\uD83C\uDFAF'},
+    // Tax - blues, purples
+    ltcg_boundary_30d:       {bg:'#FDCB6E',fg:'#2d2d2d',icon:'\u23F1\uFE0F'},
+    ltcg_exemption_80pct:    {bg:'#E84393',fg:'#fff',icon:'\uD83D\uDCCA'},
+    tax_harvest_seasonal:    {bg:'#00CEC9',fg:'#fff',icon:'\u2702\uFE0F'},
+    elss_unlock_30d:         {bg:'#6C5CE7',fg:'#fff',icon:'\uD83D\uDD13'},
+    // Behavioral - warm
+    investor_profile:        {bg:'#0984E3',fg:'#fff',icon:'\uD83E\uDDD8'},
+    market_crash_behavioral: {bg:'#D63031',fg:'#fff',icon:'\uD83D\uDCC9'},
+    sip_missed:              {bg:'#FF6348',fg:'#fff',icon:'\u274C'},
+    portfolio_neglect:       {bg:'#FFA502',fg:'#2d2d2d',icon:'\uD83D\uDCA4'},
+    too_many_funds:          {bg:'#A29BFE',fg:'#fff',icon:'\uD83C\uDF0A'},
+  };
+  // Slot colors for the slideshow
+  const SLOT_STYLES = {
+    answer:    {bg:'#FDCB6E',fg:'#2d2d2d'},
+    education: {bg:'#0984E3',fg:'#fff'},
+    your_data: {bg:'#00B894',fg:'#fff'},
+    impact:    {bg:'#FF6B35',fg:'#fff'},
+    action:    {bg:'#2d3436',fg:'#fff'},
+  };
+
+  const totalReady = Object.values(d.insightStates).flat().filter(s => s.status === 'READY').length;
+  const totalInsights = Object.values(d.insightStates).flat().length;
+
+  html += `<div class="section">
+    <div class="sh"><span class="sn">10</span><span class="st">Insights</span></div>
+    <p>${totalReady} findings ready out of ${totalInsights} evaluated. Tap any card to explore the full story.</p>`;
+
+  for (const [cat, states] of Object.entries(d.insightStates)) {
+    if (states.length === 0) continue;
+    const cfg = catConfig[cat] || {icon:'\u2753',name:cat,catColor:'#333',countBg:'#333'};
+    const readyCount = states.filter(s => s.status === 'READY').length;
+
+    html += `<div class="cat-header">
+      <span class="cat-icon">${cfg.icon}</span>
+      <span class="cat-name">${cfg.name}</span>
+      <span class="cat-count" style="background:${cfg.countBg};color:#fff">${readyCount} ready</span>
+    </div>
+    <div class="ins-grid">`;
+
+    for (const s of states) {
+      const cc = CARD_COLORS[s.insightKey] || {bg:'#636E72',fg:'#fff',icon:'\u2753'};
+      const hasJourney = d.cardJourneys[s.insightKey];
+      const isPending = s.status !== 'READY';
+      const cards = d.cardJourneys[s.insightKey];
+      // Extract a big number from the journey if available
+      let bigNum = '';
+      let subText = '';
+      if (cards && cards.length > 0) {
+        if (cards[0].highlightValue) {
+          bigNum = cards[0].highlightValue;
+        }
+        subText = cards[0].body.substring(0, 80);
+      }
+      const keyLabel = s.insightKey.replace(/_/g, ' ');
+      const onclick = hasJourney && !isPending ? `onclick="openSlideshow('${s.insightKey}')"` : '';
+
+      html += `<div class="ins-card${isPending ? ' pending' : ''}" style="background:${cc.bg};color:${cc.fg}" ${onclick}>
+        <div class="ins-badge" style="color:${cc.fg}">${s.relevanceScore}</div>
+        <div class="ins-icon">${cc.icon}</div>
+        ${bigNum ? `<div class="ins-big">${bigNum}</div>` : ''}
+        <div class="ins-title">${cards ? cards[0].title : keyLabel}</div>
+        <div class="ins-sub">${subText}${subText.length >= 80 ? '...' : ''}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+  html += `</div>`;
+
+  // Store journeys globally for the slideshow
+  window.__JOURNEYS__ = d.cardJourneys;
+  window.__SLOT_STYLES__ = SLOT_STYLES;
+
+  // ═══ 11 ACTIONABLES ═══════════════════════════════════════════════════════
+  if (d.actionables && d.actionables.length > 0) {
+    html += `<div class="section">
+      <div class="sh"><span class="sn">11</span><span class="st">Actionables</span></div>
+      <p>Specific actions ranked by relevance to your portfolio.</p>
+      ${d.actionables.map(a => {
+        const icon = ACTIONABLE_ICONS[a.id] || '\u26A1';
+        return `<div class="ac">
+          <div class="aci">${icon}</div>
+          <div style="flex:1">
+            <div class="act">${a.title} <span class="acscore">${a.relevanceScore}</span></div>
+            <div class="acd">${a.description}</div>
+            ${a.metadata && a.metadata.funds ? `<div class="acm">${Array.isArray(a.metadata.funds) ? a.metadata.funds.length + ' funds' : ''}</div>` : ''}
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  }
+
+  // ═══ 12 PEER PERCENTILE ═══════════════════════════════════════════════
+  if (d.peerPercentile) {
+    const pp = d.peerPercentile;
+    html += `<div class="section">
+      <div class="sh"><span class="sn">12</span><span class="st">Your Investor Report Card</span></div>
+      <p>How you compare to ${pp.cohortSize} investors with similar profiles.</p>
+      <div class="pp-hero">
+        <div class="pp-label">You're in the</div>
+        <div class="pp-top">Top ${100 - pp.overallPercentile}%</div>
+        <div class="pp-type">${pp.personality}</div>
+      </div>
+      <div class="pp-grid">
+        ${pp.dimensions.map(dim => {
+          const color = dim.percentile >= 75 ? 'var(--accent)' : dim.percentile >= 45 ? 'var(--warn)' : 'var(--red)';
+          const barColor = dim.percentile >= 75 ? '#7af0a0' : dim.percentile >= 45 ? '#f0d870' : '#f08080';
+          return `<div class="pp-dim">
+            <div class="pp-dim-name">${dim.label}</div>
+            <div class="pp-dim-pct" style="color:${color}">${dim.percentile}%</div>
+            <div class="pp-dim-desc">${dim.description}</div>
+            <div class="pp-dim-bar"><div class="pp-dim-bar-f" style="width:${dim.percentile}%;background:${barColor}"></div></div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  // ═══ 13 SHADOW INDEX ══════════════════════════════════════════════════
+  if (d.shadowIndex) {
+    const si = d.shadowIndex;
+    const alphaColor = si.portfolioLevel.alpha >= 0 ? '#7af0a0' : '#f08080';
+    html += `<div class="section">
+      <div class="sh"><span class="sn">13</span><span class="st">You vs The Index</span></div>
+      <p>What if every rupee had gone to Nifty 50 (${si.niftyRate.toFixed(1)}% CAGR)?</p>
+      <div class="si-hero">
+        <div class="si-card actual"><div class="si-label">Your Portfolio</div><div class="si-val" style="color:var(--accent)">${INR(si.portfolioLevel.actualValue)}</div></div>
+        <div class="si-card shadow"><div class="si-label">Nifty Shadow</div><div class="si-val" style="color:var(--ink-2)">${INR(si.portfolioLevel.shadowValue)}</div></div>
+        <div class="si-card alpha"><div class="si-label">Your Alpha</div><div class="si-val" style="color:${alphaColor}">${si.portfolioLevel.alpha >= 0 ? '+' : ''}${INR(si.portfolioLevel.alpha)}</div></div>
+      </div>
+      <div class="co co-note">${si.portfolioLevel.alpha >= 0 ? 'Your fund selection has beaten a pure Nifty 50 strategy.' : 'A passive Nifty 50 strategy would have done better. Consider index funds for part of your portfolio.'}</div>`;
+
+    if (si.topAlphaGenerators.length > 0) {
+      html += `<span class="sec-label">Best Alpha Generators</span><div class="si-fund-list">
+        ${si.topAlphaGenerators.map(f => `<div class="si-fund">
+          <div class="si-fund-name">${f.shortName}</div>
+          <div class="si-fund-alpha pos">+${INR(f.alpha)}</div>
+        </div>`).join('')}
+      </div>`;
+    }
+    if (si.bottomAlphaGenerators.length > 0) {
+      html += `<span class="sec-label">Underperforming vs Index</span><div class="si-fund-list">
+        ${si.bottomAlphaGenerators.map(f => `<div class="si-fund">
+          <div class="si-fund-name">${f.shortName}</div>
+          <div class="si-fund-alpha neg">${INR(f.alpha)}</div>
+        </div>`).join('')}
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  // ═══ 14 FI COUNTDOWN ══════════════════════════════════════════════════
+  if (d.fiCountdown) {
+    const fi = d.fiCountdown;
+    const baseline = fi.projections.find(p => p.isBaseline);
+    const alts = fi.projections.filter(p => !p.isBaseline);
+    const baselineDate = baseline ? new Date(baseline.projectedDate).toLocaleDateString('en-IN', {month:'short',year:'numeric'}) : '—';
+
+    html += `<div class="section">
+      <div class="sh"><span class="sn">14</span><span class="st">Financial Freedom Countdown</span></div>
+      <p>Based on ${(fi.swr * 100).toFixed(1)}% safe withdrawal rate and ₹${Math.round(fi.monthlyExpenses).toLocaleString('en-IN')}/mo estimated expenses.</p>
+      <div class="fi-target">
+        <div class="fi-target-label">FI Target (${(fi.swr * 100).toFixed(1)}% SWR)</div>
+        <div class="fi-target-val">${INR(fi.fiTarget)}</div>
+        <div class="fi-progress"><div class="fi-progress-f" style="width:${Math.min(100, fi.progressPct)}%"></div></div>
+        <div class="fi-progress-label">${fi.progressPct.toFixed(1)}% of target reached</div>
+      </div>`;
+
+    if (baseline) {
+      html += `<div class="fi-baseline">
+        <div class="fi-bl-label">At Current Pace</div>
+        <div class="fi-date">${baselineDate}</div>
+        <div class="fi-years">${baseline.yearsToFI} years away · SIP ₹${baseline.monthlySIP.toLocaleString('en-IN')}/mo · ${baseline.annualRate}% returns</div>
+      </div>`;
+    }
+
+    if (alts.length > 0) {
+      html += `<span class="sec-label">Alternative Projections</span><div class="fi-alt-grid">
+        ${alts.map(a => {
+          const aDate = new Date(a.projectedDate).toLocaleDateString('en-IN', {month:'short',year:'numeric'});
+          return `<div class="fi-alt${a.isBearCase ? ' bear' : ''}">
+            <div class="fi-alt-label">${a.label}</div>
+            <div class="fi-alt-date">${aDate}</div>
+            <div class="fi-alt-years">${a.yearsToFI}y · ${a.annualRate}% · ₹${a.monthlySIP.toLocaleString('en-IN')}/mo</div>
+          </div>`;
+        }).join('')}
+      </div>`;
+    }
+
+    html += `<div class="co co-note">Every ₹5,000 increase in monthly SIP accelerates your freedom date. Small expense cuts also work — they lower the target itself.</div>
+    </div>`;
+  }
+
+  document.getElementById('app').innerHTML = html;
+}
+
+// ═══ SLIDESHOW DIALOG ═════════════════════════════════════════════════════
+let currentSlide = 0;
+let currentCards = [];
+let currentKey = '';
+
+function openSlideshow(key) {
+  const cards = window.__JOURNEYS__[key];
+  if (!cards || cards.length === 0) return;
+  currentCards = cards;
+  currentSlide = 0;
+  currentKey = key;
+
+  // Create dialog if not exists
+  let overlay = document.getElementById('slideshow-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'slideshow-overlay';
+    overlay.className = 'dialog-overlay';
+    overlay.innerHTML = `<div class="dialog-box">
+      <button class="dialog-close" onclick="closeSlideshow()">\u2715</button>
+      <div id="slide-container"></div>
+    </div>`;
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeSlideshow(); });
+    document.body.appendChild(overlay);
+  }
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  renderSlide();
+}
+
+function closeSlideshow() {
+  const overlay = document.getElementById('slideshow-overlay');
+  if (overlay) overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function goSlide(dir) {
+  const next = currentSlide + dir;
+  if (next < 0 || next >= currentCards.length) return;
+  currentSlide = next;
+  renderSlide();
+}
+
+function renderSlide() {
+  const c = currentCards[currentSlide];
+  const styles = window.__SLOT_STYLES__;
+  const ss = styles[c.slot] || {bg:'#2d3436',fg:'#fff'};
+  const total = currentCards.length;
+  const slotNames = {answer:'The Answer',education:'Why It Matters',your_data:'Your Data',impact:'The Impact',action:'What To Do'};
+  const slotName = slotNames[c.slot] || c.slot;
+
+  const container = document.getElementById('slide-container');
+  container.innerHTML = `<div class="slide" style="background:${ss.bg};color:${ss.fg}">
+    <div class="slide-step">Card ${currentSlide + 1} of ${total} \u2014 ${currentKey.replace(/_/g, ' ')}</div>
+    <div class="slide-slot">${slotName}</div>
+    ${c.highlightValue ? `<div class="slide-big">${c.highlightValue}</div><div class="slide-big-label">${c.highlightLabel || ''}</div>` : ''}
+    <div class="slide-title">${c.title}</div>
+    <div class="slide-body">${c.body}</div>
+    <div class="slide-nav">
+      <button class="slide-btn" onclick="goSlide(-1)" ${currentSlide === 0 ? 'disabled' : ''} style="border-color:${ss.fg === '#fff' ? 'rgba(255,255,255,.3)' : 'rgba(0,0,0,.2)'};color:${ss.fg}">\u2190</button>
+      <div class="slide-dots">${currentCards.map((_, i) => `<div class="slide-dot${i === currentSlide ? ' active' : ''}" style="background:${i === currentSlide ? (ss.fg === '#fff' ? 'rgba(255,255,255,.7)' : 'rgba(0,0,0,.5)') : (ss.fg === '#fff' ? 'rgba(255,255,255,.2)' : 'rgba(0,0,0,.15)')}"></div>`).join('')}</div>
+      <button class="slide-btn" onclick="goSlide(1)" ${currentSlide === total - 1 ? 'disabled' : ''} style="border-color:${ss.fg === '#fff' ? 'rgba(255,255,255,.3)' : 'rgba(0,0,0,.2)'};color:${ss.fg}">\u2192</button>
+    </div>
+  </div>`;
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  const overlay = document.getElementById('slideshow-overlay');
+  if (!overlay || !overlay.classList.contains('open')) return;
+  if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); goSlide(1); }
+  if (e.key === 'ArrowLeft') { e.preventDefault(); goSlide(-1); }
+  if (e.key === 'Escape') closeSlideshow();
+});
+
+// Data loading: fetch first, fallback to embedded
+fetch('./dashboard-data.json')
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => {
+    if (window.__DASHBOARD_DATA__) {
+      render(window.__DASHBOARD_DATA__);
+    } else {
+      document.getElementById('app').innerHTML = '<p style="color:var(--red);text-align:center;padding:60px 0">Could not load data. Run:<br><code style="background:var(--surface);padding:4px 8px;border-radius:4px;margin-top:8px;display:inline-block;border:1px solid var(--border)">npx ts-node -r tsconfig-paths/register src/scripts/run-advisory.ts</code><br><small style="color:var(--ink-3);margin-top:8px;display:inline-block">This regenerates dashboard.html with embedded data</small></p>';
+    }
+  });
+</script>
+<script id="embedded-data">window.__DASHBOARD_DATA__={"generatedAt":"2026-03-02T18:45:44.633Z","investor":{"name":"ABHISHEK AGGARWAL","pan":"BSC****4K"},"portfolioSummary":{"totalInvested":1867906.5999999999,"totalMarketValue":2291999.64,"totalUnrealisedGain":423999.64000000013,"totalUnrealisedGainPct":22.698053533190585,"activeFolioCount":18,"portfolioXIRR":11.79},"dashboard":{"heroStats":{"currentValueRs":2291999.64,"unrealisedGainRs":423999.64000000013,"unrealisedGainPct":22.698053533190585,"xirr":11.79,"activeFunds":18,"lifetimePnLRs":424093.04000000027,"lifetimePnLPct":22.704188742627725},"realWorldEquivalents":[{"emoji":"🌍","label":"International trips","displayCount":"1×","subtext":"At ₹2.5L per trip"},{"emoji":"🚗","label":"Car down payments","displayCount":"141%","subtext":"At ₹3.0L per down payment"},{"emoji":"🏠","label":"Years of rent covered","displayCount":"1","subtext":"At ₹3.0L per year"},{"emoji":"💻","label":"MacBook + iPhone combos","displayCount":"1×","subtext":"At ₹2.9L per combo"}],"fundRace":[{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","gainPct":67.68,"xirr":8.49,"marketValueRs":16767.89,"plan":"Direct","color":"#f59e0b","xirrReliability":"High"},{"schemeName":"ICICI Prudential Commodities Fund","shortName":"ICICI Prudential C","gainPct":51.37,"xirr":18.27,"marketValueRs":15137.48,"plan":"Direct","color":"#f59e0b","xirrReliability":"Medium Sample"},{"schemeName":"HDFC Gold ETF Fund of Fund","shortName":"HDFC Gold ETF of","gainPct":49.25,"xirr":80.01,"marketValueRs":89547.13,"plan":"Direct","color":"#10b981","xirrReliability":"High"},{"schemeName":"Motilal Oswal S and P 500 Index Fund","shortName":"Motilal Oswal S an","gainPct":45.71,"xirr":23.3,"marketValueRs":64110.87,"plan":"Direct","color":"#10b981","xirrReliability":"High"},{"schemeName":"Axis Small Cap Fund Direct","shortName":"Axis Small Cap Dir","gainPct":32.76,"xirr":12.13,"marketValueRs":2655.2,"plan":"Direct","color":"#10b981","xirrReliability":"Medium Sample"},{"schemeName":"PGIM India Midcap Fund","shortName":"PGIM India Midcap","gainPct":32.52,"xirr":11.99,"marketValueRs":6625.81,"plan":"Direct","color":"#10b981","xirrReliability":"Medium Sample"},{"schemeName":"HDFC BSE Sensex Index Fund","shortName":"HDFC BSE Sensex In","gainPct":31.58,"xirr":11.32,"marketValueRs":98686.61,"plan":"Direct","color":"#10b981","xirrReliability":"High"},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","shortName":"Mirae Asset ELSS T","gainPct":29.46,"xirr":15.64,"marketValueRs":381907.78,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"Motilal Oswal Large and Midcap Fund","shortName":"Motilal Oswal Larg","gainPct":26.35,"xirr":14.47,"marketValueRs":227424.27,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"SBI Gold Fund","shortName":"SBI Gold","gainPct":25.38,"xirr":82.79,"marketValueRs":37614.94,"plan":"Direct","color":"#3b82f6","xirrReliability":"Medium Sample"},{"schemeName":"quant Small Cap Fund","shortName":"quant Small Cap","gainPct":22.7,"xirr":10.41,"marketValueRs":94478.74,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"ICICI Prudential Large Cap Fund","shortName":"ICICI Prudential L","gainPct":20.89,"xirr":11.79,"marketValueRs":344548.23,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"Aditya Birla Sun Life International Equity Fund","shortName":"Aditya Birla Sun L","gainPct":19.82,"xirr":28.92,"marketValueRs":47926.04,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","gainPct":18.13,"xirr":8.49,"marketValueRs":602467.29,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"Aditya Birla Sun Life PSU Equity Fund Direct","shortName":"Aditya Birla Sun L","gainPct":17.03,"xirr":8.67,"marketValueRs":58515.5,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"ICICI Prudential Technology Fund","shortName":"ICICI Prudential T","gainPct":15.83,"xirr":6.09,"marketValueRs":17374.24,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"Edelweiss Nifty 50 Index Fund","shortName":"Edelweiss Nifty 50","gainPct":13.09,"xirr":7.36,"marketValueRs":90474.94,"plan":"Direct","color":"#3b82f6","xirrReliability":"High"},{"schemeName":"quant Infrastructure Fund","shortName":"quant Infrastructu","gainPct":-4.26,"xirr":-2.17,"marketValueRs":95736.68,"plan":"Direct","color":"#ef4444","xirrReliability":"High"}],"portfolioMap":[{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","weightPct":26.29,"gainPct":18.13,"marketValueRs":602467.29,"color":"#3b82f6"},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","shortName":"Mirae Asset ELSS T","weightPct":16.66,"gainPct":29.46,"marketValueRs":381907.78,"color":"#3b82f6"},{"schemeName":"ICICI Prudential Large Cap Fund","shortName":"ICICI Prudential L","weightPct":15.03,"gainPct":20.89,"marketValueRs":344548.23,"color":"#3b82f6"},{"schemeName":"Motilal Oswal Large and Midcap Fund","shortName":"Motilal Oswal Larg","weightPct":9.92,"gainPct":26.35,"marketValueRs":227424.27,"color":"#3b82f6"},{"schemeName":"HDFC BSE Sensex Index Fund","shortName":"HDFC BSE Sensex In","weightPct":4.31,"gainPct":31.58,"marketValueRs":98686.61,"color":"#10b981"},{"schemeName":"quant Infrastructure Fund","shortName":"quant Infrastructu","weightPct":4.18,"gainPct":-4.26,"marketValueRs":95736.68,"color":"#ef4444"},{"schemeName":"quant Small Cap Fund","shortName":"quant Small Cap","weightPct":4.12,"gainPct":22.7,"marketValueRs":94478.74,"color":"#3b82f6"},{"schemeName":"Edelweiss Nifty 50 Index Fund","shortName":"Edelweiss Nifty 50","weightPct":3.95,"gainPct":13.09,"marketValueRs":90474.94,"color":"#3b82f6"},{"schemeName":"HDFC Gold ETF Fund of Fund","shortName":"HDFC Gold ETF of","weightPct":3.91,"gainPct":49.25,"marketValueRs":89547.13,"color":"#10b981"},{"schemeName":"Motilal Oswal S and P 500 Index Fund","shortName":"Motilal Oswal S an","weightPct":2.8,"gainPct":45.71,"marketValueRs":64110.87,"color":"#10b981"},{"schemeName":"Aditya Birla Sun Life PSU Equity Fund Direct","shortName":"Aditya Birla Sun L","weightPct":2.55,"gainPct":17.03,"marketValueRs":58515.5,"color":"#3b82f6"},{"schemeName":"Aditya Birla Sun Life International Equity Fund","shortName":"Aditya Birla Sun L","weightPct":2.09,"gainPct":19.82,"marketValueRs":47926.04,"color":"#3b82f6"},{"schemeName":"SBI Gold Fund","shortName":"SBI Gold","weightPct":1.64,"gainPct":25.38,"marketValueRs":37614.94,"color":"#3b82f6"},{"schemeName":"ICICI Prudential Technology Fund","shortName":"ICICI Prudential T","weightPct":0.76,"gainPct":15.83,"marketValueRs":17374.24,"color":"#3b82f6"},{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","weightPct":0.73,"gainPct":67.68,"marketValueRs":16767.89,"color":"#f59e0b"},{"schemeName":"ICICI Prudential Commodities Fund","shortName":"ICICI Prudential C","weightPct":0.66,"gainPct":51.37,"marketValueRs":15137.48,"color":"#f59e0b"}],"heatmap":[{"year":"2023","totalInvestedRs":605969.7,"totalWithdrawnRs":0,"months":[{"month":1,"investedRs":0,"withdrawnRs":0},{"month":2,"investedRs":0,"withdrawnRs":0},{"month":3,"investedRs":149992.5,"withdrawnRs":0},{"month":4,"investedRs":25998.7,"withdrawnRs":0},{"month":5,"investedRs":0,"withdrawnRs":0},{"month":6,"investedRs":0,"withdrawnRs":0},{"month":7,"investedRs":0,"withdrawnRs":0},{"month":8,"investedRs":175991.2,"withdrawnRs":0},{"month":9,"investedRs":72996.35,"withdrawnRs":0},{"month":10,"investedRs":80995.95,"withdrawnRs":0},{"month":11,"investedRs":54997.25,"withdrawnRs":0},{"month":12,"investedRs":44997.75,"withdrawnRs":0}]},{"year":"2024","totalInvestedRs":843957.8,"totalWithdrawnRs":0,"months":[{"month":1,"investedRs":999.95,"withdrawnRs":0},{"month":2,"investedRs":25998.7,"withdrawnRs":0},{"month":3,"investedRs":354982.25,"withdrawnRs":0},{"month":4,"investedRs":104994.75,"withdrawnRs":0},{"month":5,"investedRs":154992.25,"withdrawnRs":0},{"month":6,"investedRs":79996,"withdrawnRs":0},{"month":7,"investedRs":4999.75,"withdrawnRs":0},{"month":8,"investedRs":999.95,"withdrawnRs":0},{"month":9,"investedRs":50997.45,"withdrawnRs":0},{"month":10,"investedRs":54997.25,"withdrawnRs":0},{"month":11,"investedRs":4999.75,"withdrawnRs":0},{"month":12,"investedRs":4999.75,"withdrawnRs":0}]},{"year":"2025","totalInvestedRs":415979.2,"totalWithdrawnRs":0,"months":[{"month":1,"investedRs":4999.75,"withdrawnRs":0},{"month":2,"investedRs":999.95,"withdrawnRs":0},{"month":3,"investedRs":999.95,"withdrawnRs":0},{"month":4,"investedRs":999.95,"withdrawnRs":0},{"month":5,"investedRs":90995.45,"withdrawnRs":0},{"month":6,"investedRs":150992.45,"withdrawnRs":0},{"month":7,"investedRs":999.95,"withdrawnRs":0},{"month":8,"investedRs":999.95,"withdrawnRs":0},{"month":9,"investedRs":80995.95,"withdrawnRs":0},{"month":10,"investedRs":80995.95,"withdrawnRs":0},{"month":11,"investedRs":999.95,"withdrawnRs":0},{"month":12,"investedRs":999.95,"withdrawnRs":0}]},{"year":"2026","totalInvestedRs":1999.9,"totalWithdrawnRs":0,"months":[{"month":1,"investedRs":999.95,"withdrawnRs":0},{"month":2,"investedRs":999.95,"withdrawnRs":0},{"month":3,"investedRs":0,"withdrawnRs":0},{"month":4,"investedRs":0,"withdrawnRs":0},{"month":5,"investedRs":0,"withdrawnRs":0},{"month":6,"investedRs":0,"withdrawnRs":0},{"month":7,"investedRs":0,"withdrawnRs":0},{"month":8,"investedRs":0,"withdrawnRs":0},{"month":9,"investedRs":0,"withdrawnRs":0},{"month":10,"investedRs":0,"withdrawnRs":0},{"month":11,"investedRs":0,"withdrawnRs":0},{"month":12,"investedRs":0,"withdrawnRs":0}]}],"benchmarkBars":[{"name":"Nifty IT","xirr":2.2309950652975363,"isPortfolio":false,"color":"#3b82f6"},{"name":"Nifty Smallcap 250","xirr":5.8799891450703745,"isPortfolio":false,"color":"#3b82f6"},{"name":"Bank FD","xirr":7,"isPortfolio":false,"color":"#64748b"},{"name":"BSE Sensex","xirr":11.633557924471427,"isPortfolio":false,"color":"#3b82f6"},{"name":"Your Portfolio","xirr":11.79,"isPortfolio":true,"color":"#f59e0b"},{"name":"Nifty Midcap 150","xirr":12.711368510054278,"isPortfolio":false,"color":"#3b82f6"},{"name":"Nifty 50","xirr":13.614774608786885,"isPortfolio":false,"color":"#3b82f6"},{"name":"Nifty 500","xirr":17.29030428908125,"isPortfolio":false,"color":"#3b82f6"},{"name":"S&P 500","xirr":19.344916544492776,"isPortfolio":false,"color":"#3b82f6"},{"name":"Nifty Infrastructure","xirr":24.025977542052047,"isPortfolio":false,"color":"#3b82f6"},{"name":"Gold Futures","xirr":39.844110235437014,"isPortfolio":false,"color":"#3b82f6"}],"fundCards":[{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","gainPct":18.13,"xirr":8.49,"xirrReliability":"High","marketValueRs":602467.29,"weightPct":26.29,"plan":"Direct","holdingDays":1064,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":-5.12,"benchmarkName":"Nifty 50","color":"#3b82f6","isRegular":false},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","shortName":"Mirae Asset ELSS T","gainPct":29.46,"xirr":15.64,"xirrReliability":"High","marketValueRs":381907.78,"weightPct":16.66,"plan":"Direct","holdingDays":1064,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":2.03,"benchmarkName":"Nifty 50","color":"#3b82f6","isRegular":false},{"schemeName":"ICICI Prudential Large Cap Fund","shortName":"ICICI Prudential L","gainPct":20.89,"xirr":11.79,"xirrReliability":"High","marketValueRs":344548.23,"weightPct":15.03,"plan":"Direct","holdingDays":907,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":1.02,"benchmarkName":"Nifty 50","color":"#3b82f6","isRegular":false},{"schemeName":"Motilal Oswal Large and Midcap Fund","shortName":"Motilal Oswal Larg","gainPct":26.35,"xirr":14.47,"xirrReliability":"High","marketValueRs":227424.27,"weightPct":9.92,"plan":"Direct","holdingDays":847,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":0.19,"benchmarkName":"Nifty 500","color":"#3b82f6","isRegular":false},{"schemeName":"HDFC BSE Sensex Index Fund","shortName":"HDFC BSE Sensex In","gainPct":31.58,"xirr":11.32,"xirrReliability":"High","marketValueRs":98686.61,"weightPct":4.31,"plan":"Direct","holdingDays":1044,"personality":"Strong performer 💪","personalityDescription":"Beating most peers","benchmarkGapPp":-0.13,"benchmarkName":"BSE Sensex","color":"#10b981","isRegular":false},{"schemeName":"quant Infrastructure Fund","shortName":"quant Infrastructu","gainPct":-4.26,"xirr":-2.17,"xirrReliability":"High","marketValueRs":95736.68,"weightPct":4.18,"plan":"Direct","holdingDays":725,"personality":"Needs review 🔍","personalityDescription":"Underperforming","benchmarkGapPp":-9.17,"benchmarkName":"Nifty Infrastructure","color":"#ef4444","isRegular":false},{"schemeName":"quant Small Cap Fund","shortName":"quant Small Cap","gainPct":22.7,"xirr":10.41,"xirrReliability":"High","marketValueRs":94478.74,"weightPct":4.12,"plan":"Direct","holdingDays":1061,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":4.38,"benchmarkName":"Nifty Smallcap 250","color":"#3b82f6","isRegular":false},{"schemeName":"Edelweiss Nifty 50 Index Fund","shortName":"Edelweiss Nifty 50","gainPct":13.09,"xirr":7.36,"xirrReliability":"High","marketValueRs":90474.94,"weightPct":3.95,"plan":"Direct","holdingDays":632,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":0.97,"benchmarkName":"Nifty 50","color":"#3b82f6","isRegular":false},{"schemeName":"HDFC Gold ETF Fund of Fund","shortName":"HDFC Gold ETF of","gainPct":49.25,"xirr":80.01,"xirrReliability":"High","marketValueRs":89547.13,"weightPct":3.91,"plan":"Direct","holdingDays":297,"personality":"Strong performer 💪","personalityDescription":"Beating most peers","benchmarkGapPp":10.87,"benchmarkName":"Gold Futures","color":"#10b981","isRegular":false},{"schemeName":"Motilal Oswal S and P 500 Index Fund","shortName":"Motilal Oswal S an","gainPct":45.71,"xirr":23.3,"xirrReliability":"High","marketValueRs":64110.87,"weightPct":2.8,"plan":"Direct","holdingDays":905,"personality":"Strong performer 💪","personalityDescription":"Beating most peers","benchmarkGapPp":4.25,"benchmarkName":"S&P 500","color":"#10b981","isRegular":false},{"schemeName":"Aditya Birla Sun Life PSU Equity Fund Direct","shortName":"Aditya Birla Sun L","gainPct":17.03,"xirr":8.67,"xirrReliability":"High","marketValueRs":58515.5,"weightPct":2.55,"plan":"Direct","holdingDays":690,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":2.95,"benchmarkName":"Nifty 50","color":"#3b82f6","isRegular":false},{"schemeName":"Aditya Birla Sun Life International Equity Fund","shortName":"Aditya Birla Sun L","gainPct":19.82,"xirr":28.92,"xirrReliability":"High","marketValueRs":47926.04,"weightPct":2.09,"plan":"Direct","holdingDays":259,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":7,"benchmarkName":"S&P 500","color":"#3b82f6","isRegular":false},{"schemeName":"SBI Gold Fund","shortName":"SBI Gold","gainPct":25.38,"xirr":82.79,"xirrReliability":"Medium Sample","marketValueRs":37614.94,"weightPct":1.64,"plan":"Direct","holdingDays":137,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":-4.74,"benchmarkName":"Gold Futures","color":"#3b82f6","isRegular":false},{"schemeName":"ICICI Prudential Technology Fund","shortName":"ICICI Prudential T","gainPct":15.83,"xirr":6.09,"xirrReliability":"High","marketValueRs":17374.24,"weightPct":0.76,"plan":"Direct","holdingDays":907,"personality":"Steady Eddie 🔄","personalityDescription":"Consistent, reliable","benchmarkGapPp":8.07,"benchmarkName":"Nifty IT","color":"#3b82f6","isRegular":false},{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","gainPct":67.68,"xirr":8.49,"xirrReliability":"High","marketValueRs":16767.89,"weightPct":0.73,"plan":"Direct","holdingDays":1064,"personality":"Superstar ⭐","personalityDescription":"Exceptional gains","benchmarkGapPp":-5.12,"benchmarkName":"Nifty 50","color":"#f59e0b","isRegular":false},{"schemeName":"ICICI Prudential Commodities Fund","shortName":"ICICI Prudential C","gainPct":51.37,"xirr":18.27,"xirrReliability":"Medium Sample","marketValueRs":15137.48,"weightPct":0.66,"plan":"Direct","holdingDays":904,"personality":"Superstar ⭐","personalityDescription":"Exceptional gains","benchmarkGapPp":7.91,"benchmarkName":"Nifty 50","color":"#f59e0b","isRegular":false},{"schemeName":"PGIM India Midcap Fund","shortName":"PGIM India Midcap","gainPct":32.52,"xirr":11.99,"xirrReliability":"Medium Sample","marketValueRs":6625.81,"weightPct":0.29,"plan":"Direct","holdingDays":907,"personality":"Strong performer 💪","personalityDescription":"Beating most peers","benchmarkGapPp":3.6,"benchmarkName":"Nifty Midcap 150","color":"#10b981","isRegular":false},{"schemeName":"Axis Small Cap Fund Direct","shortName":"Axis Small Cap Dir","gainPct":32.76,"xirr":12.13,"xirrReliability":"Medium Sample","marketValueRs":2655.2,"weightPct":0.12,"plan":"Direct","holdingDays":904,"personality":"Strong performer 💪","personalityDescription":"Beating most peers","benchmarkGapPp":12.01,"benchmarkName":"Nifty Smallcap 250","color":"#10b981","isRegular":false}],"closedFunds":[],"sectorAllocation":{"sectors":[{"sector":"Others","portfolioWeight":92.40273226167129,"equityWeight":99.98956617075063,"color":"#94a3b8"}],"othersWeight":0,"totalSectorsCount":1},"topHoldings":{"holdings":[{"companyName":"Reliance Industries Ltd.","portfolioWeight":5.04,"equityWeight":5.46},{"companyName":"Larsen & Toubro Ltd.","portfolioWeight":4.84,"equityWeight":5.24},{"companyName":"HDFC Bank Ltd.","portfolioWeight":4.74,"equityWeight":5.13},{"companyName":"ICICI Bank Ltd.","portfolioWeight":4.57,"equityWeight":4.95},{"companyName":"HDFC Gold ETF","portfolioWeight":3.91,"equityWeight":4.23},{"companyName":"Samvardhana Motherson International Ltd.","portfolioWeight":2.68,"equityWeight":2.9},{"companyName":"Adani Power Ltd.","portfolioWeight":2.45,"equityWeight":2.65},{"companyName":"JIO Financial Services Ltd.","portfolioWeight":2,"equityWeight":2.16},{"companyName":"Aurobindo Pharma Ltd.","portfolioWeight":1.9,"equityWeight":2.05},{"companyName":"Axis Bank Ltd.","portfolioWeight":1.66,"equityWeight":1.79}],"concentrationRisk":{"top5Weight":23.1,"top10Weight":33.79,"herfindahlIndex":171.83},"totalCompaniesCount":472},"assetAllocation":[{"assetClass":"Equity","marketValueRs":2230128.2,"weight":97.3,"color":"#3b82f6"},{"assetClass":"Debt","marketValueRs":16170.81,"weight":0.71,"color":"#10b981"},{"assetClass":"Others","marketValueRs":220.18,"weight":0.01,"color":"#94a3b8"}],"marketCapDistribution":null,"fitnessScore":{"composite":65,"label":"Good","dimensions":{"performance":41,"efficiency":90,"structure":57,"discipline":92}},"uniqueNumbers":{"daysInvested":1067,"dailyEarnings":397,"bestDayGain":null,"investorType":"Steady Compounder","costOfInaction":2000768,"loyaltyBadge":{"schemeName":"quant ELSS Tax Saver Fund","holdingDays":1064,"firstTransactionDate":"2023-03-31"}}},"insightStates":{"health":[{"insightKey":"no_nominees","status":"READY","relevanceScore":70},{"insightKey":"overlap_warning","status":"READY","relevanceScore":65},{"insightKey":"risk_reward_monthly","status":"READY","relevanceScore":45},{"insightKey":"benchmark_weekly","status":"READY","relevanceScore":40},{"insightKey":"best_worst_fund_weekly","status":"READY","relevanceScore":35},{"insightKey":"fund_manager_change","status":"PENDING","relevanceScore":0},{"insightKey":"regular_plan_cost","status":"PENDING","relevanceScore":0},{"insightKey":"fund_house_concentration","status":"PENDING","relevanceScore":0},{"insightKey":"asset_allocation_drift","status":"PENDING","relevanceScore":0}],"tax":[{"insightKey":"ltcg_boundary_30d","status":"READY","relevanceScore":85},{"insightKey":"ltcg_exemption_80pct","status":"READY","relevanceScore":75},{"insightKey":"elss_unlock_30d","status":"READY","relevanceScore":70},{"insightKey":"tax_harvest_seasonal","status":"PENDING","relevanceScore":0}],"behavioral":[{"insightKey":"too_many_funds","status":"READY","relevanceScore":65},{"insightKey":"sip_missed","status":"READY","relevanceScore":60},{"insightKey":"portfolio_neglect","status":"READY","relevanceScore":55},{"insightKey":"investor_profile","status":"READY","relevanceScore":50},{"insightKey":"market_crash_behavioral","status":"PENDING","relevanceScore":0}],"whatif":[]},"cardJourneys":{"ltcg_boundary_30d":[{"slot":"answer","title":"STCG → LTCG conversion coming","body":"1 holding will convert from STCG to LTCG within 30 days. This can significantly reduce your tax.","highlightValue":null},{"slot":"education","title":"STCG vs LTCG in mutual funds","body":"Equity funds held >12 months qualify for LTCG tax at 12.5% (above ₹1.25L exemption). STCG is taxed at 20%. Waiting a few weeks could save you meaningful tax.","highlightValue":null},{"slot":"your_data","title":"Holdings approaching LTCG","body":"These holdings are days away from the LTCG threshold. Consider waiting before redeeming.","highlightValue":null},{"slot":"impact","title":"Tax savings potential","body":"The difference between STCG (20%) and LTCG (12.5% with ₹1.25L exemption) can save you thousands — or lakhs on larger holdings.","highlightValue":null},{"slot":"action","title":"Wait before redeeming","body":"If you were planning to redeem these funds, waiting a few more days could qualify them for the lower LTCG rate.","highlightValue":null}],"ltcg_exemption_80pct":[{"slot":"answer","title":"LTCG exemption nearly exhausted","body":"If you redeemed today, ₹1.25L of your ₹1.25L annual LTCG exemption would be consumed. Only ₹0 would remain tax-free.","highlightValue":null},{"slot":"education","title":"LTCG exemption explained","body":"Each financial year, you get ₹1.25L of LTCG completely tax-free on redemption. Any LTCG above this is taxed at 12.5%. Planning redemptions across FY boundaries can maximize this benefit.","highlightValue":null},{"slot":"your_data","title":"Your unrealised LTCG status","body":"Your unrealised long-term gains would consume ₹1.25L of the ₹1.25L exemption if booked now. Plan any redemptions carefully.","highlightValue":"₹0","highlightLabel":"exemption remaining"},{"slot":"impact","title":"Plan across financial years","body":"If you need to redeem more, consider splitting: redeem some now and the rest after April 1 to get a fresh ₹1.25L exemption.","highlightValue":null},{"slot":"action","title":"Defer large redemptions","body":"If your redemption can wait, booking the remaining gains after the FY resets your exemption limit.","highlightValue":null}],"no_nominees":[{"slot":"answer","title":"Some folios have no nominee","body":"18 of your folios don't have a nominee registered. This can cause major issues for your family during emergencies.","highlightValue":null},{"slot":"education","title":"Why nominees matter","body":"Without a nominee, your family would need to go through a lengthy legal process to claim your mutual fund investments. SEBI has made nomination mandatory for new folios.","highlightValue":null},{"slot":"your_data","title":"Folios without nominees","body":"18 folios missing nominee details. This is a critical gap in your financial planning.","highlightValue":"18","highlightLabel":"folios without nominee"},{"slot":"impact","title":"What happens without a nominee","body":"Claims without a nominee require succession certificates, legal heir certificates, or probate — a process that can take 6-12 months and involve legal costs.","highlightValue":null},{"slot":"action","title":"Add nominees now","body":"Log into your AMC websites or visit a CAMS/KFintech service centre. You can also update nominees through MFCentral.com. It's a one-time 5-minute process per folio.","highlightValue":null}],"elss_unlock_30d":[{"slot":"answer","title":"ELSS units unlocking soon","body":"3 ELSS holdings with oldest units completing the 3-year lock-in within 30 days. Note: each SIP installment has its own 3-year lock.","highlightValue":null},{"slot":"education","title":"ELSS lock-in period","body":"ELSS has a mandatory 3-year lock-in per installment. If you invest via SIP, each month's units unlock 3 years from their purchase date — not all at once.","highlightValue":null},{"slot":"your_data","title":"Unlocking soon","body":"The oldest units in your ELSS investments are about to complete their lock-in period. Newer SIP installments may still be locked.","highlightValue":null},{"slot":"impact","title":"Redeem or hold?","body":"If the fund is a consistent performer, holding beyond lock-in is often wise. If underperforming, you can switch to a better ELSS (for next year's 80C) or a non-ELSS fund.","highlightValue":null},{"slot":"action","title":"Review performance at unlock","body":"Compare your ELSS fund's 3-year return against its benchmark and category average. Decide based on performance, not just because the lock-in ended.","highlightValue":null}],"overlap_warning":[{"slot":"answer","title":"Your funds are buying the same stocks","body":"1 fund pair with over 40% overlap — you're paying multiple expense ratios for nearly identical exposure.","highlightValue":null},{"slot":"education","title":"What is fund overlap?","body":"Fund overlap means two or more of your funds hold the same underlying stocks. High overlap (>40%) means you're not getting true diversification — just paying extra fees for similar portfolios.","highlightValue":null},{"slot":"your_data","title":"Overlapping pairs","body":"We found 1 pair with significant overlap in your portfolio. These funds share many of the same top holdings.","highlightValue":"1","highlightLabel":"overlapping pairs"},{"slot":"impact","title":"Hidden cost of overlap","body":"Holding overlapping funds increases your effective expense ratio without adding diversification. Consolidating could reduce fees and simplify your portfolio.","highlightValue":null},{"slot":"action","title":"Consolidate overlapping funds","body":"Consider keeping the fund with better performance and lower TER from each overlapping pair. Redeem the weaker one and redirect that SIP.","highlightValue":null}],"too_many_funds":[{"slot":"answer","title":"You own too many funds","body":"18 active funds is more than you need. Research shows 5-7 well-chosen funds provide optimal diversification.","highlightValue":null},{"slot":"education","title":"Diminishing diversification","body":"Beyond 7-8 funds, additional funds rarely add diversification. Instead, they increase overlap, complexity, and tracking burden.","highlightValue":null},{"slot":"your_data","title":"Your fund count","body":"You have 18 active funds. Some likely overlap significantly, diluting your returns and making tracking harder.","highlightValue":"18","highlightLabel":"active funds"},{"slot":"impact","title":"Portfolio simplification","body":"Fewer, well-chosen funds typically outperform bloated portfolios. Less overlap means lower effective expense ratios.","highlightValue":null},{"slot":"action","title":"Consolidate to 5-7 funds","body":"Identify overlapping or underperforming funds. Keep the best in each category and redirect SIPs. Use our overlap analysis to guide consolidation.","highlightValue":null}],"sip_missed":[{"slot":"answer","title":"SIP installments missed","body":"2 funds with missed SIP installments. Irregular SIPs reduce the benefit of rupee cost averaging.","highlightValue":null},{"slot":"education","title":"Why SIP consistency matters","body":"SIPs work through rupee cost averaging — buying more units when prices are low and fewer when high. Missing installments, especially during market dips, defeats this purpose.","highlightValue":null},{"slot":"your_data","title":"Missed SIPs","body":"Some of your SIP schemes have irregular patterns. This reduces the compounding benefit of disciplined investing.","highlightValue":null},{"slot":"impact","title":"Cost of missed SIPs","body":"Missing even 2-3 SIP installments during a market dip can reduce your 10-year wealth by 5-8%. Consistency beats timing.","highlightValue":null},{"slot":"action","title":"Ensure SIP mandates are active","body":"Check your bank mandates for these funds. Set up auto-debit with sufficient balance. Consider a backup bank account for SIP debits.","highlightValue":null}],"portfolio_neglect":[{"slot":"answer","title":"Some funds haven't been reviewed in a year","body":"8 funds with no activity for over a year. An annual review ensures your portfolio stays aligned with your goals.","highlightValue":null},{"slot":"education","title":"Annual portfolio review","body":"Even buy-and-hold portfolios need an annual check. Fund performance can deteriorate, categories can change, and your goals may evolve. A quick review prevents silent underperformance.","highlightValue":null},{"slot":"your_data","title":"Holdings due for review","body":"These funds have had no transactions in over a year. This doesn't mean they're bad — but they deserve a performance check.","highlightValue":null},{"slot":"impact","title":"Silent underperformance","body":"Funds that underperform their benchmark for 4+ quarters rarely recover. Early detection saves your returns.","highlightValue":null},{"slot":"action","title":"Review dormant funds","body":"Check each fund's rolling 1-year return vs its benchmark. If it consistently trails, consider switching to a better alternative in the same category.","highlightValue":null}],"investor_profile":[{"slot":"answer","title":"Your investor profile","body":"Based on your transaction history, we've identified your investing personality. This helps us personalize your insights.","highlightValue":null},{"slot":"education","title":"Investor archetypes","body":"Every investor has patterns — SIP discipline, reaction to market drops, holding period tendencies. Understanding yours helps you make better decisions.","highlightValue":null},{"slot":"your_data","title":"Your pattern","body":"We analyzed your transaction history to identify your investing behavior. Your profile will be refined as we observe more data.","highlightValue":null},{"slot":"impact","title":"Self-awareness edge","body":"Investors who understand their own behavioral biases tend to make 2-3% better annual returns by avoiding emotional decisions.","highlightValue":null},{"slot":"action","title":"Lean into your strengths","body":"Your investor type comes with natural strengths. We'll tailor future insights to reinforce your good habits and gently flag risky ones.","highlightValue":null}],"risk_reward_monthly":[{"slot":"answer","title":"Your risk-reward profile this month","body":"Sharpe ratio: 0.85. Max drawdown: -46.46%. Your portfolio's risk-adjusted returns at a glance.","highlightValue":null},{"slot":"education","title":"Understanding Sharpe ratio","body":"The Sharpe ratio measures return per unit of risk. Above 1.0 is good, above 2.0 is excellent. A negative Sharpe means you'd have been better off in a savings account.","highlightValue":null},{"slot":"your_data","title":"Your risk numbers","body":"Volatility: 22.6%, Max drawdown: -46.46%, Sharpe: 0.85","highlightValue":"0.85","highlightLabel":"Sharpe ratio"},{"slot":"impact","title":"What this means for you","body":"A good Sharpe ratio means your returns are compensating you fairly for the risk taken. Low Sharpe with high volatility suggests you could get better risk-adjusted returns elsewhere.","highlightValue":null},{"slot":"action","title":"Optimize risk-reward","body":"If your Sharpe ratio is below 1, consider whether lower-volatility alternatives (like index funds or balanced funds) could deliver similar returns with less risk.","highlightValue":null}],"benchmark_weekly":[{"slot":"answer","title":"Your weekly benchmark check","body":"Your portfolio XIRR is 11.79%. Here's how you compare to major indices this week.","highlightValue":null},{"slot":"education","title":"XIRR vs CAGR","body":"Your portfolio XIRR accounts for the timing and size of each investment. CAGR is a simpler measure for lump sum returns. XIRR is more accurate for SIP investors.","highlightValue":null},{"slot":"your_data","title":"Portfolio vs benchmarks","body":"Your portfolio is delivering 11.79% XIRR. Compare this against the benchmark returns to gauge your performance.","highlightValue":"11.79%","highlightLabel":"your portfolio XIRR"},{"slot":"impact","title":"What this means","body":"Beating the benchmark consistently suggests your fund selection is adding value. Trailing it may mean index funds could do better for less cost.","highlightValue":null},{"slot":"action","title":"Review underperformers","body":"If your portfolio trails the benchmark, identify which funds are dragging performance. Consider switching persistent underperformers.","highlightValue":null}],"best_worst_fund_weekly":[{"slot":"answer","title":"Your best & worst this week","body":"Best: quant ELSS Tax Saver Fund at 67.68%. Worst: quant Infrastructure Fund at -4.26%.","highlightValue":null},{"slot":"education","title":"Short-term vs long-term","body":"Weekly performance is noise. Don't make buy/sell decisions based on one week. Look at rolling 1-year and 3-year returns for meaningful signals.","highlightValue":null},{"slot":"your_data","title":"Performance spread","body":"The gap between your best and worst fund is 71.9 percentage points. A wide spread isn't necessarily bad — it can mean genuine diversification.","highlightValue":"71.9pp","highlightLabel":"performance spread"},{"slot":"impact","title":"Why both matter","body":"Your best fund drives returns, your worst teaches you about risk tolerance. Both are important for portfolio design.","highlightValue":null},{"slot":"action","title":"Check trailing 1Y return","body":"If a fund has been your worst performer for 4+ consecutive quarters, it might be worth reviewing its fundamentals.","highlightValue":null}]},"actionables":[{"id":"consolidate_overlap","title":"Consolidate overlapping funds","description":"1 fund pair with >40% overlap. Consolidating could reduce fees and simplify tracking.","relevanceScore":70,"condition":true,"metadata":{"pairs":[{"scheme1":"Edelweiss Nifty 50 Index Fund","scheme2":"HDFC BSE Sensex Index Fund","overlap":60.78}]}},{"id":"elss_unlock_calendar","title":"ELSS lock-in ending soon","description":"3 ELSS holdings will unlock within 90 days. Review performance and decide whether to hold, switch, or redeem.","relevanceScore":65,"condition":true,"metadata":{"funds":[{"schemeName":"quant ELSS Tax Saver Fund","firstTxDate":"2023-03-31"},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","firstTxDate":"2023-03-31"},{"schemeName":"quant ELSS Tax Saver Fund","firstTxDate":"2023-03-31"}]}},{"id":"revive_exit_dormant","title":"Review dormant holdings","description":"8 funds with no activity for over a year. Review performance and decide to continue, add more, or exit.","relevanceScore":55,"condition":true,"metadata":{"funds":[{"schemeName":"HDFC BSE Sensex Index Fund","holdingDays":1044,"lastTxDate":"2023-10-04"},{"schemeName":"quant Infrastructure Fund","holdingDays":725,"lastTxDate":"2024-03-04"},{"schemeName":"Edelweiss Nifty 50 Index Fund","holdingDays":632,"lastTxDate":"2024-06-05"},{"schemeName":"Aditya Birla Sun Life PSU Equity Fund Direct","holdingDays":690,"lastTxDate":"2024-04-08"},{"schemeName":"ICICI Prudential Technology Fund","holdingDays":907,"lastTxDate":"2023-09-04"},{"schemeName":"ICICI Prudential Commodities Fund","holdingDays":904,"lastTxDate":"2023-09-12"},{"schemeName":"PGIM India Midcap Fund","holdingDays":907,"lastTxDate":"2023-09-04"},{"schemeName":"Axis Small Cap Fund Direct","holdingDays":904,"lastTxDate":"2023-09-08"}]}},{"id":"set_sip_increase_reminder","title":"Step up your SIPs","description":"1 SIP running at the same amount for 12+ months. Consider a 10% annual step-up to keep pace with inflation.","relevanceScore":50,"condition":true,"metadata":{"sips":[{"schemeName":"quant Small Cap Fund","sipAmount":1000}]}}],"riskMetrics":{"portfolioVolatility":22.6,"sharpeRatio":0.85,"sortinoRatio":1.19,"maxDrawdown":-46.46},"activeHoldings":[{"schemeName":"quant ELSS Tax Saver Fund","marketValue":602467.29,"weight":26.29,"unrealisedGainPct":18.13,"plan":"Direct"},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","marketValue":381907.78,"weight":16.66,"unrealisedGainPct":29.46,"plan":"Direct"},{"schemeName":"ICICI Prudential Large Cap Fund","marketValue":344548.23,"weight":15.03,"unrealisedGainPct":20.89,"plan":"Direct"},{"schemeName":"Motilal Oswal Large and Midcap Fund","marketValue":227424.27,"weight":9.92,"unrealisedGainPct":26.35,"plan":"Direct"},{"schemeName":"HDFC BSE Sensex Index Fund","marketValue":98686.61,"weight":4.31,"unrealisedGainPct":31.58,"plan":"Direct"},{"schemeName":"quant Infrastructure Fund","marketValue":95736.68,"weight":4.18,"unrealisedGainPct":-4.26,"plan":"Direct"},{"schemeName":"quant Small Cap Fund","marketValue":94478.74,"weight":4.12,"unrealisedGainPct":22.7,"plan":"Direct"},{"schemeName":"Edelweiss Nifty 50 Index Fund","marketValue":90474.94,"weight":3.95,"unrealisedGainPct":13.09,"plan":"Direct"},{"schemeName":"HDFC Gold ETF Fund of Fund","marketValue":89547.13,"weight":3.91,"unrealisedGainPct":49.25,"plan":"Direct"},{"schemeName":"Motilal Oswal S and P 500 Index Fund","marketValue":64110.87,"weight":2.8,"unrealisedGainPct":45.71,"plan":"Direct"},{"schemeName":"Aditya Birla Sun Life PSU Equity Fund Direct","marketValue":58515.5,"weight":2.55,"unrealisedGainPct":17.03,"plan":"Direct"},{"schemeName":"Aditya Birla Sun Life International Equity Fund","marketValue":47926.04,"weight":2.09,"unrealisedGainPct":19.82,"plan":"Direct"},{"schemeName":"SBI Gold Fund","marketValue":37614.94,"weight":1.64,"unrealisedGainPct":25.38,"plan":"Direct"},{"schemeName":"ICICI Prudential Technology Fund","marketValue":17374.24,"weight":0.76,"unrealisedGainPct":15.83,"plan":"Direct"},{"schemeName":"quant ELSS Tax Saver Fund","marketValue":16767.89,"weight":0.73,"unrealisedGainPct":67.68,"plan":"Direct"},{"schemeName":"ICICI Prudential Commodities Fund","marketValue":15137.48,"weight":0.66,"unrealisedGainPct":51.37,"plan":"Direct"},{"schemeName":"PGIM India Midcap Fund","marketValue":6625.81,"weight":0.29,"unrealisedGainPct":32.52,"plan":"Direct"},{"schemeName":"Axis Small Cap Fund Direct","marketValue":2655.2,"weight":0.12,"unrealisedGainPct":32.76,"plan":"Direct"}],"whatIfScenarios":[{"id":"WORST_FUND_REMOVED","name":"Worst Fund → Best Fund","description":"What if you had invested in SBI Gold Fund instead of quant Infrastructure Fund?","relevanceScore":100,"actual":{"totalInvested":99995,"currentValue":95737,"xirr":-2.17},"hypothetical":{"totalInvested":99995,"hypotheticalValue":331640,"hypotheticalXirr":82.79},"difference":{"absoluteAmount":235903,"percentageDifference":235.91,"userDidBetter":false},"dataPointsForNarrative":{"worstFund":"quant Infrastructure Fund","worstXirr":-2.17,"worstValue":95737,"bestFund":"SBI Gold Fund","bestXirr":82.79,"hypotheticalValue":331640,"invested":99995,"holdingYears":2,"opportunityCost":235903,"hypotheticalPortfolioMV":2527903,"portfolioImpactPct":10.29,"framing":"Your worst fund (quant Infrastructure Fund at -2.2% XIRR) cost you ₹2,35,903. If that money had been in SBI Gold Fund (82.8% XIRR), you'd have ₹3,31,640 instead of ₹95,737."}},{"id":"FD_VS_MF","name":"FD vs Mutual Funds","description":"What if you had put all your money in a bank FD at 7% instead?","relevanceScore":90,"actual":{"totalInvested":1867906.5999999992,"currentValue":2292000,"xirr":11.79},"hypothetical":{"totalInvested":1867906.5999999992,"hypotheticalValue":2074623,"hypotheticalXirr":5.93},"difference":{"absoluteAmount":217377,"percentageDifference":11.64,"userDidBetter":true},"dataPointsForNarrative":{"fdRate":"7%","fdValueBeforeTDS":2113230,"tdsDeducted":38606,"fdValueAfterTDS":2074623,"mfValue":2292000,"mfXirr":11.79,"totalInvested":1867907,"holdingYears":2.9,"mfBeatFDBy":217377,"framing":"Your mutual funds earned ₹2,17,377 more than an FD would have"}},{"id":"CROREPATI_COUNTDOWN","name":"₹25 Lakh Countdown","description":"When will you hit ₹25 Lakh?","relevanceScore":90,"actual":{"totalInvested":1868000,"currentValue":2292000,"xirr":11.79},"hypothetical":{"totalInvested":108330,"hypotheticalValue":2500000,"hypotheticalXirr":11.79},"difference":{"absoluteAmount":208000,"percentageDifference":9.08,"userDidBetter":false},"dataPointsForNarrative":{"milestone":"₹25 Lakh","milestoneValue":2500000,"currentValue":2292000,"monthlySIP":21666,"monthsRemaining":5,"yearsRemaining":0.4,"projectedDate":"2026-08-02","projectedYear":2026,"portfolioXIRR":11.79,"framing":"At your current pace (₹21,666/mo SIP + 11.8% returns), you'll hit ₹25 Lakh by Aug 2026 — 5 months away"}},{"id":"COFFEE_MONEY_SIP","name":"Coffee Money SIP","description":"What if your daily ₹200 coffee money was a SIP instead?","relevanceScore":85,"actual":{"totalInvested":213000,"currentValue":213000,"xirr":0},"hypothetical":{"totalInvested":210000,"hypotheticalValue":247001,"hypotheticalXirr":11.79},"difference":{"absoluteAmount":34001,"percentageDifference":15.96,"userDidBetter":false},"dataPointsForNarrative":{"dailyCoffee":200,"monthlySIP":6000,"monthsInvested":35,"totalCoffeeSpend":213000,"hypotheticalValue":247001,"portfolioXIRR":11.79,"framing":"Your daily ₹200 coffee over 2.9 years could have grown to ₹2,47,001 as a SIP"}},{"id":"INFLATION_EROSION","name":"Inflation Reality Check","description":"Your ₹4,24,093 gain is really only ₹65,957 after inflation","relevanceScore":80,"actual":{"totalInvested":1867907,"currentValue":2292000,"xirr":11.79},"hypothetical":{"totalInvested":1867907,"hypotheticalValue":1933864,"hypotheticalXirr":5.46},"difference":{"absoluteAmount":358136,"percentageDifference":19.17,"userDidBetter":false},"dataPointsForNarrative":{"nominalGain":424093,"realGain":65957,"erosion":358136,"nominalXIRR":11.79,"realXIRR":5.46,"inflationRate":6,"holdingYears":2.9,"inflationFactor":1.185,"framing":"Inflation ate ₹3,58,136 of your gains — your real return is 5.5% vs nominal 11.8%"}},{"id":"TOP_FUND_IN_CATEGORY","name":"Top Fund in Category","description":"What if each fund had been the top performer in its category?","relevanceScore":80,"actual":{"totalInvested":1868000,"currentValue":2292000,"xirr":11.79},"hypothetical":{"totalInvested":1868000,"hypotheticalValue":3456728,"hypotheticalXirr":0},"difference":{"absoluteAmount":1164728,"percentageDifference":62.35,"userDidBetter":false},"dataPointsForNarrative":{"underperformingFunds":18,"bestPeer":"Axis Silver FoF (G)","biggestGapPctPoints":41.6,"actualValue":2292000,"hypotheticalValue":3456728,"framing":"If you had picked category toppers, your portfolio could be ₹11,64,728 more. The biggest gap was 41.6 percentage points (Axis Silver FoF (G))"}}],"peerPercentile":{"overallPercentile":52,"personality":"Steady Compounder","dimensions":[{"key":"discipline","label":"Discipline","userValue":89,"percentile":80,"weight":0.25,"description":"SIP regularity & consistency"},{"key":"returns","label":"Returns","userValue":11.79,"percentile":62,"weight":0.3,"description":"Portfolio XIRR vs peers"},{"key":"diversification","label":"Diversification","userValue":62,"percentile":23,"weight":0.25,"description":"Fund count & direct plan ratio"},{"key":"consistency","label":"Consistency","userValue":35,"percentile":39,"weight":0.2,"description":"Investment tenure in months"}],"cohortSize":101},"shadowIndex":{"niftyRate":13.614774608786885,"portfolioLevel":{"actualValue":2292000,"shadowValue":2364556,"totalRedemptions":0,"alpha":-72556},"fundBreakdown":[{"schemeName":"HDFC Gold ETF Fund of Fund","shortName":"HDFC Gold ETF of","actualValue":89547,"shadowValue":65432,"alpha":24116},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","shortName":"Mirae Asset ELSS T","actualValue":381908,"shadowValue":370013,"alpha":11895},{"schemeName":"Motilal Oswal S and P 500 Index Fund","shortName":"Motilal Oswal S an","actualValue":64111,"shadowValue":55343,"alpha":8768},{"schemeName":"SBI Gold Fund","shortName":"SBI Gold","actualValue":37615,"shadowValue":31500,"alpha":6115},{"schemeName":"Aditya Birla Sun Life International Equity Fund","shortName":"Aditya Birla Sun L","actualValue":47926,"shadowValue":43845,"alpha":4081},{"schemeName":"Motilal Oswal Large and Midcap Fund","shortName":"Motilal Oswal Larg","actualValue":227424,"shadowValue":224691,"alpha":2734},{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","actualValue":16768,"shadowValue":14522,"alpha":2245},{"schemeName":"ICICI Prudential Commodities Fund","shortName":"ICICI Prudential C","actualValue":15137,"shadowValue":13721,"alpha":1417},{"schemeName":"Axis Small Cap Fund Direct","shortName":"Axis Small Cap Dir","actualValue":2655,"shadowValue":2746,"alpha":-90},{"schemeName":"PGIM India Midcap Fund","shortName":"PGIM India Midcap","actualValue":6626,"shadowValue":6874,"alpha":-248},{"schemeName":"ICICI Prudential Technology Fund","shortName":"ICICI Prudential T","actualValue":17374,"shadowValue":20621,"alpha":-3246},{"schemeName":"Aditya Birla Sun Life PSU Equity Fund Direct","shortName":"Aditya Birla Sun L","actualValue":58516,"shadowValue":63716,"alpha":-5200},{"schemeName":"HDFC BSE Sensex Index Fund","shortName":"HDFC BSE Sensex In","actualValue":98687,"shadowValue":104072,"alpha":-5386},{"schemeName":"quant Small Cap Fund","shortName":"quant Small Cap","actualValue":94479,"shadowValue":100428,"alpha":-5950},{"schemeName":"Edelweiss Nifty 50 Index Fund","shortName":"Edelweiss Nifty 50","actualValue":90475,"shadowValue":99900,"alpha":-9425},{"schemeName":"ICICI Prudential Large Cap Fund","shortName":"ICICI Prudential L","actualValue":344548,"shadowValue":354690,"alpha":-10142},{"schemeName":"quant Infrastructure Fund","shortName":"quant Infrastructu","actualValue":95737,"shadowValue":129000,"alpha":-33263},{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","actualValue":602467,"shadowValue":663443,"alpha":-60976}],"topAlphaGenerators":[{"schemeName":"HDFC Gold ETF Fund of Fund","shortName":"HDFC Gold ETF of","actualValue":89547,"shadowValue":65432,"alpha":24116},{"schemeName":"Mirae Asset ELSS Tax Saver Fund","shortName":"Mirae Asset ELSS T","actualValue":381908,"shadowValue":370013,"alpha":11895},{"schemeName":"Motilal Oswal S and P 500 Index Fund","shortName":"Motilal Oswal S an","actualValue":64111,"shadowValue":55343,"alpha":8768}],"bottomAlphaGenerators":[{"schemeName":"quant ELSS Tax Saver Fund","shortName":"quant ELSS TS","actualValue":602467,"shadowValue":663443,"alpha":-60976},{"schemeName":"quant Infrastructure Fund","shortName":"quant Infrastructu","actualValue":95737,"shadowValue":129000,"alpha":-33263},{"schemeName":"ICICI Prudential Large Cap Fund","shortName":"ICICI Prudential L","actualValue":344548,"shadowValue":354690,"alpha":-10142}]},"fiCountdown":{"currentValue":2292000,"monthlySIP":21666,"monthlyExpenses":64998,"swr":0.035,"fiTarget":22285029,"progressPct":10.28,"projections":[{"label":"Current pace","monthlySIP":21666,"annualRate":11.79,"monthlyExpenses":64998,"fiTarget":22285029,"monthsToFI":181,"yearsToFI":15.1,"projectedDate":"2041-04-02","isBearCase":false,"isBaseline":true},{"label":"SIP +₹5K","monthlySIP":26666,"annualRate":11.79,"monthlyExpenses":64998,"fiTarget":22285029,"monthsToFI":171,"yearsToFI":14.3,"projectedDate":"2040-06-02","isBearCase":false,"isBaseline":false},{"label":"SIP +₹10K","monthlySIP":31666,"annualRate":11.79,"monthlyExpenses":64998,"fiTarget":22285029,"monthsToFI":163,"yearsToFI":13.6,"projectedDate":"2039-10-02","isBearCase":false,"isBaseline":false},{"label":"Expenses -₹10K","monthlySIP":21666,"annualRate":11.79,"monthlyExpenses":54998,"fiTarget":18856457,"monthsToFI":165,"yearsToFI":13.8,"projectedDate":"2039-12-02","isBearCase":false,"isBaseline":false},{"label":"Bear case","monthlySIP":21666,"annualRate":8.79,"monthlyExpenses":64998,"fiTarget":22285029,"monthsToFI":222,"yearsToFI":18.5,"projectedDate":"2044-09-02","isBearCase":true,"isBaseline":false}]}};</script>
+</body>
+</html>

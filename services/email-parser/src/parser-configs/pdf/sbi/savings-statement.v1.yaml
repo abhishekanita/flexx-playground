@@ -1,0 +1,41 @@
+configId: sbi/savings-statement
+version: 1
+
+match:
+  senderDomains: [alerts.sbi.co.in, alerts.sbi.bank.in]
+  subjectPattern: "statement"
+  contentType: pdf
+
+classification:
+  category: official_bank_statement
+  subcategory: savings
+  senderKey: sbi
+  senderDisplayName: SBI
+
+extraction:
+  method: pdf-template
+  pdfTemplate:
+    passwordEnvVar: SBI_STATEMENT_PASSWORD
+    transactionRegex: "^(\\d{2}-\\d{2}-\\d{2})\\s+(.+?)\\s{2,}"
+    dateFormat: "DD-MM-YY"
+    descriptionParser: sbi-standard
+    columns:
+      debit:
+        position: -3
+      credit:
+        position: -2
+      balance:
+        position: -1
+
+output:
+  targetCollection: official_statements
+  mapping:
+    accountNumber: accountNumber
+    openingBalance: openingBalance
+    closingBalance: closingBalance
+    transactions: parsedTransactions
+  deduplication:
+    strategy: statement_line
+    matchFields: [date, amount, description]
+    tolerances:
+      dateDays: 0
