@@ -8,3 +8,4 @@
 .env
 /models.chrome-profile/
 /logs
+/src/scripts/downloads
