@@ -1,0 +1,11 @@
+/data
+/node_modules
+/dist
+.env.dev
+.env.beta
+.env.staging
+.env.production
+.env
+/models.chrome-profile/
+/logs
+/src/scripts/downloads
