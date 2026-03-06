@@ -1,10 +1,11 @@
-import { google, gmail_v1 } from 'googleapis';
+import { google, gmail_v1, GoogleApis } from 'googleapis';
 import { config } from '@/config';
 
 export interface GmailFullMessage {
     messageId: string;
     threadId: string;
-    from: string;
+    fromRaw: string;
+    fromName: string;
     fromEmail: string;
     fromDomain: string;
     subject: string;
@@ -12,6 +13,7 @@ export interface GmailFullMessage {
     receivedAt: string;
     bodyHtml: string;
     bodyText: string;
+    labels: string[];
     hasAttachments: boolean;
     attachments: GmailAttachmentMeta[];
 }
@@ -36,44 +38,26 @@ export interface GmailSearchResult {
 }
 
 export class GmailPlugin {
-    private createClient(accessToken: string, refreshToken: string) {
-        const oauth2Client = new google.auth.OAuth2(
-            config.google.clientId,
-            config.google.clientSecret,
-            config.google.redirectUrl
-        );
+    private gmail: gmail_v1.Gmail;
+
+    constructor(accessToken: string, refreshToken: string) {
+        const oauth2Client = new google.auth.OAuth2(config.google.clientId, config.google.clientSecret, config.google.redirectUrl);
         oauth2Client.setCredentials({
             access_token: accessToken,
             refresh_token: refreshToken,
         });
-        return { oauth2Client, gmail: google.gmail({ version: 'v1', auth: oauth2Client }) };
+        this.gmail = google.gmail({ version: 'v1', auth: oauth2Client });
     }
 
-    /**
-     * Refresh the access token and return the new one.
-     */
     async refreshAccessToken(refreshToken: string): Promise<string> {
-        const oauth2Client = new google.auth.OAuth2(
-            config.google.clientId,
-            config.google.clientSecret,
-            config.google.redirectUrl
-        );
+        const oauth2Client = new google.auth.OAuth2(config.google.clientId, config.google.clientSecret, config.google.redirectUrl);
         oauth2Client.setCredentials({ refresh_token: refreshToken });
         const { credentials } = await oauth2Client.refreshAccessToken();
         return credentials.access_token || '';
     }
 
-    /**
-     * Search Gmail with pagination. Returns one page of results.
-     */
-    async searchMessages(
-        accessToken: string,
-        refreshToken: string,
-        options: GmailSearchOptions
-    ): Promise<GmailSearchResult> {
-        const { gmail } = this.createClient(accessToken, refreshToken);
-
-        const listRes = await gmail.users.messages.list({
+    async searchMessages(options: GmailSearchOptions): Promise<GmailSearchResult> {
+        const listRes = await this.gmail.users.messages.list({
             userId: 'me',
             q: options.query,
             maxResults: options.maxResults || 100,
@@ -87,7 +71,7 @@ export class GmailPlugin {
         for (const ref of messageRefs) {
             if (!ref.id) continue;
             try {
-                const msg = await this.fetchFullMessage(gmail, ref.id);
+                const msg = await this.fetchFullMessage(ref.id);
                 messages.push(msg);
             } catch (err: any) {
                 logger.warn(`[GmailPlugin] Failed to fetch message ${ref.id}: ${err.message}`);
@@ -104,24 +88,17 @@ export class GmailPlugin {
     /**
      * Search all pages of Gmail results for a query.
      */
-    async searchAllMessages(
-        accessToken: string,
-        refreshToken: string,
-        query: string,
-        maxTotal: number = 500
-    ): Promise<GmailFullMessage[]> {
+    async searchAllMessages(query: string, maxTotal: number = 500): Promise<GmailFullMessage[]> {
         const all: GmailFullMessage[] = [];
         let pageToken: string | undefined;
 
         while (all.length < maxTotal) {
-            const result = await this.searchMessages(accessToken, refreshToken, {
+            const result = await this.searchMessages({
                 query,
                 maxResults: Math.min(100, maxTotal - all.length),
                 pageToken,
             });
-
             all.push(...result.messages);
-
             if (!result.nextPageToken || result.messages.length === 0) break;
             pageToken = result.nextPageToken;
         }
@@ -132,27 +109,15 @@ export class GmailPlugin {
     /**
      * Fetch a single full message by ID.
      */
-    async fetchMessageById(
-        accessToken: string,
-        refreshToken: string,
-        messageId: string
-    ): Promise<GmailFullMessage> {
-        const { gmail } = this.createClient(accessToken, refreshToken);
-        return this.fetchFullMessage(gmail, messageId);
+    async fetchMessageById(messageId: string): Promise<GmailFullMessage> {
+        return this.fetchFullMessage(messageId);
     }
 
     /**
      * Download an attachment by its Gmail attachment ID.
      */
-    async downloadAttachment(
-        accessToken: string,
-        refreshToken: string,
-        messageId: string,
-        attachmentId: string
-    ): Promise<Buffer> {
-        const { gmail } = this.createClient(accessToken, refreshToken);
-
-        const res = await gmail.users.messages.attachments.get({
+    async downloadAttachment(messageId: string, attachmentId: string): Promise<Buffer> {
+        const res = await this.gmail.users.messages.attachments.get({
             userId: 'me',
             messageId,
             id: attachmentId,
@@ -164,8 +129,8 @@ export class GmailPlugin {
 
     // --- Private helpers ---
 
-    private async fetchFullMessage(gmail: gmail_v1.Gmail, messageId: string): Promise<GmailFullMessage> {
-        const detail = await gmail.users.messages.get({
+    private async fetchFullMessage(messageId: string): Promise<GmailFullMessage> {
+        const detail = await this.gmail.users.messages.get({
             userId: 'me',
             id: messageId,
             format: 'full',
@@ -174,14 +139,17 @@ export class GmailPlugin {
         const payload = detail.data.payload;
         const headers = payload?.headers || [];
 
-        const getHeader = (name: string) => headers.find((h) => h.name?.toLowerCase() === name.toLowerCase())?.value || '';
+        const getHeader = (name: string) => headers.find(h => h.name?.toLowerCase() === name.toLowerCase())?.value || '';
 
-        const from = getHeader('From');
-        const fromEmail = this.extractEmail(from);
+        const fromRaw = getHeader('From');
+        const fromEmail = this.extractEmail(fromRaw);
+        const fromName = this.extractName(fromRaw);
         const fromDomain = this.extractDomain(fromEmail);
         const subject = getHeader('Subject');
         const date = getHeader('Date');
-        const receivedAt = getHeader('Date'); // Use Date header as receivedAt
+        const receivedAt = getHeader('Date');
+
+        const labels = detail.data.labelIds || [];
 
         const bodyHtml = this.extractBody(payload, 'text/html');
         const bodyText = this.extractBody(payload, 'text/plain');
@@ -191,7 +159,8 @@ export class GmailPlugin {
         return {
             messageId: detail.data.id || messageId,
             threadId: detail.data.threadId || '',
-            from,
+            fromRaw,
+            fromName,
             fromEmail,
             fromDomain,
             subject,
@@ -199,6 +168,7 @@ export class GmailPlugin {
             receivedAt,
             bodyHtml,
             bodyText,
+            labels,
             hasAttachments: attachments.length > 0,
             attachments,
         };
@@ -257,10 +227,15 @@ export class GmailPlugin {
         return match ? match[1].toLowerCase() : from.toLowerCase().trim();
     }
 
+    private extractName(from: string): string {
+        // "HDFC Bank" <alerts@hdfcbank.net> → HDFC Bank
+        // HDFC Bank <alerts@hdfcbank.net> → HDFC Bank
+        const match = from.match(/^["']?([^"'<]+?)["']?\s*<[^>]+>$/);
+        return match ? match[1].trim() : '';
+    }
+
     private extractDomain(email: string): string {
         const parts = email.split('@');
         return parts.length > 1 ? parts[1] : '';
     }
 }
-
-export const gmailPlugin = new GmailPlugin();

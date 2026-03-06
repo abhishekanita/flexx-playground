@@ -1,7 +1,7 @@
 import express from 'express';
 import initServer from '@/loaders';
 import { config } from '@/config';
-import { runScripts } from './scripts/run-scripts';
+import { runScripts } from './scripts/';
 
 const startServer = async () => {
     try {

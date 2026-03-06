@@ -15,12 +15,14 @@ export enum EmailProcessingStatus {
 
 export interface RawEmailAttachment {
     filename: string;
-    contentType: string; // 'application/pdf' | 'image/png'
-    sizeBytes: number;
-    gmailUrl: string;
-    internalUrl: string;
-    passwordHint?: string; // 'pan' | 'dob_ddmmyyyy' | 'account_last6'
-    extractedText?: string; // populated after PDF parsing
+    mimeType: string; // 'application/pdf' | 'image/png'
+    gmailAttachmentId: string;
+    downloaded: false;
+    // sizeBytes: number;
+    // gmailUrl: string;
+    // internalUrl: string;
+    // passwordHint?: string; // 'pan' | 'dob_ddmmyyyy' | 'account_last6'
+    // extractedText?: string; // populated after PDF parsing
 }
 
 export interface RawEmail {
@@ -30,7 +32,7 @@ export interface RawEmail {
     // Gmail metadata
     gmailMessageId: string; // Gmail's unique message ID
     gmailThreadId: string;
-    gmailLabs: string[];
+    gmailLabels: string[];
 
     // Email headers
     fromAddress: string; // 'alerts@hdfcbank.net'
@@ -46,6 +48,7 @@ export interface RawEmail {
     bodyTextLength: number;
     // Attachments
     attachments: RawEmailAttachment[];
+    hasAttachments: boolean;
     hasPdf: boolean;
     hasEncryptedPdf: boolean;
     hasExcel: boolean;

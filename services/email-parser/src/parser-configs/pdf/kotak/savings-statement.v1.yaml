@@ -2,40 +2,40 @@ configId: kotak/savings-statement
 version: 1
 
 match:
-  senderDomains: [kotak.bank.in, kotak.com]
-  subjectPattern: "statement"
-  contentType: pdf
+    senderDomains: [kotak.bank.in, kotak.com]
+    subjectPattern: 'statement'
+    contentType: pdf
 
 classification:
-  category: official_bank_statement
-  subcategory: savings
-  senderKey: kotak
-  senderDisplayName: Kotak Mahindra Bank
+    category: official_bank_statement
+    subcategory: savings
+    senderKey: kotak
+    senderDisplayName: Kotak Mahindra Bank
 
 extraction:
-  method: pdf-template
-  pdfTemplate:
-    passwordEnvVar: KOTAK_STATEMENT_PASSWORD
-    transactionRegex: "^\\s*\\d+\\s+(\\d{2}\\s+\\w{3}\\s+\\d{4})\\s+(.+?)\\s{2,}"
-    dateFormat: "DD Mon YYYY"
-    descriptionParser: kotak-standard
-    columns:
-      debit:
-        position: -3
-      credit:
-        position: -2
-      balance:
-        position: -1
+    method: pdf-template
+    pdfTemplate:
+        passwordEnvVar:
+        transactionRegex: "^\\s*\\d+\\s+(\\d{2}\\s+\\w{3}\\s+\\d{4})\\s+(.+?)\\s{2,}"
+        dateFormat: 'DD Mon YYYY'
+        descriptionParser: kotak-standard
+        columns:
+            debit:
+                position: -3
+            credit:
+                position: -2
+            balance:
+                position: -1
 
 output:
-  targetCollection: official_statements
-  mapping:
-    accountNumber: accountNumber
-    openingBalance: openingBalance
-    closingBalance: closingBalance
-    transactions: parsedTransactions
-  deduplication:
-    strategy: statement_line
-    matchFields: [date, amount, description]
-    tolerances:
-      dateDays: 0
+    targetCollection: official_statements
+    mapping:
+        accountNumber: accountNumber
+        openingBalance: openingBalance
+        closingBalance: closingBalance
+        transactions: parsedTransactions
+    deduplication:
+        strategy: statement_line
+        matchFields: [date, amount, description]
+        tolerances:
+            dateDays: 0

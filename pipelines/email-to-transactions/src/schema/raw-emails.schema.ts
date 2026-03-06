@@ -8,7 +8,7 @@ const RawEmailsSchema = new Schema<IRawEmailsDoc>(
         userId: String,
         gmailMessageId: String,
         gmailThreadId: String,
-        gmailLabs: [String],
+        gmailLabels: [String],
         fromAddress: String,
         fromName: String,
         toAddress: String,
