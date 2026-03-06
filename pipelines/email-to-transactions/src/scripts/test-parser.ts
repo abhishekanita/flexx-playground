@@ -32,7 +32,7 @@ export const parsers = [
         dataIn: 'encrypted-pdf',
         category: FinancialEmailTypes.UPIAppReceipts,
         numberOfAttachments: 2,
-        howToFilterAttachment: isXls(),
+        // howToFilterAttachment: isXls(),
         passwordHint: '{{fullname.tolowercase(without_space).(first_4)}}{{dob.(first_4)}}', //abhi1804
         pdfDecryted: () => {
             return [];
