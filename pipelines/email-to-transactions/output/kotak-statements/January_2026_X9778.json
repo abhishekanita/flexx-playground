@@ -1,0 +1,130 @@
+{
+  "accountHolder": "Abhishek Aggarwal",
+  "accountNumber": "6247849778",
+  "ifscCode": "KKBK0000289",
+  "branch": "Gurgaon-Golf Course Road",
+  "statementPeriod": {
+    "from": "2026-01-01",
+    "to": "2026-01-31"
+  },
+  "openingBalance": 54480.29,
+  "closingBalance": 51505.3,
+  "transactions": [
+    {
+      "index": 1,
+      "date": "2026-01-02",
+      "description": "UPI/MR AKSHIT KHUNG/636866268821/UPI",
+      "refNumber": "UPI-600251782434",
+      "withdrawal": null,
+      "deposit": 26000,
+      "balance": 80480.29
+    },
+    {
+      "index": 2,
+      "date": "2026-01-02",
+      "description": "SWEEP TRANSFER TO [1411656895]",
+      "refNumber": "",
+      "withdrawal": 30000,
+      "deposit": null,
+      "balance": 50480.29
+    },
+    {
+      "index": 3,
+      "date": "2026-01-03",
+      "description": "CLG TO SURBHI KALRA HDFC BANK LTD.",
+      "refNumber": "52/NCRCTS_0301202668475",
+      "withdrawal": 13000,
+      "deposit": null,
+      "balance": 37480.29
+    },
+    {
+      "index": 4,
+      "date": "2026-01-03",
+      "description": "UPI/ABHISHEK AGGAR/831952293427/Payment from Ph",
+      "refNumber": "UPI-600368987390",
+      "withdrawal": null,
+      "deposit": 99000,
+      "balance": 136480.29
+    },
+    {
+      "index": 5,
+      "date": "2026-01-03",
+      "description": "UPI/ABHISHEK AGGAR/029508130564/Payment from Ph",
+      "refNumber": "UPI-600369009994",
+      "withdrawal": null,
+      "deposit": 1000,
+      "balance": 137480.29
+    },
+    {
+      "index": 6,
+      "date": "2026-01-03",
+      "description": "CLG TO KARAN KALRA HDFC BANK LTD 51",
+      "refNumber": "",
+      "withdrawal": 99000,
+      "deposit": null,
+      "balance": 38480.29
+    },
+    {
+      "index": 7,
+      "date": "2026-01-03",
+      "description": "Sweep Trf From: 1411656895",
+      "refNumber": "",
+      "withdrawal": null,
+      "deposit": 15000,
+      "balance": 53480.29
+    },
+    {
+      "index": 8,
+      "date": "2026-01-05",
+      "description": "UPI/Google/104385660056/MandateExecute",
+      "refNumber": "UPI-600526742859",
+      "withdrawal": 975,
+      "deposit": null,
+      "balance": 52505.29
+    },
+    {
+      "index": 9,
+      "date": "2026-01-05",
+      "description": "UPI/HARSH KUMAR CHO/600596315330/rent for jan",
+      "refNumber": "UPI-600554386698",
+      "withdrawal": null,
+      "deposit": 20000,
+      "balance": 72505.29
+    },
+    {
+      "index": 10,
+      "date": "2026-01-05",
+      "description": "SWEEP TRANSFER TO [1411857722]",
+      "refNumber": "",
+      "withdrawal": 20000,
+      "deposit": null,
+      "balance": 52505.29
+    },
+    {
+      "index": 11,
+      "date": "2026-01-11",
+      "description": "NACH-MUT-DR-INDIAN CLEARING CORP- 0000O36BEUFAGS8Y",
+      "refNumber": "NACHDR11012600016907",
+      "withdrawal": 1000,
+      "deposit": null,
+      "balance": 51505.29
+    },
+    {
+      "index": 12,
+      "date": "2026-01-27",
+      "description": "UPI/DECFIN TECH PRI/602795625054/Verification re",
+      "refNumber": "UPI-602761876715",
+      "withdrawal": null,
+      "deposit": 0.01,
+      "balance": 51505.3
+    }
+  ],
+  "summary": {
+    "savingsOpening": 54480.29,
+    "savingsClosing": 51505.3,
+    "activMoneyOpening": 170000,
+    "activMoneyClosing": 205000,
+    "totalOpening": 224480.29,
+    "totalClosing": 256505.3
+  }
+}

@@ -10,8 +10,15 @@ class RawEmailsService extends BaseService<IRawEmailsDoc> {
         return this.model.findOne({ userId }, { receivedAt: 1 }, { sort: { receivedAt: -1 } });
     }
 
-    async saveEmail() {
-        //
+    async getEmailsToBeMatched(userId?: string) {
+        const query: any = { status: { $in: ['fetched', 'unmatched'] } };
+        if (userId) query.userId = userId;
+        return this.model.find(query);
+    }
+
+    async resetEmailsStatus(includeParsed?: true) {
+        //unmatched -> fetched
+        //matched || parsed also to fetched
     }
 }
 

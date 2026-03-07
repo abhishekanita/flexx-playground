@@ -1,0 +1,222 @@
+Account Statement
+01 Feb 2026 - 28 Feb 2026
+Abhishek Aggarwal
+CRN xxxxxx214
+544 A B2,Bitna Road,Pinjore,Sh
+Iv Colony,Panchkula,Panchkula
+.
+Pachkula - 134102
+Haryana - India
+MICR 110485043 IFSC Code KKBK0000289
+Account No. 6247849778
+Account Type Savings
+Branch Gurgaon-Golf Course Road
+Account Status Active
+Nominee Registered No
+Currency INDIAN RUPEE
+Savings Account Transactions
+# Date Description Chq/Ref. No. Withdrawal (Dr.) Deposit (Cr.) Balance
+- - Opening Balance - - - 51,505.30
+1 01 Feb 2026 UPI/MR AKSHIT KHUNG/639803960877/UPI UPI-603257898801 26,000.00 77,505.30
+2 01 Feb 2026 SWEEP TRANSFER TO [1412522594] 20,000.00 57,505.30
+3 02 Feb 2026 SentIMPS603310223949KARAN
+KALR/HDFCX8401/KKBKTrans IMPS-603310926720 5.00 57,500.30
+4 02 Feb 2026 SentIMPS603310224128SURBHI
+KAL/HDFCX9057/KKBKTrans
+IMPS-603310927002 5.00 57,495.30
+5 02 Feb 2026 UPI/MR AKSHIT
+KHUNG/639974389108/Clearing Split
+UPI-603323298992 3,700.00 61,195.30
+6 02 Feb 2026 SWEEP TRANSFER TO [1412577908] 10,000.00 51,195.30
+7 03 Feb 2026 IB:Sent NEFT KKBKH26034714553/KARAN
+KALRA/HDFC B
+000510830403 99,000.00 -47,804.70
+8 03 Feb 2026 IB:Sent NEFT KKBKH26034715893/SURBHI
+KALRA/HDFC
+000510831853 13,000.00 -60,804.70
+9 03 Feb 2026 Sweep Trf From: 1412577908 10,000.00 -50,804.70
+10 03 Feb 2026 Sweep Trf From: 1412522594 20,000.00 -30,804.70
+11 03 Feb 2026 Sweep Trf From: 1411857722 20,000.00 -10,804.70
+12 03 Feb 2026 Sweep Trf From: 1411656895 15,000.00 4,195.30
+13 03 Feb 2026 Sweep Trf From: 1499721065 15,000.00 19,195.30
+14 03 Feb 2026 Sweep Trf From: 1499608433 35,000.00 54,195.30
+15 03 Feb 2026 FD PREMAT PROCEEDS: 1499608433 1499608433TO 165.00 54,360.30
+16 03 Feb 2026 FD PREMAT PROCEEDS: 1499721065 1499721065TO 68.00 54,428.30
+17 03 Feb 2026 FD PREMAT PROCEEDS: 1411656895 1411656895TO 39.00 54,467.30
+18 03 Feb 2026 FD PREMAT PROCEEDS: 1411857722 1411857722TO 44.00 54,511.30
+19 06 Feb 2026 UPI/Bank Account XX/356325794070/Payment
+from Ph
+UPI-603732356171 26,000.00 28,511.30
+20 06 Feb 2026 UPI/Bank Account XX/319412075689/Payment
+from Ph UPI-603734684161 26,000.00 2,511.30
+21 06 Feb 2026 Sweep Trf From: 1499608433 45,000.00 47,511.30
+22 06 Feb 2026 Sweep Trf From: 1499549316 5,000.00 52,511.30
+23 06 Feb 2026 FD PREMAT PROCEEDS: 1499549316 1499549316TO 25.00 52,536.30
+24 06 Feb 2026 FD PREMAT PROCEEDS: 1499608433 1499608433TO 224.00 52,760.30
+25 10 Feb 2026 PCD/4595/Swiggy/Bengaluru100226/18:57 604118793423 194.00 52,566.30
+26 11 Feb 2026 IMAGE DEBIT CARD FEE REQUESTED ON FORMS_292902437 234.82 52,331.48
+Statement Generated on 01 Mar 2026, 20:26 Page 1 of6
+
+-- 1 of 6 --
+
+Savings Account Transactions
+# Date Description Chq/Ref. No. Withdrawal (Dr.) Deposit (Cr.) Balance
+110226 0121/RA01
+27 11 Feb 2026 NACH-MUT-DR-INDIAN CLEARING CORP-
+0000OW381MT62O2N NACHDR110226000326
+28 1,000.00 51,331.48
+28 11 Feb 2026 CHRG: Debit Card Issuance Fee x7245 for 2026 885.00 50,446.48
+29 12 Feb 2026 UPI/AKSHIT KHUNGER/118538721483/UPI UPI-604386374621 2,800.00 53,246.48
+30 12 Feb 2026 UPI/Miss SAMRIDHI /044232852233/Payment
+from Ph UPI-604303612595 40,000.00 13,246.48
+31 12 Feb 2026 UPI/ABHISHEKAGGARWA/604316866706/MAN
+DATE UPI-604307021138 100.00 13,146.48
+32 12 Feb 2026 UPI/GoodScore/604342403502/Collect request UPI-604342726250 99.00 13,047.48
+33 12 Feb 2026 Sweep Trf From: 1499549316 25,000.00 38,047.48
+34 12 Feb 2026 Sweep Trf From: 1499466026 10,000.00 48,047.48
+35 12 Feb 2026 Sweep Trf From: 1496955795 5,000.00 53,047.48
+36 12 Feb 2026 FD PREMAT PROCEEDS: 1496955795 1496955795TO 61.00 53,108.48
+37 12 Feb 2026 FD PREMAT PROCEEDS: 1499466026 1499466026TO 58.00 53,166.48
+38 12 Feb 2026 FD PREMAT PROCEEDS: 1499549316 1499549316TO 141.00 53,307.48
+39 16 Feb 2026 UPI/Eleven Labs/180874051839/Mandate
+Request
+UPI-604720061498 519.20 52,788.28
+40 18 Feb 2026 UPI/NANDINI VERMA/118848332677/UPI UPI-604982576893 14,000.00 66,788.28
+41 18 Feb 2026 SWEEP TRANSFER TO [1413603558] 10,000.00 56,788.28
+42 19 Feb 2026 FD MATURITY PROCEEDS :1493273629/19-02-
+26/ABHISHEK
+TO 5,142.00 61,930.28
+43 19 Feb 2026 SWEEP TRANSFER TO [1413666995] 10,000.00 51,930.28
+44 20 Feb 2026 UPI/Airtel/605205820627/Sent using Payt
+(Value Date: 21-Feb-26)
+UPI-605227737977 49.00 51,881.28
+45 24 Feb 2026 UPI/AmazonIndia/605566255723/AmazonCha
+nnels
+UPI-605507640194 29.00 51,852.28
+46 25 Feb 2026 PCI/7245/APIFY*
+SUBSCRIPTION/+42077525250226/18:44
+605613114027 2,749.22 49,103.06
+47 25 Feb 2026 Sweep Trf From: 1413666995 5,000.00 54,103.06
+48 26 Feb 2026 PCI/7245/PAYPROGLOBA/6479777769260226/
+13:32
+605775603185 1,117.88 52,985.18
+49 27 Feb 2026 UPI/HARSH KUMAR CHO/642474299117/Rent
+for March
+UPI-605881313442 20,000.00 72,985.18
+50 27 Feb 2026 SWEEP TRANSFER TO [1414149150] 20,000.00 52,985.18
+51 28 Feb 2026 UPI/AKSHIT KHUNGER/119285362643/UPI UPI-605960991639 950.00 53,935.18
+Abhishek Aggarwal
+Account No. 6247849778
+Account Statement 01 Feb 2026 - 28 Feb 2026
+Statement Generated on 01 Mar 2026, 20:26 Page 2 of6
+
+-- 2 of 6 --
+
+End of Statement
+Any discrepancy in the statement should be brought to the notice of Kotak Mahindra Bank Ltd. within
+one month from the date of receipt of the statement.
+This is a system generated report and does not require signature and stamp.
+Account Summary
+Particulars Opening Balance Closing Balance
+Savings Account (SA): 51,505.30 53,935.18
+ActivMoney (AM): 2,05,000.00 60,000.00
+Total Balance (SA + AM): 2,56,505.30 1,13,935.18
+For assistance, reach out to us at:
+Contact Us
+1860 266 2666
+(local call charges apply)
+Branch Address
+Kotak Mahindra Bank Ltd,02a, Vipul Tech Square,Tower D,Golf Course Road, Sector-
+43,Gurgaon, Gurgaon-122002, Haryana, India
+Remember!
+Never share personal/sensitive information like PIN, CVV, OTP
+or passwords with anyone.
+Scan for
+more safe
+banking tips
+Kotak Mahindra Bank Ltd. | CIN: L65110MH1985PLC038137
+Registered Office: 27 BKC, C 27, G Block, Bandra Kurla Complex, Bandra (E), Mumbai - 400 051. www.kotak.bank.in
+Abhishek Aggarwal
+Account No. 6247849778
+Account Statement 01 Feb 2026 - 28 Feb 2026
+Statement Generated on 01 Mar 2026, 20:26 Page 3 of6
+
+-- 3 of 6 --
+
+Your Account Benefits & Offers
+Abhishek Aggarwal
+Account No. 6247849778
+Account Statement 01 Feb 2026 - 28 Feb 2026
+Statement Generated on 01 Mar 2026, 20:26 Page 4 of6
+
+-- 4 of 6 --
+
+Important Information
+RBI mandates Positive Pay for high-value cheques from Jan 1, 2021. Customers must submit cheque details via Net/Mobile Banking or at the branch on
+the day of issuance or before handing it to the beneficiary. For more details, visit www.kotak.bank.in.
+From October 4, 2025, same-day cheque clearing will be implemented across all banks. Cheques will be credited or debited within a few hours of
+issuance.
+Complimentary insurance cover on Kotak Debit Cards (linked to Saving and Current accounts) will be discontinued w.e.f. July 20, 2025. All claims will be
+accepted until July 20, 2025, as per the existing process. Salary account holders may view their insurance covers under Debit Card Services in the Cards
+& FASTag section on the web portal. For any queries related to Debit Card insurance, write to dc.insurance@kotak.com or visit
+https://www.kotak.bank.in/en/personal-banking /cards/debit-cards/debit-card-services/insurnace-on-debit-card.html
+In order to avail TDS exemption (if eligible) on existing/new Fixed Deposits for the Financial Year 2023–24, fresh Form 15G (15H for senior citizens) must
+be submitted by furnishing the details of all Fixed Deposits held, at the earliest. Form 15G/15H can now be submitted conveniently through Net Banking
+as well. From FY 2019–20, the TDS exemption threshold is increased to Rs. 50,000 (Rs. 1,00,000 for senior citizens); hence, filing of 15G/15H is not
+required up to Rs. 50,000 (Rs. 1,00,000 for senior citizens) of the aggregate interest earned on bank deposits in a financial year. Please ignore this
+message if already submitted.
+RBI guidelines on unauthorised foreign exchange transactions dated April 24, 2024, state that unauthorised entities offering foreign exchange (forex)
+trading facilities to Indian residents with promises of disproportionate/exorbitant returns are providing options to remit/deposit funds in Rupees for
+undertaking unauthorised forex transactions using various digital channels. Refer to the 'Alert List' containing names of such entities (this list is
+indicative and not exhaustive). Vigilance and caution are advised. Liaison must be with 'Authorised Persons' and on 'Authorised ETPs' for
+processing/routing any forex transaction
+As per the RBI Master Direction for Credit and Debit Card Issuance (RBI/2022-23/92 DoR.AUT.REC. No.27/24.01.041/2022-23), issuance of debit cards on
+Overdraft accounts is not permissible.
+RBI, vide its circular DOR.CRE.REC.23/21.08.008/2022-23 dated April 19, 2022, has issued guidelines pertaining to the opening and maintenance of
+Current Account(s) of customers who have availed various credit facilities from the banking system. The term "banking system" refers to Scheduled
+Commercial Banks and Payments Banks. Banks (whether lending banks or otherwise) are required to monitor all Current Account, Overdraft, and Cash
+Credit accounts on a regular basis, at least on a half-yearly frequency. This monitoring must specifically consider the aggregate exposure of the banking
+system to the borrower vis-à-vis the individual bank's share in that exposure, in order to ensure compliance with the said instructions. Detailed
+guidelines are available in the aforementioned circular.
+Corporate Salary Account holders can view complete details of the General Schedule of Features and Charges (GSFC) related to balance maintenance,
+debit card usage, transactions, and more by visiting: https://www.kotak.bank.in/en/personal-banking/accounts/savings-account/saving-accounts-fees-
+and-charges.html
+The Crème Programme will be discontinued effective 1st December, 2025 and its associated benefits including the Lifetime Zero Charge Promise and
+early access to the Privy Programme will be withdrawn.
+Starting December 2025, you will receive 30 free SMS alerts per month for transaction updates. To avoid charges beyond this limit, please maintain a
+combined balance of ₹10,000 across your Savings and Term Deposits, or ensure regular salary credits in your salary account. If these conditions are not
+met, a nominal fee of ₹0.15 per SMS will apply for transaction alerts such as UPI, NEFT, ATM withdrawals, Debit Card usage, and similar activities.
+Messages related to KYC and promotional offers will continue to be free of charge. For more details, please visit
+https://www.kotak.bank.in/en/gsfc.html.
+Deposits of up to ₹5,00,000 per depositor are fully insured by the Deposit Insurance and Credit Guarantee Corporation, under the Deposit Insurance
+Scheme.
+Goods and Services Tax (GST), at the applicable rate of 18%, is levied on relevant service charges.
+Please note: This statement/ advice should not be construed as a Tax Invoice under the Goods and Services Tax Act.
+Commonly Used Narrations
+AP - Autopay for Billpay Netcard - Netc@rd transaction
+ATL - ATM withdrawal done from other bank ATM machine OS - Online Shopping transaction
+ATW - ATM withdrawal done from Kotak ATM machine OT - Online Trading transaction via Payment Gateway
+BP - Bill Pay transaction PB - Transaction done through Phone Banking (IVR)
+CDM - Kotak Cash Deposit Machine PCI/PCD - POS transaction
+CMS - Cash Management Service RTGS - Real Time Gross Settlement
+IB - Transaction done on Kotak Net Banking UPI - Unified Payment Interface
+IMPS - Immediate Payment Service VISACCPAY - Visa Credit Card Payment
+IMT - Instant Money Transfer VMT - VISA Money Transfer
+Abhishek Aggarwal
+Account No. 6247849778
+Account Statement 01 Feb 2026 - 28 Feb 2026
+Statement Generated on 01 Mar 2026, 20:26 Page 5 of6
+
+-- 5 of 6 --
+
+KB - Billpay transaction via Keya Chatbot WB - Billpay transaction via WhatsApp Banking
+MB - Transaction done on Mobile banking Int. Pd. - Interest credited on your savings account balance
+NACH - National Automated Clearing House Sweep transfer to - Booking new Term Deposit
+NEFT - National Electronic Funds Transfer Sweep transfer from - Broken existing Term Deposit
+Abhishek Aggarwal
+Account No. 6247849778
+Account Statement 01 Feb 2026 - 28 Feb 2026
+Statement Generated on 01 Mar 2026, 20:26 Page 6 of6
+
+-- 6 of 6 --
+

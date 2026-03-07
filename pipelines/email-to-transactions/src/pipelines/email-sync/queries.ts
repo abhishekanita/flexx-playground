@@ -123,20 +123,39 @@ const TARGETED_QUERIES: GmailSearchQuery[] = [
         query: 'from:incometax.gov.in',
         maxResults: 100,
     },
+    {
+        id: 'phonepe_statements',
+        query: 'subject:"Your PhonePe transaction statement"',
+        maxResults: 100,
+    },
+    {
+        id: 'paytm_statements',
+        query: 'from:no-reply@paytm.com subject:"Paytm Statement"',
+        maxResults: 100,
+    },
 ];
 
 // =============================================================================
 // EXPORTS
 // =============================================================================
 
-export const GMAIL_SEARCH_QUERIES: GmailSearchQuery[] = [
-    ...WIDE_QUERIES,
-    ...SENDER_QUERIES,
-    ...TARGETED_QUERIES,
-];
+export const GMAIL_SEARCH_QUERIES: GmailSearchQuery[] = [...WIDE_QUERIES, ...SENDER_QUERIES, ...TARGETED_QUERIES];
 
 export const buildQuery = (q: GmailSearchQuery, after?: Date): string => {
     if (!after) return q.query;
     const dateStr = after.toISOString().slice(0, 10).replace(/-/g, '/');
     return `${q.query} after:${dateStr}`;
 };
+
+// const INVOICES_QUERIES = [
+//     {
+//         id: 'instamart_orders',
+//         query: 'from:(noreply@swiggy.in) subject:(Your Instamart) has:attachment',
+//         maxResults: 100,
+//     },
+//     {
+//         id: 'swiggy_orders',
+//         query: 'from:(noreply@swiggy.in) subject:(Your Swiggy) has:attachment',
+//         maxResults: 100,
+//     },
+// ];

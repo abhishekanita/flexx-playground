@@ -1,0 +1,16 @@
+=== SUBJECT: The easiest way to keep going... ===
+=== FROM: noreply@mailers.zomato.com ===
+=== DATE: 2026-01-29T09:01:37.000Z ===
+
+--- BODY TEXT ---
+(empty)
+
+--- BODY HTML (first 3000 chars) ---
+<!DOCTYPE html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if mso]>
+<xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml>
+<![endif]--><!--[if !mso]><!--><!--<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.social_block.desktop_hide .social-table{display:inline-block!important}.mobile_hide{display:none}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--><!--[if true]><style>.forceBgColor{background-color: white !important}</style><![endif]--></head><body class="body forceBgColor" style="background-color:transparent;margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none"><span class="preheader" style="color:blue; display:none !important;height:0; opacity:0; visibility:hidden; width:0">No matter how your day starts, there’s always a little fuel to keep you going. Grab a cup, take a sip, and get moving. You don’t need to do it all at once — just start and keep moving. A Little by little, everything falls into place. So keep going, you've got this. And coffee? We'll get that for you ☕</span><table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0;background-color:transparent"><tbody><tr><td><table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;color:#000;width:600px;margin:0 auto" width="600">
+<tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-t

@@ -1,0 +1,64 @@
+=== SUBJECT: E-Ticket for Your Flight Booking ID: NF7AIBOQ57235103777 ===
+=== FROM: noreply@makemytrip.com ===
+=== DATE: 2025-12-07T12:45:12.000Z ===
+
+--- BODY TEXT ---
+Flight Confirmation MailerTicket Hi Abhishek Aggarwal, thank you for
+booking with us. We wish you a pleasant journey! *Booking Confirmed*New
+Delhi - BengaluruOne Way,Sat, 13 DecBooking ID:NF7AIBOQ57235103777,(Booked
+on 7 Dec 2025) Barcode(s) for your journey DEL-BLR on 6E  Mr Abhishek
+Aggarwal  Manage Booking <https://app.mmyt.co/Xm2V/vlvusn9n> Booking
+Details  New Delhi-Bengaluru  Sat, 13 Dec 2025 • Non-stop • 02 h 55 m 
+duration  IndiGo 
+ 6E 2786 
+ PNR:  Z3Z1FY  New Delhi 
+ DEL  08:00 hrs 
+ Sat, Dec 13 
+ Indira Gandhi International Airport  Terminal 2 
+ 02 h 55 m 
+ Bengaluru 
+ 10:55 hrs  BLR 
+ Sat, Dec 13 
+ Bengaluru International Airport  Terminal 1  SAVER  REGULAR  Economy 
+Cabin Baggage: *7 Kgs (1 piece only)*/adult  Check-in Baggage: *15 Kgs (1
+piece only)*/adult *TRAVELLER*SEAT*MEAL*BAGGAGE*E-TICKET NO* Mr Abhishek
+Aggarwal (ADULT) 
+ -  - 
+ -  Z3Z1FY  Benefits claimed  myCash Earned  ₹52 will be earned for this
+booking ₹10,319 will be added to your travel spends after trip
+completion. Click here to Know more
+<https://www.makemytrip.com/loyalty/black> Payment Information  Total
+Amount  ₹ 10,319  Paid by UPI ₹ 10,319  Your invoice will be available
+after your travel on My Trips <https://app.mmyt.co/Xm2V/17temyxk>You saved
+₹ 100 with MMTBONUS couponDIGI YATRA*Avoid Long Queues at the Airport
+with DigiYatra*Use DigiYatra — the Ministry of Civil Aviation’s mobile
+app to enjoy a hassle-free airport experience, for your upcoming flight. It
+enables you to activate face scan for check-in at the airport with 2 easy
+steps:*Step 1: *Pre-verifying your identity using Aadhaar Card details*Step
+2: *Updating your upcoming flight’s boarding passKnow More
+<https://www.makemytrip.com/promos/digi-yatra.html> Important Information 
+For a convenient travel, follow these guidelines •*Availability of
+Boarding Pass: *Once web check-in is completed, your boarding pass will be
+available within 6 hours of your flight departure.•*Check travel
+guidelines and baggage information below: *Carry no more than 1 check-in
+baggage and 1 hand baggage per passenger. If violated, airline may levy
+extra charges.•*Unaccompanied Minors Travelling: *An unaccompanied minor
+usually refers to a child traveling without an adult aged 18 or
+older.Please check with the airline for their rules and regulations
+regarding unaccompanied minors, as these can differ between
+airlines.•*Valid ID proof needed *Carry a valid photo identification
+proof (Driver Licence, Aadhar Card, Pan Card or any other Government
+recognised photo identification)•*Surcharge Fee: *A non-refundable
+surcharge fee of INR100/passenger will be charged on your flight(s) during
+cancellation and while rescheduling the surcharge fee would be adjusted in
+the new PNR and will not to be charged again. Contact Us  MakeMy Trip 
+Within India: 01244628747, 01245045105 (toll-free)  IndiGo *0124-6173838,
+0124-4973838* <https://itunes.apple.com/us/app/makemytrip/id530488359>
+<https://play.google.com/store/apps/details?id=com.makemytrip> Follow us:
+<https://www.facebook.com/makemytrip> <https://twitter.com/makemytrip>
+<http://www.youtube.com/user/MakeMyTripOfficial>
+<http://www.makemytrip.com/blog/?cmp=footer>
+
+
+--- BODY HTML (first 3000 chars) ---
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Flight Confirmation Mailer</title><style> /* PDF Print Optimizations - Prevent Page Breaks */ body * { page-break-after: avoid !important; page-break-inside: avoid !important; break-after: avoid !important; break-inside: avoid !important; } /* Ensure the main table doesn't break */ table[width="640"] { page-break-inside: avoid !important; break-inside: avoid !important; } /* Prevent breaks in key sections */ body td { page-break-inside: avoid !important; break-inside: avoid !important; } /* PDF-specific styling */ @media print { body * { page-break-after: avoid !important; page-break-inside: avoid !important; -webkit-print-color-adjust: exact !important; color-adjust: exact !important; } table { page-break-inside: avoid !important; } } .ReadMsgBody { width:100%; } .ExternalClass { width:100%; } .ExternalClass * { line-height:100%; } body {width:100% !important; -webkit-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; font-size:12px;} table tr td { border-collapse: collapse; border-spacing:0; font-family:Arial, Helvetica, sans-serif;} a:link {outline: 0;} /* iOS BLUE LINKS */ a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } .visible-xs{display: none;} .airlineInfo{ width: 100%; display: block; padding-right: 5px; } .tableColumnBlockDT{ display: block; } .MsoNormal b{ text-decoration: none !important } @media only screen and (max-width: 599px) { .deviceWidth, .img100, .table100 {width:100%!important;} .tableColumn {display: inline-block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important;} .font14{font-size:14px!important; line-height:18px!important; mso-line-height-rule:exactly;} .padLR0 {padding-left:0px!important; padding-right:0px!important;} .padLR10 {padding-left:10px!important; padding-right:10px!important;} .padLR20 {padding-left:20px!important; padding-right:20px!important;} .appendBottom5 {padding-bottom:5px!important;} .appendBottom10 {padding-bottom:10px!important;} .appendBottom15 {padding-bottom:15px!important;} .appendBottom20 {padding-bottom:20px!important;} .txtLeft {text-align: left!important;} .widthHalf{width: 50% !important;} .widthFull{width: 100% !important;} .noborderRight {border-right:none!important;} .padTB20 {padding-top:20px!important; padding-bottom:20px!important;} .noborderLR {border-left:none!important; border-right:none!important;} .hidden-xs{display: none;} .btnMobile{ display: block; width: 260px !important; } .visible-xs{ display: block; } .airlineInfo{ display: inline-block; width: auto; } .tableColumnBlockDT{ display: inline-block; } .tableColumn50 { display: inline-block !important; width: 50% !i

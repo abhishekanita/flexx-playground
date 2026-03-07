@@ -1,0 +1,228 @@
+Balance
+Rs.6+ L
+Transaction
+Accounts
+Transaction
+Details
+Summary
+XXXXXXX0428	Customer
+Welcome Mr. ABHISHEK AGGARWAL
+As on 30-11-25
+MY INFORMATION
+My Address
+Email ID
+Segment
+Mobile
+Number
+MY HOME BRANCH INFORMATION
+Home Branch
+Branch Email
+ID
+Branch
+Code
+Branch Phone
+Number
+abXXXXXXXXXXX@gmail.com
+S/O ISHWAR CHAND,ROOM-NO-SA-25 GIRNAR
+HOSTEL,I I T HAUZ KHAS NEW DELHI,South,NCT OF
+DELHI-110016.
+98XXXXXX83
+DIAMOND
+I.I.T.HAUZKHAS
+01077
+sbi.01077@sbi.co.in
+011-26581842
+PLEASE DO NOT SHARE YOUR ATM, DEBIT/CREDIT CARD NUMBER, PIN AND OTP WITH ANYONE ELSE. BANK NEVER ASKS FOR SUCH INFORMATION.
+My Name Mr. ABHISHEK AGGARWAL
+-	PAN
+KYC Status Compliant
+Toll Free
+Number 1800 11 2211
+1800 1234
+Available Balance
+No. of Accounts
+Currency	Deposit Accounts
+MY ACCOUNTS
+Secondary	Primary
+SAVING ACCOUNT INR 2 0 604966.67	Transaction Accounts*
+Total INR: Rs. 604966.67
+*Each depositor is insured by the Deposit Insurance and Credit Guarantee Corporation(DICGC) upto the maximum of Rs. 5 Lakh, for both principal and interest amount held by him in the same right and
+same capacity.
+Visit https://sbi.co.in Customer Care 1800 1234 Customer Care customercare@sbi.co.in 1 of 6	Number : Email :
+
+-- 1 of 6 --
+
+Balance
+Rs.6+ L
+Transaction
+Accounts
+Transaction
+Details
+Summary
+XXXXXXX0428	Customer
+Welcome Mr. ABHISHEK AGGARWAL
+As on 30-11-25
+TRANSACTION ACCOUNTS
+Holding Status Account Number Account Status Currency Current Balance Lien/Hold Amount MOD** Balance Available Balance
+P XXXXXXX4051 OPEN INR 594061.67 0.00 0.00 594061.67
+P XXXXXXX7214 INOP INR 20905.00 10000.00 0.00 10905.00
+SAVINGS ACCOUNTS
+** P – Primary Account Holder
+**MOD: Multi Option Deposit
+**S – Secondary Account Holder
+Visit https://sbi.co.in Customer Care 1800 1234 Customer Care customercare@sbi.co.in 2 of 6	Number : Email :
+
+-- 2 of 6 --
+
+Balance
+Rs.6+ L
+Transaction
+Accounts
+Transaction
+Details
+Summary
+XXXXXXX0428	Customer
+Welcome Mr. ABHISHEK AGGARWAL
+As on 30-11-25
+TRANSACTION DETAILS
+SAVING ACCOUNT
+XXXXXXX4051
+Nominee Registered No
+Available Balance 594061.67
+Multi-Option Deposit Balance 0.00
+Name of the Account Holder Mr. ABHISHEK AGGARWAL
+S/O ISHWAR CHAND,ROOM-NO-SA-25 GIRNAR HOSTEL,I I T HAUZ
+KHAS NEW DELHI,South,NCT OF DELHI-110016.
+Address
+SINGLE	Mode of Operation
+Branch Name I.I.T.HAUZKHAS
+01077	Branch Code
+MICR Code 110002156
+SBIN0001077	IFSC Code
+Date Transaction Reference Ref.No./Chq.No. Credit Debit Balance
+null null null null null null
+02-11-25 UPI/DR/894177419583/ABHISHEK/KKBK/abhishek12/Payme - - 50000.00 471755.21
+03-11-25 NEFT*IDFB0010201*IDFBH25307809463*RZPX PVT LTD PAY - 318979.00 - 790734.21
+03-11-25 UPI/DR/530705595599/Airbnb P/ICIC/airbnb.bdp/colle - - 2081.03 788653.18
+03-11-25 UPI/DR/005366638164/BLINKIT /HDFC/grofers1pa/Blink - - 533.00 788120.18
+03-11-25 UPI/DR/160778912401/UPILITE - - 2000.00 786120.18
+03-11-25 UPI/DR/769833872584/Make My /YESB/makemytrip/Payme - - 7014.00 779106.18
+03-11-25 UPI/DR/972810452535/Swiggy D/ICIC/swiggydine/Payme - - 3558.00 775548.18
+04-11-25 UPI/DR/031491764973/UBER IND/HDFC/uberrides@/UberR - - 741.64 774806.54
+04-11-25 UPI/DR/898408965392/Blinkit/AIRP/blinkitjkb/Payvia - - 2158.00 772648.54
+04-11-25 UPI/DR/392129440207/UPILITE - - 2000.00 770648.54
+06-11-25 UPI/DR/071317328181/NARENDRA/HDFC/singhnp13@/Payme - - 800.00 769848.54
+06-11-25 UPI/DR/320188496711/UPILITE - - 2000.00 767848.54
+06-11-25 UPI/DR/342327957526/11974APO/YESB/paytm.d195/Payme - - 1965.95 765882.59
+06-11-25 UPI/DR/279452596229/Swiggy L/UTIB/swiggy.sto/Pay20 - - 1308.00 764574.59
+06-11-25 UPI/DR/531007186280/MUKUL VE/UTIB/vermamukul/Sent - - 2600.00 761974.59
+07-11-25 UPI/DR/531109435581/ABHISHEK/IPOS/9696825026/Sent - - 1727.00 760247.59
+08-11-25 UPI/DR/466850696607/UPILITE - - 2000.00 758247.59
+09-11-25 UPI/DR/816874862967/Swiggy L/UTIB/swiggy.sto/Pay20 - - 1203.00 757044.59
+10-11-25 UPI/DR/762185197864/UPILITE - - 2000.00 755044.59
+TRANSACTION OVERVIEW
+Your Opening Balance on 01-11-25: 521755.21
+Visit https://sbi.co.in Customer Care 1800 1234 Customer Care customercare@sbi.co.in 3 of 6	Number : Email :
+
+-- 3 of 6 --
+
+Balance
+Rs.6+ L
+Transaction
+Accounts
+Transaction
+Details
+Summary
+XXXXXXX0428	Customer
+Welcome Mr. ABHISHEK AGGARWAL
+As on 30-11-25
+Date Transaction Reference Ref.No./Chq.No. Credit Debit Balance
+11-11-25 UPI/DR/440405237871/UPILITE - - 2000.00 753044.59
+12-11-25 UPI/DR/231981616162/Blinkit/HDFC/blinkit.rz/Payvia - - 1017.00 752027.59
+13-11-25 UPI/DR/582979827820/UPILITE - - 2000.00 750027.59
+13-11-25 UPI/DR/921324750931/SHEETAL /HDFC/jatinyadav/Payme - - 1700.00 748327.59
+14-11-25 UPI/DR/531812970019/MAKEMYTR/HDFC/makemytrip/UPIIn - - 11030.00 737297.59
+15-11-25 UPI/DR/868706273673/GANDHI V/RNSB/shreyanshg/Payme - - 25000.00 712297.59
+15-11-25 UPI/DR/321425302589/GANDHI V/RNSB/shreyanshg/Payme - - 25000.00 687297.59
+15-11-25 UPI/DR/893667272845/UPILITE - - 2000.00 685297.59
+15-11-25 UPI/DR/928912871181/Swiggy L/UTIB/swiggy.sto/Pay20 - - 1080.00 684217.59
+16-11-25 UPI/DR/532008513061/RATNA SI/CNRB/ashasinha9/Sent - - 1000.00 683217.59
+16-11-25 UPI/DR/673909172450/Shivam C/BARB/6391356372/Payme - - 2844.00 680373.59
+16-11-25 UPI/DR/752685620791/ASHA/KKBK/ashasinha9/Payment - - 35000.00 645373.59
+18-11-25 UPI/DR/177461366789/airtel/UTIB/airtel.pay/Airtel - - 1767.64 643605.95
+18-11-25 UPI/DR/318444085804/UPILITE - - 2000.00 641605.95
+20-11-25 UPI/DR/989745482142/UPILITE - - 2000.00 639605.95
+21-11-25 UPI/DR/102018012357/NETFLIX /HDFC/netflixupi/Month - - 649.00 638956.95
+22-11-25 UPI/DR/705410419650/Cocktail/YESB/paytm.s1i9/Payme - - 4783.00 634173.95
+22-11-25 UPI/DR/532633791808/BIKANERV/UTIB/bikanerval/Payme - - 266.82 633907.13
+22-11-25 UPI/DR/031595710458/UPILITE - - 2000.00 631907.13
+23-11-25 UPI/DR/396715624167/Blinkit/HDFC/blinkit.pa/UPIInt - - 1400.00 630507.13
+24-11-25 UPI/DR/532815598388/IRCTC/YESB/paytra1599/Sent usi - - 910.85 629596.28
+25-11-25 UPI/DR/532911579824/MANOJ KU/BKID/savitriman/Sent - - 70.00 629526.28
+25-11-25 UPI/DR/532916781255/UBER IND/AIRP/uberindias/UberR - - 655.76 628870.52
+25-11-25 UPI/DR/532906852221/HARSH K/SBIN/9478424232/Sent - - 250.00 628620.52
+25-11-25 UPI/DR/532913771315/CBD BIOM/YESB/paytm.d138/Sent - - 7100.00 621520.52
+25-11-25 UPI/DR/532920327425/VAN HEUSEN/HDFC/vanheusen./Sen - - 10386.00 611134.52
+25-11-25 UPI/DR/532937164083/VAN HEUSEN/HDFC/vanheusen./Sen - - 53.00 611081.52
+26-11-25 UPI/DR/816573106745/UPILITE - - 2000.00 609081.52
+26-11-25 UPI/DR/286527290240/DEVENTUR/YESB/Q810808330/Payme - - 2832.00 606249.52
+26-11-25 UPI/DR/533008609508/DEVENTUR/YESB/q810808330/Sent - - 3398.00 602851.52
+26-11-25 UPI/DR/533079006104/IRCTC/YESB/paytra1599/Sent usi - - 795.85 602055.67
+27-11-25 UPI/DR/108645140542/Apple Se/ICIC/appleservi/Manda - - 99.00 601956.67
+27-11-25 UPI/DR/994866373491/ASHISH /IOBA/ashish6355/Payme - - 3000.00 598956.67
+27-11-25 UPI/DR/533160425887/GAURAV/KKBK/singhgaura/Sent us - - 565.00 598391.67
+30-11-25 UPI/DR/793841665196/GLOBAL P/INDB/bajajpay.6/Payme - - 1155.00 597236.67
+30-11-25 UPI/DR/533443455943/Airtel/YESB/payair7673/Sent us - - 49.00 597187.67
+30-11-25 UPI/DR/332766095540/MADHUN S/PUNB/7015130127/Payme - - 1126.00 596061.67
+30-11-25 UPI/DR/110789658839/UPILITE - - 2000.00 594061.67
+*All dates are in DD-MM-YY format
+Your Closing Balance on 30-11-25: 594061.67
+Visit https://sbi.co.in Customer Care 1800 1234 Customer Care customercare@sbi.co.in 4 of 6	Number : Email :
+
+-- 4 of 6 --
+
+Balance
+Rs.6+ L
+Transaction
+Accounts
+Transaction
+Details
+Summary
+XXXXXXX0428	Customer
+Welcome Mr. ABHISHEK AGGARWAL
+As on 30-11-25
+Contents of this statement will be considered correct if no error is reported within 30 days of receipt of the statement.
+Visit https://sbi.co.in Customer Care 1800 1234 Customer Care customercare@sbi.co.in 5 of 6	Number : Email :
+
+-- 5 of 6 --
+
+Balance
+Rs.6+ L
+Transaction
+Accounts
+Transaction
+Details
+Summary
+XXXXXXX0428	Customer
+Welcome Mr. ABHISHEK AGGARWAL
+As on 30-11-25
+TRANSACTION DETAILS
+SAVING ACCOUNT
+XXXXXXX7214
+Nominee Registered No
+Available Balance 10905.00
+Multi-Option Deposit Balance 0.00
+Name of the Account Holder Mr. ABHISHEK AGGARWAL
+S/O ISHWAR CHAND,ROOM-NO-SA-25 GIRNAR HOSTEL,I I T HAUZ
+KHAS NEW DELHI,South,NCT OF DELHI-110016.
+Address
+SOLE MINOR-ABOV 10YR	Mode of Operation
+Branch Name PINJORE
+10471	Branch Code
+MICR Code 160002047
+SBIN0010471	IFSC Code
+Contents of this statement will be considered correct if no error is reported within 30 days of receipt of the statement.
+Visit https://sbi.co.in Customer Care 1800 1234 Customer Care customercare@sbi.co.in 6 of 6	Number : Email :
+
+-- 6 of 6 --
+

@@ -1,0 +1,374 @@
+{
+  "accountHolder": "ABHISHEK AGGARWAL",
+  "customerId": "XXXXXXX0428",
+  "statementDate": "2025-12-31",
+  "accounts": [
+    {
+      "accountNumber": "XXXXXXX4051",
+      "branchName": "I.I.T.HAUZKHAS",
+      "branchCode": "01077",
+      "ifscCode": "SBIN0001077",
+      "micrCode": "110002156",
+      "openingBalance": 594061.67,
+      "closingBalance": 425558.97,
+      "transactions": [
+        {
+          "date": "2025-12-01",
+          "description": "UPI/DR/533504512265/CONNAUGH/UTIB/amznplmcdc/Sent",
+          "credit": null,
+          "debit": 463.06,
+          "balance": 593598.61
+        },
+        {
+          "date": "2025-12-02",
+          "description": "UPI/DR/445988797946/HIMANSHU/KKBK/9695103323/Payme",
+          "credit": null,
+          "debit": 26710,
+          "balance": 566888.61
+        },
+        {
+          "date": "2025-12-02",
+          "description": "UPI/DR/690778340558/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 564888.61
+        },
+        {
+          "date": "2025-12-03",
+          "description": "UPI/DR/011234094072/ABHISHEK/KKBK/abhishek12/Payme",
+          "credit": null,
+          "debit": 50000,
+          "balance": 514888.61
+        },
+        {
+          "date": "2025-12-04",
+          "description": "UPI/DR/225836468075/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 512888.61
+        },
+        {
+          "date": "2025-12-06",
+          "description": "UPI/DR/534081924638/AHMED/PUNB/ahmedkhan8/Sent usi",
+          "credit": null,
+          "debit": 204,
+          "balance": 512684.61
+        },
+        {
+          "date": "2025-12-06",
+          "description": "UPI/DR/318777674113/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 510684.61
+        },
+        {
+          "date": "2025-12-07",
+          "description": "UPI/DR/365992400798/Swiggy L/UTIB/swiggy.sto/Pay20",
+          "credit": null,
+          "debit": 1240,
+          "balance": 509444.61
+        },
+        {
+          "date": "2025-12-07",
+          "description": "UPI/DR/221635766906/Make My /YESB/makemytrip/Payme",
+          "credit": null,
+          "debit": 10319,
+          "balance": 499125.61
+        },
+        {
+          "date": "2025-12-07",
+          "description": "UPI/DR/341560131675/RAHUL S/KKBK/8573838034/Payme",
+          "credit": null,
+          "debit": 1743,
+          "balance": 497382.61
+        },
+        {
+          "date": "2025-12-09",
+          "description": "UPI/DR/995110458608/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 495382.61
+        },
+        {
+          "date": "2025-12-10",
+          "description": "UPI/DR/338395825647/Blinkit/YESB/paytm-blin/Blinki",
+          "credit": null,
+          "debit": 1640,
+          "balance": 493742.61
+        },
+        {
+          "date": "2025-12-12",
+          "description": "UPI/DR/382634007175/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 491742.61
+        },
+        {
+          "date": "2025-12-13",
+          "description": "UPI/DR/641001724368/BLINKIT/HDFC/blinkit949/Payvia",
+          "credit": null,
+          "debit": 1310,
+          "balance": 490432.61
+        },
+        {
+          "date": "2025-12-13",
+          "description": "UPI/DR/119574213746/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 488432.61
+        },
+        {
+          "date": "2025-12-14",
+          "description": "UPI/DR/534874194310/Airtel/YESB/payair7673/Sent us",
+          "credit": null,
+          "debit": 49,
+          "balance": 488383.61
+        },
+        {
+          "date": "2025-12-14",
+          "description": "UPI/DR/338247258513/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 486383.61
+        },
+        {
+          "date": "2025-12-15",
+          "description": "UPI/DR/534934142087/SHARIFA/YESB/q349002316/Sent u",
+          "credit": null,
+          "debit": 135,
+          "balance": 486248.61
+        },
+        {
+          "date": "2025-12-15",
+          "description": "UPI/DR/534975934134/Make My /YESB/makemytrip/UPI",
+          "credit": null,
+          "debit": 7606,
+          "balance": 478642.61
+        },
+        {
+          "date": "2025-12-15",
+          "description": "UPI/DR/534976696367/Uni Seoul/YESB/paytm.d183/UPI",
+          "credit": null,
+          "debit": 3173,
+          "balance": 475469.61
+        },
+        {
+          "date": "2025-12-16",
+          "description": "UPI/DR/446946787166/MADHU KU/CNRB/9731154663/Payme",
+          "credit": null,
+          "debit": 950,
+          "balance": 474519.61
+        },
+        {
+          "date": "2025-12-16",
+          "description": "UPI/DR/698339913690/MUHAMMED/UTIB/shanidshan/Payme",
+          "credit": null,
+          "debit": 715,
+          "balance": 473804.61
+        },
+        {
+          "date": "2025-12-16",
+          "description": "UPI/DR/413690431413/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 471804.61
+        },
+        {
+          "date": "2025-12-17",
+          "description": "UPI/DR/536408097219/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 469804.61
+        },
+        {
+          "date": "2025-12-17",
+          "description": "UPI/DR/535126549728/Rajbina /YESB/8851908138/NA",
+          "credit": null,
+          "debit": 110,
+          "balance": 469694.61
+        },
+        {
+          "date": "2025-12-17",
+          "description": "UPI/DR/535146417906/UBER IND/UTIB/uberindias/UberR",
+          "credit": null,
+          "debit": 21.7,
+          "balance": 469672.91
+        },
+        {
+          "date": "2025-12-17",
+          "description": "UPI/DR/065675948205/RITU SAHA/KKBK/reetusaha2/Paym",
+          "credit": null,
+          "debit": 12000,
+          "balance": 457672.91
+        },
+        {
+          "date": "2025-12-17",
+          "description": "UPI/DR/199303541572/Swiggy L/UTIB/swiggy.sto/Pay20",
+          "credit": null,
+          "debit": 1019,
+          "balance": 456653.91
+        },
+        {
+          "date": "2025-12-18",
+          "description": "UPI/DR/511399081363/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 454653.91
+        },
+        {
+          "date": "2025-12-20",
+          "description": "UPI/DR/376885324459/BLINKIT/UTIB/blinkit700/Payvia",
+          "credit": null,
+          "debit": 2735,
+          "balance": 451918.91
+        },
+        {
+          "date": "2025-12-21",
+          "description": "UPI/DR/102266358458/NETFLIX /HDFC/netflixupi/Month",
+          "credit": null,
+          "debit": 649,
+          "balance": 451269.91
+        },
+        {
+          "date": "2025-12-21",
+          "description": "UPI/DR/397770595610/MR MADHU/NESF/7015130127/Payme",
+          "credit": null,
+          "debit": 1804,
+          "balance": 449465.91
+        },
+        {
+          "date": "2025-12-21",
+          "description": "UPI/DR/942661873791/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 447465.91
+        },
+        {
+          "date": "2025-12-23",
+          "description": "UPI/DR/535718221050/BISTRO/HDFC/bistrobybl/PayviaR",
+          "credit": null,
+          "debit": 262.3,
+          "balance": 447203.61
+        },
+        {
+          "date": "2025-12-23",
+          "description": "UPI/DR/887817508148/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 445203.61
+        },
+        {
+          "date": "2025-12-23",
+          "description": "UPI/DR/535732379940/BISTRO/HDFC/bistrobybl/UPIInte",
+          "credit": null,
+          "debit": 157,
+          "balance": 445046.61
+        },
+        {
+          "date": "2025-12-24",
+          "description": "UPI/DR/535851151789/BISTRO/HDFC/bistrobybl/PayviaR",
+          "credit": null,
+          "debit": 227,
+          "balance": 444819.61
+        },
+        {
+          "date": "2025-12-25",
+          "description": "UPI/DR/170689567821/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 442819.61
+        },
+        {
+          "date": "2025-12-25",
+          "description": "UPI/DR/198348498548/AR EN TE/YESB/q137419209/Payme",
+          "credit": null,
+          "debit": 4850,
+          "balance": 437969.61
+        },
+        {
+          "date": "2025-12-25",
+          "description": "INTEREST CREDIT",
+          "credit": 4171,
+          "debit": null,
+          "balance": 442140.61
+        },
+        {
+          "date": "2025-12-26",
+          "description": "UPI/ONRF/903593430073/251225/251225",
+          "credit": 634,
+          "debit": null,
+          "balance": 442774.61
+        },
+        {
+          "date": "2025-12-27",
+          "description": "UPI/DR/108848535921/Apple Se/ICIC/appleservi/Manda",
+          "credit": null,
+          "debit": 99,
+          "balance": 442675.61
+        },
+        {
+          "date": "2025-12-27",
+          "description": "UPI/DR/536192593361/BISTRO/HDFC/bistrobybl/UPIInte",
+          "credit": null,
+          "debit": 367,
+          "balance": 442308.61
+        },
+        {
+          "date": "2025-12-27",
+          "description": "UPI/DR/217798950881/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 440308.61
+        },
+        {
+          "date": "2025-12-28",
+          "description": "UPI/DR/536234276828/BISTRO/HDFC/bistrobybl/UPIInte",
+          "credit": null,
+          "debit": 208,
+          "balance": 440100.61
+        },
+        {
+          "date": "2025-12-28",
+          "description": "UPI/DR/536212613708/KARAN KA/HDFC/karankalra/Sent",
+          "credit": null,
+          "debit": 10774,
+          "balance": 429326.61
+        },
+        {
+          "date": "2025-12-31",
+          "description": "UPI/DR/498161784830/UPILITE",
+          "credit": null,
+          "debit": 2000,
+          "balance": 427326.61
+        },
+        {
+          "date": "2025-12-31",
+          "description": "UPI/DR/851227332731/airtel/UTIB/airtel.pay/Airtel",
+          "credit": null,
+          "debit": 1767.64,
+          "balance": 425558.97
+        }
+      ],
+      "_endIdx": 185
+    },
+    {
+      "accountNumber": "XXXXXXX7214",
+      "branchName": "PINJORE",
+      "branchCode": "10471",
+      "ifscCode": "SBIN0010471",
+      "micrCode": "160002047",
+      "openingBalance": 20905,
+      "closingBalance": 21035,
+      "transactions": [
+        {
+          "date": "2025-12-25",
+          "description": "INTEREST CREDIT",
+          "credit": 130,
+          "debit": null,
+          "balance": 21035
+        }
+      ],
+      "_endIdx": 213
+    }
+  ]
+}

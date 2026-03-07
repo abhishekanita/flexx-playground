@@ -10,7 +10,6 @@ class GmailConnectionService extends BaseService<IGmailConnectionDoc> {
 
     async getCredentials(userId: string) {
         const credential = await this.model.findOne({ userId: new Types.ObjectId(userId) });
-        console.log(credential);
         if (credential && credential?.accessToken) return credential;
         return null;
     }
