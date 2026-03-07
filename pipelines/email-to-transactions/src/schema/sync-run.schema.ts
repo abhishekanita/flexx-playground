@@ -1,4 +1,4 @@
-import { EmailSyncRun } from '@/types/sync-jobs.types';
+import { EmailSyncRun } from '@/types/pipelines/sync-jobs.types';
 import mongoose, { Document, Schema, Types } from 'mongoose';
 
 export interface ISyncRunDoc extends Document, EmailSyncRun {}

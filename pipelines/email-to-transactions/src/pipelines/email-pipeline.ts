@@ -14,10 +14,11 @@ export class EmailPipelineWorkflow {
 
     //@Stage-1
     async syncEmails() {
-        const syncQueryIds = [];
-        const lookbackMonths = 3;
+        // const syncQueryIds = [];
+        // const lookbackMonths = 3;
         const emailSync = new SyncEmailStage();
-        const results = await emailSync.syncEmailBulk(this.userId, syncQueryIds, lookbackMonths);
+        const results = await emailSync.syncEmailBulk(this.userId);
+        console.log('results', results);
     }
 
     //@Stage-2

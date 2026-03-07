@@ -1,4 +1,4 @@
-import { ISODateTime } from './financial.type';
+import { ISODateTime } from '../financial-data/financial.type';
 
 // =============================================================================
 // PARSER CONFIG — Database-driven parser registry

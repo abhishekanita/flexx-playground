@@ -1,4 +1,4 @@
-import type { UUID, INR, ISODateTime, ISODate } from './financial.type';
+import type { UUID, INR, ISODateTime, ISODate } from '../financial-data/financial.type';
 
 // =============================================================================
 // PARSER CONFIG

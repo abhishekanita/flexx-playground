@@ -4,7 +4,7 @@
 // Run: npx ts-node --files -r tsconfig-paths/register src/scripts/seed-parser-configs.ts
 
 import { ParserConfigModel } from '@/schema/parser-configs.schema';
-import { ParserConfig } from '@/types/parser-config.type';
+import { ParserConfig } from '@/types/pipelines/parser-config.type';
 
 const now = new Date().toISOString();
 

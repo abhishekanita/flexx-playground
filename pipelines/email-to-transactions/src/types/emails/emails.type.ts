@@ -1,4 +1,4 @@
-import { ISODateTime, UUID } from './financial.type';
+import { ISODateTime, UUID } from '../financial-data/financial.type';
 
 export enum EmailProcessingStatus {
     Fetched = 'fetched', // saved from Gmail, not yet matched to a parser
@@ -17,12 +17,8 @@ export interface RawEmailAttachment {
     filename: string;
     mimeType: string; // 'application/pdf' | 'image/png'
     gmailAttachmentId: string;
-    downloaded: false;
-    // sizeBytes: number;
-    // gmailUrl: string;
-    // internalUrl: string;
-    // passwordHint?: string; // 'pan' | 'dob_ddmmyyyy' | 'account_last6'
-    // extractedText?: string; // populated after PDF parsing
+    downloaded: boolean;
+    s3Key?: string;
 }
 
 export interface RawEmail {

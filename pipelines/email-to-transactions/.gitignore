@@ -9,3 +9,5 @@
 /models.chrome-profile/
 /logs
 /src/scripts/downloads
+
+./output

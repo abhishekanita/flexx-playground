@@ -1,5 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose';
-import { ParserConfig } from '@/types/parser-config.type';
+import { ParserConfig } from '@/types/pipelines/parser-config.type';
 
 export interface IParserConfigDoc extends Document, Omit<ParserConfig, '_id'> {}
 

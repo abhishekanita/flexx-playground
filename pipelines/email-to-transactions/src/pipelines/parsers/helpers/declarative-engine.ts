@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { DeclarativeRules, FieldRule, FieldExtractor, FieldType } from '@/types/parser-config.type';
+import { DeclarativeRules, FieldRule, FieldExtractor, FieldType } from '@/types/pipelines/parser-config.type';
 
 export class DeclarativeEngine {
     constructor() {}

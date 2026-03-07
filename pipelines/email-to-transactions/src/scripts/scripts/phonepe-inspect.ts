@@ -1,6 +1,6 @@
 import '@/loaders/logger';
 import initServer from '@/loaders';
-import { GmailPlugin } from '@/plugins/gmail.plugin';
+import { GmailPlugin } from '@/plugins/gmail/gmail.plugin';
 import { gmailConnectionService } from '@/services/users/gmail-connection.service';
 import { RawEmailsModel } from '@/schema/raw-emails.schema';
 import fs from 'fs';
@@ -35,9 +35,7 @@ const run = async () => {
 
     // 3. Find PDF attachment
     const attachments = (email.attachments || []) as any[];
-    const pdfAttachment = attachments.find(
-        (a: any) => a.mimeType === 'application/pdf' || (a.filename && a.filename.endsWith('.pdf'))
-    );
+    const pdfAttachment = attachments.find((a: any) => a.mimeType === 'application/pdf' || (a.filename && a.filename.endsWith('.pdf')));
 
     if (!pdfAttachment) {
         console.error('No PDF attachment found in email');
@@ -82,7 +80,7 @@ const run = async () => {
     process.exit(0);
 };
 
-run().catch((err) => {
+run().catch(err => {
     console.error('Fatal error:', err);
     process.exit(1);
 });

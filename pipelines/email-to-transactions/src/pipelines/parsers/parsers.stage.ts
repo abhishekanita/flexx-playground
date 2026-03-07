@@ -1,7 +1,7 @@
 import { rawEmailsService } from '@/services/emails/raw-emails.service';
 import { parserConfigService } from '@/services/parsers/parser-config.service';
 import { gmailConnectionService } from '@/services/users/gmail-connection.service';
-import { GmailPlugin } from '@/plugins/gmail.plugin';
+import { GmailPlugin } from '@/plugins/gmail';
 import { IRawEmailsDoc, IParserConfigDoc } from '@/schema';
 import { getCodeModule } from './helpers/code-modules.registry';
 import { DeclarativeEngine } from './helpers/declarative-engine';

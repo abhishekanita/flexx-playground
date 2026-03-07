@@ -1,5 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose';
-import { RawEmail } from '@/types/emails.type';
+import { RawEmail } from '@/types/emails/emails.type';
 
 export interface IRawEmailsDoc extends Document, Omit<RawEmail, '_id'> {}
 
@@ -18,7 +18,16 @@ const RawEmailsSchema = new Schema<IRawEmailsDoc>(
         bodyHtml: String,
         bodyText: String,
         bodyTextLength: Number,
-        attachments: Schema.Types.Mixed,
+        attachments: [
+            {
+                _id: false,
+                filename: String,
+                mimeType: String,
+                gmailAttachmentId: String,
+                downloaded: { type: Boolean, default: false },
+                s3Key: String,
+            },
+        ],
         hasEncryptedExcel: Boolean,
         hasEncryptedPdf: Boolean,
         hasExcel: Boolean,
@@ -34,7 +43,7 @@ const RawEmailsSchema = new Schema<IRawEmailsDoc>(
         lastParseError: String,
         insertAttempts: Number,
     },
-    { timestamps: true, versionKey: false, collection: 'raw-data.emails' }
+    { timestamps: true, versionKey: false }
 );
 
-export const RawEmailsModel = mongoose.model<IRawEmailsDoc>('raw-data.emails', RawEmailsSchema);
+export const RawEmailsModel = mongoose.model<IRawEmailsDoc>('raw-data.emails-v2', RawEmailsSchema);
