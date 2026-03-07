@@ -6,7 +6,6 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         super(ParserConfigModel);
     }
 
-    /** Get all active parser configs, optionally filtered for a specific user. */
     async getActiveConfigs(userId?: string): Promise<IParserConfigDoc[]> {
         const query: any = { active: true };
         if (userId) {
@@ -18,25 +17,15 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         return this.model.find(query).sort({ provider: 1, id: 1 });
     }
 
-    /** Get a single parser config by its slug id. */
     async getBySlug(id: string): Promise<IParserConfigDoc | null> {
         return this.model.findOne({ id });
     }
 
-    /** Activate or deactivate a parser. */
     async setActive(id: string, active: boolean): Promise<IParserConfigDoc | null> {
-        return this.model.findOneAndUpdate(
-            { id },
-            { active, statusUpdatedAt: new Date().toISOString() },
-            { new: true }
-        );
+        return this.model.findOneAndUpdate({ id }, { active, statusUpdatedAt: new Date().toISOString() }, { new: true });
     }
 
-    /** Bump version and optionally update rules. */
-    async bumpVersion(
-        id: string,
-        updates: { declarativeRules?: any; codeModule?: string }
-    ): Promise<IParserConfigDoc | null> {
+    async bumpVersion(id: string, updates: { declarativeRules?: any; codeModule?: string }): Promise<IParserConfigDoc | null> {
         const config = await this.model.findOne({ id });
         if (!config) return null;
 
@@ -69,10 +58,6 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         );
     }
 
-    /**
-     * Record a parse attempt result — updates stats atomically.
-     * Call after every parse attempt (success or failure).
-     */
     async recordAttempt(
         id: string,
         result: {
@@ -115,17 +100,12 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         if (config?.stats) {
             const total = config.stats.totalAttempts || 1;
             const successRate = (config.stats.successCount || 0) / total;
-            const avgConfidence =
-                ((config.stats.avgConfidence || 0) * (total - 1) + result.confidence) / total;
+            const avgConfidence = ((config.stats.avgConfidence || 0) * (total - 1) + result.confidence) / total;
 
-            await this.model.updateOne(
-                { id },
-                { $set: { 'stats.successRate': successRate, 'stats.avgConfidence': avgConfidence } }
-            );
+            await this.model.updateOne({ id }, { $set: { 'stats.successRate': successRate, 'stats.avgConfidence': avgConfidence } });
         }
     }
 
-    /** Get parsers with low reliability (for review dashboard). */
     async getDegradedParsers(threshold = 0.8): Promise<IParserConfigDoc[]> {
         return this.model.find({
             active: true,
@@ -134,7 +114,6 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         });
     }
 
-    /** Get stats summary for all active parsers. */
     async getStatsOverview(): Promise<
         Array<{
             id: string;
@@ -147,17 +126,20 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         }>
     > {
         return this.model
-            .find({ active: true }, {
-                id: 1,
-                name: 1,
-                provider: 1,
-                version: 1,
-                'stats.successRate': 1,
-                'stats.totalAttempts': 1,
-                'stats.avgConfidence': 1,
-            })
+            .find(
+                { active: true },
+                {
+                    id: 1,
+                    name: 1,
+                    provider: 1,
+                    version: 1,
+                    'stats.successRate': 1,
+                    'stats.totalAttempts': 1,
+                    'stats.avgConfidence': 1,
+                }
+            )
             .lean()
-            .then((docs) =>
+            .then(docs =>
                 docs.map((d: any) => ({
                     id: d.id,
                     name: d.name,

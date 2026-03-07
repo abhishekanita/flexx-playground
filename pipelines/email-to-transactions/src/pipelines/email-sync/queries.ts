@@ -1,21 +1,14 @@
-// =============================================================================
-// GMAIL SEARCH QUERIES — Indian Financial Email Discovery
-// =============================================================================
-//
-// Strategy: few wide queries > many narrow ones.
-// Gmail deduplicates within a query, we dedup across queries by message ID.
-// ~15 queries covers what 100+ individual ones would.
-//
-// Gmail query length limit is ~1500 chars, so we split large from: lists.
-// =============================================================================
-
 export interface GmailSearchQuery {
     id: string;
     query: string;
     maxResults?: number; // default 500
 }
 
-// --- Tier 1: Wide keyword queries (run first, catch the bulk) ----------------
+const emails = [''];
+
+const subjects = [];
+
+const keywords = [];
 
 const WIDE_QUERIES: GmailSearchQuery[] = [
     {
@@ -55,8 +48,6 @@ const WIDE_QUERIES: GmailSearchQuery[] = [
     },
 ];
 
-// --- Tier 2: Merged from: queries (one per category, all domains OR'd) -------
-
 const SENDER_QUERIES: GmailSearchQuery[] = [
     {
         id: 'from_banks',
@@ -94,8 +85,6 @@ const SENDER_QUERIES: GmailSearchQuery[] = [
         maxResults: 300,
     },
 ];
-
-// --- Tier 3: Targeted (things only findable by attachment/specific sender) ----
 
 const TARGETED_QUERIES: GmailSearchQuery[] = [
     {
@@ -135,10 +124,6 @@ const TARGETED_QUERIES: GmailSearchQuery[] = [
     },
 ];
 
-// =============================================================================
-// EXPORTS
-// =============================================================================
-
 export const GMAIL_SEARCH_QUERIES: GmailSearchQuery[] = [...WIDE_QUERIES, ...SENDER_QUERIES, ...TARGETED_QUERIES];
 
 export const buildQuery = (q: GmailSearchQuery, after?: Date): string => {
@@ -146,16 +131,3 @@ export const buildQuery = (q: GmailSearchQuery, after?: Date): string => {
     const dateStr = after.toISOString().slice(0, 10).replace(/-/g, '/');
     return `${q.query} after:${dateStr}`;
 };
-
-// const INVOICES_QUERIES = [
-//     {
-//         id: 'instamart_orders',
-//         query: 'from:(noreply@swiggy.in) subject:(Your Instamart) has:attachment',
-//         maxResults: 100,
-//     },
-//     {
-//         id: 'swiggy_orders',
-//         query: 'from:(noreply@swiggy.in) subject:(Your Swiggy) has:attachment',
-//         maxResults: 100,
-//     },
-// ];

@@ -1,22 +1,33 @@
 import { SyncEmailStage } from './email-sync/email-sync.stage';
 import { ParserStage } from './parsers/parsers.stage';
 
-export class EmailPipeline {
+export class EmailPipelineWorkflow {
     private userId: string;
 
     constructor(userId: string) {
         this.userId = userId;
     }
 
-    async startPipeline(syncQueryIds?: string[], lookbackMonths = 3) {
-        //STAGE-1
-        if (syncQueryIds) {
-            const emailSync = new SyncEmailStage();
-            await emailSync.syncEmailsForUser(this.userId, syncQueryIds, lookbackMonths);
-        }
+    async run() {
+        await this.syncEmails();
+    }
 
-        //STAGE-2
+    //@Stage-1
+    async syncEmails() {
+        const syncQueryIds = [];
+        const lookbackMonths = 3;
+        const emailSync = new SyncEmailStage();
+        const results = await emailSync.syncEmailBulk(this.userId, syncQueryIds, lookbackMonths);
+    }
+
+    //@Stage-2
+    async matchAndParseEmails() {
         const parser = new ParserStage();
         await parser.parseAll(this.userId);
+    }
+
+    //@Stage-3
+    async upsertAndEnrichTrxns() {
+        //
     }
 }

@@ -1,5 +1,5 @@
 import { GmailPlugin, GmailFullMessage } from '@/plugins/gmail.plugin';
-import { rawEmailsService } from '@/services/emails/emails.service';
+import { rawEmailsService } from '@/services/emails/raw-emails.service';
 import { gmailConnectionService } from '@/services/users/gmail-connection.service';
 import { EmailProcessingStatus } from '@/types/emails.type';
 import { GMAIL_SEARCH_QUERIES, buildQuery } from './queries';
@@ -17,16 +17,14 @@ export class SyncEmailStage {
         //
     }
 
-    async syncEmailsForUser(userId: string, queryIds?: string[], lookbackMonths = 3): Promise<EmailSyncResult> {
+    async syncEmailBulk(userId: string, queryIds?: string[], lookbackMonths = 3): Promise<EmailSyncResult> {
         const creds = await gmailConnectionService.getCredentials(userId);
         if (!creds) throw new Error(`No Gmail credentials found for user ${userId}`);
 
         const gmail = new GmailPlugin(creds.accessToken, creds.refreshToken);
 
         // Use a lookback window. DB dedup handles overlap cheaply.
-        const afterDate = lookbackMonths > 0
-            ? new Date(Date.now() - lookbackMonths * 30 * 24 * 60 * 60 * 1000)
-            : undefined;
+        const afterDate = lookbackMonths > 0 ? new Date(Date.now() - lookbackMonths * 30 * 24 * 60 * 60 * 1000) : undefined;
 
         const result: EmailSyncResult = { fetched: 0, newEmails: 0, skippedDuplicates: 0, errors: 0 };
 
@@ -34,9 +32,7 @@ export class SyncEmailStage {
         // Only stores IDs (small), not full message bodies
         const processedIds = new Set<string>();
 
-        const queries = queryIds
-            ? GMAIL_SEARCH_QUERIES.filter(q => queryIds.includes(q.id))
-            : GMAIL_SEARCH_QUERIES;
+        const queries = queryIds ? GMAIL_SEARCH_QUERIES.filter(q => queryIds.includes(q.id)) : GMAIL_SEARCH_QUERIES;
 
         for (const searchQuery of queries) {
             try {
