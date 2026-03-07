@@ -14,6 +14,10 @@ class UserService extends BaseService<IUserDoc> {
     async updateGmailSyncCursor(userId: string, cursor: Date): Promise<void> {
         await this.findByIdAndUpdate(userId, { gmailSyncCursor: cursor });
     }
+
+    async getUserMeta(userId: string) {
+        return (await this.findById(userId)).metadata;
+    }
 }
 
 export const userService = new UserService();

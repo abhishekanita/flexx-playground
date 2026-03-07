@@ -6,12 +6,18 @@ import { IRawEmailsDoc, IParserConfigDoc } from '@/schema';
 import { getCodeModule } from './helpers/code-modules.registry';
 import { DeclarativeEngine } from './helpers/declarative-engine';
 import { PDFParse } from 'pdf-parse';
+import { userService } from '@/services/users/user.service';
+import { PARSER_CONFIGS } from './helpers/parser-registry';
 
 export class ParserStage {
     constructor() {}
 
     async parseAll(userId: string) {
-        const configs = await parserConfigService.getActiveConfigs(userId);
+        // const configs = await parserConfigService.getActiveConfigs(userId);
+        const config = await parserConfigService.getBySlug('sbi_savings_statement');
+        console.log('config', config);
+        const configs = [config];
+        // const configs = PARSER_CONFIGS;
         if (configs.length === 0) {
             logger.warn('[Parser] No active parser configs found in database');
             return;
@@ -19,6 +25,7 @@ export class ParserStage {
         logger.info(`[Parser] Loaded ${configs.length} active parser configs from DB`);
 
         const emails = await rawEmailsService.getEmailsToBeMatched(userId);
+        const userMeta = await userService.getUserMeta(userId);
         logger.info(`[Parser] Found ${emails.length} emails to match`);
 
         const creds = await gmailConnectionService.getCredentials(userId);
@@ -34,7 +41,7 @@ export class ParserStage {
             const config = this.matchEmailToConfig(email, configs);
             if (!config) {
                 unmatched++;
-                await rawEmailsService.update({ _id: email._id }, { status: 'unmatched', statusUpdatedAt: new Date().toISOString() });
+                //     await rawEmailsService.update({ _id: email._id }, { status: 'unmatched', statusUpdatedAt: new Date().toISOString() });
                 continue;
             }
 
@@ -42,14 +49,16 @@ export class ParserStage {
             logger.info(`[Parser] Matched "${email.subject}" → ${config.id}`);
 
             try {
-                const result = await this.processEmail(email, config, gmail);
+                const result = await this.processEmail(email, config, gmail, userMeta);
                 if (result) {
                     parsed++;
 
                     // Compute field-level results for stats
                     const fieldResults = this.computeFieldResults(result);
                     const confidence = this.computeConfidence(fieldResults);
+                    console.log('fieldResults', fieldResults, result, confidence);
 
+                    continue;
                     await rawEmailsService.update(
                         { _id: email._id },
                         {
@@ -153,7 +162,7 @@ export class ParserStage {
         }
     }
 
-    private async processEmail(email: IRawEmailsDoc, config: IParserConfigDoc, gmail: GmailPlugin): Promise<unknown | null> {
+    private async processEmail(email: IRawEmailsDoc, config: IParserConfigDoc, gmail: GmailPlugin, userMeta: any): Promise<unknown | null> {
         let parseFn: ((content: string | Buffer) => unknown) | null = null;
         if (config.strategy === 'code') {
             parseFn = getCodeModule(config.codeModule || '');
@@ -196,7 +205,9 @@ export class ParserStage {
             const buffer = await this.downloadAttachment(email, config, gmail);
             if (!buffer) return null;
 
-            const passwords = config.attachment?.passwords || [''];
+            const passwordStrategy = config.attachment?.passwordStrategy || [''];
+            const passwords = this.getPasswords(passwordStrategy, userMeta);
+            console.log('passwords', passwords, passwordStrategy);
             const pdfText = await this.extractPdfText(buffer, passwords);
             if (!pdfText) {
                 logger.error(`[Parser] Could not decrypt/parse PDF for "${email.subject}"`);
@@ -243,6 +254,129 @@ export class ParserStage {
             }
         }
         return null;
+    }
+
+    /**
+     * Password strategy DSL — template strings with `{field}` or `{field:modifier}` tokens.
+     *
+     * Fields:   name, dob, phone, crn
+     * Slicing:  first3, last5, etc.
+     * DOB fmt:  DDMM, DDMMYY, DDMMYYYY, YYYYMMDD
+     *
+     * Examples:
+     *   "{name:first4}{dob:DDMM}"       → "abhi1804"
+     *   "{phone:last5}{dob:DDMMYY}"     → "38083180497"
+     *   "{phone}"                        → "9814838083"
+     *   "{crn}"                          → "12345678"
+     */
+    private getPasswords(strategies: string[], userMeta: any): string[] {
+        if (!strategies || strategies.length === 0) return [''];
+
+        console.log('userMeta', userMeta);
+        const passwords: string[] = [];
+        const tokenRe = /\{(\w+)(?::(\w+))?\}/g;
+
+        for (const tpl of strategies) {
+            try {
+                // Find all tokens, resolve each to string[]
+                const tokens: { start: number; end: number; values: string[] }[] = [];
+                let m: RegExpExecArray | null;
+                while ((m = tokenRe.exec(tpl)) !== null) {
+                    tokens.push({
+                        start: m.index,
+                        end: m.index + m[0].length,
+                        values: this.resolveToken(m[1], m[2], userMeta),
+                    });
+                }
+
+                if (tokens.length === 0) {
+                    // No tokens — treat as literal password
+                    passwords.push(tpl);
+                    continue;
+                }
+
+                // Build cartesian product of all token values
+                let combos: string[][] = [[]];
+                for (const token of tokens) {
+                    combos = combos.flatMap(prev => token.values.map(v => [...prev, v]));
+                }
+
+                // Stitch each combo back into the template
+                for (const combo of combos) {
+                    let result = '';
+                    let cursor = 0;
+                    for (let i = 0; i < tokens.length; i++) {
+                        result += tpl.slice(cursor, tokens[i].start) + combo[i];
+                        cursor = tokens[i].end;
+                    }
+                    result += tpl.slice(cursor);
+                    if (result) passwords.push(result);
+                }
+            } catch (err: any) {
+                logger.warn(`[Parser] Failed to resolve password strategy "${tpl}": ${err.message}`);
+            }
+        }
+
+        passwords.push('');
+        return [...new Set(passwords)];
+    }
+
+    private resolveToken(field: string, modifier: string | undefined, meta: any): string[] {
+        switch (field) {
+            case 'name': {
+                const raw = (meta?.fullname || '').replace(/\s+/g, '').toLowerCase();
+                return raw ? [this.sliceBy(raw, modifier)] : [];
+            }
+            case 'dob': {
+                const dob = meta?.dob || '';
+                const [dd, mm, yyyy] = dob.split('-');
+                if (!dd || !mm || !yyyy) return [];
+                const formatted = this.formatDob(dd, mm, yyyy, modifier);
+                return formatted ? [formatted] : [];
+            }
+            case 'phone': {
+                const phones: string[] = meta?.phones || [];
+                return phones
+                    .map(p => p.replace(/\D/g, '').slice(-10))
+                    .filter(Boolean)
+                    .map(digits => this.sliceBy(digits, modifier));
+            }
+            case 'crn': {
+                const crn = meta?.kotakCrn || '';
+                return crn ? [this.sliceBy(crn, modifier)] : [];
+            }
+            default:
+                return [];
+        }
+    }
+
+    private formatDob(dd: string, mm: string, yyyy: string, fmt?: string): string {
+        switch (fmt?.toUpperCase()) {
+            case 'DDMM':
+                return `${dd}${mm}`;
+            case 'DDMMYY':
+                return `${dd}${mm}${yyyy.slice(-2)}`;
+            case 'DDMMYYYY':
+                return `${dd}${mm}${yyyy}`;
+            case 'YYYYMMDD':
+                return `${yyyy}${mm}${dd}`;
+            case 'MMDD':
+                return `${mm}${dd}`;
+            case 'MMYYYY':
+                return `${mm}${yyyy}`;
+            case undefined:
+                return `${dd}${mm}${yyyy}`;
+            default:
+                return this.sliceBy(`${dd}${mm}${yyyy}`, fmt);
+        }
+    }
+
+    private sliceBy(value: string, modifier?: string): string {
+        if (!modifier) return value;
+        const m = modifier.match(/^(first|last)(\d+)$/i);
+        if (!m) return value;
+        const n = parseInt(m[2]);
+        return m[1].toLowerCase() === 'first' ? value.slice(0, n) : value.slice(-n);
     }
 
     private async extractPdfText(buffer: Buffer, passwords: string[]): Promise<string | null> {

@@ -4,15 +4,15 @@
 // For parsers with strategy: "code", this registry resolves the codeModule
 // string from MongoDB to the actual TypeScript function.
 
-import { parseKotakStatement } from '../providers/kotak-statement.parser';
-import { parseSbiStatement } from '../providers/sbi-statement.parser';
-import { parseSwiggyFoodEmail } from '../providers/swiggy-food.parser';
-import { parseSwiggyInstamartEmail } from '../providers/swiggy-instamart.parser';
-import { parseUberTripEmail } from '../providers/uber-trip.parser';
-import { parseAppleInvoiceEmail } from '../providers/apple-invoice.parser';
-import { parseMakeMyTripEmail } from '../providers/makemytrip-flight.parser';
-import { parsePaytmStatement } from '../providers/paytm-statement.parser';
-import { parsePhonePeStatement } from '../providers/phonepe-statement.parser';
+import { parseKotakStatement } from '../providers/banks/kotak-statement.parser';
+import { parseSbiStatement } from '../providers/banks/sbi-statement.parser';
+import { parseSwiggyFoodEmail } from '../providers/invoices/swiggy-food.parser';
+import { parseSwiggyInstamartEmail } from '../providers/invoices/swiggy-instamart.parser';
+import { parseUberTripEmail } from '../providers/invoices/uber-trip.parser';
+import { parseAppleInvoiceEmail } from '../providers/invoices/apple-invoice.parser';
+import { parseMakeMyTripEmail } from '../providers/invoices/makemytrip-flight.parser';
+import { parsePaytmStatement } from '../providers/upi/paytm-statement.parser';
+import { parsePhonePeStatement } from '../providers/upi/phonepe-statement.parser';
 
 export type CodeModuleFn = (content: string | Buffer) => unknown;
 

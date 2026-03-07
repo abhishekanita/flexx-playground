@@ -14,19 +14,19 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
                 { activeForUserIds: userId },
             ];
         }
-        return this.model.find(query).sort({ provider: 1, id: 1 });
+        return this.model.find(query).sort({ provider: 1, slug: 1 });
     }
 
-    async getBySlug(id: string): Promise<IParserConfigDoc | null> {
-        return this.model.findOne({ id });
+    async getBySlug(slug: string): Promise<IParserConfigDoc | null> {
+        return this.model.findOne({ slug });
     }
 
-    async setActive(id: string, active: boolean): Promise<IParserConfigDoc | null> {
-        return this.model.findOneAndUpdate({ id }, { active, statusUpdatedAt: new Date().toISOString() }, { new: true });
+    async setActive(slug: string, active: boolean): Promise<IParserConfigDoc | null> {
+        return this.model.findOneAndUpdate({ slug }, { active, statusUpdatedAt: new Date().toISOString() }, { new: true });
     }
 
-    async bumpVersion(id: string, updates: { declarativeRules?: any; codeModule?: string }): Promise<IParserConfigDoc | null> {
-        const config = await this.model.findOne({ id });
+    async bumpVersion(slug: string, updates: { declarativeRules?: any; codeModule?: string }): Promise<IParserConfigDoc | null> {
+        const config = await this.model.findOne({ slug });
         if (!config) return null;
 
         const now = new Date().toISOString();
@@ -48,7 +48,7 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
         });
 
         return this.model.findOneAndUpdate(
-            { id },
+            { slug },
             {
                 ...updates,
                 version: newVersion,
@@ -59,7 +59,7 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
     }
 
     async recordAttempt(
-        id: string,
+        slug: string,
         result: {
             success: boolean;
             confidence: number; // fieldsFound / totalFields
@@ -93,16 +93,16 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
             set['stats.lastFailure'] = now;
         }
 
-        await this.model.updateOne({ id }, { $inc: inc, $set: set });
+        await this.model.updateOne({ slug }, { $inc: inc, $set: set });
 
         // Recompute success rate (read-after-write for accuracy)
-        const config = await this.model.findOne({ id }, { stats: 1 }).lean();
+        const config = await this.model.findOne({ slug }, { stats: 1 }).lean();
         if (config?.stats) {
             const total = config.stats.totalAttempts || 1;
             const successRate = (config.stats.successCount || 0) / total;
             const avgConfidence = ((config.stats.avgConfidence || 0) * (total - 1) + result.confidence) / total;
 
-            await this.model.updateOne({ id }, { $set: { 'stats.successRate': successRate, 'stats.avgConfidence': avgConfidence } });
+            await this.model.updateOne({ slug }, { $set: { 'stats.successRate': successRate, 'stats.avgConfidence': avgConfidence } });
         }
     }
 
@@ -116,7 +116,7 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
 
     async getStatsOverview(): Promise<
         Array<{
-            id: string;
+            slug: string;
             name: string;
             provider: string;
             version: number;
@@ -129,7 +129,7 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
             .find(
                 { active: true },
                 {
-                    id: 1,
+                    slug: 1,
                     name: 1,
                     provider: 1,
                     version: 1,
@@ -141,7 +141,7 @@ class ParserConfigService extends BaseService<IParserConfigDoc> {
             .lean()
             .then(docs =>
                 docs.map((d: any) => ({
-                    id: d.id,
+                    slug: d.id,
                     name: d.name,
                     provider: d.provider,
                     version: d.version,

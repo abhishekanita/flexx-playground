@@ -3,4 +3,10 @@ export interface User {
     email: string;
     isGmailConnected: boolean;
     gmailSyncCursor: Date;
+    metadata: {
+        fullname: string;
+        dob: string; //dd-mm-yyyy
+        kotakCrn: string;
+        phones: string[];
+    };
 }

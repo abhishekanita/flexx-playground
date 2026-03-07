@@ -9,7 +9,8 @@ export class EmailPipelineWorkflow {
     }
 
     async run() {
-        await this.syncEmails();
+        // await this.syncEmails();
+        await this.matchAndParseEmails();
     }
 
     //@Stage-1

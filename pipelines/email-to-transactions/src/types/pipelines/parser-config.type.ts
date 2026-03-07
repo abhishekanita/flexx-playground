@@ -20,7 +20,7 @@ export interface ParserAttachmentConfig {
     pickBy: 'mimeType' | 'filename';
     mimeTypes?: string[]; // ["application/pdf"]
     filenamePattern?: string; // regex string: "/\\.xlsx$/i"
-    passwords?: string[];
+    passwordStrategy?: string[];
 }
 
 // ── Declarative extraction ──────────────────────────────────────────────────
@@ -115,7 +115,7 @@ export interface ParserConfig {
     _id?: string;
 
     // Identity
-    id: string; // unique slug: "swiggy_food_delivery"
+    slug: string; // unique slug: "swiggy_food_delivery"
     name: string;
     provider: string; // group key: "swiggy", "uber", "kotak"
     version: number;
@@ -142,7 +142,7 @@ export interface ParserConfig {
     variants: ParserVariant[];
 
     // Reliability
-    stats: ParserStats;
+    stats?: ParserStats;
 
     // Output domain
     domain: 'transaction' | 'investment' | 'loan' | 'insurance' | 'account' | 'statement';

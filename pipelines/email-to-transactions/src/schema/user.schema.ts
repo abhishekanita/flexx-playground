@@ -8,6 +8,12 @@ const UserLocalSchema = new Schema<IUserDoc>(
         email: String,
         isGmailConnected: Boolean,
         gmailSyncCursor: Date,
+        metadata: {
+            fullname: String,
+            dob: String,
+            kotakCrn: String,
+            phones: [String],
+        },
     },
     { timestamps: true, versionKey: false, collection: 'users' }
 );
