@@ -1,6 +1,7 @@
 import { NormalizerFn, InvestmentNormalizerFn } from './normalizer.types';
 import { normalizeKotakStatement, normalizeSbiStatement } from './bank-statement.normalizer';
 import { normalizePhonePeStatement, normalizePaytmStatement } from './upi-statement.normalizer';
+import { normalizeHdfcCcStatement, normalizeSbiCardStatement } from './cc-statement.normalizer';
 import {
     normalizeSwiggyFood,
     normalizeSwiggyInstamart,
@@ -50,6 +51,10 @@ const NORMALIZER_REGISTRY: Record<string, NormalizerFn> = {
     uber_trip: (raw, meta) => normalizeUberTrip(raw, meta),
     apple_invoice: (raw, meta) => normalizeAppleInvoice(raw, meta),
     makemytrip_flight: (raw, meta) => normalizeMakeMyTripFlight(raw, meta),
+
+    // Credit card statements — many signals per email
+    hdfc_cc_statement: (raw, meta) => normalizeHdfcCcStatement(raw, meta),
+    sbicard_cc_statement: (raw, meta) => normalizeSbiCardStatement(raw, meta),
 
     // New normalizers
     zomato_order: (raw, meta) => normalizeZomatoOrder(raw, meta),

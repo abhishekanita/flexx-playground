@@ -324,8 +324,11 @@ export class ParserStage {
     private resolveToken(field: string, modifier: string | undefined, meta: any): string[] {
         switch (field) {
             case 'name': {
-                const raw = (meta?.fullname || '').replace(/\s+/g, '').toLowerCase();
-                return raw ? [this.sliceBy(raw, modifier)] : [];
+                const raw = (meta?.fullname || '').replace(/\s+/g, '');
+                if (!raw) return [];
+                const lower = this.sliceBy(raw.toLowerCase(), modifier);
+                const upper = this.sliceBy(raw.toUpperCase(), modifier);
+                return lower === upper ? [lower] : [lower, upper];
             }
             case 'dob': {
                 const dob = meta?.dob || '';

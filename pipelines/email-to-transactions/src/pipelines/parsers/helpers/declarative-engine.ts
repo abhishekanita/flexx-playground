@@ -40,7 +40,8 @@ export class DeclarativeEngine {
     }
 
     private extractField(field: FieldRule, text: string, $: cheerio.CheerioAPI | null): unknown {
-        for (const extractor of field.extractors) {
+        const extractors = field.extractors || ((field as any).extractor ? [(field as any).extractor] : []);
+        for (const extractor of extractors) {
             const raw = this.runExtractor(extractor, text, $);
             if (raw !== null && raw !== undefined && raw !== '') {
                 return this.coerce(raw, field.type);
@@ -51,7 +52,8 @@ export class DeclarativeEngine {
     }
 
     private extractArray(field: FieldRule, text: string, $: cheerio.CheerioAPI | null): unknown[] {
-        for (const extractor of field.extractors) {
+        const extractors = field.extractors || ((field as any).extractor ? [(field as any).extractor] : []);
+        for (const extractor of extractors) {
             if (extractor.type === 'regex_repeat') {
                 const items = this.runRepeatExtractor(extractor, text);
                 if (items.length > 0) return items;

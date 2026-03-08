@@ -72,6 +72,30 @@ export const PROMOTIONAL_SENDERS: RegExp[] = [
     /^(?:payments-update|store-news)@amazon\.in$/i,
     /^noreply@darwinbox/i,
     /^email@email\.playstation/i,
+
+    // Newsletters — content / media
+    /@e\.economist\.com$/i,
+    /@themorningcontext\.com$/i,
+    /@ghost\.io$/i,
+    /@messari\.io$/i,
+    /@morningbrew\.com$/i,
+    /@newyorker\.com$/i,
+    /@getpocket\.com$/i,
+    /@therundown\.ai$/i,
+    /@quora\.com$/i,
+    /^sm\.profiles@yourstory\.com$/i,
+    /@guidepoint\.com$/i,
+
+    // Job / professional platforms
+    /@intract\.io$/i,
+    /@expertite\.com$/i,
+    /@autumnglobal\.com$/i,
+
+    // Misc marketing
+    /@updates\.indmoney\.com$/i,
+    /@luxeupdates\.tatacliq\.com$/i,
+    /@mailer\.indialends\.com$/i,
+    /@zen2?-?makemytrip\.com$/i,
 ];
 
 /**
