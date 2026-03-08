@@ -51,6 +51,82 @@ export const PARSER_CONFIGS: Omit<ParserConfig, '_id'>[] = [
     },
 
     // ── Swiggy (HTML, declarative) ──────────────────────────────────────
+    // NOTE: Instamart MUST come before Food — both match "order was delivered"
+    //       but Instamart has more specific subject pattern ("Instamart order")
+
+    {
+        slug: 'swiggy_instamart',
+        name: 'Swiggy Instamart Order',
+        provider: 'swiggy',
+        version: 2,
+        active: true,
+        activeForUserIds: [],
+        match: {
+            fromAddress: '/no-?reply@swiggy\\.in/i',
+            subject: '/instamart order/i',
+        },
+        source: 'body_html',
+        strategy: 'declarative',
+        declarativeRules: {
+            preprocessor: 'cheerio_text',
+            fields: [
+                {
+                    name: 'orderId',
+                    type: 'string',
+                    required: true,
+                    extractors: [{ type: 'regex', pattern: 'order id:\\s*(\\d+)', flags: 'i', group: 1 }],
+                },
+                {
+                    name: 'deliveryAddress',
+                    type: 'string',
+                    required: false,
+                    extractors: [{ type: 'regex', pattern: 'Deliver To:\\s*(.+?)(?:\\s+Order Items)', group: 1 }],
+                },
+                {
+                    name: 'itemBill',
+                    type: 'amount',
+                    required: true,
+                    extractors: [{ type: 'regex', pattern: 'Item Bill\\s*₹([\\d,.]+)', group: 1 }],
+                },
+                {
+                    name: 'handlingFee',
+                    type: 'amount',
+                    required: false,
+                    extractors: [{ type: 'regex', pattern: 'Handling Fee\\s*₹([\\d,.]+)', group: 1 }],
+                },
+                {
+                    name: 'deliveryPartnerFee',
+                    type: 'amount',
+                    required: false,
+                    extractors: [{ type: 'regex', pattern: 'Delivery Partner Fee\\s*₹([\\d,.]+)', group: 1 }],
+                },
+                {
+                    name: 'grandTotal',
+                    type: 'amount',
+                    required: true,
+                    extractors: [{ type: 'regex', pattern: 'Grand Total\\s*₹([\\d,.]+)', group: 1 }],
+                },
+            ],
+            arrays: [
+                {
+                    name: 'items',
+                    type: 'string',
+                    required: false,
+                    extractors: [
+                        {
+                            type: 'regex_repeat',
+                            pattern: '(\\d+)\\s+x\\s+(.+?)\\s+₹([\\d,.]+)',
+                            flags: 'g',
+                            fields: ['quantity:int', 'name:string', 'price:amount'],
+                        },
+                    ],
+                },
+            ],
+            validation: [{ type: 'field_present', fields: ['orderId', 'grandTotal'] }],
+        },
+        variants: [],
+        domain: 'transaction',
+    },
 
     {
         slug: 'swiggy_food_delivery',
@@ -60,8 +136,8 @@ export const PARSER_CONFIGS: Omit<ParserConfig, '_id'>[] = [
         active: true,
         activeForUserIds: [],
         match: {
-            fromAddress: 'noreply@swiggy.in',
-            subject: '/order was delivered/i',
+            fromAddress: '/no-?reply@swiggy\\.in/i',
+            subject: '/^(?!.*instamart).*order was.*delivered/i',
         },
         source: 'body_html',
         strategy: 'declarative',
@@ -181,80 +257,6 @@ export const PARSER_CONFIGS: Omit<ParserConfig, '_id'>[] = [
                 },
             ],
             validation: [{ type: 'field_present', fields: ['orderId', 'orderTotal'] }],
-        },
-        variants: [],
-        domain: 'transaction',
-    },
-
-    {
-        slug: 'swiggy_instamart',
-        name: 'Swiggy Instamart Order',
-        provider: 'swiggy',
-        version: 2,
-        active: true,
-        activeForUserIds: [],
-        match: {
-            fromAddress: 'no-reply@swiggy.in',
-            subject: '/instamart order/i',
-        },
-        source: 'body_html',
-        strategy: 'declarative',
-        declarativeRules: {
-            preprocessor: 'cheerio_text',
-            fields: [
-                {
-                    name: 'orderId',
-                    type: 'string',
-                    required: true,
-                    extractors: [{ type: 'regex', pattern: 'order id:\\s*(\\d+)', flags: 'i', group: 1 }],
-                },
-                {
-                    name: 'deliveryAddress',
-                    type: 'string',
-                    required: false,
-                    extractors: [{ type: 'regex', pattern: 'Deliver To:\\s*(.+?)(?:\\s+Order Items)', group: 1 }],
-                },
-                {
-                    name: 'itemBill',
-                    type: 'amount',
-                    required: true,
-                    extractors: [{ type: 'regex', pattern: 'Item Bill\\s*₹([\\d,.]+)', group: 1 }],
-                },
-                {
-                    name: 'handlingFee',
-                    type: 'amount',
-                    required: false,
-                    extractors: [{ type: 'regex', pattern: 'Handling Fee\\s*₹([\\d,.]+)', group: 1 }],
-                },
-                {
-                    name: 'deliveryPartnerFee',
-                    type: 'amount',
-                    required: false,
-                    extractors: [{ type: 'regex', pattern: 'Delivery Partner Fee\\s*₹([\\d,.]+)', group: 1 }],
-                },
-                {
-                    name: 'grandTotal',
-                    type: 'amount',
-                    required: true,
-                    extractors: [{ type: 'regex', pattern: 'Grand Total\\s*₹([\\d,.]+)', group: 1 }],
-                },
-            ],
-            arrays: [
-                {
-                    name: 'items',
-                    type: 'string',
-                    required: false,
-                    extractors: [
-                        {
-                            type: 'regex_repeat',
-                            pattern: '(\\d+)\\s+x\\s+(.+?)\\s+₹([\\d,.]+)',
-                            flags: 'g',
-                            fields: ['quantity:int', 'name:string', 'price:amount'],
-                        },
-                    ],
-                },
-            ],
-            validation: [{ type: 'field_present', fields: ['orderId', 'grandTotal'] }],
         },
         variants: [],
         domain: 'transaction',
@@ -527,7 +529,7 @@ export const PARSER_CONFIGS: Omit<ParserConfig, '_id'>[] = [
                         {
                             type: 'regex_repeat',
                             pattern:
-                                '([A-Z][a-z]{2} \\d{1,2}, \\d{4})\\s+(\\d{1,2}:\\d{2} [AP]M)\\s+(Paid to|Received from)\\s+(.+?)\\s+Transaction ID : (\\S+)\\s+UTR No : (\\S+)\\s+(Paid by|Credited to) (XX\\d+)\\s+(Debit|Credit)\\s+INR\\s*([\\d,.]+)',
+                                '([A-Z][a-z]{2} \\d{1,2}, \\d{4})\\s+(\\d{1,2}:\\d{2} [AP]M)\\s+(Paid to|Received from|Money added to)\\s+(.+?)\\s+Transaction ID : (\\S+)\\s+UTR No : (\\S+)\\s+(?:Paid by|Debited from|Credited to) (XX\\d+)\\s+(Debit|Credit)\\s+INR\\s*([\\d,.]+)',
                             flags: 'g',
                             fields: [
                                 'date:string',
@@ -536,7 +538,6 @@ export const PARSER_CONFIGS: Omit<ParserConfig, '_id'>[] = [
                                 'payee:string',
                                 'transactionId:string',
                                 'utrNo:string',
-                                'accountLabel:string',
                                 'account:string',
                                 'type:string',
                                 'amount:amount',

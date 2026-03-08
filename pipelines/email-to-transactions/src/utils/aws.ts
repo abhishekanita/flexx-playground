@@ -60,7 +60,7 @@ export const uploadToS3 = async (
             ContentLength: contentLength,
         };
         await s3Client.send(new PutObjectCommand(params));
-        logger.info(`Uploaded file s3://${bucketName}/${key}`);
+        // logger.info(`Uploaded file s3://${bucketName}/${key}`);
         return encodeURI(`https://${bucketName}.s3.amazonaws.com/${key}`);
     } catch (err) {
         logger.error(`Error uploading file to S3: ${err}`);

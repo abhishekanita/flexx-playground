@@ -196,3 +196,47 @@ Write one parsed JSON to `output/<provider>/` so the user can inspect the full s
 - Balance check is mandatory — if balances don't add up, the parser has a bug
 - Keep parsers simple — regex per line, not complex state machines
 - Don't map parsed data to core Transaction/Investment types — that's a separate stage
+
+### /generate-dashboard
+Generate a spending analysis dashboard from enriched transaction data.
+
+#### Workflow
+
+**Step 1: Generate dashboard data**
+Run the data generation script to analyze transactions in MongoDB:
+
+```bash
+npx ts-node --files -r tsconfig-paths/register ./src/scripts/scripts/generate-dashboard-data.ts
+```
+
+This queries the `transactions` collection, computes:
+- Spending overview (total, avg monthly, median order)
+- Category breakdown (food_delivery, cab_ride, groceries, etc.)
+- Merchant leaderboard (top 15 merchants by spend)
+- Time patterns (weekday, hourly, monthly heatmap)
+- Enrichment quality stats (multi-signal, reconciled counts)
+- Top ordered items (from Swiggy/Instamart context data)
+- What-if scenarios and actionable insights
+
+Output: `spending-dashboard-data.json`
+
+**Step 2: View dashboard**
+Open `spending-dashboard.html` in a browser. It loads `spending-dashboard-data.json` from the same directory.
+
+**Step 3: Customize**
+To modify the analysis or add new sections:
+- Edit `src/scripts/scripts/generate-dashboard-data.ts` for data computation
+- Edit `spending-dashboard.html` for visualization/rendering
+- The HTML renderer expects the JSON structure defined in the script
+
+#### Key files
+- `src/scripts/scripts/generate-dashboard-data.ts` — Analysis + JSON generation
+- `spending-dashboard.html` — Single-file HTML dashboard (CSS + JS + renderer)
+- `spending-dashboard-data.json` — Generated data (gitignored)
+
+#### Data quality notes
+- "Unknown" category = bank statement debits not yet matched to a merchant
+- VPA-style merchant names (containing @) are filtered from the leaderboard
+- Items with names > 50 chars are filtered (parser artifacts)
+- Dates before 2020 are excluded (likely parse errors)
+- Only debit transactions are included in spending analysis

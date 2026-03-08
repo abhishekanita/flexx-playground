@@ -70,14 +70,32 @@ export function parseSwiggyFoodEmail(html: string): SwiggyFoodOrder {
     // Items are between "Item Name Quantity Price" and "Item Total"
     const itemSection = text.match(/Item Name\s+Quantity\s+Price\s+(.+?)\s+Item Total/);
     if (itemSection) {
-        // Each item: "Name qty ₹ price"
-        const itemMatches = itemSection[1].matchAll(/(.+?)\s+(\d+)\s+₹\s*([\d,.]+)/g);
-        for (const m of itemMatches) {
-            items.push({
-                name: m[1].trim(),
-                quantity: parseInt(m[2]),
-                price: parseAmount(m[3]),
-            });
+        // Split on the "qty ₹ price" pattern, each segment before it is the item name
+        // Format: "Name1 qty1 ₹ price1 Name2 qty2 ₹ price2 ..."
+        const parts = itemSection[1].split(/\s+(\d+)\s+₹\s*([\d,.]+)\s*/);
+        // parts = [name1, qty1, price1, name2, qty2, price2, ...]
+        for (let i = 0; i < parts.length - 2; i += 3) {
+            let name = parts[i].trim();
+            // If this is the first item, the name may contain preamble text
+            // Take only the last meaningful segment (after the last sentence-ending pattern)
+            if (i === 0 && name.length > 80) {
+                // Find the last occurrence of a pattern that looks like end of preamble
+                const lastParen = name.lastIndexOf('(');
+                if (lastParen > 0) {
+                    // Back-track to find the start of the actual item name
+                    const beforeParen = name.substring(0, lastParen).trimEnd();
+                    const lastSpace = beforeParen.lastIndexOf(' ');
+                    name = name.substring(lastSpace + 1).trim();
+                } else {
+                    // Fallback: take last 50 chars max
+                    name = name.substring(name.length - 50).trim();
+                }
+            }
+            const qty = parseInt(parts[i + 1]);
+            const price = parseAmount(parts[i + 2]);
+            if (name && qty && price) {
+                items.push({ name, quantity: qty, price });
+            }
         }
     }
 

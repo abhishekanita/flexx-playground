@@ -1,0 +1,8181 @@
+Transaction Statement for +917838237658
+Mar 08, 2025 - Mar 08, 2026
+Date Transaction Details Type Amount
+Mar 21, 2025
+07:41 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2503210741506798330025
+UTR No : 100205739156
+Debited from XX4051
+Debit INR 649.00
+Mar 23, 2025
+07:11 PM
+Paid to ZOMATO
+Transaction ID : T2503231911374177632106
+UTR No : 097669376600
+Debited from XX4051
+Debit INR 383.80
+Mar 27, 2025
+09:27 PM
+Paid to JioHotstar
+Transaction ID : OM2503262127413203637527
+UTR No : 508666719643
+Debited from XX4051
+Debit INR 1499.00
+Mar 31, 2025
+11:12 PM
+Paid to BLU SMART MOBILITY PRIVATE LIMITED
+Transaction ID : T2503312312424992159610
+UTR No : 983546809079
+Debited from XX4051
+Debit INR 500.00
+Mar 31, 2025
+11:14 PM
+Paid to BLU SMART MOBILITY PRIVATE LIMITED
+Transaction ID : T2503312313575724141666
+UTR No : 769606475731
+Debited from XX4051
+Debit INR 542.00
+Apr 04, 2025
+11:10 AM
+Paid to XXXXXXXX9778
+Transaction ID : T2504041110217296166366
+UTR No : 510103220583
+Debited from XX4051
+Debit INR
+50000.00
+Apr 04, 2025
+01:51 PM
+Paid to Mahesh Mhaske
+Transaction ID : T2504041351282376841266
+UTR No : 466134785020
+Debited from XX4051
+Debit INR 5000.00
+Apr 06, 2025
+02:36 AM
+Paid to BLUSMART MOBILITY PRIVATE LIMITED
+Transaction ID : T2504060236087800490702
+UTR No : 804005634935
+Debited from XX4051
+Debit INR 1000.00
+Page 1 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 1 of 118 --
+
+Date Transaction Details Type Amount
+Apr 06, 2025
+08:31 AM
+Paid to BLUSMART MOBILITY PRIVATE LIMITED
+Transaction ID : T2504060831170080205009
+UTR No : 412598229769
+Debited from XX4051
+Debit INR 657.00
+Apr 06, 2025
+10:46 AM
+Paid to Sunshine Teahouse Private Limited
+Transaction ID : T2504061046441868743897
+UTR No : 860634329504
+Debited from XX4051
+Debit INR 500.00
+Apr 06, 2025
+11:55 AM
+Paid to BLUSMART MOBILITY PRIVATE LIMITED
+Transaction ID : T2504061155547617790703
+UTR No : 682784186606
+Debited from XX4051
+Debit INR 359.00
+Apr 17, 2025
+12:09 PM
+Paid to Blue Dart Express Ltd
+Transaction ID : T2504171209274993605320
+UTR No : 496697811534
+Debited from XX4051
+Debit INR
+10912.00
+Apr 21, 2025
+07:41 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2504210741224888269156
+UTR No : 100398484020
+Debited from XX4051
+Debit INR 649.00
+May 02, 2025
+04:04 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2505021604388912452358
+UTR No : 476511201765
+Debited from XX4051
+Debit INR
+90000.00
+May 06, 2025
+12:57 PM
+Paid to ICCL-Groww
+Transaction ID : T2505061257323581234291
+UTR No : 232896956659
+Debited from XX9778
+Debit INR
+40000.00
+May 09, 2025
+11:20 AM
+Paid to Airtel Prepaid Recharges
+Transaction ID : T2505091120167519777488
+UTR No : 163197085273
+Debited from XX9778
+Debit INR 3599.00
+May 15, 2025
+04:11 PM
+Paid to Urban Company
+Transaction ID : T2505151611128246294959
+UTR No : 006524668707
+Debited from XX9778
+Debit INR 251.00
+Page 2 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 2 of 118 --
+
+Date Transaction Details Type Amount
+May 17, 2025
+03:06 PM
+Paid to BOOKMYSHOW
+Transaction ID : T2505171506284242489374
+UTR No : 153349869733
+Debited from XX9778
+Debit INR 2146.56
+May 21, 2025
+07:29 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2505210729577331271909
+UTR No : 100591354979
+Debited from XX4051
+Debit INR 649.00
+Jun 05, 2025
+10:40 AM
+Paid to MakeMyTrip
+Transaction ID : T2506051040388578141459
+UTR No : 711837094241
+Debited from XX9778
+Debit INR 9294.87
+Jun 06, 2025
+10:28 AM
+Paid to JEGADESH N
+Transaction ID : T2506061028108720796163
+UTR No : 594125047461
+Debited from XX9778
+Debit INR
+16000.00
+Jun 11, 2025
+09:50 PM
+Paid to MAKEMYTRIP COM
+Transaction ID : T2506112150360481804722
+UTR No : 465674614740
+Debited from XX9778
+Debit INR
+14928.00
+Jun 19, 2025
+09:20 PM
+Paid to RAJESH KUMAR GUPTA
+Transaction ID : T2506192120318775953937
+UTR No : 521673433213
+Debited from XX9778
+Debit INR 140.00
+Jun 19, 2025
+10:53 PM
+Paid to City chemist
+Transaction ID : AC232506192253445660335068
+UTR No : 051691233411
+Debited from XX4051
+Debit INR 130.00
+Jun 21, 2025
+10:52 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2506211052495237509746
+UTR No : 100802904151
+Debited from XX4051
+Debit INR 649.00
+Jun 25, 2025
+05:02 PM
+Paid to gurdas singh
+Transaction ID : T2506251702477751012385
+UTR No : 425920283163
+Debited from XX4051
+Debit INR 150.00
+Page 3 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 3 of 118 --
+
+Date Transaction Details Type Amount
+Jun 25, 2025
+09:27 PM
+Paid to AKASH ARUN GUPTA
+Transaction ID : T2506252127165359178049
+UTR No : 519476457190
+Debited from XX9778
+Debit INR 1950.00
+Jun 27, 2025
+01:53 PM
+Paid to VINAY KUMAR
+Transaction ID : T2506271353300138046992
+UTR No : 037883785900
+Debited from XX9778
+Debit INR 600.00
+Jun 28, 2025
+11:02 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2506282302065964358875
+UTR No : 745063723057
+Debited from XX9778
+Debit INR
+12600.00
+Jul 01, 2025
+10:53 AM
+Paid to XXXXXXXX9778
+Transaction ID : T2507011053074069603705
+UTR No : 564017138994
+Debited from XX4051
+Debit INR
+90000.00
+Jul 03, 2025
+11:38 AM
+Paid to XXXXXXXX9778
+Transaction ID : T2507031138368727695315
+UTR No : 577045241931
+Debited from XX4051
+Debit INR
+60000.00
+Jul 05, 2025
+09:21 PM
+Paid to 32ND VISTAS PRIVATE LIMITED
+Transaction ID : T2507052121316387369352
+UTR No : 999727994598
+Debited from XX9778
+Debit INR 588.00
+Jul 05, 2025
+09:28 PM
+Paid to 32ND VISTAS PRIVATE LIMITED
+Transaction ID : T2507052128220211004557
+UTR No : 603083488757
+Debited from XX9778
+Debit INR 90.00
+Jul 05, 2025
+10:18 PM
+Paid to 32ND VISTAS PRIVATE LIMITED
+Transaction ID : T2507052218248397160525
+UTR No : 139079749858
+Debited from XX9778
+Debit INR 3018.00
+Jul 05, 2025
+10:34 PM
+Paid to 32ND VISTAS PRIVATE LIMITED
+Transaction ID : T2507052234046661603820
+UTR No : 180183177780
+Debited from XX9778
+Debit INR 75.00
+Page 4 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 4 of 118 --
+
+Date Transaction Details Type Amount
+Jul 06, 2025
+01:27 PM
+Paid to WWW AIRTEL IN
+Transaction ID : T2507061327374706018704
+UTR No : 696392120774
+Debited from XX9778
+Debit INR 1757.64
+Jul 09, 2025
+03:04 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2507091504288087122467
+UTR No : 087542456689
+Debited from XX9778
+Debit INR
+17000.00
+Jul 11, 2025
+08:16 PM
+Paid to WWW AIRTEL IN
+Transaction ID : T2507112016088360413395
+UTR No : 052255431211
+Debited from XX9778
+Debit INR 1885.64
+Jul 12, 2025
+07:51 PM
+Paid to bookmyshow
+Transaction ID : PTM50712805444421462025202507120751
+UTR No : 288104913062
+Debited from XX9778
+Debit INR 3577.60
+Jul 12, 2025
+08:30 PM
+Paid to FYAZANSARI
+Transaction ID : T2507122030511422428013
+UTR No : 888381845214
+Debited from XX9778
+Debit INR 76.00
+Jul 12, 2025
+08:58 PM
+Paid to sonu kumar
+Transaction ID : T2507122058548185774096
+UTR No : 176033674197
+Debited from XX9778
+Debit INR 1040.00
+Jul 13, 2025
+05:32 PM
+Paid to ADI SPORTS INDIA PVT LTD
+Transaction ID : T2507131732458773681986
+UTR No : 234573785105
+Debited from XX9778
+Debit INR 7490.00
+Jul 13, 2025
+05:54 PM
+Paid to ISKATE
+Transaction ID : AT0230232507131754038005048183
+UTR No : 106044498555
+Debited from XX4051
+Debit INR 3600.00
+Jul 13, 2025
+07:38 PM
+Paid to TBC01 Ambience Mall Gurgaon
+Transaction ID : T2507131938409712681534
+UTR No : 682667262268
+Debited from XX9778
+Debit INR 2955.00
+Page 5 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 5 of 118 --
+
+Date Transaction Details Type Amount
+Jul 16, 2025
+04:57 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2507161657522741987378
+UTR No : 900205688926
+Debited from XX9778
+Debit INR
+12200.00
+Jul 19, 2025
+08:09 PM
+Paid to ******2301
+Transaction ID : T2507192008595715343038
+UTR No : 516222818869
+Debited from XX9778
+Debit INR 2000.00
+Jul 19, 2025
+08:14 PM
+Paid to ******2301
+Transaction ID : T2507192013580767365619
+UTR No : 405591091556
+Debited from XX9778
+Debit INR 500.00
+Jul 21, 2025
+02:16 PM
+Paid to NETFLIX COM
+Transaction ID : OLEX2507211416331877077430
+UTR No : 101021891233
+Debited from XX4051
+Debit INR 649.00
+Jul 22, 2025
+04:16 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2507221616292679849937
+UTR No : 911810507088
+Debited from XX9778
+Debit INR
+27000.00
+Jul 27, 2025
+07:46 AM
+Paid to URBAN COMPANY
+Transaction ID : T2507270746104841562700
+UTR No : 746938408798
+Debited from XX9778
+Debit INR 143.00
+Jul 27, 2025
+11:59 AM
+Paid to Swachh Saathi Private Limited
+Transaction ID : AIR1QxzdNqbOVIWuApT5719246038QPAY02
+UTR No : 520811939941
+Debited from XX4051
+Debit INR 584.00
+Jul 27, 2025
+01:17 PM
+Paid to ASHIMA KUNDU
+Transaction ID : T2507271317203918747197
+UTR No : 521722912870
+Debited from XX9778
+Debit INR 300.00
+Jul 27, 2025
+02:20 PM
+Paid to SHEETAL JEWELLERS
+Transaction ID : T2507271420245366299388
+UTR No : 713743094991
+Debited from XX9778
+Debit INR 5700.00
+Page 6 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 6 of 118 --
+
+Date Transaction Details Type Amount
+Jul 27, 2025
+03:11 PM
+Paid to ASHIMA KUNDU
+Transaction ID : T2507271511407623830703
+UTR No : 008269981600
+Debited from XX9778
+Debit INR
+16000.00
+Aug 02, 2025
+02:06 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2508021406558368572771
+UTR No : 196143326385
+Debited from XX4051
+Debit INR
+50000.00
+Aug 02, 2025
+09:03 PM
+Paid to Mr ANIL KUMAR1
+Transaction ID : T2508022103393051777496
+UTR No : 833051383984
+Debited from XX9778
+Debit INR 60.00
+Aug 03, 2025
+12:23 PM
+Paid to QIKWELL TECHNOLOGIES INDIA PRIVATE LIMITED
+Transaction ID : OM2508031222511963954815
+UTR No : 966146748074
+Debited from XX4051
+Debit INR 599.00
+Aug 03, 2025
+02:57 PM
+Paid to KAMAL SINGH
+Transaction ID : T2508031457442885928230
+UTR No : 331043613520
+Debited from XX9778
+Debit INR 70.00
+Aug 03, 2025
+09:06 PM
+Paid to SHEETAL JEWELLERS
+Transaction ID : T2508032106071181183923
+UTR No : 551169250094
+Debited from XX9778
+Debit INR 5700.00
+Aug 05, 2025
+12:50 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2508051250459978288387
+UTR No : 930480531691
+Debited from XX9778
+Debit INR
+34000.00
+Aug 06, 2025
+01:47 AM
+Money added to UPI Lite
+Transaction ID : W2508060147121009546085
+UTR No : 006070377698
+Debited from XX4051
+Debit INR 1000.00
+Aug 07, 2025
+06:58 PM
+Received from JOY VALATHUPARAMBIL
+Transaction ID : T2508071858363973645717
+UTR No : 387619655429
+Credited to XX9778
+Credit INR 2430.00
+Page 7 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 7 of 118 --
+
+Date Transaction Details Type Amount
+Aug 09, 2025
+02:23 PM
+Paid to Miss SAMRIDHI AGGARWAL
+Transaction ID : T2508091423453341080571
+UTR No : 352493353283
+Debited from XX4051
+Debit INR 1.00
+Aug 09, 2025
+08:15 PM
+Paid to Airtel Payments Bank Limited
+Transaction ID : T2508092015033458326295
+UTR No : 614620117580
+Debited from XX4051
+Debit INR 49.00
+Aug 09, 2025
+09:23 PM
+Paid to ANKITA AGGARWAL
+Transaction ID : T2508092123303867279916
+UTR No : 838900203745
+Debited from XX9778
+Debit INR 1100.00
+Aug 09, 2025
+09:23 PM
+Paid to User
+Transaction ID : T2508092123549718563321
+UTR No : 845194424394
+Debited from XX9778
+Debit INR 1100.00
+Aug 10, 2025
+10:08 AM
+Paid to SHABNAM
+Transaction ID : T2508101008286668312212
+UTR No : 949664883424
+Debited from XX4051
+Debit INR 20.00
+Aug 10, 2025
+11:19 AM
+Money added to UPI Lite
+Transaction ID : W2508101119462883506468
+UTR No : 410284563540
+Debited from XX4051
+Debit INR 1.00
+Aug 10, 2025
+11:20 AM
+Paid to RAJESH KUMAR
+Transaction ID : T2508101120545279093658
+UTR No : 250582817251
+Debited from XX4051
+Debit INR 440.00
+Aug 10, 2025
+11:20 AM
+Money added to UPI Lite
+Transaction ID : W2508101120557791168455
+UTR No : 242366459660
+Debited from XX4051
+Debit INR 2000.00
+Aug 10, 2025
+12:50 PM
+Received from KULDEEP SINGH PAREWA
+Transaction ID : T2508101250472913526877
+UTR No : 109570293104
+Credited to XX9778
+Credit INR
+12500.00
+Page 8 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 8 of 118 --
+
+Date Transaction Details Type Amount
+Aug 10, 2025
+05:58 PM
+Paid to Swiggy Ltd
+Transaction ID : T2508101758082309860579
+UTR No : 681100588510
+Debited from XX4051
+Debit INR 611.00
+Aug 10, 2025
+06:25 PM
+Paid to Swiggy
+Transaction ID : T2508101825155718215272
+UTR No : 479661994458
+Debited from XX4051
+Debit INR 717.00
+Aug 10, 2025
+06:27 PM
+Paid to Swiggy
+Transaction ID : T2508101827496826430376
+UTR No : 256046331788
+Debited from XX4051
+Debit INR 469.00
+Aug 11, 2025
+03:22 PM
+Paid to Swiggy
+Transaction ID : T2508111522058857734519
+UTR No : 505731274490
+Debited from XX4051
+Debit INR 2195.00
+Aug 13, 2025
+06:16 PM
+Paid to Swiggy Ltd
+Transaction ID : T2508131816104964324260
+UTR No : 184397360215
+Debited from XX4051
+Debit INR 544.00
+Aug 13, 2025
+06:16 PM
+Money added to UPI Lite
+Transaction ID : W2508131816116596820239
+UTR No : 326923978020
+Debited from XX4051
+Debit INR 2000.00
+Aug 15, 2025
+12:36 PM
+Paid to Neeraj Kumar
+Transaction ID : T2508151236581802902860
+UTR No : 486531740404
+Debited from XX4051
+Debit INR 115.00
+Aug 15, 2025
+03:06 PM
+Paid to Gagan
+Transaction ID : T2508151506399312554215
+UTR No : 776698799219
+Debited from XX4051
+Debit INR 154.00
+Aug 15, 2025
+05:00 PM
+Paid to Instant Mechanic
+Transaction ID : T2508151700278263759773
+UTR No : 431803617604
+Debited from XX4051
+Debit INR 428.00
+Page 9 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 9 of 118 --
+
+Date Transaction Details Type Amount
+Aug 15, 2025
+10:50 PM
+Paid to SWIGGY
+Transaction ID : T2508152250231530808978
+UTR No : 270453963521
+Debited from XX4051
+Debit INR 346.00
+Aug 17, 2025
+01:30 AM
+Paid to Swiggy
+Transaction ID : T2508170130472288420543
+UTR No : 911552481913
+Debited from XX4051
+Debit INR 819.00
+Aug 17, 2025
+01:30 AM
+Money added to UPI Lite
+Transaction ID : W2508170130487138478925
+UTR No : 553855004051
+Debited from XX4051
+Debit INR 2000.00
+Aug 17, 2025
+05:07 PM
+Paid to SWIGGY
+Transaction ID : T2508171707509092178852
+UTR No : 944007906267
+Debited from XX4051
+Debit INR 120.00
+Aug 19, 2025
+11:34 AM
+Paid to Swiggy
+Transaction ID : T2508191134578796177872
+UTR No : 904693201118
+Debited from XX4051
+Debit INR 397.00
+Aug 19, 2025
+11:38 AM
+Paid to SWIGGY
+Transaction ID : T2508191138457304107710
+UTR No : 679544583359
+Debited from XX4051
+Debit INR 279.00
+Aug 19, 2025
+08:36 PM
+Paid to Swiggy Ltd
+Transaction ID : T2508192036479768947162
+UTR No : 797612275058
+Debited from XX4051
+Debit INR 472.00
+Aug 20, 2025
+04:26 PM
+Received from SHWETA
+Transaction ID : T2508201626170969847809
+UTR No : 523285955855
+Credited to XX9778
+Credit INR 500.00
+Aug 20, 2025
+08:49 PM
+Paid to Swiggy Limited
+Transaction ID : T2508202049132068729202
+UTR No : 052822681727
+Debited from XX4051
+Debit INR 474.00
+Page 10 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 10 of 118 --
+
+Date Transaction Details Type Amount
+Aug 21, 2025
+07:33 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2508210733449579098518
+UTR No : 101253999151
+Debited from XX4051
+Debit INR 649.00
+Aug 21, 2025
+02:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2508211414175182994738
+UTR No : 590011444507
+Debited from XX4051
+Debit INR 283.00
+Aug 21, 2025
+02:14 PM
+Money added to UPI Lite
+Transaction ID : W2508211414193749556525
+UTR No : 732710261526
+Debited from XX4051
+Debit INR 2000.00
+Aug 21, 2025
+05:58 PM
+Paid to SWIGGY
+Transaction ID : T2508211758110233625464
+UTR No : 775265404316
+Debited from XX4051
+Debit INR 469.00
+Aug 21, 2025
+09:34 PM
+Paid to SWIGGY
+Transaction ID : T2508212134361298718365
+UTR No : 175813180412
+Debited from XX4051
+Debit INR 460.00
+Aug 22, 2025
+06:51 PM
+Paid to AKASH ARUN GUPTA
+Transaction ID : T2508221851265345009294
+UTR No : 481464363024
+Debited from XX9778
+Debit INR
+11400.00
+Aug 22, 2025
+08:25 PM
+Paid to SWIGGY
+Transaction ID : T2508222025384681419815
+UTR No : 079374366020
+Debited from XX4051
+Debit INR 278.00
+Aug 23, 2025
+02:32 PM
+Received from APURV KAUSHAL
+Transaction ID : T2508231432305666460231
+UTR No : 523556343874
+Credited to XX9778
+Credit INR
+80000.00
+Aug 23, 2025
+04:29 PM
+Paid to Swiggy Limited
+Transaction ID : T2508231629021087093694
+UTR No : 964364187651
+Debited from XX4051
+Debit INR 1182.00
+Page 11 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 11 of 118 --
+
+Date Transaction Details Type Amount
+Aug 23, 2025
+06:29 PM
+Paid to SWIGGY
+Transaction ID : T2508231829031178322453
+UTR No : 655570620192
+Debited from XX4051
+Debit INR 315.00
+Aug 23, 2025
+09:12 PM
+Paid to Swiggy Limited
+Transaction ID : T2508232112322382831335
+UTR No : 379750923960
+Debited from XX4051
+Debit INR 442.00
+Aug 23, 2025
+09:12 PM
+Money added to UPI Lite
+Transaction ID : W2508232112340148478733
+UTR No : 006170725345
+Debited from XX4051
+Debit INR 2000.00
+Aug 24, 2025
+02:17 PM
+Paid to Airtel
+Transaction ID : T2508241417128860335684
+UTR No : 610116528112
+Debited from XX4051
+Debit INR 1767.64
+Aug 24, 2025
+07:33 PM
+Paid to Bistro
+Transaction ID : T2508241933468381883386
+UTR No : 170747018297
+Debited from XX4051
+Debit INR 218.00
+Aug 25, 2025
+01:49 PM
+Paid to BISTRO
+Transaction ID : T2508251349427608322920
+UTR No : 897583436806
+Debited from XX4051
+Debit INR 426.00
+Aug 25, 2025
+06:08 PM
+Paid to BISTRO
+Transaction ID : T2508251808502085794969
+UTR No : 644638330195
+Debited from XX4051
+Debit INR 138.00
+Aug 25, 2025
+10:19 PM
+Paid to SWIGGY
+Transaction ID : T2508252219341358210450
+UTR No : 607552222001
+Debited from XX4051
+Debit INR 475.00
+Aug 26, 2025
+04:29 PM
+Paid to BISTRO
+Transaction ID : T2508261629493703693541
+UTR No : 406027067092
+Debited from XX4051
+Debit INR 218.00
+Page 12 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 12 of 118 --
+
+Date Transaction Details Type Amount
+Aug 26, 2025
+06:57 PM
+Paid to Swiggy
+Transaction ID : T2508261857544132924363
+UTR No : 478297644602
+Debited from XX4051
+Debit INR 990.00
+Aug 26, 2025
+10:42 PM
+Paid to Miss SAMRIDHI AGGARWAL
+Transaction ID : T2508262242562152505780
+UTR No : 867972891640
+Debited from XX9778
+Debit INR
+10000.00
+Aug 27, 2025
+08:10 PM
+Paid to Swiggy Ltd
+Transaction ID : T2508272010299536786968
+UTR No : 898063132680
+Debited from XX4051
+Debit INR 376.00
+Aug 27, 2025
+08:10 PM
+Money added to UPI Lite
+Transaction ID : W2508272010312763069363
+UTR No : 869858187754
+Debited from XX4051
+Debit INR 2000.00
+Aug 28, 2025
+10:46 AM
+Paid to URBAN COMPANY
+Transaction ID : T2508281046055761832931
+UTR No : 456467643797
+Debited from XX4051
+Debit INR 551.00
+Aug 28, 2025
+10:54 AM
+Paid to Tata 1mg Healthcare ROF portico
+Transaction ID : T2508281054056963179516
+UTR No : 354477027449
+Debited from XX4051
+Debit INR 764.00
+Aug 28, 2025
+10:58 AM
+Paid to Blue Tokai Coffee Roasters ROF Portico
+Transaction ID : T2508281058246192248170
+UTR No : 322353708815
+Debited from XX4051
+Debit INR 1250.00
+Aug 28, 2025
+08:40 PM
+Paid to SWIGGY
+Transaction ID : T2508282040319301990306
+UTR No : 635274303333
+Debited from XX4051
+Debit INR 297.00
+Aug 28, 2025
+09:11 PM
+Paid to SWIGGY
+Transaction ID : T2508282111475403663367
+UTR No : 653201629954
+Debited from XX4051
+Debit INR 332.00
+Page 13 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 13 of 118 --
+
+Date Transaction Details Type Amount
+Aug 29, 2025
+05:24 PM
+Paid to Swiggy
+Transaction ID : T2508291724311396920038
+UTR No : 134917611213
+Debited from XX4051
+Debit INR 1155.00
+Aug 29, 2025
+05:27 PM
+Paid to Swiggy
+Transaction ID : T2508291727298897143425
+UTR No : 199818123174
+Debited from XX4051
+Debit INR 472.00
+Aug 29, 2025
+05:27 PM
+Money added to UPI Lite
+Transaction ID : W2508291727312709162136
+UTR No : 629064044881
+Debited from XX4051
+Debit INR 2000.00
+Aug 29, 2025
+10:17 PM
+Paid to Swiggy Ltd
+Transaction ID : T2508292217397474573370
+UTR No : 078570696625
+Debited from XX4051
+Debit INR 534.00
+Aug 30, 2025
+03:20 PM
+Paid to SWIGGY
+Transaction ID : T2508301520419533728056
+UTR No : 756396829705
+Debited from XX4051
+Debit INR 186.00
+Aug 31, 2025
+12:01 AM
+Paid to SWIGGY
+Transaction ID : T2508310001211186221935
+UTR No : 618797630489
+Debited from XX4051
+Debit INR 158.00
+Aug 31, 2025
+12:05 AM
+Paid to Swiggy Ltd
+Transaction ID : T2508310005122706640544
+UTR No : 284798487131
+Debited from XX4051
+Debit INR 132.00
+Aug 31, 2025
+11:25 PM
+Paid to Swiggy
+Transaction ID : T2508312325067748772306
+UTR No : 056479750512
+Debited from XX4051
+Debit INR 412.00
+Sep 01, 2025
+05:02 PM
+Paid to SWIGGY
+Transaction ID : T2509011702293094811293
+UTR No : 344200765255
+Debited from XX4051
+Debit INR 433.00
+Page 14 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 14 of 118 --
+
+Date Transaction Details Type Amount
+Sep 01, 2025
+05:02 PM
+Money added to UPI Lite
+Transaction ID : W2509011702306658482141
+UTR No : 710043496565
+Debited from XX4051
+Debit INR 2000.00
+Sep 01, 2025
+09:03 PM
+Paid to Sanjay
+Transaction ID : T2509012103187272729658
+UTR No : 095362760465
+Debited from XX4051
+Debit INR 140.00
+Sep 02, 2025
+02:41 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509021441394607380031
+UTR No : 096890943542
+Debited from XX4051
+Debit INR 272.00
+Sep 02, 2025
+06:51 PM
+Paid to Swiggy
+Transaction ID : T2509021851397316699750
+UTR No : 122404708890
+Debited from XX4051
+Debit INR 1029.00
+Sep 02, 2025
+11:34 PM
+Paid to SAMINA CO MOSIM KHAN
+Transaction ID : T2509022334333080441373
+UTR No : 979198835197
+Debited from XX4051
+Debit INR 86.00
+Sep 03, 2025
+11:48 AM
+Paid to XXXXXXXX9778
+Transaction ID : T2509031148010719674217
+UTR No : 715215646598
+Debited from XX4051
+Debit INR
+90000.00
+Sep 03, 2025
+04:13 PM
+Paid to Swiggy
+Transaction ID : T2509031613497508155168
+UTR No : 099648886705
+Debited from XX4051
+Debit INR 492.00
+Sep 03, 2025
+04:49 PM
+Paid to Swiggy Limited
+Transaction ID : T2509031649469749736518
+UTR No : 069917870635
+Debited from XX4051
+Debit INR 664.00
+Sep 03, 2025
+05:46 PM
+Paid to CHHYED ALAM SARKAR
+Transaction ID : T2509031746333668919971
+UTR No : 923957733689
+Debited from XX4051
+Debit INR 150.00
+Page 15 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 15 of 118 --
+
+Date Transaction Details Type Amount
+Sep 03, 2025
+05:46 PM
+Money added to UPI Lite
+Transaction ID : W2509031746355123410284
+UTR No : 503678035807
+Debited from XX4051
+Debit INR 2000.00
+Sep 03, 2025
+07:06 PM
+Paid to ******0118
+Transaction ID : T2509031906060245083634
+UTR No : 996507382396
+Debited from XX4051
+Debit INR 170.00
+Sep 03, 2025
+08:31 PM
+Paid to babul hussain
+Transaction ID : T2509032031485253546398
+UTR No : 023679133367
+Debited from XX4051
+Debit INR 76.00
+Sep 04, 2025
+12:26 AM
+Paid to Javed Auto
+Transaction ID : AC232509040026394896936892
+UTR No : 448655162778
+Debited from XX4051
+Debit INR 66.00
+Sep 04, 2025
+12:08 PM
+Paid to JUWEL HUSSAIN
+Transaction ID : T2509041208330024451259
+UTR No : 515453801314
+Debited from XX4051
+Debit INR 80.00
+Sep 04, 2025
+12:15 PM
+Paid to Swiggy Instamart
+Transaction ID : T2509041215325675765065
+UTR No : 013815125062
+Debited from XX4051
+Debit INR 285.00
+Sep 04, 2025
+04:59 PM
+Paid to Swiggy
+Transaction ID : T2509041659185917923546
+UTR No : 894892200922
+Debited from XX4051
+Debit INR 485.00
+Sep 04, 2025
+08:36 PM
+Paid to GOPAL KRISHNA KUMAR SO SHANKAR MAND
+Transaction ID : T2509042036510717725990
+UTR No : 032079245184
+Debited from XX4051
+Debit INR 65.00
+Sep 05, 2025
+04:00 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2509051600541929914528
+UTR No : 448476065271
+Debited from XX9778
+Debit INR
+34000.00
+Page 16 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 16 of 118 --
+
+Date Transaction Details Type Amount
+Sep 05, 2025
+04:25 PM
+Paid to Swiggy
+Transaction ID : T2509051625445769645739
+UTR No : 198486783712
+Debited from XX4051
+Debit INR 311.00
+Sep 05, 2025
+07:30 PM
+Paid to Selim Auto
+Transaction ID : AC232509051930580487359433
+UTR No : 886180850343
+Debited from XX4051
+Debit INR 68.00
+Sep 05, 2025
+11:34 PM
+Paid to I know much I
+Transaction ID : T2509052334400834422087
+UTR No : 710288715209
+Debited from XX4051
+Debit INR 76.00
+Sep 06, 2025
+12:19 AM
+Paid to Swiggy Limited
+Transaction ID : T2509060019198780924391
+UTR No : 532836830576
+Debited from XX4051
+Debit INR 664.00
+Sep 06, 2025
+12:19 AM
+Money added to UPI Lite
+Transaction ID : W2509060019212164001890
+UTR No : 877437382750
+Debited from XX4051
+Debit INR 2000.00
+Sep 06, 2025
+02:42 PM
+Paid to SWIGGY
+Transaction ID : T2509061442208372145084
+UTR No : 974754601933
+Debited from XX4051
+Debit INR 286.00
+Sep 06, 2025
+09:17 PM
+Paid to SWIGGY
+Transaction ID : T2509062117560349076496
+UTR No : 957674678950
+Debited from XX4051
+Debit INR 255.00
+Sep 07, 2025
+12:00 PM
+Paid to MOSTAKIN RAHAMAN
+Transaction ID : T2509071200157591787911
+UTR No : 785777418555
+Debited from XX4051
+Debit INR 58.00
+Sep 07, 2025
+12:45 PM
+Paid to GLOBAL PROFILE LIFESTYLE
+Transaction ID : T2509071245102734362260
+UTR No : 647249259108
+Debited from XX4051
+Debit INR 1180.00
+Page 17 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 17 of 118 --
+
+Date Transaction Details Type Amount
+Sep 07, 2025
+01:07 PM
+Paid to AFSANA CO MURSAD
+Transaction ID : T2509071307332024217424
+UTR No : 763678729041
+Debited from XX4051
+Debit INR 61.00
+Sep 07, 2025
+02:17 PM
+Paid to gajju yadav
+Transaction ID : T2509071417352435402568
+UTR No : 417870540362
+Debited from XX4051
+Debit INR 66.00
+Sep 07, 2025
+07:15 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2509071915121938316663
+UTR No : 141983054689
+Debited from XX4051
+Debit INR 249.95
+Sep 07, 2025
+10:58 PM
+Paid to SWIGGY
+Transaction ID : T2509072258170525402903
+UTR No : 822690371067
+Debited from XX4051
+Debit INR 163.00
+Sep 08, 2025
+02:22 PM
+Paid to BISTRO
+Transaction ID : T2509081422509712987312
+UTR No : 572210837191
+Debited from XX4051
+Debit INR 362.00
+Sep 08, 2025
+09:01 PM
+Paid to Swiggy
+Transaction ID : T2509082101317882987878
+UTR No : 837373970703
+Debited from XX4051
+Debit INR 1594.00
+Sep 09, 2025
+11:23 AM
+Paid to AKASH ARUN GUPTA
+Transaction ID : T2509091123409295970484
+UTR No : 015191826701
+Debited from XX9778
+Debit INR
+12500.00
+Sep 09, 2025
+01:25 PM
+Paid to Swiggy
+Transaction ID : T2509091325218460059233
+UTR No : 858605190843
+Debited from XX9778
+Debit INR 720.00
+Sep 09, 2025
+02:40 PM
+Paid to Pradum Yadav
+Transaction ID : T2509091440517052044011
+UTR No : 237593601765
+Debited from XX4051
+Debit INR 57.00
+Page 18 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 18 of 118 --
+
+Date Transaction Details Type Amount
+Sep 09, 2025
+02:40 PM
+Money added to UPI Lite
+Transaction ID : W2509091440532925970028
+UTR No : 640801276882
+Debited from XX4051
+Debit INR 2000.00
+Sep 09, 2025
+07:59 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2509091959178674450979
+UTR No : 525286919987
+Credited to XX9778
+Credit INR
+13600.00
+Sep 09, 2025
+08:13 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509092013233406389642
+UTR No : 202320641567
+Debited from XX4051
+Debit INR 393.00
+Sep 09, 2025
+11:49 PM
+Received from VAIBHAV BHUTANI
+Transaction ID : T2509092349457562653123
+UTR No : 111035219850
+Credited to XX9778
+Credit INR 9500.00
+Sep 10, 2025
+12:16 PM
+Paid to 11974APOLLO PHARMACY
+Transaction ID : T2509101216037150858265
+UTR No : 304511031209
+Debited from XX4051
+Debit INR 1265.50
+Sep 10, 2025
+12:54 PM
+Paid to sudam chandra jena
+Transaction ID : T2509101254182102173553
+UTR No : 964080057719
+Debited from XX4051
+Debit INR 835.00
+Sep 10, 2025
+08:33 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509102033031173690432
+UTR No : 377848536688
+Debited from XX4051
+Debit INR 316.00
+Sep 11, 2025
+06:11 PM
+Paid to SWIGGY
+Transaction ID : T2509111811227047543868
+UTR No : 310600885991
+Debited from XX4051
+Debit INR 322.00
+Sep 11, 2025
+10:11 PM
+Paid to Jatin Yadav
+Transaction ID : T2509112211316171969123
+UTR No : 118671353335
+Debited from XX4051
+Debit INR 7800.00
+Page 19 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 19 of 118 --
+
+Date Transaction Details Type Amount
+Sep 11, 2025
+10:36 PM
+Paid to Swiggy
+Transaction ID : T2509112236061925044628
+UTR No : 717495800462
+Debited from XX4051
+Debit INR 579.00
+Sep 11, 2025
+10:36 PM
+Money added to UPI Lite
+Transaction ID : W2509112236075612411758
+UTR No : 022210406525
+Debited from XX4051
+Debit INR 2000.00
+Sep 11, 2025
+10:38 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509112238470208433679
+UTR No : 410811817463
+Debited from XX4051
+Debit INR 248.00
+Sep 12, 2025
+04:50 PM
+Paid to SWIGGY
+Transaction ID : T2509121650199129043868
+UTR No : 315632447193
+Debited from XX4051
+Debit INR 278.00
+Sep 12, 2025
+05:55 PM
+Paid to Swiggy
+Transaction ID : T2509121755024580212873
+UTR No : 943194196624
+Debited from XX4051
+Debit INR 1521.00
+Sep 13, 2025
+12:58 PM
+Paid to Sukhmani Grocers
+Transaction ID : T2509131258416804596001
+UTR No : 580528919825
+Debited from XX4051
+Debit INR 1959.00
+Sep 13, 2025
+01:05 PM
+Paid to Mr RAHAMAT ALI
+Transaction ID : T2509131305085462079562
+UTR No : 028401109073
+Debited from XX4051
+Debit INR 61.00
+Sep 13, 2025
+07:41 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2509131941284747277747
+UTR No : 525637514950
+Credited to XX9778
+Credit INR
+17000.00
+Sep 13, 2025
+08:57 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509132057202237051132
+UTR No : 948927681362
+Debited from XX4051
+Debit INR 300.00
+Page 20 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 20 of 118 --
+
+Date Transaction Details Type Amount
+Sep 14, 2025
+05:05 PM
+Paid to ******4726
+Transaction ID : T2509141705119527608804
+UTR No : 826968799259
+Debited from XX4051
+Debit INR 56.00
+Sep 14, 2025
+09:22 PM
+Paid to Miss SAMRIDHI AGGARWAL
+Transaction ID : T2509142122571169271386
+UTR No : 474451581628
+Debited from XX9778
+Debit INR
+20000.00
+Sep 15, 2025
+02:04 AM
+Paid to Swiggy
+Transaction ID : T2509150204485104989224
+UTR No : 824356980189
+Debited from XX4051
+Debit INR 587.00
+Sep 15, 2025
+02:04 AM
+Money added to UPI Lite
+Transaction ID : W2509150204496956927836
+UTR No : 314269859496
+Debited from XX4051
+Debit INR 2000.00
+Sep 15, 2025
+06:30 AM
+Paid to SUNIL KUMAR
+Transaction ID : T2509150630309177051363
+UTR No : 742791960920
+Debited from XX4051
+Debit INR 56.00
+Sep 15, 2025
+06:27 PM
+Paid to Harjindar singh
+Transaction ID : AC232509151827503439164806
+UTR No : 917061364945
+Debited from XX4051
+Debit INR 72.00
+Sep 15, 2025
+06:48 PM
+Paid to LORD OF THE JUICES
+Transaction ID : T2509151848358494611691
+UTR No : 681287331294
+Debited from XX4051
+Debit INR 80.00
+Sep 15, 2025
+06:50 PM
+Paid to Vipin Snacks
+Transaction ID : AC232509151850211441014694
+UTR No : 032337372372
+Debited from XX4051
+Debit INR 240.00
+Sep 15, 2025
+06:52 PM
+Paid to Amit Kumar Ray
+Transaction ID : T2509151852347290606111
+UTR No : 197848375639
+Debited from XX4051
+Debit INR 90.00
+Page 21 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 21 of 118 --
+
+Date Transaction Details Type Amount
+Sep 15, 2025
+07:02 PM
+Paid to Wakil Malik
+Transaction ID : AC232509151902058370807837
+UTR No : 046171510616
+Debited from XX4051
+Debit INR 67.00
+Sep 16, 2025
+12:02 PM
+Paid to Mubarak Hossain
+Transaction ID : T2509161202541227478446
+UTR No : 045903724852
+Debited from XX4051
+Debit INR 56.00
+Sep 16, 2025
+10:24 PM
+Paid to Taofik Khan
+Transaction ID : T2509162224583040301547
+UTR No : 174679675325
+Debited from XX4051
+Debit INR 60.00
+Sep 17, 2025
+12:17 AM
+Paid to SWIGGY
+Transaction ID : T2509170017408018726235
+UTR No : 324876812245
+Debited from XX4051
+Debit INR 211.00
+Sep 17, 2025
+11:27 AM
+Paid to Swiggy
+Transaction ID : T2509171127560823579340
+UTR No : 157507688695
+Debited from XX4051
+Debit INR 490.00
+Sep 17, 2025
+12:18 PM
+Paid to Mamta jush
+Transaction ID : AC232509171218012792876355
+UTR No : 630332096865
+Debited from XX4051
+Debit INR 50.00
+Sep 18, 2025
+03:43 PM
+Paid to Ravit Pal
+Transaction ID : T2509181543128426514082
+UTR No : 560428853337
+Debited from XX4051
+Debit INR 56.00
+Sep 18, 2025
+08:35 PM
+Paid to SABURI YADAV
+Transaction ID : T2509182035149587229201
+UTR No : 184956011373
+Debited from XX4051
+Debit INR 56.00
+Sep 18, 2025
+09:16 PM
+Paid to SWIGGY
+Transaction ID : T2509182116329851901280
+UTR No : 309954625372
+Debited from XX4051
+Debit INR 388.00
+Page 22 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 22 of 118 --
+
+Date Transaction Details Type Amount
+Sep 18, 2025
+10:04 PM
+Paid to Swiggy Limited
+Transaction ID : T2509182204191920993790
+UTR No : 900580248023
+Debited from XX4051
+Debit INR 684.00
+Sep 19, 2025
+02:20 PM
+Paid to AMAN KUMAR
+Transaction ID : T2509191420101381783254
+UTR No : 274344796253
+Debited from XX4051
+Debit INR 56.00
+Sep 19, 2025
+02:20 PM
+Money added to UPI Lite
+Transaction ID : W2509191420122581877076
+UTR No : 047989566547
+Debited from XX4051
+Debit INR 2000.00
+Sep 19, 2025
+05:40 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509191740542018731188
+UTR No : 332998993620
+Debited from XX4051
+Debit INR 268.00
+Sep 19, 2025
+07:39 PM
+Paid to DURVESH KUMAR
+Transaction ID : T2509191939568582150777
+UTR No : 531947433963
+Debited from XX4051
+Debit INR 72.00
+Sep 19, 2025
+08:46 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509192046139606751362
+UTR No : 499165463399
+Debited from XX4051
+Debit INR 278.00
+Sep 20, 2025
+12:11 PM
+Paid to Bhagwan Singh Yadav
+Transaction ID : T2509201211568945566106
+UTR No : 241469911004
+Debited from XX4051
+Debit INR 61.00
+Sep 20, 2025
+12:38 PM
+Paid to Mamta jush
+Transaction ID : AC232509201238201557242389
+UTR No : 277649099012
+Debited from XX4051
+Debit INR 70.00
+Sep 20, 2025
+12:50 PM
+Paid to RAM LAKHAN
+Transaction ID : T2509201250262843035535
+UTR No : 720828667101
+Debited from XX4051
+Debit INR 61.00
+Page 23 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 23 of 118 --
+
+Date Transaction Details Type Amount
+Sep 20, 2025
+01:23 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509201323197851092877
+UTR No : 571663966826
+Debited from XX4051
+Debit INR 329.00
+Sep 20, 2025
+06:38 PM
+Paid to ALEEVA
+Transaction ID : T2509201838397398198700
+UTR No : 404800435448
+Debited from XX4051
+Debit INR 500.00
+Sep 20, 2025
+07:13 PM
+Paid to DHARMESH X
+Transaction ID : T2509201913425556462063
+UTR No : 872425083243
+Debited from XX4051
+Debit INR 56.00
+Sep 20, 2025
+08:19 PM
+Paid to ALEEVA
+Transaction ID : T2509202019294471464157
+UTR No : 207467777295
+Debited from XX4051
+Debit INR 1000.00
+Sep 20, 2025
+08:24 PM
+Paid to nar
+Transaction ID : T2509202024234371528929
+UTR No : 410287096638
+Debited from XX4051
+Debit INR 56.00
+Sep 20, 2025
+09:19 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509202119364899765709
+UTR No : 031151371440
+Debited from XX4051
+Debit INR 450.00
+Sep 20, 2025
+09:19 PM
+Money added to UPI Lite
+Transaction ID : W2509202119378219560073
+UTR No : 593302540806
+Debited from XX4051
+Debit INR 2000.00
+Sep 20, 2025
+09:23 PM
+Paid to Swiggy Limited
+Transaction ID : T2509202123338520522050
+UTR No : 879114669611
+Debited from XX4051
+Debit INR 832.00
+Sep 20, 2025
+11:24 PM
+Paid to ******1134
+Transaction ID : T2509202323589190122944
+UTR No : 269158371106
+Debited from XX4051
+Debit INR 6000.00
+Page 24 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 24 of 118 --
+
+Date Transaction Details Type Amount
+Sep 20, 2025
+11:24 PM
+Paid to ******2202
+Transaction ID : T2509202324273373888003
+UTR No : 189071420430
+Debited from XX4051
+Debit INR 1000.00
+Sep 20, 2025
+11:24 PM
+Money added to UPI Lite
+Transaction ID : W2509202324287902004056
+UTR No : 881248249111
+Debited from XX4051
+Debit INR 2000.00
+Sep 21, 2025
+01:44 AM
+Paid to Swiggy Limited
+Transaction ID : T2509210144529580326362
+UTR No : 340420173266
+Debited from XX4051
+Debit INR 1672.00
+Sep 21, 2025
+12:42 PM
+Paid to Abaidur Rahamaan
+Transaction ID : T2509211242291069195718
+UTR No : 878044547810
+Debited from XX4051
+Debit INR 61.00
+Sep 21, 2025
+02:25 PM
+Paid to NETFLIX COM
+Transaction ID : OLEX2509211425138373269324
+UTR No : 101509430169
+Debited from XX4051
+Debit INR 649.00
+Sep 21, 2025
+05:18 PM
+Paid to AJIT YADAV
+Transaction ID : T2509211718587463954646
+UTR No : 768405871855
+Debited from XX4051
+Debit INR 56.00
+Sep 21, 2025
+06:51 PM
+Paid to PAWAN kumar
+Transaction ID : T2509211851185830363690
+UTR No : 321988019109
+Debited from XX4051
+Debit INR 135.00
+Sep 21, 2025
+08:06 PM
+Paid to URBAN COMPANY LIMITED
+Transaction ID : T2509212006428301212615
+UTR No : 206479956476
+Debited from XX9778
+Debit INR 1378.00
+Sep 21, 2025
+09:25 PM
+Paid to SWIGGY
+Transaction ID : T2509212125161252522678
+UTR No : 042637668404
+Debited from XX4051
+Debit INR 254.00
+Page 25 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 25 of 118 --
+
+Date Transaction Details Type Amount
+Sep 22, 2025
+01:24 PM
+Paid to URBAN COMPANY LIMITED
+Transaction ID : T2509221324035819988944
+UTR No : 585681590613
+Debited from XX4051
+Debit INR 1838.00
+Sep 22, 2025
+01:28 PM
+Paid to Swiggy
+Transaction ID : T2509221328090379195680
+UTR No : 199125396758
+Debited from XX4051
+Debit INR 759.00
+Sep 22, 2025
+05:16 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509221716175529899193
+UTR No : 622673372729
+Debited from XX4051
+Debit INR 150.00
+Sep 22, 2025
+09:54 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509222154440287373041
+UTR No : 572074743043
+Debited from XX4051
+Debit INR 327.00
+Sep 23, 2025
+12:08 PM
+Paid to Nd Rofik Ali
+Transaction ID : T2509231208140739542455
+UTR No : 196041634094
+Debited from XX4051
+Debit INR 62.00
+Sep 23, 2025
+03:22 PM
+Paid to Ijaj khan
+Transaction ID : AC232509231522329998223165
+UTR No : 787972559615
+Debited from XX4051
+Debit INR 56.00
+Sep 23, 2025
+03:33 PM
+Paid to Swiggy Limited
+Transaction ID : T2509231533168654357951
+UTR No : 908402285232
+Debited from XX4051
+Debit INR 1202.00
+Sep 23, 2025
+09:30 PM
+Received from UTSAV CHAWLA
+Transaction ID : T2509232130048684531503
+UTR No : 526672743264
+Credited to XX9778
+Credit INR 450.00
+Sep 24, 2025
+05:38 PM
+Paid to MANIKUL ISLAM
+Transaction ID : T2509241738310043015804
+UTR No : 144228686449
+Debited from XX4051
+Debit INR 59.00
+Page 26 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 26 of 118 --
+
+Date Transaction Details Type Amount
+Sep 24, 2025
+08:47 PM
+Paid to SWIGGY
+Transaction ID : T2509242047287637992599
+UTR No : 712638409518
+Debited from XX4051
+Debit INR 393.00
+Sep 24, 2025
+08:47 PM
+Money added to UPI Lite
+Transaction ID : W2509242047302202635487
+UTR No : 592466330560
+Debited from XX4051
+Debit INR 2000.00
+Sep 24, 2025
+09:00 PM
+Paid to Rajeevkumar Kumar
+Transaction ID : T2509242059597030143170
+UTR No : 661654517987
+Debited from XX4051
+Debit INR 57.00
+Sep 25, 2025
+12:37 PM
+Paid to Swiggy
+Transaction ID : T2509251237478650016722
+UTR No : 562208424623
+Debited from XX4051
+Debit INR 486.00
+Sep 25, 2025
+01:24 PM
+Paid to SWIGGY
+Transaction ID : T2509251324577241748147
+UTR No : 848028910128
+Debited from XX4051
+Debit INR 146.00
+Sep 25, 2025
+02:50 PM
+Paid to RAJESH PASWAN
+Transaction ID : T2509251450347042519095
+UTR No : 217157683838
+Debited from XX4051
+Debit INR 62.00
+Sep 25, 2025
+03:51 PM
+Paid to MAKEMYTRIP INDIA FLIGHTSUPIINTENT
+Transaction ID : T2509251551370435790927
+UTR No : 197326461108
+Debited from XX4051
+Debit INR
+15035.00
+Sep 25, 2025
+06:37 PM
+Paid to Enamul Sekh
+Transaction ID : T2509251837174627008994
+UTR No : 378763382985
+Debited from XX4051
+Debit INR 81.00
+Sep 25, 2025
+08:06 PM
+Paid to Bistro
+Transaction ID : T2509252006570627018731
+UTR No : 206728106421
+Debited from XX4051
+Debit INR 307.00
+Page 27 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 27 of 118 --
+
+Date Transaction Details Type Amount
+Sep 25, 2025
+09:31 PM
+Paid to DILDAR ALI
+Transaction ID : T2509252131092565145629
+UTR No : 610098944632
+Debited from XX4051
+Debit INR 64.00
+Sep 26, 2025
+12:06 AM
+Paid to Munfed khan
+Transaction ID : T2509260006046397250851
+UTR No : 948613533273
+Debited from XX4051
+Debit INR 88.00
+Sep 26, 2025
+11:29 AM
+Paid to Firoj alom
+Transaction ID : AC232509261129165726800694
+UTR No : 112909967122
+Debited from XX4051
+Debit INR 57.00
+Sep 26, 2025
+02:08 PM
+Paid to Swiggy
+Transaction ID : T2509261408561823855371
+UTR No : 214493796249
+Debited from XX4051
+Debit INR 253.00
+Sep 26, 2025
+04:26 PM
+Paid to MURARI
+Transaction ID : T2509261626285847898957
+UTR No : 393926046361
+Debited from XX4051
+Debit INR 65.00
+Sep 26, 2025
+09:00 PM
+Paid to ******8202
+Transaction ID : T2509262100316947488265
+UTR No : 870950752944
+Debited from XX4051
+Debit INR 57.00
+Sep 26, 2025
+09:10 PM
+Paid to Mrs TANVI SUNIL BORKAR
+Transaction ID : T2509262110421361336828
+UTR No : 525406577791
+Debited from XX9778
+Debit INR
+29950.00
+Sep 26, 2025
+11:04 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509262304509404699941
+UTR No : 276929976688
+Debited from XX4051
+Debit INR 431.00
+Sep 26, 2025
+11:04 PM
+Money added to UPI Lite
+Transaction ID : W2509262304520453480992
+UTR No : 844336114684
+Debited from XX4051
+Debit INR 2000.00
+Page 28 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 28 of 118 --
+
+Date Transaction Details Type Amount
+Sep 27, 2025
+10:47 AM
+Paid to SADDAM HUSAIN
+Transaction ID : T2509271047389764439321
+UTR No : 759295138718
+Debited from XX4051
+Debit INR 107.00
+Sep 27, 2025
+02:19 PM
+Paid to Carnatic Cafe Domestic
+Transaction ID : T2509271419242913896172
+UTR No : 972495266436
+Debited from XX4051
+Debit INR 441.00
+Sep 27, 2025
+07:42 PM
+Paid to CHICKEN WILD WINGS PVT LTD
+Transaction ID : T2509271942238120592305
+UTR No : 209239040827
+Debited from XX4051
+Debit INR 1735.75
+Sep 27, 2025
+09:36 PM
+Paid to SUBRATA SINHA
+Transaction ID : T2509272136551668439173
+UTR No : 369203526531
+Debited from XX4051
+Debit INR 1478.00
+Sep 27, 2025
+09:49 PM
+Paid to Swiggy
+Transaction ID : T2509272149079625487550
+UTR No : 854340255546
+Debited from XX4051
+Debit INR 567.00
+Sep 28, 2025
+12:51 AM
+Paid to Airtel
+Transaction ID : T2509280051212556731780
+UTR No : 112195870377
+Debited from XX4051
+Debit INR 49.00
+Sep 28, 2025
+10:29 AM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2509281029433523855696
+UTR No : 781870123585
+Debited from XX4051
+Debit INR 116.82
+Sep 28, 2025
+10:31 AM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2509281031184866010684
+UTR No : 865816469373
+Debited from XX4051
+Debit INR 189.00
+Sep 28, 2025
+10:59 AM
+Paid to Swiggy Limited
+Transaction ID : T2509281059010517421788
+UTR No : 632553982133
+Debited from XX4051
+Debit INR 871.00
+Page 29 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 29 of 118 --
+
+Date Transaction Details Type Amount
+Sep 28, 2025
+04:45 PM
+Paid to SWIGGY
+Transaction ID : T2509281645323638904478
+UTR No : 972083142845
+Debited from XX4051
+Debit INR 315.00
+Sep 28, 2025
+04:45 PM
+Money added to UPI Lite
+Transaction ID : W2509281645337186991155
+UTR No : 365491647045
+Debited from XX4051
+Debit INR 2000.00
+Sep 28, 2025
+09:27 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509282127320902400181
+UTR No : 509676916164
+Debited from XX4051
+Debit INR 353.00
+Sep 29, 2025
+12:14 PM
+Paid to Swiggy
+Transaction ID : T2509291214540392591688
+UTR No : 993650391273
+Debited from XX4051
+Debit INR 1182.00
+Sep 29, 2025
+06:12 PM
+Paid to Swiggy
+Transaction ID : T2509291812343507306309
+UTR No : 635892060936
+Debited from XX4051
+Debit INR 234.00
+Sep 29, 2025
+11:20 PM
+Paid to Airtel
+Transaction ID : T2509292320064937157161
+UTR No : 210732128941
+Debited from XX4051
+Debit INR 1885.64
+Sep 30, 2025
+12:15 AM
+Paid to SWIGGY
+Transaction ID : T2509300015571885252168
+UTR No : 428024142220
+Debited from XX4051
+Debit INR 233.00
+Sep 30, 2025
+01:19 AM
+Received from Mrs TANVI SUNIL BORKAR
+Transaction ID : T2509300119087378056186
+UTR No : 527373704650
+Credited to XX9778
+Credit INR
+20570.00
+Sep 30, 2025
+11:04 AM
+Paid to Swiggy
+Transaction ID : T2509301104472742377076
+UTR No : 507719486205
+Debited from XX4051
+Debit INR 397.00
+Page 30 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 30 of 118 --
+
+Date Transaction Details Type Amount
+Sep 30, 2025
+01:26 PM
+Paid to SHIVALINGAPPAA RAJASHEKHAR POOJARI
+Transaction ID : T2509301326116460478184
+UTR No : 268242309716
+Debited from XX4051
+Debit INR 76.00
+Sep 30, 2025
+03:14 PM
+Paid to Bhartiya Jalpan-HSR
+Transaction ID : AT0230232509301514126605421514
+UTR No : 630301738179
+Debited from XX4051
+Debit INR 125.00
+Sep 30, 2025
+03:39 PM
+Paid to B Raju
+Transaction ID : T2509301539556795873143
+UTR No : 895447231399
+Debited from XX4051
+Debit INR 120.00
+Sep 30, 2025
+03:52 PM
+Paid to BALRAM YADAV
+Transaction ID : AC232509301552182856180899
+UTR No : 796491237864
+Debited from XX4051
+Debit INR 156.00
+Sep 30, 2025
+08:13 PM
+Paid to Swiggy Ltd
+Transaction ID : T2509302012576414739383
+UTR No : 577122688613
+Debited from XX4051
+Debit INR 689.00
+Sep 30, 2025
+08:22 PM
+Paid to ZEPTO MARKETPLACE PRIVATE LIMITED
+Transaction ID : T2509302022212555988679
+UTR No : 834216815019
+Debited from XX4051
+Debit INR 288.39
+Sep 30, 2025
+08:22 PM
+Money added to UPI Lite
+Transaction ID : W2509302022230909899439
+UTR No : 187449363830
+Debited from XX4051
+Debit INR 2000.00
+Oct 01, 2025
+10:44 AM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2510011044558885687550
+UTR No : 850390481756
+Debited from XX4051
+Debit INR 6.00
+Oct 01, 2025
+03:26 PM
+Paid to Swiggy
+Transaction ID : T2510011526187791434864
+UTR No : 254314834925
+Debited from XX4051
+Debit INR 627.00
+Page 31 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 31 of 118 --
+
+Date Transaction Details Type Amount
+Oct 01, 2025
+10:42 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2510012242018363870040
+UTR No : 527474780133
+Credited to XX9778
+Credit INR
+17000.00
+Oct 02, 2025
+10:13 AM
+Paid to ZEPTO MARKETPLACE PRIVATE LIMITED
+Transaction ID : T2510021013495186042725
+UTR No : 559594783303
+Debited from XX4051
+Debit INR 289.44
+Oct 02, 2025
+08:35 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510022035013281692740
+UTR No : 035135104306
+Debited from XX4051
+Debit INR 564.00
+Oct 02, 2025
+09:39 PM
+Paid to DHANANJAY RABHA
+Transaction ID : T2510022139549103899987
+UTR No : 859725251350
+Debited from XX9778
+Debit INR 3000.00
+Oct 03, 2025
+10:01 AM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2510031001373678411734
+UTR No : 556977162697
+Debited from XX4051
+Debit INR 6.00
+Oct 03, 2025
+12:09 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510031209130099432465
+UTR No : 937338922285
+Debited from XX4051
+Debit INR 604.00
+Oct 03, 2025
+12:09 PM
+Money added to UPI Lite
+Transaction ID : W2510031209145522441336
+UTR No : 675971731290
+Debited from XX4051
+Debit INR 2000.00
+Oct 03, 2025
+05:18 PM
+Paid to Swiggy
+Transaction ID : T2510031718510051053064
+UTR No : 665062634297
+Debited from XX4051
+Debit INR 223.00
+Oct 03, 2025
+11:36 PM
+Paid to KARAN KALRA
+Transaction ID : T2510032336219468884442
+UTR No : 892532814734
+Debited from XX4051
+Debit INR
+90000.00
+Page 32 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 32 of 118 --
+
+Date Transaction Details Type Amount
+Oct 04, 2025
+12:16 PM
+Paid to M VELAN
+Transaction ID : T2510041216279954821907
+UTR No : 548098181920
+Debited from XX4051
+Debit INR 103.00
+Oct 04, 2025
+12:37 PM
+Paid to SHREE SHIVA NADHI TEE STALL
+Transaction ID : AC232510041237132751489848
+UTR No : 188521954590
+Debited from XX4051
+Debit INR 135.00
+Oct 04, 2025
+01:02 PM
+Paid to ASIF ULLA KHAN
+Transaction ID : T2510041302067820093678
+UTR No : 744070844877
+Debited from XX4051
+Debit INR 84.00
+Oct 04, 2025
+06:54 PM
+Paid to RAVIKUMAR
+Transaction ID : T2510041854024040948427
+UTR No : 986817044523
+Debited from XX4051
+Debit INR 95.00
+Oct 04, 2025
+09:27 PM
+Paid to ZOMATO
+Transaction ID : T2510042127421248963289
+UTR No : 333697140651
+Debited from XX4051
+Debit INR 3722.65
+Oct 04, 2025
+09:49 PM
+Paid to UNIQUE_LIQUORS_
+Transaction ID : T2510042149028656511282
+UTR No : 614677012052
+Debited from XX4051
+Debit INR 4005.00
+Oct 05, 2025
+02:50 AM
+Paid to Swiggy Ltd
+Transaction ID : T2510050250462733681202
+UTR No : 262574712168
+Debited from XX4051
+Debit INR 304.00
+Oct 05, 2025
+12:57 PM
+Paid to SWIGGY
+Transaction ID : T2510051257263502678102
+UTR No : 722812427192
+Debited from XX4051
+Debit INR 202.00
+Oct 05, 2025
+09:22 PM
+Paid to A K Tiffins and Co
+Transaction ID : T2510052122370278178174
+UTR No : 010205354001
+Debited from XX9778
+Debit INR 1802.00
+Page 33 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 33 of 118 --
+
+Date Transaction Details Type Amount
+Oct 06, 2025
+02:20 AM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2510060220298783309328
+UTR No : 386847445047
+Debited from XX4051
+Debit INR 15.80
+Oct 06, 2025
+02:54 AM
+Paid to Akhilesh
+Transaction ID : T2510060254440710822222
+UTR No : 675312422870
+Debited from XX4051
+Debit INR 700.00
+Oct 06, 2025
+02:54 AM
+Money added to UPI Lite
+Transaction ID : W2510060254461051444557
+UTR No : 213793411851
+Debited from XX4051
+Debit INR 2000.00
+Oct 06, 2025
+03:08 AM
+Paid - Mobile Recharge
+Transaction ID : NX25100603083985060417061
+UTR No : 580416929716
+Debited from XX4051
+Debit INR 49.00
+Oct 06, 2025
+12:18 PM
+Paid to Urban Company
+Transaction ID : T2510061218100070813854
+UTR No : 749618862347
+Debited from XX4051
+Debit INR 508.00
+Oct 06, 2025
+12:33 PM
+Paid to Swiggy Limited
+Transaction ID : T2510061233001660269141
+UTR No : 912033925249
+Debited from XX4051
+Debit INR 860.00
+Oct 06, 2025
+02:25 PM
+Paid to AJAHAR ALI
+Transaction ID : T2510061425132922678362
+UTR No : 566713195407
+Debited from XX4051
+Debit INR 57.00
+Oct 06, 2025
+07:07 PM
+Paid to Mr RAHAMAT ALI
+Transaction ID : T2510061907268737789538
+UTR No : 899282898743
+Debited from XX4051
+Debit INR 96.00
+Oct 06, 2025
+07:35 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510061935517470388431
+UTR No : 081332528667
+Debited from XX4051
+Debit INR 399.00
+Page 34 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 34 of 118 --
+
+Date Transaction Details Type Amount
+Oct 06, 2025
+07:35 PM
+Money added to UPI Lite
+Transaction ID : W2510061935530901236784
+UTR No : 670461877268
+Debited from XX4051
+Debit INR 2000.00
+Oct 06, 2025
+08:05 PM
+Received from SOUMYA ASHISH CHOURASIA
+Transaction ID : T2510062005131207278965
+UTR No : 564500607841
+Credited to XX9778
+Credit INR
+12000.00
+Oct 07, 2025
+11:03 AM
+Paid to ******3632
+Transaction ID : T2510071103281365602333
+UTR No : 233795978088
+Debited from XX4051
+Debit INR 63.00
+Oct 07, 2025
+11:26 AM
+Paid to ******4726
+Transaction ID : T2510071126452609347785
+UTR No : 686462115322
+Debited from XX4051
+Debit INR 62.00
+Oct 07, 2025
+06:26 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510071826453868963902
+UTR No : 073321305611
+Debited from XX4051
+Debit INR 432.00
+Oct 08, 2025
+12:13 PM
+Paid to SWIGGY
+Transaction ID : T2510081213090439920590
+UTR No : 854223892370
+Debited from XX4051
+Debit INR 235.00
+Oct 08, 2025
+06:52 PM
+Paid to SWIGGY
+Transaction ID : T2510081852182098735105
+UTR No : 113645850556
+Debited from XX4051
+Debit INR 355.00
+Oct 08, 2025
+08:28 PM
+Paid to ANKITA AGARWAL
+Transaction ID : T2510082028405225432901
+UTR No : 692421244596
+Debited from XX9778
+Debit INR 9000.00
+Oct 09, 2025
+12:39 PM
+Paid to Swiggy Limited
+Transaction ID : T2510091239139666511978
+UTR No : 408280784351
+Debited from XX4051
+Debit INR 465.00
+Page 35 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 35 of 118 --
+
+Date Transaction Details Type Amount
+Oct 09, 2025
+02:43 PM
+Paid to SWIGGY
+Transaction ID : T2510091443401198280847
+UTR No : 178196887078
+Debited from XX4051
+Debit INR 169.00
+Oct 09, 2025
+06:55 PM
+Paid to Enamul Sekh
+Transaction ID : T2510091855260850155161
+UTR No : 831519614667
+Debited from XX4051
+Debit INR 77.00
+Oct 09, 2025
+10:47 PM
+Paid to SWIGGY
+Transaction ID : T2510092247437293701878
+UTR No : 608869547449
+Debited from XX4051
+Debit INR 285.00
+Oct 09, 2025
+10:47 PM
+Money added to UPI Lite
+Transaction ID : W2510092247458168746550
+UTR No : 273874275728
+Debited from XX4051
+Debit INR 2000.00
+Oct 09, 2025
+10:56 PM
+Paid to Firdos Islam
+Transaction ID : T2510092256068760321484
+UTR No : 411612645718
+Debited from XX4051
+Debit INR 130.00
+Oct 10, 2025
+11:18 AM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2510101118482527435021
+UTR No : 698878172762
+Debited from XX4051
+Debit INR 110.00
+Oct 10, 2025
+02:57 PM
+Paid to SWIGGY
+Transaction ID : T2510101457537135661198
+UTR No : 553844072604
+Debited from XX4051
+Debit INR 393.00
+Oct 10, 2025
+05:21 PM
+Paid to MAKEMYTRIP COM
+Transaction ID : T2510101721249880446125
+UTR No : 434524048790
+Debited from XX4051
+Debit INR 8190.00
+Oct 10, 2025
+05:41 PM
+Paid
+Transaction ID : OMO2510101741325922633105
+UTR No : 621312197929
+Debited from XX4051
+Debit INR 110.00
+Page 36 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 36 of 118 --
+
+Date Transaction Details Type Amount
+Oct 10, 2025
+11:15 PM
+Paid to SWIGGY
+Transaction ID : T2510102315484487494340
+UTR No : 391523079733
+Debited from XX4051
+Debit INR 267.00
+Oct 11, 2025
+02:29 PM
+Paid to SWIGGY
+Transaction ID : T2510111429164680182663
+UTR No : 630680759518
+Debited from XX4051
+Debit INR 162.00
+Oct 11, 2025
+05:53 PM
+Paid to Swiggy
+Transaction ID : T2510111753055765127613
+UTR No : 369790773522
+Debited from XX4051
+Debit INR 447.00
+Oct 11, 2025
+10:31 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510112231057793368681
+UTR No : 827527148294
+Debited from XX4051
+Debit INR 202.00
+Oct 11, 2025
+10:31 PM
+Money added to UPI Lite
+Transaction ID : W2510112231073096922905
+UTR No : 640169681402
+Debited from XX4051
+Debit INR 2000.00
+Oct 12, 2025
+03:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510121514485899143865
+UTR No : 686599712923
+Debited from XX4051
+Debit INR 228.00
+Oct 12, 2025
+04:25 PM
+Paid to Swiggy Limited
+Transaction ID : T2510121625386267494313
+UTR No : 833108830980
+Debited from XX4051
+Debit INR 1397.00
+Oct 12, 2025
+04:26 PM
+Paid to SWIGGY
+Transaction ID : T2510121626462475966147
+UTR No : 505194855190
+Debited from XX4051
+Debit INR 420.00
+Oct 12, 2025
+07:19 PM
+Paid to ASHA
+Transaction ID : T2510121919268006150339
+UTR No : 757529091081
+Debited from XX4051
+Debit INR 1000.00
+Page 37 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 37 of 118 --
+
+Date Transaction Details Type Amount
+Oct 12, 2025
+08:44 PM
+Paid to Swiggy
+Transaction ID : T2510122044445408796105
+UTR No : 180311537003
+Debited from XX4051
+Debit INR 1618.00
+Oct 12, 2025
+09:32 PM
+Paid to Swiggy
+Transaction ID : T2510122132410256000993
+UTR No : 112779780831
+Debited from XX4051
+Debit INR 337.00
+Oct 12, 2025
+09:32 PM
+Money added to UPI Lite
+Transaction ID : W2510122132426306804979
+UTR No : 430912444281
+Debited from XX4051
+Debit INR 2000.00
+Oct 12, 2025
+09:52 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510122152135191884477
+UTR No : 526875299495
+Debited from XX4051
+Debit INR 344.00
+Oct 12, 2025
+10:57 PM
+Paid to ASHA
+Transaction ID : T2510122257529566319858
+UTR No : 728574385235
+Debited from XX4051
+Debit INR
+20000.00
+Oct 13, 2025
+04:03 PM
+Paid to SWIGGY
+Transaction ID : T2510131603351079024050
+UTR No : 750131247828
+Debited from XX4051
+Debit INR 315.00
+Oct 13, 2025
+11:42 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510132342226651745996
+UTR No : 314781945338
+Debited from XX4051
+Debit INR 254.00
+Oct 14, 2025
+11:33 AM
+Paid to Swiggy Ltd
+Transaction ID : T2510141133561892421724
+UTR No : 684736473197
+Debited from XX4051
+Debit INR 157.00
+Oct 14, 2025
+12:20 PM
+Paid to Mamta jush
+Transaction ID : AC232510141220315716800937
+UTR No : 797324449069
+Debited from XX4051
+Debit INR 70.00
+Page 38 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 38 of 118 --
+
+Date Transaction Details Type Amount
+Oct 14, 2025
+12:28 PM
+Paid to Rajvinder Auto
+Transaction ID : AC232510141228505070523976
+UTR No : 747976451562
+Debited from XX4051
+Debit INR 62.00
+Oct 14, 2025
+06:06 PM
+Paid to SOMVEER
+Transaction ID : T2510141806076798465132
+UTR No : 184557533703
+Debited from XX4051
+Debit INR 64.00
+Oct 14, 2025
+06:53 PM
+Paid to ******3129
+Transaction ID : T2510141853285028016791
+UTR No : 925575192700
+Debited from XX4051
+Debit INR 73.00
+Oct 14, 2025
+08:08 PM
+Paid to SWIGGY
+Transaction ID : T2510142008518713453790
+UTR No : 681174469072
+Debited from XX4051
+Debit INR 508.00
+Oct 14, 2025
+09:23 PM
+Paid to BIGTREE ENTERTAINMENT PRIVATE LIMITED
+Transaction ID : T2510142123076274856884
+UTR No : 587960107986
+Debited from XX4051
+Debit INR 1359.84
+Oct 14, 2025
+10:35 PM
+Paid to ******2961
+Transaction ID : T2510142235241602057958
+UTR No : 900340997634
+Debited from XX4051
+Debit INR 60.00
+Oct 15, 2025
+02:05 AM
+Paid to khurshed ali
+Transaction ID : T2510150205333168804768
+UTR No : 651013099785
+Debited from XX4051
+Debit INR 81.00
+Oct 15, 2025
+02:05 AM
+Money added to UPI Lite
+Transaction ID : W2510150205348286030427
+UTR No : 967855148155
+Debited from XX4051
+Debit INR 2000.00
+Oct 15, 2025
+02:31 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510151431048891138012
+UTR No : 637277735381
+Debited from XX4051
+Debit INR 189.00
+Page 39 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 39 of 118 --
+
+Date Transaction Details Type Amount
+Oct 15, 2025
+04:27 PM
+Paid to Airtel
+Transaction ID : T2510151627327732984146
+UTR No : 757210786637
+Debited from XX4051
+Debit INR 1885.64
+Oct 15, 2025
+05:50 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510151750468173010258
+UTR No : 454368162019
+Debited from XX4051
+Debit INR 259.00
+Oct 16, 2025
+01:07 AM
+Paid to Swiggy Ltd
+Transaction ID : T2510160107531432805641
+UTR No : 964988217330
+Debited from XX4051
+Debit INR 313.00
+Oct 16, 2025
+12:57 PM
+Paid to SWIGGY
+Transaction ID : T2510161257064560534919
+UTR No : 459788535811
+Debited from XX4051
+Debit INR 176.00
+Oct 16, 2025
+01:54 PM
+Paid to ANKITA AGARWAL
+Transaction ID : T2510161354212341109503
+UTR No : 599227997240
+Debited from XX9778
+Debit INR
+20000.00
+Oct 16, 2025
+05:19 PM
+Paid to Swiggy
+Transaction ID : T2510161719423166699284
+UTR No : 984438383199
+Debited from XX4051
+Debit INR 643.00
+Oct 16, 2025
+07:38 PM
+Paid to Mr Ajeet Kumar Kamat
+Transaction ID : T2510161938531336402909
+UTR No : 640426049181
+Debited from XX4051
+Debit INR 65.00
+Oct 16, 2025
+08:48 PM
+Paid to MAMTA DEVI WO RAKESH KUMAR
+Transaction ID : T2510162048051169098677
+UTR No : 375243595397
+Debited from XX4051
+Debit INR 150.00
+Oct 16, 2025
+09:07 PM
+Paid to ******3811
+Transaction ID : T2510162107269850587565
+UTR No : 248592361805
+Debited from XX4051
+Debit INR 61.00
+Page 40 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 40 of 118 --
+
+Date Transaction Details Type Amount
+Oct 17, 2025
+02:46 PM
+Paid to GANDHI VAISHALI RAKESHKUMAR
+Transaction ID : T2510171446102536893004
+UTR No : 654750606486
+Debited from XX4051
+Debit INR
+50000.00
+Oct 17, 2025
+03:20 PM
+Paid to Swiggy
+Transaction ID : T2510171520360245821651
+UTR No : 576695240720
+Debited from XX4051
+Debit INR 716.00
+Oct 17, 2025
+04:41 PM
+Received from AKASH ARUN GUPTA
+Transaction ID : T2510171641558881477104
+UTR No : 529085980596
+Credited to XX9778
+Credit INR
+25000.00
+Oct 17, 2025
+05:10 PM
+Received from NANDINI VERMA
+Transaction ID : T2510171710060182805753
+UTR No : 565646388494
+Credited to XX9778
+Credit INR 5340.00
+Oct 17, 2025
+09:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510172114106905672706
+UTR No : 993398690546
+Debited from XX4051
+Debit INR 201.00
+Oct 17, 2025
+09:14 PM
+Money added to UPI Lite
+Transaction ID : W2510172114126296725470
+UTR No : 565817970991
+Debited from XX4051
+Debit INR 2000.00
+Oct 18, 2025
+12:53 PM
+Paid to Swiggy
+Transaction ID : T2510181253305858478024
+UTR No : 902291644613
+Debited from XX4051
+Debit INR 691.00
+Oct 18, 2025
+02:47 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510181447319775089208
+UTR No : 584980933191
+Debited from XX4051
+Debit INR 336.00
+Oct 18, 2025
+05:05 PM
+Paid to SWIGGY
+Transaction ID : T2510181705567371365089
+UTR No : 209746321517
+Debited from XX4051
+Debit INR 366.00
+Page 41 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 41 of 118 --
+
+Date Transaction Details Type Amount
+Oct 18, 2025
+10:24 PM
+Paid to sahel rana
+Transaction ID : T2510182224015402805713
+UTR No : 822710339944
+Debited from XX4051
+Debit INR 162.00
+Oct 19, 2025
+12:14 AM
+Paid to Blinkit
+Transaction ID : T2510190014277993043139
+UTR No : 727302012689
+Debited from XX4051
+Debit INR 1856.00
+Oct 19, 2025
+01:11 AM
+Paid to BLINKIT COMMERCE PRIVATE LIMITED
+Transaction ID : T2510190111492470807270
+UTR No : 580170568989
+Debited from XX4051
+Debit INR 793.00
+Oct 19, 2025
+01:11 AM
+Money added to UPI Lite
+Transaction ID : W2510190111506504959061
+UTR No : 500494526371
+Debited from XX4051
+Debit INR 2000.00
+Oct 19, 2025
+01:39 AM
+Paid to Blinkit
+Transaction ID : T2510190139362925512493
+UTR No : 302119036295
+Debited from XX4051
+Debit INR 239.00
+Oct 19, 2025
+05:37 AM
+Paid to SAURABH
+Transaction ID : T2510190537210813288676
+UTR No : 277525025691
+Debited from XX4051
+Debit INR 178.00
+Oct 19, 2025
+02:37 PM
+Paid to Swiggy Limited
+Transaction ID : T2510191437354050781106
+UTR No : 759573361139
+Debited from XX4051
+Debit INR 248.00
+Oct 19, 2025
+02:39 PM
+Paid to Swiggy Limited
+Transaction ID : T2510191439297827975544
+UTR No : 341049697534
+Debited from XX4051
+Debit INR 248.00
+Oct 19, 2025
+04:48 PM
+Paid to MEWA SINGH S O SURAJ SINGH
+Transaction ID : T2510191648313172084937
+UTR No : 160778550882
+Debited from XX4051
+Debit INR 723.00
+Page 42 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 42 of 118 --
+
+Date Transaction Details Type Amount
+Oct 19, 2025
+04:48 PM
+Money added to UPI Lite
+Transaction ID : W2510191648335290603722
+UTR No : 363825850955
+Debited from XX4051
+Debit INR 2000.00
+Oct 19, 2025
+05:32 PM
+Paid to ******6074
+Transaction ID : T2510191732143580142299
+UTR No : 674514651861
+Debited from XX4051
+Debit INR 150.00
+Oct 19, 2025
+05:46 PM
+Paid to ******1685
+Transaction ID : T2510191746462199899894
+UTR No : 517621377541
+Debited from XX4051
+Debit INR 140.00
+Oct 19, 2025
+09:41 PM
+Paid to SAKSHI KAPOOR
+Transaction ID : T2510192141137691796160
+UTR No : 869298575217
+Debited from XX4051
+Debit INR 20.00
+Oct 20, 2025
+02:16 PM
+Paid to IRCTC CF
+Transaction ID : T2510201416071901221388
+UTR No : 686309421610
+Debited from XX4051
+Debit INR 914.05
+Oct 20, 2025
+02:53 PM
+Paid to Airtel
+Transaction ID : T2510201453326791796535
+UTR No : 239139829495
+Debited from XX4051
+Debit INR 49.00
+Oct 20, 2025
+02:57 PM
+Paid to Blinkit
+Transaction ID : T2510201457335149362853
+UTR No : 484385401698
+Debited from XX4051
+Debit INR 1058.00
+Oct 20, 2025
+05:32 PM
+Paid to Mrs ANITA AGGARWAL
+Transaction ID : T2510201732061557520926
+UTR No : 261400825007
+Debited from XX4051
+Debit INR 1.00
+Oct 20, 2025
+05:32 PM
+Paid to Mrs ANITA AGGARWAL
+Transaction ID : T2510201732260317259490
+UTR No : 848392244451
+Debited from XX4051
+Debit INR
+70000.00
+Page 43 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 43 of 118 --
+
+Date Transaction Details Type Amount
+Oct 20, 2025
+05:33 PM
+Paid to Mrs ANITA AGGARWAL
+Transaction ID : T2510201733278852071236
+UTR No : 751910878957
+Debited from XX9778
+Debit INR 9000.00
+Oct 21, 2025
+09:29 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2510210929055446548538
+UTR No : 101758586170
+Debited from XX4051
+Debit INR 649.00
+Oct 21, 2025
+07:01 PM
+Paid to SATYA VEER
+Transaction ID : T2510211901143274658825
+UTR No : 931866947319
+Debited from XX4051
+Debit INR 40.00
+Oct 21, 2025
+07:20 PM
+Paid to SATYA VEER
+Transaction ID : T2510211920438903281857
+UTR No : 784494227848
+Debited from XX4051
+Debit INR 150.00
+Oct 21, 2025
+10:48 PM
+Paid to airtel
+Transaction ID : T2510212248076075285853
+UTR No : 682556725330
+Debited from XX4051
+Debit INR 49.00
+Oct 22, 2025
+10:20 AM
+Paid to SANTOSH KUMAR GUPTA
+Transaction ID : T2510221020419626350627
+UTR No : 485828988405
+Debited from XX4051
+Debit INR 20.00
+Oct 22, 2025
+11:41 AM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2510221141175980966938
+UTR No : 415144942659
+Debited from XX4051
+Debit INR 607.44
+Oct 22, 2025
+11:41 AM
+Money added to UPI Lite
+Transaction ID : W2510221141192946218483
+UTR No : 106986208899
+Debited from XX4051
+Debit INR 2000.00
+Oct 22, 2025
+12:55 PM
+Paid to Jamaluddin
+Transaction ID : T2510221255022009899538
+UTR No : 551538188584
+Debited from XX4051
+Debit INR 54.00
+Page 44 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 44 of 118 --
+
+Date Transaction Details Type Amount
+Oct 22, 2025
+01:06 PM
+Paid to RAHIM ALI
+Transaction ID : T2510221306588754472041
+UTR No : 218980103349
+Debited from XX4051
+Debit INR 54.00
+Oct 22, 2025
+01:12 PM
+Paid to Bistro
+Transaction ID : T2510221312251713533427
+UTR No : 388342497806
+Debited from XX4051
+Debit INR 435.00
+Oct 22, 2025
+06:49 PM
+Paid to SWIGGY
+Transaction ID : T2510221849251838664302
+UTR No : 485257075302
+Debited from XX4051
+Debit INR 355.00
+Oct 23, 2025
+11:44 AM
+Paid to BLINK COMMERCE PRIVATE LIMITED
+Transaction ID : T2510231144132482332796
+UTR No : 170415806779
+Debited from XX4051
+Debit INR
+13020.00
+Oct 23, 2025
+01:07 PM
+Paid to Mr Babu Lal Gurjar
+Transaction ID : T2510231307237315910044
+UTR No : 961471812209
+Debited from XX4051
+Debit INR 55.00
+Oct 23, 2025
+01:25 PM
+Paid to RIDDHI GROUP OF COMPANY
+Transaction ID : T2510231325224033043436
+UTR No : 158652891728
+Debited from XX4051
+Debit INR 80.00
+Oct 23, 2025
+01:32 PM
+Paid to RAM FER MAURYA
+Transaction ID : T2510231332153675549721
+UTR No : 764544606244
+Debited from XX4051
+Debit INR 55.00
+Oct 23, 2025
+07:45 PM
+Paid to SWIGGY
+Transaction ID : T2510231945269832990996
+UTR No : 446394594900
+Debited from XX4051
+Debit INR 349.00
+Oct 23, 2025
+09:48 PM
+Paid to Swiggy Limited
+Transaction ID : T2510232148399274776751
+UTR No : 427596254884
+Debited from XX4051
+Debit INR 1601.00
+Page 45 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 45 of 118 --
+
+Date Transaction Details Type Amount
+Oct 24, 2025
+10:45 AM
+Paid to JARJIS ALAM
+Transaction ID : T2510241045553265769041
+UTR No : 549550903452
+Debited from XX4051
+Debit INR 58.00
+Oct 24, 2025
+11:23 AM
+Paid to Aklima Bibi
+Transaction ID : T2510241122586537550825
+UTR No : 745080622981
+Debited from XX4051
+Debit INR 57.00
+Oct 24, 2025
+05:25 PM
+Paid to SWIGGY
+Transaction ID : T2510241725083746551372
+UTR No : 492373456636
+Debited from XX4051
+Debit INR 219.00
+Oct 25, 2025
+11:24 AM
+Paid to Swiggy Ltd
+Transaction ID : T2510251124182193348841
+UTR No : 201072518747
+Debited from XX4051
+Debit INR 162.00
+Oct 25, 2025
+11:24 AM
+Money added to UPI Lite
+Transaction ID : W2510251124194494443834
+UTR No : 649265127868
+Debited from XX4051
+Debit INR 2000.00
+Oct 26, 2025
+04:29 AM
+Paid to SHIV BALAK
+Transaction ID : T2510260429293419455426
+UTR No : 990880501251
+Debited from XX4051
+Debit INR 132.00
+Oct 26, 2025
+11:53 AM
+Paid to MAKEMYTRIP INDIA PRIVATE LIMITED
+Transaction ID : T2510261153193414114657
+UTR No : 184123961742
+Debited from XX4051
+Debit INR 3004.45
+Oct 26, 2025
+02:37 PM
+Paid to KUDRAT HOTELS PVT LTD
+Transaction ID : T2510261437285561459103
+UTR No : 712011837264
+Debited from XX4051
+Debit INR 809.00
+Oct 26, 2025
+05:36 PM
+Paid to VANISHA PARVEEN
+Transaction ID : T2510261736128840859411
+UTR No : 078473773771
+Debited from XX4051
+Debit INR 5000.00
+Page 46 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 46 of 118 --
+
+Date Transaction Details Type Amount
+Oct 27, 2025
+01:35 AM
+Paid to Ayush Travels
+Transaction ID : T2510270135214825667779
+UTR No : 120119967855
+Debited from XX4051
+Debit INR 600.00
+Oct 27, 2025
+01:36 AM
+Received from ANURAG
+Transaction ID : T2510270136075483322502
+UTR No : 566620107965
+Credited to XX9778
+Credit INR 400.00
+Oct 27, 2025
+09:55 AM
+Paid to MD GULZAR ANSARI
+Transaction ID : T2510270955282949649022
+UTR No : 237465673377
+Debited from XX4051
+Debit INR 70.00
+Oct 27, 2025
+01:23 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510271323095776699124
+UTR No : 437518721261
+Debited from XX4051
+Debit INR 266.00
+Oct 27, 2025
+01:23 PM
+Money added to UPI Lite
+Transaction ID : W2510271323109442809767
+UTR No : 241302648296
+Debited from XX4051
+Debit INR 2000.00
+Oct 27, 2025
+09:10 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510272110113093557661
+UTR No : 569943462372
+Debited from XX4051
+Debit INR 247.00
+Oct 28, 2025
+02:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510281414395649199943
+UTR No : 038313895413
+Debited from XX4051
+Debit INR 243.00
+Oct 28, 2025
+06:19 PM
+Paid to Swiggy
+Transaction ID : T2510281819451504521142
+UTR No : 006473720063
+Debited from XX4051
+Debit INR 1283.00
+Oct 28, 2025
+08:42 PM
+Paid to Swiggy Ltd
+Transaction ID : T2510282042180321996977
+UTR No : 425410293595
+Debited from XX4051
+Debit INR 275.00
+Page 47 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 47 of 118 --
+
+Date Transaction Details Type Amount
+Oct 29, 2025
+12:53 PM
+Paid to Swiggy
+Transaction ID : T2510291253047001080760
+UTR No : 293493058592
+Debited from XX4051
+Debit INR 183.00
+Oct 29, 2025
+03:19 PM
+Paid to Ravikant
+Transaction ID : T2510291519587675907930
+UTR No : 049658043679
+Debited from XX4051
+Debit INR 111.00
+Oct 29, 2025
+03:52 PM
+Paid to Uniqlo
+Transaction ID : T2510291552369715240580
+UTR No : 215505589748
+Debited from XX4051
+Debit INR
+15820.00
+Oct 29, 2025
+04:12 PM
+Paid to NIKE BHANNE RETAIL
+Transaction ID : T2510291612543436285683
+UTR No : 385702118540
+Debited from XX4051
+Debit INR 7495.00
+Oct 29, 2025
+04:33 PM
+Paid to CONNAUGHT PLAZA REST
+Transaction ID : T2510291633135304499232
+UTR No : 146117197558
+Debited from XX4051
+Debit INR 275.10
+Oct 29, 2025
+05:29 PM
+Paid to MD SAHID
+Transaction ID : T2510291729399204598239
+UTR No : 195054957573
+Debited from XX4051
+Debit INR 200.00
+Oct 29, 2025
+06:08 PM
+Paid to Swiggy Limited
+Transaction ID : T2510291808466509675176
+UTR No : 012063333628
+Debited from XX4051
+Debit INR 3038.00
+Oct 29, 2025
+07:15 PM
+Paid to Sakuna Bai Basor
+Transaction ID : T2510291915496892733057
+UTR No : 650893399689
+Debited from XX9778
+Debit INR 3000.00
+Oct 29, 2025
+07:25 PM
+Paid to Raju
+Transaction ID : T2510291925413431744738
+UTR No : 001637697793
+Debited from XX4051
+Debit INR 57.00
+Page 48 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 48 of 118 --
+
+Date Transaction Details Type Amount
+Oct 30, 2025
+09:36 AM
+Paid to ISALAM ALI
+Transaction ID : T2510300936228874942734
+UTR No : 806908172399
+Debited from XX4051
+Debit INR 471.00
+Oct 30, 2025
+09:36 AM
+Money added to UPI Lite
+Transaction ID : W2510300936264561637962
+UTR No : 304473914424
+Debited from XX4051
+Debit INR 2000.00
+Oct 30, 2025
+11:01 AM
+Paid to XXXXXXXX9778
+Transaction ID : T2510301101323323628579
+UTR No : 808347010126
+Debited from XX4051
+Debit INR
+50000.00
+Oct 30, 2025
+11:05 AM
+Paid to ABBAS KHAN
+Transaction ID : T2510301105100681675365
+UTR No : 904282681793
+Debited from XX4051
+Debit INR 60.00
+Oct 30, 2025
+12:00 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2510301200191360124888
+UTR No : 802546670020
+Debited from XX4051
+Debit INR 332.22
+Oct 30, 2025
+12:57 PM
+Paid to Carnatic Cafe Domestic
+Transaction ID : T2510301257414665890981
+UTR No : 289698918652
+Debited from XX4051
+Debit INR 714.00
+Oct 30, 2025
+01:50 PM
+Paid to WINSUN CORPORATE SERVICES PRIVATE LTD
+Transaction ID : T2510301350396035400867
+UTR No : 696057694865
+Debited from XX4051
+Debit INR 798.00
+Oct 31, 2025
+12:17 AM
+Paid to VAIBHAV BHUTANI
+Transaction ID : T2510310017234333958570
+UTR No : 763667248945
+Debited from XX4051
+Debit INR
+28150.00
+Nov 02, 2025
+02:59 AM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2511020259556840568060
+UTR No : 567240716708
+Credited to XX9778
+Credit INR
+23500.00
+Page 49 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 49 of 118 --
+
+Date Transaction Details Type Amount
+Nov 02, 2025
+05:31 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2511021731126503160759
+UTR No : 894177419583
+Debited from XX4051
+Debit INR
+50000.00
+Nov 03, 2025
+01:51 PM
+Paid to Airbnb Payments India Private Limited
+Transaction ID : ICI091f10eb71ae42d1a9c5b0de5796d846
+UTR No : 530705595599
+Debited from XX4051
+Debit INR 2081.03
+Nov 03, 2025
+03:26 PM
+Paid to BLINKIT COMMERCE PRIVATE LIMITED
+Transaction ID : T2511031526047075978597
+UTR No : 005366638164
+Debited from XX4051
+Debit INR 533.00
+Nov 03, 2025
+03:33 PM
+Paid to Blinkit
+Transaction ID : T2511031533409105794214
+UTR No : 410282423972
+Debited from XX4051
+Debit INR 290.00
+Nov 03, 2025
+03:33 PM
+Money added to UPI Lite
+Transaction ID : W2511031533429741967227
+UTR No : 160778912401
+Debited from XX4051
+Debit INR 2000.00
+Nov 03, 2025
+03:55 PM
+Received from AKSHIT KHUNGER
+Transaction ID : T2511031555264857718584
+UTR No : 530785973354
+Credited to XX9778
+Credit INR 5100.00
+Nov 03, 2025
+04:14 PM
+Paid to Srinivasulu
+Transaction ID : T2511031614142779867214
+UTR No : 688794396948
+Debited from XX4051
+Debit INR 68.00
+Nov 03, 2025
+07:26 PM
+Paid
+Transaction ID : OMO2511031926178665220056W
+UTR No : 769833872584
+Debited from XX4051
+Debit INR 7014.00
+Nov 03, 2025
+08:05 PM
+Paid to KARTHIK N
+Transaction ID : T2511032005225708320776
+UTR No : 652696275184
+Debited from XX4051
+Debit INR 145.00
+Page 50 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 50 of 118 --
+
+Date Transaction Details Type Amount
+Nov 03, 2025
+09:53 PM
+Paid to Swiggy Diners
+Transaction ID : T2511032153109536281368
+UTR No : 972810452535
+Debited from XX4051
+Debit INR 3558.00
+Nov 03, 2025
+10:15 PM
+Paid to Sharath Sharu
+Transaction ID : T2511032215420030108768
+UTR No : 457616351341
+Debited from XX4051
+Debit INR 93.00
+Nov 04, 2025
+05:55 AM
+Paid to ******6355
+Transaction ID : T2511040555558841963030
+UTR No : 893690064108
+Debited from XX4051
+Debit INR 961.00
+Nov 04, 2025
+06:36 AM
+Paid to THE RAMESHWARAM CAFE
+Transaction ID : T2511040635589267725837
+UTR No : 232691052364
+Debited from XX4051
+Debit INR 263.00
+Nov 04, 2025
+11:07 AM
+Received from SOUMYA ASHISH CHOURASIA
+Transaction ID : T2511041107473504938537
+UTR No : 530807584933
+Credited to XX9778
+Credit INR 4000.00
+Nov 04, 2025
+11:22 AM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2511041122020794825982
+UTR No : 031491764973
+Debited from XX4051
+Debit INR 741.64
+Nov 04, 2025
+01:10 PM
+Paid to Blinkit
+Transaction ID : T2511041310034629314182
+UTR No : 898408965392
+Debited from XX4051
+Debit INR 2158.00
+Nov 04, 2025
+02:15 PM
+Paid to Swiggy
+Transaction ID : T2511041415306338758351
+UTR No : 271947800490
+Debited from XX4051
+Debit INR 360.00
+Nov 04, 2025
+02:17 PM
+Paid to SWIGGY
+Transaction ID : T2511041417289733852664
+UTR No : 749667476985
+Debited from XX4051
+Debit INR 288.00
+Page 51 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 51 of 118 --
+
+Date Transaction Details Type Amount
+Nov 04, 2025
+03:07 PM
+Money added to UPI Lite
+Transaction ID : W2511041415333385785734
+UTR No : 392129440207
+Debited from XX4051
+Debit INR 2000.00
+Nov 04, 2025
+05:19 PM
+Paid to SWIGGY
+Transaction ID : T2511041719508776813894
+UTR No : 366006721956
+Debited from XX4051
+Debit INR 357.00
+Nov 05, 2025
+12:22 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511051222471518820356
+UTR No : 629651294237
+Debited from XX4051
+Debit INR 379.00
+Nov 05, 2025
+04:40 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2511051640450768260666
+UTR No : 530990504594
+Credited to XX9778
+Credit INR
+17000.00
+Nov 05, 2025
+06:16 PM
+Paid to SWIGGY
+Transaction ID : T2511051816196023229140
+UTR No : 375290378212
+Debited from XX4051
+Debit INR 295.00
+Nov 06, 2025
+12:50 AM
+Paid to SWIGGY
+Transaction ID : T2511060050491278715202
+UTR No : 670560412868
+Debited from XX4051
+Debit INR 328.00
+Nov 06, 2025
+11:44 AM
+Paid to Angrej khan auto
+Transaction ID : AC232511061144132799825889
+UTR No : 634619023427
+Debited from XX4051
+Debit INR 57.00
+Nov 06, 2025
+12:07 PM
+Paid to NP Singh
+Transaction ID : T2511061207410976033150
+UTR No : 071317328181
+Debited from XX4051
+Debit INR 800.00
+Nov 06, 2025
+12:23 PM
+Paid to Sakhi
+Transaction ID : T2511061223138538951582
+UTR No : 523406057055
+Debited from XX4051
+Debit INR 72.00
+Page 52 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 52 of 118 --
+
+Date Transaction Details Type Amount
+Nov 06, 2025
+12:31 PM
+Paid to Chaayos
+Transaction ID : T2511061231423520522394
+UTR No : 188623006542
+Debited from XX4051
+Debit INR 191.00
+Nov 06, 2025
+12:31 PM
+Money added to UPI Lite
+Transaction ID : W2511061231461823120784
+UTR No : 320188496711
+Debited from XX4051
+Debit INR 2000.00
+Nov 06, 2025
+12:42 PM
+Paid to 11974APOLLO PHARMACY
+Transaction ID : T2511061242540516482031
+UTR No : 342327957526
+Debited from XX4051
+Debit INR 1965.95
+Nov 06, 2025
+02:44 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511061444149019822527
+UTR No : 286133310387
+Debited from XX4051
+Debit INR 433.00
+Nov 06, 2025
+03:21 PM
+Paid to Swiggy Limited
+Transaction ID : T2511061521147087254927
+UTR No : 279452596229
+Debited from XX4051
+Debit INR 1308.00
+Nov 06, 2025
+09:33 PM
+Paid to AIBU MOHAMMAD
+Transaction ID : T2511062133235210470073
+UTR No : 988128125200
+Debited from XX4051
+Debit INR 48.00
+Nov 06, 2025
+11:29 PM
+Paid to Rajbanshi Mukhiya
+Transaction ID : T2511062329553282440123
+UTR No : 619085451860
+Debited from XX4051
+Debit INR 60.00
+Nov 07, 2025
+01:09 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511071309390471027050
+UTR No : 702999823809
+Debited from XX4051
+Debit INR 331.00
+Nov 07, 2025
+08:27 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511072027200783395333
+UTR No : 039270925623
+Debited from XX4051
+Debit INR 295.00
+Page 53 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 53 of 118 --
+
+Date Transaction Details Type Amount
+Nov 07, 2025
+08:31 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511072031460798767555
+UTR No : 543785245984
+Debited from XX4051
+Debit INR 219.00
+Nov 08, 2025
+01:24 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511081324094481789503
+UTR No : 427224983371
+Debited from XX4051
+Debit INR 232.00
+Nov 08, 2025
+07:17 PM
+Paid to SWIGGY
+Transaction ID : T2511081917457713990876
+UTR No : 037170229420
+Debited from XX4051
+Debit INR 357.00
+Nov 08, 2025
+07:17 PM
+Money added to UPI Lite
+Transaction ID : W2511081917478566062317
+UTR No : 466850696607
+Debited from XX4051
+Debit INR 2000.00
+Nov 08, 2025
+08:16 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511082016181274527294
+UTR No : 547943466475
+Debited from XX4051
+Debit INR 337.00
+Nov 09, 2025
+01:39 AM
+Paid to Swiggy
+Transaction ID : T2511090139273403789740
+UTR No : 830303175875
+Debited from XX4051
+Debit INR 524.00
+Nov 09, 2025
+01:16 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511091316569421669297
+UTR No : 570960708127
+Debited from XX4051
+Debit INR 183.00
+Nov 09, 2025
+01:27 PM
+Paid to BISTRO
+Transaction ID : T2511091327421514636358
+UTR No : 147978631528
+Debited from XX4051
+Debit INR 242.00
+Nov 09, 2025
+08:06 PM
+Paid to Swiggy Limited
+Transaction ID : T2511092006446984759993
+UTR No : 816874862967
+Debited from XX4051
+Debit INR 1203.00
+Page 54 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 54 of 118 --
+
+Date Transaction Details Type Amount
+Nov 09, 2025
+11:40 PM
+Paid to SWIGGY
+Transaction ID : T2511092340076472429966
+UTR No : 564115791873
+Debited from XX4051
+Debit INR 127.00
+Nov 10, 2025
+12:34 PM
+Paid to Swiggy
+Transaction ID : T2511101234304466796909
+UTR No : 058176880024
+Debited from XX4051
+Debit INR 530.00
+Nov 10, 2025
+12:34 PM
+Money added to UPI Lite
+Transaction ID : W2511101234322339215266
+UTR No : 762185197864
+Debited from XX4051
+Debit INR 2000.00
+Nov 10, 2025
+02:52 PM
+Paid to KAUSHAL AGRAWAL
+Transaction ID : T2511101452311590897049
+UTR No : 381682099807
+Debited from XX9778
+Debit INR
+30000.00
+Nov 10, 2025
+02:53 PM
+Paid to VAIBHAV BHUTANI
+Transaction ID : T2511101453255680981350
+UTR No : 231971307144
+Debited from XX4051
+Debit INR 819.67
+Nov 10, 2025
+03:03 PM
+Paid to SWIGGY
+Transaction ID : T2511101503367212429105
+UTR No : 165375648551
+Debited from XX4051
+Debit INR 145.00
+Nov 10, 2025
+10:50 PM
+Paid to Swiggy
+Transaction ID : T2511102250038779595407
+UTR No : 808301801427
+Debited from XX4051
+Debit INR 380.00
+Nov 11, 2025
+03:01 AM
+Paid to Swiggy Limited
+Transaction ID : T2511110301115741893462
+UTR No : 633529937379
+Debited from XX4051
+Debit INR 385.00
+Nov 11, 2025
+12:22 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511111222446736559227
+UTR No : 194882448243
+Debited from XX4051
+Debit INR 348.00
+Page 55 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 55 of 118 --
+
+Date Transaction Details Type Amount
+Nov 11, 2025
+12:22 PM
+Money added to UPI Lite
+Transaction ID : W2511111222463582751059
+UTR No : 440405237871
+Debited from XX4051
+Debit INR 2000.00
+Nov 11, 2025
+03:55 PM
+Paid to Swiggy
+Transaction ID : T2511111555207678447675
+UTR No : 750631218965
+Debited from XX4051
+Debit INR 381.00
+Nov 11, 2025
+09:29 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511112129077777571070
+UTR No : 559266007356
+Debited from XX4051
+Debit INR 307.00
+Nov 12, 2025
+11:23 AM
+Paid to RANJEET KUMAR
+Transaction ID : T2511121123079759473484
+UTR No : 128837721521
+Debited from XX4051
+Debit INR 120.00
+Nov 12, 2025
+11:39 AM
+Paid to Swiggy Ltd
+Transaction ID : T2511121139003538269964
+UTR No : 401153733072
+Debited from XX4051
+Debit INR 200.00
+Nov 12, 2025
+03:34 PM
+Paid to Blinkit
+Transaction ID : T2511121534434179930349
+UTR No : 231981616162
+Debited from XX4051
+Debit INR 1017.00
+Nov 12, 2025
+06:54 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511121854075660198878
+UTR No : 406374861231
+Debited from XX4051
+Debit INR 249.00
+Nov 12, 2025
+11:30 PM
+Paid to SWIGGY
+Transaction ID : T2511122330148077891603
+UTR No : 638567658595
+Debited from XX4051
+Debit INR 159.00
+Nov 13, 2025
+12:29 PM
+Paid to SWIGGY
+Transaction ID : T2511131229197679996770
+UTR No : 789958267508
+Debited from XX4051
+Debit INR 273.00
+Page 56 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 56 of 118 --
+
+Date Transaction Details Type Amount
+Nov 13, 2025
+03:55 PM
+Paid to SWIGGY
+Transaction ID : T2511131555300503765721
+UTR No : 176633926020
+Debited from XX4051
+Debit INR 292.00
+Nov 13, 2025
+03:55 PM
+Money added to UPI Lite
+Transaction ID : W2511131555313275780083
+UTR No : 582979827820
+Debited from XX4051
+Debit INR 2000.00
+Nov 13, 2025
+09:30 PM
+Paid to SHEETAL JEWELLERS
+Transaction ID : T2511132130070588685947
+UTR No : 921324750931
+Debited from XX4051
+Debit INR 1700.00
+Nov 13, 2025
+09:59 PM
+Paid to Swiggy Limited
+Transaction ID : T2511132159034886236558
+UTR No : 504752234733
+Debited from XX4051
+Debit INR 475.00
+Nov 14, 2025
+12:59 PM
+Paid to Rajbina Begam
+Transaction ID : T2511141259490544995125
+UTR No : 446691653439
+Debited from XX4051
+Debit INR 110.00
+Nov 14, 2025
+02:55 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511141455541889522905
+UTR No : 035947629627
+Debited from XX4051
+Debit INR 520.00
+Nov 14, 2025
+05:42 PM
+Received from VAIBHAV BHUTANI
+Transaction ID : T2511141742254660320110
+UTR No : 114150304853
+Credited to XX9778
+Credit INR 605.33
+Nov 14, 2025
+09:38 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511142138472492839716
+UTR No : 033599245589
+Debited from XX4051
+Debit INR 219.00
+Nov 15, 2025
+12:19 PM
+Paid to SWIGGY
+Transaction ID : T2511151219166094403568
+UTR No : 898847778201
+Debited from XX4051
+Debit INR 246.00
+Page 57 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 57 of 118 --
+
+Date Transaction Details Type Amount
+Nov 15, 2025
+12:49 PM
+Paid to GANDHI VAISHALI RAKESHKUMAR
+Transaction ID : T2511151249192850143179
+UTR No : 868706273673
+Debited from XX4051
+Debit INR
+25000.00
+Nov 15, 2025
+12:51 PM
+Paid to GANDHI VAISHALI RAKESHKUMAR
+Transaction ID : T2511151251334868192072
+UTR No : 321425302589
+Debited from XX4051
+Debit INR
+25000.00
+Nov 15, 2025
+04:51 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511151651236023406410
+UTR No : 907388788639
+Debited from XX4051
+Debit INR 528.00
+Nov 15, 2025
+04:51 PM
+Money added to UPI Lite
+Transaction ID : W2511151651249781097977
+UTR No : 893667272845
+Debited from XX4051
+Debit INR 2000.00
+Nov 15, 2025
+08:22 PM
+Paid to Swiggy Limited
+Transaction ID : T2511152022519273435023
+UTR No : 928912871181
+Debited from XX4051
+Debit INR 1080.00
+Nov 16, 2025
+04:56 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511161656098345067440
+UTR No : 967400980063
+Debited from XX4051
+Debit INR 300.00
+Nov 16, 2025
+08:29 PM
+Paid to SHIVAM CHAUHAN
+Transaction ID : T2511162029425917921339
+UTR No : 673909172450
+Debited from XX4051
+Debit INR 2844.00
+Nov 16, 2025
+10:06 PM
+Paid to Swiggy
+Transaction ID : T2511162206053082220843
+UTR No : 343877652563
+Debited from XX4051
+Debit INR 466.00
+Nov 16, 2025
+11:51 PM
+Paid to ASHA
+Transaction ID : T2511162351029308243128
+UTR No : 752685620791
+Debited from XX4051
+Debit INR
+35000.00
+Page 58 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 58 of 118 --
+
+Date Transaction Details Type Amount
+Nov 17, 2025
+03:41 PM
+Paid to SWIGGY
+Transaction ID : T2511171541575326138480
+UTR No : 729551824914
+Debited from XX4051
+Debit INR 209.00
+Nov 17, 2025
+08:30 PM
+Paid to SWIGGY
+Transaction ID : T2511172030304146143384
+UTR No : 212197178896
+Debited from XX4051
+Debit INR 267.00
+Nov 18, 2025
+12:47 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511181247033304791258
+UTR No : 169112352453
+Debited from XX4051
+Debit INR 333.00
+Nov 18, 2025
+07:17 PM
+Paid to airtel
+Transaction ID : T2511181916588619977355
+UTR No : 177461366789
+Debited from XX4051
+Debit INR 1767.64
+Nov 18, 2025
+10:25 PM
+Paid to Swiggy Limited
+Transaction ID : T2511182225584393448017
+UTR No : 278695513164
+Debited from XX4051
+Debit INR 239.00
+Nov 18, 2025
+10:26 PM
+Money added to UPI Lite
+Transaction ID : W2511182225597618203018
+UTR No : 318444085804
+Debited from XX4051
+Debit INR 2000.00
+Nov 19, 2025
+12:46 PM
+Paid to Swiggy Limited
+Transaction ID : T2511191246037239019554
+UTR No : 686318123513
+Debited from XX4051
+Debit INR 312.00
+Nov 19, 2025
+02:49 PM
+Paid to SWIGGY
+Transaction ID : T2511191449003401406379
+UTR No : 940123983715
+Debited from XX4051
+Debit INR 313.00
+Nov 19, 2025
+05:03 PM
+Paid to VIPIN KUMAR
+Transaction ID : T2511191703385139213218
+UTR No : 982789629136
+Debited from XX4051
+Debit INR 50.00
+Page 59 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 59 of 118 --
+
+Date Transaction Details Type Amount
+Nov 19, 2025
+05:24 PM
+Paid to Anuj Kumar
+Transaction ID : T2511191724560303490865
+UTR No : 985588554696
+Debited from XX4051
+Debit INR 52.00
+Nov 19, 2025
+07:55 PM
+Paid to SWIGGY
+Transaction ID : T2511191955588776021505
+UTR No : 850008390162
+Debited from XX4051
+Debit INR 307.00
+Nov 19, 2025
+10:54 PM
+Paid to Swiggy
+Transaction ID : T2511192254171138602069
+UTR No : 579857283681
+Debited from XX4051
+Debit INR 369.00
+Nov 20, 2025
+12:07 PM
+Paid to Swiggy
+Transaction ID : T2511201207040950673137
+UTR No : 470535196512
+Debited from XX4051
+Debit INR 424.00
+Nov 20, 2025
+12:50 PM
+Paid to SWIGGY
+Transaction ID : T2511201250003823030369
+UTR No : 886159153604
+Debited from XX4051
+Debit INR 262.00
+Nov 20, 2025
+12:50 PM
+Money added to UPI Lite
+Transaction ID : W2511201250018786672439
+UTR No : 989745482142
+Debited from XX4051
+Debit INR 2000.00
+Nov 20, 2025
+06:47 PM
+Paid to SWIGGY
+Transaction ID : T2511201847215894815353
+UTR No : 116769409767
+Debited from XX4051
+Debit INR 294.00
+Nov 20, 2025
+10:23 PM
+Received from VAIBHAV BHUTANI
+Transaction ID : T2511202223435687892101
+UTR No : 114446958198
+Credited to XX9778
+Credit INR
+13700.00
+Nov 21, 2025
+08:54 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2511210854536290105241
+UTR No : 102018012357
+Debited from XX4051
+Debit INR 649.00
+Page 60 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 60 of 118 --
+
+Date Transaction Details Type Amount
+Nov 21, 2025
+03:00 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511211500001003030475
+UTR No : 537950623103
+Debited from XX4051
+Debit INR 179.00
+Nov 21, 2025
+05:15 PM
+Paid to SWIGGY
+Transaction ID : T2511211715333234671632
+UTR No : 788978201088
+Debited from XX4051
+Debit INR 371.00
+Nov 21, 2025
+06:08 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511211808494698783729
+UTR No : 202149963795
+Debited from XX4051
+Debit INR 157.00
+Nov 21, 2025
+07:15 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2511211915331394112639
+UTR No : 532508574171
+Credited to XX9778
+Credit INR 5137.00
+Nov 21, 2025
+11:19 PM
+Paid to Swiggy
+Transaction ID : T2511212319064289980445
+UTR No : 450937920226
+Debited from XX4051
+Debit INR 529.00
+Nov 22, 2025
+01:51 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511221351536275901312
+UTR No : 977691389903
+Debited from XX4051
+Debit INR 201.00
+Nov 22, 2025
+08:51 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2511222051263159951615
+UTR No : 621447518423
+Debited from XX4051
+Debit INR 163.92
+Nov 22, 2025
+10:07 PM
+Paid to Cocktails And Dreams Speakeasy
+Transaction ID : T2511222207383117611423
+UTR No : 705410419650
+Debited from XX4051
+Debit INR 4783.00
+Nov 22, 2025
+10:33 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2511222233281567871561
+UTR No : 347343264071
+Debited from XX4051
+Debit INR 211.53
+Page 61 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 61 of 118 --
+
+Date Transaction Details Type Amount
+Nov 22, 2025
+10:33 PM
+Money added to UPI Lite
+Transaction ID : W2511222233299947136178
+UTR No : 031595710458
+Debited from XX4051
+Debit INR 2000.00
+Nov 23, 2025
+02:07 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511231407557311995815
+UTR No : 966140791622
+Debited from XX4051
+Debit INR 254.00
+Nov 23, 2025
+02:27 PM
+Paid to Blinkit
+Transaction ID : T2511231427528438142011
+UTR No : 396715624167
+Debited from XX4051
+Debit INR 1400.00
+Nov 23, 2025
+06:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511231814188937168805
+UTR No : 649832238087
+Debited from XX4051
+Debit INR 353.00
+Nov 23, 2025
+08:58 PM
+Received from AKSHIT KHUNGER
+Transaction ID : T2511232058513990731615
+UTR No : 532759475517
+Credited to XX9778
+Credit INR 8500.00
+Nov 24, 2025
+03:06 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511241506554376253334
+UTR No : 530811382272
+Debited from XX4051
+Debit INR 223.00
+Nov 24, 2025
+06:17 PM
+Paid to BISTRO
+Transaction ID : T2511241817007026171271
+UTR No : 315110004994
+Debited from XX4051
+Debit INR 257.00
+Nov 24, 2025
+10:09 PM
+Paid to SWIGGY
+Transaction ID : T2511242209018377702878
+UTR No : 387845363605
+Debited from XX4051
+Debit INR 333.00
+Nov 26, 2025
+09:54 AM
+Paid to Irfan
+Transaction ID : AC232511260954247470440994
+UTR No : 567534244833
+Debited from XX4051
+Debit INR 384.00
+Page 62 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 62 of 118 --
+
+Date Transaction Details Type Amount
+Nov 26, 2025
+10:24 AM
+Money added to UPI Lite
+Transaction ID : W2511260954267864359921
+UTR No : 816573106745
+Debited from XX4051
+Debit INR 2000.00
+Nov 26, 2025
+02:38 PM
+Paid to Hotel and Restaurent
+Transaction ID : AC232511261438010109808248
+UTR No : 286527290240
+Debited from XX4051
+Debit INR 2832.00
+Nov 27, 2025
+08:40 PM
+Paid to ASHISH SHARMA
+Transaction ID : T2511272040165605889078
+UTR No : 994866373491
+Debited from XX4051
+Debit INR 3000.00
+Nov 27, 2025
+08:41 PM
+Received from SHUBHAM JAIN
+Transaction ID : T2511272041176884655678
+UTR No : 114781980891
+Credited to XX9778
+Credit INR 1500.00
+Nov 28, 2025
+12:01 PM
+Paid
+Transaction ID : OMO2511281201314646943131V
+UTR No : 678175284295
+Debited from XX4051
+Debit INR 141.35
+Nov 28, 2025
+12:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2511281214536742556661
+UTR No : 485962017954
+Debited from XX4051
+Debit INR 131.00
+Nov 28, 2025
+01:35 PM
+Paid to Urban Company
+Transaction ID : T2511281335462259348939
+UTR No : 930646326521
+Debited from XX4051
+Debit INR 224.00
+Nov 28, 2025
+04:42 PM
+Received from ASHUTOSH DHEWAL
+Transaction ID : T2511281642563231843274
+UTR No : 569830821174
+Credited to XX9778
+Credit INR 6400.00
+Nov 28, 2025
+05:26 PM
+Paid to SWIGGY
+Transaction ID : T2511281726047017057467
+UTR No : 781244485045
+Debited from XX4051
+Debit INR 311.00
+Page 63 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 63 of 118 --
+
+Date Transaction Details Type Amount
+Nov 28, 2025
+05:50 PM
+Paid to Dheeraj
+Transaction ID : T2511281750577456525580
+UTR No : 679587731393
+Debited from XX4051
+Debit INR 500.00
+Nov 28, 2025
+07:50 PM
+Received from ASHUTOSH DHEWAL
+Transaction ID : T2511281950323893012193
+UTR No : 569868654354
+Credited to XX9778
+Credit INR 3200.00
+Nov 28, 2025
+09:35 PM
+Paid to rujel ali
+Transaction ID : T2511282135380796447334
+UTR No : 758983834828
+Debited from XX4051
+Debit INR 54.00
+Nov 28, 2025
+09:51 PM
+Received from RICHA GUPTA
+Transaction ID : T2511282151253844378108
+UTR No : 392988876106
+Credited to XX9778
+Credit INR 4600.00
+Nov 28, 2025
+11:42 PM
+Paid to Faruk
+Transaction ID : T2511282342517023148844
+UTR No : 742108903072
+Debited from XX4051
+Debit INR 70.00
+Nov 29, 2025
+02:05 PM
+Paid to APOORV KATIYAR
+Transaction ID : T2511291405202894763144
+UTR No : 229488072063
+Debited from XX9778
+Debit INR 6100.00
+Nov 29, 2025
+02:21 PM
+Paid to SWIGGY
+Transaction ID : T2511291421364376194581
+UTR No : 495954044020
+Debited from XX4051
+Debit INR 223.00
+Nov 29, 2025
+06:48 PM
+Paid to Farid Khan
+Transaction ID : T2511291848302196661498
+UTR No : 977727836153
+Debited from XX4051
+Debit INR 86.00
+Nov 30, 2025
+01:47 PM
+Paid to Abaidur Rahamaan
+Transaction ID : T2511301347137133265787
+UTR No : 732839184794
+Debited from XX4051
+Debit INR 51.00
+Page 64 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 64 of 118 --
+
+Date Transaction Details Type Amount
+Nov 30, 2025
+02:07 PM
+Paid to GLOBAL PROFILE LIFESTYLE
+Transaction ID : T2511301407528190414296
+UTR No : 793841665196
+Debited from XX4051
+Debit INR 1155.00
+Nov 30, 2025
+02:16 PM
+Paid to GULEDH ALI
+Transaction ID : T2511301416435602564481
+UTR No : 385996022052
+Debited from XX4051
+Debit INR 50.00
+Nov 30, 2025
+04:15 PM
+Paid to MOHIT THAKUR
+Transaction ID : AC232511301615183338397695
+UTR No : 016809642206
+Debited from XX4051
+Debit INR 50.00
+Nov 30, 2025
+04:55 PM
+Paid to MADHUN SHEORAN
+Transaction ID : T2511301655375938559559
+UTR No : 332766095540
+Debited from XX4051
+Debit INR 1126.00
+Nov 30, 2025
+06:20 PM
+Paid to JEETPAL SINGH RAWAT
+Transaction ID : T2511301820555957664196
+UTR No : 149970446120
+Debited from XX4051
+Debit INR 555.00
+Nov 30, 2025
+06:20 PM
+Money added to UPI Lite
+Transaction ID : W2511301820583582433283
+UTR No : 110789658839
+Debited from XX4051
+Debit INR 2000.00
+Nov 30, 2025
+07:27 PM
+Paid to Blinkit
+Transaction ID : T2511301927402943901634
+UTR No : 409021437798
+Debited from XX4051
+Debit INR 433.00
+Dec 01, 2025
+05:06 AM
+Paid to md mobarak ali
+Transaction ID : T2512010506356531888420
+UTR No : 487663085642
+Debited from XX4051
+Debit INR 798.00
+Dec 01, 2025
+08:34 PM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2512012034074752036682
+UTR No : 570147169203
+Credited to XX9778
+Credit INR
+23500.00
+Page 65 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 65 of 118 --
+
+Date Transaction Details Type Amount
+Dec 02, 2025
+05:41 PM
+Paid to HIMANSHU
+Transaction ID : T2512021741429077873347
+UTR No : 445988797946
+Debited from XX4051
+Debit INR
+26710.00
+Dec 02, 2025
+05:55 PM
+Paid to Baneshwari cafe
+Transaction ID : AC232512021755315258600447
+UTR No : 070846981098
+Debited from XX4051
+Debit INR 360.00
+Dec 02, 2025
+05:55 PM
+Money added to UPI Lite
+Transaction ID : W2512021755333268875677
+UTR No : 690778340558
+Debited from XX4051
+Debit INR 2000.00
+Dec 02, 2025
+08:20 PM
+Paid to ******0056
+Transaction ID : T2512022020477198987282
+UTR No : 851461753639
+Debited from XX4051
+Debit INR 1000.00
+Dec 03, 2025
+03:07 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2512031507458684215933
+UTR No : 011234094072
+Debited from XX4051
+Debit INR
+50000.00
+Dec 03, 2025
+07:20 PM
+Paid to Swiggy
+Transaction ID : T2512031920549429037585
+UTR No : 210212064570
+Debited from XX4051
+Debit INR 421.00
+Dec 03, 2025
+07:30 PM
+Paid to BISTRO
+Transaction ID : T2512031930191486751241
+UTR No : 967586477626
+Debited from XX4051
+Debit INR 247.00
+Dec 04, 2025
+07:35 AM
+Received from ASHUTOSH DHEWAL
+Transaction ID : T2512040735192475786647
+UTR No : 570468850594
+Credited to XX9778
+Credit INR
+28000.00
+Dec 04, 2025
+11:45 AM
+Paid to Swiggy Limited
+Transaction ID : T2512041145379681963262
+UTR No : 959916378521
+Debited from XX4051
+Debit INR 490.00
+Page 66 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 66 of 118 --
+
+Date Transaction Details Type Amount
+Dec 04, 2025
+11:45 AM
+Money added to UPI Lite
+Transaction ID : W2512041145393013739621
+UTR No : 225836468075
+Debited from XX4051
+Debit INR 2000.00
+Dec 04, 2025
+02:15 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512041415089324476900
+UTR No : 944868522012
+Debited from XX4051
+Debit INR 199.00
+Dec 04, 2025
+07:38 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512041938387831392894
+UTR No : 072327918247
+Debited from XX4051
+Debit INR 223.00
+Dec 04, 2025
+10:08 PM
+Paid to Swiggy
+Transaction ID : T2512042208307995834962
+UTR No : 742408818629
+Debited from XX4051
+Debit INR 316.00
+Dec 05, 2025
+01:06 PM
+Paid to RISHI MEHROTRA
+Transaction ID : T2512051306049154817957
+UTR No : 185695713573
+Debited from XX9778
+Debit INR 4284.00
+Dec 05, 2025
+02:05 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512051405000103575673
+UTR No : 130164600650
+Debited from XX4051
+Debit INR 372.00
+Dec 05, 2025
+05:44 PM
+Paid to Google
+Transaction ID : OLEX2512051744517063813472
+UTR No : 527073483395
+Debited from XX9778
+Debit INR 975.00
+Dec 06, 2025
+02:17 AM
+Paid to Swiggy Ltd
+Transaction ID : T2512060217105478820364
+UTR No : 118682461894
+Debited from XX4051
+Debit INR 297.00
+Dec 06, 2025
+01:10 PM
+Paid to SWIGGY
+Transaction ID : T2512061310316098666492
+UTR No : 922087395172
+Debited from XX4051
+Debit INR 235.00
+Page 67 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 67 of 118 --
+
+Date Transaction Details Type Amount
+Dec 06, 2025
+09:02 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512062102033148032199
+UTR No : 694276812741
+Debited from XX4051
+Debit INR 184.00
+Dec 06, 2025
+09:02 PM
+Money added to UPI Lite
+Transaction ID : W2512062102044917417104
+UTR No : 318777674113
+Debited from XX4051
+Debit INR 2000.00
+Dec 07, 2025
+01:53 PM
+Paid to Swiggy Limited
+Transaction ID : T2512071353373065734973
+UTR No : 365992400798
+Debited from XX4051
+Debit INR 1240.00
+Dec 07, 2025
+03:32 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512071532510956850910
+UTR No : 461623061027
+Debited from XX4051
+Debit INR 252.00
+Dec 07, 2025
+05:53 PM
+Paid to FanCode
+Transaction ID : ASUmy0X1mqbJpkpovxHpmNlUSsUGyXo0SH2
+UTR No : 985226940108
+Debited from XX9778
+Debit INR 69.00
+Dec 07, 2025
+06:05 PM
+Paid to Swiggy
+Transaction ID : T2512071805331408666301
+UTR No : 510424082673
+Debited from XX4051
+Debit INR 417.00
+Dec 07, 2025
+06:14 PM
+Paid
+Transaction ID : OMO2512071814267251896736V
+UTR No : 221635766906
+Debited from XX4051
+Debit INR
+10319.00
+Dec 07, 2025
+07:33 PM
+Paid to RAHUL SINGH
+Transaction ID : T2512071933369404037237
+UTR No : 341560131675
+Debited from XX4051
+Debit INR 1743.00
+Dec 08, 2025
+05:28 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512081728378140920326
+UTR No : 411342816901
+Debited from XX4051
+Debit INR 254.00
+Page 68 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 68 of 118 --
+
+Date Transaction Details Type Amount
+Dec 08, 2025
+06:43 PM
+Paid to Blinkit
+Transaction ID : T2512081843437425361059
+UTR No : 090385316465
+Debited from XX4051
+Debit INR 771.00
+Dec 08, 2025
+10:15 PM
+Paid to SWIGGY
+Transaction ID : T2512082215009136801965
+UTR No : 782800263914
+Debited from XX4051
+Debit INR 202.00
+Dec 09, 2025
+05:11 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512091711170928951891
+UTR No : 270525137273
+Debited from XX4051
+Debit INR 178.00
+Dec 09, 2025
+05:11 PM
+Money added to UPI Lite
+Transaction ID : W2512091711186767761835
+UTR No : 995110458608
+Debited from XX4051
+Debit INR 2000.00
+Dec 10, 2025
+12:40 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512101240052655648155
+UTR No : 564925763967
+Debited from XX4051
+Debit INR 336.00
+Dec 10, 2025
+01:43 PM
+Paid to Blinkit
+Transaction ID : T2512101343176489624047
+UTR No : 338395825647
+Debited from XX4051
+Debit INR 1640.00
+Dec 10, 2025
+02:31 PM
+Paid to SAKALDEEP SAH
+Transaction ID : T2512101431431668734376
+UTR No : 829730913719
+Debited from XX4051
+Debit INR 71.00
+Dec 10, 2025
+03:42 PM
+Paid to Akshat Jignesh Shah
+Transaction ID : T2512101542352603089321
+UTR No : 588275724596
+Debited from XX9778
+Debit INR
+49999.00
+Dec 10, 2025
+05:55 PM
+Received from APOORV KATIYAR
+Transaction ID : T2512101755192637669432
+UTR No : 115427080262
+Credited to XX9778
+Credit INR 5.00
+Page 69 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 69 of 118 --
+
+Date Transaction Details Type Amount
+Dec 10, 2025
+06:09 PM
+Received from APOORV KATIYAR
+Transaction ID : T2512101809474847744193
+UTR No : 115428113132
+Credited to XX9778
+Credit INR 95.00
+Dec 10, 2025
+07:01 PM
+Paid to Aashish Kumar
+Transaction ID : AC232512101901256370549134
+UTR No : 571881871423
+Debited from XX4051
+Debit INR 100.00
+Dec 10, 2025
+10:05 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2512102205048926231934
+UTR No : 571079844372
+Credited to XX9778
+Credit INR 1743.00
+Dec 11, 2025
+04:46 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512111646177016906494
+UTR No : 152535844977
+Debited from XX4051
+Debit INR 178.00
+Dec 11, 2025
+10:47 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512112247244285998727
+UTR No : 033829249656
+Debited from XX4051
+Debit INR 299.00
+Dec 12, 2025
+10:23 AM
+Paid to Swiggy
+Transaction ID : T2512121023397637194716
+UTR No : 971968933056
+Debited from XX4051
+Debit INR 600.00
+Dec 12, 2025
+11:01 AM
+Paid to Dharmendra
+Transaction ID : AC232512121101556040245166
+UTR No : 091673431646
+Debited from XX4051
+Debit INR 60.00
+Dec 12, 2025
+04:30 PM
+Paid to Babu sekh
+Transaction ID : AC232512121630255806153116
+UTR No : 903339160648
+Debited from XX4051
+Debit INR 50.00
+Dec 12, 2025
+04:43 PM
+Paid to SWIGGY
+Transaction ID : T2512121643152081357870
+UTR No : 595884584071
+Debited from XX4051
+Debit INR 212.00
+Page 70 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 70 of 118 --
+
+Date Transaction Details Type Amount
+Dec 12, 2025
+04:43 PM
+Money added to UPI Lite
+Transaction ID : W2512121643167651369501
+UTR No : 382634007175
+Debited from XX4051
+Debit INR 2000.00
+Dec 12, 2025
+09:10 PM
+Paid to Swiggy Limited
+Transaction ID : T2512122110177247522614
+UTR No : 185031326901
+Debited from XX4051
+Debit INR 234.00
+Dec 12, 2025
+09:13 PM
+Paid to Swiggy Limited
+Transaction ID : T2512122113586825804703
+UTR No : 935615866553
+Debited from XX4051
+Debit INR 337.00
+Dec 13, 2025
+05:42 AM
+Paid to PRAVEEN BHATI
+Transaction ID : T2512130542517060372824
+UTR No : 047492150790
+Debited from XX4051
+Debit INR 430.00
+Dec 13, 2025
+06:05 AM
+Paid to Vendify
+Transaction ID : T2512130604593237858308
+UTR No : 235178857145
+Debited from XX4051
+Debit INR 9.00
+Dec 13, 2025
+12:02 PM
+Paid to Rajashekar
+Transaction ID : T2512131202110508245500
+UTR No : 829099009900
+Debited from XX4051
+Debit INR 750.00
+Dec 13, 2025
+12:10 PM
+Paid to BLINKIT
+Transaction ID : T2512131210079818256006
+UTR No : 641001724368
+Debited from XX4051
+Debit INR 1310.00
+Dec 13, 2025
+01:11 PM
+Paid to M S SAI LEELA HOSPITALITY PRIVATE LIMITED
+Transaction ID : T2512131311241796383265
+UTR No : 202396112251
+Debited from XX4051
+Debit INR 246.57
+Dec 13, 2025
+01:11 PM
+Money added to UPI Lite
+Transaction ID : W2512131311260829174311
+UTR No : 119574213746
+Debited from XX4051
+Debit INR 2000.00
+Page 71 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 71 of 118 --
+
+Date Transaction Details Type Amount
+Dec 13, 2025
+03:16 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2512131516140834107239
+UTR No : 534760125990
+Credited to XX9778
+Credit INR
+17000.00
+Dec 13, 2025
+04:11 PM
+Paid to Blinkit
+Transaction ID : T2512131611515932010934
+UTR No : 188870844305
+Debited from XX4051
+Debit INR 421.00
+Dec 14, 2025
+12:13 PM
+Paid to Nagappa H Yatnalli
+Transaction ID : T2512141213184540873096
+UTR No : 793934439322
+Debited from XX4051
+Debit INR 565.00
+Dec 14, 2025
+01:37 PM
+Paid to ******2364
+Transaction ID : T2512141337386170635847
+UTR No : 286775998416
+Debited from XX4051
+Debit INR 288.00
+Dec 14, 2025
+04:38 PM
+Paid to IRIS cafe and kitchen
+Transaction ID : T2512141638253752320049
+UTR No : 545027209754
+Debited from XX4051
+Debit INR 874.00
+Dec 14, 2025
+04:38 PM
+Money added to UPI Lite
+Transaction ID : W2512141638277303384708
+UTR No : 338247258513
+Debited from XX4051
+Debit INR 2000.00
+Dec 14, 2025
+04:39 PM
+Paid to Shivlal pan shop
+Transaction ID : AC232512141639470718682670
+UTR No : 408977847301
+Debited from XX4051
+Debit INR 138.00
+Dec 14, 2025
+05:07 PM
+Paid to ******9791
+Transaction ID : T2512141707077144681820
+UTR No : 594058082068
+Debited from XX4051
+Debit INR 150.00
+Dec 14, 2025
+07:33 PM
+Paid to ******8465
+Transaction ID : T2512141933535992537869
+UTR No : 143401212214
+Debited from XX4051
+Debit INR 275.00
+Page 72 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 72 of 118 --
+
+Date Transaction Details Type Amount
+Dec 14, 2025
+07:34 PM
+Paid to ******8465
+Transaction ID : T2512141934334054162580
+UTR No : 552250598908
+Debited from XX4051
+Debit INR 25.00
+Dec 15, 2025
+10:31 AM
+Paid to ******6043
+Transaction ID : T2512151031146274597464
+UTR No : 179802893862
+Debited from XX4051
+Debit INR 332.00
+Dec 15, 2025
+10:36 AM
+Paid to CAFE AMUDHAM
+Transaction ID : T2512151036147008655651
+UTR No : 973110608868
+Debited from XX4051
+Debit INR 231.00
+Dec 15, 2025
+12:38 PM
+Received from NANDINI VERMA
+Transaction ID : T2512151238229944558708
+UTR No : 115661157400
+Credited to XX9778
+Credit INR
+10700.00
+Dec 15, 2025
+05:31 PM
+Received from KAUSHAL AGRAWAL
+Transaction ID : T2512151731040890949959
+UTR No : 115676855206
+Credited to XX9778
+Credit INR 3600.00
+Dec 15, 2025
+06:05 PM
+Paid to LOKESH S
+Transaction ID : T2512151805140024510568
+UTR No : 254423072860
+Debited from XX4051
+Debit INR 111.00
+Dec 15, 2025
+06:07 PM
+Paid to RAHUL KUMAR PAN SHOP
+Transaction ID : T2512151807000477682283
+UTR No : 328670554348
+Debited from XX4051
+Debit INR 120.00
+Dec 15, 2025
+07:16 PM
+Received from APOORV KATIYAR
+Transaction ID : T2512151916148464753917
+UTR No : 115684476628
+Credited to XX9778
+Credit INR 9900.00
+Dec 15, 2025
+09:33 PM
+Paid to ******8339
+Transaction ID : T2512152133339476965778
+UTR No : 359371547964
+Debited from XX4051
+Debit INR 360.00
+Page 73 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 73 of 118 --
+
+Date Transaction Details Type Amount
+Dec 16, 2025
+03:32 AM
+Paid to madhu kumar c. y
+Transaction ID : T2512160332465119000550
+UTR No : 446946787166
+Debited from XX4051
+Debit INR 950.00
+Dec 16, 2025
+04:52 AM
+Paid to MUHAMMED SHANID M K
+Transaction ID : T2512160452542193771642
+UTR No : 698339913690
+Debited from XX4051
+Debit INR 715.00
+Dec 16, 2025
+01:31 PM
+Received from APURV KAUSHAL
+Transaction ID : T2512161331518331516479
+UTR No : 535090565552
+Credited to XX9778
+Credit INR
+50000.00
+Dec 16, 2025
+02:29 PM
+Received from SAMBHAV JAIN
+Transaction ID : T2512161429168042248489
+UTR No : 115717643580
+Credited to XX9778
+Credit INR
+34420.00
+Dec 16, 2025
+05:11 PM
+Paid to HEMANTH N S
+Transaction ID : T2512161711140012248001
+UTR No : 321200289269
+Debited from XX4051
+Debit INR 281.00
+Dec 16, 2025
+05:11 PM
+Money added to UPI Lite
+Transaction ID : W2512161711153931048260
+UTR No : 413690431413
+Debited from XX4051
+Debit INR 2000.00
+Dec 16, 2025
+05:59 PM
+Paid to Shivlal pan shop
+Transaction ID : AC232512161759371199316447
+UTR No : 388514269579
+Debited from XX4051
+Debit INR 138.00
+Dec 16, 2025
+09:38 PM
+Paid to Devaraj Biradar
+Transaction ID : T2512162138514204053923
+UTR No : 033118361153
+Debited from XX4051
+Debit INR 412.00
+Dec 17, 2025
+03:44 AM
+Paid to Tarun N
+Transaction ID : T2512170344371681052812
+UTR No : 765930207208
+Debited from XX4051
+Debit INR 928.00
+Page 74 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 74 of 118 --
+
+Date Transaction Details Type Amount
+Dec 17, 2025
+10:21 AM
+Paid to Paras Communication
+Transaction ID : T2512171021112525456636
+UTR No : 980868171258
+Debited from XX4051
+Debit INR 706.00
+Dec 17, 2025
+10:21 AM
+Money added to UPI Lite
+Transaction ID : W2512171021135042969191
+UTR No : 536408097219
+Debited from XX4051
+Debit INR 2000.00
+Dec 17, 2025
+12:03 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2512171203063793436115
+UTR No : 871197489297
+Debited from XX4051
+Debit INR 142.88
+Dec 17, 2025
+12:09 PM
+Paid to Bistro
+Transaction ID : T2512171209521976246690
+UTR No : 945125033734
+Debited from XX4051
+Debit INR 427.00
+Dec 17, 2025
+12:38 PM
+Paid to RITU SAHA
+Transaction ID : T2512171238369368463595
+UTR No : 065675948205
+Debited from XX4051
+Debit INR
+12000.00
+Dec 17, 2025
+01:29 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512171329077177581005
+UTR No : 948272743391
+Debited from XX4051
+Debit INR 223.00
+Dec 17, 2025
+06:35 PM
+Paid to Swiggy Limited
+Transaction ID : T2512171835139642721091
+UTR No : 480021056582
+Debited from XX4051
+Debit INR 282.00
+Dec 17, 2025
+06:41 PM
+Paid to Rajankumar
+Transaction ID : T2512171841207282769606
+UTR No : 662028089257
+Debited from XX4051
+Debit INR 68.00
+Dec 17, 2025
+09:13 PM
+Paid to MUBARIK KHAN
+Transaction ID : T2512172113317213667461
+UTR No : 848863924668
+Debited from XX4051
+Debit INR 52.00
+Page 75 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 75 of 118 --
+
+Date Transaction Details Type Amount
+Dec 17, 2025
+09:21 PM
+Paid to SWIGGY
+Transaction ID : T2512172121525731495903
+UTR No : 227599976188
+Debited from XX4051
+Debit INR 205.00
+Dec 17, 2025
+11:41 PM
+Paid to Swiggy Limited
+Transaction ID : T2512172341084944489209
+UTR No : 199303541572
+Debited from XX4051
+Debit INR 1019.00
+Dec 18, 2025
+01:00 AM
+Received from VAIBHAV BHUTANI
+Transaction ID : T2512180100410579197118
+UTR No : 115798089519
+Credited to XX9778
+Credit INR
+18000.00
+Dec 18, 2025
+12:59 PM
+Paid to MEHUL KAMRA
+Transaction ID : T2512181259122509074443
+UTR No : 605149607568
+Debited from XX9778
+Debit INR 5400.00
+Dec 18, 2025
+01:17 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512181317217901717140
+UTR No : 812647529868
+Debited from XX4051
+Debit INR 186.00
+Dec 18, 2025
+07:08 PM
+Paid to Rohit kumar
+Transaction ID : T2512181908575419663632
+UTR No : 267531150714
+Debited from XX4051
+Debit INR 119.00
+Dec 18, 2025
+07:09 PM
+Money added to UPI Lite
+Transaction ID : W2512181908598458247099
+UTR No : 511399081363
+Debited from XX4051
+Debit INR 2000.00
+Dec 18, 2025
+09:52 PM
+Paid to SUDHIR KUMAR
+Transaction ID : T2512182151586650350645
+UTR No : 324094002081
+Debited from XX4051
+Debit INR 135.00
+Dec 18, 2025
+10:30 PM
+Paid to SHOKAT
+Transaction ID : AC232512182230053699500768
+UTR No : 847132384867
+Debited from XX4051
+Debit INR 100.00
+Page 76 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 76 of 118 --
+
+Date Transaction Details Type Amount
+Dec 19, 2025
+12:34 PM
+Paid to SWIGGY
+Transaction ID : T2512191234303767341074
+UTR No : 720533794551
+Debited from XX4051
+Debit INR 256.00
+Dec 19, 2025
+06:09 PM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2512191809346354602616
+UTR No : 571938368011
+Credited to XX9778
+Credit INR 8356.00
+Dec 19, 2025
+07:45 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512191945077392853009
+UTR No : 356067876849
+Debited from XX4051
+Debit INR 195.00
+Dec 19, 2025
+10:15 PM
+Paid to RAMANDEEP SINGH
+Transaction ID : T2512192215408166702931
+UTR No : 868379230762
+Debited from XX4051
+Debit INR 56.00
+Dec 20, 2025
+02:57 AM
+Paid to Mr DEEPAK
+Transaction ID : T2512200257212095435360
+UTR No : 637861859841
+Debited from XX4051
+Debit INR 228.00
+Dec 20, 2025
+03:11 AM
+Paid to BLINKIT
+Transaction ID : T2512200311553298392042
+UTR No : 376885324459
+Debited from XX4051
+Debit INR 2735.00
+Dec 20, 2025
+02:02 PM
+Paid to BISTRO
+Transaction ID : T2512201402338655697332
+UTR No : 984248508198
+Debited from XX4051
+Debit INR 247.00
+Dec 20, 2025
+08:36 PM
+Paid to Swiggy
+Transaction ID : T2512202036566149997712
+UTR No : 860189262724
+Debited from XX4051
+Debit INR 306.00
+Dec 21, 2025
+08:59 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2512210859396596663599
+UTR No : 102266358458
+Debited from XX4051
+Debit INR 649.00
+Page 77 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 77 of 118 --
+
+Date Transaction Details Type Amount
+Dec 21, 2025
+01:33 PM
+Paid to Abdul Faruk
+Transaction ID : T2512211333279549997835
+UTR No : 900101375908
+Debited from XX4051
+Debit INR 47.00
+Dec 21, 2025
+02:31 PM
+Paid to AVINASHKUMAR
+Transaction ID : T2512211431249782741004
+UTR No : 107626384925
+Debited from XX4051
+Debit INR 47.00
+Dec 21, 2025
+03:20 PM
+Paid to BISTRO
+Transaction ID : T2512211520503867208765
+UTR No : 231348185054
+Debited from XX4051
+Debit INR 148.00
+Dec 21, 2025
+06:36 PM
+Paid to MR MADHUN SHEORAN
+Transaction ID : T2512211836308433592233
+UTR No : 397770595610
+Debited from XX4051
+Debit INR 1804.00
+Dec 21, 2025
+08:05 PM
+Paid to SWIGGY
+Transaction ID : T2512212005334074203554
+UTR No : 325691284042
+Debited from XX4051
+Debit INR 409.00
+Dec 21, 2025
+08:05 PM
+Money added to UPI Lite
+Transaction ID : W2512212005349187034898
+UTR No : 942661873791
+Debited from XX4051
+Debit INR 2000.00
+Dec 22, 2025
+02:30 PM
+Paid to SWIGGY
+Transaction ID : T2512221430224210325677
+UTR No : 071004017472
+Debited from XX4051
+Debit INR 222.00
+Dec 22, 2025
+08:21 PM
+Paid to BISTRO
+Transaction ID : T2512222021162448918718
+UTR No : 406794873657
+Debited from XX4051
+Debit INR 406.00
+Dec 23, 2025
+03:26 PM
+Paid to BISTRO
+Transaction ID : T2512231526439425009905
+UTR No : 331162556156
+Debited from XX4051
+Debit INR 148.00
+Page 78 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 78 of 118 --
+
+Date Transaction Details Type Amount
+Dec 23, 2025
+07:10 PM
+Paid to Swiggy
+Transaction ID : T2512231910478355021966
+UTR No : 263323353020
+Debited from XX4051
+Debit INR 798.00
+Dec 23, 2025
+10:15 PM
+Received from NANDINI VERMA
+Transaction ID : T2512232215415637437230
+UTR No : 116089275077
+Credited to XX9778
+Credit INR 250.00
+Dec 23, 2025
+11:19 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512232319211898773599
+UTR No : 472237755290
+Debited from XX4051
+Debit INR 195.00
+Dec 23, 2025
+11:19 PM
+Money added to UPI Lite
+Transaction ID : W2512232319222140565060
+UTR No : 887817508148
+Debited from XX4051
+Debit INR 2000.00
+Dec 23, 2025
+11:27 PM
+Paid to VAIBHAV BHUTANI
+Transaction ID : T2512232327516800908463
+UTR No : 748150188701
+Debited from XX9778
+Debit INR 1730.00
+Dec 24, 2025
+05:20 PM
+Paid to Blinkit
+Transaction ID : T2512241720361338286914
+UTR No : 034799172898
+Debited from XX4051
+Debit INR 213.00
+Dec 24, 2025
+06:00 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2512241800093396437101
+UTR No : 035141262157
+Debited from XX4051
+Debit INR 246.06
+Dec 24, 2025
+07:43 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512241943159657409537
+UTR No : 816789919278
+Debited from XX4051
+Debit INR 331.00
+Dec 25, 2025
+09:19 AM
+Paid to Blinkit
+Transaction ID : T2512250919309056425436
+UTR No : 899129057304
+Debited from XX4051
+Debit INR 392.00
+Page 79 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 79 of 118 --
+
+Date Transaction Details Type Amount
+Dec 25, 2025
+03:12 PM
+Paid to Gurmel Singh Store
+Transaction ID : T2512251512441219927296
+UTR No : 942346498244
+Debited from XX4051
+Debit INR 47.00
+Dec 25, 2025
+03:35 PM
+Paid to SWIGGY
+Transaction ID : T2512251535552612224803
+UTR No : 903593430073
+Debited from XX4051
+Debit INR 634.00
+Dec 25, 2025
+04:11 PM
+Paid to MandiFruitMandiFruitCounter3
+Transaction ID : T2512251611549630117538
+UTR No : 180511985542
+Debited from XX4051
+Debit INR 352.00
+Dec 25, 2025
+04:11 PM
+Money added to UPI Lite
+Transaction ID : W2512251611567807443220
+UTR No : 170689567821
+Debited from XX4051
+Debit INR 2000.00
+Dec 25, 2025
+04:35 PM
+Paid to AR EN Technologies 1
+Transaction ID : AC232512251635373393835757
+UTR No : 198348498548
+Debited from XX4051
+Debit INR 4850.00
+Dec 25, 2025
+04:54 PM
+Paid to islam
+Transaction ID : T2512251654358598286954
+UTR No : 788057564379
+Debited from XX4051
+Debit INR 100.00
+Dec 25, 2025
+09:43 PM
+Paid to ******3129
+Transaction ID : T2512252143370696362400
+UTR No : 027103030255
+Debited from XX4051
+Debit INR 52.00
+Dec 25, 2025
+10:08 PM
+Paid to Swiggy Limited
+Transaction ID : T2512252208191455405389
+UTR No : 589147869829
+Debited from XX4051
+Debit INR 327.00
+Dec 26, 2025
+03:00 PM
+Paid to SWIGGY
+Transaction ID : T2512261500327607921389
+UTR No : 128816196649
+Debited from XX4051
+Debit INR 323.00
+Page 80 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 80 of 118 --
+
+Date Transaction Details Type Amount
+Dec 26, 2025
+03:48 PM
+Paid to Swiggy
+Transaction ID : T2512261548409087429924
+UTR No : 094941633902
+Debited from XX4051
+Debit INR 522.00
+Dec 26, 2025
+08:24 PM
+Paid to SWIGGY
+Transaction ID : T2512262024423796425879
+UTR No : 056762988633
+Debited from XX4051
+Debit INR 369.00
+Dec 27, 2025
+09:35 AM
+Received from KAUSHAL AGRAWAL
+Transaction ID : T2512270935182318258213
+UTR No : 572791419342
+Credited to XX9778
+Credit INR 500.00
+Dec 27, 2025
+01:45 PM
+Paid to ******0066
+Transaction ID : T2512271345303587818244
+UTR No : 877153962857
+Debited from XX9778
+Debit INR 1000.00
+Dec 27, 2025
+08:17 PM
+Paid to SWIGGY
+Transaction ID : T2512272017385641419269
+UTR No : 002637901412
+Debited from XX4051
+Debit INR 182.00
+Dec 27, 2025
+08:17 PM
+Money added to UPI Lite
+Transaction ID : W2512272017400366177775
+UTR No : 217798950881
+Debited from XX4051
+Debit INR 2000.00
+Dec 28, 2025
+04:20 PM
+Paid to Swiggy Ltd
+Transaction ID : T2512281620032442950219
+UTR No : 255343264936
+Debited from XX4051
+Debit INR 433.00
+Dec 28, 2025
+10:40 PM
+Paid to SWIGGY
+Transaction ID : T2512282240444533873849
+UTR No : 133685389407
+Debited from XX4051
+Debit INR 291.00
+Dec 29, 2025
+03:38 PM
+Paid to SWIGGY
+Transaction ID : T2512291538134330641598
+UTR No : 725190352847
+Debited from XX4051
+Debit INR 350.00
+Page 81 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 81 of 118 --
+
+Date Transaction Details Type Amount
+Dec 29, 2025
+05:46 PM
+Paid to VAIBHAV BHUTANI
+Transaction ID : T2512291746203354527350
+UTR No : 020796242968
+Debited from XX9778
+Debit INR 6860.00
+Dec 29, 2025
+06:48 PM
+Paid to Swiggy
+Transaction ID : T2512291848164774679921
+UTR No : 515723405460
+Debited from XX9778
+Debit INR 1250.00
+Dec 30, 2025
+11:56 AM
+Paid
+Transaction ID : OMO2512301156386799633608W
+UTR No : 130066742526
+Debited from XX4051
+Debit INR 109.85
+Dec 30, 2025
+02:33 PM
+Paid to Swiggy
+Transaction ID : T2512301433139871373968
+UTR No : 860407154113
+Debited from XX4051
+Debit INR 223.00
+Dec 30, 2025
+07:44 PM
+Paid to Swiggy
+Transaction ID : T2512301944588434492140
+UTR No : 530298010157
+Debited from XX4051
+Debit INR 358.00
+Dec 31, 2025
+02:23 PM
+Paid to SATYAVEER
+Transaction ID : T2512311423138235820501
+UTR No : 498180861129
+Debited from XX4051
+Debit INR 120.00
+Dec 31, 2025
+02:37 PM
+Paid to Aggarwal stores
+Transaction ID : AC232512311437262125834390
+UTR No : 789813802518
+Debited from XX4051
+Debit INR 110.00
+Dec 31, 2025
+02:37 PM
+Money added to UPI Lite
+Transaction ID : W2512311437279047228181
+UTR No : 498161784830
+Debited from XX4051
+Debit INR 2000.00
+Dec 31, 2025
+04:40 PM
+Paid to airtel
+Transaction ID : T2512311640391357498125
+UTR No : 851227332731
+Debited from XX4051
+Debit INR 1767.64
+Page 82 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 82 of 118 --
+
+Date Transaction Details Type Amount
+Dec 31, 2025
+10:14 PM
+Paid to Jilshad Khan
+Transaction ID : T2512312214024056437707
+UTR No : 869858563266
+Debited from XX4051
+Debit INR 160.00
+Jan 01, 2026
+01:57 AM
+Paid to Umesh
+Transaction ID : T2601010157053835281902
+UTR No : 373327856883
+Debited from XX4051
+Debit INR 205.00
+Jan 01, 2026
+07:10 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601011910344563020336
+UTR No : 249205664045
+Debited from XX4051
+Debit INR 300.00
+Jan 02, 2026
+01:19 AM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2601020119280837347353
+UTR No : 636866268821
+Credited to XX9778
+Credit INR
+26000.00
+Jan 02, 2026
+06:19 PM
+Paid to SWIGGY
+Transaction ID : T2601021819199859065852
+UTR No : 493469074152
+Debited from XX4051
+Debit INR 241.00
+Jan 03, 2026
+01:32 PM
+Paid to Mr Ajeet Kumar Kamat
+Transaction ID : T2601031332365280134787
+UTR No : 168438538069
+Debited from XX4051
+Debit INR 50.00
+Jan 03, 2026
+02:26 PM
+Paid to RAJEEV KR CHAUDHARY
+Transaction ID : T2601031426276796437518
+UTR No : 716645376277
+Debited from XX4051
+Debit INR 145.00
+Jan 03, 2026
+03:23 PM
+Paid to Sulekha pal
+Transaction ID : AC232601031523139228896531
+UTR No : 198741592351
+Debited from XX4051
+Debit INR 60.00
+Jan 03, 2026
+04:22 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2601031622448144067961
+UTR No : 831952293427
+Debited from XX4051
+Debit INR
+99000.00
+Page 83 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 83 of 118 --
+
+Date Transaction Details Type Amount
+Jan 03, 2026
+04:23 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2601031623040159065043
+UTR No : 029508130564
+Debited from XX4051
+Debit INR 1000.00
+Jan 03, 2026
+04:23 PM
+Money added to UPI Lite
+Transaction ID : W2601031623057494547560
+UTR No : 464330228291
+Debited from XX4051
+Debit INR 2000.00
+Jan 03, 2026
+04:30 PM
+Paid to ******9039
+Transaction ID : T2601031630117483106208
+UTR No : 361972874368
+Debited from XX4051
+Debit INR 47.00
+Jan 05, 2026
+02:56 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601051456146121234040
+UTR No : 897135051247
+Debited from XX4051
+Debit INR 212.00
+Jan 05, 2026
+05:44 PM
+Paid to Google
+Transaction ID : OLEX2601051744213452556897
+UTR No : 104385660056
+Debited from XX9778
+Debit INR 975.00
+Jan 05, 2026
+10:53 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2601052253067560280499
+UTR No : 600596315330
+Credited to XX9778
+Credit INR
+20000.00
+Jan 05, 2026
+11:56 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601052356439752878991
+UTR No : 840712785274
+Debited from XX4051
+Debit INR 304.00
+Jan 07, 2026
+10:27 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601072227169015827129
+UTR No : 317476334467
+Debited from XX4051
+Debit INR 299.00
+Jan 08, 2026
+02:01 PM
+Paid to RAFIKA KHATUN
+Transaction ID : T2601081401235570615912
+UTR No : 289417401248
+Debited from XX4051
+Debit INR 50.00
+Page 84 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 84 of 118 --
+
+Date Transaction Details Type Amount
+Jan 08, 2026
+02:14 PM
+Paid to airtel
+Transaction ID : T2601081414107474933851
+UTR No : 752075734617
+Debited from XX4051
+Debit INR 33.00
+Jan 08, 2026
+02:43 PM
+Paid to Irshad Malik
+Transaction ID : T2601081443175199886589
+UTR No : 301386339001
+Debited from XX4051
+Debit INR 55.00
+Jan 08, 2026
+04:46 PM
+Paid to Nasim
+Transaction ID : T2601081645552206072854
+UTR No : 220049811784
+Debited from XX4051
+Debit INR 62.00
+Jan 08, 2026
+06:02 PM
+Paid to Mr Babu Lal Gurjar
+Transaction ID : T2601081802428604570273
+UTR No : 801046628896
+Debited from XX4051
+Debit INR 15.00
+Jan 08, 2026
+06:18 PM
+Paid to Vimal Yadav
+Transaction ID : AC232601081818480365027800
+UTR No : 544271438494
+Debited from XX4051
+Debit INR 73.00
+Jan 08, 2026
+08:47 PM
+Paid to Swiggy
+Transaction ID : T2601082047411218267453
+UTR No : 343606380877
+Debited from XX4051
+Debit INR 376.00
+Jan 09, 2026
+12:46 AM
+Paid to SWIGGY
+Transaction ID : T2601090046497664375670
+UTR No : 010520978515
+Debited from XX4051
+Debit INR 275.00
+Jan 09, 2026
+12:46 AM
+Money added to UPI Lite
+Transaction ID : W2601090046515545856086
+UTR No : 557114980194
+Debited from XX4051
+Debit INR 2000.00
+Jan 09, 2026
+02:07 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601091407104545294796
+UTR No : 807562391258
+Debited from XX4051
+Debit INR 224.00
+Page 85 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 85 of 118 --
+
+Date Transaction Details Type Amount
+Jan 09, 2026
+10:50 PM
+Paid to SWIGGY
+Transaction ID : T2601092250457840986689
+UTR No : 072587986521
+Debited from XX4051
+Debit INR 299.00
+Jan 10, 2026
+06:07 PM
+Paid to Balmiki Sahni
+Transaction ID : T2601101807254257998015
+UTR No : 673435054295
+Debited from XX4051
+Debit INR 47.00
+Jan 10, 2026
+06:10 PM
+Paid to JOGO TECHNOLOGIES PR
+Transaction ID : T2601101810535404146529
+UTR No : 467780646063
+Debited from XX4051
+Debit INR 100.00
+Jan 10, 2026
+07:05 PM
+Paid to Pradeep
+Transaction ID : AC232601101905369435834992
+UTR No : 562401823570
+Debited from XX4051
+Debit INR 52.00
+Jan 11, 2026
+05:13 PM
+Paid to Swiggy
+Transaction ID : T2601111713265258166264
+UTR No : 189207001085
+Debited from XX4051
+Debit INR 1190.00
+Jan 11, 2026
+05:16 PM
+Paid to SWIGGY
+Transaction ID : T2601111716212150900319
+UTR No : 846534828738
+Debited from XX4051
+Debit INR 276.00
+Jan 12, 2026
+12:21 PM
+Paid to Jaffar sekh
+Transaction ID : T2601121221562522195469
+UTR No : 723097434725
+Debited from XX4051
+Debit INR 52.00
+Jan 12, 2026
+03:30 PM
+Paid to Raju Kumar Rajak
+Transaction ID : T2601121530438754996204
+UTR No : 782937504105
+Debited from XX4051
+Debit INR 60.00
+Jan 12, 2026
+10:14 PM
+Paid to Swiggy Limited
+Transaction ID : T2601122214427871069576
+UTR No : 361513249995
+Debited from XX4051
+Debit INR 480.00
+Page 86 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 86 of 118 --
+
+Date Transaction Details Type Amount
+Jan 12, 2026
+11:24 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601122324032393720180
+UTR No : 349519265777
+Debited from XX4051
+Debit INR 299.00
+Jan 13, 2026
+12:08 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2601131208438005478004
+UTR No : 605553390095
+Debited from XX4051
+Debit INR 126.30
+Jan 13, 2026
+12:08 PM
+Money added to UPI Lite
+Transaction ID : W2601131208455699172172
+UTR No : 716672378460
+Debited from XX4051
+Debit INR 2000.00
+Jan 13, 2026
+05:17 PM
+Paid to RIDDHI GROUP OF COMPANY
+Transaction ID : T2601131717335623130850
+UTR No : 297314729088
+Debited from XX4051
+Debit INR 80.00
+Jan 13, 2026
+05:23 PM
+Paid to rafikul hoque
+Transaction ID : AC232601131723487794237485
+UTR No : 522124528131
+Debited from XX4051
+Debit INR 71.00
+Jan 13, 2026
+09:15 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601132115007278064923
+UTR No : 945046820660
+Debited from XX4051
+Debit INR 338.00
+Jan 14, 2026
+04:27 PM
+Paid to SWIGGY
+Transaction ID : T2601141627116539620461
+UTR No : 952904381510
+Debited from XX4051
+Debit INR 368.00
+Jan 14, 2026
+04:41 PM
+Paid to KRITI KUMARI
+Transaction ID : T2601141641392229523751
+UTR No : 993714182036
+Debited from XX4051
+Debit INR 500.00
+Jan 15, 2026
+12:43 PM
+Paid to ******1817
+Transaction ID : T2601151243436024735200
+UTR No : 066153764910
+Debited from XX4051
+Debit INR 55.00
+Page 87 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 87 of 118 --
+
+Date Transaction Details Type Amount
+Jan 15, 2026
+12:47 PM
+Paid to Mr Sanatan Chanda
+Transaction ID : T2601151247205928516010
+UTR No : 864452665694
+Debited from XX4051
+Debit INR 100.00
+Jan 15, 2026
+05:34 PM
+Paid to ROOPENDRA SINGH SON HAJARI LAL
+Transaction ID : T2601151734086499525899
+UTR No : 414299733380
+Debited from XX4051
+Debit INR 72.00
+Jan 16, 2026
+11:40 AM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2601161140070829483561
+UTR No : 753089395919
+Debited from XX4051
+Debit INR 470.82
+Jan 16, 2026
+11:40 AM
+Money added to UPI Lite
+Transaction ID : W2601161140082745228766
+UTR No : 833863644966
+Debited from XX4051
+Debit INR 2000.00
+Jan 16, 2026
+11:50 AM
+Paid to Swiggy
+Transaction ID : T2601161150536730989777
+UTR No : 798507350209
+Debited from XX4051
+Debit INR 599.00
+Jan 16, 2026
+08:09 PM
+Paid to AKSHAY KUMAR MAURYA
+Transaction ID : T2601162009505011730283
+UTR No : 459349190608
+Debited from XX4051
+Debit INR 50.00
+Jan 16, 2026
+09:11 PM
+Paid to CHANDN KUMAR MEHTA
+Transaction ID : T2601162111498579825026
+UTR No : 180090970209
+Debited from XX4051
+Debit INR 590.00
+Jan 16, 2026
+10:08 PM
+Paid to Yum Yum Cha(DLFCYBER HUB)
+Transaction ID : T2601162207585781948263
+UTR No : 314795903648
+Debited from XX4051
+Debit INR 3119.00
+Jan 16, 2026
+11:59 PM
+Paid to SHIVCHARAN KUMAR
+Transaction ID : T2601162359023762476557
+UTR No : 748936534557
+Debited from XX4051
+Debit INR 60.00
+Page 88 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 88 of 118 --
+
+Date Transaction Details Type Amount
+Jan 17, 2026
+05:53 PM
+Paid to geetam singh
+Transaction ID : T2601171753459429338467
+UTR No : 866896832080
+Debited from XX4051
+Debit INR 212.00
+Jan 17, 2026
+07:11 PM
+Paid to KK - PVR AMBIENCE MALL
+Transaction ID : AT0230232601171911223877806633
+UTR No : 816375316377
+Debited from XX4051
+Debit INR 156.00
+Jan 17, 2026
+07:16 PM
+Paid to 301 KFC Ambi Mall
+Transaction ID : T2601171916498812515723
+UTR No : 459755836365
+Debited from XX4051
+Debit INR 981.75
+Jan 17, 2026
+08:11 PM
+Paid to CRAFTPAC HOSPITALITY PRIVATE LIMITED
+Transaction ID : T2601172011418212851599
+UTR No : 139714775072
+Debited from XX4051
+Debit INR 294.00
+Jan 17, 2026
+08:11 PM
+Money added to UPI Lite
+Transaction ID : W2601172011438135405328
+UTR No : 343397725170
+Debited from XX4051
+Debit INR 2000.00
+Jan 17, 2026
+10:01 PM
+Paid to ROHIT KUMAR
+Transaction ID : T2601172201420197868544
+UTR No : 802004081842
+Debited from XX4051
+Debit INR 57.00
+Jan 18, 2026
+12:44 PM
+Paid to SWIGGY
+Transaction ID : T2601181244232059905981
+UTR No : 181819892758
+Debited from XX4051
+Debit INR 267.00
+Jan 18, 2026
+02:47 PM
+Paid to Airtel
+Transaction ID : T2601181447358363719578
+UTR No : 707648862872
+Debited from XX4051
+Debit INR 1885.64
+Jan 18, 2026
+09:04 PM
+Paid to Sonu
+Transaction ID : T2601182104336439277995
+UTR No : 211813368591
+Debited from XX4051
+Debit INR 85.00
+Page 89 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 89 of 118 --
+
+Date Transaction Details Type Amount
+Jan 18, 2026
+11:27 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601182327410733262128
+UTR No : 317456649761
+Debited from XX4051
+Debit INR 378.00
+Jan 18, 2026
+11:46 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2601182346211477868137
+UTR No : 738167903401
+Debited from XX4051
+Debit INR 144.07
+Jan 19, 2026
+12:32 AM
+Paid to BISTRO
+Transaction ID : T2601190032572539608431
+UTR No : 209096867793
+Debited from XX4051
+Debit INR 277.00
+Jan 19, 2026
+11:12 AM
+Paid to SWIGGY
+Transaction ID : T2601191112190064014380
+UTR No : 196592157532
+Debited from XX4051
+Debit INR 260.00
+Jan 19, 2026
+02:35 PM
+Paid to Swiggy
+Transaction ID : T2601191435555843218639
+UTR No : 153955633161
+Debited from XX4051
+Debit INR 267.00
+Jan 19, 2026
+07:55 PM
+Paid to SWIGGY
+Transaction ID : T2601191955264368469318
+UTR No : 228179917015
+Debited from XX4051
+Debit INR 182.00
+Jan 19, 2026
+07:55 PM
+Money added to UPI Lite
+Transaction ID : W2601191955281213795182
+UTR No : 990455292936
+Debited from XX4051
+Debit INR 2000.00
+Jan 20, 2026
+12:38 PM
+Paid to Mr Sanatan Chanda
+Transaction ID : T2601201238204163454560
+UTR No : 164868562353
+Debited from XX4051
+Debit INR 225.00
+Jan 20, 2026
+03:44 PM
+Paid to airtel
+Transaction ID : T2601201544153375434051
+UTR No : 537406272606
+Debited from XX4051
+Debit INR 299.00
+Page 90 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 90 of 118 --
+
+Date Transaction Details Type Amount
+Jan 20, 2026
+03:46 PM
+Paid to pavan panday
+Transaction ID : T2601201546166321693265
+UTR No : 865355877478
+Debited from XX4051
+Debit INR 100.00
+Jan 20, 2026
+06:01 PM
+Paid to IDRISH
+Transaction ID : T2601201801096465583509
+UTR No : 552108843600
+Debited from XX4051
+Debit INR 65.00
+Jan 21, 2026
+12:02 AM
+Paid to SWIGGY
+Transaction ID : T2601210002207128052294
+UTR No : 301755365432
+Debited from XX4051
+Debit INR 294.00
+Jan 21, 2026
+10:29 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2601211029232576198765
+UTR No : 102511602038
+Debited from XX4051
+Debit INR 649.00
+Jan 21, 2026
+12:49 PM
+Paid to Swiggy
+Transaction ID : T2601211249569819233558
+UTR No : 706937957629
+Debited from XX4051
+Debit INR 1668.00
+Jan 21, 2026
+12:55 PM
+Paid to Swiggy
+Transaction ID : T2601211255573777926597
+UTR No : 096649990328
+Debited from XX4051
+Debit INR 244.00
+Jan 21, 2026
+05:50 PM
+Paid to BISTRO
+Transaction ID : T2601211750252350682596
+UTR No : 091056320419
+Debited from XX4051
+Debit INR 197.00
+Jan 21, 2026
+11:33 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601212333484186815882
+UTR No : 223215703711
+Debited from XX4051
+Debit INR 241.00
+Jan 22, 2026
+12:23 PM
+Paid to SHIV PRATAP
+Transaction ID : T2601221223167606491925
+UTR No : 230779036298
+Debited from XX4051
+Debit INR 50.00
+Page 91 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 91 of 118 --
+
+Date Transaction Details Type Amount
+Jan 22, 2026
+01:28 PM
+Paid to RIDDHI GROUP OF COMPANY
+Transaction ID : T2601221328005532040067
+UTR No : 513960239619
+Debited from XX4051
+Debit INR 10.00
+Jan 22, 2026
+02:20 PM
+Paid to Mr Sanatan Chanda
+Transaction ID : T2601221420310015494731
+UTR No : 759571344627
+Debited from XX4051
+Debit INR 55.00
+Jan 22, 2026
+08:29 PM
+Paid to Sachin Kumar
+Transaction ID : T2601222029338234191830
+UTR No : 882171326720
+Debited from XX4051
+Debit INR 50.00
+Jan 22, 2026
+11:30 PM
+Paid to BISTRO
+Transaction ID : T2601222330493747001711
+UTR No : 879449707898
+Debited from XX4051
+Debit INR 297.00
+Jan 22, 2026
+11:35 PM
+Money added to UPI Lite
+Transaction ID : W2601222335537812164407
+UTR No : 998105925893
+Debited from XX4051
+Debit INR 2000.00
+Jan 23, 2026
+03:14 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601231514333639007383
+UTR No : 645630568087
+Debited from XX4051
+Debit INR 408.00
+Jan 23, 2026
+10:48 PM
+Paid to Bistro
+Transaction ID : T2601232248430862213691
+UTR No : 849837103031
+Debited from XX4051
+Debit INR 277.00
+Jan 24, 2026
+01:38 PM
+Paid to BISTRO
+Transaction ID : T2601241338412333691082
+UTR No : 273576638870
+Debited from XX4051
+Debit INR 207.00
+Jan 24, 2026
+05:06 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2601241706296669741590
+UTR No : 620201838791
+Debited from XX4051
+Debit INR 110.50
+Page 92 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 92 of 118 --
+
+Date Transaction Details Type Amount
+Jan 25, 2026
+02:24 AM
+Paid to Swiggy
+Transaction ID : T2601250224160446791959
+UTR No : 267336006870
+Debited from XX4051
+Debit INR 298.00
+Jan 25, 2026
+02:11 PM
+Paid to URBAN COMPANY
+Transaction ID : T2601251411583828523979
+UTR No : 284601717305
+Debited from XX4051
+Debit INR 498.00
+Jan 25, 2026
+02:14 PM
+Paid to Snabbit
+Transaction ID : T2601251414255263691033
+UTR No : 354010086114
+Debited from XX4051
+Debit INR 50.93
+Jan 25, 2026
+02:41 PM
+Paid to Blinkit
+Transaction ID : T2601251441315960996816
+UTR No : 142320045721
+Debited from XX4051
+Debit INR 1714.00
+Jan 25, 2026
+03:43 PM
+Paid to Snabbit
+Transaction ID : T2601251543253626051989
+UTR No : 566397772255
+Debited from XX4051
+Debit INR 53.80
+Jan 25, 2026
+03:43 PM
+Money added to UPI Lite
+Transaction ID : W2601251543271933970092
+UTR No : 118214060265
+Debited from XX4051
+Debit INR 2000.00
+Jan 25, 2026
+04:14 PM
+Paid to URBAN COMPANY
+Transaction ID : T2601251614162204712159
+UTR No : 931746804973
+Debited from XX4051
+Debit INR 423.00
+Jan 25, 2026
+04:56 PM
+Paid to Jitendra Kumar
+Transaction ID : T2601251656108405859785
+UTR No : 546443797067
+Debited from XX4051
+Debit INR 69.00
+Jan 25, 2026
+05:28 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601251727597579268341
+UTR No : 438045324574
+Debited from XX4051
+Debit INR 281.00
+Page 93 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 93 of 118 --
+
+Date Transaction Details Type Amount
+Jan 25, 2026
+10:22 PM
+Paid to Blinkit
+Transaction ID : T2601252222149067190618
+UTR No : 247851888313
+Debited from XX4051
+Debit INR 1899.00
+Jan 25, 2026
+10:29 PM
+Paid to Amazon India
+Transaction ID : T2601252229283973657664
+UTR No : 594449743482
+Debited from XX4051
+Debit INR 1280.00
+Jan 26, 2026
+12:06 AM
+Paid to Swiggy
+Transaction ID : T2601260006100792040812
+UTR No : 130338597505
+Debited from XX4051
+Debit INR 402.00
+Jan 26, 2026
+06:32 PM
+Paid to BISTRO
+Transaction ID : T2601261832305299298535
+UTR No : 194002014560
+Debited from XX4051
+Debit INR 357.00
+Jan 27, 2026
+01:03 AM
+Received from DECFIN TECH PRIVATE LIMITED
+Transaction ID : T2601270103411756475762
+UTR No : 602795625054
+Credited to XX9778
+Credit INR 0.01
+Jan 27, 2026
+11:04 AM
+Paid to TATA 1MG HEALTHCARE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2601271104306946780581
+UTR No : 756225184388
+Debited from XX4051
+Debit INR 720.00
+Jan 27, 2026
+11:04 AM
+Money added to UPI Lite
+Transaction ID : W2601271104328931564676
+UTR No : 855597337799
+Debited from XX4051
+Debit INR 2000.00
+Jan 27, 2026
+01:13 PM
+Paid to Blinkit
+Transaction ID : T2601271313542794309988
+UTR No : 826721323438
+Debited from XX4051
+Debit INR 706.00
+Jan 27, 2026
+01:28 PM
+Paid to Bistro
+Transaction ID : T2601271328080782212233
+UTR No : 887653027166
+Debited from XX4051
+Debit INR 256.00
+Page 94 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 94 of 118 --
+
+Date Transaction Details Type Amount
+Jan 27, 2026
+02:11 PM
+Paid to Airtel
+Transaction ID : T2601271411118020076764
+UTR No : 558022459806
+Debited from XX4051
+Debit INR 3599.00
+Jan 27, 2026
+02:14 PM
+Paid to Bharti Airtel Limited
+Transaction ID : T2601271414332199030356
+UTR No : 242173128576
+Debited from XX4051
+Debit INR 49.00
+Jan 27, 2026
+05:06 PM
+Paid to ******4463
+Transaction ID : T2601271706181707286441
+UTR No : 305167646479
+Debited from XX4051
+Debit INR 500.00
+Jan 27, 2026
+07:05 PM
+Paid to Swiggy
+Transaction ID : T2601271905376389606498
+UTR No : 807648591967
+Debited from XX4051
+Debit INR 334.00
+Jan 27, 2026
+07:05 PM
+Money added to UPI Lite
+Transaction ID : W2601271905389779278045
+UTR No : 945682758885
+Debited from XX4051
+Debit INR 2000.00
+Jan 27, 2026
+09:00 PM
+Paid to Swiggy
+Transaction ID : T2601272100458599557279
+UTR No : 980954374324
+Debited from XX4051
+Debit INR 649.00
+Jan 27, 2026
+09:04 PM
+Paid to Swiggy
+Transaction ID : T2601272104488561373365
+UTR No : 915729855731
+Debited from XX4051
+Debit INR 376.00
+Jan 28, 2026
+11:50 AM
+Paid to Bheem Auto
+Transaction ID : AC232601281150036794584838
+UTR No : 854322618424
+Debited from XX4051
+Debit INR 53.00
+Jan 28, 2026
+11:53 AM
+Paid to Mr Babu Lal Gurjar
+Transaction ID : T2601281153057869557911
+UTR No : 364008687875
+Debited from XX4051
+Debit INR 10.00
+Page 95 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 95 of 118 --
+
+Date Transaction Details Type Amount
+Jan 28, 2026
+01:42 PM
+Paid to Vijay fruit chat Bhandar
+Transaction ID : AC232601281342422760387035
+UTR No : 186928270692
+Debited from XX4051
+Debit INR 50.00
+Jan 28, 2026
+03:49 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601281549329526715600
+UTR No : 989604115311
+Debited from XX4051
+Debit INR 274.00
+Jan 28, 2026
+03:52 PM
+Paid to HR55AE4890
+Transaction ID : T2601281552514440018579
+UTR No : 971064715267
+Debited from XX4051
+Debit INR 55.00
+Jan 28, 2026
+08:51 PM
+Paid to BISTRO
+Transaction ID : T2601282051193002510879
+UTR No : 988083894598
+Debited from XX4051
+Debit INR 267.00
+Jan 29, 2026
+12:19 PM
+Paid to SHRI BHAGWAN
+Transaction ID : T2601291219429519269175
+UTR No : 681061374704
+Debited from XX4051
+Debit INR 55.00
+Jan 29, 2026
+01:39 PM
+Paid to Clove Dental
+Transaction ID : T2601291339337624193645
+UTR No : 759347107821
+Debited from XX4051
+Debit INR 4750.00
+Jan 29, 2026
+01:47 PM
+Paid to Clove Dental
+Transaction ID : T2601291347156819017669
+UTR No : 025724678567
+Debited from XX4051
+Debit INR 6832.00
+Jan 29, 2026
+02:05 PM
+Paid to ******4726
+Transaction ID : T2601291405402383439224
+UTR No : 574915231018
+Debited from XX4051
+Debit INR 54.00
+Jan 29, 2026
+02:19 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601291419029275995505
+UTR No : 025242402611
+Debited from XX4051
+Debit INR 232.00
+Page 96 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 96 of 118 --
+
+Date Transaction Details Type Amount
+Jan 29, 2026
+02:19 PM
+Money added to UPI Lite
+Transaction ID : W2601291419041265366626
+UTR No : 839543530786
+Debited from XX4051
+Debit INR 2000.00
+Jan 29, 2026
+08:12 PM
+Paid to Swiggy Ltd
+Transaction ID : T2601292012531824193315
+UTR No : 419528616560
+Debited from XX4051
+Debit INR 401.00
+Jan 29, 2026
+11:41 PM
+Paid to Swiggy
+Transaction ID : T2601292341025914732496
+UTR No : 600151411308
+Debited from XX4051
+Debit INR 888.00
+Jan 30, 2026
+01:37 AM
+Paid to Bistro
+Transaction ID : T2601300137206917493902
+UTR No : 271588719575
+Debited from XX4051
+Debit INR 257.00
+Jan 30, 2026
+02:24 PM
+Paid to BISTRO
+Transaction ID : T2601301424005117068863
+UTR No : 403276889561
+Debited from XX4051
+Debit INR 148.00
+Jan 30, 2026
+07:37 PM
+Paid to Swiggy
+Transaction ID : T2601301937319260030176
+UTR No : 673938068464
+Debited from XX4051
+Debit INR 378.00
+Jan 30, 2026
+07:37 PM
+Money added to UPI Lite
+Transaction ID : W2601301937336538649387
+UTR No : 346814372361
+Debited from XX4051
+Debit INR 2000.00
+Jan 31, 2026
+04:29 AM
+Paid to Swiggy
+Transaction ID : T2601310429432827309523
+UTR No : 934131510844
+Debited from XX4051
+Debit INR 597.00
+Jan 31, 2026
+01:49 PM
+Paid to SWIGGY
+Transaction ID : T2601311349139773261354
+UTR No : 860619996688
+Debited from XX4051
+Debit INR 229.00
+Page 97 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 97 of 118 --
+
+Date Transaction Details Type Amount
+Jan 31, 2026
+09:02 PM
+Paid to AS AUSHADHI KENDRA PRIVATE LIMITED
+Transaction ID : T2601312102447031808875
+UTR No : 025350525925
+Debited from XX4051
+Debit INR 779.00
+Jan 31, 2026
+09:26 PM
+Paid to Ajad Hossain
+Transaction ID : T2601312125590978243595
+UTR No : 442590743318
+Debited from XX4051
+Debit INR 60.00
+Jan 31, 2026
+10:35 PM
+Paid to G Town Wines SBI 52
+Transaction ID : T2601312235524289400128
+UTR No : 631642225292
+Debited from XX4051
+Debit INR 3980.00
+Jan 31, 2026
+10:40 PM
+Paid to UBER INDIA SYSTEMS PRIVATE LIMITED
+Transaction ID : T2601312240188865335322
+UTR No : 538995031029
+Debited from XX4051
+Debit INR 155.91
+Jan 31, 2026
+10:40 PM
+Money added to UPI Lite
+Transaction ID : W2601312240205486932846
+UTR No : 304300160082
+Debited from XX4051
+Debit INR 2000.00
+Feb 01, 2026
+04:35 PM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2602011635174003039739
+UTR No : 639803960877
+Credited to XX9778
+Credit INR
+26000.00
+Feb 01, 2026
+06:50 PM
+Paid to SWIGGY
+Transaction ID : T2602011850042082052651
+UTR No : 281826027771
+Debited from XX4051
+Debit INR 347.00
+Feb 02, 2026
+12:17 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602021217192954444563
+UTR No : 163956752672
+Debited from XX4051
+Debit INR 267.00
+Feb 02, 2026
+01:09 PM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2602021309201082110314
+UTR No : 639974389108
+Credited to XX9778
+Credit INR 3700.00
+Page 98 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 98 of 118 --
+
+Date Transaction Details Type Amount
+Feb 02, 2026
+02:41 PM
+Paid to Veerendra Bahadur
+Transaction ID : T2602021441190213326006
+UTR No : 186083346920
+Debited from XX4051
+Debit INR 55.00
+Feb 02, 2026
+07:04 PM
+Paid to RIDDHI GROUP OF COMPANY
+Transaction ID : T2602021904487741787765
+UTR No : 933587240228
+Debited from XX4051
+Debit INR 80.00
+Feb 02, 2026
+07:15 PM
+Paid to Harikesh auto
+Transaction ID : AC232602021915532673178238
+UTR No : 586998609129
+Debited from XX4051
+Debit INR 57.00
+Feb 02, 2026
+11:04 PM
+Paid to Swiggy
+Transaction ID : T2602022304289629258106
+UTR No : 740922703632
+Debited from XX4051
+Debit INR 1206.00
+Feb 03, 2026
+01:47 AM
+Paid to Brajesh
+Transaction ID : T2602030147474483050728
+UTR No : 727758513629
+Debited from XX4051
+Debit INR 65.00
+Feb 03, 2026
+12:03 PM
+Paid to ******6716
+Transaction ID : T2602031203315573447671
+UTR No : 274346824379
+Debited from XX4051
+Debit INR 50.00
+Feb 03, 2026
+12:08 PM
+Paid to Chaayos
+Transaction ID : T2602031208378143569883
+UTR No : 341973453633
+Debited from XX4051
+Debit INR 251.00
+Feb 03, 2026
+12:24 PM
+Paid to TATA STARBUCKS PRIVATE LIMITED
+Transaction ID : T2602031224481991006307
+UTR No : 563341437108
+Debited from XX4051
+Debit INR 462.00
+Feb 03, 2026
+01:30 PM
+Paid to Clove Dental
+Transaction ID : T2602031330311081484247
+UTR No : 579544690979
+Debited from XX4051
+Debit INR 5489.00
+Page 99 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 99 of 118 --
+
+Date Transaction Details Type Amount
+Feb 03, 2026
+01:44 PM
+Paid to VINOD KUMAR
+Transaction ID : T2602031344509718409678
+UTR No : 068471746049
+Debited from XX4051
+Debit INR 10.00
+Feb 03, 2026
+04:17 PM
+Paid to RIDDHI GROUP OF COMPANY
+Transaction ID : T2602031617258503710986
+UTR No : 970492116301
+Debited from XX4051
+Debit INR 80.00
+Feb 03, 2026
+04:25 PM
+Paid to ******6255
+Transaction ID : T2602031625020494795207
+UTR No : 818892057191
+Debited from XX4051
+Debit INR 64.00
+Feb 03, 2026
+06:22 PM
+Paid to Swiggy
+Transaction ID : T2602031822451524806491
+UTR No : 312043585791
+Debited from XX4051
+Debit INR 219.00
+Feb 03, 2026
+06:22 PM
+Money added to UPI Lite
+Transaction ID : W2602031822463855108153
+UTR No : 494008001308
+Debited from XX4051
+Debit INR 2000.00
+Feb 03, 2026
+08:50 PM
+Paid to Swiggy
+Transaction ID : T2602032050216587570329
+UTR No : 599000473442
+Debited from XX4051
+Debit INR 266.00
+Feb 03, 2026
+08:50 PM
+Money added to UPI Lite
+Transaction ID : W2602032050228536449285
+UTR No : 730574109308
+Debited from XX4051
+Debit INR 2000.00
+Feb 04, 2026
+04:32 PM
+Paid to Swiggy
+Transaction ID : T2602041632013301754526
+UTR No : 348821459774
+Debited from XX4051
+Debit INR 178.00
+Feb 04, 2026
+07:10 PM
+Paid to Jio BlackRock Investment Advisers Private Limited
+Transaction ID : T2602041910234437298944
+UTR No : 498840957714
+Debited from XX4051
+Debit INR 1.00
+Page 100 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 100 of 118 --
+
+Date Transaction Details Type Amount
+Feb 04, 2026
+10:47 PM
+Paid to BISTRO
+Transaction ID : T2602042247220447306093
+UTR No : 787613749690
+Debited from XX4051
+Debit INR 247.00
+Feb 05, 2026
+11:15 AM
+Paid to Najrana
+Transaction ID : T2602051115431147269907
+UTR No : 468990250368
+Debited from XX4051
+Debit INR 55.00
+Feb 05, 2026
+01:41 PM
+Paid to BABU LAL GURJAR
+Transaction ID : T2602051341054919749548
+UTR No : 860819812254
+Debited from XX4051
+Debit INR 17.00
+Feb 05, 2026
+03:08 PM
+Paid to BABU LAL GURJAR
+Transaction ID : T2602051508165771727500
+UTR No : 724353368915
+Debited from XX4051
+Debit INR 34.00
+Feb 05, 2026
+03:36 PM
+Paid to ******1356
+Transaction ID : T2602051536435892717874
+UTR No : 622089818215
+Debited from XX4051
+Debit INR 57.00
+Feb 05, 2026
+03:39 PM
+Paid to Chaayos
+Transaction ID : T2602051539219715220428
+UTR No : 178382658777
+Debited from XX4051
+Debit INR 251.00
+Feb 05, 2026
+05:10 PM
+Paid to STAR DENTAL
+Transaction ID : T2602051710374849655675
+UTR No : 666427070772
+Debited from XX4051
+Debit INR 7541.00
+Feb 05, 2026
+05:23 PM
+Paid to MUKESH KUMAR SO RAM NARESH
+Transaction ID : T2602051723242084388038
+UTR No : 198114926204
+Debited from XX4051
+Debit INR 68.00
+Feb 05, 2026
+05:55 PM
+Paid to Swiggy
+Transaction ID : T2602051755285289414777
+UTR No : 971350716175
+Debited from XX4051
+Debit INR 665.00
+Page 101 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 101 of 118 --
+
+Date Transaction Details Type Amount
+Feb 05, 2026
+05:57 PM
+Paid to Mohd Uves
+Transaction ID : T2602051757482326663182
+UTR No : 438214550988
+Debited from XX4051
+Debit INR 278.00
+Feb 05, 2026
+06:45 PM
+Paid to SWIGGY
+Transaction ID : T2602051845505985797695
+UTR No : 608203508137
+Debited from XX4051
+Debit INR 207.00
+Feb 06, 2026
+09:33 AM
+Paid to Swiggy Ltd
+Transaction ID : T2602060933066760516793
+UTR No : 357731950588
+Debited from XX4051
+Debit INR 187.00
+Feb 06, 2026
+10:46 AM
+Paid to ******0892
+Transaction ID : T2602061046024620981285
+UTR No : 263467093007
+Debited from XX4051
+Debit INR 74.00
+Feb 06, 2026
+12:03 PM
+Paid to Manoj pal
+Transaction ID : AC232602061203575294590034
+UTR No : 626376922030
+Debited from XX4051
+Debit INR 56.00
+Feb 06, 2026
+12:16 PM
+Paid to Bank Account XXXXXXXXXXX3403
+Transaction ID : T2602061216275223180246
+UTR No : 356325794070
+Debited from XX9778
+Debit INR
+26000.00
+Feb 06, 2026
+12:48 PM
+Paid to Bank Account XXXXXXXXXXX3403
+Transaction ID : T2602061248564242531291
+UTR No : 319412075689
+Debited from XX9778
+Debit INR
+26000.00
+Feb 06, 2026
+04:15 PM
+Paid to SWIGGY
+Transaction ID : T2602061615437295300090
+UTR No : 631955774971
+Debited from XX4051
+Debit INR 208.00
+Feb 06, 2026
+04:18 PM
+Paid to VIJENDRA SINGH SO SONE LAL
+Transaction ID : T2602061618172353619885
+UTR No : 121714571797
+Debited from XX4051
+Debit INR 62.00
+Page 102 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 102 of 118 --
+
+Date Transaction Details Type Amount
+Feb 06, 2026
+04:25 PM
+Paid to MAESTROEDGE SOLUTIONS PRIVATE LIMITED
+Transaction ID : T2602061625382883212860
+UTR No : 742890230387
+Debited from XX4051
+Debit INR 398.84
+Feb 06, 2026
+10:50 PM
+Paid to BISTRO
+Transaction ID : T2602062250569990187909
+UTR No : 867468686010
+Debited from XX4051
+Debit INR 217.00
+Feb 07, 2026
+01:16 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602071316090626056004
+UTR No : 312037436625
+Debited from XX4051
+Debit INR 134.00
+Feb 07, 2026
+03:36 PM
+Paid to BISTRO
+Transaction ID : T2602071536576166788563
+UTR No : 519179136956
+Debited from XX4051
+Debit INR 357.00
+Feb 07, 2026
+03:36 PM
+Money added to UPI Lite
+Transaction ID : W2602071536592057189365
+UTR No : 968155547763
+Debited from XX4051
+Debit INR 2000.00
+Feb 07, 2026
+07:44 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602071944138124459470
+UTR No : 948584985452
+Debited from XX4051
+Debit INR 413.00
+Feb 07, 2026
+11:30 PM
+Paid to Swiggy
+Transaction ID : T2602072330275860757127
+UTR No : 786775056049
+Debited from XX4051
+Debit INR 3080.00
+Feb 08, 2026
+08:57 AM
+Paid to SWIGGY
+Transaction ID : T2602080857334787011973
+UTR No : 108027001419
+Debited from XX4051
+Debit INR 283.00
+Feb 08, 2026
+10:41 AM
+Paid to Vikram
+Transaction ID : T2602081041194639048420
+UTR No : 055080464018
+Debited from XX4051
+Debit INR 48.00
+Page 103 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 103 of 118 --
+
+Date Transaction Details Type Amount
+Feb 08, 2026
+11:45 AM
+Paid to M S SALT
+Transaction ID : T2602081145229995540904
+UTR No : 202642551530
+Debited from XX4051
+Debit INR 210.00
+Feb 08, 2026
+11:47 AM
+Paid to M S SALT
+Transaction ID : T2602081147320948054267
+UTR No : 675354865045
+Debited from XX4051
+Debit INR 630.00
+Feb 08, 2026
+12:02 PM
+Paid to AFSANA CO MURSAD
+Transaction ID : T2602081202368353554015
+UTR No : 426487124901
+Debited from XX4051
+Debit INR 48.00
+Feb 08, 2026
+02:22 PM
+Paid to Bistro
+Transaction ID : T2602081422054912085290
+UTR No : 822962278639
+Debited from XX4051
+Debit INR 148.00
+Feb 08, 2026
+07:05 PM
+Paid to ABDULRAKIBSK
+Transaction ID : T2602081905185367666137
+UTR No : 586485802037
+Debited from XX4051
+Debit INR 49.00
+Feb 08, 2026
+07:11 PM
+Paid to HSQUARE SPORTS PRIVATE LIMITED
+Transaction ID : T2602081911220420478107
+UTR No : 036228980234
+Debited from XX4051
+Debit INR 200.00
+Feb 08, 2026
+07:11 PM
+Money added to UPI Lite
+Transaction ID : W2602081911236369266998
+UTR No : 330584095165
+Debited from XX4051
+Debit INR 2000.00
+Feb 08, 2026
+08:12 PM
+Paid to ******7520
+Transaction ID : T2602082012520281983958
+UTR No : 923700424711
+Debited from XX4051
+Debit INR 50.00
+Feb 08, 2026
+10:48 PM
+Paid to SWIGGY
+Transaction ID : T2602082248322946310714
+UTR No : 486224971953
+Debited from XX4051
+Debit INR 299.00
+Page 104 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 104 of 118 --
+
+Date Transaction Details Type Amount
+Feb 09, 2026
+11:23 AM
+Paid to SADIKUL ISLAM
+Transaction ID : T2602091123535159300134
+UTR No : 178703951169
+Debited from XX4051
+Debit INR 58.00
+Feb 09, 2026
+12:08 PM
+Paid to BABU LAL GURJAR
+Transaction ID : T2602091208445075103318
+UTR No : 577389247080
+Debited from XX4051
+Debit INR 45.00
+Feb 09, 2026
+03:19 PM
+Paid to SUDHIR YADAV
+Transaction ID : T2602091519342899868963
+UTR No : 623638388564
+Debited from XX4051
+Debit INR 500.00
+Feb 09, 2026
+03:21 PM
+Paid to BABU LAL GURJAR
+Transaction ID : T2602091521194442680228
+UTR No : 326471500424
+Debited from XX4051
+Debit INR 20.00
+Feb 09, 2026
+07:47 PM
+Paid to TANJUR ALI
+Transaction ID : T2602091947424393860293
+UTR No : 637291397278
+Debited from XX4051
+Debit INR 54.00
+Feb 09, 2026
+09:26 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602092126415214347335
+UTR No : 515064247274
+Debited from XX4051
+Debit INR 440.00
+Feb 09, 2026
+09:28 PM
+Paid to MAHAMAD ALI
+Transaction ID : T2602092128408918497429
+UTR No : 792312301388
+Debited from XX4051
+Debit INR 51.00
+Feb 10, 2026
+10:39 AM
+Paid to Rajendra Singh
+Transaction ID : T2602101039064305901131
+UTR No : 294837514883
+Debited from XX4051
+Debit INR 75.00
+Feb 10, 2026
+12:04 PM
+Paid to Clove Dental
+Transaction ID : T2602101203580907679251
+UTR No : 103744216925
+Debited from XX4051
+Debit INR 8441.00
+Page 105 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 105 of 118 --
+
+Date Transaction Details Type Amount
+Feb 10, 2026
+12:11 PM
+Paid to Swiggy
+Transaction ID : T2602101211110589424348
+UTR No : 640112270680
+Debited from XX4051
+Debit INR 181.00
+Feb 10, 2026
+12:18 PM
+Paid to SURYAKANTA JANA
+Transaction ID : T2602101218361104326480
+UTR No : 904242919008
+Debited from XX4051
+Debit INR 58.00
+Feb 10, 2026
+03:01 PM
+Paid to Swiggy Limited
+Transaction ID : T2602101501559826531195
+UTR No : 840443360557
+Debited from XX4051
+Debit INR 863.00
+Feb 10, 2026
+06:31 PM
+Paid - Mobile Recharge
+Transaction ID : NB26021018313043688683642
+UTR No : 380423962765
+Debited from XX4051
+Debit INR 302.00
+Feb 10, 2026
+06:31 PM
+Money added to UPI Lite
+Transaction ID : W2602101831338895486454
+UTR No : 172527400277
+Debited from XX4051
+Debit INR 2000.00
+Feb 11, 2026
+12:25 AM
+Paid to Swiggy Ltd
+Transaction ID : T2602110025109747367548
+UTR No : 500605975805
+Debited from XX4051
+Debit INR 294.00
+Feb 11, 2026
+09:33 AM
+Paid to Swiggy
+Transaction ID : T2602110933311135487167
+UTR No : 165643903323
+Debited from XX4051
+Debit INR 595.00
+Feb 11, 2026
+01:52 PM
+Paid to Lord Of The Juices
+Transaction ID : T2602111352128879716032
+UTR No : 894732150801
+Debited from XX4051
+Debit INR 80.00
+Feb 11, 2026
+05:30 PM
+Paid to BISTRO
+Transaction ID : T2602111730333212818676
+UTR No : 846979106676
+Debited from XX4051
+Debit INR 206.00
+Page 106 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 106 of 118 --
+
+Date Transaction Details Type Amount
+Feb 11, 2026
+10:56 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602112256433223322052
+UTR No : 288958320317
+Debited from XX4051
+Debit INR 181.00
+Feb 12, 2026
+09:30 AM
+Paid to Swiggy
+Transaction ID : T2602120930144044285575
+UTR No : 206583732113
+Debited from XX4051
+Debit INR 546.00
+Feb 12, 2026
+09:30 AM
+Money added to UPI Lite
+Transaction ID : W2602120930155780044920
+UTR No : 569400122402
+Debited from XX4051
+Debit INR 2000.00
+Feb 12, 2026
+10:51 AM
+Paid to AMAN KUMAR
+Transaction ID : T2602121051049479882970
+UTR No : 502639549437
+Debited from XX4051
+Debit INR 73.00
+Feb 12, 2026
+11:20 AM
+Received from AKSHIT KHUNGER
+Transaction ID : T2602121120343203698526
+UTR No : 118538721483
+Credited to XX9778
+Credit INR 2800.00
+Feb 12, 2026
+03:16 PM
+Paid to Miss SAMRIDHI AGGARWAL
+Transaction ID : T2602121516050652520120
+UTR No : 044232852233
+Debited from XX9778
+Debit INR
+40000.00
+Feb 12, 2026
+04:07 PM
+Paid to ABHISHEKAGGARWAL
+Transaction ID : OLEX2602121607324288191741
+UTR No : 604316866706
+Debited from XX9778
+Debit INR 100.00
+Feb 12, 2026
+07:42 PM
+Paid to SUDHIR YADAV
+Transaction ID : T2602121942018979967876
+UTR No : 365447024916
+Debited from XX4051
+Debit INR 440.00
+Feb 12, 2026
+07:46 PM
+Paid to KRISHNAPADA DAS
+Transaction ID : T2602121946431294601310
+UTR No : 614048315040
+Debited from XX4051
+Debit INR 50.00
+Page 107 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 107 of 118 --
+
+Date Transaction Details Type Amount
+Feb 12, 2026
+08:01 PM
+Paid to Blinkit
+Transaction ID : T2602122001021358141510
+UTR No : 444120996709
+Debited from XX4051
+Debit INR 1415.00
+Feb 12, 2026
+08:04 PM
+Paid to BISTRO
+Transaction ID : T2602122004361240688918
+UTR No : 437111014713
+Debited from XX4051
+Debit INR 238.00
+Feb 12, 2026
+11:40 PM
+Paid to GoodScore
+Transaction ID : OMA2602122340296961761796W
+UTR No : 604342403502
+Debited from XX9778
+Debit INR 99.00
+Feb 13, 2026
+04:12 AM
+Paid to Airtel Payments Bank Limited
+Transaction ID : T2602130412207834167762
+UTR No : 644091566842
+Debited from XX4051
+Debit INR 49.00
+Feb 13, 2026
+12:34 PM
+Paid to Swiggy Limited
+Transaction ID : T2602131234421841497659
+UTR No : 120932702896
+Debited from XX4051
+Debit INR 255.00
+Feb 13, 2026
+01:15 PM
+Paid to BISTRO
+Transaction ID : T2602131315164060212890
+UTR No : 539980015064
+Debited from XX4051
+Debit INR 347.00
+Feb 13, 2026
+03:45 PM
+Paid to Swiggy
+Transaction ID : T2602131545072290008978
+UTR No : 554728790866
+Debited from XX4051
+Debit INR 1231.00
+Feb 14, 2026
+01:16 AM
+Paid to Shriram Dhaba 3
+Transaction ID : T2602140116279530230229
+UTR No : 474254595115
+Debited from XX4051
+Debit INR 950.00
+Feb 14, 2026
+01:18 AM
+Paid to ANUJ KUMAR JAISWAL
+Transaction ID : T2602140118363885649262
+UTR No : 350905339489
+Debited from XX4051
+Debit INR 40.00
+Page 108 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 108 of 118 --
+
+Date Transaction Details Type Amount
+Feb 14, 2026
+12:42 PM
+Paid to Swiggy
+Transaction ID : T2602141242039089460579
+UTR No : 587278214050
+Debited from XX4051
+Debit INR 309.00
+Feb 14, 2026
+07:07 PM
+Paid to VASIM KHAN
+Transaction ID : T2602141907400670507247
+UTR No : 391659275011
+Debited from XX4051
+Debit INR 48.00
+Feb 14, 2026
+07:07 PM
+Money added to UPI Lite
+Transaction ID : W2602141907419788394716
+UTR No : 009454545855
+Debited from XX4051
+Debit INR 2000.00
+Feb 14, 2026
+07:12 PM
+Paid to HSQUARE SPORTS PRIVATE LIMITED
+Transaction ID : T2602141912197786930246
+UTR No : 123925212945
+Debited from XX4051
+Debit INR 200.00
+Feb 14, 2026
+08:07 PM
+Paid to HAMANTHI DEVI
+Transaction ID : T2602142007149811408608
+UTR No : 798001472066
+Debited from XX4051
+Debit INR 60.00
+Feb 14, 2026
+08:17 PM
+Paid to SAJIR ALAM
+Transaction ID : T2602142017010226093876
+UTR No : 807244815645
+Debited from XX4051
+Debit INR 48.00
+Feb 14, 2026
+08:52 PM
+Paid to BISTRO
+Transaction ID : T2602142052529594091942
+UTR No : 513398773654
+Debited from XX4051
+Debit INR 250.00
+Feb 14, 2026
+11:32 PM
+Paid to SWIGGY
+Transaction ID : T2602142332163681373337
+UTR No : 072308967921
+Debited from XX4051
+Debit INR 254.00
+Feb 15, 2026
+12:18 AM
+Paid to Swiggy
+Transaction ID : T2602150018105429527736
+UTR No : 628484548572
+Debited from XX4051
+Debit INR 1065.00
+Page 109 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 109 of 118 --
+
+Date Transaction Details Type Amount
+Feb 15, 2026
+11:34 AM
+Paid to Swiggy
+Transaction ID : T2602151134093272612590
+UTR No : 373248089062
+Debited from XX4051
+Debit INR 236.00
+Feb 15, 2026
+04:12 PM
+Paid to SWIGGY
+Transaction ID : T2602151612380524364180
+UTR No : 231434602060
+Debited from XX4051
+Debit INR 206.00
+Feb 16, 2026
+10:27 AM
+Paid to Swiggy Limited
+Transaction ID : T2602161027534224884843
+UTR No : 885255486104
+Debited from XX4051
+Debit INR 268.00
+Feb 16, 2026
+10:51 AM
+Paid to Anil Kumar
+Transaction ID : T2602161051171624167931
+UTR No : 676933551711
+Debited from XX4051
+Debit INR 70.00
+Feb 16, 2026
+05:01 PM
+Paid to Rajpal Yadav
+Transaction ID : T2602161701218372096076
+UTR No : 263832317134
+Debited from XX4051
+Debit INR 100.00
+Feb 16, 2026
+05:27 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602161727403326467080
+UTR No : 929462870688
+Debited from XX4051
+Debit INR 206.00
+Feb 16, 2026
+07:28 PM
+Paid to Eleven Labs
+Transaction ID : OLEX2602161928449259037425
+UTR No : 180874051839
+Debited from XX9778
+Debit INR 519.20
+Feb 16, 2026
+11:21 PM
+Paid to BISTRO
+Transaction ID : T2602162321351290478957
+UTR No : 536002857873
+Debited from XX4051
+Debit INR 148.00
+Feb 16, 2026
+11:21 PM
+Money added to UPI Lite
+Transaction ID : W2602162321364239121624
+UTR No : 587446687195
+Debited from XX4051
+Debit INR 2000.00
+Page 110 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 110 of 118 --
+
+Date Transaction Details Type Amount
+Feb 17, 2026
+11:47 AM
+Paid to Swiggy
+Transaction ID : T2602171147180243609124
+UTR No : 369504588848
+Debited from XX4051
+Debit INR 507.00
+Feb 17, 2026
+12:10 PM
+Paid to ABDULRAKIBSK
+Transaction ID : T2602171210087911580900
+UTR No : 351876164188
+Debited from XX4051
+Debit INR 60.00
+Feb 17, 2026
+03:27 PM
+Paid to Nitesh Kumar
+Transaction ID : T2602171527085962343694
+UTR No : 951187253477
+Debited from XX4051
+Debit INR 60.00
+Feb 17, 2026
+05:41 PM
+Paid to Swiggy
+Transaction ID : T2602171741432799183219
+UTR No : 494441381671
+Debited from XX4051
+Debit INR 157.00
+Feb 18, 2026
+10:59 AM
+Paid to Swiggy Limited
+Transaction ID : T2602181059541812173472
+UTR No : 187525733099
+Debited from XX4051
+Debit INR 375.00
+Feb 18, 2026
+05:06 PM
+Paid to Swiggy
+Transaction ID : T2602181706016802192942
+UTR No : 900116344113
+Debited from XX4051
+Debit INR 355.00
+Feb 18, 2026
+09:29 PM
+Paid to Swiggy
+Transaction ID : T2602182129563563132211
+UTR No : 748373794375
+Debited from XX4051
+Debit INR 270.00
+Feb 18, 2026
+10:23 PM
+Received from NANDINI VERMA
+Transaction ID : T2602182223393332075762
+UTR No : 118848332677
+Credited to XX9778
+Credit INR
+14000.00
+Feb 19, 2026
+12:49 AM
+Paid to BISTRO
+Transaction ID : T2602190049051092362169
+UTR No : 346244163954
+Debited from XX4051
+Debit INR 238.00
+Page 111 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 111 of 118 --
+
+Date Transaction Details Type Amount
+Feb 19, 2026
+12:49 AM
+Money added to UPI Lite
+Transaction ID : W2602190049068428677616
+UTR No : 432070016734
+Debited from XX4051
+Debit INR 2000.00
+Feb 19, 2026
+12:13 PM
+Paid to SWIGGY
+Transaction ID : T2602191213157664490771
+UTR No : 757078038970
+Debited from XX4051
+Debit INR 232.00
+Feb 19, 2026
+03:13 PM
+Paid to Urban Company
+Transaction ID : T2602191513317152362609
+UTR No : 242508594599
+Debited from XX4051
+Debit INR 272.00
+Feb 19, 2026
+06:09 PM
+Paid to SWIGGY
+Transaction ID : T2602191809155960279236
+UTR No : 977685705595
+Debited from XX4051
+Debit INR 424.00
+Feb 20, 2026
+12:39 AM
+Paid to Swiggy
+Transaction ID : T2602200039182810737482
+UTR No : 695413812889
+Debited from XX4051
+Debit INR 151.00
+Feb 20, 2026
+03:31 PM
+Paid to Swiggy
+Transaction ID : T2602201531338961482960
+UTR No : 029214350985
+Debited from XX4051
+Debit INR 1140.00
+Feb 20, 2026
+09:44 PM
+Paid to Hakimuddin
+Transaction ID : T2602202144301870814199
+UTR No : 952227590606
+Debited from XX4051
+Debit INR 4507.00
+Feb 21, 2026
+08:59 AM
+Paid to NETFLIX COM
+Transaction ID : OLEX2602210859500629037898
+UTR No : 102752832558
+Debited from XX4051
+Debit INR 649.00
+Feb 21, 2026
+12:27 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602211227511668878424
+UTR No : 862129876009
+Debited from XX4051
+Debit INR 194.00
+Page 112 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 112 of 118 --
+
+Date Transaction Details Type Amount
+Feb 21, 2026
+12:53 PM
+Paid to Hakimuddin
+Transaction ID : T2602211253257852729590
+UTR No : 583365189111
+Debited from XX4051
+Debit INR 3894.00
+Feb 21, 2026
+10:39 PM
+Paid to SWIGGY
+Transaction ID : T2602212239179318268244
+UTR No : 810386428284
+Debited from XX4051
+Debit INR 308.00
+Feb 21, 2026
+10:56 PM
+Paid to OTPless
+Transaction ID : T2602212256376723445053
+UTR No : 208245605838
+Debited from XX4051
+Debit INR 236.00
+Feb 22, 2026
+10:45 AM
+Paid to Swiggy
+Transaction ID : T2602221045246982772158
+UTR No : 528529491746
+Debited from XX4051
+Debit INR 313.00
+Feb 22, 2026
+10:45 AM
+Money added to UPI Lite
+Transaction ID : W2602221045257771576999
+UTR No : 408718504003
+Debited from XX4051
+Debit INR 2000.00
+Feb 22, 2026
+04:30 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602221630167536505030
+UTR No : 355440721507
+Debited from XX4051
+Debit INR 194.00
+Feb 23, 2026
+12:26 AM
+Paid to Swiggy
+Transaction ID : T2602230026325359697350
+UTR No : 593024481520
+Debited from XX4051
+Debit INR 202.00
+Feb 23, 2026
+11:41 AM
+Paid to Swiggy Limited
+Transaction ID : T2602231141305036227450
+UTR No : 539831747376
+Debited from XX4051
+Debit INR 747.00
+Feb 23, 2026
+05:01 PM
+Paid to BISTRO
+Transaction ID : T2602231701196841530001
+UTR No : 021748158054
+Debited from XX4051
+Debit INR 128.00
+Page 113 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 113 of 118 --
+
+Date Transaction Details Type Amount
+Feb 23, 2026
+10:09 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602232209049632993710
+UTR No : 229686929893
+Debited from XX4051
+Debit INR 218.00
+Feb 24, 2026
+11:02 AM
+Paid to Swiggy Limited
+Transaction ID : T2602241102049166739131
+UTR No : 465615965981
+Debited from XX4051
+Debit INR 2066.00
+Feb 24, 2026
+04:26 PM
+Paid to SWIGGY
+Transaction ID : T2602241626476971204147
+UTR No : 358756805164
+Debited from XX4051
+Debit INR 181.00
+Feb 24, 2026
+09:56 PM
+Paid to Valve Corporation
+Transaction ID : T2602242156312539352777
+UTR No : 522697012155
+Debited from XX4051
+Debit INR 1500.00
+Feb 24, 2026
+11:18 PM
+Paid to Amazon India
+Transaction ID : OLEX2602242318017078124829
+UTR No : 605566255723
+Debited from XX9778
+Debit INR 29.00
+Feb 25, 2026
+08:54 PM
+Paid to Swiggy
+Transaction ID : T2602252054376791732372
+UTR No : 832468242652
+Debited from XX4051
+Debit INR 229.00
+Feb 25, 2026
+08:54 PM
+Money added to UPI Lite
+Transaction ID : W2602252054391521516984
+UTR No : 682009972686
+Debited from XX4051
+Debit INR 2000.00
+Feb 26, 2026
+11:12 AM
+Paid to Swiggy Limited
+Transaction ID : T2602261112241894066660
+UTR No : 041928756072
+Debited from XX4051
+Debit INR 887.00
+Feb 26, 2026
+05:28 PM
+Paid to Swiggy
+Transaction ID : T2602261728207420879234
+UTR No : 518602657495
+Debited from XX4051
+Debit INR 229.00
+Page 114 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 114 of 118 --
+
+Date Transaction Details Type Amount
+Feb 27, 2026
+02:40 PM
+Received from HARSH KUMAR CHOUBEY
+Transaction ID : T2602271440587864862946
+UTR No : 642474299117
+Credited to XX9778
+Credit INR
+20000.00
+Feb 27, 2026
+08:13 PM
+Paid to SWIGGY
+Transaction ID : T2602272013401617955162
+UTR No : 285307762558
+Debited from XX4051
+Debit INR 330.00
+Feb 28, 2026
+03:52 PM
+Received from AKSHIT KHUNGER
+Transaction ID : T2602281552023610043037
+UTR No : 119285362643
+Credited to XX9778
+Credit INR 950.00
+Feb 28, 2026
+06:38 PM
+Paid to Swiggy Ltd
+Transaction ID : T2602281838032008266621
+UTR No : 723563300994
+Debited from XX4051
+Debit INR 341.00
+Mar 01, 2026
+12:57 PM
+Paid to Blink Commerce Private Limited
+Transaction ID : T2603011257293024175125
+UTR No : 745799420383
+Debited from XX4051
+Debit INR 2041.00
+Mar 02, 2026
+02:50 PM
+Received from MR AKSHIT KHUNGER
+Transaction ID : T2603021450378451112642
+UTR No : 606140776621
+Credited to XX9778
+Credit INR
+26000.00
+Mar 02, 2026
+02:53 PM
+Received from AKSHIT KHUNGER
+Transaction ID : T2603021453068479342754
+UTR No : 119389103777
+Credited to XX9778
+Credit INR 4969.00
+Mar 02, 2026
+07:16 PM
+Paid to CLEARTRIP PRIVATE LIMITED
+Transaction ID : T2603021916054149891137
+UTR No : 832130133263
+Debited from XX4051
+Debit INR
+47316.00
+Mar 02, 2026
+07:48 PM
+Paid to Swiggy Limited
+Transaction ID : T2603021948091141643047
+UTR No : 092434775052
+Debited from XX4051
+Debit INR 263.00
+Page 115 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 115 of 118 --
+
+Date Transaction Details Type Amount
+Mar 02, 2026
+07:48 PM
+Money added to UPI Lite
+Transaction ID : W2603021948142093718967
+UTR No : 831695471684
+Debited from XX4051
+Debit INR 2000.00
+Mar 02, 2026
+08:54 PM
+Paid to Google Ireland Limited
+Transaction ID : T2603022054064244561759
+UTR No : 395659777172
+Debited from XX4051
+Debit INR 1490.00
+Mar 02, 2026
+09:29 PM
+Paid to Airbnb
+Transaction ID : T2603022129544984501386
+UTR No : 140132737314
+Debited from XX4051
+Debit INR
+40824.44
+Mar 03, 2026
+12:06 PM
+Paid to Blinkit
+Transaction ID : T2603031206297146216982
+UTR No : 626673930674
+Debited from XX4051
+Debit INR 39.00
+Mar 03, 2026
+12:44 PM
+Paid to Rajkishor Pal
+Transaction ID : T2603031244324819739486
+UTR No : 605284660590
+Debited from XX4051
+Debit INR 50.00
+Mar 03, 2026
+01:10 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2603031310319177996013
+UTR No : 827753951198
+Debited from XX4051
+Debit INR
+10000.00
+Mar 03, 2026
+01:13 PM
+Received from SHUBHAM VYAS
+Transaction ID : T2603031313147168540317
+UTR No : 445675549824
+Credited to XX9778
+Credit INR
+10000.00
+Mar 03, 2026
+01:13 PM
+Received from SHUBHAM VYAS
+Transaction ID : T2603031313365736889489
+UTR No : 216542517366
+Credited to XX9778
+Credit INR
+50000.00
+Mar 03, 2026
+01:14 PM
+Paid to M S JAYSHREE FOREX AND TRAVELS PRIVATE LIMITED
+Transaction ID : T2603031314140782511758
+UTR No : 239144400897
+Debited from XX9778
+Debit INR
+50000.00
+Page 116 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 116 of 118 --
+
+Date Transaction Details Type Amount
+Mar 03, 2026
+01:14 PM
+Received from SHUBHAM VYAS
+Transaction ID : T2603031314311676801828
+UTR No : 545469198800
+Credited to XX9778
+Credit INR 5000.00
+Mar 03, 2026
+01:14 PM
+Paid to M S JAYSHREE FOREX AND TRAVELS PRIVATE LIMITED
+Transaction ID : T2603031314536711334382
+UTR No : 193920799526
+Debited from XX9778
+Debit INR
+46932.00
+Mar 03, 2026
+01:23 PM
+Paid to PRAVIN KUMAR
+Transaction ID : T2603031323049466423859
+UTR No : 398439011976
+Debited from XX4051
+Debit INR 700.00
+Mar 03, 2026
+01:46 PM
+Paid to Monu Sharma
+Transaction ID : T2603031346184781348255
+UTR No : 324366532957
+Debited from XX4051
+Debit INR 268.00
+Mar 03, 2026
+03:11 PM
+Paid to BINOD SINGH
+Transaction ID : T2603031511424217246968
+UTR No : 097287557096
+Debited from XX9778
+Debit INR 1650.00
+Mar 05, 2026
+02:40 AM
+Paid to GoodScore
+Transaction ID : OMO2603040240118832847699W
+UTR No : 606489713759
+Debited from XX9778
+Debit INR 99.00
+Mar 05, 2026
+11:25 AM
+Paid to VAIBHAV BHUTANI
+Transaction ID : T2603051125081131807499
+UTR No : 371150580022
+Debited from XX4051
+Debit INR 6500.00
+Mar 07, 2026
+03:27 PM
+Paid to GMR AIRPORTS LIMITED DUTY FREE
+Transaction ID : T2603071527247359140464
+UTR No : 816481525857
+Debited from XX4051
+Debit INR 1850.00
+Mar 07, 2026
+03:28 PM
+Paid to GMR AIRPORTS LIMITED DUTY FREE
+Transaction ID : T2603071528316270352010
+UTR No : 155925882607
+Debited from XX4051
+Debit INR 1850.00
+Page 117 of 118
+This is a system generated statement. For any queries, contact us at .	https://support.phonepe.com/statement
+
+-- 117 of 118 --
+
+Date Transaction Details Type Amount
+Mar 07, 2026
+03:34 PM
+Paid to KARACHI BAKERY
+Transaction ID : T2603071534063029920310
+UTR No : 379907270013
+Debited from XX4051
+Debit INR 1000.00
+Mar 07, 2026
+03:34 PM
+Money added to UPI Lite
+Transaction ID : W2603071534084856663761
+UTR No : 567428656260
+Debited from XX4051
+Debit INR 2000.00
+Mar 07, 2026
+10:21 PM
+Paid to XXXXXXXX9778
+Transaction ID : T2603072220576405719941
+UTR No : 296736369489
+Debited from XX4051
+Debit INR
+90000.00
+Page 118 of 118
+This is an automatically generated statement. Customer(s) are requested to immediately notify PhonePe in case of any
+errors in the statement at https://support.phonepe.com/statement.
+Visit for PhonePe Terms & Conditions and	https://www.phonepe.com/terms-conditions/ https://www.phonepe.com
+for Privacy Policy.	/privacy-policy/
+Do not fall prey to fictitious offers of winning prizes, money circulation schemes and cheap funds, etc. through SMS,
+emails and calls.
+The contents of this email and document are confidential and intended for the recipient specified in this document. If you
+received this message by mistake, please inform PhonePe at so that we can ensure	https://support.phonepe.com/statement
+the recipient's details are corrected.
+
+-- 118 of 118 --
+

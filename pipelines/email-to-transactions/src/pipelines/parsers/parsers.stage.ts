@@ -13,10 +13,10 @@ export class ParserStage {
     constructor() {}
 
     async parseAll(userId: string) {
-        // const configs = await parserConfigService.getActiveConfigs(userId);
-        const config = await parserConfigService.getBySlug('sbi_savings_statement');
-        console.log('config', config);
-        const configs = [config];
+        const configs = await parserConfigService.getActiveConfigs(userId);
+        // const config = await parserConfigService.getBySlug('sbi_savings_statement');
+        // console.log('config', config);
+        // const configs = [config];
         // const configs = PARSER_CONFIGS;
         if (configs.length === 0) {
             logger.warn('[Parser] No active parser configs found in database');
@@ -41,7 +41,7 @@ export class ParserStage {
             const config = this.matchEmailToConfig(email, configs);
             if (!config) {
                 unmatched++;
-                //     await rawEmailsService.update({ _id: email._id }, { status: 'unmatched', statusUpdatedAt: new Date().toISOString() });
+                await rawEmailsService.update({ _id: email._id }, { status: 'unmatched', statusUpdatedAt: new Date().toISOString() });
                 continue;
             }
 
@@ -58,7 +58,6 @@ export class ParserStage {
                     const confidence = this.computeConfidence(fieldResults);
                     console.log('fieldResults', fieldResults, result, confidence);
 
-                    continue;
                     await rawEmailsService.update(
                         { _id: email._id },
                         {
@@ -86,6 +85,7 @@ export class ParserStage {
                         confidence,
                         fieldResults,
                     });
+                    continue;
                 } else {
                     failed++;
                     await parserConfigService.recordAttempt(config.id, {

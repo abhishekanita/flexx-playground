@@ -184,7 +184,7 @@ export class SyncEmailStage {
                         { $set: { 'attachments.$.downloaded': true, 'attachments.$.s3Key': s3Key } }
                     );
 
-                    logger.info(`[EmailSync] Uploaded attachment ${att.filename} → s3://${s3Key}`);
+                    // logger.info(`[EmailSync] Uploaded attachment ${att.filename} → s3://${s3Key}`);
                 } catch (err: any) {
                     logger.error(
                         `[EmailSync] Failed to download/upload attachment ${att.filename} for msg ${msg.messageId}: ${err.message}`

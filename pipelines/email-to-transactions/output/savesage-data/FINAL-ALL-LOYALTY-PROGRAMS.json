@@ -1,0 +1,498 @@
+{
+  "flight": [
+    {
+      "id": 141,
+      "name": "AAdvantage",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/AAdvantage.png",
+      "companyName": "American Airlines"
+    },
+    {
+      "id": 375,
+      "name": "AerClub",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/AerClub.png",
+      "companyName": "Aer Lingus"
+    },
+    {
+      "id": 376,
+      "name": "Aeromexico Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/ClubPremier.png",
+      "companyName": "Aeromexico"
+    },
+    {
+      "id": 117,
+      "name": "Aeroplan",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Aeroplan.png",
+      "companyName": "Air Canada"
+    },
+    {
+      "id": 121,
+      "name": "AirAsia Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/AirAsia%20Rewards.png",
+      "companyName": "Air Asia"
+    },
+    {
+      "id": 378,
+      "name": "Airpoints",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Airpoints.png",
+      "companyName": "Air New Zealand"
+    },
+    {
+      "id": 15,
+      "name": "Airways Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Executive%20Club.png",
+      "companyName": "British Airways"
+    },
+    {
+      "id": 401,
+      "name": "Alfursan",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Alfursan.png",
+      "companyName": "Saudia"
+    },
+    {
+      "id": 144,
+      "name": "ANA Mileage Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/ANA%20Mileage%20Club%20.png",
+      "companyName": "All Nippon Airways"
+    },
+    {
+      "id": 145,
+      "name": "Asia Miles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Asia%20Miles.png",
+      "companyName": "Cathay Pacific"
+    },
+    {
+      "id": 380,
+      "name": "Asiana Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Asiana%20Club.png",
+      "companyName": "Asiana Airlines"
+    },
+    {
+      "id": 379,
+      "name": "Atmos Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Mileage%20Plan.png",
+      "companyName": "Alaska Airlines"
+    },
+    {
+      "id": 390,
+      "name": "Atmos Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/HawaiianMiles.png",
+      "companyName": "Hawaiian Airlines"
+    },
+    {
+      "id": 3077,
+      "name": "Azul Fidelidade",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Tudo%20Azul.png",
+      "companyName": "Azul"
+    },
+    {
+      "id": 628,
+      "name": "BluChip",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/BluChip.png",
+      "companyName": "IndiGo"
+    },
+    {
+      "id": 385,
+      "name": "ConnectMiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/ConnectMiles.png",
+      "companyName": "Copa Airlines"
+    },
+    {
+      "id": 382,
+      "name": "Dynasty Flyer",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Dynasty%20Flyer.png",
+      "companyName": "China Airlines"
+    },
+    {
+      "id": 383,
+      "name": "EasternMiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/EasternMiles.png",
+      "companyName": "China Eastern"
+    },
+    {
+      "id": 387,
+      "name": "EL AL Matmid",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/EL%20AL%20Matmid.png",
+      "companyName": "EL AL"
+    },
+    {
+      "id": 8,
+      "name": "Enrich",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Enrich.png",
+      "companyName": "Malaysia Airlines"
+    },
+    {
+      "id": 11,
+      "name": "Etihad Guest",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Etihad%20Guest.png",
+      "companyName": "Etihad"
+    },
+    {
+      "id": 400,
+      "name": "EuroBonus",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/EuroBonus.png",
+      "companyName": "SAS Airlines"
+    },
+    {
+      "id": 389,
+      "name": "Falconflyer",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Falconflyer.png",
+      "companyName": "Gulf Air"
+    },
+    {
+      "id": 397,
+      "name": "Fidelidade",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Fidelidade.png",
+      "companyName": "Multiplus"
+    },
+    {
+      "id": 123,
+      "name": "Finnair Plus",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Finnair%20Plus.png",
+      "companyName": "Finnair"
+    },
+    {
+      "id": 5,
+      "name": "Flying Blue",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Flying%20Blue.png",
+      "companyName": "Air France - KLM"
+    },
+    {
+      "id": 153,
+      "name": "Flying Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Flying%20Club.png",
+      "companyName": "Virgin Atlantic"
+    },
+    {
+      "id": 124,
+      "name": "Fortune Wings Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Fortune%20Wings%20Club.png",
+      "companyName": "Hainan Airlines"
+    },
+    {
+      "id": 388,
+      "name": "Frontier Miles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Frontier%20Miles.png",
+      "companyName": "Frontier Airlines"
+    },
+    {
+      "id": 391,
+      "name": "Iberia Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/iberia%20Plus.png",
+      "companyName": "Iberia"
+    },
+    {
+      "id": 125,
+      "name": "InterMiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/intermiles_jet_privilege_pvt_ltd_logo.png",
+      "companyName": "InterMiles"
+    },
+    {
+      "id": 10,
+      "name": "JAL Mileage Bank",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/JAL%20Mileage%20Bank.png",
+      "companyName": "Japan Airlines"
+    },
+    {
+      "id": 394,
+      "name": "Juneyao Air",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Juneyao%20Air.png",
+      "companyName": "Juneyao Air"
+    },
+    {
+      "id": 3,
+      "name": "KrisFlyer",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/KrisFlyer.png",
+      "companyName": "Singapore Airlines"
+    },
+    {
+      "id": 396,
+      "name": "LATAM Pass",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/LATAM%20Pass.png",
+      "companyName": "LATAM Airlines"
+    },
+    {
+      "id": 437,
+      "name": "LifeMiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/LifeMiles.png",
+      "companyName": "Avianca"
+    },
+    {
+      "id": 126,
+      "name": "Lotusmiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Lotusmiles.png",
+      "companyName": "Vietnam Airlines"
+    },
+    {
+      "id": 1,
+      "name": "Maharaja Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Maharaja%20Club.png",
+      "companyName": "Air India"
+    },
+    {
+      "id": 6,
+      "name": "MileagePlus",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/MileagePlus.png",
+      "companyName": "United Airlines"
+    },
+    {
+      "id": 374,
+      "name": "Miles+Bonus",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/MilesBonus.png",
+      "companyName": "Aegean"
+    },
+    {
+      "id": 403,
+      "name": "Miles&Go",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Miles&Go.png",
+      "companyName": "TAP Air Portugal"
+    },
+    {
+      "id": 4,
+      "name": "Miles & More",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Miles%20&%20More.png",
+      "companyName": "Lufthansa"
+    },
+    {
+      "id": 120,
+      "name": "Miles&Smiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Miles&Smiles.png",
+      "companyName": "Turkish Airlines"
+    },
+    {
+      "id": 377,
+      "name": "Phoenix Miles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Phoenix%20Miles.png",
+      "companyName": "Air China"
+    },
+    {
+      "id": 112,
+      "name": "Privilege Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Privilege%20Club.png",
+      "companyName": "Qatar Airways"
+    },
+    {
+      "id": 14,
+      "name": "Qantas Frequent Flyer",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Qantas%20Frequent%20Flyer.png",
+      "companyName": "Qantas Airlines"
+    },
+    {
+      "id": 402,
+      "name": "Rapid Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Rapid%20Rewards.png",
+      "companyName": "Southwest Airlines"
+    },
+    {
+      "id": 119,
+      "name": "Royal Orchid Plus",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Royal%20Orchid%20Plus.png",
+      "companyName": "Thai Airways"
+    },
+    {
+      "id": 399,
+      "name": "Royal Skies",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Royal%20Skies.png",
+      "companyName": "Royal Brunei Airlines"
+    },
+    {
+      "id": 122,
+      "name": "ShebaMiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/ShebaMiles.png",
+      "companyName": "Ethopian Airlines"
+    },
+    {
+      "id": 398,
+      "name": "Sindbad",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Sindbad.png",
+      "companyName": "Oman Air"
+    },
+    {
+      "id": 386,
+      "name": "Skymiles",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Skymiles.png",
+      "companyName": "Delta"
+    },
+    {
+      "id": 395,
+      "name": "Skypass",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Skypass.png",
+      "companyName": "Korean Air"
+    },
+    {
+      "id": 384,
+      "name": "Sky Pearl Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Sky%20Pearl%20Club.png",
+      "companyName": "China Southern Airlines"
+    },
+    {
+      "id": 12,
+      "name": "Skywards",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Skywards.png",
+      "companyName": "Emirates"
+    },
+    {
+      "id": 118,
+      "name": "SpiceClub",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/SpiceClub.png",
+      "companyName": "Spicejet"
+    },
+    {
+      "id": 393,
+      "name": "TrueBlue",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/TrueBlue.png",
+      "companyName": "JetBlue"
+    },
+    {
+      "id": 381,
+      "name": "Tudo Azul",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Tudo%20Azul.png",
+      "companyName": "Azul"
+    },
+    {
+      "id": 404,
+      "name": "Velocity Frequent Flyer",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Velocity%20Frequent%20Flyer.png",
+      "companyName": "Virgin Australia"
+    },
+    {
+      "id": 392,
+      "name": "Volare",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Volare.png",
+      "companyName": "ita Airways"
+    },
+    {
+      "id": 405,
+      "name": "Vueling Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/FFP%20IMAGES/Vueling%20Club.png",
+      "companyName": "Vueling Airlines"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 21,
+      "name": "Accor Live Limitless",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Accor%20Live%20Limitless.png",
+      "companyName": "Accor"
+    },
+    {
+      "id": 18,
+      "name": "Club ITC",
+      "iconUrl": "https://gcp-cdn.savesage.club/Hotel_earn/ITCHOTEL.png",
+      "companyName": "ITC"
+    },
+    {
+      "id": 32,
+      "name": "GHA Discovery",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/GHA%20Discovery.png",
+      "companyName": "The Leela"
+    },
+    {
+      "id": 25,
+      "name": "Hilton Honors",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Hilton%20Honors.png",
+      "companyName": "Hilton"
+    },
+    {
+      "id": 26,
+      "name": "IHG One Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/IHG%20One%20Rewards.png",
+      "companyName": "IHG Hotels & Resorts"
+    },
+    {
+      "id": 31,
+      "name": "Infinity Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Infinity%20Rewards.png",
+      "companyName": "Lemon Tree"
+    },
+    {
+      "id": 3142,
+      "name": "I Prefer Rewards",
+      "iconUrl": "https://storage.googleapis.com/savesagemainassets/HOTEL%20LOYALTY/iprefer.webp",
+      "companyName": "I Prefer Hotel"
+    },
+    {
+      "id": 3138,
+      "name": "Jumeirah One",
+      "iconUrl": "https://storage.googleapis.com/savesagemainassets/HOTEL%20LOYALTY/Jumeirah.webp",
+      "companyName": "Jumeirah Hotels and Resorts"
+    },
+    {
+      "id": 3383,
+      "name": "Leaders Club",
+      "iconUrl": "https://storage.googleapis.com/savesagemainassets/hotelLoyaltyNew/tlhw.webp",
+      "companyName": "The Leading Hotels Of the World"
+    },
+    {
+      "id": 22,
+      "name": "Marriott Bonvoy",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Marriott%20Bonvoy.png",
+      "companyName": "Marriott"
+    },
+    {
+      "id": 3141,
+      "name": "MyMillennium",
+      "iconUrl": "https://storage.googleapis.com/savesagemainassets/HOTEL%20LOYALTY/millennium.webp",
+      "companyName": "Millennium Hotels"
+    },
+    {
+      "id": 28,
+      "name": "Oberoi One",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Oberoi%20One.png",
+      "companyName": "Oberoi"
+    },
+    {
+      "id": 3140,
+      "name": "ONYX Rewards",
+      "iconUrl": "https://storage.googleapis.com/savesagemainassets/HOTEL%20LOYALTY/onyx.webp",
+      "companyName": "ONYX Hospitality Group"
+    },
+    {
+      "id": 3139,
+      "name": "Orchid Rewards",
+      "iconUrl": "https://storage.googleapis.com/savesagemainassets/HOTEL%20LOYALTY/orchid%20hotel.webp",
+      "companyName": "Orchid Hotels"
+    },
+    {
+      "id": 24,
+      "name": "Radisson Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Radisson%20Rewards.png",
+      "companyName": "Radisson"
+    },
+    {
+      "id": 1162,
+      "name": "Shangri-La Circle",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Shangri-La%20Circle.png",
+      "companyName": "Shangri-La Hotels & Resorts"
+    },
+    {
+      "id": 29,
+      "name": "Taj Inner Circle",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Taj%20Inner%20Circle.png",
+      "companyName": "Taj"
+    },
+    {
+      "id": 419,
+      "name": "The Postcard Sunshine Club",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/The%20Postcard%20Sunshine%20Club.png",
+      "companyName": "The Postcard Hotel"
+    },
+    {
+      "id": 33,
+      "name": "Trident Privilege",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Trident%20Privilege.png",
+      "companyName": "Trident"
+    },
+    {
+      "id": 23,
+      "name": "World of Hyatt",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/World%20of%20Hyatt.png",
+      "companyName": "Hyatt"
+    },
+    {
+      "id": 27,
+      "name": "Wyndham Rewards",
+      "iconUrl": "https://gcp-cdn.savesage.club/hotelLoyaltyNew/Wyndham%20Rewards.png",
+      "companyName": "Wyndham"
+    }
+  ]
+}

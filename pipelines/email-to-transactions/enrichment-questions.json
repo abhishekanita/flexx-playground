@@ -1,0 +1,4008 @@
+[
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~227 monthly to \"bistro by zomato\" (13x, category: food_delivery). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c314e",
+        "69ac72cb842aa028a36c315c",
+        "69ac72cb842aa028a36c318d",
+        "69ac72cb842aa028a36c3540",
+        "69ac72cb842aa028a36c3659",
+        "69ac72cb842aa028a36c394a",
+        "69ac72cc842aa028a36c490a",
+        "69ac72cc842aa028a36c5906",
+        "69ac72cc842aa028a36c591b",
+        "69ac72cc842aa028a36c5bc2",
+        "69ac72cc842aa028a36c5be2",
+        "69ac72cc842aa028a36c5c3c",
+        "69ac72cc842aa028a36c5c4a"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/601706236825/BISTRO/HDFC/bistrobybl/UPIInte",
+        "UPI/DR/601659965675/BISTRO/HDFC/bistrobybl/PayviaR",
+        "UPI/DR/600551726003/BISTRO/HDFC/bistrobybl/UPIInte",
+        "UPI/DR/600199639480/BISTRO/HDFC/bistrobybl/UPIInte"
+      ],
+      "sampleMerchants": [
+        "Bistro by Zomato"
+      ],
+      "totalAmount": 3160.3,
+      "txnCount": 13,
+      "amountRange": {
+        "min": 227,
+        "max": 268
+      },
+      "dateRange": {
+        "from": "2025-03-10T00:00:00.000Z",
+        "to": "2026-01-17T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "food_delivery"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 13
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_trip_folder",
+    "status": "pending",
+    "question": "flight + food_delivery + cab_ride cluster: 13 txns, Rs 19,942 (15/12/2025 – 15/12/2025). Bengaluru - New Delhi, Air India Express. Cabs in: Gurugram, Bengaluru. Is this a trip? What for?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c56b1",
+        "69ac72cc842aa028a36c56d4",
+        "69ac72cc842aa028a36c5710",
+        "69ac72cc842aa028a36c5719",
+        "69ac72cc842aa028a36c5721",
+        "69ac72cc842aa028a36c5729",
+        "69ac72cc842aa028a36c5737",
+        "69ac72cc842aa028a36c573f",
+        "69ac72cc842aa028a36c5747",
+        "69ac72cc842aa028a36c574f",
+        "69ac72cc842aa028a36c5760",
+        "69ac72cc842aa028a36c589f",
+        "69ac72cc842aa028a36c58dc"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/534975934134/Make My /YESB/makemytrip/UPI",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Make My",
+        "MakeMyTrip",
+        "Swiggy",
+        "Swiggy L",
+        "Uber"
+      ],
+      "totalAmount": 19942.260000000006,
+      "txnCount": 13,
+      "amountRange": {
+        "min": 21.7,
+        "max": 7606
+      },
+      "dateRange": {
+        "from": "2025-12-15T00:00:00.000Z",
+        "to": "2025-12-17T15:51:00.000Z"
+      },
+      "channels": [
+        "UPI",
+        "UNKNOWN"
+      ],
+      "categories": [
+        "flight",
+        "food_delivery",
+        "cab_ride"
+      ],
+      "detectedPattern": "trip_cluster"
+    },
+    "suggestions": [
+      "Trip Dec 2025",
+      "Work Travel",
+      "Wedding",
+      "Family Trip"
+    ],
+    "impact": 13
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~433 monthly to \"swiggy\" (12x, category: food_delivery). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c2fba",
+        "69ac72cb842aa028a36c3253",
+        "69ac72cb842aa028a36c358b",
+        "69ac72cb842aa028a36c3a39",
+        "69ac72cc842aa028a36c44eb",
+        "69ac72cc842aa028a36c47a8",
+        "69ac72cc842aa028a36c4823",
+        "69ac72cc842aa028a36c4c0c",
+        "69ac72cc842aa028a36c501f",
+        "69ac72cc842aa028a36c5157",
+        "69ac72cc842aa028a36c527d",
+        "69ac72cc842aa028a36c59d4"
+      ],
+      "sampleNarrations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Swiggy"
+      ],
+      "totalAmount": 5398,
+      "txnCount": 12,
+      "amountRange": {
+        "min": 433,
+        "max": 471
+      },
+      "dateRange": {
+        "from": "2025-03-15T10:57:00.000Z",
+        "to": "2025-12-28T10:49:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN",
+        "UPI"
+      ],
+      "categories": [
+        "food_delivery"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 12
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~520 monthly to \"swiggy\" (12x, category: food_delivery). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c301e",
+        "69ac72cb842aa028a36c34ae",
+        "69ac72cb842aa028a36c37d1",
+        "69ac72cb842aa028a36c3b77",
+        "69ac72cb842aa028a36c3ccd",
+        "69ac72cc842aa028a36c43ee",
+        "69ac72cc842aa028a36c4448",
+        "69ac72cc842aa028a36c45c4",
+        "69ac72cc842aa028a36c4ac7",
+        "69ac72cc842aa028a36c4b83",
+        "69ac72cc842aa028a36c4fd3",
+        "69ac72cc842aa028a36c52da"
+      ],
+      "sampleNarrations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Swiggy"
+      ],
+      "totalAmount": 5906,
+      "txnCount": 12,
+      "amountRange": {
+        "min": 475,
+        "max": 520
+      },
+      "dateRange": {
+        "from": "2025-03-28T20:54:00.000Z",
+        "to": "2025-11-14T09:25:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN",
+        "UPI"
+      ],
+      "categories": [
+        "food_delivery"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 12
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~649 monthly to \"netflix\" (10x, category: ott). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c32c4",
+        "69ac72cb842aa028a36c3629",
+        "69ac72cb842aa028a36c3a6e",
+        "69ac72cc842aa028a36c3fda",
+        "69ac72cc842aa028a36c4554",
+        "69ac72cc842aa028a36c4926",
+        "69ac72cc842aa028a36c4d4d",
+        "69ac72cc842aa028a36c5437",
+        "69ac72cc842aa028a36c58f1",
+        "69ac72cc842aa028a36c5c6c"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/102511602038/NETFLIX /HDFC/netflixupi/Month",
+        "UPI/DR/102266358458/NETFLIX /HDFC/netflixupi/Month",
+        "UPI/DR/102018012357/NETFLIX /HDFC/netflixupi/Month",
+        "UPI/DR/101509430169/NETFLIX /HDFC/netflixupi/Month"
+      ],
+      "sampleMerchants": [
+        "NETFLIX"
+      ],
+      "totalAmount": 6490,
+      "txnCount": 10,
+      "amountRange": {
+        "min": 649,
+        "max": 649
+      },
+      "dateRange": {
+        "from": "2025-03-21T00:00:00.000Z",
+        "to": "2026-01-21T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "ott"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 10
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_trip_folder",
+    "status": "pending",
+    "question": "hotel + flight + food_delivery + cab_ride cluster: 8 txns, Rs 15,379 (3/11/2025 – 3/11/2025). Bangalore - Delhi, Airbnb P. Cabs in: Delhi, Gurugram, Bengaluru, Bangalore. Is this a trip? What for?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c5178",
+        "69ac72cc842aa028a36c5181",
+        "69ac72cc842aa028a36c518a",
+        "69ac72cc842aa028a36c519a",
+        "69ac72cc842aa028a36c51a2",
+        "69ac72cc842aa028a36c51bb",
+        "69ac72cc842aa028a36c535c",
+        "69ac72cc842aa028a36c5378"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/530705595599/Airbnb P/ICIC/airbnb.bdp/colle",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Airbnb P",
+        "MakeMyTrip",
+        "Swiggy",
+        "Uber",
+        "Swiggy D"
+      ],
+      "totalAmount": 15379.16,
+      "txnCount": 8,
+      "amountRange": {
+        "min": 288,
+        "max": 7014
+      },
+      "dateRange": {
+        "from": "2025-11-03T00:00:00.000Z",
+        "to": "2025-11-05T06:52:00.000Z"
+      },
+      "channels": [
+        "UPI",
+        "UNKNOWN"
+      ],
+      "categories": [
+        "hotel",
+        "flight",
+        "food_delivery",
+        "cab_ride"
+      ],
+      "detectedPattern": "trip_cluster"
+    },
+    "suggestions": [
+      "Trip Nov 2025",
+      "Work Travel",
+      "Wedding",
+      "Family Trip"
+    ],
+    "impact": 8
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_family_folder",
+    "status": "pending",
+    "question": "8 transfers to \"AKASH AR\", Rs 78,854 total. Is this family? Who?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3508",
+        "69ac72cb842aa028a36c3592",
+        "69ac72cb842aa028a36c3683",
+        "69ac72cb842aa028a36c3698",
+        "69ac72cb842aa028a36c369f",
+        "69ac72cb842aa028a36c3857",
+        "69ac72cb842aa028a36c39e7",
+        "69ac72cb842aa028a36c3a5c"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/513961497028/AKASH AR/HDFC/akash.gupt/Sent",
+        "UPI/DR/513505978503/AKASH AR/HDFC/akash.gupt/Sent",
+        "UPI/DR/512476498867/AKASH AR/HDFC/akash.gupt/Sent",
+        "UPI/DR/511676030615/AKASH AR/HDFC/akash.gupt/Sent"
+      ],
+      "sampleMerchants": [
+        "AKASH AR"
+      ],
+      "totalAmount": 78854,
+      "txnCount": 8,
+      "amountRange": {
+        "min": 3550,
+        "max": 18200
+      },
+      "dateRange": {
+        "from": "2025-04-06T00:00:00.000Z",
+        "to": "2025-05-19T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "transfer"
+      ],
+      "merchantName": "AKASH AR",
+      "detectedPattern": "recurring_transfer_person"
+    },
+    "suggestions": [
+      "Family",
+      "Friends",
+      "Staff/Help",
+      "Other"
+    ],
+    "impact": 8
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~99 monthly to \"apple se\" (7x, category: subscription). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3b69",
+        "69ac72cc842aa028a36c4054",
+        "69ac72cc842aa028a36c4593",
+        "69ac72cc842aa028a36c4957",
+        "69ac72cc842aa028a36c4d92",
+        "69ac72cc842aa028a36c54a7",
+        "69ac72cc842aa028a36c593d"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/108848535921/Apple Se/ICIC/appleservi/Manda",
+        "UPI/DR/108645140542/Apple Se/ICIC/appleservi/Manda",
+        "UPI/DR/527079238734/Apple Se/ICIC/appleservi/Manda",
+        "UPI/DR/523994500186/Apple Se/ICIC/appleservi/Manda"
+      ],
+      "sampleMerchants": [
+        "Apple Se"
+      ],
+      "totalAmount": 693,
+      "txnCount": 7,
+      "amountRange": {
+        "min": 99,
+        "max": 99
+      },
+      "dateRange": {
+        "from": "2025-05-27T00:00:00.000Z",
+        "to": "2025-12-27T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "subscription"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 7
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_trip_folder",
+    "status": "pending",
+    "question": "flight + food_delivery cluster: 7 txns, Rs 24,425 (14/11/2025 – 14/11/2025). Delhi - Indore. Is this a trip? What for?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c52b6",
+        "69ac72cc842aa028a36c52bf",
+        "69ac72cc842aa028a36c52c8",
+        "69ac72cc842aa028a36c52d1",
+        "69ac72cc842aa028a36c52da",
+        "69ac72cc842aa028a36c53ec",
+        "69ac72cc842aa028a36c5406"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/531812970019/MAKEMYTR/HDFC/makemytrip/UPIIn",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "MAKEMYTR",
+        "MakeMyTrip",
+        "Swiggy",
+        "Swiggy L"
+      ],
+      "totalAmount": 24425,
+      "txnCount": 7,
+      "amountRange": {
+        "min": 219,
+        "max": 11030
+      },
+      "dateRange": {
+        "from": "2025-11-14T00:00:00.000Z",
+        "to": "2025-11-16T11:26:00.000Z"
+      },
+      "channels": [
+        "UPI",
+        "UNKNOWN"
+      ],
+      "categories": [
+        "flight",
+        "food_delivery"
+      ],
+      "detectedPattern": "trip_cluster"
+    },
+    "suggestions": [
+      "Trip Nov 2025",
+      "Work Travel",
+      "Wedding",
+      "Family Trip"
+    ],
+    "impact": 7
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~212 monthly to \"uber\" (5x, category: cab_ride). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4ec0",
+        "69ac72cc842aa028a36c56dc",
+        "69ac72cc842aa028a36c57ff",
+        "69ac72cc842aa028a36c59ee",
+        "69ac72cc842aa028a36c5b42"
+      ],
+      "sampleNarrations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Uber"
+      ],
+      "totalAmount": 1006.4,
+      "txnCount": 5,
+      "amountRange": {
+        "min": 176.09,
+        "max": 211.54
+      },
+      "dateRange": {
+        "from": "2025-10-19T00:07:32.000Z",
+        "to": "2026-01-16T18:30:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN"
+      ],
+      "categories": [
+        "cab_ride"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 5
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~627 monthly to \"swiggy\" (5x, category: food_delivery). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3746",
+        "69ac72cc842aa028a36c44ca",
+        "69ac72cc842aa028a36c486a",
+        "69ac72cc842aa028a36c48a2",
+        "69ac72cc842aa028a36c4eb8"
+      ],
+      "sampleNarrations": [
+        "",
+        "UPI/DR/521935307609/Swiggy/ICIC/swiggystor/Sent us",
+        "UPI/DR/521570469946/Swiggy/ICIC/swiggystor/Sent us",
+        "UPI/DR/519447527596/Swiggy/ICIC/swiggystor/Sent us"
+      ],
+      "sampleMerchants": [
+        "Swiggy"
+      ],
+      "totalAmount": 3229,
+      "txnCount": 5,
+      "amountRange": {
+        "min": 627,
+        "max": 674
+      },
+      "dateRange": {
+        "from": "2025-05-04T12:37:00.000Z",
+        "to": "2025-10-01T09:56:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN",
+        "UPI"
+      ],
+      "categories": [
+        "food_delivery"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 5
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~332 monthly to \"uber\" (4x, category: cab_ride). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4efb",
+        "69ac72cc842aa028a36c51d4",
+        "69ac72cc842aa028a36c5768",
+        "69ac72cc842aa028a36c5778"
+      ],
+      "sampleNarrations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Uber"
+      ],
+      "totalAmount": 1366.22,
+      "txnCount": 4,
+      "amountRange": {
+        "min": 331.64,
+        "max": 358.25
+      },
+      "dateRange": {
+        "from": "2025-09-27T08:24:47.000Z",
+        "to": "2025-12-14T18:30:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN"
+      ],
+      "categories": [
+        "cab_ride"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 4
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~927 monthly to \"uber\" (3x, category: cab_ride). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c51a2",
+        "69ac72cc842aa028a36c5737",
+        "69ac72cc842aa028a36c574f"
+      ],
+      "sampleNarrations": [
+        "",
+        "",
+        ""
+      ],
+      "sampleMerchants": [
+        "Uber"
+      ],
+      "totalAmount": 2834.04,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 927.29,
+        "max": 960.49
+      },
+      "dateRange": {
+        "from": "2025-11-03T18:30:00.000Z",
+        "to": "2025-12-16T18:30:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN"
+      ],
+      "categories": [
+        "cab_ride"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~1,203 monthly to \"swiggy l\" (3x, category: food_delivery). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4934",
+        "69ac72cc842aa028a36c4d62",
+        "69ac72cc842aa028a36c53c3"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/816874862967/Swiggy L/UTIB/swiggy.sto/Pay20",
+        "UPI/DR/908402285232/Swiggy L/UTIB/swiggy.sto/Pay20",
+        "UPI/DR/964364187651/Swiggy L/UTIB/swiggy.sto/Pay20"
+      ],
+      "sampleMerchants": [
+        "Swiggy L"
+      ],
+      "totalAmount": 3587,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 1182,
+        "max": 1203
+      },
+      "dateRange": {
+        "from": "2025-08-23T00:00:00.000Z",
+        "to": "2025-11-09T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "food_delivery"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~130 monthly to \"daalchini\" (3x, category: restaurant). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c326e",
+        "69ac72cb842aa028a36c380c",
+        "69ac72cb842aa028a36c38cf"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/512708903095/Daalchini/YESB/paytm-7289/Orde",
+        "UPI/DR/512135918292/Daalchini/YESB/paytm-7289/Orde",
+        "UPI/DR/507882122309/Daalchini/YESB/paytm-7289/Orde"
+      ],
+      "sampleMerchants": [
+        "Daalchini"
+      ],
+      "totalAmount": 450,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 130,
+        "max": 160
+      },
+      "dateRange": {
+        "from": "2025-03-19T00:00:00.000Z",
+        "to": "2025-05-07T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "restaurant"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_rule",
+    "status": "pending",
+    "question": "Rs ~54 monthly to \"muzmmil\" (3x, category: transfer). Create an auto-tag rule?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c30d7",
+        "69ac72cb842aa028a36c319a",
+        "69ac72cb842aa028a36c389c"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/512695026237/Muzmmil /SBIN/7838409173/Sent",
+        "UPI/DR/507304969059/Muzmmil /SBIN/7838409173/Sent",
+        "UPI/DR/506452787264/Muzmmil /SBIN/7838409173/Sent"
+      ],
+      "sampleMerchants": [
+        "Muzmmil"
+      ],
+      "totalAmount": 149,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 45,
+        "max": 54
+      },
+      "dateRange": {
+        "from": "2025-03-05T00:00:00.000Z",
+        "to": "2025-05-06T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "transfer"
+      ],
+      "detectedPattern": "monthly_recurring"
+    },
+    "suggestions": [
+      "subscription",
+      "emi",
+      "rent",
+      "insurance"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_family_folder",
+    "status": "pending",
+    "question": "3 transfers to \"SHEETAL\", Rs 15,160 total. Is this family? Who?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3b98",
+        "69ac72cc842aa028a36c4cd8",
+        "69ac72cc842aa028a36c53e5"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/921324750931/SHEETAL /HDFC/jatinyadav/Payme",
+        "UPI/DR/118671353335/SHEETAL /HDFC/7906812303/Payme",
+        "UPI/DR/514769665642/SHEETAL /HDFC/jatinyadav/Sent"
+      ],
+      "sampleMerchants": [
+        "SHEETAL"
+      ],
+      "totalAmount": 15160,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 1700,
+        "max": 7800
+      },
+      "dateRange": {
+        "from": "2025-05-27T00:00:00.000Z",
+        "to": "2025-11-13T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "transfer"
+      ],
+      "merchantName": "SHEETAL",
+      "detectedPattern": "recurring_transfer_person"
+    },
+    "suggestions": [
+      "Family",
+      "Friends",
+      "Staff/Help",
+      "Other"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_family_folder",
+    "status": "pending",
+    "question": "3 transfers to \"RISHI ME\", Rs 41,750 total. Is this family? Who?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3943",
+        "69ac72cb842aa028a36c3bf8",
+        "69ac72cc842aa028a36c3ecd"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/516307777019/RISHI ME/HDFC/9044767665/NA",
+        "UPI/DR/515118125238/RISHI ME/HDFC/mehrotrari/Sent",
+        "UPI/DR/513155825478/RISHI ME/HDFC/9044767665/NA"
+      ],
+      "sampleMerchants": [
+        "RISHI ME"
+      ],
+      "totalAmount": 41750,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 9600,
+        "max": 18850
+      },
+      "dateRange": {
+        "from": "2025-05-11T00:00:00.000Z",
+        "to": "2025-06-12T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "transfer"
+      ],
+      "merchantName": "RISHI ME",
+      "detectedPattern": "recurring_transfer_person"
+    },
+    "suggestions": [
+      "Family",
+      "Friends",
+      "Staff/Help",
+      "Other"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "suggest_family_folder",
+    "status": "pending",
+    "question": "3 transfers to \"RIDDHI G\", Rs 145 total. Is this family? Who?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3813",
+        "69ac72cb842aa028a36c38bb",
+        "69ac72cb842aa028a36c397b"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/513266449564/RIDDHI G/YESB/paytmqr281/NA",
+        "UPI/DR/512699835069/RIDDHI G/YESB/paytmqr281/NA",
+        "UPI/DR/512137019144/RIDDHI G/YESB/paytmqr281/NA"
+      ],
+      "sampleMerchants": [
+        "RIDDHI G"
+      ],
+      "totalAmount": 145,
+      "txnCount": 3,
+      "amountRange": {
+        "min": 40,
+        "max": 60
+      },
+      "dateRange": {
+        "from": "2025-05-01T00:00:00.000Z",
+        "to": "2025-05-12T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "transfer"
+      ],
+      "merchantName": "RIDDHI G",
+      "detectedPattern": "recurring_transfer_person"
+    },
+    "suggestions": [
+      "Family",
+      "Friends",
+      "Staff/Help",
+      "Other"
+    ],
+    "impact": 3
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"uberindiasystem187204.rzp@rxairtel\" — 2 txn(s), Rs 339. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4749",
+        "69ac72cd842aa028a36c6012"
+      ],
+      "sampleNarrations": [
+        "Paid to Uber India Systems Private Limited",
+        "Paid to Uber India Systems Private Limited"
+      ],
+      "sampleMerchants": [
+        "uberindiasystem187204.rzp@rxairtel"
+      ],
+      "totalAmount": 339.24,
+      "txnCount": 2,
+      "amountRange": {
+        "min": 160.44,
+        "max": 178.8
+      },
+      "dateRange": {
+        "from": "2025-07-04T06:42:02.000Z",
+        "to": "2026-02-20T08:33:52.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "uberindiasystem187204.rzp@rxairtel"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 2
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"11974APO\" — 2 txn(s), Rs 3,231. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4cca",
+        "69ac72cc842aa028a36c53a0"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/342327957526/11974APO/YESB/paytm.d195/Payme",
+        "UPI/DR/304511031209/11974APO/YESB/paytm.d195/Payme"
+      ],
+      "sampleMerchants": [
+        "11974APO"
+      ],
+      "totalAmount": 3231.45,
+      "txnCount": 2,
+      "amountRange": {
+        "min": 1265.5,
+        "max": 1965.95
+      },
+      "dateRange": {
+        "from": "2025-09-10T00:00:00.000Z",
+        "to": "2025-11-06T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "11974APO"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 2
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Mr Ajeet\" — 2 txn(s), Rs 101. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c347c",
+        "69ac72cc842aa028a36c4cbc"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/525274169497/Mr Ajeet/YESB/bharatpe9g/Pay t",
+        "UPI/DR/509369429221/Mr Ajeet/YESB/bharatpe9g/Pay t"
+      ],
+      "sampleMerchants": [
+        "Mr Ajeet"
+      ],
+      "totalAmount": 101,
+      "txnCount": 2,
+      "amountRange": {
+        "min": 45,
+        "max": 56
+      },
+      "dateRange": {
+        "from": "2025-04-03T00:00:00.000Z",
+        "to": "2025-09-09T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Mr Ajeet"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 2
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"swiggy.stores@axb\" — 2 txn(s), Rs 1,048. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c46f5",
+        "69ac72cc842aa028a36c475a"
+      ],
+      "sampleNarrations": [
+        "Paid to Swiggy Limited",
+        "Paid to Swiggy Limited"
+      ],
+      "sampleMerchants": [
+        "swiggy.stores@axb"
+      ],
+      "totalAmount": 1048,
+      "txnCount": 2,
+      "amountRange": {
+        "min": 262,
+        "max": 786
+      },
+      "dateRange": {
+        "from": "2025-07-03T06:40:30.000Z",
+        "to": "2025-07-06T06:23:09.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "swiggy.stores@axb"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 2
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"ZAHID KHAN\" — 2 txn(s), Rs 113. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c32a8",
+        "69ac72cb842aa028a36c3afd"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/514313393727/ZAHID KHAN/YESB/bharatpe09/Sen",
+        "UPI/DR/507981836045/ZAHID KHAN/YESB/bharatpe09/Sen"
+      ],
+      "sampleMerchants": [
+        "ZAHID KHAN"
+      ],
+      "totalAmount": 113,
+      "txnCount": 2,
+      "amountRange": {
+        "min": 53,
+        "max": 60
+      },
+      "dateRange": {
+        "from": "2025-03-20T00:00:00.000Z",
+        "to": "2025-05-23T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "ZAHID KHAN"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 2
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Eleven Labs\" — 1 txn(s), Rs 519. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c6122"
+      ],
+      "sampleNarrations": [
+        "UPI/Eleven Labs/180874051839/Mandate Request"
+      ],
+      "sampleMerchants": [
+        "Eleven Labs"
+      ],
+      "totalAmount": 519.2,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 519.2,
+        "max": 519.2
+      },
+      "dateRange": {
+        "from": "2026-02-16T00:00:00.000Z",
+        "to": "2026-02-16T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Eleven Labs"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"GoodScore\" — 1 txn(s), Rs 99. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c60f7"
+      ],
+      "sampleNarrations": [
+        "UPI/GoodScore/604342403502/Collect request"
+      ],
+      "sampleMerchants": [
+        "GoodScore"
+      ],
+      "totalAmount": 99,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 99,
+        "max": 99
+      },
+      "dateRange": {
+        "from": "2026-02-12T00:00:00.000Z",
+        "to": "2026-02-12T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "GoodScore"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"ABHISHEKAGGARWA\" — 1 txn(s), Rs 100. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c60f0"
+      ],
+      "sampleNarrations": [
+        "UPI/ABHISHEKAGGARWA/604316866706/MAN DATE"
+      ],
+      "sampleMerchants": [
+        "ABHISHEKAGGARWA"
+      ],
+      "totalAmount": 100,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 100,
+        "max": 100
+      },
+      "dateRange": {
+        "from": "2026-02-12T00:00:00.000Z",
+        "to": "2026-02-12T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "ABHISHEKAGGARWA"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"paytm-648052425@ptybl on Paytm\" — 1 txn(s), Rs 643. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c601a"
+      ],
+      "sampleNarrations": [
+        "Gift Card - Amazon Shopping"
+      ],
+      "sampleMerchants": [
+        "paytm-648052425@ptybl on Paytm"
+      ],
+      "totalAmount": 643,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 643,
+        "max": 643
+      },
+      "dateRange": {
+        "from": "2026-02-10T21:36:07.000Z",
+        "to": "2026-02-10T21:36:07.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "paytm-648052425@ptybl on Paytm"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"naveeny485@okaxis on Google Pay\" — 1 txn(s), Rs 11,000. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c6028"
+      ],
+      "sampleNarrations": [
+        "Money sent to Naveen Yadav"
+      ],
+      "sampleMerchants": [
+        "naveeny485@okaxis on Google Pay"
+      ],
+      "totalAmount": 11000,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 11000,
+        "max": 11000
+      },
+      "dateRange": {
+        "from": "2026-02-07T09:58:19.000Z",
+        "to": "2026-02-07T09:58:19.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "naveeny485@okaxis on Google Pay"
+    },
+    "suggestions": [
+      "subscription"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"jioblackrock.cpupiap.ia@validhdfc\" — 1 txn(s), Rs 1. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c6035"
+      ],
+      "sampleNarrations": [
+        "Automatic payment of ₹499 setup for Jio Blackrock Investment Advisers Private Limited"
+      ],
+      "sampleMerchants": [
+        "jioblackrock.cpupiap.ia@validhdfc"
+      ],
+      "totalAmount": 1,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "dateRange": {
+        "from": "2026-02-04T13:44:59.000Z",
+        "to": "2026-02-04T13:44:59.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "jioblackrock.cpupiap.ia@validhdfc"
+    },
+    "suggestions": [
+      "cab_ride",
+      "fuel"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"AIRBLACK\" — 1 txn(s), Rs 1. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c5c9b"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/109046653870/AIRBLACK/ICIC/airblackte/Pay v"
+      ],
+      "sampleMerchants": [
+        "AIRBLACK"
+      ],
+      "totalAmount": 1,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "dateRange": {
+        "from": "2026-01-23T00:00:00.000Z",
+        "to": "2026-01-23T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "AIRBLACK"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"RITU SAHA\" — 1 txn(s), Rs 12,000. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c58d5"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/065675948205/RITU SAHA/KKBK/reetusaha2/Paym"
+      ],
+      "sampleMerchants": [
+        "RITU SAHA"
+      ],
+      "totalAmount": 12000,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 12000,
+        "max": 12000
+      },
+      "dateRange": {
+        "from": "2025-12-17T00:00:00.000Z",
+        "to": "2025-12-17T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "RITU SAHA"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Uni Seoul\" — 1 txn(s), Rs 3,173. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c58a6"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/534976696367/Uni Seoul/YESB/paytm.d183/UPI"
+      ],
+      "sampleMerchants": [
+        "Uni Seoul"
+      ],
+      "totalAmount": 3173,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 3173,
+        "max": 3173
+      },
+      "dateRange": {
+        "from": "2025-12-15T00:00:00.000Z",
+        "to": "2025-12-15T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Uni Seoul"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"irctc89.paytm@hdfcbank\" — 1 txn(s), Rs 1,313. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c506b"
+      ],
+      "sampleNarrations": [
+        "Paytm Train Ticket"
+      ],
+      "sampleMerchants": [
+        "irctc89.paytm@hdfcbank"
+      ],
+      "totalAmount": 1313.4,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 1313.4,
+        "max": 1313.4
+      },
+      "dateRange": {
+        "from": "2025-10-25T08:59:50.000Z",
+        "to": "2025-10-25T08:59:50.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "irctc89.paytm@hdfcbank"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"paytra1599@ptybl on Paytm\" — 1 txn(s), Rs 1,116. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c5073"
+      ],
+      "sampleNarrations": [
+        "Paytm Train Ticket"
+      ],
+      "sampleMerchants": [
+        "paytra1599@ptybl on Paytm"
+      ],
+      "totalAmount": 1115.85,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 1115.85,
+        "max": 1115.85
+      },
+      "dateRange": {
+        "from": "2025-10-18T16:45:18.000Z",
+        "to": "2025-10-18T16:45:18.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "paytra1599@ptybl on Paytm"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"MINISO\" — 1 txn(s), Rs 2,711. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4cae"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/525016936810/MINISO/HDFC/miniso.428/Generat"
+      ],
+      "sampleMerchants": [
+        "MINISO"
+      ],
+      "totalAmount": 2711,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 2711,
+        "max": 2711
+      },
+      "dateRange": {
+        "from": "2025-09-07T00:00:00.000Z",
+        "to": "2025-09-07T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "MINISO"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"paytmqr68zznk@ptys on Paytm\" — 1 txn(s), Rs 75. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c499d"
+      ],
+      "sampleNarrations": [
+        "Paid to Gaus Uddin"
+      ],
+      "sampleMerchants": [
+        "paytmqr68zznk@ptys on Paytm"
+      ],
+      "totalAmount": 75,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 75,
+        "max": 75
+      },
+      "dateRange": {
+        "from": "2025-08-31T17:37:38.000Z",
+        "to": "2025-08-31T17:37:38.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "paytmqr68zznk@ptys on Paytm"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Swachh S\" — 1 txn(s), Rs 584. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c459a"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/520811939941/Swachh S/AIRP/swachhsaat/Swach"
+      ],
+      "sampleMerchants": [
+        "Swachh S"
+      ],
+      "totalAmount": 584,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 584,
+        "max": 584
+      },
+      "dateRange": {
+        "from": "2025-07-27T00:00:00.000Z",
+        "to": "2025-07-27T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Swachh S"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"swiggyupi@axb\" — 1 txn(s), Rs 1,008. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c46cb"
+      ],
+      "sampleNarrations": [
+        "Paid to Swiggy Ltd"
+      ],
+      "sampleMerchants": [
+        "swiggyupi@axb"
+      ],
+      "totalAmount": 1008,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 1008,
+        "max": 1008
+      },
+      "dateRange": {
+        "from": "2025-07-10T07:13:22.000Z",
+        "to": "2025-07-10T07:13:22.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "swiggyupi@axb"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"bharatpe.9042721608@icici\" — 1 txn(s), Rs 150. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c46d2"
+      ],
+      "sampleNarrations": [
+        "Paid to Pradip Sarkar"
+      ],
+      "sampleMerchants": [
+        "bharatpe.9042721608@icici"
+      ],
+      "totalAmount": 150,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 150,
+        "max": 150
+      },
+      "dateRange": {
+        "from": "2025-07-09T15:27:30.000Z",
+        "to": "2025-07-09T15:27:30.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "bharatpe.9042721608@icici"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"uberindiasystemsprivatelimited.razorp@icici\" — 1 txn(s), Rs 2,643. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c46d9"
+      ],
+      "sampleNarrations": [
+        "Paid to Uber India Systems Private Limited"
+      ],
+      "sampleMerchants": [
+        "uberindiasystemsprivatelimited.razorp@icici"
+      ],
+      "totalAmount": 2643.42,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 2643.42,
+        "max": 2643.42
+      },
+      "dateRange": {
+        "from": "2025-07-09T15:05:58.000Z",
+        "to": "2025-07-09T15:05:58.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "uberindiasystemsprivatelimited.razorp@icici"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"upiswiggy@icici\" — 1 txn(s), Rs 283. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c46ee"
+      ],
+      "sampleNarrations": [
+        "Paid to Swiggy"
+      ],
+      "sampleMerchants": [
+        "upiswiggy@icici"
+      ],
+      "totalAmount": 283,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 283,
+        "max": 283
+      },
+      "dateRange": {
+        "from": "2025-07-06T12:57:36.000Z",
+        "to": "2025-07-06T12:57:36.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "upiswiggy@icici"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"bharatpe.90066499104@fbpe\" — 1 txn(s), Rs 252. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c46fc"
+      ],
+      "sampleNarrations": [
+        "Paid to PRIMA"
+      ],
+      "sampleMerchants": [
+        "bharatpe.90066499104@fbpe"
+      ],
+      "totalAmount": 252,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 252,
+        "max": 252
+      },
+      "dateRange": {
+        "from": "2025-07-05T16:53:57.000Z",
+        "to": "2025-07-05T16:53:57.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "bharatpe.90066499104@fbpe"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"mab0450161a0107704@yesbank\" — 1 txn(s), Rs 50. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4703"
+      ],
+      "sampleNarrations": [
+        "Paid to Shakuntala Devi Educational Soci"
+      ],
+      "sampleMerchants": [
+        "mab0450161a0107704@yesbank"
+      ],
+      "totalAmount": 50,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 50,
+        "max": 50
+      },
+      "dateRange": {
+        "from": "2025-07-05T13:33:59.000Z",
+        "to": "2025-07-05T13:33:59.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "mab0450161a0107704@yesbank"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"bharatpe90718397910@yesbankltd\" — 1 txn(s), Rs 450. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c470a"
+      ],
+      "sampleNarrations": [
+        "Paid to Jogo Technologies Pr"
+      ],
+      "sampleMerchants": [
+        "bharatpe90718397910@yesbankltd"
+      ],
+      "totalAmount": 450,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 450,
+        "max": 450
+      },
+      "dateRange": {
+        "from": "2025-07-05T13:31:13.000Z",
+        "to": "2025-07-05T13:31:13.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "bharatpe90718397910@yesbankltd"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"paytm-urbancompany@ptybl on Paytm\" — 1 txn(s), Rs 471. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4718"
+      ],
+      "sampleNarrations": [
+        "Paid to Urban Company"
+      ],
+      "sampleMerchants": [
+        "paytm-urbancompany@ptybl on Paytm"
+      ],
+      "totalAmount": 471,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 471,
+        "max": 471
+      },
+      "dateRange": {
+        "from": "2025-07-05T11:49:29.000Z",
+        "to": "2025-07-05T11:49:29.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "paytm-urbancompany@ptybl on Paytm"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"hussainaasik2@ibl on PhonePe\" — 1 txn(s), Rs 3,169. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c471f"
+      ],
+      "sampleNarrations": [
+        "Money sent to Aasik Hussain"
+      ],
+      "sampleMerchants": [
+        "hussainaasik2@ibl on PhonePe"
+      ],
+      "totalAmount": 3169,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 3169,
+        "max": 3169
+      },
+      "dateRange": {
+        "from": "2025-07-05T10:57:46.000Z",
+        "to": "2025-07-05T10:57:46.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "hussainaasik2@ibl on PhonePe"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"zkp.hudle@kotak\" — 1 txn(s), Rs 800. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c472d"
+      ],
+      "sampleNarrations": [
+        "Paid to Hsquare Sports Private Limited"
+      ],
+      "sampleMerchants": [
+        "zkp.hudle@kotak"
+      ],
+      "totalAmount": 800,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 800,
+        "max": 800
+      },
+      "dateRange": {
+        "from": "2025-07-05T09:34:22.000Z",
+        "to": "2025-07-05T09:34:22.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "zkp.hudle@kotak"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"q742505874@ybl on PhonePe\" — 1 txn(s), Rs 150. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4734"
+      ],
+      "sampleNarrations": [
+        "Paid to Mr Harish"
+      ],
+      "sampleMerchants": [
+        "q742505874@ybl on PhonePe"
+      ],
+      "totalAmount": 150,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 150,
+        "max": 150
+      },
+      "dateRange": {
+        "from": "2025-07-04T17:14:39.000Z",
+        "to": "2025-07-04T17:14:39.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "q742505874@ybl on PhonePe"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"paytmqr281005050101pkjppzkukl3m@paytm on Paytm\" — 1 txn(s), Rs 40. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c473b"
+      ],
+      "sampleNarrations": [
+        "Paid to Naveen Kumar"
+      ],
+      "sampleMerchants": [
+        "paytmqr281005050101pkjppzkukl3m@paytm on Paytm"
+      ],
+      "totalAmount": 40,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 40,
+        "max": 40
+      },
+      "dateRange": {
+        "from": "2025-07-04T11:36:19.000Z",
+        "to": "2025-07-04T11:36:19.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "paytmqr281005050101pkjppzkukl3m@paytm on Paytm"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"lenrra.vimlesh-1@oksbi on Google Pay\" — 1 txn(s), Rs 540. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4742"
+      ],
+      "sampleNarrations": [
+        "Money sent to Vimlesh Kumar"
+      ],
+      "sampleMerchants": [
+        "lenrra.vimlesh-1@oksbi on Google Pay"
+      ],
+      "totalAmount": 540,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 540,
+        "max": 540
+      },
+      "dateRange": {
+        "from": "2025-07-04T11:07:53.000Z",
+        "to": "2025-07-04T11:07:53.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "lenrra.vimlesh-1@oksbi on Google Pay"
+    },
+    "suggestions": [
+      "subscription"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"paytm.d17783862316@pty on Paytm\" — 1 txn(s), Rs 13,309. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c4778"
+      ],
+      "sampleNarrations": [
+        "Paid to Prabhat Hospitality Private Limited"
+      ],
+      "sampleMerchants": [
+        "paytm.d17783862316@pty on Paytm"
+      ],
+      "totalAmount": 13309,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 13309,
+        "max": 13309
+      },
+      "dateRange": {
+        "from": "2025-07-01T17:10:05.000Z",
+        "to": "2025-07-01T17:10:05.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "paytm.d17783862316@pty on Paytm"
+    },
+    "suggestions": [
+      "medical"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Lrtr 04\" — 1 txn(s), Rs 4,239. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c402d"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/517690334954/Lrtr 04 /YESB/paytmqr1j3/NA"
+      ],
+      "sampleMerchants": [
+        "Lrtr 04"
+      ],
+      "totalAmount": 4239,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 4239,
+        "max": 4239
+      },
+      "dateRange": {
+        "from": "2025-06-25T00:00:00.000Z",
+        "to": "2025-06-25T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Lrtr 04"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Mohit\" — 1 txn(s), Rs 125. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3fd3"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/517126924056/Mohit/AIRP/9958957740/Pay mone"
+      ],
+      "sampleMerchants": [
+        "Mohit"
+      ],
+      "totalAmount": 125,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 125,
+        "max": 125
+      },
+      "dateRange": {
+        "from": "2025-06-20T00:00:00.000Z",
+        "to": "2025-06-20T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Mohit"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"WASHEEM\" — 1 txn(s), Rs 48. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3fbe"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/517010440106/WASHEEM /FDRL/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "WASHEEM"
+      ],
+      "totalAmount": 48,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 48,
+        "max": 48
+      },
+      "dateRange": {
+        "from": "2025-06-19T00:00:00.000Z",
+        "to": "2025-06-19T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "WASHEEM"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"JOGO TEC\" — 1 txn(s), Rs 450. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3fb7"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/517008261066/JOGO TEC/YESB/bharatpe90/Pay T"
+      ],
+      "sampleMerchants": [
+        "JOGO TEC"
+      ],
+      "totalAmount": 450,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 450,
+        "max": 450
+      },
+      "dateRange": {
+        "from": "2025-06-19T00:00:00.000Z",
+        "to": "2025-06-19T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "JOGO TEC"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"HSQUARE\" — 1 txn(s), Rs 700. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3fa3"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/517016872794/HSQUARE /KKBK/zkp.hudle@/Merch"
+      ],
+      "sampleMerchants": [
+        "HSQUARE"
+      ],
+      "totalAmount": 700,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 700,
+        "max": 700
+      },
+      "dateRange": {
+        "from": "2025-06-19T00:00:00.000Z",
+        "to": "2025-06-19T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "HSQUARE"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"JEGADESH N\" — 1 txn(s), Rs 8,000. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3dd6"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/515601519268/JEGADESH N/ICIC/jegadesh6@/Sen"
+      ],
+      "sampleMerchants": [
+        "JEGADESH N"
+      ],
+      "totalAmount": 8000,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 8000,
+        "max": 8000
+      },
+      "dateRange": {
+        "from": "2025-06-05T00:00:00.000Z",
+        "to": "2025-06-05T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "JEGADESH N"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Shilapa .\" — 1 txn(s), Rs 157. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3d98"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/515469548353/Shilapa ./SBIN/mmanjunath/Sen"
+      ],
+      "sampleMerchants": [
+        "Shilapa ."
+      ],
+      "totalAmount": 157,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 157,
+        "max": 157
+      },
+      "dateRange": {
+        "from": "2025-06-03T00:00:00.000Z",
+        "to": "2025-06-03T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Shilapa ."
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"POPEYES\" — 1 txn(s), Rs 397. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cc842aa028a36c3d6f"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/515344788373/POPEYES/HDFC/popeyes.42/Genera"
+      ],
+      "sampleMerchants": [
+        "POPEYES"
+      ],
+      "totalAmount": 396.9,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 396.9,
+        "max": 396.9
+      },
+      "dateRange": {
+        "from": "2025-06-02T00:00:00.000Z",
+        "to": "2025-06-02T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "POPEYES"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"MANSUR ALI\" — 1 txn(s), Rs 46. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3bcf"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/515098279581/MANSUR ALI/UBIN/mansurali./Sen"
+      ],
+      "sampleMerchants": [
+        "MANSUR ALI"
+      ],
+      "totalAmount": 46,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 46,
+        "max": 46
+      },
+      "dateRange": {
+        "from": "2025-05-30T00:00:00.000Z",
+        "to": "2025-05-30T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "MANSUR ALI"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"KOSMOS S\" — 1 txn(s), Rs 3,100. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3af6"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/514313186209/KOSMOS S/YESB/bharatpe90/Pay T"
+      ],
+      "sampleMerchants": [
+        "KOSMOS S"
+      ],
+      "totalAmount": 3100,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 3100,
+        "max": 3100
+      },
+      "dateRange": {
+        "from": "2025-05-23T00:00:00.000Z",
+        "to": "2025-05-23T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "KOSMOS S"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Mr Abhij\" — 1 txn(s), Rs 58. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3acd"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/514299053981/Mr Abhij/UNBA/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "Mr Abhij"
+      ],
+      "totalAmount": 58,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 58,
+        "max": 58
+      },
+      "dateRange": {
+        "from": "2025-05-22T00:00:00.000Z",
+        "to": "2025-05-22T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Mr Abhij"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"KULBHUSHAN\" — 1 txn(s), Rs 322. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3a2c"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/513740459661/KULBHUSHAN/YESB/paytmqr65a/Sen"
+      ],
+      "sampleMerchants": [
+        "KULBHUSHAN"
+      ],
+      "totalAmount": 322,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 322,
+        "max": 322
+      },
+      "dateRange": {
+        "from": "2025-05-17T00:00:00.000Z",
+        "to": "2025-05-17T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "KULBHUSHAN"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"KAMALUDDIN\" — 1 txn(s), Rs 75. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3a03"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/513622508519/KAMALUDDIN/KKBK/7047838863/Sen"
+      ],
+      "sampleMerchants": [
+        "KAMALUDDIN"
+      ],
+      "totalAmount": 75,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 75,
+        "max": 75
+      },
+      "dateRange": {
+        "from": "2025-05-16T00:00:00.000Z",
+        "to": "2025-05-16T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "KAMALUDDIN"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"ABUL HOSEN\" — 1 txn(s), Rs 49. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c39fc"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/513616680503/ABUL HOSEN/UTIB/hossenabul/Sen"
+      ],
+      "sampleMerchants": [
+        "ABUL HOSEN"
+      ],
+      "totalAmount": 49,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 49,
+        "max": 49
+      },
+      "dateRange": {
+        "from": "2025-05-16T00:00:00.000Z",
+        "to": "2025-05-16T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "ABUL HOSEN"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"BLINK CO\" — 1 txn(s), Rs 332. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3974"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/513161843625/BLINK CO/utib/bistrobybl/Payvi"
+      ],
+      "sampleMerchants": [
+        "BLINK CO"
+      ],
+      "totalAmount": 332,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 332,
+        "max": 332
+      },
+      "dateRange": {
+        "from": "2025-05-11T00:00:00.000Z",
+        "to": "2025-05-11T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "BLINK CO"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Bakul Is\" — 1 txn(s), Rs 48. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c390e"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/512938359482/Bakul Is/UNBA/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "Bakul Is"
+      ],
+      "totalAmount": 48,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 48,
+        "max": 48
+      },
+      "dateRange": {
+        "from": "2025-05-09T00:00:00.000Z",
+        "to": "2025-05-09T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Bakul Is"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Nitesh\" — 1 txn(s), Rs 67. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c38eb"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/512826311171/Nitesh /FDRL/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "Nitesh"
+      ],
+      "totalAmount": 67,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 67,
+        "max": 67
+      },
+      "dateRange": {
+        "from": "2025-05-08T00:00:00.000Z",
+        "to": "2025-05-08T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Nitesh"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"MITHUN P\" — 1 txn(s), Rs 100. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c38dd"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/512819745490/MITHUN P/ICIC/bharatpe.9/Verif"
+      ],
+      "sampleMerchants": [
+        "MITHUN P"
+      ],
+      "totalAmount": 100,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 100,
+        "max": 100
+      },
+      "dateRange": {
+        "from": "2025-05-08T00:00:00.000Z",
+        "to": "2025-05-08T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "MITHUN P"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"SUNEEL K\" — 1 txn(s), Rs 53. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c388e"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/512583851850/SUNEEL K/FDRL/bharatpe.9/Pay T"
+      ],
+      "sampleMerchants": [
+        "SUNEEL K"
+      ],
+      "totalAmount": 53,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 53,
+        "max": 53
+      },
+      "dateRange": {
+        "from": "2025-05-05T00:00:00.000Z",
+        "to": "2025-05-05T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "SUNEEL K"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"LALIT K\" — 1 txn(s), Rs 55. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c366e"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/511457189263/LALIT K/FDRL/bharatpe.9/Verif"
+      ],
+      "sampleMerchants": [
+        "LALIT K"
+      ],
+      "totalAmount": 55,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 55,
+        "max": 55
+      },
+      "dateRange": {
+        "from": "2025-04-24T00:00:00.000Z",
+        "to": "2025-04-24T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "LALIT K"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"BATUL ALI\" — 1 txn(s), Rs 60. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c363e"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/511120227825/BATUL ALI/KKBK/9564457161/Sen"
+      ],
+      "sampleMerchants": [
+        "BATUL ALI"
+      ],
+      "totalAmount": 60,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 60,
+        "max": 60
+      },
+      "dateRange": {
+        "from": "2025-04-21T00:00:00.000Z",
+        "to": "2025-04-21T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "BATUL ALI"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"SAGAR SK\" — 1 txn(s), Rs 70. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3630"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/511113004974/SAGAR SK/FDRL/bharatpe.9/Pay"
+      ],
+      "sampleMerchants": [
+        "SAGAR SK"
+      ],
+      "totalAmount": 70,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 70,
+        "max": 70
+      },
+      "dateRange": {
+        "from": "2025-04-21T00:00:00.000Z",
+        "to": "2025-04-21T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "SAGAR SK"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Blue Dar\" — 1 txn(s), Rs 10,912. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c35cf"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/496697811534/Blue Dar/AIRP/bluedartex/BlueD"
+      ],
+      "sampleMerchants": [
+        "Blue Dar"
+      ],
+      "totalAmount": 10912,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 10912,
+        "max": 10912
+      },
+      "dateRange": {
+        "from": "2025-04-17T00:00:00.000Z",
+        "to": "2025-04-17T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Blue Dar"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"3D BAZAA\" — 1 txn(s), Rs 2,500. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c357d"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/510429288479/3D BAZAA/INDB/mrkilam@ok/Sent"
+      ],
+      "sampleMerchants": [
+        "3D BAZAA"
+      ],
+      "totalAmount": 2500,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 2500,
+        "max": 2500
+      },
+      "dateRange": {
+        "from": "2025-04-14T00:00:00.000Z",
+        "to": "2025-04-14T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "3D BAZAA"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"JAMSAD SK\" — 1 txn(s), Rs 51. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c355b"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/510424512678/JAMSAD SK/SBIN/7872032484/Sen"
+      ],
+      "sampleMerchants": [
+        "JAMSAD SK"
+      ],
+      "totalAmount": 51,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 51,
+        "max": 51
+      },
+      "dateRange": {
+        "from": "2025-04-14T00:00:00.000Z",
+        "to": "2025-04-14T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "JAMSAD SK"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Tej Pratap\" — 1 txn(s), Rs 47. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3351"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/508805818251/Tej Pratap/BARB/8303425299/Sen"
+      ],
+      "sampleMerchants": [
+        "Tej Pratap"
+      ],
+      "totalAmount": 47,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 47,
+        "max": 47
+      },
+      "dateRange": {
+        "from": "2025-03-29T00:00:00.000Z",
+        "to": "2025-03-29T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Tej Pratap"
+    },
+    "suggestions": [
+      "restaurant"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"RAKESH K\" — 1 txn(s), Rs 52. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3321"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/508324650781/RAKESH K/FDRL/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "RAKESH K"
+      ],
+      "totalAmount": 52,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 52,
+        "max": 52
+      },
+      "dateRange": {
+        "from": "2025-03-24T00:00:00.000Z",
+        "to": "2025-03-24T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "RAKESH K"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Mr Jiten\" — 1 txn(s), Rs 81. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3238"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/507654567363/Mr Jiten/FDRL/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "Mr Jiten"
+      ],
+      "totalAmount": 81,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 81,
+        "max": 81
+      },
+      "dateRange": {
+        "from": "2025-03-17T00:00:00.000Z",
+        "to": "2025-03-17T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Mr Jiten"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"MUKTAR ALI\" — 1 txn(s), Rs 52. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3223"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/507649582128/MUKTAR ALI/UTIB/9667404323/Sen"
+      ],
+      "sampleMerchants": [
+        "MUKTAR ALI"
+      ],
+      "totalAmount": 52,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 52,
+        "max": 52
+      },
+      "dateRange": {
+        "from": "2025-03-17T00:00:00.000Z",
+        "to": "2025-03-17T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "MUKTAR ALI"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Kadar Ali\" — 1 txn(s), Rs 66. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3155"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506944846830/Kadar Ali/FINO/7011688574/Sen"
+      ],
+      "sampleMerchants": [
+        "Kadar Ali"
+      ],
+      "totalAmount": 66,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 66,
+        "max": 66
+      },
+      "dateRange": {
+        "from": "2025-03-10T00:00:00.000Z",
+        "to": "2025-03-10T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Kadar Ali"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"SBIMOPS\" — 1 txn(s), Rs 2,000. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3102"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506581164235/SBIMOPS/SBIN/sbimops@sb/MOPSUP"
+      ],
+      "sampleMerchants": [
+        "SBIMOPS"
+      ],
+      "totalAmount": 2000,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 2000,
+        "max": 2000
+      },
+      "dateRange": {
+        "from": "2025-03-06T00:00:00.000Z",
+        "to": "2025-03-06T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "SBIMOPS"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Bagga S\" — 1 txn(s), Rs 85. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c30b4"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506228688192/Bagga S/FDRL/bharatpe.8/Pay T"
+      ],
+      "sampleMerchants": [
+        "Bagga S"
+      ],
+      "totalAmount": 85,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 85,
+        "max": 85
+      },
+      "dateRange": {
+        "from": "2025-03-03T00:00:00.000Z",
+        "to": "2025-03-03T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Bagga S"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"MR ANSHAR\" — 1 txn(s), Rs 69. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c30ad"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506216964195/MR ANSHAR/SBIN/anshar33@y/Sen"
+      ],
+      "sampleMerchants": [
+        "MR ANSHAR"
+      ],
+      "totalAmount": 69,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 69,
+        "max": 69
+      },
+      "dateRange": {
+        "from": "2025-03-03T00:00:00.000Z",
+        "to": "2025-03-03T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "MR ANSHAR"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Anikul\" — 1 txn(s), Rs 72. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3091"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506105137529/Anikul /FDRL/bharatpe.9/Pay t"
+      ],
+      "sampleMerchants": [
+        "Anikul"
+      ],
+      "totalAmount": 72,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 72,
+        "max": 72
+      },
+      "dateRange": {
+        "from": "2025-03-02T00:00:00.000Z",
+        "to": "2025-03-02T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Anikul"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"PRIMA\" — 1 txn(s), Rs 252. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c307c"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506095560535/PRIMA/FDRL/bharatpe.9/Pay to B"
+      ],
+      "sampleMerchants": [
+        "PRIMA"
+      ],
+      "totalAmount": 252,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 252,
+        "max": 252
+      },
+      "dateRange": {
+        "from": "2025-03-01T00:00:00.000Z",
+        "to": "2025-03-01T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "PRIMA"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "identify_category",
+    "status": "pending",
+    "question": "\"Melt House\" — 1 txn(s), Rs 4,157. What category?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3075"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506095185597/Melt House/YESB/paytm-5601/Sen"
+      ],
+      "sampleMerchants": [
+        "Melt House"
+      ],
+      "totalAmount": 4157,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 4157,
+        "max": 4157
+      },
+      "dateRange": {
+        "from": "2025-03-01T00:00:00.000Z",
+        "to": "2025-03-01T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "Melt House"
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "transfer_or_spending",
+    "status": "pending",
+    "question": "\"GODREJ I\" — 1 txn(s), Rs 15,496. Is this a person (transfer) or a business?",
+    "context": {
+      "transactionIds": [
+        "69ac72cb842aa028a36c3059"
+      ],
+      "sampleNarrations": [
+        "UPI/DR/506088154038/GODREJ I/HDFC/godrejinte/Gener"
+      ],
+      "sampleMerchants": [
+        "GODREJ I"
+      ],
+      "totalAmount": 15496,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 15496,
+        "max": 15496
+      },
+      "dateRange": {
+        "from": "2025-03-01T00:00:00.000Z",
+        "to": "2025-03-01T00:00:00.000Z"
+      },
+      "channels": [
+        "UPI"
+      ],
+      "categories": [
+        "unknown"
+      ],
+      "merchantName": "GODREJ I"
+    },
+    "suggestions": [
+      "transfer",
+      "restaurant",
+      "other"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "freeform",
+    "status": "pending",
+    "question": "Rs 1,118 on 26/2/2026 via UNKNOWN. \"PCI/7245/PAYPROGLOBA/6479777769260226/ 13:32\". What is this?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c6157"
+      ],
+      "sampleNarrations": [
+        "PCI/7245/PAYPROGLOBA/6479777769260226/ 13:32"
+      ],
+      "sampleMerchants": [],
+      "totalAmount": 1117.88,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 1117.88,
+        "max": 1117.88
+      },
+      "dateRange": {
+        "from": "2026-02-26T00:00:00.000Z",
+        "to": "2026-02-26T00:00:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN"
+      ],
+      "categories": [
+        "unknown"
+      ]
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  },
+  {
+    "user_id": "69a4500be8ae76d9b62883f2",
+    "batch_id": "bb7a96b1",
+    "type": "freeform",
+    "status": "pending",
+    "question": "Rs 2,749 on 25/2/2026 via UNKNOWN. \"PCI/7245/APIFY* SUBSCRIPTION/+42077525250226/18:44\". What is this?",
+    "context": {
+      "transactionIds": [
+        "69ac72cd842aa028a36c614b"
+      ],
+      "sampleNarrations": [
+        "PCI/7245/APIFY* SUBSCRIPTION/+42077525250226/18:44"
+      ],
+      "sampleMerchants": [],
+      "totalAmount": 2749.22,
+      "txnCount": 1,
+      "amountRange": {
+        "min": 2749.22,
+        "max": 2749.22
+      },
+      "dateRange": {
+        "from": "2026-02-25T00:00:00.000Z",
+        "to": "2026-02-25T00:00:00.000Z"
+      },
+      "channels": [
+        "UNKNOWN"
+      ],
+      "categories": [
+        "unknown"
+      ]
+    },
+    "suggestions": [
+      "restaurant",
+      "ecommerce",
+      "subscription",
+      "other",
+      "transfer"
+    ],
+    "impact": 1
+  }
+]

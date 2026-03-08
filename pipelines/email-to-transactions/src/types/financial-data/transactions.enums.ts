@@ -15,6 +15,7 @@ export enum TransactionChannel {
     NACH = 'NACH', // auto-debit / EMI mandate
     Cheque = 'CHEQUE',
     NetBanking = 'NET_BANKING',
+    UPILite = 'UPI_LITE', // UPI Lite wallet spends (≤₹1000, off-bank)
     Wallet = 'WALLET', // Paytm wallet, Amazon Pay, etc.
     CreditCard = 'CREDIT_CARD',
     Unknown = 'UNKNOWN',

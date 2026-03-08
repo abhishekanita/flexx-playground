@@ -39,6 +39,7 @@ export const EMAIL_DOMAINS: Record<'BANK' | 'INVESTMENT' | 'INSURANCE' | 'FINTEC
         'upstox.com',
         'angelone.in',
         'paytmmoney.com',
+        'phonepe.com',
         'smallcase.com',
         'camsonline.com',
         'kfintech.com',
@@ -47,7 +48,7 @@ export const EMAIL_DOMAINS: Record<'BANK' | 'INVESTMENT' | 'INSURANCE' | 'FINTEC
         'kuvera.in',
     ],
     INSURANCE: ['policybazaar.com', 'acko.com', 'tataaig.com', 'hdfclife.com', 'licindia.in'],
-    FINTECH: ['paytm.com', 'phonepe.com', 'razorpay.com', 'cashfree.com', 'sliceit.com'],
+    FINTECH: ['paytm.com', 'razorpay.com', 'cashfree.com', 'sliceit.com'],
     COMMERCE: [
         'amazon.in',
         'flipkart.com',
