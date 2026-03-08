@@ -1,0 +1,189 @@
+{
+  "cardHolder": "ASHUTOSH DHEWAL",
+  "cardNumber": "552260XXXXXX1281",
+  "alternateAccountNumber": "0001018730000921288",
+  "statementDate": "2025-09-23",
+  "billingPeriod": {
+    "from": "2025-08-24",
+    "to": "2025-09-23"
+  },
+  "paymentDueDate": "2025-10-13",
+  "totalDues": 19723,
+  "minimumDue": 5671,
+  "creditLimit": 343000,
+  "availableCreditLimit": 304645,
+  "availableCashLimit": 137200,
+  "accountSummary": {
+    "openingBalance": 15346.65,
+    "paymentsCredits": 15347,
+    "purchasesDebits": 19723.82,
+    "financeCharges": 0
+  },
+  "gstSummary": {
+    "igst": 155.09,
+    "cgst": 0,
+    "sgst": 0,
+    "reversal": 0,
+    "total": 155.09
+  },
+  "domesticTransactions": [
+    {
+      "index": 1,
+      "date": "2025-08-23",
+      "time": "00:00",
+      "description": "IGST-VPS2623627618229-RATE 18.0 -07",
+      "refNumber": "09999999980823012186520",
+      "rewardPoints": null,
+      "amount": 58.86,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 2,
+      "date": "2025-08-23",
+      "time": "00:00",
+      "description": "IGST-VPS2623627618232-RATE 18.0 -07",
+      "refNumber": "09999999980823012186546",
+      "rewardPoints": null,
+      "amount": 7.92,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 3,
+      "date": "2025-08-27",
+      "time": "00:00",
+      "description": "IGST-VPS2624033642626-RATE 18.0 -07",
+      "refNumber": "MT252400076000010021182",
+      "rewardPoints": null,
+      "amount": 88.31,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 4,
+      "date": "2025-09-05",
+      "time": "19:32",
+      "description": "BPPY CC PAYMENT DP015248193238sKmjD",
+      "refNumber": "ST252500083000010018535",
+      "rewardPoints": null,
+      "amount": 15347,
+      "isCredit": true,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 5,
+      "date": "2025-09-18",
+      "time": "06:42",
+      "description": "SpayBBPS 150080565 BSES 52602987",
+      "refNumber": "",
+      "rewardPoints": null,
+      "amount": 130,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 6,
+      "date": "2025-09-23",
+      "time": "00:00",
+      "description": "OFFUS EMI,PRIN NB:06,00000122462749",
+      "refNumber": "09999999980923012187393",
+      "rewardPoints": null,
+      "amount": 2963,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 7,
+      "date": "2025-09-23",
+      "time": "00:00",
+      "description": "OFFUS EMI,PRIN NB:06,00000122704258",
+      "refNumber": "09999999980923012187419",
+      "rewardPoints": null,
+      "amount": 1658.17,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 8,
+      "date": "2025-09-23",
+      "time": "00:00",
+      "description": "OFFUS EMI,INT NBR:06,00000122462749",
+      "refNumber": "09999999980923012187401",
+      "rewardPoints": null,
+      "amount": 288,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 9,
+      "date": "2025-09-23",
+      "time": "00:00",
+      "description": "OFFUS EMI,INT NBR:06,00000122704258",
+      "refNumber": "09999999980923012187427",
+      "rewardPoints": null,
+      "amount": 22,
+      "isCredit": false,
+      "isInternational": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    }
+  ],
+  "internationalTransactions": [
+    {
+      "index": 10,
+      "date": "2025-08-27",
+      "time": "12:10",
+      "description": "EMI NAME-CHEAP.COM* N7JBTKPHOENIX",
+      "refNumber": "",
+      "rewardPoints": 372,
+      "amount": 14016.97,
+      "isCredit": false,
+      "isInternational": true,
+      "foreignCurrency": "USD",
+      "foreignAmount": 159.96
+    },
+    {
+      "index": 11,
+      "date": "2025-09-23",
+      "time": "00:00",
+      "description": "CONSOLIDATED FCY MARKUP FEE",
+      "refNumber": "MT252400076000010021182",
+      "rewardPoints": null,
+      "amount": 490.59,
+      "isCredit": false,
+      "isInternational": true,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    }
+  ],
+  "emiLoans": [
+    {
+      "loanNumber": "122462749",
+      "bookedDate": "2025-04-11",
+      "loanAmount": 35835.17,
+      "tenure": 12,
+      "interestRate": 16,
+      "balancePrincipal": 18631.17,
+      "balanceInterest": 879,
+      "balanceTenure": 6
+    }
+  ],
+  "format": "new"
+}

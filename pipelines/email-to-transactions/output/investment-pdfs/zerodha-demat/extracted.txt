@@ -1,0 +1,41 @@
+Zerodha Broking Limited
+#153/154, 4th Cross, JP Nagar, 4th Phase, Dollars Colony,
+Bengaluru-560078, Karnataka, India www.zerodha.com
+Email ID: dp@zerodha.com
+DP ID: 12081600, DP Regn. No.: IN-DP-431-2019
+TRANSACTION WITH HOLDING STATEMENT
+To,
+ASHUTOSH DHEWAL 	DP ID : 	12081600
+HN 37 D VIJAY MANDAL ENCL 	Client ID : 	05968580
+BLOCK M5DD A FLATS SARVPRIYA 	Trading ID : 	YC3686
+NEW DELHI DELHI 	PAN No : 	BWKPD0449P
+110016
+Account Status: 	Active 	BO Status : 	Individual
+Frozen Status: 	Not Frozen 	BO Sub Status : 	Individual-ResidentNegative Nomination
+BSDA flag: 	NO 	RGESS status : 	NO
+Statement of Account from 2025-03-01 to 2025-03-31:
+Date 	Transaction Description 	Buy/Cr 	Sell/Dr 	Balance
+Closing balance: 	None
+Holdings as on 2025-03-31:
+ISIN Code 	Company Name 	Curr. Bal 	Free Bal 	Pldg. Bal 	Earmark Bal 	Demat 	Remat 	Lockin 	Rate 	Value
+INF740K01PU7 	DSPMF TIDP GR 	391.833 	391.833 	0.000 	0.000 	0.000 	0.000 	0.000 	309.203 	121155.939
+INF247L01445 	MOMF MID30F D-
+GROW
+1041.131 	1041.131 	0.000 	0.000 	0.000 	0.000 	0.000 	105.799 	110150.619
+INF204K01K15 	NIP SCF DP
+GROWTH
+540.351 	540.351 	0.000 	0.000 	0.000 	0.000 	0.000 	167.531 	90525.543
+INF277K011O1 TATA SMCF D-GROW 	2646.297 	2646.297 	0.000 	0.000 	0.000 	0.000 	0.000 	40.563 	107341.745
+Total: 	4619.612 	4619.612 	0.000 	0.000 	0.000 	0.000 	0.000 	429173.846
+* System Generated Report, Hence Signature not required
+Messages:-
+1) Any discrepancy in the statement should be brought to our notice with in one month from the date of the statement.
+2) You can now hold your Mutual Fund investments in this demat account. Contact us for more information.
+3) SEBI initiative: Investors can open a Demat account under "Basic Services Demat Account (BSDA)"category. Clients can check the eligibility criteria for BSDA account on the SEBI website link https://www.sebi.gov.in/legal/circulars/jun-2024/facility-for-
+basic-services-demat-account-bsda-for-financial-inclusion-and-ease-of-investing_84470.html. If you are eligible for BSDA account, you can opt for the same by submitting the required forms available in our website.
+4) Blank and signed delivery instruction slips should not be left with anyone.
+5)You will be receiving Consolidated Account Statement (CAS) in Electronic form from CDSL , if you wish to receive CAS in Physical form or do not wish to receive the same, kindly contact dp@zerodha.com
+Note: This statement will be sent electronically to your registered email ID henceforth.
+
+-- 1 of 1 --
+

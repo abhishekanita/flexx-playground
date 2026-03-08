@@ -8,6 +8,9 @@ const TransactionSchema = new Schema(
         user_id: { type: String, required: true, index: true },
         fingerprint: { type: String, unique: true, sparse: true },
 
+        // Account linkage
+        account_id: { type: String, index: true, sparse: true }, // → financial-accounts.id
+
         // Strong match keys
         upi_ref: { type: String, index: true, sparse: true },
         neft_utr: { type: String, index: true, sparse: true },

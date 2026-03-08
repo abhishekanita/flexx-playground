@@ -1,0 +1,52 @@
+{
+  "dpId": "12081600",
+  "clientId": "05968580",
+  "tradingId": "YC3686",
+  "pan": "BWKPD0449P",
+  "holderName": "ASHUTOSH DHEWAL \tDP ID : \t12081600",
+  "statementPeriod": "2025-03-01 to 2025-03-31",
+  "holdings": [
+    {
+      "isin": "INF740K01PU7",
+      "companyName": "",
+      "currentBalance": 391.833,
+      "freeBalance": 391.833,
+      "pledgeBalance": 0,
+      "earmarkBalance": 0,
+      "rate": 309.203,
+      "value": 121155.939
+    },
+    {
+      "isin": "INF247L01445",
+      "companyName": "",
+      "currentBalance": 30,
+      "freeBalance": 1041.131,
+      "pledgeBalance": 1041.131,
+      "earmarkBalance": 0,
+      "rate": 105.799,
+      "value": 110150.619
+    },
+    {
+      "isin": "INF204K01K15",
+      "companyName": "",
+      "currentBalance": 540.351,
+      "freeBalance": 540.351,
+      "pledgeBalance": 0,
+      "earmarkBalance": 0,
+      "rate": 167.531,
+      "value": 90525.543
+    },
+    {
+      "isin": "INF277K011O1",
+      "companyName": "TATA SMCF D-GROW",
+      "currentBalance": 2646.297,
+      "freeBalance": 2646.297,
+      "pledgeBalance": 0,
+      "earmarkBalance": 0,
+      "rate": 40.563,
+      "value": 107341.745
+    }
+  ],
+  "transactions": [],
+  "holdingsTotal": 429173.846
+}

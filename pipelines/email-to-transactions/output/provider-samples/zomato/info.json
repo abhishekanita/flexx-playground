@@ -1,0 +1,23 @@
+{
+  "subject": "Your Zomato order from Hey Koffee",
+  "from": "noreply@zomato.com",
+  "date": "2025-04-09T04:22:04.000Z",
+  "hasPdf": true,
+  "hasAttachments": true,
+  "attachments": [
+    {
+      "name": "Order_ID_6760838747.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Order_Invoice6760838747.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "User_Charge_Invoice6760838747.pdf",
+      "mime": "application/pdf"
+    }
+  ],
+  "bodyTextLength": 0,
+  "bodyHtmlLength": 41210
+}

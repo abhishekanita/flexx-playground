@@ -341,6 +341,10 @@ export class ParserStage {
                     .filter(Boolean)
                     .map(digits => this.sliceBy(digits, modifier));
             }
+            case 'pan': {
+                const pan = meta?.pan || '';
+                return pan ? [this.sliceBy(pan, modifier)] : [];
+            }
             case 'crn': {
                 const crn = meta?.kotakCrn || '';
                 return crn ? [this.sliceBy(crn, modifier)] : [];

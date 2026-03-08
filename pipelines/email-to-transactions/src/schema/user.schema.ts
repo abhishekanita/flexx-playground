@@ -11,6 +11,7 @@ const UserLocalSchema = new Schema<IUserDoc>(
         metadata: {
             fullname: String,
             dob: String,
+            pan: String,
             kotakCrn: String,
             phones: [String],
         },

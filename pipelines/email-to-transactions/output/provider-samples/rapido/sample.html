@@ -1,0 +1,462 @@
+<!--
+    usage: invoice email template for completed orders (GST compliant)
+    triggeredBy: bill-desk
+    trigger: bill-desk sends email at drop based on toggle or a customer can request from app
+ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Payment Summary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: 'open sans', 'helvetica neue', sans-serif;
+        }
+
+        .payment-summary-wrap {
+            background-color: #FAFAFA;
+            position: relative;
+            width: 595px;
+            margin: 0 auto;
+            font-family: 'Product Sans';
+            padding: 15px 20px;
+        }
+
+        .summary-info-wrap {
+            margin-bottom: 15px;
+        }
+
+        .content {
+            font-family: 'open sans', 'helvetica neue', sans-serif;
+        }
+
+        .payment-header {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 16px;
+            margin-bottom: 5px;
+        }
+        .payment-mode-header {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 5px;
+        }
+
+        .ride-id {
+            font-size: 12px;
+            line-height: 17px;
+            color: #979797;
+        }
+
+        .rider-info-wrap {
+            display: block;
+            margin: 15px 0px;
+        }
+
+        .rider-label {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .rider-value {
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .sucess-wrap {
+            background-color: #FFF;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .sucess-message {
+            font-size: 12px;
+            line-height: 16px;
+            color: #000000;
+        }
+
+        .ride-cost {
+            font-size: 28px;
+            line-height: 16px;
+            color: #000000;
+        }
+
+        .ride-cost-wrap {
+            margin-top: 10px;
+            display: inline-flex;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .ride-cost {
+            margin-right: 8px;
+        }
+
+        .distance-info-wrap {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .devider {
+            border: 1px solid #D9D9D9;
+            width: 15%;
+        }
+
+        .distance-wrap {
+            display: flex;
+            margin-top: 15px;
+        }
+
+        .distance-info-wrap {
+            flex: 1;
+            margin-left: 15px;
+            padding: 15px;
+        }
+
+        .distance-value {
+            font-size: 16px;
+            line-height: 16px;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        .distance-label {
+            font-size: 12px;
+            line-height: 16px;
+            color: #979797;
+        }
+
+        .billdetails-wrap {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 15px 15px 15px 15px;
+            margin: 15px 0;
+        }
+
+        .billdetails-header {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 16px;
+            color: #000000;
+            margin-bottom: 28px;
+        }
+
+        .billinfo-wrap {
+            margin: 20px 0;
+        }
+
+        .bill-data {
+            display: inline-block;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            width: 50%;
+        }
+
+        .green {
+            color: #34A852;
+        }
+
+        .red {
+            color: #FD5A5B;
+        }
+
+        .previous-due {
+            padding: 10px 0 0 0;
+            margin: 0;
+            border-top: 1px solid #EDEDED;
+        }
+        .total {
+            padding: 10px 0;
+            font-size: 18px;
+            line-height: 16px;
+            color: #000000;
+        }
+
+        .total-wrap {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            border-top: 1px solid #EDEDED;
+        }
+        .tax-info {
+            font-size: 8px;
+            line-height: 16px;
+            color: #8A8A8A;
+        }
+        .payment-mode-wrap {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 15px;
+        }
+
+        .payment-header {
+            font-size: 16px;
+            line-height: 16px;
+            color: #000000;
+        }
+
+        .location {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            display: inline;
+        }
+
+        .location-point-wrap {
+            margin-right: 20px;
+        }
+
+        .location-point {
+            display: block;
+        }
+
+        .location-wrap {
+            margin: 20px 0;
+        }
+
+        .pickup-point {
+            position: relative;
+        }
+
+        .location-connector {
+            position: absolute;
+            width: 0px;
+            height: 25px;
+            left: 25px;
+            border: 1px solid #C4C4C4;
+        }
+
+        .drop-point {
+            margin-top: 2px;
+        }
+
+        .employee-details-wrap {
+            background: rgb(255, 255, 255);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 15px;
+        }
+
+        .employee-header {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 16px;
+            color: rgb(0, 0, 0);
+            padding: 2px 0px;
+        }
+
+        .employee-container {
+            display: inline;
+            line-height: 20px;
+        }
+
+        .employee-info {
+            display: inline-block;
+            padding: 2px 0px;
+            width: 50%;
+        }
+
+        .header-info-wrap {
+                display: inline-block;
+            }
+
+            .align-right {
+                text-align: right;
+                float: right;
+            }
+
+            .logo-wrap {
+                width: 40%;
+            }
+            .success-message {
+                font-family: Product Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 16px;
+            }
+
+            .banner-image {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .promotional-banner-wrap {
+                padding-top: 15px;
+            }
+
+        @media only screen and (max-width: 600px) {
+            .payment-summary-wrap {
+                width: auto;
+            }
+
+            .distance-wrap {
+                display: block;
+            }
+
+            .distance-image {
+                width: 100%;
+            }
+
+            .distance-info-wrap {
+                margin: 10px 0;
+            }
+
+            .location {
+                width: 100%;
+            }
+
+        }
+
+        .payment-details {
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            color: #221E22;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="payment-summary-wrap">
+        <div class="header">
+            <div class="summary-info-wrap">
+                <div class="header-info-wrap">
+                    <div class="content payment-header">Payment Summary</div>
+                </div>
+                <div class="logo-wrap align-right">
+                    <img src="https://cust-rapido-images.s3.ap-south-1.amazonaws.com/rapido-logo.png">
+                </div>
+            </div>
+            <div class="rider-info-wrap">
+                <div>
+                    <div class="rider-label">Ride ID</div>
+                    <div class="rider-label align-right">RD17548178778412317</div>
+                </div>
+                <div>
+                    <div class="rider-value">Time of Ride</div>
+                    <div class="rider-value align-right">Aug 10th 2025, 3:43 PM</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="sucess-wrap">
+            <div class="content success-message">Total</div>
+            <div class="ride-cost-wrap">
+                <div class="content ride-cost">₹ 165.00</div>
+            </div>
+        </div>
+        <div class="distance-wrap">
+            <div class="distance-img-wrap" style="width: 50%;">
+                <img class="distance-image" src=https://maps.googleapis.com/maps/api/staticmap?size=350x120&maptype=roadmap&markers=color:green%7Clabel:P%7C28.541079316892986,77.20433212816715&markers=color:red%7Clabel:D%7C28.4504346,77.0843397&path=color:0x6A5B04%7Cweight:2.15%7Cenc:qlemDu_fvMKr@l@JN%7D@JaAJQVCfAQXId@CTB%5EzADFHDPB%5Eb@%5Ez@R%7C@%60@bDV%60BJ~AQ%7CBKv@WrA]fCO%60A]tBPF%60AZ%60@NpA%7C@@@v@ZpAZb@NhDpAnAr@hDvAfBl@bEbAZFZPrEjDbCjB@@rAlAt@bAzErI@BlC%60FdCrEj@t@~CvC@ApC%7BCPKRIr@?jDHlDA%60EI%7C@?~HzAhJVnJh@j@LtJ%7CEp@b@jE%7CD%60DjCB@~DpD@@fFjEBBd@b@Rh@Jv@f@xD%60@tCVpA%5Er@rFzFb@v@@DTt@L%60BDn@?vB@%60@FXV%5E%60@%5CnAd@z@d@%60Ad@n@t@VX%7CArBd@l@nE~EBBLJjApAhEjER%5CHPd@rAf@fAt@vBdC~Ir@rBbAjC%7CAtFRbANd@h@jAzGtQzAdFdD%7CJvBfHvCvIhAnDJR%60AzChBjFbCtHxApDhCpHn@%7CAvAdEtAhEdBpF@DpAhEfF%7CRTv@pGlPb@jAfNz]r@vAz@nAjKrMdDpEhLnQbApA%60@d@~CzEBF~@tAvArBb@x@r@nBPhAJjABxACdAQ%7CA]%7CA%7B@rBgF%60J_@%7C@Oh@S~@k@fEaB%60OEdAApANdH?xANXb@bBV%5E%60Ah@lA%60@f@FzCHrAGxYuDr@C%7C@H~A%5EpA%60@xDhBpC%7CAl@TfBPfABpEAv@H%5ETnCzCFF%7C@z@B@%60BdAzC%60BjB%7C@dAXt@LhCZpAJNFNVHt@j@bP%5EzJj@xQVhE%5CbEHhBRf@TTXLzBa@h@OnKqBvK_ChPyCP@HFpKwBFORK~KqCjA_@h@MpBu@%5EKX@PNJX@ZKXIJJP@v@C%5Ec@nBw@vCm@vCUtBOvAClAXfIPhEJxF@tBV~MArC@rCDb@XbAg@Vk@%7BAE_@]SYvBYKi@nEGd@QfA%60BXQ%60@Mf@&key=AIzaSyDSuvYflVfO-xaxIS46KBDUqBsb-C93pxU&signature=MSa6UQI7EFNex7RUe7gmwp5yP4Q=>
+            </div>
+            <div class="distance-info-wrap" style="width: 50%;">
+                <div class="content distance-value">19.41 kms</div>
+                <div class="content distance-label">DISTANCE</div>
+                <hr class="devider">
+                <div class="content distance-value">40.37 mins</div>
+                <div class="content distance-label">DURATION</div>
+            </div>
+        </div>
+        <div class="location-wrap">
+            <div class="location-point pickup-point">
+                <div class="location-point-wrap">
+                    <img src="https://cust-rapido-images.s3.ap-south-1.amazonaws.com/pickup.png" />
+                    &nbsp;
+                    <div class="content location"> E_4, Block 5, Vijay Mandal Enclave, Sarvapriya Vihar, New Delhi, Delhi 110016, India </div>
+                </div>
+
+            </div>
+            <div class="location-connector"></div>
+            <div class="location-point drop-point">
+                <div class="location-point-wrap">
+                    <img src="https://cust-rapido-images.s3.ap-south-1.amazonaws.com/drop.png" />
+                    &nbsp;
+                    <div class="content location">C2052, Sushant Lok, Block C, Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122003, India </div>
+                </div>
+            </div>
+        </div>
+        <div class="billdetails-wrap">
+            
+                <div class="content billdetails-header">Bill Details</div>
+            
+            <div class="billinfo-wrap">
+                
+                <div class="content bill-data">Ride Charge</div>
+                
+                <div class="content align-right bill-data">₹ 163.23</div>
+            </div>
+            <div class="billinfo-wrap">
+                
+                        <div class="content bill-data">Booking Fees & Convenience Charges</div>
+                
+                <div class="content align-right bill-data">₹ 1.77
+                </div>
+            </div>
+            
+            
+            
+            <div class="billinfo-wrap total-wrap">
+                <div class="content bill-data total">Total Amount</div>
+                <div class="content align-right bill-data total">₹ 165.00</div>
+                
+                
+                <div class="content tax-info">(Inclusive of Taxes)</div>
+                
+            </div>
+        </div>
+        
+        <div class="payment-mode-wrap">
+            <div class="content payment-mode-header">You Paid Using </div>
+                
+                <div class = "billinfo-wrap">
+                    <div class = "content bill-data payment"> Cash</div>
+                    <div class = "content align-right bill-data">₹ 165.00</div>
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+        </div>
+        
+        
+        
+            <div class="promotional-banner-wrap">
+                <a href="https://831m0rx7.r.eu-west-1.awstrack.me/L0/https:%2F%2Fm.rapido.cc%2FEwte%2Fllxpygw0/1/01020198937973c6-db6881e4-b762-40a4-aa7d-d34f774bec64-000000/oJTCVatk63Vbt5ItB6wvtV2ahII=438"><img class="banner-image" src="https://rapido-app-assets.storage.googleapis.com/d33326708854a9012e31d73122c9d8da_1724675884965.png" /></a>
+            </div>
+        
+        </div>
+    </div>
+<img alt="" src="https://831m0rx7.r.eu-west-1.awstrack.me/I0/01020198937973c6-db6881e4-b762-40a4-aa7d-d34f774bec64-000000/UKkTtGZ0UtYDu4eUAh77eXJcdwU=438" style="display: none; width: 1px; height: 1px;">
+</body>
+
+</html>

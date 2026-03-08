@@ -1,0 +1,332 @@
+{
+  "nsdlId": "112572789",
+  "holderName": "ASHUTOSH DHEWAL",
+  "statementPeriod": "01-Apr-2025 to 30-Apr-2025",
+  "portfolioValue": 8590795.98,
+  "portfolioComposition": {
+    "Equities": {
+      "value": 7596735,
+      "percent": 88.43
+    },
+    "Preference Shares": {
+      "value": 0,
+      "percent": 0
+    },
+    "Mutual Funds": {
+      "value": 994060.98,
+      "percent": 11.57
+    },
+    "Corporate Bonds": {
+      "value": 0,
+      "percent": 0
+    },
+    "Government Securities": {
+      "value": 0,
+      "percent": 0
+    },
+    "Mutual Fund Folios": {
+      "value": 0,
+      "percent": 0
+    }
+  },
+  "dematAccounts": [
+    {
+      "dpName": "ICICI BANK LIMITED",
+      "dpId": "IN303028",
+      "clientId": "64150025",
+      "equities": [
+        {
+          "isin": "INE646L01027",
+          "stockSymbol": "INDIGO.NSE",
+          "companyName": "INTERGLOBE AVIATION LIMITED",
+          "faceValue": 10,
+          "shares": 0,
+          "marketPrice": 5249.5,
+          "value": 0
+        },
+        {
+          "isin": "INE878B01027",
+          "stockSymbol": "KEI.NSE",
+          "companyName": "KEI INDUSTRIES LIMITED",
+          "faceValue": 2,
+          "shares": 200,
+          "marketPrice": 3063.6,
+          "value": 612720
+        },
+        {
+          "isin": "INE262H01021",
+          "stockSymbol": "PERSISTENT.NSE",
+          "companyName": "PERSISTENT SYSTEMS LIMITED",
+          "faceValue": 5,
+          "shares": 300,
+          "marketPrice": 5321.5,
+          "value": 1596450
+        },
+        {
+          "isin": "INE455K01017",
+          "stockSymbol": "POLYCAB.NSE",
+          "companyName": "POLYCAB INDIA LIMITED",
+          "faceValue": 10,
+          "shares": 200,
+          "marketPrice": 5520,
+          "value": 1104000
+        },
+        {
+          "isin": "INE944F01028",
+          "stockSymbol": "RADICO.NSE",
+          "companyName": "RADICO KHAITAN LIMITED",
+          "faceValue": 2,
+          "shares": 0,
+          "marketPrice": 2455.7,
+          "value": 0
+        },
+        {
+          "isin": "INE849A01020",
+          "stockSymbol": "TRENT.NSE",
+          "companyName": "TRENT LIMITED",
+          "faceValue": 1,
+          "shares": 700,
+          "marketPrice": 5172.5,
+          "value": 3620750
+        }
+      ],
+      "mutualFunds": [
+        {
+          "isin": "INF760K01100",
+          "schemeName": "CANARA ROBECO EQUITY TAX SAVER FUND REGULAR PLAN GROWTH",
+          "units": 590.932,
+          "lockedInUnits": 590.932,
+          "nav": 166.12,
+          "value": 98165.62
+        },
+        {
+          "isin": "INF740K01185",
+          "schemeName": "DSP ELSS TAX SAVER FUND FUND- GROWTH",
+          "units": 414.691,
+          "lockedInUnits": 414.691,
+          "nav": 134.742,
+          "value": 55876.29
+        },
+        {
+          "isin": "INF192K01635",
+          "schemeName": "JM FLEXICAP FUND GROWTH",
+          "units": 152.056,
+          "lockedInUnits": 0,
+          "nav": 93.9992,
+          "value": 14293.14
+        },
+        {
+          "isin": "INF769K01DK3",
+          "schemeName": "MIRAE ASSET ELSS TAX SAVER FUND - REGULAR PLAN-GROWTH",
+          "units": 3312.877,
+          "lockedInUnits": 696.577,
+          "nav": 45.947,
+          "value": 152216.75
+        },
+        {
+          "isin": "INF879O01092",
+          "schemeName": "PARAG PARIKH ELSS TAX SAVER FUND - REGULAR PLAN-GROWTH",
+          "units": 2632.514,
+          "lockedInUnits": 2632.514,
+          "nav": 30.539,
+          "value": 80394.34
+        },
+        {
+          "isin": "INF966L01AA0",
+          "schemeName": "QUANT SMALL CAP FUND-REGULAR PLAN- GROWTH 57.460 236.5133 13,590.05 INF966L01135 QUANT TAX PLAN-GROWTH",
+          "units": 75.158,
+          "lockedInUnits": 75.158,
+          "nav": 343.9698,
+          "value": 25852.08
+        },
+        {
+          "isin": "INF966L01135",
+          "schemeName": "QUANT TAX PLAN-GROWTH",
+          "units": 75.158,
+          "lockedInUnits": 75.158,
+          "nav": 343.9698,
+          "value": 25852.08
+        },
+        {
+          "isin": "INF082J01366",
+          "schemeName": "QUANTUM TAX SAVING FUND-REGULAR PLAN-GROWTH",
+          "units": 566.737,
+          "lockedInUnits": 566.737,
+          "nav": 120.56,
+          "value": 68325.81
+        },
+        {
+          "isin": "INF200K01495",
+          "schemeName": "SBI LONG TERM EQUITY FUND -REGULAR PLAN-GROWTH",
+          "units": 111.02,
+          "lockedInUnits": 111.02,
+          "nav": 417.9918,
+          "value": 46405.44
+        }
+      ],
+      "total": 7596735
+    },
+    {
+      "dpName": "ZERODHA BROKING LIMITED",
+      "dpId": "12081600",
+      "clientId": "05968580",
+      "equities": [],
+      "mutualFunds": [
+        {
+          "isin": "INF740K01PU7",
+          "schemeName": "DSP MUTUAL FUND",
+          "units": 391.833,
+          "lockedInUnits": 0,
+          "nav": 313.95,
+          "value": 123016.75
+        },
+        {
+          "isin": "INF247L01445",
+          "schemeName": "MOTILAL OSWAL MUTUAL FUND",
+          "units": 1041.131,
+          "lockedInUnits": 0,
+          "nav": 108.48,
+          "value": 112942.93
+        },
+        {
+          "isin": "INF204K01K15",
+          "schemeName": "NIPPON INDIA MUTUAL FUND",
+          "units": 540.351,
+          "lockedInUnits": 0,
+          "nav": 175,
+          "value": 94560.34
+        },
+        {
+          "isin": "INF277K011O1",
+          "schemeName": "TATA MUTUAL FUND",
+          "units": 2646.297,
+          "lockedInUnits": 0,
+          "nav": 40.97,
+          "value": 108421.43
+        }
+      ],
+      "total": 438941.46
+    }
+  ],
+  "transactions": [
+    {
+      "isin": "INE646L01027",
+      "securityName": "INTERGLOBE AVIATION LIMITED",
+      "date": "2025-04-02",
+      "orderNo": "1256801208",
+      "description": "To ICICI SECURITIES LIMITED,eDIS / Block Mechanism / 2025062 Initiated by Client (Electronic Instruction-Other)",
+      "openingBalance": 100,
+      "debit": 100,
+      "credit": 0,
+      "closingBalance": 0
+    },
+    {
+      "isin": "INF879O01092",
+      "securityName": "PARAG PARIKH ELSS TAX SAVER FUND -REGULAR PLAN-GROWTH",
+      "date": "2025-04-02",
+      "orderNo": "81000185001439",
+      "description": "By ICCL DIRECT DELIVERY ACCOUNT, MUTUAL FUND- SUBSCRIPTION / 2425246 Standing Instruction to receive credit",
+      "openingBalance": 0,
+      "debit": 0,
+      "credit": 1663.179,
+      "closingBalance": 1663.179
+    },
+    {
+      "isin": "INE944F01028",
+      "securityName": "RADICO KHAITAN LIMITED",
+      "date": "2025-04-02",
+      "orderNo": "1256777147",
+      "description": "To ICICI SECURITIES LIMITED,eDIS / Block Mechanism / 2025062 Initiated by Client (Electronic Instruction-Other)",
+      "openingBalance": 50,
+      "debit": 50,
+      "credit": 0,
+      "closingBalance": 0
+    },
+    {
+      "isin": "INE849A01020",
+      "securityName": "TRENT LIMITED",
+      "date": "2025-04-02",
+      "orderNo": "81000184727214",
+      "description": "By CM ICICI SECURITIES LIMITED, T+1 NORMAL / 2025062 Standing Instruction to receive credit",
+      "openingBalance": 600,
+      "debit": 0,
+      "credit": 100,
+      "closingBalance": 700
+    }
+  ],
+  "portfolioTrend": [
+    {
+      "month": "MAY 2024",
+      "value": 7629481.96,
+      "changeAmount": 84861.28,
+      "changePercent": 1.12
+    },
+    {
+      "month": "JUN 2024",
+      "value": 8702722.91,
+      "changeAmount": 1073240.95,
+      "changePercent": 14.07
+    },
+    {
+      "month": "JUL 2024",
+      "value": 9269752.41,
+      "changeAmount": 567029.5,
+      "changePercent": 6.52
+    },
+    {
+      "month": "AUG 2024",
+      "value": 10373998.32,
+      "changeAmount": 1104245.91,
+      "changePercent": 11.91
+    },
+    {
+      "month": "SEP 2024",
+      "value": 10884326.25,
+      "changeAmount": 510327.93,
+      "changePercent": 4.92
+    },
+    {
+      "month": "OCT 2024",
+      "value": 10328502.75,
+      "changeAmount": -555823.5,
+      "changePercent": -5.11
+    },
+    {
+      "month": "NOV 2024",
+      "value": 10606007.18,
+      "changeAmount": 277504.43,
+      "changePercent": 2.69
+    },
+    {
+      "month": "DEC 2024",
+      "value": 10532986.64,
+      "changeAmount": -73020.55,
+      "changePercent": -0.69
+    },
+    {
+      "month": "JAN 2025",
+      "value": 9884357.94,
+      "changeAmount": -648628.69,
+      "changePercent": -6.16
+    },
+    {
+      "month": "FEB 2025",
+      "value": 8049993.13,
+      "changeAmount": -1834364.81,
+      "changePercent": -18.56
+    },
+    {
+      "month": "MAR 2025",
+      "value": 8637449.39,
+      "changeAmount": 587456.25,
+      "changePercent": 7.3
+    },
+    {
+      "month": "APR 2025",
+      "value": 8590795.98,
+      "changeAmount": -46653.4,
+      "changePercent": -0.54
+    }
+  ],
+  "dob": "06/11/1995"
+}

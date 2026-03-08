@@ -1,0 +1,251 @@
+<!--
+    usage: receipt for auto orders
+    triggeredBy: bill-desk
+    trigger: bill-desk sends email at drop based on toggle or a customer can request from app
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Booking History</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .booking-history-wrap {
+            background-color: #FFF;
+            position: relative;
+            width: 595px;
+            margin: 0 auto;
+            font-family: 'Product Sans';
+            padding: 15px 20px;
+        }
+
+        .summary-info-wrap {
+            margin-bottom: 15px;
+        }
+
+        .content {
+            font-family: 'open sans', 'helvetica neue', sans-serif;
+        }
+
+        .summary-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 16px;
+            line-height: 16px;
+            color: #000000;
+        }
+
+        .ride-info-wrap {
+            display: block;
+            margin: 15px 0px;
+        }
+
+        .ride-label {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .ride-value {
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .sucess-wrap {
+            background-color: #FAFAFA;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .ride-cost {
+            font-size: 28px;
+            line-height: 16px;
+            color: #000000;
+            margin-right: 8px;
+        }
+
+        .ride-cost-wrap {
+            margin-top: 10px;
+            display: inline-flex;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .location {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            display: inline;
+        }
+
+        .location-point-wrap {
+            margin-right: 20px;
+        }
+
+        .location-point {
+            display: block;
+        }
+
+        .location-wrap {
+            margin: 20px 0;
+            background-color: #EFEFEF;
+        }
+
+        .pickup-point {
+            position: relative;
+        }
+
+        .location-connector {
+            position: absolute;
+            width: 0px;
+            height: 25px;
+            left: 25px;
+            border: 1px solid #C4C4C4;
+            margin-left: 3px;
+        }
+
+        .drop-point {
+            margin-top: 2px;
+        }
+
+        .header-info-wrap {
+            display: inline-block;
+        }
+
+        .align-right {
+            text-align: right;
+            float: right;
+        }
+
+        .logo-wrap {
+            width: 40%;
+        }
+
+        .success-message {
+            font-family: Product Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 16px;
+        }
+
+        .terms {
+            margin: 0px 10px;
+            font-size: x-small;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .booking-history-wrap {
+                width: auto;
+            }
+
+            .location {
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="booking-history-wrap">
+        <div class="header">
+            <div class="summary-info-wrap">
+                <div class="header-info-wrap">
+                    <div class="content summary-header">Booking History</div>
+                </div>
+                <div class="logo-wrap align-right">
+                    <img src="https://cust-rapido-images.s3.ap-south-1.amazonaws.com/rapido-logo.png">
+                </div>
+            </div>
+            <div class="ride-info-wrap">
+                <div>
+                    <div class="ride-label">Customer Name</div>
+                    <div class="ride-label align-right">
+                        Ashu Dhewal 
+                    </div>
+                </div>
+                <div>
+                    <div class="ride-value">Ride ID</div>
+                    <div class="ride-value align-right">
+                        RD17630511941566108
+                    </div>
+                </div>
+                <div>
+                    <div class="ride-value">Driver name</div>
+                    <div class="ride-value align-right">
+                        Kareem K 
+                    </div>
+                </div>
+                <div>
+                    <div class="ride-value">Vehicle Number</div>
+                    <div class="ride-value align-right">
+                        TN19F7183
+                    </div>
+                </div>
+                <div>
+                    <div class="ride-value">Time of Ride</div>
+                    <div class="ride-value align-right">
+                        Nov 13th 2025, 10:01 PM
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="sucess-wrap">
+            <div class="content success-message">Selected Price</div>
+            <div class="ride-cost-wrap">
+                <div class="content ride-cost">₹ 40
+                </div>
+            </div>
+        </div>
+        <div class="location-wrap">
+            <div class="location-point pickup-point">
+                <table>
+                    <td>
+                        <img src="https://cust-rapido-images.s3.ap-south-1.amazonaws.com/pickup.png" />
+                    </td>
+                    <td>
+                        <div class="content location">
+                            10, Sector 3, HSR Layout, Bengaluru, Karnataka 560102, India
+                        </div>
+                    </td>
+                </table>
+            </div>
+            <div class="location-connector"></div>
+            <br>
+            <div class="location-point drop-point">
+                <div class="location-point-wrap">
+                    <table>
+                        <td>
+                            <img src="https://cust-rapido-images.s3.ap-south-1.amazonaws.com/drop.png" />
+                        </td>
+                        <td>
+                            <div class="content location">
+                                2487, 15th Cross Rd, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102, India
+                            </div>
+                        </td>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="terms">
+            <p>This document is issued on request by the passenger. Rapido does not collect any fee/commission from
+                passengers and shall not issue tax invoices to the passengers under this segment. The document may be
+                used for all official / reimbursement purposes.</p>
+            <p>*Selected Price refers to the initial price decided between User and Drivers from the estimated price
+                range</p>
+        </div>
+    </div>
+<img alt="" src="https://831m0rx7.r.eu-west-1.awstrack.me/I0/0102019a7e151871-3cc42638-b5b5-494a-92c3-d3f150a2c496-000000/tAhD7204i_6XebHDoH1Un8lDC8g=452" style="display: none; width: 1px; height: 1px;">
+</body>
+
+</html>

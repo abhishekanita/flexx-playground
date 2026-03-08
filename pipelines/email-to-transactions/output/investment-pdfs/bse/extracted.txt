@@ -1,0 +1,81 @@
+Dear Investor,
+With reference to BSE notices 20210922-64 dated September 22, 2021 and 20211022-44 dated October
+22, 2021, Stock Brokers are required to upload segregation and monitoring of collateral at client level on
+daily basis.
+Your Stock Broker ICICI SECURITIES LTD. has reported the details of Funds balance and Securities
+balance as on 28/03/2025 to Clearing Corporations, as under:-
+End of day Fund
+Balances End of day securities balance
+Unique Client Code Net across Clearing
+Corporations (CCs)
+Total number of
+ISINs
+Total Quantity of
+securities
+Total number of
+Commodities
+8503687287 415261.000 0 0 0
+Please note that negative number in the file represents debit balance/balance payable by you. Also, the
+funds and securities balances provided are what is maintained with your broker and does not
+include balance in your personal bank account and demat account.
+The ISIN wise details of the securities, if applicable are as under:-
+Unique Client Code ISIN Name of the Securities Quantity of securities ISIN
+wise
+- - - -
+In case you find any discrepancy, we advise you to take up the matter immediately with your member. You
+may contact your stock broker at HEADSERVICEQUALITY@ICICIDIRECT.COM or 02240701000.
+For Awareness of Investors –
+You are requested to take note of the Exchange’s norms with respect to claims against trading members
+who have been declared as defaulters. The said norms are available on Exchange website under Investor
+section. The link of the same is given below:
+https://www.bseindia.com/downloads1/Normseligibilityclaimsdefaultermember.pdf
+The list of trading members who have been declared as defaulters is available at the following link:
+
+-- 1 of 3 --
+
+https://www.bseindia.com/static/members/List_defaulters_Expelled_members.aspx
+The data is being provided to the clients on an "as is" and "where-is" basis, without any warranty. The
+Exchange shall not be liable for any delay or any other interruption which may occur in providing the data
+due to any reason including network (Internet) reasons or snags in the system, break down of the system or
+any other equipment, server breakdown, maintenance shutdown, breakdown of communication services or
+inability of the Exchange to send the data. In no event shall the Exchange be liable for any damages,
+including without limitation direct or indirect, special, incidental, or consequential damages, losses or
+expenses arising in connection with the data provided by the Exchange through this facility.
+You are requested to note that in the event of trading member being declared as defaulter,all transactions
+executed on the exchange trading platform within 90 calendar days prior to the effective date of
+disablement of the trading member or after the latest monthly/quarterly settlement date, if any, in respect of
+the claimant whichever is later shall be considered eligible for compensation from IPF subject to Rules,
+Byelaws, Regulations, guidelines etc. of the Exchange and SEBI circulars and subject to the norms laid
+down by the relevant Committee.
+Now keep abreast with the happenings of the stock market on your Android Phone. BSEIndia`s New Mobile
+App now provides many more features & also supports 9 Indian languages namely Hindi, Bengali, Gujarati,
+Kannada, Malayalam, Marathi, Oriya, Tamil, & Telugu.
+Link for Android google playstore
+https://play.google.com/store/apps/details?id=com.cazaayan.bse.mobile&hl=en
+Link for Apple iPhone
+https://itunes.apple.com/us/app/bseindia-on-mobile/id808101185?ls=1&mt=8
+Features
+What`s New ?
+• Voice based Search
+• Improved Layout and Navigation
+• Customizable Home Page
+
+-- 2 of 3 --
+
+• Introduction of Tabs
+• Facility to Re-order Tabs
+• Creation of Portfolio
+• Additional Information in Get Quote like Results, Corporate Actions etc.
+• Graph for Stock prices & Index Values with pre-defined & selectable periods, with zoom in & zoom out
+facility
+• Index Overview and Index Contribution
+• BSE CMIE Indices
+• Sensex Heat map - All 30 securities at one go.
+• ETFs Data
+• Results Calendar, Board Meetings, Notices
+• IPOs/OFS/ New Listings
+Thanks, Regards
+BSE Ltd
+
+-- 3 of 3 --
+

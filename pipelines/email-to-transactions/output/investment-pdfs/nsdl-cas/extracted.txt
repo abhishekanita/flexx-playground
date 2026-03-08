@@ -1,0 +1,450 @@
+Dear Investor,
+We at NSDL are continuously striving to keep your investments active and safe, and hence please bear with us when we give you
+this gentle reminder on the nomination requirement.
+As an account holder, you have the choice to either opt-in for nomination, where you nominate someone, or opt-out of nomination,
+where you declare that you are not nominating anyone. Nomination is a crucial facility that ensures the smooth and hassle-free
+transmission of securities to the nominee(s) with minimal documentation in the unfortunate event of the account holder's demise.
+In case nomination details are displayed as ‘Not registered’ under the ‘know more about your accounts’ (given at the end of this
+CAS), we kindly request you to click on the provided link below or access NSDL's online platform (https://eservices.nsdl.com/instademat-
+kyc-nomination/#/login) to opt-in for nomination. An audio-visual tutorial on Nomination is also available for your ready reference. You
+can either scan the QR code series or click on the link below to view and understand the comprehensive features of nomination.
+https://youtube.com/playlist?list=PLM11Q6lCUF02bjoobQZfrzXLWLSKvBegU
+Please help us serve you better. Wishing you a very fruitful month ahead.
+Yours Sincerely,
+Vijay Chandok
+Managing Director & CEO
+Follow us on
+Consolidated Account Statement
+for the month of April 2025
+Summary Holdings Transactions Your Account About NSDL
+Consolidated Account Statement
+for the month of April 2025
+Summary Holdings Transactions Your Account About NSDL
+
+-- 1 of 7 --
+
+•
+•
+•
+Statement for the period from 01-Apr-2025 to 30-Apr-2025
+Note:
+Visit https://nironline.ndml.in/NIR/onlineEiaApplicationFormEkyc.html to open a free e-Insurance account online with NSDL National Insurance Repository (NIR) and hold all
+your physical Insurance Policies in electronic form in a single account.
+Insurance Policies are regulated by Insurance Regulatory and Development Authority of India (IRDAI).
+Your personal information (viz., PAN, Email ID, Mobile Number, Bank Account number and Bank’s IFSC) linked to your demat account maintained with DP of NSDL and
+CDSL, Mutual Fund Folios, NPS and Insurance policies are masked to avoid misuse of personal information and protect your data privacy.
+NSDL ID: 112572789
+ASHUTOSH DHEWAL
+HN 37 D VIJAY MANDAL ENCL BLOCK M5
+DDA FLATS SARVPRIYA VIHAR HAUZ KHAS
+,DELHI
+DELHI,INDIA
+PINCODE: 110016
+YOUR CONSOLIDATED
+PORTFOLIO VALUE ` 85,90,795.98 Summary
+Your Demat Account
+In the Single Name of
+ASHUTOSH DHEWAL (PAN:BWXXXXXX9P)
+Account Type Account Details No. of
+ISINs / Schemes Value in `
+NSDL Demat Account ICICI BANK LIMITED
+DP ID:IN303028 Client ID:64150025 16 81,51,854.52
+CDSL Demat Account ZERODHA BROKING LIMITED
+DP ID:12081600 Client ID:05968580 4 4,38,941.46
+CDSL Demat Account GROWW INVEST TECH PRIVATE LIMITED
+DP ID:12088700 Client ID:02563205 0 0.00
+CDSL Demat Account INDMONEY PRIVATE LIMITED
+DP ID:12095500 Client ID:11474580 0 0.00
+Total 85,90,795.98
+Grand Total 85,90,795.98
+Your e-Insurance Account (eIA) : NONE WITH NSDL NATIONAL INSURANCE REPOSITORY(NIR)
+eIA in the name of
+Type of Policy No. of Policies No. of Insurance
+Companies Total Sum Assured `
+Portfolio Value Trend
+Monthly movement of your Consolidated Portfolio Value since April 2024 is given below.It reflects the monthly change in your total wealth invested in the assets which are
+consolidated in NSDL CAS. Increase in your portfolio value may be due to appreciation of your investments and also fresh investments. Similarly, decrease in portfolio
+value may be due to depreciation in investments or sale of investments.
+Page 2 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+Page 2 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+
+-- 2 of 7 --
+
+Month Consolidated Portfolio
+Value (`) Change
+(`) Change
+(%)
+APR 2024 75,44,620.68 NA NA
+MAY 2024 76,29,481.96 +84861.28 +1.12
+JUN 2024 87,02,722.91 +1073240.95 +14.07
+JUL 2024 92,69,752.41 +567029.50 +6.52
+AUG 2024 1,03,73,998.32 +1104245.91 +11.91
+SEP 2024 1,08,84,326.25 +510327.93 +4.92
+OCT 2024 1,03,28,502.75 -555823.50 -5.11
+NOV 2024 1,06,06,007.18 +277504.43 +2.69
+DEC 2024 1,05,32,986.64 -73020.55 -0.69
+JAN 2025 98,84,357.94 -648628.69 -6.16
+FEB 2025 80,49,993.13 -1834364.81 -18.56
+MAR 2025 86,37,449.39 +587456.25 +7.30
+APR 2025 85,90,795.98 -46653.40 -0.54
+ASHUTOSH DHEWAL ` 85,90,795.98 Holdings
+as on 30-Apr-2025
+Summary of value of holdings of ASHUTOSH
+DHEWAL
+PORTFOLIO COMPOSITION
+ASSET CLASS Value in ` %
+Equities (E) 75,96,735.00 88.43%
+Preference Shares (P) 0.00 0.00%
+Mutual Funds (M) 9,94,060.98 11.57%
+Alternate Investment Fund (A) 0.00 0.00%
+Corporate Bonds (C) 0.00 0.00%
+Zero Coupon Zero Principal(Z) 0.00 0.00%
+Money Market Instruments (I) 0.00 0.00%
+Securitised Instruments (S) 0.00 0.00%
+Government Securities (G) 0.00 0.00%
+Postal Saving Scheme (O) 0.00 0.00%
+Mutual Fund Folios (F) 0.00 0.00%
+National Pension System (N) 0.00 0.00%
+TOTAL 85,90,795.98
+NSDL Demat Account
+ICICI BANK LIMITED
+DP ID: IN303028 Client ID: 64150025
+ACCOUNT HOLDER
+ASHUTOSH DHEWAL (PAN:BWXXXXXX9P)
+Equities (E)
+Equity Shares
+ISIN
+Stock Symbol Company Name Face Value
+in ` No. of
+Shares Market
+Price in ` Value in `
+INE437A01024
+APOLLOHOSP.NSE APOLLO HOSPITALS
+ENTERPRISE LIMITED 5.00 95 6,977.00 6,62,815.00
+INE646L01027
+INDIGO.NSE INTERGLOBE AVIATION LIMITED 10.00 0 5,249.50 0.00
+INE878B01027
+KEI.NSE KEI INDUSTRIES LIMITED 2.00 200 3,063.60 6,12,720.00
+INE262H01021
+PERSISTENT.NSE PERSISTENT SYSTEMS LIMITED 5.00 300 5,321.50 15,96,450.00
+INE455K01017
+POLYCAB.NSE POLYCAB INDIA LIMITED 10.00 200 5,520.00 11,04,000.00
+Page 3 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+Page 3 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+
+-- 3 of 7 --
+
+ISIN
+Stock Symbol Company Name Face Value
+in ` No. of
+Shares Market
+Price in ` Value in `
+INE944F01028
+RADICO.NSE RADICO KHAITAN LIMITED 2.00 0 2,455.70 0.00
+INE849A01020
+TRENT.NSE TRENT LIMITED 1.00 700 5,172.50 36,20,750.00
+Sub Total 75,96,735.00
+Mutual Funds (M)
+ISIN ISIN Description No. of
+Units NAV
+in ` Value in `
+INF760K01100 CANARA ROBECO EQUITY TAX SAVER
+FUND REGULAR PLAN GROWTH
+of which locked-in
+590.932
+590.932
+166.1200 98,165.62
+INF740K01185 DSP ELSS TAX SAVER FUND FUND-
+GROWTH
+of which locked-in
+414.691
+414.691
+134.7420 55,876.29
+INF192K01635 JM FLEXICAP FUND GROWTH 152.056 93.9992 14,293.14
+INF769K01DK3 MIRAE ASSET ELSS TAX SAVER FUND -
+REGULAR PLAN-GROWTH
+of which locked-in
+3,312.877
+696.577
+45.9470 1,52,216.75
+INF879O01092 PARAG PARIKH ELSS TAX SAVER FUND -
+REGULAR PLAN-GROWTH
+of which locked-in
+2,632.514
+2,632.514
+30.5390 80,394.34
+INF966L01AA0 QUANT SMALL CAP FUND-REGULAR PLAN-
+GROWTH 57.460 236.5133 13,590.05
+INF966L01135 QUANT TAX PLAN-GROWTH
+of which locked-in
+75.158
+75.158
+343.9698 25,852.08
+INF082J01366 QUANTUM TAX SAVING FUND-REGULAR
+PLAN-GROWTH
+of which locked-in
+566.737
+566.737
+120.5600 68,325.81
+INF200K01495 SBI LONG TERM EQUITY FUND -REGULAR
+PLAN-GROWTH
+of which locked-in
+111.020
+111.020
+417.9918 46,405.44
+Sub Total 5,55,119.52
+Total 81,51,854.52
+CDSL Demat Account
+ZERODHA BROKING LIMITED
+DP ID: 12081600 Client ID: 05968580
+ACCOUNT HOLDER
+ASHUTOSH DHEWAL (PAN:BWXXXXXX9P)
+Mutual Funds (M)
+ISIN SECURITY Current Bal.
+Free Bal.
+Lent Bal.
+Safekeep Bal.
+Locked In Bal.
+Pledge Setup Bal.
+Pledged Bal.
+Earmarked Bal.
+Pledgee Bal.
+Market Price
+/ Face Value
+in `
+Value
+in `
+INF740K01PU7 DSP MUTUAL FUND 391.833
+391.833
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+313.95 1,23,016.75
+INF247L01445 MOTILAL OSWAL MUTUAL
+FUND 1,041.131
+1,041.131
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+108.48 1,12,942.93
+INF204K01K15 NIPPON INDIA MUTUAL
+FUND 540.351
+540.351
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+175.00 94,560.34
+INF277K011O1 TATA MUTUAL FUND 2,646.297
+2,646.297
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+40.97 1,08,421.43
+Sub Total 4,38,941.46
+Total 4,38,941.45
+Transactions
+for the period from 01-Apr-2025 to 30-Apr-2025
+Page 4 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+Page 4 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+
+-- 4 of 7 --
+
+***End of Statement***
+NSDL Demat Account
+ICICI BANK LIMITED
+DP ID: IN303028 Client ID: 64150025
+Summary of Transactions of
+ASHUTOSH DHEWAL
+Date Order No Description Instruction Details Opening
+Balance Debit Credit Closing
+Balance
+ISIN : INE646L01027 - INTERGLOBE AVIATION LIMITED
+Beneficiary - Blocked(Inter Depository Transfer/Freeze for Delivery / Tender Offer)
+02-Apr-2025 1256801208 To ICICI SECURITIES LIMITED,eDIS /
+Block Mechanism / 2025062 Initiated by Client
+(Electronic
+Instruction-Other)
+100 100 0 0
+ISIN : INF879O01092 - PARAG PARIKH ELSS TAX SAVER FUND -REGULAR PLAN-GROWTH
+Beneficiary - Tax Savings Scheme / 28 Mar 2028
+02-Apr-2025 81000185001439 By ICCL DIRECT DELIVERY
+ACCOUNT, MUTUAL FUND-
+SUBSCRIPTION / 2425246
+Standing Instruction
+to receive credit
+0.000 0.000 1,663.179 1,663.179
+ISIN : INE944F01028 - RADICO KHAITAN LIMITED
+Beneficiary - Blocked(Inter Depository Transfer/Freeze for Delivery / Tender Offer)
+02-Apr-2025 1256777147 To ICICI SECURITIES LIMITED,eDIS /
+Block Mechanism / 2025062 Initiated by Client
+(Electronic
+Instruction-Other)
+50 50 0 0
+ISIN : INE849A01020 - TRENT LIMITED
+Beneficiary
+02-Apr-2025 81000184727214 By CM ICICI SECURITIES LIMITED,
+T+1 NORMAL / 2025062 Standing Instruction
+to receive credit 600 0 100 700
+Know more about your accounts
+NSDL DEMAT ACCOUNT
+Sole Holder
+ASHUTOSH DHEWAL DATE OF BIRTH
+(DD/MM/YYYY)
+06/11/1995
+REGISTERED EMAIL
+aXXXXXXwal@XXXXXXXXm AADHAAR NUMBER
+Not Registered
+REGISTERED MOBILE
+xxxxxxxxx998
+DEMAT ACCOUNT WITH
+ICICI BANK LIMITED
+(IN303028)
+CLIENT ID
+64150025 NOMINEE
+YASH PAUL DHEWAL LINKED BANK ACCOUNT
+I C I C I BANK (IFSC: xxxxxxx0071) BANK ACCOUNT NUMBER
+xxxxxxxx5059
+CDSL DEMAT ACCOUNT
+Sole Holder
+ASHUTOSH DHEWAL DEMAT ACCOUNT WITH
+ZERODHA BROKING LIMITED
+(12081600)
+REGISTERED EMAIL
+AXXXXXXWAL@XXXXXXXXM
+NOMINEE
+Not Registered CLIENT ID
+05968580 REGISTERED MOBILE
+xxxxxxx998
+CDSL DEMAT ACCOUNT
+Sole Holder
+ASHUTOSH DHEWAL DEMAT ACCOUNT WITH
+GROWW INVEST TECH PRIVATE LIMITED
+(12088700)
+REGISTERED EMAIL
+aXXXXXXwal@XXXXXXXXm
+NOMINEE
+Not Registered CLIENT ID
+02563205 REGISTERED MOBILE
+xxxxxxx998
+CDSL DEMAT ACCOUNT
+Sole Holder
+ASHUTOSH DHEWAL DEMAT ACCOUNT WITH
+INDMONEY PRIVATE LIMITED
+(12095500)
+REGISTERED EMAIL
+aXXXXXXwal@XXXXXXXXm
+NOMINEE
+Not Registered CLIENT ID
+11474580 REGISTERED MOBILE
+xxxxxxx998
+Page 5 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+Page 5 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+
+-- 5 of 7 --
+
+Notes
+1) You will be receiving NSDL CAS on a monthly basis in case you have done any transaction(s) in your demat account(s) or in any of your Mutual Fund Folio(s). However,
+if you have not done any transaction in any of your demat account(s) and Mutual Fund Folio(s) in last six months during April to September / October to March (i.e. dormant
+demat accounts), then NSDL CAS will be sent with holdings details as on March and September end in the next month viz., April and October respectively
+2) The valuation of transaction/holding has been computed on the basis of the last closing price or NAV of the securities or units of mutual funds, as reported by Stock
+Exchanges/AMFI/Mutual Fund/RTA. Where such price or NAV is not available, the last traded/available price or NAV has been taken into account and for unlisted
+securities, face value has been considered. However, for securities listed at stock exchanges other than BSE and NSE (including de-listed securities), the last
+traded/available price has been considered. Further, stock symbol is mentioned in NSDL CAS only in respect of securities that are listed at NSE / BSE.
+If the securities are traded on NSE and BSE, then NSDL calculates the value of the securities held in a demat account based on the NSE closing price, as applicable.
+Please refer to the table as given below
+Listed on Stock Exchange Price Considered
+NSE and BSE NSE
+NSE NSE
+BSE BSE
+3) In respect of non-traded ISINs in CDSL holding, face value is exhibited in Market Price / Face Value column and the same has been considered for calculating the
+valuations.
+4)All unit allotments in respect of Mutual Fund folios are subject to realization of payment by Mutual Fund/RTA. Unit holders are requested to note that, in case of any
+discrepancies in the folio(s), KYC Status, data, holdings, units etc. in NSDL CAS due to errors, if any, in consolidation or whatsoever reason, the records as per the
+respective Mutual Fund/RTA will be treated as final and will prevail. In such case, unit holders should revert within 10 days to the respective RTA or the Mutual Fund as
+applicable.
+5) For updation of your personal details like Nominee, Email ID, Mobile No., Aadhaar No. & Date of Birth, etc. in your demat accounts or MF Folios, you may approach the
+concerned DP/Mutual Fund/RTA as applicable. However,first holder of demat account may update/modify the Email ID by clicking on the link viz., "Click here to Register"
+provided under "Know more about your account" section in e-CAS provided they have subscribed for NSDL e-CAS.
+6) The details of IDCW i.e. Income Distribution (appreciation on NAV) and Capital Withdrawal (Equalization Reserve) in respect of Dividend transactions (Payout &
+Reinvestment) in Mutual Fund schemes held in NSDL demat account and Mutual Fund Folios are also included in your CAS.
+7) Holdings and Transactions of Promoter/Promoter Group and Insiders reported by issuer as on 1st day of the August 2024 are considered for System Driven Disclosures
+under SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 and SEBI (Prohibition of Insider Trading) Regulations, 2015.
+8)Any discrepancy in your demat statement should be brought to the notice of your DP / Depository within one month.
+9) If you do not wish to receive the CAS, you may write to your DP or send your request at noCAS@nsdl.com from your email ID registered in your demat account held with
+NSDL.
+10) As per Central Board of Direct Taxes (CBDT) Notification Nos. 16/2021 dated March 12, 2021, DGIT(S)/ADG(S)-2/Reporting Portal/2021/180 dated April 30, 2021, and
+Corrigendum to Notification No. 3. Of 2021 dated November 15, 2023, NSDL furnishes the Statement of Financial Transactions (SFT) to Income Tax Department (ITD) for
+all demat account holders having debit transactions in their NSDL demat account during a Half Year (i.e. half year ending on September 30 and March 31). You can view
+and download your SFT through IDeAS Log-in at NSDL e-services website (https://eservices.nsdl.com) or from NSDL Mobile App on your mobile.
+11) You can contact us at No. - 022 – 69448400 or 022 – 69448500 or write to us at: NSDL, 301, 3rd Floor, Naman Chambers, G-Block, Plot C-32, Bandra Kurla Complex,
+Bandra East, Mumbai – 400051. Email ID for mentioning any grievances is NSDL-CAScomplaints@nsdl.com; For any query/complaint/feedback, kindly send an email to
+NSDL-CAScomplaints@nsdl.com. For more information, visit www.nsdl.co.in or https://nsdlcas.nsdl.com
+Explanatory Notes 1 :
+1. Average Cost per Unit (Column 5 under header-Mutual Fund Folios) indicates the average NAV per unit at which you made the investment. Total Cost (Column 6 under
+header- Mutual Fund Folios) indicates your total investment amount in the scheme. If you have made multiple investments or redemptions in the same scheme, these are
+calculated on First in First out principle, that is, any redemptions are assumed to be out of your earliest investments.
+2. Current NAV per Unit)( Column 7 under header-Mutual Fund Folios) indicates the current NAV of the scheme as on [date]. Current Value ( Column 8 under header-
+Mutual Fund Folios) indicates the current value of your investment as on [date].
+3. Unrealised Profit/(Loss) ( Column 9 under section-Mutual Fund Folios )indicates the gains or losses on your investment as on [date]. Column 9 = Column 8 - Column 6.
+Explanatory Notes 2 :
+1. The table given for unclaimed amount under holding section shows the dividend and redemption amounts, which have become due to you but have not been claimed by
+you. To claim these amounts, please contact the respective mutual fund or its Registrar and Transfer Agent (RTA).
+2. SEBI has directed that unclaimed redemption and dividend amounts should be deployed by Mutual Funds in Call Money Market or Money Market instruments, as may be
+permitted by RBI from time to time. Investors claiming these amounts within three years from the due date shall be paid at the prevailing NAV. At the end of three years, the
+amount can be transferred to a pool account and investors can claim the amount at the NAV prevailing at the end of the third year.
+About NSDL
+Page 6 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+Page 6 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+
+-- 6 of 7 --
+
+NSDL, the first and largest depository in India, established in August 1996 and promoted by institutions of national stature responsible for economic development of the
+country has since established a national infrastructure of international standards that handles most of the securities held and settled in dematerialized form in the Indian
+capital market.
+NSDL works to support the investors and brokers in the capital market of the country. NSDL aims at ensuring the safety and soundness of Indian marketplaces by
+developing settlement solutions that increase efficiency, minimize risk and reduce costs.
+Subscribe to NSDL monthly newsletter for investors – The Financial Kaleidoscope on https://nsdl.co.in/e-newsletter.php
+NSDL Consolidated Account Statement (CAS)
+Pursuant to the Interim Budget announcement in 2014 to create one record for all financial assets of every individual, SEBI had extensive deliberations with the
+Depositories, AMFI and RTAs of Mutual Funds (MF-RTAs) to implement the aforesaid concept with respect to financial assets in respect of securities market. As a first step
+in this direction, it has been decided to enable a single consolidated view of all the investments of an investor in securities held in demat form with the Depositories as well
+as in Statement of Account (SOA) form with Mutual Funds (MF).
+NSDL CAS is a single account statement consisting of transactions and holdings in investor’s demat account(s) held with NSDL and CDSL as well as in units of Mutual
+Funds held in Statement of Account (SOA) form. The statement also includes insurance policies held in electronic form with NSDL National Insurance Repository.The
+statement enables investors to have a consolidated view of his/her financial assets and provide an insight of his/her portfolio across various asset classes. NSDL CAS
+provides investor an enriched experience of managing his/her portfolio effectively and benefit him/her in many other ways viz. better decision making, simplified monitoring,
+rich analysis of portfolio etc.
+For more information about NSDL or NSDL CAS, please visit our website www.nsdl.co.in or https://nsdlcas.nsdl.com
+Page 7 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+Page 7 Consolidated Account Statement
+Summary Holdings Transactions Your Account About NSDL
+
+-- 7 of 7 --
+

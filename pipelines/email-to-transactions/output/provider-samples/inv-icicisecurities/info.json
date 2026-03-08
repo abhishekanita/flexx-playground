@@ -1,0 +1,15 @@
+{
+  "subject": "Equity Transaction Statement from 01-Jan-2025 to 31-Mar-2025",
+  "from": "service@icicisecurities.com",
+  "date": "2025-04-08T10:37:20.000Z",
+  "hasPdf": false,
+  "hasAttachments": true,
+  "attachments": [
+    {
+      "name": "TRX-Equity_07-04-2025_981042.pdf",
+      "mime": "application/octet-stream"
+    }
+  ],
+  "bodyTextLength": 0,
+  "bodyHtmlLength": 8559
+}

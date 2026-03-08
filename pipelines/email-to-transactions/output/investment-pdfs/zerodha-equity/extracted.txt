@@ -1,0 +1,89 @@
+Company Name: Zerodha Broking Limited
+#153/154, 4th Cross,
+JP Nagar, 4th Phase, Dollars Colony,
+Bengaluru-560078, Karnataka, India
+CIN: U65929KA2018PLC116815
+Company Phone: 080 4718 1888
+SEBI REGN.No.: INZ000031633
+Compliance Officer Details
+Pankathi H Jain
+#153/154, 4th Cross,
+JP Nagar, 4th Phase, Dollars Colony,
+Bengaluru-560078, Karnataka, India
+Phone No: 080 4718 1888
+E-mail ID: complaints@zerodha.com
+Ledger Code: YC3686 	From Date: 2025-03-31
+To Date: 2025-04-05
+Statement of Accounts of Securities/Commodities for the period from 2025-03-31 to 2025-04-05 (Monday to Saturday):
+Statement of Account reflecting Clear Balance as on the last date of statement:
+Transaction
+Date
+Execution
+Date
+Clearing
+Corporation/Clearing
+Member
+Segment
+Type
+Unique
+Client
+Code
+(UCC)
+Back
+Office
+Client
+Code
+Client Name Client PAN Member
+Demat
+Account
+No.
+Counterparty Demat Account No. Settlement No. ISIN
+Code
+Scrip Name 	Quantity Delivered (Qty.) Quantity
+Received
+(Qty.)
+Balance
+(Qty.)
+Trf. Ref.
+No.
+Transaction Type Purpose
+To From To 	From
+NA 	NA 	NA 	NA NA NA NA 	NA 	NA NA NA 	NA 	NA 	NA NA 	NA 	NA 	NA 	NA 	NA 	NA
+Pending Obligations as on 2025-04-05 (as on Saturday):
+Transaction
+Date
+Execution
+Date
+Clearing
+Corporation/Clearing
+Member
+Segment
+Type Unique
+Client
+Code
+(UCC)
+Back
+Office
+Client
+Code
+Client Name Client PAN Member
+Demat
+Account
+No.
+Counterparty Demat Account No. Settlement No. ISIN
+Code
+Scrip Name 	Quantity Delivered (Qty.) Quantity
+Received
+(Qty.)
+Balance
+(Qty.)
+Trf. Ref.
+No.
+Transaction Type Purpose
+To From To 	From
+NA 	NA 	NA 	NA NA NA NA 	NA 	NA NA NA 	NA 	NA 	NA NA 	NA 	NA 	NA 	NA 	NA 	NA
+* System Generated Report, Hence Signature not required
+Any error/discrepancy concerning the statement may kindly be brought to our notice within 7 working days. If you have opted for running account authorization, the same shall be valid until it is revoked by you.
+
+-- 1 of 1 --
+

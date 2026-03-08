@@ -1,0 +1,840 @@
+{
+  "cardHolder": "ASHUTOSH DHEWAL",
+  "cardNumber": "XXXX XXXX XXXX XX35",
+  "statementNumber": "A25111512973",
+  "placeOfSupply": "DEL/7/DELHI",
+  "statementDate": "2025-11-17",
+  "paymentDueDate": "2025-12-07",
+  "billingPeriod": {
+    "from": "2025-10-18",
+    "to": "2025-11-17"
+  },
+  "totalAmountDue": 105578,
+  "minimumAmountDue": 2227,
+  "creditLimit": 202000,
+  "cashLimit": 60600,
+  "availableCreditLimit": 96422.02,
+  "availableCashLimit": 60600,
+  "previousBalance": 120130,
+  "paymentsCredits": 105201.73,
+  "feeTaxesInterest": 976.03,
+  "totalOutstanding": 119530.22,
+  "transactions": [
+    {
+      "index": 1,
+      "date": "2025-11-04",
+      "description": "PAYMENT RECEIVED 000DP015308181409ItrsD2",
+      "amount": 119531,
+      "isCredit": true,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 2,
+      "date": "2025-11-07",
+      "description": "UPI-35615300003561530910814848@SBIN0CONU",
+      "amount": 599,
+      "isCredit": true,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 3,
+      "date": "2025-11-17",
+      "description": "FORGN CURR MARKUP DB (EXCL TAX 130.89)",
+      "amount": 727.14,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 4,
+      "date": "2025-11-17",
+      "description": "IGST DB @ 18.00%",
+      "amount": 148.89,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 5,
+      "date": "2025-10-15",
+      "description": "X CORP. PAID FEATURES TH",
+      "amount": 427,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 6,
+      "date": "2025-10-17",
+      "description": "UPI-RAJESH KUMAR GUPTA",
+      "amount": 40,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 7,
+      "date": "2025-10-18",
+      "description": "UPI-ZOMATO",
+      "amount": 392.75,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 8,
+      "date": "2025-10-19",
+      "description": "UPI-Selim Aktar",
+      "amount": 100,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 9,
+      "date": "2025-10-19",
+      "description": "UPI-Mr RAHUL",
+      "amount": 40,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 10,
+      "date": "2025-10-16",
+      "description": "OPENAI *CHATGPT SUBSCR TH",
+      "amount": 20775.31,
+      "isCredit": false,
+      "foreignCurrency": "USD",
+      "foreignAmount": 236
+    },
+    {
+      "index": 11,
+      "date": "2025-10-20",
+      "description": "UPI-ZOMATO LIMITED",
+      "amount": 222.85,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 12,
+      "date": "2025-10-20",
+      "description": "UPI-UBER INDIA SYSTEMS ATE LIMITED",
+      "amount": 501.59,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 13,
+      "date": "2025-10-21",
+      "description": "UPI-ZOMATO LIMITED",
+      "amount": 623.69,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 14,
+      "date": "2025-10-21",
+      "description": "UPI-URBAN COMPANY LIMIT",
+      "amount": 1016,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 15,
+      "date": "2025-10-21",
+      "description": "UPI-Licious",
+      "amount": 1202,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 16,
+      "date": "2025-10-23",
+      "description": "UPI-Mr RAHUL",
+      "amount": 80,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 17,
+      "date": "2025-10-23",
+      "description": "UPI-BUDHILAL GUPTA",
+      "amount": 150,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 18,
+      "date": "2025-10-23",
+      "description": "UPI-Blinkit",
+      "amount": 1563,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 19,
+      "date": "2025-10-24",
+      "description": "UPI-Blinkit",
+      "amount": 1243,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 20,
+      "date": "2025-10-25",
+      "description": "UPI-Blinkit",
+      "amount": 445,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 21,
+      "date": "2025-10-25",
+      "description": "UPI-A.N. FARM ASSORTMENIVATE LIMITED",
+      "amount": 500,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 22,
+      "date": "2025-10-27",
+      "description": "UPI-Blinkit",
+      "amount": 315,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 23,
+      "date": "2025-10-27",
+      "description": "UPI-CHOUDHARY SWEETS",
+      "amount": 90,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 24,
+      "date": "2025-10-28",
+      "description": "UPI-Bistro",
+      "amount": 208,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 25,
+      "date": "2025-10-29",
+      "description": "UPI-UNIQLO INDIA PRIVATMITED",
+      "amount": 2990,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 26,
+      "date": "2025-10-29",
+      "description": "UPI-NIKE BHANNE RETAIL",
+      "amount": 11895,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 27,
+      "date": "2025-10-29",
+      "description": "UPI-301 KFC Ambi Mall",
+      "amount": 418.95,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 28,
+      "date": "2025-10-29",
+      "description": "UPI-ZEPTO MARKETPLACE PTE LIMITED",
+      "amount": 596.06,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 29,
+      "date": "2025-10-30",
+      "description": "UPI-Carnatic Cafe Domes",
+      "amount": 346.5,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 30,
+      "date": "2025-10-30",
+      "description": "UPI-Bistro",
+      "amount": 358,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 31,
+      "date": "2025-10-30",
+      "description": "UPI-GMR AIRPORTS LIMITELHI DUTY FREE",
+      "amount": 9480,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 32,
+      "date": "2025-10-30",
+      "description": "UPI-ZEPTO MARKETPLACE PTE LIMITED",
+      "amount": 1023.49,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 33,
+      "date": "2025-11-04",
+      "description": "UPI-Mr D Rajesh",
+      "amount": 100,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 34,
+      "date": "2025-11-04",
+      "description": "UPI-Blinkit",
+      "amount": 574,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 35,
+      "date": "2025-11-04",
+      "description": "UPI-Mr MUKTHIYAR SO JAM",
+      "amount": 90,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 36,
+      "date": "2025-11-05",
+      "description": "UPI-Swiggy Dineout",
+      "amount": 2857,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 37,
+      "date": "2025-11-05",
+      "description": "UPI-KonfHub",
+      "amount": 6624.9,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 38,
+      "date": "2025-11-05",
+      "description": "UPI-RAM TAUKAL GUPTA",
+      "amount": 60,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 39,
+      "date": "2025-11-05",
+      "description": "UPI-CHAI BLISS VENTURESVAT EYKIAYAX",
+      "amount": 35,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 40,
+      "date": "2025-11-05",
+      "description": "UPI-AAZAM",
+      "amount": 3400,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 41,
+      "date": "2025-11-06",
+      "description": "UPI-ETERNAL LIMITED",
+      "amount": 3041,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 42,
+      "date": "2025-11-06",
+      "description": "UPI-TIRATH RAJ",
+      "amount": 65,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 43,
+      "date": "2025-11-07",
+      "description": "UPI-ZOMATO LIMITED",
+      "amount": 345.51,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 44,
+      "date": "2025-11-07",
+      "description": "UPI-Bharathi",
+      "amount": 120,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 45,
+      "date": "2025-11-07",
+      "description": "UPI-Blinkit",
+      "amount": 977,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 46,
+      "date": "2025-11-07",
+      "description": "UPI-RAM TAUKAL GUPTA",
+      "amount": 60,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 47,
+      "date": "2025-11-07",
+      "description": "UPI-WOKE UP HOSPITALITY LTD",
+      "amount": 2740,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 48,
+      "date": "2025-11-07",
+      "description": "UPI-BLINKIT",
+      "amount": 1860,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 49,
+      "date": "2025-11-07",
+      "description": "UPI-GANGOTHRI BAR AND R",
+      "amount": 2460,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 50,
+      "date": "2025-11-08",
+      "description": "UPI-Vishnu K V",
+      "amount": 46,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 51,
+      "date": "2025-11-08",
+      "description": "UPI-RAHUL LAMA",
+      "amount": 80,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 52,
+      "date": "2025-11-08",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 347,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 53,
+      "date": "2025-11-08",
+      "description": "UPI-Triple Play Interac Network Private",
+      "amount": 1180,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 54,
+      "date": "2025-11-09",
+      "description": "UPI-MUNCHMART TECHNOLOGPRIVATE LIMITED",
+      "amount": 213,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 55,
+      "date": "2025-11-09",
+      "description": "UPI-CAFE AMUDHAM",
+      "amount": 200,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 56,
+      "date": "2025-11-09",
+      "description": "UPI-Blinkit",
+      "amount": 1334,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 57,
+      "date": "2025-11-09",
+      "description": "UPI-SKILLBOXES INDIA PRE LIMITED",
+      "amount": 2000,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 58,
+      "date": "2025-11-09",
+      "description": "UPI-Abdul Rahim N K",
+      "amount": 40,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 59,
+      "date": "2025-11-09",
+      "description": "UPI-BEER WORKS REST ANDROBREW P L GBC HN",
+      "amount": 1365,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 60,
+      "date": "2025-11-06",
+      "description": "OPENAI CHATGPT SUBSCR TH",
+      "amount": 1999,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 61,
+      "date": "2025-11-10",
+      "description": "UPI-LEON GRILL PVT LTD",
+      "amount": 261,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 62,
+      "date": "2025-11-10",
+      "description": "UPI-WOKE UP HOSPITALITY LTD",
+      "amount": 3319,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 63,
+      "date": "2025-11-10",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 174,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 64,
+      "date": "2025-11-10",
+      "description": "UPI-Mr HEMANTHA N P",
+      "amount": 73,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 65,
+      "date": "2025-11-10",
+      "description": "UPI-ROHITH G",
+      "amount": 75,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 66,
+      "date": "2025-11-11",
+      "description": "UPI-ZOMATO LIMITED",
+      "amount": 325.28,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 67,
+      "date": "2025-11-11",
+      "description": "UPI-ROLI DEVI",
+      "amount": 300,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 68,
+      "date": "2025-11-11",
+      "description": "UPI-ROLI DEVI",
+      "amount": 25,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 69,
+      "date": "2025-11-11",
+      "description": "UPI-ZOMATO LIMITED",
+      "amount": 260.45,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 70,
+      "date": "2025-11-11",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 207,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 71,
+      "date": "2025-11-12",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 745,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 72,
+      "date": "2025-11-12",
+      "description": "UPI-VISHAL",
+      "amount": 30,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 73,
+      "date": "2025-11-12",
+      "description": "UPI-Bhimashankar",
+      "amount": 100,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 74,
+      "date": "2025-11-12",
+      "description": "UPI-M/S.ELITE INDIA HOSLITY VENTURES",
+      "amount": 1670,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 75,
+      "date": "2025-11-12",
+      "description": "UPI-CAFE AMUDHAM",
+      "amount": 163,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 76,
+      "date": "2025-11-13",
+      "description": "UPI-MUNCHMART TECHNOLOGPRIVATE Limited",
+      "amount": 301,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 77,
+      "date": "2025-11-13",
+      "description": "UPI-Dinesh G",
+      "amount": 70,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 78,
+      "date": "2025-11-13",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 403,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 79,
+      "date": "2025-11-13",
+      "description": "UPI-Taco Bell HSR Layou",
+      "amount": 351,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 80,
+      "date": "2025-11-14",
+      "description": "UPI-GOURISH NAIK",
+      "amount": 150,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 81,
+      "date": "2025-11-14",
+      "description": "UPI-Biergarten Koramang",
+      "amount": 280,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 82,
+      "date": "2025-11-14",
+      "description": "UPI-ANIL KUMAR",
+      "amount": 90,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 83,
+      "date": "2025-11-14",
+      "description": "UPI-RAVIKUMAR M",
+      "amount": 25,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 84,
+      "date": "2025-11-14",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 745,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 85,
+      "date": "2025-11-14",
+      "description": "UPI-BOOKMYSHOW",
+      "amount": 2353.4,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 86,
+      "date": "2025-11-15",
+      "description": "UPI-WOKE UP HOSPITALITY LTD",
+      "amount": 903,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 87,
+      "date": "2025-11-15",
+      "description": "UPI-SHARIFA",
+      "amount": 235,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 88,
+      "date": "2025-11-15",
+      "description": "UPI-IRIS cafe and kitch",
+      "amount": 207,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 89,
+      "date": "2025-11-15",
+      "description": "UPI-Vishwanath",
+      "amount": 104,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    },
+    {
+      "index": 90,
+      "date": "2025-11-17",
+      "description": "REPLACEMENT FEE (EXCL TAX 18.00)",
+      "amount": 100,
+      "isCredit": false,
+      "foreignCurrency": null,
+      "foreignAmount": null
+    }
+  ],
+  "rewardPoints": {
+    "previousBalance": 10663,
+    "earned": 1010,
+    "redeemedExpired": 0,
+    "closingBalance": 11673
+  }
+}

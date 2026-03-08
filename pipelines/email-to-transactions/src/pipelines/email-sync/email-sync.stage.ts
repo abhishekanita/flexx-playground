@@ -7,11 +7,13 @@ import { config } from '@/config';
 import { EmailProcessingStatus } from '@/types/emails/emails.type';
 import { createHash } from 'crypto';
 import { GMAIL_SEARCH_QUERIES_V2, GmailSearchQuery } from './helpers/search-queries';
+import { isPromotionalSender } from './helpers/domains';
 
 export interface EmailSyncResult {
     fetched: number;
     newEmails: number;
     skippedDuplicates: number;
+    skippedPromotional: number;
     errors: number;
 }
 
@@ -41,7 +43,7 @@ export class SyncEmailStage {
 
         const processedIds = new Set<string>();
         const queries = queryIds ? GMAIL_SEARCH_QUERIES_V2.filter(q => queryIds.includes(q.id)) : GMAIL_SEARCH_QUERIES_V2;
-        const result: EmailSyncResult = { fetched: 0, newEmails: 0, skippedDuplicates: 0, errors: 0 };
+        const result: EmailSyncResult = { fetched: 0, newEmails: 0, skippedDuplicates: 0, skippedPromotional: 0, errors: 0 };
 
         const syncCursor = await userService.getGmailSyncCursor(userId);
         const lookbackMs = this.config.lookbackWindowDays * 86400000;
@@ -80,14 +82,25 @@ export class SyncEmailStage {
                         logger.info(`[EmailSync] Query "${searchQuery.id}": ${messages.length} fetched, ${skipped} duplicates`);
                         continue;
                     }
+
+                    // Filter out promotional / marketing emails
+                    const nonPromo = newMessages.filter(m => !isPromotionalSender(m.fromEmail));
+                    const promoSkipped = newMessages.length - nonPromo.length;
+                    result.skippedPromotional += promoSkipped;
+
+                    if (nonPromo.length === 0) {
+                        logger.info(`[EmailSync] Query "${searchQuery.id}": ${messages.length} fetched, ${skipped} duplicates, ${promoSkipped} promotional`);
+                        continue;
+                    }
+
                     // Bulk insert this query's new messages
                     const now = new Date().toISOString();
-                    const ops = newMessages.map(msg => ({
+                    const ops = nonPromo.map(msg => ({
                         insertOne: { document: this.toRawEmailDoc(userId, msg, now) },
                     }));
                     try {
                         const writeResult = await rawEmailsService.bulkWrite(ops, { ordered: false });
-                        const inserted = writeResult.insertedCount || newMessages.length;
+                        const inserted = writeResult.insertedCount || nonPromo.length;
                         result.newEmails += inserted;
                     } catch (err: any) {
                         const inserted = err.result?.nInserted || 0;
@@ -96,7 +109,7 @@ export class SyncEmailStage {
                     }
 
                     if (this.config.downloadAttachments) {
-                        const jobs = newMessages
+                        const jobs = nonPromo
                             .filter(m => m.hasAttachments && m.attachments.length > 0)
                             .flatMap(msg => msg.attachments.map(att => ({ msg, att })));
                         await this.uploadAttachmentsConcurrently(gmail, userId, jobs, 5);
@@ -111,7 +124,7 @@ export class SyncEmailStage {
         }
 
         logger.info(
-            `[EmailSync] Done for user ${userId}: ${result.fetched} fetched, ${result.newEmails} new, ${result.skippedDuplicates} duplicates, ${result.errors} errors`
+            `[EmailSync] Done for user ${userId}: ${result.fetched} fetched, ${result.newEmails} new, ${result.skippedDuplicates} duplicates, ${result.skippedPromotional} promotional skipped, ${result.errors} errors`
         );
         return result;
     }

@@ -134,6 +134,18 @@ export enum HoldingStatus {
     Paused = 'paused', // SIP paused
 }
 
+export enum HoldingReconciliationStatus {
+    Authoritative = 'authoritative', // from CAMS / NSDL CAS (weekly refresh)
+    Interim = 'interim', // from email signal (Groww order, KFintech valuation) — overwritten on next CAMS/CAS
+    Stale = 'stale', // older than 30 days without refresh
+}
+
+export enum InvestmentTxReconciliationStatus {
+    Confirmed = 'confirmed', // seen in CAMS or NSDL CAS (authoritative)
+    Pending = 'pending', // trade from broker, not yet in demat statement
+    EmailOnly = 'email_only', // from Groww/KFintech email, not yet in CAMS
+}
+
 export enum CapitalGainType {
     STCG = 'stcg', // Short Term Capital Gain
     LTCG = 'ltcg', // Long Term Capital Gain
@@ -142,12 +154,21 @@ export enum CapitalGainType {
 // ── Account ──────────────────────────────────────────────────────────────────
 
 export interface InvestmentAccount extends BaseEntity {
-    platform: string; // 'Zerodha' | 'Groww' | 'Kuvera' | 'HDFC Securities'
-    platform_type: 'broker' | 'mf_platform' | 'bank' | 'employer';
+    platform: string; // 'Zerodha' | 'Groww' | 'Kuvera' | 'HDFC Securities' | 'ICICI Securities' | 'CAMS' | 'KFintech'
+    platform_type: 'broker' | 'mf_platform' | 'bank' | 'employer' | 'depository';
     account_id?: string; // client ID / folio group / demat account no.
-    dp_id?: string; // Depository Participant ID (for demat)
+    dp_id?: string; // Depository Participant ID (for demat) — e.g. IN303028 (NSDL), 12081600 (CDSL)
+    trading_code?: string; // broker trading code — e.g. YC3686 (Zerodha), 8503687287 (ICICI Sec)
     pan: string; // masked: 'ABCDE****F'
+    holder_name?: string;
+
+    // KYC & compliance
+    nominees?: string[];
+    kyc_ok?: boolean;
+
     is_active: boolean;
+    first_seen_at?: ISODateTime; // when first parsed from an email
+    last_seen_at?: ISODateTime; // last time a statement referenced this account
     last_synced_at?: ISODateTime;
 }
 
@@ -201,16 +222,35 @@ export interface Holding extends BaseEntity {
 
     status: HoldingStatus;
     last_nav_updated?: ISODateTime;
+
+    // Source tracking & reconciliation
+    snapshot_date?: ISODate; // "as of" date for this position (from statement)
+    reconciliation_status: HoldingReconciliationStatus;
+    source: string; // 'cams_statement' | 'nsdl_cas' | 'zerodha_demat' | 'kfintech_valuation' | 'groww_order'
+    source_email_id?: UUID; // → raw_emails.id
 }
 
 // ── Investment Transaction (immutable history) ────────────────────────────────
 
+export interface InvestmentTransactionSourceSignal {
+    source: string; // 'cams_statement' | 'icici_sec_contract' | 'nsdl_cas' | 'groww_order' | 'kfintech_redemption' | 'dividend_email'
+    email_id?: string;
+    received_at: ISODateTime;
+    parsed_data: Record<string, unknown>;
+}
+
 export interface InvestmentTransaction extends BaseEntity {
-    holding_id: UUID; // → holdings.id
+    holding_id?: UUID; // → holdings.id (null if holding not yet created/linked)
     investment_account_id: UUID;
+    fingerprint: string; // hash(user_id + isin + date + tx_type + amount) for dedup
 
     tx_type: InvestmentTxType;
     tx_date: ISODate;
+    settlement_date?: ISODate;
+
+    // Security identification
+    isin?: ISIN;
+    security_name?: string; // denormalized from holding for query convenience
 
     // Units & price
     units?: number; // +buy / -sell / -redeem
@@ -220,12 +260,22 @@ export interface InvestmentTransaction extends BaseEntity {
     stt?: INR; // Securities Transaction Tax
     brokerage?: INR;
     gst_on_brokerage?: INR;
+    exit_load?: INR; // MF redemption
+    transaction_charges?: INR; // exchange transaction charges
     net_amount: INR; // amount after all charges
+
+    // Balance after tx (from statement)
+    unit_balance_after?: number;
 
     // Capital gains (populated at sell/redemption)
     capital_gain?: INR;
     capital_gain_type?: CapitalGainType;
     holding_period_days?: number;
+
+    // MF-specific: dividend
+    tds_deducted?: INR; // TDS on dividends
+    dividend_per_unit?: number; // per-share/unit rate
+    financial_year?: string; // '2024-25'
 
     // Switch / STP: links source and destination holdings
     switch_to_holding_id?: UUID;
@@ -235,12 +285,24 @@ export interface InvestmentTransaction extends BaseEntity {
     source_email_id?: UUID; // → raw_emails.id (CAMS/KFintech confirmation)
     confirmation_no?: string; // RTA transaction confirmation number
     order_id?: string; // platform order ID (Zerodha, Groww)
+    advisor_code?: string; // INZ code from CAMS
+    channel?: string; // 'BSE' | 'NSE' | 'Online' | 'Demat'
 
     // For equity — contract note details
     exchange?: 'NSE' | 'BSE' | 'MCX';
     settlement_no?: string;
+    contract_number?: string;
     wap?: number; // Weighted Average Price (SEBI mandate)
     contract_note_id?: UUID; // → raw_emails.id (PDF)
+    broker?: string; // 'icici_securities' | 'zerodha' | 'groww'
+
+    // Reconciliation
+    reconciliation_status: InvestmentTxReconciliationStatus;
+    linked_spending_txn_id?: UUID; // → transactions.id (the bank debit for this trade/SIP)
+
+    // Signal tracking
+    signal_count: number;
+    source_signals: InvestmentTransactionSourceSignal[];
 }
 
 // =============================================================================
@@ -515,13 +577,22 @@ export interface InsuranceClaim extends BaseEntity {
 // A snapshot is taken periodically to build net worth over time.
 
 export enum AccountType {
+    // Bank accounts
     Savings = 'savings',
     Current = 'current',
     Salary = 'salary',
     NRE = 'nre',
     NRO = 'nro',
+
+    // Cards
     CreditCard = 'credit_card',
-    Wallet = 'wallet',
+    PrepaidCard = 'prepaid_card',
+
+    // Digital wallets & UPI
+    Wallet = 'wallet', // Paytm wallet, Amazon Pay balance
+    UPILite = 'upi_lite', // UPI Lite wallet (off-bank, ≤₹1000)
+
+    // Fixed income accounts
     FD = 'fd',
     RD = 'rd',
     PPF = 'ppf',
@@ -529,13 +600,38 @@ export enum AccountType {
     NPS = 'nps',
 }
 
-export interface BankAccount extends BaseEntity {
-    bank: string; // 'HDFC Bank'
+export interface FinancialAccount extends BaseEntity {
+    // Identity
+    provider: string; // 'HDFC Bank' | 'SBI' | 'Paytm' | 'Amazon Pay' | 'PhonePe'
     account_type: AccountType;
-    account_last4: string; // masked
+    account_identifier: string; // masked: 'XXXX5678' (last 4) or card name
+
+    // Bank account specific
     ifsc?: string;
-    current_balance?: INR; // last known
-    balance_updated?: ISODateTime;
+    branch?: string;
+
+    // Credit card specific
+    card_network?: 'Visa' | 'Mastercard' | 'Rupay' | 'Amex' | 'Diners';
+    card_variant?: string; // 'Regalia' | 'Magnus' | 'SimplySAVE'
+    credit_limit?: INR;
+    billing_date?: number; // day of month
+    due_date?: number; // day of month
+
+    // Wallet specific
+    upi_vpa?: string; // user@ybl, user@paytm
+
+    // Current state
+    current_balance?: INR; // last known balance (or outstanding for CC)
+    balance_updated_at?: ISODateTime;
+
+    // Linkage
+    linked_upi_vpas?: string[]; // VPAs linked to this bank account
+
+    // Status
+    is_active: boolean;
+    is_primary?: boolean; // primary salary account
+    first_seen_at?: ISODateTime;
+    last_seen_at?: ISODateTime;
 }
 
 export interface NetWorthSnapshot extends BaseEntity {

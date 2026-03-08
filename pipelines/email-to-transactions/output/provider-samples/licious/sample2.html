@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        -ms-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+      }
+      table,
+      div {
+        margin: 0;
+      }
+      .text_1 {
+        font-size: 18px;
+      }
+      .text_2 {
+        font-size: 23px;
+      }
+      .text_3 {
+        font-size: 12px;
+      }
+      .bill_attribute {
+        width: 33%;
+        text-align: center;
+      }
+      .gap_big {
+        height: 40px;
+      }
+      .gap_small {
+        height: 24px;
+      }
+      .product_name {
+        width: 50%;
+      }
+      .normal_font {
+        font-weight: 400;
+      }
+      @media only screen and (max-width: 600px) {
+        .product_image {
+          height: 60px;
+        }
+        .bill_attribute {
+          width: 50%;
+          text-align: left;
+        }
+        .text_1 {
+          font-size: 14px;
+        }
+        .text_2 {
+          font-size: 14px;
+        }
+        .text_3 {
+          font-size: 10px;
+        }
+        .gap_big {
+          height: 16px;
+        }
+        .gap_small {
+          height: 8px;
+        }
+      }
+      @media only screen and (max-width: 301px) {
+        .product_image {
+          height: 50px;
+        }
+        .text_1 {
+          font-size: 12px;
+        }
+        .text_2 {
+          font-size: 12px;
+        }
+        .text_3 {
+          font-size: 8px;
+        }
+        .bill_attribute {
+          width: 50%;
+          text-align: left;
+          font-size: 10px;
+        }
+        .bill_attr_value {
+          font-size: 10px;
+        }
+        .product_name {
+          font-size: 10px;
+          text-align: left;
+        }
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  </head>
+  <body>
+    <table
+      class="template_container"
+      style="background-color: #ffffff; margin: auto"
+    >
+      <tbody>
+        <tr class="template_top_contents">
+          <td>
+            <img
+              src="https://d2407na1z3fc0t.cloudfront.net/Banner/post_order_confirmation_mail_header.png"
+              style="width: 100%"
+            />
+          </td>
+        </tr>
+        <tr class="template_middle_contents">
+          <td>
+            <table style="padding: 5% 10%; width: 100%">
+              <tbody>
+                <!-- Thank you message  -->
+                <tr>
+                  <td class="text_1" style="font-weight: 500">
+                    Thank you for choosing Licious for your next meal. Enjoy!
+                  </td>
+                </tr>
+                <!-- Order ID  -->
+                <tr class="gap_small"></tr>
+                <tr>
+                  <td>
+                    <span class="text_2" style="font-weight: bold">
+                      Order # paklt9t25gic</span
+                    >
+                  </td>
+                </tr>
+                <!-- Address details -->
+                <tr class="gap_small"></tr>
+                <tr style="font-weight: bold">
+                  <td class="text_1">Delivery Address:</td>
+                </tr>
+                <tr>
+                  <td class="text_1" style="font-weight: normal">
+                    d 13/ 9, second floor, 13/9, 13/9, DLF Phase 5, Sector 53, Gurugram, Haryana 122003, India, NCR, dlf exclusive floor, third house from left, Haryana, 122003
+                  </td>
+                </tr>
+                <!-- Product details -->
+                
+                <tr>
+                  <td>
+                    <table style="width: 100%">
+                      <tbody
+                        style="
+                          font-weight: 700;
+                          line-height: 21px;
+                          color: #474747;
+                        "
+                      >
+                        <tr class="gap_small"></tr>
+                        <tr>
+                          <td>
+                            <img
+                              height="100px"
+                              src="https://assets.licious.in/OMS-ProductMerchantdising/757eae98-0e56-b6d1-82ed-064e84991276/original/1703872296596.jpg"
+                              alt="Tandoori Chicken"
+                              style="border-radius: 10px"
+                              class="product_image"
+                            />
+                          </td>
+                          <td>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="min-width: 200px; max-width: 250px"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>Tandoori Chicken</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="text_1 bill_attr_value">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="
+                                        min-width: 100px;
+                                        text-align: right;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>&#x20b9; 508.3</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                    <table style="width: 100%">
+                      <tbody
+                        style="
+                          font-weight: 700;
+                          line-height: 21px;
+                          color: #474747;
+                        "
+                      >
+                        <tr class="gap_small"></tr>
+                        <tr>
+                          <td>
+                            <img
+                              height="100px"
+                              src="https://assets.licious.in/catalog-category/a5fb1d80-44a5-4b0c-1c71-8711ae1f3f41/original/1744370788834.png"
+                              alt="Chicken Milagu Pirattal (Pepper Chicken)"
+                              style="border-radius: 10px"
+                              class="product_image"
+                            />
+                          </td>
+                          <td>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="min-width: 200px; max-width: 250px"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>Chicken Milagu Pirattal (Pepper Chicken)</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="text_1 bill_attr_value">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="
+                                        min-width: 100px;
+                                        text-align: right;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>&#x20b9; 275.0</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                    <table style="width: 100%">
+                      <tbody
+                        style="
+                          font-weight: 700;
+                          line-height: 21px;
+                          color: #474747;
+                        "
+                      >
+                        <tr class="gap_small"></tr>
+                        <tr>
+                          <td>
+                            <img
+                              height="100px"
+                              src="https://assets.licious.in/OMS-ProductMerchantdising/aaefade1-47e6-ea5b-dfb7-69fa183cef91/original/1702536043853.jpg"
+                              alt="Chicken Tikka"
+                              style="border-radius: 10px"
+                              class="product_image"
+                            />
+                          </td>
+                          <td>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="min-width: 200px; max-width: 250px"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>Chicken Tikka</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="text_1 bill_attr_value">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="
+                                        min-width: 100px;
+                                        text-align: right;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>&#x20b9; 698.0</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                    <table style="width: 100%">
+                      <tbody
+                        style="
+                          font-weight: 700;
+                          line-height: 21px;
+                          color: #474747;
+                        "
+                      >
+                        <tr class="gap_small"></tr>
+                        <tr>
+                          <td>
+                            <img
+                              height="100px"
+                              src="https://assets.licious.in/catalog-category/672e81e1-3e90-e001-3e8f-dd6b7c628880/original/1744369690581.png"
+                              alt="Chilli Garlic Chicken Lollipop"
+                              style="border-radius: 10px"
+                              class="product_image"
+                            />
+                          </td>
+                          <td>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="min-width: 200px; max-width: 250px"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>Chilli Garlic Chicken Lollipop</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="text_1 bill_attr_value">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text_1 product_name">
+                                    <table
+                                      style="
+                                        min-width: 100px;
+                                        text-align: right;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td>&#x20b9; 199.0</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                
+                <!-- Bill details  -->
+                <tr class="gap_big"></tr>
+                <tr style="font-weight: bold; color: #474747">
+                  
+                  <td>
+                    <table style="width: 100%">
+                      <tbody>
+                        <tr class="normal_font">
+                          <td style="width: 33%"></td>
+                          <td class="text_1 bill_attribute">
+                            Discount applied
+                          </td>
+                          <td
+                            class="text_1 bill_attr_value"
+                            style="
+                              width: 33%;
+                              text-align: right;
+                              padding-right: 1%;
+                            "
+                          >
+                            -&#x20b9; 200.0
+                          </td>
+                        </tr>
+                        <tr class="normal_font">
+                          <td style="width: 33%"></td>
+                          <td class="text_1 bill_attribute">
+                            Delivery Charges
+                          </td>
+                          <td
+                            class="text_1 bill_attr_value"
+                            style="
+                              width: 33%;
+                              text-align: right;
+                              padding-right: 1%;
+                            "
+                          >
+                            &#x20b9; 0.0
+                          </td>
+                        </tr>
+                        <tr class="normal_font">
+                          <td style="width: 33%"></td>
+                          <td class="text_1 bill_attribute">Licious Wallet</td>
+                          <td
+                            class="text_1 bill_attr_value"
+                            style="
+                              width: 33%;
+                              text-align: right;
+                              padding-right: 1%;
+                            "
+                          >
+                            -&#x20b9; 51.0
+                          </td>
+                        </tr>
+                        
+                        <tr class="normal_font">
+                          <td style="width: 33%"></td>
+                          <td class="text_1 bill_attribute">Handling Fee</td>
+                          <td
+                            class="text_1 bill_attr_value"
+                            style="
+                              width: 33%;
+                              text-align: right;
+                              padding-right: 1%;
+                            "
+                          >
+                            &#x20b9; 5.0
+                          </td>
+                        </tr>
+                        
+                        <tr class="normal_font">
+                          <td style="width: 33%"></td>
+                          <td class="text_1 bill_attribute">Express Charge</td>
+                          <td
+                            class="text_1 bill_attr_value"
+                            style="
+                              width: 33%;
+                              text-align: right;
+                              padding-right: 1%;
+                            "
+                          >
+                            &#x20b9; 0.0
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="width: 33%"></td>
+                          <td class="text_1 bill_attribute">
+                            <strong>Order total</strong>
+                          </td>
+                          <td
+                            class="text_1 bill_attr_value"
+                            style="
+                              width: 40%;
+                              text-align: right;
+                              padding-right: 1%;
+                            "
+                          >
+                            &#x20b9; 1434.3
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr class="template_lower_middle_contents">
+          <td>
+            <table style="padding: 0 6%; width: 100%">
+              <tbody>
+                <tr class="gap_small"></tr>
+                <tr>
+                  <td>
+                    <img
+                      src="https://d2407na1z3fc0t.cloudfront.net/Banner/post_order_confirmation_mail_USPs.png"
+                      width="100%"
+                      style="border-radius: 8px"
+                    />
+                  </td>
+                </tr>
+                <tr class="gap_small"></tr>
+                <tr>
+                  <td class="text_1">
+                    Have an issue or need a query resolved?
+                  </td>
+                </tr>
+                <tr style="height: 4px"></tr>
+                <tr>
+                  <td class="text_1">
+                    Simply visit the <strong>&#8216;Help&#8217;</strong> section
+                    on the Licious App.
+                  </td>
+                </tr>
+                <tr class="gap_big"></tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr class="template_bottom_contents" style="background-color: #d11243">
+          <td>
+            <table style="margin: auto; padding: 2%">
+              <tbody>
+                <tr>
+                  <td>
+                    <table style="margin: auto">
+                      <tbody>
+                        <tr id="footer_links">
+                          <td>
+                            <a
+                              href="https://r1wvcfpj.r.ap-south-1.awstrack.me/L0/https:%2F%2Ftwitter.com%2Fi%2Fflow%2Flogin%3Fredirect_after_login=%252FLiciousFoods/1/01090196e0047829-f49de1a8-0845-4cea-ae79-c26edaf49c44-000000/cgBUT1vSMHJ0msiX_EcXq7_XYY4=207"
+                              target="_blank"
+                            >
+                              <img
+                                width="40px"
+                                style="margin-right: 12px"
+                                src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/twitter_mailer.png"
+                              />
+                            </a>
+                          </td>
+                          <td>
+                            <a
+                              href="https://r1wvcfpj.r.ap-south-1.awstrack.me/L0/https:%2F%2Fwww.instagram.com%2Flicious_foods%2F/1/01090196e0047829-f49de1a8-0845-4cea-ae79-c26edaf49c44-000000/Ypearz0lhWB5LWfEIv2uszYN0RU=207"
+                              target="_blank"
+                            >
+                              <img
+                                width="40px"
+                                style="margin-right: 12px"
+                                src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/instagram_mailer.png"
+                              />
+                            </a>
+                          </td>
+                          <td>
+                            <a
+                              href="https://r1wvcfpj.r.ap-south-1.awstrack.me/L0/https:%2F%2Fwww.facebook.com%2FLiciousFoods/1/01090196e0047829-f49de1a8-0845-4cea-ae79-c26edaf49c44-000000/3y8sTc_0cEAUOuLnKu2UNfZjMcw=207"
+                              target="_blank"
+                            >
+                              <img
+                                width="40px"
+                                style="margin-right: 12px"
+                                src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/facebook_mailer.png"
+                              />
+                            </a>
+                          </td>
+                          <td>
+                            <a
+                              href="https://r1wvcfpj.r.ap-south-1.awstrack.me/L0/https:%2F%2Fwww.youtube.com%2Fchannel%2FUCUASQ8BrXPCjWDQMjE_INQQ/1/01090196e0047829-f49de1a8-0845-4cea-ae79-c26edaf49c44-000000/1jgL3WYx6wuJjTAWvIwLAbeLTNE=207"
+                              target="_blank"
+                            >
+                              <img
+                                width="40px"
+                                style="margin-right: 12px"
+                                src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/youtube_icon_new.png"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td
+                            class="text_3"
+                            style="font-weight: 400; color: #ffffff"
+                          >
+                            Delightful Gourmet Private Limited. Maruthi Infotech
+                            CenterNo 11/1,12/1Tower B,
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            class="text_3"
+                            style="font-weight: 400; color: #ffffff"
+                          >
+                            1st Floor,Amarjyothi Layout, Intermediate Ring Road,
+                            Domlur, Bangalore 560071.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  <img alt="" src="https://r1wvcfpj.r.ap-south-1.awstrack.me/I0/01090196e0047829-f49de1a8-0845-4cea-ae79-c26edaf49c44-000000/dC7G4QW4xv6jSYMHjGt33wDVsgk=207" style="display: none; width: 1px; height: 1px;">
+</body>
+</html>

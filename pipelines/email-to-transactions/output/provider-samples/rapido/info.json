@@ -1,0 +1,15 @@
+{
+  "subject": "Rapido Invoice",
+  "from": "shoutout@rapido.bike",
+  "date": "2025-08-10T10:14:27.000Z",
+  "hasPdf": true,
+  "hasAttachments": true,
+  "attachments": [
+    {
+      "name": "ORDER_INVOICE_RD17548178778412317.pdf",
+      "mime": "application/pdf"
+    }
+  ],
+  "bodyTextLength": 0,
+  "bodyHtmlLength": 14117
+}

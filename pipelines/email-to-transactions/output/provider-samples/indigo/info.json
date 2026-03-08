@@ -1,0 +1,15 @@
+{
+  "subject": "TaxInvoice - DL1252605AQ26533",
+  "from": "6egstinvoice@goindigo.in",
+  "date": "2025-05-25T05:12:55.000Z",
+  "hasPdf": true,
+  "hasAttachments": true,
+  "attachments": [
+    {
+      "name": "TaxInvoiceDL1252605AQ26533.pdf",
+      "mime": "application/pdf"
+    }
+  ],
+  "bodyTextLength": 0,
+  "bodyHtmlLength": 5257
+}

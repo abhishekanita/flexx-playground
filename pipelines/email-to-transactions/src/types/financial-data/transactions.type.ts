@@ -17,13 +17,16 @@ export interface Transaction {
     neft_utr?: string; // 16-char NEFT UTR
     imps_ref?: string; // IMPS reference
 
+    // Account linkage
+    account_id?: string; // UUID → financial-accounts.id
+    account_last4: string; // masked bank account identifier (denormalized for fast matching)
+
     // Base — from first signal (bank alert)
     amount: number; // INR, always positive
     type: TransactionType;
     channel: TransactionChannel;
     tx_date: Date; // precise timestamp from bank alert
     value_date?: Date; // settlement date from statement (may lag by 1 day)
-    account_last4: string; // masked bank account identifier
     balance_after?: number; // available balance post-transaction
     raw_narration?: string; // verbatim bank narration string
 

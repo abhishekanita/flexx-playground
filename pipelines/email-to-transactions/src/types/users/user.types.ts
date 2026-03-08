@@ -6,6 +6,7 @@ export interface User {
     metadata: {
         fullname: string;
         dob: string; //dd-mm-yyyy
+        pan: string;
         kotakCrn: string;
         phones: string[];
     };
